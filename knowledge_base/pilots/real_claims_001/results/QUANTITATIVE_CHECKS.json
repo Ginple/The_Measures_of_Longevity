@@ -1,0 +1,72 @@
+{
+  "LIFE": {
+    "numeric_input_evidence_ids": [
+      "E-LIFE-RESULT",
+      "E-LIFE-ALTERNATIVE"
+    ],
+    "numeric_input_quote_sha256": {
+      "E-LIFE-RESULT": "eb313627b2a605dd83f1974cf5a9b727e86e9a24bddd48dd6919e010f5f69030",
+      "E-LIFE-ALTERNATIVE": "ffb633eb7a9a37273ca93d5b296c451dda301701e5b366784e97d18d0d2fe43d"
+    },
+    "physical_activity": {
+      "events": 246,
+      "randomized": 818,
+      "crude_percent": "30.07334963325183374083129584"
+    },
+    "health_education": {
+      "events": 290,
+      "randomized": 817,
+      "crude_percent": "35.49571603427172582619339045"
+    },
+    "control_minus_activity_crude_percentage_points": "5.422366401019892085362094609",
+    "crude_risk_ratio": "0.84723885001264648849169547255711996",
+    "published_cox_hazard_ratio": "0.82",
+    "crude_risk_ratio_is_not_cox_hazard_ratio": true,
+    "alternative_adjudications": {
+      "physical_activity": 42,
+      "health_education": 32,
+      "total": 74,
+      "total_primary_events": 536,
+      "fraction": "74/536"
+    },
+    "computed_nnt": null,
+    "nnt_not_computed_reason": "No fixed-horizon survival risk estimated here; crude event proportions under variable follow-up are not a universally valid 2.6-year NNT."
+  },
+  "constructed_not_empirical": {
+    "equation": "B=f*r*h/(f*r+1-f)",
+    "f": "true fraction of carrier cells",
+    "h": "mutant fraction within carrier cells",
+    "r": "relative effective molecular contribution per carrier cell vs noncarrier (copy number times capture in this simplified model)",
+    "baseline": {
+      "f": "1/200",
+      "h": "3/5",
+      "r": "1",
+      "B": "3/1000"
+    },
+    "worlds": [
+      {
+        "name": "within_carrier_change",
+        "f": "1/200",
+        "h": "3/10",
+        "r": "1",
+        "B": "3/2000"
+      },
+      {
+        "name": "carrier_fraction_change",
+        "f": "1/400",
+        "h": "3/5",
+        "r": "1",
+        "B": "3/2000"
+      },
+      {
+        "name": "relative_copy_capture_change",
+        "f": "1/200",
+        "h": "3/5",
+        "r": "199/399",
+        "B": "3/2000"
+      }
+    ],
+    "same_observed_endpoint": true,
+    "interpretation": "Non-unique inverse mapping in this explicitly simplified linear molecular-mixture model. Not an estimate for the Nature cohort, not a nonlinear clock model, not evidence of real rejuvenation."
+  }
+}

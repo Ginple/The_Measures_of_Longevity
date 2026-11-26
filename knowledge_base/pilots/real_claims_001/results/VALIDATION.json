@@ -1,0 +1,32 @@
+{
+  "unit_tests": {
+    "test_functions": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "moved_unit_tests": {
+    "test_functions": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "seed7_seed113_and_moved_inspection_byte_identical": true,
+  "immutable_inputs_unchanged": true,
+  "engine_integrity_issues": [],
+  "mapping_issues": [],
+  "broken_markdown_links": [],
+  "no_html_in_export": true,
+  "environment": {
+    "python": "3.13.18",
+    "networkx": "3.7",
+    "jsonschema": "4.26.0",
+    "beautifulsoup4": "4.15.0"
+  },
+  "external_review": "not_performed",
+  "formal_academic_release": "blocked",
+  "scientific_truth": "not_computed",
+  "portable_software_checks_passed": true
+}

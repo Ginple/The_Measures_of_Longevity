@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-assurance-toolkit"
+version = "0.1.1"
+description = "Evidence-bound research bookkeeping and audit diagnostics, not a truth engine"
+requires-python = ">=3.10"
+dependencies = ["networkx>=3.2,<4", "jsonschema>=4.18,<5"]
+
+[project.scripts]
+research-assurance = "research_assurance.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+research_assurance = ["project.schema.json"]

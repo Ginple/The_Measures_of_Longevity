@@ -1,0 +1,175 @@
+{
+  "all_constructed_not_empirical": true,
+  "relabelling": {
+    "state": "audited",
+    "runs": [
+      {
+        "mapping": [
+          [
+            7,
+            7
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "numeric_distances": [
+          5.196152422706632,
+          6.928203230275509,
+          1.7320508075688772
+        ],
+        "numeric_invariant": true,
+        "onehot_distance_invariant": true
+      },
+      {
+        "mapping": [
+          [
+            7,
+            7
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            10
+          ]
+        ],
+        "numeric_distances": [
+          6.928203230275509,
+          5.196152422706632,
+          1.7320508075688772
+        ],
+        "numeric_invariant": false,
+        "onehot_distance_invariant": true
+      },
+      {
+        "mapping": [
+          [
+            7,
+            10
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "numeric_distances": [
+          5.196152422706632,
+          1.7320508075688772,
+          6.928203230275509
+        ],
+        "numeric_invariant": false,
+        "onehot_distance_invariant": true
+      },
+      {
+        "mapping": [
+          [
+            7,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "numeric_distances": [
+          1.7320508075688772,
+          5.196152422706632,
+          6.928203230275509
+        ],
+        "numeric_invariant": false,
+        "onehot_distance_invariant": true
+      },
+      {
+        "mapping": [
+          [
+            7,
+            11
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            11,
+            10
+          ]
+        ],
+        "numeric_distances": [
+          6.928203230275509,
+          1.7320508075688772,
+          5.196152422706632
+        ],
+        "numeric_invariant": false,
+        "onehot_distance_invariant": true
+      },
+      {
+        "mapping": [
+          [
+            7,
+            11
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            7
+          ]
+        ],
+        "numeric_distances": [
+          1.7320508075688772,
+          6.928203230275509,
+          5.196152422706632
+        ],
+        "numeric_invariant": false,
+        "onehot_distance_invariant": true
+      }
+    ],
+    "numeric_invariant_all": false,
+    "onehot_invariant_all": true,
+    "meaning": "conditional representation test; not biological validation or empirical reanalysis"
+  },
+  "founder_bounds": {
+    "N_baseline_founders": 10,
+    "target_observed": 3,
+    "lost_unknown": 4,
+    "target_fraction_bounds": [
+      0.3,
+      0.7
+    ],
+    "assumptions": "Fixed baseline cohort; observed targets/non-targets/deaths correctly classified; death predeclared non-target for this toy binary estimand.",
+    "not_established": [
+      "tracking validity",
+      "target validity",
+      "death from lost tracking",
+      "causal effect",
+      "functional rejuvenation"
+    ]
+  },
+  "weighting": {
+    "fractions": [
+      0.1,
+      0.9
+    ],
+    "equal_weight": 0.5,
+    "unequal_weight": 0.18,
+    "meaning": "An unchanged per-cell distribution can yield different copy/capture-weighted aggregates."
+  }
+}

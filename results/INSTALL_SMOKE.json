@@ -1,0 +1,8 @@
+{
+  "local_package_install": true,
+  "installed_cli_from_external_directory": true,
+  "bundled_schema_present": true,
+  "formal_release_record_check": "blocked",
+  "scientific_truth": "not_computed",
+  "remote_ci_executed": false
+}

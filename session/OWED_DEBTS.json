@@ -1,0 +1,174 @@
+{
+  "research_debts": [
+    {
+      "id": "D00",
+      "priority": "P0",
+      "name": "global section误释",
+      "status": "closed_with_explicit_correction",
+      "repaid_this_round": "把章节存在改回全局截面/兼容赋值；数学H⁰与有限CSP边界显式化",
+      "remaining_to_close": "报告与README保留纠错，不回写历史",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "No new external closure; inherited state retained."
+    },
+    {
+      "id": "D01",
+      "priority": "P0",
+      "name": "人工常量与正文脱钩",
+      "status": "partial_document_change_inventory_added",
+      "repaid_this_round": "新增全文逐行变更登记，9个构造改动含已选片段外新句均进入复核；不依赖外推关键词",
+      "remaining_to_close": "未改内容真值、语义等价、全书断言全集/新文献与外部审阅仍未解决",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "Generalized dual version/span binding, invalidation and immutable freeze; one real historical claim migration with two temporary mutations. Not whole-book semantic truth or inventory coverage. Claim/evidence record fingerprints and assessed-record review bindings now also invalidate metadata/selection changes; still not semantic truth."
+    },
+    {
+      "id": "D02",
+      "priority": "P1",
+      "name": "LoDoCo2图文/分母/版本债",
+      "status": "registry_search_done_conflicts_open",
+      "repaid_this_round": "继承v5完成的LoDoCo2四通道登记查询，本轮未重查；源冲突继续open",
+      "remaining_to_close": "CI两符号、780vs783、补表脚注仍需作者/正式更正/模型输出，注册current不解决",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "No new external closure; inherited state retained."
+    },
+    {
+      "id": "D03",
+      "priority": "P1",
+      "name": "C1同一原细胞及追踪误差",
+      "status": "supplement_and_proxy_rule_audited_raw_data_open",
+      "repaid_this_round": "取得完整公开补充ZIP和DataS1；明确定义死亡代理=簇1/2/3后追踪丢失；公开示例CSV为占位路径",
+      "remaining_to_close": "缺原始全基线轨迹/影像/独立死亡与功能金标；年轻诱导到自然老化仍待桥接",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "Defined minimum legal data intake and acceptance checks; no new empirical dataset or gold standard acquired."
+    },
+    {
+      "id": "D04",
+      "priority": "P1",
+      "name": "C2真实配对bulk/单细胞验证",
+      "status": "metadata_extended_pipeline_qualification_open",
+      "repaid_this_round": "取得补充Data1–5，确有sample/平台元数据及其他分析donor/POS；没有猜测与图行号的连接",
+      "remaining_to_close": "e/f图行到供者/位点crosswalk、copy/capture和合法原始测量仍未取得",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "Defined minimum legal data intake and acceptance checks; no new empirical dataset or gold standard acquired."
+    },
+    {
+      "id": "D05",
+      "priority": "P1",
+      "name": "独立外审",
+      "status": "open_blocking_formal_synthesis",
+      "repaid_this_round": "新增原代码、名义标签不变性和死亡代理的独立审阅问题；未发送/未签收",
+      "remaining_to_close": "真实不同审阅者、独立复标/分析结果与可追踪回应，未发生",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "No new external closure; inherited state retained."
+    },
+    {
+      "id": "D06",
+      "priority": "P2",
+      "name": "1050对候选与全书逐句覆盖",
+      "status": "open_not_exhaustive",
+      "repaid_this_round": "新增变更覆盖与外部来源代码审计，不计作新增结构候选对人工审查",
+      "remaining_to_close": "1050对仍仅既有10对人工复核；新7项断言比较不是新审7对",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "No new external closure; inherited state retained."
+    },
+    {
+      "id": "D07",
+      "priority": "P1_before_experiment",
+      "name": "功效、安全阈值与伦理",
+      "status": "blocked_no_transfer_of_pilot_variance",
+      "repaid_this_round": "明确公开示例独立单位与目标实验不同；不借用癌细胞或跨周期方差设aging功效",
+      "remaining_to_close": "需要目标域供者/批次方差、追踪错误、最小效应/容忍误差及审批",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "No new external closure; inherited state retained."
+    },
+    {
+      "id": "D08",
+      "priority": "P1_before_C2_validation",
+      "name": "2021源数据/图文相关系数新冲突",
+      "status": "official_archive_checked_coefficients_unresolved",
+      "repaid_this_round": "已核官方Zenodo归档MD5、当前commit、补充表与本论文Crossmark/updates；未定位图2e/f脚本或直接crosswalk",
+      "remaining_to_close": "需要作者实际作图代码/统计定义与输入版本；注册current/0项不能关闭系数差异",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "No new external closure; inherited state retained."
+    },
+    {
+      "id": "D09",
+      "priority": "P1_before_C1_mechanism_claim",
+      "name": "SenSCOUT表征/度量/死亡代理资格",
+      "status": "new_open",
+      "repaid_this_round": "真实notebook溯源；三类别6种重编码产生3种Ward二分；one-hot距离保持；正文/补图死亡语义差异登记",
+      "remaining_to_close": "真实响应矩阵、类别/连续度量定义、独立死亡证据和按供者/批次外部评估；构造反例不等论文分群已推翻",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "Defined minimum legal data intake and acceptance checks; no new empirical dataset or gold standard acquired."
+    },
+    {
+      "id": "D10",
+      "priority": "P1_before_HipSci_pipeline_rerun",
+      "name": "HipSci公开代码的执行与筛选性质",
+      "status": "new_open_local_patch_only",
+      "repaid_this_round": "隔离复现未定义return、strand过滤结果未返回；bash-n语法失败；提供3项局部补丁候选和对应性质测试",
+      "remaining_to_close": "作者实际执行代码/环境、完整CLI与依赖、原始数据重跑及影响评估；局部补丁未经作者认可且不认证论文结果",
+      "inherited_from": "corpus_engine_v6/OWED_DEBTS.json",
+      "progress_this_round": "No new external closure; inherited state retained."
+    }
+  ],
+  "method_debts": [
+    {
+      "id": "M01",
+      "priority": "P1",
+      "name": "独立方法／代码审阅",
+      "status": "open",
+      "progress_this_round": "New toolkit-level debt; not compensated by inherited research debt progress.",
+      "remaining_to_close": "真实外部回执与回应"
+    },
+    {
+      "id": "M02",
+      "priority": "P1",
+      "name": "非衰老领域试点",
+      "status": "open",
+      "progress_this_round": "New toolkit-level debt; not compensated by inherited research debt progress.",
+      "remaining_to_close": "至少两个真实领域的独立误差／耗时评价"
+    },
+    {
+      "id": "M03",
+      "priority": "P1",
+      "name": "断言盘点／语义覆盖",
+      "status": "open",
+      "progress_this_round": "New toolkit-level debt; not compensated by inherited research debt progress.",
+      "remaining_to_close": "预定义范围与独立漏检评估"
+    },
+    {
+      "id": "M04",
+      "priority": "P2",
+      "name": "二进制来源定位适配器",
+      "status": "open",
+      "progress_this_round": "New toolkit-level debt; not compensated by inherited research debt progress.",
+      "remaining_to_close": "原PDF/图→页码/bbox→提取文本映射测试"
+    },
+    {
+      "id": "M05",
+      "priority": "P2",
+      "name": "论证与因果图分型",
+      "status": "open",
+      "progress_this_round": "New toolkit-level debt; not compensated by inherited research debt progress.",
+      "remaining_to_close": "人工边型及防共现升级验证"
+    },
+    {
+      "id": "M06",
+      "priority": "P2",
+      "name": "复杂输入与平台稳定性",
+      "status": "open",
+      "progress_this_round": "New toolkit-level debt; not compensated by inherited research debt progress.",
+      "remaining_to_close": "复杂Markdown/多语言/打包/平台测试"
+    },
+    {
+      "id": "M07",
+      "priority": "before_public_release",
+      "name": "权利许可与维护责任",
+      "status": "open",
+      "progress_this_round": "New toolkit-level debt; not compensated by inherited research debt progress.",
+      "remaining_to_close": "权利人选择许可证并核上游与维护者"
+    }
+  ],
+  "independent_review_performed": false,
+  "external_requests_sent": false
+}

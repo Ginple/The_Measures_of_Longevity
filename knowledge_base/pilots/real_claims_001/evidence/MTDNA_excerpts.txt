@@ -1,0 +1,14 @@
+E-MTDNA-INPUT
+), to whole-genome sequencing (WGS) data from 736,038 diverse individuals in AoU and UKB, representing an approximately 3× increase in sample size compared with ref.
+
+E-MTDNA-QC
+After quality control, we called a total of 19,051,526 variants (
+Methods
+) from 620,385 individuals.
+
+E-MTDNA-MODEL
+Our analyses support a model in which individual blood cells randomly accumulate low levels of neutral mtDNA variation (that is, cryptic mutations), probably owing to replication-related errors, that are not detectable in bulk. However, with age-related expansion of individual cellular clones (by means of CH), these low-level cryptic variants become detectable and give rise to the observed accumulation with age.
+
+E-MTDNA-BULK-LIMIT
+Third, because all analyses occurred in bulk samples, we were unable to evaluate the heteroplasmy distribution of a particular variant across cells in each sample or to determine whether individuals with multiple mtSNVs had a single CH clone carrying all SNVs or multiple clones carrying individual mtSNVs. Single-cell analysis would provide further resolution to elucidate this.
+

@@ -1,0 +1,26 @@
+{
+  "scope": "targeted methodological references, not a systematic methodological review",
+  "sources": [
+    {
+      "id": "METHOD-NASEM",
+      "url": "https://nap.nationalacademies.org/read/25303/chapter/6",
+      "work": "Reproducibility and Replicability in Science (2019), chapter 3",
+      "access": "web_search targeted excerpts plus fetch_page chunk0; not entire book",
+      "used_for": "same-data computational reproducibility vs new-data replicability; not toolkit validation"
+    },
+    {
+      "id": "METHOD-PRISMA",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8005924/",
+      "work": "PRISMA 2020 statement, BMJ 2021;372:n71",
+      "access": "web_search targeted scope excerpt plus fetch_page chunk0; not all supplementary guidance",
+      "used_for": "reporting guideline is not methodological quality certification"
+    },
+    {
+      "id": "METHOD-PROV",
+      "url": "https://www.w3.org/TR/prov-overview/",
+      "work": "W3C PROV-Overview, Working Group Note 2013-04-30",
+      "access": "fetch_page chunk0, abstract/status/introduction",
+      "used_for": "entity/activity/people provenance inspiration; no PROV-compliant export claimed"
+    }
+  ]
+}
