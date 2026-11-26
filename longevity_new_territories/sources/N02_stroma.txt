@@ -1,0 +1,5283 @@
+Stromal cell senescence augments haematopoietic cell fitness in clonal haematopoiesis | Nature Cell Biology
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+            the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+            Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+            and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Log in
+Content
+Explore content
+About
+the journal
+Publish
+with us
+Sign up for alerts
+RSS feed
+nature
+nature cell biology
+articles
+article
+Stromal cell senescence augments haematopoietic cell fitness in clonal haematopoiesis
+Download PDF
+Download PDF
+Article
+Open access
+Published:
+06 August 2026
+Stromal cell senescence augments haematopoietic cell fitness in clonal haematopoiesis
+Jayna J. Mistry
+ORCID:
+orcid.org/0000-0002-7266-1284
+1
+,
+Kira A. Young
+ORCID:
+orcid.org/0000-0002-1598-9793
+1
+,
+Anna Navarro Figueredo
+2
+,
+Gibran Edun
+3
+,
+Alicia G. Aguilar-Navarro
+3
+,
+Patricia A. Colom Díaz
+1
+,
+Maria Telpoukhovskaia
+ORCID:
+orcid.org/0000-0002-5237-4042
+1
+,
+Inés Fernández Maestre
+4
+,
+5
+,
+Sheng F. Cai
+ORCID:
+orcid.org/0000-0002-2708-887X
+5
+,
+Katharina S. Götze
+ORCID:
+orcid.org/0000-0002-6276-8002
+2
+,
+6
+,
+Anastasia N. Tikhonova
+ORCID:
+orcid.org/0000-0001-6712-1606
+3
+,
+7
+,
+8
+,
+Ross L. Levine
+ORCID:
+orcid.org/0000-0002-7884-1905
+5
+&
+…
+Jennifer J. Trowbridge
+ORCID:
+orcid.org/0000-0002-7636-9504
+1
+Show authors
+Nature Cell Biology
+volume
+28
+,
+pages
+1656–1670 (
+2026
+)
+Cite this article
+Save article
+View saved research
+18k
+Accesses
+3
+Citations
+91
+Altmetric
+Metrics
+details
+Abstract
+Microenvironment remodelling impacts tumour growth and metastasis, but whether remodelling promotes pre-malignant clonal fitness remains unknown. Here, using single-cell RNA-sequencing of the bone-marrow microenvironment in a mouse model of
+DNMT3A
+-mutant clonal haematopoiesis (CH), we identify mesenchymal stromal cells (MSCs) in a molecular state of cellular senescence. Elevated bone-marrow MSC senescence is also observed in humans with CH driven by several common somatic mutations. MSC senescence is induced by mutant haematopoietic cells in a contact-independent manner through production of soluble factors including TNF-α and IL-6. These cytokines activate a Stat3-driven pathway that is necessary and sufficient for MSC senescence induction. Genetic or pharmacological depletion of senescent non-haematopoietic cells reduces the burden of CH and delays progression to myeloid neoplasia. Our findings show that microenvironment remodelling modifies pre-malignant clonal fitness and identifies disruption of the crosstalk between pre-malignant cells and their niche as a cancer prevention strategy.
+Similar content being viewed by others
+Age-related mesenchymal stromal cell senescence is associated with progression from MGUS to multiple myeloma
+Article
+Open access
+22 April 2025
+Chromosomal abnormalities of mesenchymal stromal cells in hematological malignancies
+Article
+Open access
+14 August 2025
+Hematopoietic stem cell aging: a review of transcriptional and multi-omics insights and potential paths for AI integration
+Article
+Open access
+19 August 2026
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Haematopoietic stem cells
+Mesenchymal stem cells
+Senescence
+Hematopoietic Stem Cell Biology and Microenvironment Dynamics
+Main
+Through the course of a lifetime, tissues evolve by an iterative process of genetic diversification, clonal selection, and clonal expansion within the adaptive context of tissue environments
+1
+. This plasticity provides resilience of multicellular tissues to the perturbations and stress that impair their function but also serves as the foundation for potential cancer clonal evolution and malignant transformation if not tightly regulated. In the haematopoietic system, ageing is associated with a functional decline of haematopoietic stem cells (HSCs)
+2
+. Around 20% of aged individuals will develop clonal haematopoiesis (CH)
+3
+, in which HSCs carrying adaptive somatic mutations are positively selected in the bone marrow (BM) microenvironment. CH is a non-malignant clonal state and can provide beneficial effects to functional T-cell immunity in ageing
+4
+; however, several of the adaptive somatic mutations underlying CH are found in clones that evolve into blood cancers
+5
+. CH can also infiltrate and remodel the solid tumour immune microenvironment, increasing the risk of disease recurrence or death among patients with solid tumours
+6
+,
+7
+.
+In blood cancers, the BM microenvironment undergoes profound remodelling, with non-haematopoietic cells reprogrammed to sustain malignant growth
+8
+,
+9
+,
+10
+,
+11
+. Whether similar microenvironmental alterations emerge during the earliest phases of clonal selection in CH has remained an unresolved question with major implications for understanding malignant evolution. In this Article we model a somatic mutation in the gene DNA methyltransferase 3A (
+DNMT3A
+) that is frequently observed in CH and acute myeloid leukaemia (AML)
+12
+to understand the impact of CH on the BM microenvironment.
+Dnmt3a
+-mutant haematopoiesis caused transcriptional remodelling of non-haematopoietic cells, including induction of senescence in mesenchymal stromal cells (MSCs). Senescence induction occurred in a cell type-dependent manner mediated by the cytokines tumour-necrosis factor-alpha (TNF-α) and interleukin-6 (IL-6) produced from
+Dnmt3a
+-mutant haematopoietic cells. We find that MSC senescence induced by
+Dnmt3a
+-mutant haematopoiesis promotes the selective advantage of mutant HSCs over their wild-type counterparts and promotes progression to myeloid malignancy. Furthermore, MSC senescence is broadly observed in human CH, supporting the translational relevance of our observations.
+Results
+Dnmt3a
+-mutant haematopoiesis induces molecular senescence in MSCs
+To determine the impact of
+Dnmt3a
+-mutant haematopoiesis on wild-type non-haematopoietic cells of the BM microenvironment, we utilized a Cre-inducible
+Dnmt3a
+R878H/+
+mouse model
+13
+(Extended Data Fig.
+1a
+). This model expresses a specific mutation (R878H) in the
+Dnmt3a
+gene that mirrors the common somatic
+DNMT3A
+-R882H mutation found in human CH and AML
+14
+and promotes the selective advantage of HSCs
+13
+. We transplanted BM haematopoietic cells from
+Dnmt3a
+R878H/+
+Fgd5
+−
+CreER LSL-tdTomato or control mice, expressing the CD45.2 isoform of the pan-haematopoietic marker CD45, into wild-type CD45.1
++
+recipient mice. At 12 weeks post-transplant, we harvested BM and performed single-cell RNA-sequencing (scRNA-seq) on enriched haematopoietic and non-haematopoietic cell fractions using established protocols
+15
+(
+n
+= 4 biological replicates per condition) (Fig.
+1a
+). As expected,
+Dnmt3a
+-mutant HSCs were expanded relative to control HSCs (Extended Data Fig.
+1b
+). A total of 61,105 cells were sequenced, identifying 25 clusters of haematopoietic and non-haematopoietic cell types (Fig.
+1b
+, Extended Data Fig.
+1c
+and Supplementary Table
+1
+). These data captured hallmark features of
+Dnmt3a
+-mutant haematopoiesis
+13
+,
+16
+, including increased frequencies of HSCs/multipotent progenitor cells (MPPs) (Extended Data Fig.
+1d
+) and altered expression of metabolism, development and immune system-related signatures (Extended Data Fig.
+1e
+). The
+Dnmt3a
+R878H
+transcript was detected in only ~10% of haematopoietic stem and progenitor cells (HSPCs) (Extended Data Fig.
+1f
+) due to the relatively low recombination efficiency of Fgd5-CreER
+17
+, modelling typical variant allele frequencies (VAFs) of
+DNMT3A
+mutations in human CH
+12
+.
+Fig. 1:
+Dnmt3a
+-mutant haematopoiesis is associated with transcriptional signatures of senescence in MSCs.
+Full size image
+a
+, Left: schematic of scRNA-seq experimental design (
+n
+= 4 biological replicate mice per condition). Right: representative flow cytometry gating for isolation of cell populations and cell ratios sorted from mice with
+Dnmt3a
+R878H/+
+or control haematopoiesis.
+b
+, t-SNE plots showing 25 annotated cell clusters. B, B cell; cycling, cycling progenitor cell; DC, dendritic cell; EC-arteriolar, arteriolar endothelial cell; EC-sinusoidal, sinusoidal endothelial cell; Ery, erythroblast; EryPro, erythroid progenitor cell; GMP, granulocyte–macrophage progenitor cell; HSC/MPP, haematopoietic stem and multipotent progenitor cells; ImmNeut, immature neutrophil; Mac, macrophage; MEoBasoPro, mast-eosinophil-basophil progenitor cell; MEP, megakaryocyte-erythroid progenitor cell; Mono, monocyte; Mono/DC, monocyte and dendritic cell; MonoPro, monocyte progenitor cell; MPP
+G/M
+, granulocyte–macrophage-primed multipotent progenitor cell; MPP
+Ly
+, lymphoid-primed multipotent progenitor cell; MSC, mesenchymal stromal cell; Neut, neutrophil; NeutPro, neutrophil progenitor cell; NK/T, natural killer and T cell; Osteo, osteoblast; PreB, pre-B cell; ProB, pro-B cell.
+c
+, Number of DEGs (FDR < 0.05, log
+2
+(fold change (FC)) > 0) in non-haematopoietic cells from mice with
+Dnmt3a
+R878H/+
+versus control haematopoiesis (
+n
+= 4 biological replicate mice per condition).
+d
+, Bubble matrix showing GO term enrichment in significantly upregulated genes (FDR < 0.05, log
+2
+FC > 0) from non-haematopoietic cell populations in mice with
+Dnmt3a
+R878H/+
+versus control haematopoiesis. Bubble size indicates the number of enriched GO terms per biological category; bubble colour indicates the maximum GO term enrichment score within each category. Senescence-relevant biological categories are indicated in purple. ‘MSC only’ denotes categories with enriched terms exclusively in MSCs. All GO terms shown are FDR < 0.05 (
+n
+= 4 biological replicate mice per condition).
+e
+, NES for senescence-associated gene sets enriched among upregulated DEGs in MSCs from mice with
+Dnmt3a
+R878H/+
+versus control haematopoiesis. All bars shown are FDR < 0.05 (
+n
+= 4 biological replicate mice per condition).
+f
+, Composite senescence score computed using the FRIDMAN_SENESCENCE_UP gene set (77 genes) in MSCs from mice with
+Dnmt3a
+R878H/+
+versus control haematopoiesis. Violin plots show the distribution of per-cell scores across all cells from each condition; lines indicate the mean.
+P
+value determined by two-tailed Mann–Whitney test comparing per-cell scores (
+n
+= 4 biological replicate mice per condition).
+g
+, Composite senescence score computed using the FRIDMAN_SENESCENCE_UP gene set in human MSCs from CHIP carriers versus non-carriers. Individual points represent per-donor scores; bars indicate mean ± s.e.m.
+P
+value determined by two-tailed Mann–Whitney test comparing per-donor mean cell scores (
+n
+= 7 non-carrier individuals,
+n
+= 6 CHIP carrier individuals).
+h
+, Gene-set z-scores for SASP, iMSC unique and IFN-γ signatures from human MSCs of CHIP carriers versus non-carriers. Individual samples are shown with means.
+P
+values determined by unpaired, two-tailed
+t
+test (
+n
+= 7 non-carrier individuals,
+n
+= 6 CHIP carrier individuals). Non
+-
+significant
+P
+values (
+P
+> 0.05) are not shown.
+Source data
+Using these data, we examined the effects of
+Dnmt3a
+-mutant haematopoiesis on the wild-type non-haematopoietic BM microenvironment. We observed no differences in the frequencies of non-haematopoietic cell clusters, including MSCs, osteoblasts and subsets of endothelial cells (ECs) (Extended Data Fig.
+1d
+). Differential expression analyses revealed that MSCs had the greatest number of DEGs from mice with
+Dnmt3a
+-mutant versus control haematopoiesis (Fig.
+1c
+). To identify biological programs activated in this context, we performed Gene Ontology (GO) enrichment analysis on genes significantly upregulated in each non-haematopoietic cell type (FDR < 0.05, log
+2
+FC > 0). Upregulated genes in MSCs in mice with
+Dnmt3a
+-mutant haematopoiesis were uniquely enriched in signatures of senescence, cell cycling, oxidative stress, extracellular matrix, inflammation, and DNA damage and repair, with these senescence-relevant categories absent from or markedly less prominent in osteoblasts and ECs (Fig.
+1d
+; all significantly enriched GO terms across non-haematopoietic cell types (
+n
+= 3,227 at FDR < 0.05) are shown in Extended Data Fig.
+1g
+). To further characterize the senescence-associated transcriptional response, we applied curated gene set enrichment analysis (GSEA) to the ranked list of upregulated MSC genes and observed significant enrichment of p53 targets, senescence, reactive oxygen species (ROS) and the senescence-associated secretory phenotype (SASP) (Fig.
+1e
+and Supplementary Table
+2
+). Using an established set of 77 genes upregulated during cellular senescence (FRIDMAN_SENESCENCE_UP)
+18
+, we calculated their average expression as a composite senescence ‘score’. This senescence score was significantly elevated in MSCs from mice with
+Dnmt3a
+-mutant haematopoiesis relative to controls (Fig.
+1f
+and Supplementary Table
+2
+) and included the key senescence-associated genes
+Cdkn1a
+(p21),
+Cdkn2a
+(p16),
+Tp53
+and
+Mmp14
+(Extended Data Fig.
+1h
+). Thus,
+Dnmt3a
+-mutant haematopoiesis is associated with molecular signatures of senescence in BM MSCs.
+We next examined whether the same senescence-associated programs are evident in human MSCs in the context of CHIP (clonal haematopoiesis of indeterminate potential). We performed scRNA-seq on BM mononuclear cells from individuals undergoing elective hip replacement, including CHIP carriers harbouring mutations in
+DNMT3A, TET2, ASXL1
+and/or
+CCAR1
+with VAF > 0.02 and non-carrier controls (Supplementary Table
+3
+). The MSC population was defined using established markers (
+PDGFRA, CXCL12, RUNX2, GHR, CDH11
+and
+APOE
+) consistent with prior single-cell analysis of human BM
+19
+. We calculated a composite senescence score using the same gene set of 77 genes described above and observed that this was significantly elevated in MSCs from CHIP carriers compared to non-carriers (Fig.
+1g
+and Supplementary Table
+2
+) including increased expression of
+CDKN2A
+(p16) and
+MMP14
+(Extended Data Fig.
+1i
+). Thus, MSCs in individuals with CHIP driven by a variety of somatic mutations exhibit similar transcriptional signatures of senescence and SASP, demonstrating a conserved MSC senescence program across species in CH.
+Recent reports describe an inflammatory signalling axis from immune cells to stromal cells in the BM that drives clonal evolution in CHIP and myelodysplastic syndrome (MDS)
+20
+,
+21
+. Given the overlap between inflammatory factors and SASP, we used our scRNA-seq data to assess whether MSCs in CH/CHIP were in a state of inflammation rather than senescence. Pre-ranked GSEA of differentially expressed genes (DEGs) in mouse MSCs revealed that whereas the SASP signature was significantly enriched in mice with
+Dnmt3a
+-mutant haematopoiesis (normalized enrichment score (NES) = +1.96, FDR = 0.004), four independent inflammatory signatures including an inflammatory MSC (iMSC) signature
+22
+and hallmark inflammatory response, interferon-alpha (IFN-α) response and IFN-γ response gene sets were all significantly depleted (NES range −1.99 to −3.10, FDR < 0.007) (Extended Data Fig.
+1j
+). Examination of the leading-edge genes driving these results confirmed that the SASP signal was driven by canonical SASP effectors including
+Angptl4, Cxcl5, Mmp2, Hgf, Mif
+and
+Vegfc
+, with no overlap with the genes responsible for negative enrichment of inflammatory signatures (Extended Data Fig.
+1k
+). Key markers of inflammatory MSC identity, including
+Irf7
+and
+Ly6e
+23
+,
+24
+, were among the leading-edge genes most strongly depleted in
+Dnmt3a
+-mutant haematopoiesis. To validate this dissociation in MSCs in human CHIP, we computed per-sample gene set z-scores for the SASP, iMSC and IFN-γ signatures. The SASP score was significantly elevated in MSCs from humans with CHIP relative to non-carriers (mean z-score +0.2019 versus −0.1731,
+P
+= 0.0174), whereas neither the iMSC score (
+P
+= 0.0661) nor the IFN-γ score (
+P
+= 0.2353) significantly differed between groups (Fig.
+1h
+). Together, these findings demonstrate that enrichment of senescence and SASP programs in MSCs occurs in the absence of strong inflammatory transcriptional activation, supporting a model of paracrine senescence in the BM microenvironment rather than an inflammatory stromal response.
+Dnmt3a
+-mutant haematopoiesis induces cellular senescence in MSCs
+There is no single definitive marker for senescence, and analysis of cellular senescence requires a combination of approaches, as recently reinforced by the SenNet Biomarkers Working Group
+25
+. We developed a multi-parameter framework to identify MSC senescence integrating senescence-associated β-galactosidase (SA-β-gal) activity, B-cell lymphoma (BCL)-xL/BCL-2 co-positivity, cell morphological changes and, in selected experiments, senescence-associated gene expression and p16 reporter activity as orthogonal measures (Extended Data Fig.
+2
+), and validated this approach in established senescence models of ageing and irradiation (Extended Data Fig.
+3
+). We note that each marker captures a distinct feature of the senescence program. SA-β-gal reflects increased lysosomal activity, BCL-xL/BCL-2 co-positivity marks the anti-apoptotic state characteristic of senescent cells
+26
+,
+27
+,
+28
+, and p16 expression identifies canonical CDK inhibitor-driven senescence. Therefore, the absolute frequency of marked cells differs between assays. Our conclusions accordingly rely on the directional consistency of enrichment across these orthogonal markers rather than on any single absolute estimate. Using this framework, we evaluated senescence in non-haematopoietic cells in the BM microenvironment in mice with
+Dnmt3a
+-mutant or control haematopoiesis. Steady-state
+Dnmt3a
+R878H/+
+Mx-Cre mice (Fig.
+2a
+) showed no change in frequency of CD51
++
+PDGFRα
++
+LepR
++
+MSCs (Fig.
+2b
+; the gating strategy is shown in Extended Data Fig.
+2b
+), but a greater proportion of these MSCs expressed cellular markers of senescence (approximately threefold increase in SA-β-gal
+hi
+BCL-xL
++
+BCL-2
++
+versus control haematopoiesis) (Fig.
+2c,d
+and Extended Data Fig.
+4a–d
+) and had increased expression of
+Cdkn1a, Cdkn2a
+and
+Trp53
+(Fig.
+2e
+). In contrast, no changes were observed in ECs isolated from the same mice (Extended Data Fig.
+4e–h
+), demonstrating cell context specificity of the senescence phenotype. We also evaluated steady-state
+Dnmt3a
+R878H/+
+Fgd5-CreER mice and observed a greater proportion of MSCs expressing cellular markers of senescence and no difference in ECs from the same mice (Extended Data Fig.
+4i–o
+). Thus, induction of
+Dnmt3a
+-mutant haematopoiesis using two complementary Cre recombinase models results in MSC senescence.
+Fig. 2:
+Dnmt3a
+-mutant haematopoiesis induces MSC senescence in vivo.
+Full size image
+a
+, Schematic of the steady-state experimental design using
+Dnmt3a
+R878H/+
+Mx-Cre and control Mx-Cre mice, evaluated >5 weeks after Mx-Cre induction using poly(I:C).
+b
+, Frequency of MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+LepR
++
+) in control and
+Dnmt3a
+R878H/+
+mice (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice). Not significant (
+P
+> 0.05) by two-tailed Mann–Whitney test.
+c
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs from control and
+Dnmt3a
+R878H/+
+mice.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice).
+d
+, Frequency of senescent (SA-β-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs in control and
+Dnmt3a
+R878H/+
+mice.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice).
+e
+, Relative expression of
+Cdkn1a
+,
+Cdkn2a
+and
+Trp53
+in MSCs from control and
+Dnmt3a
+R878H/+
+mice normalized to
+Hprt
+expression.
+P
+values determined by unpaired, two-tailed
+t
+tests (
+n
+= 6 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice).
+f
+, Schematic of the busulfan-conditioned transplant experimental design using
+Dnmt3a
+R878H/+
+Fgd5
+−
+CreER and control Fgd5-CreER donor mice. Transplant was performed >5 weeks after Fgd5-CreER induction using tamoxifen.
+g
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs from control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant.
+P
+value determined by unpaired, two-tailed
+t
+test (
+n
+= 7 biological replica
+t
+e mice per condition).
+h
+, Frequency of senescent MSCs in control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 7 biological replicate mice per condition).
+i
+, Representative histogram (left) and MFI (right) of SA-β-gal in ECs (CD45
+−
+Ter119
+−
+CD31
++
+) from control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant. Not significant (
+P
+> 0.05) by two-tailed Mann–Whitney test (
+n
+= 7 biological replicate mice per conditio
+n)
+.
+j
+, Frequency of senescent ECs in control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant. Not significant (
+P
+> 0.05) by two-tailed Mann–Whitney test (
+n
+= 7 biological replicate mice per condition).
+k
+, Schematic of the busulfan-conditioned transplant experimental design using
+Dnmt3a
+R878H/+
+Mx-Cre or control Mx-Cre donor mice. Transplant was performed >5 weeks after poly(I:C) treatment of donor mice.
+l
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs from control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 10 biological replicate recipient mice per condition).
+m
+, Frequency of senescent MSCs from control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 10 control,
+n
+= 9
+Dnmt3a
+R878H/+
+biological replicate mice). (
+n
+, Representative histogram (left) and MFI (right) of SA-β-gal in ECs from control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant. Not significant (
+P
+> 0.05) by two-tailed Mann–Whitney test (
+n
+= 10 biological replicate recipient mice per condition).
+o
+, Frequency of senescent ECs from control and
+Dnmt3a
+R878H/+
+recipient mice at 12 weeks post-transplant. Not significant (
+P
+> 0.05) by two-tailed Mann–Whitney test (
+n
+= 10 control,
+n
+= 9
+Dnmt3a
+R878H/+
+biological replicate mice).
+p
+, Schematic of the non-conditioned transplant experimental design using
+Dnmt3a
+R878H/+
+Mx-Cre and control Mx-Cre donor mice. Transplant was performed >5 weeks after poly(I:C) treatment of donor mice.
+q
+, Frequency of donor (CD45.2
++
+) control and
+Dnmt3a
+R878H/+
+haematopoietic cells in the peripheral blood (PB) of recipient mice over time.
+P
+values determined by two-way analysis of variance (ANOVA) with Sidak’s multiple comparisons test (
+n
+= 8 biological replicate recipient mice per condition). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+r
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs from
+Dnmt3a
+R878H/+
+(16 months (mo)), control (16 mo) or old control (27 mo) mice.
+P
+values determined by Kruskal–Wallis test with Dunn’s multiple comparisons (
+n
+= 8 control,
+n
+= 8
+Dnmt3a
+R878H/+
+mice,
+n
+= 6 old control biological replicate mice per condition).
+s
+, Representative histogram (left) and MFI (right) of SA-β-gal in ECs from
+Dnmt3a
+R878H/+
+(16 mo), control (16 mo) or old control (27 mo) mice. Not significant (
+P
+> 0.05) by Kruskal–Wallis test with Dunn’s multiple comparisons (
+n
+= 8 control,
+n
+= 8
+Dnmt3a
+R878H/+
+mice,
+n
+= 6 old control biological replicate mice per condition). Dots represent individual biological replicate mice. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box, and whiskers extend to the minimum and maximum values.
+Source data
+A caveat of these models is that Cre is expressed in non-haematopoietic tissues, causing mutant
+Dnmt3a
+expression outside of the haematopoietic system. To address this, we restricted
+Dnmt3a
+-mutant allele expression to the haematopoietic system by BM transplant into wild-type mice. We transplanted
+Dnmt3a
+R878H/+
+Fgd5-CreER or control BM into wild-type recipient mice (Fig.
+2f
+). We observed that mice with
+Dnmt3a
+-mutant haematopoiesis had a greater proportion of MSCs expressing senescence markers compared to control haematopoiesis (approximately threefold increase) with no change in ECs (Fig.
+2g–j
+and Extended Data Fig.
+4p–r
+). In parallel, we transplanted
+Dnmt3a
+R878H/+
+Mx-Cre or control BM into wild-type recipient mice (Fig.
+2k
+). We observed that mice with
+Dnmt3a
+-mutant haematopoiesis had a greater proportion of senescent MSCs compared to control haematopoiesis (~2.5-fold increase) with no change in ECs (Fig.
+2l–o
+and Extended Data Fig.
+4s–u
+). Thus,
+Dnmt3a
+-mutant haematopoietic cells induce robust markers of cellular senescence in wild-type MSCs and not ECs in vivo.
+The myeloablative conditioning used in our BM transplant experiments can induce senescence in non-haematopoietic cells
+29
+,
+30
+, which may contribute to the phenotypes we observe. To evaluate MSC senescence in an independent experimental system, we transplanted
+Dnmt3a
+R878H/+
+Mx-Cre or control BM cells into wild-type recipient mice in the absence of conditioning (Fig.
+2p
+). This resulted in a low level of donor-derived haematopoiesis (0.2–0.5%) in the peripheral blood at 4 weeks post-transplant, and over the subsequent 60 weeks,
+Dnmt3a
+-mutant haematopoietic cells increased their contribution up to ~2%, significantly higher than control haematopoietic cells (Fig.
+2q
+). At 60 weeks post-transplant,
+Dnmt3a
+-mutant haematopoietic cells had a greater contribution to BM haematopoiesis including HSCs (Extended Data Fig.
+4v–y
+). Mice with
+Dnmt3a
+-mutant haematopoiesis had a greater proportion of senescent MSCs compared to control haematopoiesis (~1.2-fold increase) (Fig.
+2r
+), representing an intermediate level of MSC senescence compared to old (27 mo) wild-type mice, and with no change in ECs (Fig.
+2s
+). Across our experimental models, the enrichment of senescence-associated MSCs in the context of
+Dnmt3a
+-mutant haematopoiesis represents a modest quantitative change, the magnitude of which varies by model and marker. These data demonstrate that
+Dnmt3a
+-mutant haematopoietic cells induce senescence in wild-type MSCs in vivo, even when present at low levels that are physiologically relevant to the clonal burden observed in human CHIP. The functional consequences of this enrichment are assessed directly in the perturbation experiments described in the following.
+Our molecular analysis of primary human samples suggested that MSC senescence can be driven by a variety of CHIP somatic mutations. To test whether this is true in mice, we evaluated a mouse model of
+TET2
+-mutant CH
+31
+. In steady-state
+Tet2
+KO
+Scl-CreER mice we observed a greater proportion of senescent MSCs compared to control (approximately twofold increase) with no changes in ECs (Extended Data Fig.
+5a–g
+). Taken together, MSC senescence is observed in the context of multiple CH/CHIP driver mutations in mice and humans.
+MSC senescence is induced by soluble factors derived from
+Dnmt3a
+-mutant haematopoietic cells
+Our next goal was to determine the mechanisms by which MSC senescence is induced by
+Dnmt3
+a-mutant haematopoiesis. First, we tested whether senescence of wild-type MSCs or ECs can be induced by
+Dnmt3a
+-mutant haematopoietic cells ex vivo. Primary MSCs from wild-type mice or a mouse BM endothelial cell line (BMEC)
+32
+were co-cultured with
+Dnmt3a
+R878H/+
+Mx-Cre or control HSPCs (Fig.
+3a
+). MSCs co-cultured with
+Dnmt3a
+-mutant haematopoietic cells had higher levels of the senescence marker SA-β-gal (Fig.
+3b
+) and increased expression of
+Cdkn1a
+and
+Cdkn2a
+(Fig.
+3c
+). In contrast, SA-β-gal was not induced in BMECs (Fig.
+3d
+). Cell counts of MSCs, BMECs and haematopoietic cells at the end of the culture were similar between conditions, supporting that differential confluency does not drive senescence phenotypes in these experiments (Extended Data Fig.
+6a–c
+)
+Fig. 3: Cytokines secreted by
+Dnmt3a
+-mutant haematopoietic cells are sufficient to induce MSC senescence ex vivo.
+Full size image
+a
+, Schematic of the co-culture experimental design of HSPCs with MSCs or BMECs. HSPCs were isolated >5 weeks after Mx-Cre induction using poly(I:C) from control or
+Dnmt3a
+R878H/+
+mice.
+b
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs (CD45
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+) after co-culture with control or
+Dnmt3a
+R878H/+
+HSPCs.
+P
+value determined by unpaired, two-tailed
+t
+test (
+n
+= 7 biological replicates per condition).
+c
+, Relative expression of
+Cdkn1a
+(left) and
+Cdkn2a
+(right) in MSCs after co-culture with control or
+Dnmt3a
+R878H/+
+HSPCs normalized to
+Hprt
+expression.
+P
+values determined by unpaired, two-tailed
+t
+tests (
+n
+= 5 biological replicates per condition).
+d
+, Representative histogram (left) and MFI (right) of SA-β-gal in BMECs after co-culture with control or
+Dnmt3a
+R878H/+
+HSPCs. Not significant (
+P
+> 0.05) by unpaired, two-tailed
+t
+test (
+n
+= 8 biological replicates per condition).
+e
+, Schematic of the co-culture experimental design using human CD34
++
+HSPCs from individuals with
+DNMT3A
+-mutant CHIP or without CHIP cultured with wild-type primary human MSCs for 48 h followed by bulk RNA-seq.
+f
+, GSEA of the SEN_MAYO senescence signature
+33
+in MSCs after co-culture with non-CHIP or
+DNMT3A
+-mutant CHIP HSPCs.
+g
+, Composite senescence score computed using the FRIDMAN_SENESCENCE_UP gene set (77 genes) in MSCs after co-culture with non-CHIP or
+DNMT3A
+-mutant CHIP HSPCs.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 4 biological replicate donors in non-CHIP cultures,
+n
+= 8 biological replicate donors in
+DNMT3A
+-CHIP cultures).
+h
+, Schematic of the co-culture experimental design using human CD34
++
+HSPCs from individuals with
+DNMT3A
+-mutant CHIP or without CHIP cultured with wild-type primary human MSCs for six days followed by MSC analysis.
+i
+, Representative histogram (left) and MFI (right) of SA-β-gal in primary human MSCs after co-culture with primary human HSPCs from non-CHIP or
+DNMT3A
+-mutant CHIP.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 12 biological replicates per condition).
+j
+, Schematic of the conditioned media (CM) experimental design with HSPCs isolated >5 weeks after Mx-Cre induction using poly(I:C).
+k
+,
+l
+, Representative images (
+k
+) and quantitation (
+l
+) of MSCs with SA-β-gal staining after co-culture with CM from control or
+Dnmt3a
+R878H/+
+HSPCs.
+P
+values determined by one-way ANOVA with Tukey’s multiple comparisons test (
+n
+= 6 no CM,
+n
+= 3 control CM,
+n
+= 3
+Dnmt3a
+R878H/+
+CM biological replicates).
+m
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs (CD45
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+) after co-culture with CM from control or
+Dnmt3a
+R878H/+
+HSPCs.
+P
+value determined by unpaired, two-tailed
+t
+test (
+n
+= 12 biological replicates per condition).
+n
+, Relative expression of
+Cdkn1a
+in MSCs after co-culture with control or
+Dnmt3a
+R878H/+
+HSPC CM.
+P
+value determined by unpaired, two-tailed
+t
+test (
+n
+= 11 control CM,
+n
+= 10
+Dnmt3a
+R878H/+
+CM biological replicates).
+o
+, log
+2
+FC in concentration of secreted factors in control or
+Dnmt3a
+R878H/+
+HSPC CM.
+P
+values determined by multiple two-tailed, unpaired
+t
+tests (
+n
+= 4 biological replicates per condition). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+p
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs (CD45
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+) after seven-day co-culture with recombinant IL-1α, IL-1β, IL-6, TNF-α or vehicle.
+P
+values determined by Brown–Forsythe and Welch ANOVA with Dunnett’s multiple comparisons test (
+n
+= 20 vehicle,
+n
+= 12 IL-1α,
+n
+= 12 IL-1β,
+n
+= 12 TNF-α (1 ng ml
+−1
+),
+n
+= 12 TNF-α (5 ng ml
+−1
+) and
+n
+= 8 IL-6 biological replicates).
+q
+, Representative histogram (left) and MFI (right) of SA-β-gal in human MSCs after co-culture with recombinant human IL-6, TNF-α or vehicle.
+P
+values determined by ratio-paired, two-tailed
+t
+test (
+n
+= 5 biological replicates per condi
+t
+ion). Non-significant
+P
+values (
+P
+> 0.05) not shown. Dots represent individual biological replicate mice or human samples. Bar graphs show mean ± s.e.m. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box, and whiskers extend to the minimum and maximum values.
+Source data
+We then asked whether primary human
+DNMT3A
+-mutant HSPCs induce molecular senescence in primary human wild-type MSCs. We co-cultured MSCs from young donors with CD34
++
+HSPCs isolated from older individuals with
+DNMT3A
+-mutant CHIP or age- and sex-matched individuals without CHIP and performed bulk RNA-seq on the MSC fraction (Fig.
+3e
+and Supplementary Table
+3
+). We find that MSCs cultured with CHIP HSPCs were enriched for a robust molecular signature of cellular senescence (SEN_MAYO)
+33
+(Fig.
+3f
+and Supplementary Table
+2
+), and using the same 77 gene set described in Fig.
+1
+, we observe that the senescence score is significantly elevated in MSCs cultured with CHIP compared to control HSPCs (Fig.
+3g
+and Supplementary Table
+2
+). Further assessing senescence at the protein level, we observed that MSCs cultured with CHIP HSPCs had higher levels of SA-β-gal compared to control HSPCs (Fig.
+3h,i
+). Together,
+DNMT3A
+-mutant haematopoiesis is sufficient to induce MSC senescence in primary mouse and human cells ex vivo.
+To narrow down potential mechanisms of MSC senescence induction, we next asked whether cell contact between mouse
+Dnmt3a
+-mutant haematopoietic cells and wild-type MSCs is required. Using transwell dishes that physically separate HSPCs and MSCs but allow secreted molecules to diffuse (Extended Data Fig.
+6d
+), we observed that wild-type MSCs co-cultured with
+Dnmt3a
+-mutant haematopoietic cells had increased levels of SA-β-gal (Extended Data Fig.
+6e
+) and
+Cdkn1a
+expression (Extended Data Fig.
+6f
+) compared to controls. In a complementary approach, we collected conditioned media (CM) from
+Dnmt3a
+-mutant or control HSPCs and added this CM to cultures of primary wild-type MSCs (Fig.
+3j
+). MSCs cultured with CM from
+Dnmt3a
+-mutant HSPCs had increased levels of SA-β-gal (Fig.
+3k–m
+) and
+Cdkn1a
+expression (Fig.
+3n
+), and were in a state of replicative senescence assessed over seven days (Extended Data Fig.
+6g,h
+). These data show that
+Dnmt3a
+-mutant haematopoietic cells induce MSC senescence in a cell contact-independent manner.
+To identify soluble factors produced by
+Dnmt3a
+-mutant haematopoietic cells with the potential to induce MSC senescence, we defined a putative secretome. We cross-referenced DEGs in
+Dnmt3a
+-mutant HSCs with annotated secreted proteins and proteins detected in HSC/MPP datasets
+34
+,
+35
+(Extended Data Fig.
+6i
+). As inflammatory cytokine transcripts are often under-represented in RNA-seq, we complemented this analysis with a multiplexed enzyme-linked immunoabsorbent assay (ELISA) of
+Dnmt3a
+-mutant and control HSPC CM, finding that
+Dnmt3a
+-mutant haematopoietic cells produce elevated levels of IL-6, TNF-α, GDF-15 and osteopontin (OPN) (Fig.
+3o
+). We then functionally evaluated a subset of these factors (IL-1α, IL-1β, IL-6 and TNF-α) for their ability to induce senescence of primary mouse MSCs. We found that recombinant murine IL-6 and TNF-α were sufficient to induce SA-β-gal in MSCs (Fig.
+3p
+). We then tested these factors in primary wild-type human MSCs (Supplementary Table
+3
+), finding that recombinant human TNF-α, but not IL-6, was sufficient to induce SA-β-gal in human MSCs (Fig.
+3q
+). These data show that soluble factors produced by
+Dnmt3a
+-mutant haematopoietic cells, particularly TNF-α, are sufficient to induce primary mouse and human MSC senescence.
+We then asked what SASP factors are released by senescent MSCs, to determine if these were distinct from senescence-inducing factors such as TNF-α. We induced MSC senescence using
+Dnmt3a
+-mutant CM, then removed the CM and replaced it with fresh MSC media for four days, followed by media collection to assess potential SASP factors. We observed that senescent MSCs produce elevated levels of the SASP factors MMP3 and S100a9, but not TNF-α (Extended Data Fig.
+6j,k
+), which distinguishes SASP from factors that induce MSC senescence.
+Lastly, we queried the functional impact of CH-driven MSC senescence on wild-type versus
+Dnmt3a
+-mutant haematopoiesis. We used
+Dnmt3a
+-mutant CM to induce senescence of wild-type MSCs, removed the CM and then added wild-type HSPCs for co-culture (Extended Data Fig.
+6l
+). Wild-type HSPCs exposed to senescent MSCs had reduced proportions of phenotypic HSCs and increased granulocyte–macrophage progenitors (GMPs) (Extended Data Fig.
+6m
+). Similarly, in vivo induction of MSC senescence by
+Dnmt3a
+-mutant haematopoiesis impacted wild-type haematopoiesis, causing a reduced proportion of HSCs and increased GMPs (Extended Data Fig.
+6n,o
+). In contrast,
+Dnmt3a
+-mutant HSPCs exposed to senescent MSCs have a greater proportion of phenotypic HSCs and decreased GMPs (Extended Data Fig.
+6p,q
+). These data suggest that there is a distinct functional response of wild-type versus
+Dnmt3a
+-mutant HSCs to MSC senescence wherein wild-type HSCs undergo differentiation while mutant HSCs are maintained or expanded.
+STAT3 signalling selectively induces senescence in MSCs
+We next sought to understand the molecular basis of the cell context specificity of senescence induction in MSCs but not ECs in the context of CH. In other cell types, TNF-α and IL-6 induce senescence through Stat3 signalling and reactive oxygen species (ROS) accumulation
+36
+,
+37
+, and targeting Stat3 causes selective death of senescent cells
+38
+. We hypothesized that ‘senescence-sensitive’ MSCs versus ‘senescence-resistant’ ECs in CH may have different expression levels of TNF-α or IL-6 receptors, and/or differential activation of Stat3 or ROS. In the context of
+Dnmt3a
+-mutant CH, we observed increased levels of TNF-α receptor 2 (TNFR2) and IL-6 receptor (IL6R) and no change in TNF-α receptor 1 (TNFR1) on MSCs (Fig.
+4a,b
+), and these all were unchanged in ECs (Fig.
+4c
+). This same pattern was also observed in steady-state mice with
+Dnmt3a
+-mutant CH (Extended Data Fig.
+7a,b
+). With respect to downstream signalling, we found increased phosphorylation of Stat3 (pStat3) and levels of cellular ROS in MSCs in mice with
+Dnmt3a
+-mutant compared to control haematopoiesis (Fig.
+4d
+), also with no change in ECs (Fig.
+4e
+). Further analysis of our scRNA-seq data found that MSCs in
+Dnmt3a
+-mutant haematopoiesis had increased signatures of ROS, DNA damage response signalling, and p53 activation compared to control haematopoiesis (Fig.
+4f
+), and these signatures were not enriched in ECs. We did not observe increased phosphorylation of other potential downstream mediators of TNF-α or IL-6 signalling, including NF-κB, MAPK/ERK and AKT, in MSCs of mice with
+Dnmt3a
+-mutant haematopoiesis in either steady state or post-transplant conditions (Extended Data Fig.
+7c–e
+). Together, TNF-α and IL-6 receptor levels and downstream Stat3 phosphorylation are associated with the selectivity of senescence induction in MSCs in response to
+Dnmt3a
+-mutant haematopoiesis.
+Fig. 4: TNF-α- and IL-6-mediated activation of STAT3 signalling selectively induces MSC senescence.
+Full size image
+a
+, Schematic of the experimental design of busulfan-conditioned recipient mice transplanted with
+Dnmt3a
+R878H/+
+Mx-Cre or control donor haematopoietic cells. Transplant was performed >5 weeks after poly(I:C) treatment of donor mice.
+b
+, Frequency of TNFR1
++
+(left), TNFR2
++
+(centre) and IL6R
++
+(right) MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+LepR
++
+) in mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis.
+P
+values determined by unpaired, two-tailed
+t
+test (
+n
+= 9 control,
+n
+= 10
+Dnmt3a
+R878H/+
+biological replicate mice). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+c
+, Frequency of TNFR1
++
+(left), TNFR2
++
+(centre) and IL6R
++ (
+right) ECs (CD45
+−
+Ter119
+−
+CD31
++
+) in mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis. Not significant by unpaired, two-tailed
+t
+test (
+n
+= 9 control,
+n
+= 10
+Dnmt3a
+R878H/+
+biological replicate mice).
+d
+, Frequency of pStat3
++
+(left) and ROS (CellROX) MFI (right) in MSCs in mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis.
+P
+values determined by two-tailed Mann–Whitney test (
+n
+= 5 biological replicates per condition).
+e
+, Frequency of pStat3
++
+(left) and CellROX MFI (right) in ECs in mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis. Not significant (
+P
+> 0.05) by two-tailed Mann–Whitney test (
+n
+= 5 biological replicates per condition).
+f
+, GSEA of ROS, DNA damage response and p53 signatures in MSCs, EC-arteriolar and EC-sinusoidal clusters in mice with
+Dnmt3a
+R878H/+
+versus control haematopoiesis. Dots shown are FDR < 0.05 (
+n
+= 4 biological replicate mice per condition).
+g
+, Schematic of the experimental design for treatment of wild-type MSCs with TNF-α or IL-6 ex vivo.
+h
+, Frequency of pStat3
++
+(left) and CellROX MFI (right) in MSCs after treatment with TNF-α or IL-6.
+P
+values were determined by one-way ANOVA with uncorrected Fisher’s least significant difference (LSD). For pStat3:
+n
+= 14 vehicle,
+n
+= 7 TNF-α,
+n
+= 6 IL-6 biological replicates. For CellROX:
+n
+= 13 vehicle
+, n
+= 8 TNF-α,
+n
+= 7 IL-6 biological replicates.
+i
+, Frequency of pStat3
++
+(left) and CellROX MFI (right) in BMECs after treatment with TNF-α or IL-6. Not significant (
+P
+> 0.05) by one-way ANOVA. For pStat3:
+n
+= 7 biological replicates per condition. For CellROX:
+n
+= 7 vehicle,
+n
+= 7 TNF-α,
+n
+= 6 IL-6 biological replicates.
+j
+, Schematic of the experimental design for treatment of wild-type MSCs with CM from control or
+Dnmt3a
+R878H/+
+HSPCs with or without the addition of inhibitors targeting TNF-α (etanercept), IL-6 (elsilimomab) or Stat3 (Stattic).
+k
+, Representative histogram (top) and MFI (bottom) of SA-β-gal in MSCs treated with CM from control or
+Dnmt3a
+R878H/+
+HSPCs, with or without the TNF-α inhibitor etanercept (left), IL-6 inhibitor elsilimomab (centre) or the Stat3 inhibitor stattic (right).
+P
+values determined by one-way ANOVA with Tukey’s multiple comparisons test. Left (etanercept):
+n
+= 3 biological replicates per condition. Centre (elsilimomab):
+n
+= 4 biological replicates per condition. Right (Stattic):
+n
+= 4 biological replicates per condition. Non-significant
+P
+values (
+P
+> 0.05) not shown.
+l
+, Proposed model of senescence induction in MSCs involving IL-6 and/or TNF-α produced by
+Dnmt3a
+-mutant haematopoietic cells stimulating a Stat3-ROS signalling mechanism in MSCs. Dots represent individual biological replicate mice or human samples. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box, and whiskers extend to the minimum and maximum values. Panel
+l
+created in BioRender; Trowbridge, J. (2025)
+https://BioRender.com/fwgfp4p
+.
+Source data
+We next asked if TNF-α or IL-6 are sufficient to induce Stat3 phosphorylation and accumulation of cellular ROS, and if inhibition of these pathways can block MSC senescence induction in the context of
+Dnmt3a
+-mutant CH. We treated primary MSCs or BMECs with recombinant TNF-α or IL-6 ex vivo (Fig.
+4g
+). We observed that TNF-α and IL-6 induced pStat3 and cellular ROS in MSCs compared to vehicle control (Fig.
+4h
+), but not in BMECs (Fig.
+4i
+). To determine if TNF-α or IL-6 were required to induce MSC senescence from
+Dnmt3a
+-mutant haematopoiesis, we used
+Dnmt3a
+-mutant CM in combination with TNF-α inhibition by etanercept
+39
+, IL-6 inhibition by elsilimomab
+40
+, or Stat3 inhibition by stattic
+41
+on wild-type MSCs (Fig.
+4j
+). MSCs cultured with
+Dnmt3a
+-mutant CM had increased levels of SA-β-gal compared to control CM, and inhibition of TNF-α, IL-6 or Stat3 prevented this induction of SA-β-gal in MSCs (Fig.
+4k
+). Based on these results, we propose a signalling mechanism underlying MSC senescence induction in response to
+Dnmt3a
+-mutant haematopoiesis (Fig.
+4l
+). MSCs, but not ECs, are sensitive to senescence induction by
+Dnmt3a
+-mutant haematopoietic cells by TNF-α- or IL-6-driven Stat3 signalling.
+Non-haematopoietic senescent cell depletion reduces
+Dnmt3a-
+mutant haematopoiesis
+We next sought to functionally determine whether targeted removal of senescent non-haematopoietic cells alters the fitness of
+Dnmt3a
+-mutant haematopoiesis. We used p16-3MR mice, which have a fluorescent reporter (mRFP) of p16 expression as well as the ability to deplete p16
+hi
+cells by in vivo or in vitro administration of ganciclovir (GCV)
+42
+. Primary MSCs from p16-3MR mice were cultured with
+Dnmt3a
+-mutant CM to induce senescence, followed by GCV treatment to deplete p16
+hi
+MSCs (Fig.
+5a
+). GCV treatment significantly reduced the number of viable MSCs in the
+Dnmt3a
+-mutant CM but not the control condition (~50% decrease) (Fig.
+5b
+), consistent with depletion of senescent MSCs. To evaluate targeted removal of senescent cells in vivo, we transplanted
+Dnmt3a
+R878H/+
+Mx-Cre or control BM into p16-3MR recipient mice and waited 16 weeks, a timeframe in which we previously observed MSC senescence to be robustly induced (Fig.
+2k–m
+). We performed daily dosing of GCV for five days, followed by a four-week period without GCV
+42
+(Fig.
+5c
+). We found that p16-3MR mice with
+Dnmt3a
+-mutant haematopoiesis had an ~1.5-fold increase in the proportion of senescent MSCs and that these were fully depleted by GCV (Fig.
+5d,e
+and Extended Data Fig.
+8a,b
+). In these GCV-treated mice, we also observed an ~1.3-fold decrease in the proportion of
+Dnmt3a
+-mutant haematopoietic cells at the BM (Fig.
+5f
+) and HSC (Fig.
+5g
+) levels. Thus, depletion of p16-expressing senescent cells reduces the fitness advantage of
+Dnmt3a
+-mutant haematopoietic cells in vivo.
+Fig. 5: Depletion of non-haematopoietic senescent cells reduces
+Dnmt3a-
+mutant haematopoiesis.
+Full size image
+a
+, Schematic of the experimental design to deplete senescent p16-3MR MSCs using GCV.
+b
+, Number of live and dead MSCs after culture with control or
+Dnmt3a
+R878H/+
+CM, treated with or without GCV.
+P
+values determined by two-way ANOVA with Sidak’s multiple comparisons test (
+n
+= 4 biological replicates per condition). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+c
+, Schematic of the experimental design to generate
+Dnmt3a
+R878H/+
+haematopoiesis in p16-3MR recipient mice followed by GCV treatment. Transplant was performed >5 weeks after poly(I:C) treatment of donor mice.
+d
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+) in p16-3MR mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis after treatment with vehicle or GCV.
+P
+values determined by one-way ANOVA with Tukey’s multiple comparisons test (
+n
+= 5 control vehicle,
+n
+= 4 control GCV,
+n
+= 5
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 7
+Dnmt3a
+R878H/+
+GCV biological replicate recipient mice per condition). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+e
+, Frequency of senescent MSCs (SA-β-gal
+hi
+p16
+hi
+Bcl-xL
++
+Bcl-2
++
+) in p16-3MR mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis after treatment with vehicle or GCV.
+P
+values determined by one-way ANOVA with Tukey’s multiple comparisons test (
+n
+= 5 control vehicle,
+n
+= 4 control GCV,
+n
+= 5
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 7
+Dnmt3a
+R878H/+
+GCV biological replicate recipient mice per condition). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+f
+,
+g
+, Frequency of donor (CD45.1
++
+) haematopoietic cells in the BM (
+f
+) and HSC (
+g
+) compartments of recipient mice.
+P
+values determined by Brown–Forsythe ANOVA test with unpaired
+t
+test with Welch’s correction (
+n
+= 5 control vehicle,
+n
+= 4 control GCV,
+n
+= 5
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 7
+Dnmt3a
+R878H/+
+GCV biological replicate recipient mice per condition). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+h
+, Schematic of the experimental design to deplete senescent MSCs using ABT-263.
+i
+, Number of live and dead MSCs after culture with control or
+Dnmt3a
+R878H/+
+CM, treated with or without ABT-263.
+P
+values determined by two-way ANOVA with Sidak’s multiple comparisons test (
+n
+= 4 biological replicates per condition). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+j
+, Schematic of the experimental design to generate
+Dnmt3a
+R878H/+
+haematopoiesis in wild-type recipient mice followed by ABT-263 treatment. Transplant was performed >5 weeks after poly(I:C) treatment of donor mice.
+k
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs in mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis after treatment with vehicle or ABT-263.
+P
+values determined by Kruskal–Wallis with uncorrected Dunn’s test (
+n
+= 10 control vehicle,
+n
+= 9 control ABT-263,
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle and
+n
+= 10
+Dnmt3a
+R878H/+
+ABT-263 biological replicate mice). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+l
+, Frequency of senescent MSCs (SA-β-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) in mice with control or
+Dnmt3a
+R878H/+
+haematopoiesis after treatment with vehicle or ABT-263.
+P
+values determined by Kruskal–Wallis with uncorrected Dunn’s test (
+n
+= 10 control vehicle,
+n
+= 9 control ABT-263,
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle and
+n
+= 10
+Dnmt3a
+R878H/+
+ABT-263 biological replicate mice). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+m
+,
+n
+, Frequency of donor (CD45.2
++
+) haematopoietic cells in the BM (
+m
+) and HSC (
+n
+) compartments of recipient mice.
+P
+values determined by Kruskal–Wallis with uncorrected Dunn’s test (
+n
+= 10 control vehicle,
+n
+= 9 control ABT-263,
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle and
+n
+= 10
+Dnmt3a
+R878H/+
+ABT-263 biological replicate mice). Non-significant
+P
+values (P > 0.05) not shown.
+o
+, Number of haematopoietic colonies at passage 2 (P2) from recipient mice treated with vehicle or ABT-263.
+P
+values determined by one-way ANOVA with Fisher’s LSD (
+n
+= 9 control vehicle,
+n
+= 6 control ABT-263,
+n
+= 6
+Dnmt3a
+R878H/+
+vehicle and
+n
+= 8
+Dnmt3a
+R878H/+
+ABT-263 biological replicate mice). Non-significant
+P
+values (
+P
+> 0.05) not shown.
+p
+, Correlation between the frequency of senescent MSCs and donor-derived BM cells (left), and frequency of senescent MSCs and donor-derived HSCs (right) in mice transplanted with control haematopoiesis. Significance determined by two-sided Pearson correlation (
+n
+= 10 control vehicle,
+n
+= 9 control ABT-263 biological replicate recipient mice).
+q
+, Correlation between the frequency of senescent MSCs and donor-derived BM cells (left), and frequency of senescent MSCs and donor-derived HSCs (right) in mice transplanted with
+Dnmt3a
+R878H/+
+haematopoiesis. Significance determined by two-sided Pearson correlation (
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 10
+Dnmt3a
+R878H/+
+ABT-263 biological replicate recipient mice). Dots represent individual biological replicate mice. Bar graphs show mean ± s.e.m. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box, and whiskers extend to the minimum and maximum values.
+Source data
+We next employed an independent approach to selectively deplete senescent cells in vivo using a pharmacological senolytic. Given that MSC senescence induced by
+Dnmt3a
+-mutant haematopoiesis is characterized by increased expression of Bcl-xL and Bcl-2, our first choice was the senolytic ABT-263 (Navitoclax) as it inhibits the anti-apoptotic activity of Bcl-xL, Bcl-2 and Bcl-W
+28
+,
+43
+. Primary wild-type MSCs were cultured with
+Dnmt3a
+-mutant CM to induce senescence, followed by ABT-263 treatment (Fig.
+5h
+). ABT-263 significantly reduced the number of viable MSCs in the
+Dnmt3a
+-mutant CM but not the control condition (~50% decrease) (Fig.
+5i
+), consistent with depletion of senescent MSCs. To evaluate targeted removal of senescence cells in vivo, we transplanted
+Dnmt3a
+R878H/+
+Mx-Cre or control BM into wild-type recipient mice, waited 12 weeks, then treated mice with ABT-263 or vehicle (Fig.
+5j
+). We found that ABT-263 depleted senescent MSCs in the BM caused by
+Dnmt3a
+-mutant haematopoiesis (Fig.
+5k,l
+and Extended Data Fig.
+8c
+). In these ABT-263-treated mice, we also observed an ~1.3-fold decrease in the proportion of
+Dnmt3a
+-mutant haematopoietic cells at the BM (Fig.
+5m
+) and HSC (Fig.
+5n
+) levels. The reduction of
+Dnmt3a
+-mutant HSPCs in ABT-263-treated mice was independently confirmed by reduced ex vivo haematopoietic colony-forming unit (CFU) formation (Fig.
+5o
+). Collecting data from individual biological replicate mice permitted us to correlate the level of MSC senescence to the level of donor-derived haematopoiesis. In mice transplanted with control BM, no correlation was observed between MSC senescence and donor-derived haematopoiesis, and overall MSC senescence was low (Fig.
+5p
+). In contrast, mice transplanted with
+Dnmt3a
+-mutant haematopoiesis showed a positive correlation between the proportion of MSC senescence and
+Dnmt3a
+-mutant haematopoiesis at the BM and HSC levels, and proportional reduction in both parameters in mice treated with ABT-263 (Fig.
+5q
+). Interpretation of these data is dependent on whether ABT-263 only targets senescent non-haematopoietic cells or if it also directly effects haematopoietic cells. Levels of Bcl-xL and Bcl-2 were not different between
+Dnmt3a
+-mutant and control haematopoietic cells (Extended Data Fig.
+8d
+). Consistent with this, direct treatment of
+Dnmt3a
+-mutant and control HSPCs with ABT-263 did not impair their growth or replating in CFU assays (Extended Data Fig.
+8e
+), and did not alter the production of TNF-α or IL-6 by
+Dnmt3a
+-mutant HSPCs (Extended Data Fig.
+8f,g
+). Furthermore, treatment of wild-type mice with ABT-263 following the same protocol (Extended Data Fig.
+8h
+) did not alter their blood counts or haematopoietic cell proportions in the blood or BM (Extended Data Fig.
+8i,j
+). Our data show that ABT-263 does not directly impact wild-type or
+Dnmt3a
+-mutant haematopoiesis with the dose and time course used in our experiments. Thus, we conclude that depletion of senescent non-haematopoietic cells using ABT-263 reduces the fitness advantage of
+Dnmt3a
+-mutant haematopoietic cells in vivo, and that there is a dose-dependent relationship between MSC senescence and the fitness advantage of
+Dnmt3a
+-mutant haematopoietic cells.
+To test the efficacy of other senolytic compounds, we evaluated the Food and Drug Association-approved senolytic drugs dasatinib and quercetin (D + Q)
+44
+. We transplanted
+Dnmt3a
+R878H/+
+Mx-Cre or control BM into wild-type recipient mice followed by treatment with D + Q every three days for four weeks (Extended Data Fig.
+9a
+). We found that D + Q depleted senescent MSCs in the BM caused by
+Dnmt3a
+-mutant haematopoiesis (Extended Data Fig.
+9b–d
+). In these D + Q-treated mice, we also observed an ~1.2-fold decrease in the proportion of
+Dnmt3a
+-mutant haematopoietic cells at the BM and HSPC levels (Extended Data Fig.
+9e
+). Similar to our observations with ABT-263, no correlation was observed between MSC senescence and donor-derived haematopoiesis in the control group, and overall MSC senescence was low (Extended Data Fig.
+9f
+). In contrast, mice transplanted with
+Dnmt3a
+-mutant haematopoiesis showed a positive correlation between the proportion of MSC senescence and
+Dnmt3a
+-mutant haematopoiesis at the BM and HSPC levels, and proportional reduction in both parameters in mice treated with D + Q (Extended Data Fig.
+9g
+). The consistent reduction in
+Dnmt3a
+-mutant haematopoietic cell fitness following three independent senolytic interventions—genetic depletion of p16
+hi
+cells, ABT-263 and D + Q—provides direct causal evidence that the presence of senescent MSCs is required for the full magnitude of CH expansion we observe, independent of the absolute proportion of cells bearing any individual senescence marker.
+Senescent cell depletion delays progression towards malignancy
+One of the risks for individuals with CHIP is progression to blood cancer
+5
+. In the context of AML, MSC senescence has been identified in previous studies as a relevant contributor to disease
+45
+,
+46
+. In mouse models of human AML driven by
+Idh1
+/
+Npm1
+/
+Nras
+and
+Npm1
+/
+Flt3
+mutations
+47
+, we find robust MSC senescence in vivo (Extended Data Fig.
+10a–f
+), and patients with AML with CHIP mutations in
+DNMT3A
+or
+TET2
+have elevated
+CDKN1A
+(P21) expression in their MSCs compared to age-matched controls
+48
+(Extended Data Fig.
+10g
+). These data show that MSC senescence is not only observed in CH but also in the context of AML, raising the concept that MSC senescence may contribute to leukaemogenesis.
+A corollary of CH-driven MSC senescence promoting leukaemogenesis is that depletion of senescent MSCs at the CH stage should reduce the risk of progression to blood cancer. To test this, we used orthogonally inducible mutant alleles previously generated in our laboratory to induce CH (Cre-driven
+Dnmt3a
+R878H/+
+) and progression from CH to AML (Flp-driven
+Npm1
+cA/+
+)
+13
+. Using the senolytic ABT-263, we evaluated whether targeted removal of senescent MSCs at the CH stage would alter the time course or risk of development of blood cancer. We transplanted
+Dnmt3a
+R878H/+
+Mx-Cre or control BM into wild-type recipient mice, allowed MSC senescence induction for 12 weeks, followed by depletion of senescent cells using ABT-263 (Fig.
+6a
+). We then administered tamoxifen (TAM) to activate the Flp-inducible
+Npm1
+cA/+
+mutant allele that promotes malignant transformation from
+Dnmt3a
+R878H/+
+HSCs (Fig.
+6a
+). Following these mice over time, we observed that mice treated with ABT-263 during CH had decreased frequencies of
+Dnmt3a
+R878H/+
+Npm1
+cA/+
+myeloid cells in their peripheral blood (Fig.
+6b
+) and had reduced white blood cell (WBC), monocyte (MONO) and neutrophil (NEUT) counts (Fig.
+6c
+). After five months, mice treated with ABT-263 maintained ~1.8-fold lower SA-β-gal expression in their MSCs (Fig.
+6d
+) and had reduced frequencies of
+Dnmt3a
+R878H/+
+Npm1
+cA/+
+haematopoietic cells at the BM (Fig.
+6e
+) and HSPC (Fig.
+6f
+) levels. Reduction in HSPCs was functionally confirmed by reduced ex vivo CFU formation (Fig.
+6g
+). Transplantation of
+Dnmt3a
+R878H/+
+Npm1
+cA/+
+leukaemic cells from mice treated with ABT-263 at the CH stage into secondary recipient mice revealed extended survival compared to mice treated with vehicle control at the CH stage (Fig.
+6h
+). Together, these results support that MSC senescence induced by
+Dnmt3a
+-mutant haematopoiesis during CH creates an environment that supports outgrowth of haematopoietic clones with malignant potential.
+Fig. 6: Depletion of non-haematopoietic senescent cells during
+Dnmt3a
+-mutant clonal haematopoiesis reduces myeloproliferation and neoplasia.
+Full size image
+a
+, Schematic of the experimental design to evaluate treatment with ABT-263 at the
+Dnmt3a
+R878H/+
+CH stage on progression to
+Dnmt3a
+;
+Npm1
+-mutant AML. Transplant was performed >5 weeks after poly(I:C) treatment of donor mice, and the
+Npm1
+mutation was induced 2 weeks after the final ABT-263 treatment using TAM.
+b
+, Frequency of myeloid cells in donor-derived PB before and after TAM.
+P
+values determined by two-way repeated measures (RM) ANOVA with Sidak’s multiple comparisons test (
+n
+= 6 vehicle,
+n
+= 7 ABT-263 biological replicate recipient mice).
+c
+, Complete blood count values in mice with
+Dnmt3a;Npm1
+-mutant haematopoiesis treated with vehicle or ABT-263 at the CH stage. WBC, white blood cell; MONO, monocyte; NEUT, neutrophil.
+P
+values determined by unpaired, two-tailed
+t
+test (
+n
+= 6 vehicle
+, n
+= 7 ABT-263 biological replicate mice).
+d
+, Representative histogram (left) and MFI (right) of SA-β-gal in MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+) isolated from mice with
+Dnmt3a;Npm1
+-mutant haematopoiesis treated with vehicle or ABT-263 at the CH stage.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 7 biological replicate mice per condition).
+e
+,
+f
+, Frequency of donor haematopoietic cells in the BM (
+e
+) and granulocyte–macrophage primed multipotent progenitor (MPP
+G/M
+) (
+f
+) compartment in mice with
+Dnmt3a;Npm1
+-mutant haematopoiesis treated with vehicle or ABT-263 at the CH stage.
+P
+values determined by two-tailed Mann–Whitney test (
+n
+= 7 biological replicate recipient mice per condition).
+g
+, Number of haematopoietic colonies (CFU) from mice at passage 1 (P1) with
+Dnmt3a;Npm1
+-mutant haematopoiesis treated with vehicle or ABT-263 at the CH stage.
+P
+value determined by two-tailed Mann–Whitney test (
+n
+= 9 vehicle
+, n
+= 6 ABT-263 biological replicates).
+h
+, Survival of secondary recipient mice transplanted with
+Dnmt3a;Npm1
+-mutant BM from mice treated with vehicle or ABT-263 at the CH stage. Significance calculated by two-sided log-rank (Mantel–Cox) test (
+n
+= 6 biological replicate mice). Dots represent individual biological replicate mice. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box, and whiskers extend to the minimum and maximum values.
+Source data
+Discussion
+We have demonstrated that
+Dnmt3a
+-mutant haematopoietic cells directly alter the BM microenvironment and induce senescence selectively in MSCs, both in the context of steady-state ‘native’ haematopoiesis as well as following transplantation. This is found even when the proportion of
+Dnmt3a
+-mutant haematopoietic cells in the BM is small (equivalent to a CH VAF of 1–4%) as well as in the context of human MSCs isolated from individuals with CHIP caused by multiple driver mutations including
+DNMT3A
+,
+TET2
+,
+ASXL1
+and
+CCAR1
+. Furthermore, our findings are replicated in a mouse model of
+Tet2
+-mutant haematopoiesis, supporting that a subset of the most common mutations identified in CH are associated with MSC senescence. Senescence induction does not rely on physical cell-to-cell interaction but instead is caused by secreted factors such as TNF-α, which is produced by mutant haematopoietic cells
+49
+,
+50
+,
+51
+. We find that depletion of senescent non-haematopoietic cells reduces the selective advantage of
+Dnmt3a
+-mutant HSPCs and their progeny and reduces progression to myeloid neoplasms. The convergent results from three orthogonal senolytic strategies provide causal evidence for this relationship that does not depend on any single estimate of senescent MSC abundance. Although the enrichment of senescence-associated MSCs in the setting of CH is modest in absolute terms—consistent with the minority-population nature of niche regulatory cells—the dose-dependent correlation between MSC senescence levels and
+Dnmt3a
+-mutant haematopoietic fitness observed across individual mice demonstrates that even this quantitative range is functionally consequential. This is conceptually consistent with a recent report that MSC senescence is associated with progression from the precursor condition monoclonal gammopathy of undetermined significance (MGUS) to multiple myeloma (MM)
+52
+. Our results establish that CH clones can alter their surrounding BM microenvironment to create a favourable niche that facilitates their competitive advantage and promotes the outgrowth of neoplastic cells.
+In mice, TNF-α and IL-6 produced by
+Dnmt3a
+-mutant haematopoietic cells are necessary and sufficient to induce MSC senescence. Senescence of human MSCs in the context of CHIP may involve an overlapping but distinct set of inflammatory cytokines, including TNF-α. Further in vivo studies and in-depth profiling of primary human samples will be needed to definitively assess which soluble factors drive human MSC senescence in CHIP. TNF-α signalling has been associated with
+DNMT3A
+-mutant CH in mouse models
+49
+and in humans
+53
+, and elevated TNF-α and IL-6 are observed in
+TET2
+-mutant CH
+54
+,
+55
+,
+56
+, suggesting that these inflammatory mediators may function within an integrated signalling network that promotes MSC senescence and microenvironment remodelling. Whether MSCs begin expressing inflammatory factors in the context of CH and how this relates to MSC senescence is an important question. A substantial research challenge lies in the overlap of SASP factors with markers of inflammation. In observing SASP enrichment in MSCs in the absence of upregulation of broad inflammatory gene signatures, our data are aligned with an interpretation of MSC senescence rather than MSC inflammation in the context of CH/CHIP. The extent to which this process mechanistically overlaps with the inflammatory signalling axis from immune cells to stromal cells recently reported to drive clonal evolution in CHIP and MDS
+20
+,
+21
+remains to be determined.
+There are several limitations to our study that should be considered in future work. We administered poly(I:C) to mice carrying the Mx-Cre allele to induce the
+Dnmt3a
+R878H
+mutation. Poly(I:C) is a synthetic double-stranded RNA that induces an inflammatory response, and inflammation is known to drive the selective advantage of CH-mutant haematopoietic cells
+49
+,
+51
+,
+53
+,
+55
+,
+57
+. Although we have validated key experiments using the TAM-inducible Fgd5-CreER
+Dnmt3a
+R878H/+
+model, we cannot rule out that some of the phenotypes we report are impacted by poly(I:C)-induced inflammation. Our experiments demonstrate that
+Dnmt3a
+-mutant haematopoietic cells induce MSC senescence, but we have not identified the specific haematopoietic cell type(s) that mediate this effect. Furthermore, although our data support a model in which
+Dnmt3a
+-mutant HSPCs secrete cytokines that initiate MSC senescence, followed by secondary SASP production by senescent MSCs, our study does not definitively delineate the respective contributions of haematopoietic and stromal compartments to the full inflammatory milieu associated with CH. Future studies capable of cell type-specific cytokine perturbation will be necessary to distinguish the stromal versus haematopoietic origins of inflammatory factors and to dissect autocrine versus paracrine mechanisms. Although we performed several control experiments with the p16-3MR mouse model, concerns have been raised regarding the reproducibility and robustness of this model
+58
+. Furthermore, in administering the senolytics ABT-263 and D + Q to mice systemically, we cannot exclude that they have other effects on haematopoietic or non-haematopoietic cells that contribute to a reduction in
+Dnmt3a
+-mutant haematopoiesis or in transformation from
+Dnmt3a
+-mutant haematopoiesis to myeloid neoplasia. ABT-263 is limited in clinical utility as it causes dose-dependent thrombocytopenia due to BCL-xL dependence in platelets. Importantly, the clinical limitations do not negate the biological insight: demonstration that senolytics can reduce CH provides a proof of concept that the senescent microenvironment is targetable to alter pre-malignant clone dynamics, and it opens the door to safer translational approaches (for example, targeted senolytic delivery to BM, intermittent dosing or platelet-sparing BCL-xL degraders now under development).
+In solid tumours, tumour-infiltrating CH-mutant haematopoietic cells remodel the tumour immune microenvironment and increase the risk of disease recurrence and death
+6
+,
+7
+. Whether circulating CH-mutant haematopoietic cells induce senescence in other normal and malignant tissues, which soluble factors drive senescence in other tissues, and how this contributes to CH-associated disease states, will be an exciting area of further investigation. Our work provides a clear rationale for testing whether targeting aberrant senescent MSCs can attenuate the haematopoietic and non-haematopoietic sequelae of CH.
+Our findings in CH may be relevant to the spectrum of adult tissues that accumulate somatic mutations in the context of ageing. For example, studies in the ageing colon, endometrium, oesophagus and skin show that clonal evolution can occur years or decades prior to the development of malignancies
+59
+. How the stroma dynamically co-evolves with age in mutated but histologically normal clonal tissues, including induction of senescence, needs further exploration. In preclinical models, interventions targeting senescent cells have been shown to delay, prevent or alleviate multiple disorders, including diabetes, cardiac dysfunction, cognitive impairment and osteoporosis
+60
+,
+61
+. Exploring the feedforward interaction between senescence and clonality in different microenvironmental compartments may reveal new therapeutic approaches to disrupt these interactions and attenuate ageing-associated disease.
+Together, these findings establish a foundational mechanism through which CH activates senescence programs in MSCs and demonstrate how senescent stromal cells may contribute to clonal fitness. This work provides a platform for future mechanistic studies and highlights potential translational opportunities to intercept CH and reduce the risk of blood cancer and other CH-associated pathologies.
+Methods
+This research complies with all relevant ethical regulations and was approved by the relevant institutional review boards and ethics committees. All animal work performed in this study was approved by the Institutional Animal Care and Use Committee at The Jackson Laboratory (Bar Harbor, Maine, USA) (protocol #12004-01). Collection and use of fresh femoral head specimens from individuals undergoing elective total hip replacement was approved by the Research Ethics Board of the University Health Network (UHN) (Toronto, Ontario, Canada) (protocol #REB 22-5692). Collection and use of fresh femoral head specimens from individuals undergoing total hip arthroplasty was approved by the ethics board at the Technical University of Munich (Munich, Germany) (protocol #399/21).
+Mice
+All
+Mus
+musculus strains were obtained from The Jackson Laboratory. C57BL/6J (RRID:IMSR_JAX:000664) mice, B6.SJL
+Ptprc
+a
+Pepc
+b
+/BoyJ (RRID:IMSR JAX:002014, referred to as CD45.1
++
+) mice and B6.Cg-Tg(Cdkn2a/luc/RFP/TK)1Cmps/J (RRID:IMSR JAX:037045
+42
+, referred to as p16-3MR) mice were obtained from and housed within The Jackson Laboratory. B6(Cg)-
+Dnmt3a
+tm1Trow
+/J (RRID:IMSR JAX:032289
+13
+, referred to as
+Dnmt3a
+fl-R878H/+
+) mice were crossed to B6.Cg-Tg(Mx-cre)1Cgn/J (RRID:IMSR JAX:003556
+62
+, referred to as Mx-Cre) mice or the combination of C57BL/6N-
+Fgd5
+tm3
+(
+cre
+/
+ERT2
+)
+Djr
+/J (RRID:IMSR JAX:027789
+63
+, referred to as Fgd5-CreER) and B6.Cg-
+Gt
+(
+ROSA
+)
+26Sor
+tm14
+(
+CAG
+−
+tdTomato
+)
+Hze
+/J (RRID:IMSR JAX:007914
+64
+, referred to as LSL-tdTomato) mice.
+Dnmt3a
+fl-R878H/+
+Mx-Cre mice were crossed to C57BL/6J-
+Ptprc
+em6Lutzy
+/J (RRID:IMSR JAX:033076, referred to as JAXBoy) mice to generate CD45.1
++
+Dnmt3a
+fl-R878H/+
+Mx-Cre mice. B6;129S-
+Tet2
+tm1.1Iaai
+/J (RRID:IMSR JAX:017573
+31
+, referred to as
+Tet2
+KO
+) mice were crossed to C57BL/6-Tg(Tal1
+−
+cre/ERT)42-056Jrg/J (RRID:IMSR JAX:037466
+65
+, referred to as Scl-CreER) mice and LSL-tdTomato mice. To study leukaemic transformation,
+Dnmt3a
+fl-R878H/+
+Mx-cre mice were crossed with C57BL/6-
+Npm1
+tm1Trow
+/J (RRID:IMSR JAX:033164
+13
+, referred to as
+Npm1
+frt−cA/+
+) mice and B6N.129S6(Cg)-
+Gt
+(
+ROSA
+)
+26Sor
+tm3
+(
+CAG
+−
+flpo
+/
+ERT2
+)
+Alj
+/J (RRID:IMSR JAX:019016
+66
+, referred to as
+R26
+FlpoER
+) mice. For AML models, Cre-inducible
+Npm1c
+mice
+67
+were crossed with Cre-inducible
+Flt3
+GL
+−
+ITD
+mice
+47
+and B6.Cg-
+Ndor1
+Tg
+(
+UBC
+−
+cre
+/
+ERT2
+)
+1Ejb
+/1J (RRID:IMSR JAX:007001
+68
+, referred to as UBC-Cre-ERT2) mice, or Cre-inducible
+Idh1
+R132H
+mice
+69
+were crossed with Cre-inducible
+Npm1c
+, Cre-inducible C57BL/6-
+Nras
+tm1Tyj
+/J (RRID:IMSR JAX:008304
+70
+, referred to as
+Nras
+G12D
+) and UBC-Cre-ERT2 mice. Mice carrying the Mx-Cre allele were given 15 mg kg
+−1
+polyinosinic–polycytidylic acid (poly(I:C), InvivoGen) by intraperitoneal (i.p.) injection every other day for a total of five doses between two and four months of age. After pIpC, genomic DNA was extracted from peripheral blood cells for recombination polymerase chain reaction (PCR). Using Mx-Cre, we consistently observe recombination efficiencies of >90% by PCR (Extended Data Fig.
+1a
+). Mice carrying the Fgd5-CreER allele were given 125 mg kg
+−1
+d
+−1
+TAM by oral gavage for three days. Mice carrying the Scl-CreER or UBC-Cre-ERT2 alleles were given 100 mg kg
+−1
+d
+−1
+TAM by oral gavage for two days. Mice carrying the
+R26
+FlpoER
+were given 125 mg kg
+−1
+d
+−1
+TAM by oral gavage for three days. Following poly(I:C) or TAM treatment, mice recovered for >5 weeks before use in experiments. Mice were housed in cages under specific pathogen-free conditions in a 12/12-h light/dark environment, with temperatures of 65–75 °F with 40–60% humidity, and food and water provided ad libitum. All mice were used at 2–4 months of age except where specified in the figures, and both males and females were used for experiments except for transplantation experiments, where female mice were used.
+Human subjects
+For human scRNA-seq, fresh femoral head specimens were collected from individuals undergoing elective total hip replacement at Toronto Western Hospital (University Health Network, UHN). Written informed consent was obtained from all participants according to procedures approved by the Research Ethics Board of the UHN. Participants were not financially compensated. Donors were between 52 and 81 years of age and had no known autoimmune conditions, cancers or haematologic disorders. Samples from both males and females were included. Sample details are provided in Supplementary Table
+3
+.
+For bulk RNA-seq, co-culture and cytokine culture analyses, human BM samples were obtained from femoral heads of haematologically healthy individuals undergoing total hip arthroplasty, and mutational analysis was performed to assess CH as previously described
+71
+. All tissue was taken following informed consent and under ethics approval from TU Munich 339/21. Participants were not compensated financially. Donors were between 18 and 80 years of age. Samples from both males and females were included. Sample details are provided in Supplementary Table
+3
+.
+BM transplantation
+For the transplantation experiment for scRNA-seq, 3 × 10
+6
+BM cells from
+Dnmt3a
++/+
+Fgd5-CreER LSL-tdTomato or
+Dnmt3a
+R878H/+
+Fgd5-CreER LSL-tdTomato donor mice were transplanted by retroorbital (RO) injection into nine-month-old CD45.1
++
+recipient mice treated with busulfan (20 mg kg
+−1
+d
+−1
+i.p. for three days) prior to transplant. For busulfan-conditioned transplant experiments into young CD45.1
++
+recipient mice, 3 × 10
+6
+BM cells from
+Dnmt3a
++/+
+Mx-Cre or
+Dnmt3a
++/+
+Fgd5-CreER or
+Dnmt3a
+R878H/+
+Mx-Cre or
+Dnmt3a
+R878H/+
+Fgd5-CreER donor mice were transplanted by RO injection into young (3 months) CD45.1
++
+recipient mice treated with busulfan (20 mg kg
+−1
+d
+−1
+i.p. for three days) before transplant. For non-conditioned transplant experiments, 5 × 10
+6
+BM cells from
+Dnmt3a
++/+
+Mx-Cre or
+Dnmt3a
+R878H/+
+Mx-Cre mice were transplanted by RO injection into young (2 months) or middle-aged (13 months) CD45.1
++
+recipient mice over three consecutive days. For transplant experiments into young p16-3MR mice, 3 × 10
+6
+BM cells from CD45.1
++
+Dnmt3a
++/+
+Mx-Cre or CD45.1
++
+Dnmt3a
+R878H/+
+Mx-Cre mice were transplanted by RO injection into young (3 months) CD45.2
++
+recipient mice treated with busulfan (20 mg kg
+−1
+d
+−1
+i.p. for three days) before transplant. For transplant experiments assessing AML transformation, 3 × 10
+6
+BM cells from
+Dnmt3a
++/+
+Mx-Cre
+Npm1
++/+
+R26
+FlpoER
+or
+Dnmt3a
+R878H/+
+Mx-Cre
+Npm1
+frt−cA/+
+R26
+FlpoER
+mice were transplanted by RO injection into young (3 months) CD45.1
++
+recipient mice treated with busulfan (20 mg kg
+−1
+d
+−1
+i.p. for three days) before transplant. For secondary BM transplant, 3 × 10
+6
+BM cells from primary transplant recipients were transplanted by RO injection into young (3 months) CD45.1
++
+recipient mice treated with irradiation (10 Gy) prior to transplant. For transplant of AML, 5 × 10
+5
+BM cells from
+Npm1
+/
+Flt3
+ITD
+mice or
+Idh1
+/
+Npm1
+/
+Nras
+G12D
+mice were transplanted by RO injection into young (3 months) CD45.1
++
+recipient mice treated with busulfan (20 mg kg
+−1
+d
+−1
+i.p. for three days) or irradiation (10 Gy).
+BM isolation and cell sorting for scRNA-seq
+For mouse haematopoietic cell isolation, single-cell suspensions of BM were prepared by filtering crushed femurs, tibias and iliac crests from each mouse. Red cells were lysed using 1X red blood cell lysis buffer (ThermoFisher). Cells were then stained with a combination of fluorochrome-conjugated antibodies: CD45.1 BV650 (clone A20, BioLegend cat. no. 110736, dilution 1:200), CD45.2 A700 (clone 104, BioLegend cat. no. 109822, dilution 1:50), c-Kit APC (clone 2B8, BD Biosciences cat. no. 553356, dilution 1:200), Sca-1 BV510 (clone D7, BioLegend cat. no. 108129, dilution 1:200), CD150 BV785 (clone TC15-12F12.2, BioLegend cat. no. 115937, dilution 1:200), CD48 PE-Cy7 (clone HM48-1, BioLegend cat. no. 103424, dilution 1:200), Flt3/CD135 BV421 (clone A2F10, BioLegend cat. no. 135313, dilution 1:50), CD34 FITC (clone RAM34, BD Biosciences cat. no. 553733, dilution 1:50), FcgR BV711 (clone 93, BioLegend cat. no. 101337, dilution 1:200), CD11b BV605 (clone M1/70, BioLegend cat. no. 101257, dilution 1:200), a mature lineage (Lin) marker mix including B220 PE-Cy5 (clone RA3-6B2, BioLegend cat. no. 103210, dilution 1:200), CD4 PE-Cy5 (clone RM4-5, BioLegend cat. no. 100514, dilution 1:200), CD5 PE-Cy5 (clone 53-7.3, BioLegend cat. no. 100610, dilution 1:200), CD8a PE-Cy5 (clone 53-6.7, BioLegend cat. no. 100710, dilution 1:200), Ter119 PE-Cy5 (clone Ter119, BioLegend cat. no. 116210, dilution 1:200) and Gr-1 PE-Cy5 (clone RB6-8C5, Biolegend cat. no. 108410, dilution 1:200), and a viability stain. For isolation of non-haematopoietic cells, femurs, tibias and iliac crests were cut in half then spun into 100 μl of phosphate-buffered saline (PBS). The cell pellet was resuspended in 5 ml of digest solution (2 mg ml
+−1
+collagenase IV and 1 mg ml
+−1
+dispase in 1X Hank’s balanced salt solution (HBSS)) in one well of a six-well plate. The bone was chopped into bone chips and placed into 5 ml of digest solution in one well of a six-well plate. The plate was incubated at 37 °C in 5% CO
+2
+for 10 min. Bone chips were mixed, digest solution was removed from the BM plug and added to ice-cold fluorescence-activated cell sorting (FACS) buffer (3% FBS in PBS) and replaced with fresh 5 ml of digest solution. This was repeated three times, and all digest buffer was pooled into ice-cold FACS buffer and filtered. Cells were then stained with a combination of fluorochrome-conjugated antibodies: CD45 BV650 (clone 30-F11, BD Biosciences cat. no. 563410, dilution 1:100), Ter119 PE-Cy5 (clone Ter119, BioLegend cat. no. 116210, dilution 1:200), CD41 FITC (clone MWReg 30, BioLegend cat. no. 133904, dilution 1:200), CD31 APC (clone MEC13.3, BioLegend cat. no. 102510, dilution 1:200), CD71 PE (clone
+R17217
+, Invitrogen cat. no. 12-0711-82, dilution 1:200), CD51 BV711 (clone RMV-7, BD Biosciences cat. no. 740755, dilution 1:100) and a viability stain. From each individual mouse, haematopoietic and non-haematopoietic cell fractions were kept separate and serially sorted into the same collection tube. First, haematopoietic cell populations were sorted on a FACSAria II (BD): 5,000 mature haematopoietic cells (CD45.2
++
+tdTomato
++
+Lin
++
+), 6,000 committed haematopoietic progenitors (CD45.2
++
+tdTomato
++
+Lin
+−
+c-Kit
++
+Sca1
+−
+) and 7,000 haematopoietic stem and multipotent progenitor cells (CD45.2
++
+tdTomato
++
+Lin
+−
+c-Kit
++
+Sca1
++
+) into a 1.5-ml tube with 10 μl of Iscove’s modified Dulbecco’s medium (IMDM) + 10% FBS at 4 °C. Next, this tube was transferred to sort non-haematopoietic cell populations using a FACSymphony S6 instrument (BD): 2,000 endothelial cells (CD45.2
+−
+Ter119
+−
+CD41
+−
+CD31
++
+) and 8,000 MSCs (CD45.2
+−
+Ter119
+−
+CD41
+−
+CD31
+−
+CD71
+−
+CD51
++
+). Cells were immediately counted on a Countess II automated cell counter (ThermoFisher) and 12,000 cells were loaded on to one lane of a 10X Chromium microfluidic chip (10X Genomics).
+For human scRNA-seq, targeted sequencing of matched BM and peripheral blood was carried out by the Advanced Molecular Diagnostics Laboratory at the Princess Margaret Cancer Centre using a single-molecule molecular inversion probe (SmMIP) panel encompassing 36 genes frequently mutated in myeloid clonal haematopoiesis
+72
+. Low quality (based on assay parameters), common or germline (based on MAF), and likely benign (based on variant type and Combined Annotation-Dependent Depletion (CADD) score) variants were filtered out. Individuals were designated as CHIP-positive when at least one high-confidence variant with VAF ≥ 2% was detected. CHIP samples had mutations in
+DNMT3A
+,
+TET2
+,
+ASXL1
+and/or
+CCAR1
+. Processing of femoral head tissue was performed following previously reported procedures
+19
+. BM cells were flow-sorted to exclude haematopoietic (CD45
++
+), erythroid (GlyA
++
+) and plasma (CD38
++
+) populations. The enriched non-haematopoietic cell fraction was used for scRNA-seq.
+scRNA-seq
+For mouse scRNA-seq, single-cell capture, barcoding and library preparation were performed using 10X Chromium version 3.1 NEXTGEN chemistry according to the manufacturer’s protocol. Before sequencing, quality control of the cDNA libraries was assessed using an Agilent 4200 Tapestation set-up and quantified by KAPA qPCR. Libraries were sequenced using an Illumina NovaSeq 6000 S4 flow cell lane targeting 6,000 barcoded cells with an average sequencing depth of 75,000 reads per cell. Illumina base call files for all libraries were demultiplexed and converted to FASTQs using Bcl2fastq v2.20.0.422. The Cell Ranger pipeline (10X Genomics) was used to align reads to the mouse reference GRCm38.p93 (mm10 10X Genomics reference 2020-A), deduplicate reads, call cells, and generate cell-by-gene digital count matrices. Matrices were imported into PartekFlow (version 10.0.23.0720) for downstream analysis including log transformation, principal component analysis (PCA), graph-based clustering using the Louvain algorithm from the top 18 principal components,
+t
+-distributed stochastic neighbour embedding (
+t
+-SNE) visualization, and pathway enrichment analysis. The top 25 marker genes per cluster (Supplementary Table
+1
+) were cross-referenced with published scRNA-seq profiles to annotate each population. Wild-type (+/+) and mutant (R878H)
+Dnmt3a
+transcripts were identified using samtools v1.13 mpileup
+73
+, and cells were labelled with mutation status using base functions in R v4.2.2. The MSC cluster was further subclustered to remove residual haematopoietic cells using Seurat v5.3.0
+74
+in R. Differential gene expression (DGE) analysis by genotype within each cluster was performed using the Hurdle model in Partek, equivalent to MAST
+75
+.
+For human scRNA-seq, single-cell transcriptomic libraries were generated using either the Chromium Next GEM Single Cell 3′ or Chromium GEM-X 3′ kit (10X Genomics) and sequenced according to the manufacturer’s protocols. Reads were aligned to the GRCh38 reference genome with Cell Ranger. Cells containing fewer than 300 detected genes, greater than 10% mitochondrial gene content, or identified as doublets via scDblFinder were excluded. scRNA-seq analysis was performed using a standard Seurat workflow: gene expression was normalized (LogNormalize), the top 2,000 variable genes were identified (FindVariableFeatures), expression was scaled (ScaleData), and PCA was performed (RunPCA) and used for batch correction (RunHarmony) based on sequencing chemistry. Uniform manifold approximation and projection (UMAP) dimensionality reduction (RunUMAP) and clustering (FindNeighbors, FindClusters) were performed using the first 20 dimensions of the batch-corrected PCA. Cluster annotation used presto for DGE analysis combined with assessment of top marker genes. MSCs were identified using previously published signatures
+19
+and characterized based on high expression of
+NGFR
+,
+PDGFRA
+,
+CXCL12
+,
+LEPR
+,
+PPARG
+,
+LPL
+,
+APOE
+,
+SPP1
+,
+NCAM1
+and
+WIF1
+. For DGE analysis between CHIP and non-CHIP samples, a pseudobulk approach was applied; samples with fewer than 50 cells per population were excluded. DESeq2 was used to model CHIP status while controlling for age, obesity, sex and sequencing chemistry
+76
+. Variance-stabilized (VST) normalized counts were further adjusted for chemistry differences using the limma function removeBatchEffect.
+GSEA
+GSEA with GO
+77
+, Hallmark
+78
+, Reactome
+79
+and other curated gene sets listed in Supplementary Table
+2
+was performed using GSEA software
+79
+,
+80
+. A separate pre-ranked GSEA was performed to test specific SASP and inflammatory signatures, as described in the following.
+Senescence score computation
+A composite senescence score was computed using the FRIDMAN_SENESCENCE_UP gene set
+18
+(77 genes upregulated during cellular senescence). For mouse and human scRNA-seq data, per-cell module scores were computed using the AddModuleScore function in Seurat
+74
+with default parameters, which calculates the average expression of the signature genes relative to a set of randomly sampled control genes matched for expression level. For bulk human MSC RNA-seq data from co-culture experiments, per-sample scores were calculated as the mean expression value across all signature genes detected in the dataset, without prior per-gene standardization.
+GO term biological category classification
+To reduce redundancy in the GO enrichment output and facilitate cross-cell-type comparison, all significantly enriched GO terms (FDR < 0.05) were assigned to one of 17 predefined biological categories using a keyword-based classification applied to GO term descriptions. Categories were defined as: General Metabolism & Regulation, Development & Differentiation, Inflammation & Immune Response, Transport & Localization, Transcription & Epigenetics, Vesicle & Secretory Trafficking, Cell Cycle & Proliferation, Apoptosis & Cell Death, Cytoskeleton & Motility, Signalling Pathways, Translation & Ribosome, Energy & Mitochondrial Metabolism, Proteostasis, Lipid Metabolism, DNA Damage & Repair, Oxidative Stress & ROS, and ECM & Cell Adhesion. Each term was assigned to the first matching category in a fixed priority order using a curated keyword list matched against the lower-cased GO term description; terms matching no category were retained as unclassified. All GO terms passing the FDR threshold were included; none were excluded after categorization. Six categories were designated senescence-relevant based on their established roles in senescence and SASP: Senescence & Ageing, Cell Cycle & Proliferation, DNA Damage & Repair, Oxidative Stress & ROS, ECM & Cell Adhesion, and Inflammation & Immune Response. Full category assignments and enrichment statistics are provided in the source data.
+Pre-ranked GSEA for SASP and inflammatory MSC signatures
+To test whether SASP and inflammatory gene signatures are differentially enriched in MSCs from mice with
+Dnmt3a
+-mutant versus control haematopoiesis, pre-ranked GSEA was performed using the GSEA desktop application (Broad Institute, v4.3.2) in GseaPreranked mode. All expressed genes were ranked by log
+2
+(fold change) derived from the Hurdle model output, from most upregulated in mutant to most upregulated in control, without filtering for significance. Five gene sets were tested: (1) a curated SASP signature derived from published secretory phenotype gene lists; (2) an inflammatory MSC (iMSC) gene signature adapted from Wang et al.
+22
+comprising genes upregulated in BM MSCs of multiple myeloma patients compared to healthy donors, with mouse orthologues identified using published one-to-one orthologue mappings; (3) Hallmark IFN-α response; (4) Hallmark inflammatory response; and (5) Hallmark IFN-γ response (gene sets iii–v from MSigDB v7.5
+75
+). Normalized enrichment scores (NES) and FDR
+q
+-values were calculated using 1,000 permutations; gene sets with fewer than ten members detected in the ranked list were excluded.
+Leading edge gene extraction
+Leading edge subsets were extracted from the GSEA results (.edb) output files for each gene set. For positively enriched gene sets (enrichment score > 0), the leading edge comprises genes ranked above the peak enrichment score position; for negatively enriched gene sets (enrichment score < 0), it comprises genes ranked below that position. The ranking score shown in Extended Data Fig.
+1k
+is the log
+2
+(fold change) from the pre-ranked input list, with positive values indicating higher expression in mutant MSCs and negative values indicating higher expression in control MSCs. Genes appearing in the leading edge of more than one downregulated gene set are annotated as ‘Multiple’ in the figure.
+Ranked scatter plot of all enriched GO terms
+All GO terms significantly enriched in MSC DEGs (
+n
+= 3,227 terms at FDR < 0.05) were plotted in rank order by enrichment score on a log-scale
+y
+axis. Each point represents one GO term, colour-coded by biological category as defined above; terms not assigned to a senescence-relevant category are shown in grey.
+Human gene-set z-score analysis
+To assess whether the dissociation between SASP and inflammatory/iMSC signature enrichment observed in mouse MSCs is conserved in human CHIP, gene-set z-scores were calculated from VST-normalized, chemistry-corrected pseudobulk expression data generated from primary human MSCs from CHIP carriers (
+n
+= 6) and non-carrier controls (
+n
+= 7). For each gene in each signature, expression values were standardized across all samples by subtracting the gene mean and dividing by the gene standard deviation. The per-sample gene-set score was then calculated as the mean standardized value across all genes in the signature that were detected in the dataset. Differences between groups were tested using an unpaired two-sample
+t
+test.
+MSC quantification
+We evaluated staining of common markers used to define MSCs, including CD51 BV711 (clone RMV-7, BD Biosciences cat. no. 740755, dilution 1:100), PDGFRα APC/eFluor780 (clone APA5, Invitrogen cat. no. 47-1401-82, dilution 1:50) and biotinylated LepR (R&D Systems cat. no. BAF497, dilution 1:200) with streptavidin-BV421 (BioLegend cat. no. 405226, dilution 1:200) (Extended Data Fig.
+2b–f
+). Co-expression of PDGFRα and LepR defined a population of CD51
++
+stromal cells as MSCs and PDGFRα
++
+LepR
++
+cells were not present in gated CD31
++
+ECs within the same stained sample. Thus, we used the EC population as an internal negative gating control within each sample. PDGFRα
++
+stromal cells are strongly enriched for LepR
++
+cells, whereas LepR
++
+stromal cells are strongly enriched for PDGFRα
++
+cells. This is highly consistent with the original report by Zhou et al. showing that nearly all LepR
++
+CD45
+−
+Ter119
+−
+CD31
+−
+BM stromal cells were positive for PDGFRα and nearly all PDGFRα
++
+CD45
+−
+Ter119
+−
+CD31
+−
+BM cells were LepR, and these MSC populations make up ~0.3% of the whole bone marrow (WBM)
+81
+.
+MSC senescence quantification
+Individual senescence readouts have limited sensitivity, so we applied rigorous complementary analyses to validate MSC senescence. We first developed our staining strategy for detecting senescent MSCs using wild-type young and old C57BL/6J mice (Extended Data Fig.
+2g–k
+). To assess marker concordance, we examined co-expression patterns within PDGFRα
++
+LepR
++
+MSCs from old mice. Bcl-2
++
+Bcl-xL
++
+MSCs were markedly enriched for SA-β-gal
+hi
+cells, and SA-β-gal
+hi
+MSCs showed increased representation of Bcl-2
++
+Bcl-xL
++
+cells. Correlation analyses across all PDGFRα
++
+LepR
++
+MSCs from young and old mice revealed significant positive correlations between SA-β-gal mean fluorescence intensity (MFI), frequency of Bcl-xL
++
+, frequency of Bcl-2
++
+, and median SSC, which was independent of MSC abundance. Gene expression analysis on sorted MSCs from young and old mice further demonstrated that SA-β-gal MFI strongly correlated with transcript levels of
+Cdkn2a
+(p16),
+Cdkn1a
+(p21) and
+Trp53
+(p53). Taken together, these data confirm that SA-β-gal, Bcl-2, Bcl-xL,
+Cdkn2a
+,
+Cdkn1a
+and
+Trp53
+collectively identify a coherent senescent MSC population.
+As senescent mesenchymal cells marked by p16 and BCL-2 have been demonstrated to increase with ageing
+26
+,
+27
+,
+28
+, we further validated our approach of assessing MSC senescence using wild-type young and old C57BL/6J mice (Extended Data Fig.
+3a–n
+). In old mice, PDGFRα
++
+LepR
++
+MSCs showed increased SA-β-gal MFI, increased frequency of Bcl-xL
++
+Bcl-2
++
+MSCs and a higher proportion of senescent (SA-β-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs compared to young mice. Consistent with established features of senescence, senescent MSCs (SA-β-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) also exhibited increased forward scatter (size) and side scatter (granularity) compared to non-senescent MSCs (SA-β-gal
+lo
+Bcl-xL⁻ Bcl-2⁻) within the same mice. We next validated these markers using an irradiation-induced DNA damage model. Irradiated (5 Gy) young p16-reporter mice displayed increased SA-β-gal levels in PDGFRα
++
+LepR
++
+MSCs, a higher frequency of Bcl-xL
++
+Bcl-2
++
+MSCs, and an increase in senescent MSCs (SA-β-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) compared to non-irradiated controls. Irradiation also induced an increase in p16-mRFP reporter signal in MSCs. SA-β-gal
+hi
+MSCs were enriched for p16-mRFP
+hi
+cells, and SA-β-gal
+hi
+p16-mRFP
+hi
+MSCs increased after irradiation. These SA-β-gal
+hi
+p16-mRFP
+hi
+senescent MSCs exhibited increased granularity and size compared to SA-β-gal
+lo
+p16-mRFP
+lo
+MSCs, mirroring the phenotype observed using SA-β-gal, Bcl-2 and Bcl-xL markers.
+Human MSC and HSPC co-culture
+Trabecular bone was minced, and mononuclear cells were extracted by gradient separation using Ficoll. MSCs were further isolated by plastic adherence and cryopreserved until use. CD34
++
+HSPCs were isolated from cryopreserved MNCs using the human CD34 MicroBead Kit (Miltenyi). For RNA-seq experiments, a total of 0.5 × 10
+5
+CD34
++
+cells ml
+−1
+were seeded on top of a human MSC layer at a 1:2 ratio in serum free medium (80% IMDM with 20% BIT9500), supplemented with 10 µM β-mercaptoethanol, 0.4% ciprofloxacin, 2% FCS-MSC graded, and human stem cell factor (SCF; 10 ng ml
+−1
+), Flt3L (10 ng ml
+−1
+) and thrombopoietin (TPO) (2.5 ng ml
+−1
+). After 42 h of culture at 37 °C and 5% CO
+2
+, cells were collected and sorted by FACS to isolate pure HSPC (CD45
++
+CD34
++
+) and MSC (CD45
+−
+CD90
++
+) populations. MSCs were used as input into the Prime-seq protocol
+82
+to prepare the libraries, which were sequenced using a NovaSeq6000 instrument. GSEA was performed with counts per million (c.p.m.) values and the SAUL_SEN_MAYO dataset
+33
+. For SA-β-gal staining experiments, a total of 0.1 × 10
+5
+CD34
++
+cells ml
+−1
+were seeded on top of a human MSC layer at a 1:1 ratio in serum free medium (80% IMDM with 20% BIT9500), supplemented with 10 µM β-mercaptoethanol, 0.4% ciprofloxacin and human SCF (100 ng ml
+−1
+), Flt3L (100 ng ml
+−1
+) and TPO (25 ng ml
+−1
+). After six days of culture at 37 °C and 5% CO
+2
+, MSCs were collected and stained for MSC surface markers and β-galactosidase by flow cytometry. For cytokine treatment experiments, 3 × 10
+4
+hMSCs were seeded in 24-well plates and cultured for two days with αMEM supplemented with 1% Pen/Strep, 10 U ml
+−1
+heparin, 1%
+L
+-glutamine and 10% human platelet lysate. Cells were then treated with 5 ng ml
+−1
+recombinant human TNF-α (PeproTech), 50 ng ml
+−1
+recombinant human IL-6 (PeproTech) or 10 ng ml
+−1
+recombinant human IL-1β (PeproTech) for four days. Cells were washed with PBS and stained with 25 μl of 1,000× diluted Zombie-NIR (BioLegend), followed by 15-min incubation at room temperature in the dark. Cells were then washed with FACS buffer and subjected to surface marker antibody staining using CD105 FITC (clone SN6/N1-3A1, Ancell cat. no. 326-040, dilution 1:100), CD90 PE (clone 5E10, BioLegend cat. no. 328110, dilution 1:100) or CD90 APC (clone 5E10, BioLegend cat. no. 328114, dilution 1:100), CD73 PE-Cy7 (clone AD2, BioLegend cat. no. 344010, dilution 1:100) and CD45 eFluor450 (clone HI30, ThermoFisher Scientific cat. no. 48-0459-42, dilution 1:100). The following panel was used for MSCs: CD45
+−
+CD73
++
+CD90
++
+. Cells were stained with the antibody cocktail for 20 min at 4 °C in the dark. Subsequently, the Cell Event Senescence Kit (ThermoFisher) was used for β-galactosidase staining. Cells were fixed in 2% paraformaldehyde (PFA), incubated for 10 min at room temperature, and stained in 0.25× staining mix solution for 1 h at 37 °C without CO
+2
+. Samples were analysed using the CytoFLEX S flow cytometer (Beckman Coulter). FlowJo V10 was used for data analysis.
+Flow cytometry of mouse cells
+The following surface marker combinations, using the antibodies described above, were used for cell sorting and/or analysis: HSCs (Lin
+−
+Sca-1
++
+c-Kit
++
+Flt3
+−
+CD150
++
+CD48
+−
+), MPP
+G/M
+(Lin
+−
+Sca-1
++
+c-Kit
++
+Flt3
+−
+CD150
+−
+CD48
++
+), LSK cells (Lin
+−
+Sca-1
++
+c-Kit
++
+), post-culture HSPCs (Lin
+−
+Sca-1
++
+Flt3
+−
+CD150
++
+CD48
+−
+), GMPs (Lin
+−
+Sca-1
+−
+c-Kit
++
+CD16/32
++
+CD34
++
+), B cells (B220
++
+CD11b
+−
+CD3e
+−
+), T cells (CD3e
++
+B220
+−
+CD11b
+−
+), myeloid cells (CD11b
++
+B220
+−
+CD3
+−
+), granulocytes (CD11b
++
+B220
+−
+CD3
+−
+Ly6g
++
+Ly6c
++
+), in vivo MSCs (CD45
+−
+CD41
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+LepR
++
+), ex vivo MSCs (CD45
+−
+CD41
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRα
++
+) and endothelial cells (CD45
+−
+CD41
+−
+Ter119
+−
+CD31
++
+). Additional antibodies included CD126 (IL6R) BUV563 (clone D7715A7, BD Biosciences cat. no. 741296, dilution 1:50), CD120a (TNFR Type 1/p55) PE (clone 55R-286, BioLegend cat. no. 113003, dilution 1:50) and CD120b (TNFRII) PE-Vio770 (clone REA1, Miltenyi Biotec cat. no. 130-104-746, dilution 1:50). Antibody cocktails were incubated with BM cells for >30 min at 4 °C. For secondary antibody staining, cells were stained first with cell-surface antibodies as described above. The cells were then washed and stained with streptavidin-BV421 at 4 °C for 30 min. For β-galactosidase staining, cells were incubated with C12FDG (5-dodecanoylaminofluorescein di-β-
+D
+-galactopyranoside, ThermoFisher) for 2 h at 37 °C and washed twice before staining with surface marker antibodies. For the CellROX Green Reagent stain (ThermoFisher), cells were incubated with CellROX Green for 30 min at 37 °C and washed three times before staining with surface marker antibodies. For the cell tracer experiments cells were incubated with CellTrace Yellow (ThermoFisher) for 20 min at 37 °C and washed twice before the addition of conditioned media. For experiments using Bcl-xL A700 (clone 54H6, Cell Signaling Technology cat. no. 48382S, dilution 1:100) or Bcl-xL AF488 (clone 54H6, Cell Signaling Technology cat. no. 2767S, dilution 1:100), Bcl-2 PE-Vio770 (clone REA356, Miltenyi Biotec cat. no. 130-105-475, dilution 1:20), pStat3 (Tyr705) AF488 (clone D3A7, Cell Signaling Technology cat. no. 4323S, dilution 1:100), phospho-p44/42 MAPK (Thr202/Tyr204) Alexa Fluor 647 (clone E10, Cell Signaling Technology cat. no. 4375S, dilution 1:100), phospho-NF-κB p65 (Ser536) PE (clone 93H1, Cell Signaling Technology cat. no. 5733S, dilution 1:100) or phospho-AKT (Ser473) PE-CF574 (clone M89-61, BD Biosciences cat. no. 562465, dilution 1:100), BM cells were first stained with cell-surface antibodies, then fixed and permeabilized using the FIX & PERM cell permeabilization kit (ThermoFisher), as per the manufacturer’s instructions, before intracellular staining. Stained cells were sorted using a FACSAria II or a FACSymphony S6 Sorter, or analysed on a FACSymphony A5 instrument. FlowJo V10 was used for data analysis.
+Real-time PCR for senescence genes
+RNeasy Micro Kit (Qiagen) was used to extract whole-cell RNA. A qRT–PCR assay was performed using Power SYBR Green PCR Master Mix (Applied Biosystems). PCRs had a pre-amplification (50 °C/120 s, 95 °C/10 min) and were then amplified for 40 cycles (95 °C/15 s, 60 °C/60 s), and the final step was a melt curve (95 °C/15 s, 60 °C/60 s 95 °C/15 s) on a QuantStudio 7 Flex set-up (ThermoFisher). Messenger RNA (mRNA) expression was normalized against hypoxanthine guanine phosphoribosyltransferase (
+Hprt
+) using the comparative cycle threshold method. Custom primers were designed and purchased from Integrated DNA Technologies; sequences are shown in Supplementary Table
+4
+.
+Mouse peripheral blood analysis
+Peripheral blood was collected from mice via retro-orbital bleed. Red blood cells were lysed, and cells were stained with CD45.1 BV650 (clone A20, BioLegend cat. no. 110736, dilution 1:200), CD45.2 A700 (clone 104, BioLegend cat. no. 109822, dilution 1:50), B220 BUV496 (clone RA3-6B2, BD Biosciences cat. no. 612950, dilution 1:200), CD3e PerCP-Cy5.5 (clone 145-2C11, BioLegend cat. no. 100328, dilution 1:200), CD11b APC-Cy7 (clone M1/70, BioLegend cat. no. 101266, dilution 1:200), Ly6g APC (clone 1A8, BioLegend cat. no. 127614, dilution 1:200), Ly6c BV605 (clone HK1.4, BioLegend cat. no. 128035, dilution 1:200), F4/80 PE-Cy7 (clone BM8, Invitrogen cat. no. 25-4801
+−
+82, dilution 1:200) and Ter119 BV421 (clone Ter119, BioLegend cat. no. 116233, dilution 1:50). Data were captured using an LSRII instrument (BD) and analysed using FlowJo V10. Complete blood counts were performed on whole blood using an Advia 120 Hematology Analyzer (Siemens).
+Luminex analysis
+For multiplexed ELISA (Luminex) experiments following transplant with
+Dnmt3a
+R878H/+
+Mx-Cre BM, one femur and one tibia were cut in half then spun into 100 μl of PBS. For experiments using conditioned media, BM was prepared by isolating, filtering and crushed pooled tibias, femurs and iliac crests of each mouse. Haematopoietic stem and progenitor cells were isolated using CD117 MicroBeads, mouse (Miltenyi), and cultured in StemSpan SFEM II (StemCell Technologies) and 10 ng ml
+−1
+recombinant murine SCF (StemCell Technologies) for seven days. Cells were centrifuged at 300
+g
+for 5 min at 4 °C, then the supernatant was collected and spun again at 1,300
+g
+for 10 min at 4 °C to isolate conditioned medium. For SASP analysis, HSPC CM was collected as described above and placed on 75,000 MSCs in a 24-well plate for seven days. The HSPC CM was then washed off and replaced with normal MSC growth medium for three days. The medium was collected and centrifuged at 300
+g
+for 5 min at 4 °C and the supernatant was collected and spun again at 1,300
+g
+for 10 min at 4 °C before analysis. Custom Luminex assays were used to assess analyte levels including mouse GDF-15, IL-6, TNF-α, IL-1α, IL-1β, MMP3, OPN, G-CSF and CXCL12 (R&D Systems).
+Mouse cell line and primary cell culture
+Cell culture was carried out in 5% CO
+2
+in a humidified incubator at 37 °C. MSCs were isolated from mouse BM by adherence to tissue culture plastic and expanded in minimum essential media (MEM) containing 20% FBS plus 1% Pen/Strep as described previously
+83
+. MSC marker expression (CD45
+−
+Ter119
+−
+CD51
++
+CD31
+−
+) was confirmed by flow cytometry. A BM endothelial cell line (BMEC, obtained from J. Butler) was cultured in low-glucose DMEM and Ham’s F-12 (1:1 ratio), supplemented with 20% heat-inactivated FBS, 1% Pen/Strep, 1% nonessential amino acids (Gibco), 10 mM Hepes (Gibco), 100 µg ml
+−1
+heparin (Sigma-Aldrich) and 50 µg ml
+−1
+endothelial growth factor (Sigma-Aldrich), as previously described
+32
+. HSPCs were isolated using CD117 MicroBeads, mouse (Miltenyi). MSCs or BMECs were seeded at a density of 75,000 cells in a 24-well plate in normal growth medium. Once 70% confluent, 0.1 × 10
+6
+HSPCs were then co-cultured with the MSCs or BMECs for seven days. Following this co-culture, haematopoietic cells were washed from MSCs and BMECs prior to analysis, and cell surface marker staining of CD45 was incorporated to exclude any residual haematopoietic cells. HSPCs were removed and analysed by flow cytometry. MSCs were analysed by flow cytometry, or RNA was extracted for qPCR. For transwell assays, MSCs were seeded at a density of 75,000 cells in a 24-well plate in normal growth medium. Once 70% confluent, 0.1 × 10
+6
+HSPCs were seeded in transwells on top of the MSCs for seven days. MSCs were then analysed by flow cytometry, or RNA was extracted for qPCR. For conditioned media cultures, HSPCs were cultured in StemSpan SFEM II (StemCell Technologies) and 10 ng ml
+−1
+recombinant murine SCF (StemCell Technologies) for seven days. Cells were centrifuged at 300
+g
+for 5 min at 4 °C, then the supernatant was collected and spun again at 1,300
+g
+for 10 min at 4 °C to isolate conditioned medium (HSPC CM). HSPC CM was placed on 75,000 MSCs in a 24-well plate for seven days and analysed by flow cytometry and qPCR. For cell tracer experiments, cells were seeded at a density of 50,000 cells in a 24-well plate in normal growth medium. After 24 h, cells were stained with CellTrace Yellow, the stain was washed off, and HSPC CM was added for seven days. MSCs were analysed by flow cytometry. For cytokine treatment, MSCs were seeded at a density of 75,000 cells in a 24-well plate in normal growth medium. MSCs were then treated with 1 ng ml
+−1
+or 5 ng ml
+−1
+recombinant murine TNF-α (PeproTech), 50 ng ml
+−1
+recombinant murine IL-6 (StemCell Technologies), 3 ng ml
+−1
+recombinant murine IL-1α (PeproTech) or 3 ng ml
+−1
+recombinant murine IL-1β (PeproTech) for seven days and analysed by flow cytometry. For inhibitor assays, MSCs were cultured with HSPC CM for five days with 10 µg ml
+−1
+elsilimomab (MedChemExpress), 1 µg ml
+−1
+etanercept (Millipore Sigma) or 5 µM Stattic (MedChemExpress). MSCs were then analysed by flow cytometry.
+Senescence β-galactosidase assay
+A senescence β-galactosidase staining kit (Cell Signaling Technology) was used to detect senescence-associated β-galactosidase (SA-β-gal) in MSCs. MSCs were seeded at a density of 75,000 cells in a 24-well plate. HSPC CM was placed on for five days and stained using the SA-β-gal staining kit following the manufacturer’s instructions. Imaging data were collected using a Leica Dmi1 microscope at ×20 magnification. Five randomly selected non-overlapping optical fields per well were analysed for SA-β-gal + MSC area using ImageJ, following an established protocol
+84
+.
+Irradiation for senescence induction
+p16-3MR mice received a single dose of sublethal irradiation (5 Gy). Control non-irradiated p16-3MR mice were placed in the irradiator for the same period without irradiation. Mice were housed for eight weeks post-irradiation before BM harvest and analysis by flow cytometry.
+Targeting senescent cells in vivo
+In the p16-3MR model, 25 mg kg
+−1
+d
+−1
+ganciclovir (MedChemExpress; in PBS) was administered by i.p. injection for five consecutive days to deplete p16-expressing cells. ABT-263 (Selleck; in ethanol:polyethylene glycol 400:Phosal 50 PG at a ratio of 10:30:60) was administered to mice by oral gavage at 50 mg kg
+−1
+d
+−1
+for seven days followed by 14 days off, repeated twice, then 5 mg kg
+−1
+d
+−1
+dasatinib (Selleck) and 50 mg kg
+−1
+d
+−1
+quercetin (Selleck) (D + Q) (in 10% PEG 400/saline) or vehicle control was administered to mice by oral gavage for three days followed by four days off, repeated for four weeks.
+CFU assay
+BM cells or HSPCs (ckit
++
+) were plated in MethoCult GF M3434 medium (StemCell Technologies) and cultured at 37 °C and 5% CO
+2
+. Colonies were scored 7–10 days post plating using a Nikon Eclipse TS100 inverted microscope. For CFU replating assay, colonies were harvested, and 1.5 × 10
+4
+cells were replated in MethoCult GF M3434.
+Statistics and reproducibility
+No statistical method was used to predetermine sample size. No data were excluded from the analyses. The experiments were not randomized except where noted above. The investigators were not blinded to allocation during the experiments and outcome assessment except where noted above. For ex vivo imaging experiments, investigators were blinded to mouse genotypes prior to and during data analysis. For mouse experiments, animals were randomly assigned to experimental groups. All statistical tests were performed using Prism 9 software (GraphPad) as described in the figure legends. Data distribution was assumed to be normal, but this was not formally tested. Differences among group means were considered significant when the probability value was <0.05. Sample size (
+n
+) represents number of biological replicates.
+Reporting Summary
+Further information on research design is available in the
+Nature Portfolio Reporting Summary
+linked to this Article.
+Data availability
+All data supporting the findings in this study are available within the Article, Supplementary tables and source data files. Sequencing data that support the findings of this study have been deposited in the Gene Expression Omnibus (GEO) under accession codes
+GSE240686
+(mouse scRNA-seq data shown in Fig.
+1
+) and
+GSE299122
+(human bulk RNA-seq data shown in Fig.
+3e–g
+), and the source data for human MSC scRNA-seq shown in Fig.
+1g,h
+are provided in the source data file for Fig.
+1
+. All other data supporting the findings of this study are available from the corresponding author on reasonable request.
+Source data
+are provided with this paper.
+References
+Greaves, M. & Maley, C. C. Clonal evolution in cancer.
+Nature
+481
+, 306–313 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Mendelson, A. & Frenette, P. S. Hematopoietic stem cell niche maintenance during homeostasis and regeneration.
+Nat. Med.
+20
+, 833–846 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Jaiswal, S. & Ebert, E. L. Clonal hematopoiesis in human aging and disease.
+Science
+366
+, eaan4673 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+van den Akker, E. B. et al. Dynamic clonal hematopoiesis and functional T-cell immunity in a supercentenarian.
+Leukemia
+35
+, 2125–2129 (2021).
+Article
+PubMed
+Google Scholar
+Genovese, G. et al. Clonal hematopoiesis and blood-cancer risk inferred from blood DNA sequence.
+N. Engl. J. Med.
+371
+, 2477–2487 (2014).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Pich, O. et al. Tumor-Infiltrating clonal hematopoiesis.
+N. Engl. J. Med.
+392
+, 1594–1608 (2025).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Buttigieg, M. M., Vlasschaert, C., Bick, A. G., Vanner, R. J. & Rauh, M. J. Inflammatory reprogramming of the solid tumor microenvironment by infiltrating clonal hematopoiesis is associated with adverse outcomes.
+Cell Rep. Med.
+6
+, 101989 (2025).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Fiedler, W. et al. Vascular endothelial growth factor, a possible paracrine growth factor in human acute myeloid leukemia.
+Blood
+89
+, 1870–1875 (1997).
+Article
+CAS
+PubMed
+Google Scholar
+Dias, S. et al. Inhibition of both paracrine and autocrine VEGF/ VEGFR-2 signaling pathways is essential to induce long-term remission of xenotransplanted human leukemias.
+Proc. Natl Acad. Sci. USA
+98
+, 10857–10862 (2001).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Dias, S. et al. Autocrine stimulation of VEGFR-2 activates human leukemic cell growth and migration.
+J. Clin. Invest.
+106
+, 511–521 (2000).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hussong, J. W., Rodgers, G. M. & Shami, P. J. Evidence of increased angiogenesis in patients with acute myeloid leukemia.
+Blood
+95
+, 309–313 (2000).
+Article
+CAS
+PubMed
+Google Scholar
+Jaiswal, S. et al. Age-related clonal hematopoiesis associated with adverse outcomes.
+N. Engl. J. Med.
+371
+, 2488–2498 (2014).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Loberg, M. A. et al. Sequentially inducible mouse models reveal that Npm1 mutation causes malignant transformation of Dnmt3a-mutant clonal hematopoiesis.
+Leukemia
+33
+, 1635–1649 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Ley, T. J. et al. DNMT3A mutations in acute myeloid leukemia.
+N. Engl. J. Med.
+363
+, 2424–2433 (2010).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Young, K. A. et al. Variation in mesenchymal KITL/SCF and IGF1 expression in middle age underlies steady-state hematopoietic stem cell aging.
+Blood
+144
+, 378–391 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Challen, G. A. et al. Dnmt3a is essential for hematopoietic stem cell differentiation.
+Nat. Genet.
+44
+, 23–31 (2011).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Morales-Mantilla, D. E. & King, K. Y. FGD5 marks a subpopulation of hematopoietic stem and progenitor cells that resist interferon-gamma-mediated differentiation.
+Exp. Hematol.
+112-113
+, 35–43 (2022).
+Article
+PubMed
+Google Scholar
+Fridman, A. L. & Tainsky, M. A. Critical pathways in cellular senescence and immortalization revealed by gene expression profiling.
+Oncogene
+27
+, 5975–5987 (2008).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Bandyopadhyay, S. et al. Mapping the cellular biogeography of human bone marrow niches using single-cell transcriptomics and proteomic imaging.
+Cell
+187
+, 3120–3140.e3129 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Chen, L. et al. An inflammatory T-cell-stromal axis contributes to hematopoietic stem/progenitor cell failure and clonal evolution in human myelodysplastic syndrome.
+Nat. Commun.
+16
+, 10041 (2025).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Prummel, K. D. et al. Inflammatory stromal and T cells mediate human bone marrow niche remodeling in clonal hematopoiesis and myelodysplasia.
+Nat. Commun.
+16
+, 10042 (2025).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Wang, L. et al. Inflammatory bone marrow mesenchymal stem cells in multiple myeloma: transcriptional signature and in vitro modeling.
+Cancers (Basel)
+15
+, 5148 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Mitchell, C. A. et al. Stromal niche inflammation mediated by IL-1 signalling is a targetable driver of haematopoietic ageing.
+Nat. Cell Biol.
+25
+, 30–41 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Swann, J. W. et al. Inflammation perturbs hematopoiesis by remodeling specific compartments of the bone marrow niche.
+Blood
+147
+, 739–754 (2026).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Suryadevara, V. et al. SenNet recommendations for detecting senescent cells in different tissues.
+Nat. Rev. Mol. Cell Biol.
+25
+, 1001–1023 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Doolittle, M. L. et al. Aged murine bone marrow myeloid and mesenchymal cells develop unique senescence phenotypes.
+J. Clin. Invest.
+136
+, e195772 (2026).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Doolittle, M. L. et al. Multiparametric senescent cell phenotyping reveals targets of senolytic therapy in the aged murine skeleton.
+Nat. Commun.
+14
+, 4587 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Zhu, Y. et al. Identification of a novel senolytic agent, navitoclax, targeting the Bcl-2 family of anti-apoptotic factors.
+Aging Cell
+15
+, 428–435 (2016).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Alessio, N. et al. Low dose radiation induced senescence of human mesenchymal stromal cells and impaired the autophagy process.
+Oncotarget
+6
+, 8155–8166 (2015).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Meng, A., Wang, Y., Van Zant, G. & Zhou, D. Ionizing radiation and busulfan induce premature senescence in murine bone marrow hematopoietic cells.
+Cancer Res.
+63
+, 5414–5419 (2003).
+CAS
+PubMed
+Google Scholar
+Moran-Crusio, K. et al. Tet2 loss leads to increased hematopoietic stem cell self-renewal and myeloid transformation.
+Cancer Cell
+20
+, 11–24 (2011).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Poulos, M. G. et al. Vascular platform to define hematopoietic stem cell factors and enhance regenerative hematopoiesis.
+Stem Cell Rep.
+5
+, 881–894 (2015).
+Article
+CAS
+Google Scholar
+Saul, D. et al. A new gene set identifies senescent cells and predicts senescence-associated pathways across tissues.
+Nat. Commun.
+13
+, 4827 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Cabezas-Wallscheid, N. et al. Identification of regulatory networks in HSCs and their immediate progeny via integrated proteome, transcriptome, and DNA methylome analysis.
+Cell Stem Cell
+15
+, 507–522 (2014).
+Article
+CAS
+PubMed
+Google Scholar
+Jassinskaja, M. et al. Selection of pre-leukemic hematopoietic stem cells driven by distinct extracellular matrix molecules. Preprint at
+https://www.biorxiv.org/content/10.1101/2025.01.20.633881v1
+(2025).
+Ashraf, S., Santerre, P. & Kandel, R. TNF-α activates STAT3 signaling and senescence in NP cells.
+Osteoarthr. Cartil.
+29
+, S51–S52 (2021).
+Article
+Google Scholar
+Pang, X. et al. Identification of STAT3 as a biomarker for cellular senescence in liver fibrosis: a bioinformatics and experimental validation study.
+Genomics
+116
+, 110800 (2024).
+Article
+CAS
+PubMed
+Google Scholar
+Cho, H.-J. et al. Nintedanib induces senolytic effect via STAT3 inhibition.
+Cell Death Dis.
+13
+, 760 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Grattendick, K. J., Nakashima, J. M., Feng, L., Giri, S. N. & Margolin, S. B. Effects of three anti-TNF-alpha drugs: etanercept, infliximab and pirfenidone on release of TNF-alpha in medium and TNF-alpha associated with the cell in vitro.
+Int. Immunopharmacol.
+8
+, 679–687 (2008).
+Article
+CAS
+PubMed
+Google Scholar
+Wijdenes, J. et al. Human recombinant dimeric IL-6 binds to its receptor as detected by anti-IL-6 monoclonal antibodies.
+Mol. Immunol.
+28
+, 1183–1192 (1991).
+Article
+CAS
+PubMed
+Google Scholar
+Schust, J., Sperl, B., Hollis, A., Mayer, T. U. & Berg, T. Stattic: a small-molecule inhibitor of STAT3 activation and dimerization.
+Chem. Biol.
+13
+, 1235–1242 (2006).
+Article
+CAS
+PubMed
+Google Scholar
+Demaria, M. et al. An essential role for senescent cells in optimal wound healing through secretion of PDGF-AA.
+Dev. Cell
+31
+, 722–733 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Miura, Y., Endo, K., Komori, K. & Sekiya, I. Clearance of senescent cells with ABT-263 improves biological functions of synovial mesenchymal stem cells from osteoarthritis patients.
+Stem Cell Res. Ther.
+13
+, 222 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Farr, J. N. et al. Targeting cellular senescence prevents age-related bone loss in mice.
+Nat. Med.
+23
+, 1072–1079 (2017).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Abdul-Aziz, A. M. et al. Acute myeloid leukemia induces protumoral p16INK4a-driven senescence in the bone marrow microenvironment.
+Blood
+133
+, 446–456 (2019).
+Article
+CAS
+PubMed
+Google Scholar
+Steven, M. K. et al. Distinct protein signatures of acute myeloid leukemia bone marrow-derived stromal cells are prognostic for patient survival.
+Haematologica
+103
+, 810–821 (2018).
+Article
+Google Scholar
+Bowman, R. L. et al. In vivo models of subclonal oncogenesis and dependency in hematopoietic malignancy.
+Cancer Cell
+42
+, 1955–1969 e1957 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Chen, L. et al. A Single-Cell Taxonomy Predicts Inflammatory Niche Remodeling to Drive Tissue Failure and Outcome in Human AML.
+Blood Cancer Discovery
+4
+, 394–417 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+SanMiguel, J. M. et al. Distinct tumor necrosis factor alpha receptors dictate stem cell fitness versus lineage output in Dnmt3a-mutant clonal hematopoiesis.
+Cancer Discov.
+12
+, 2763–2773 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Avagyan, S. et al. Resistance to inflammation underlies enhanced fitness in clonal hematopoiesis.
+Science
+374
+, 768–772 (2021).
+Article
+CAS
+PubMed
+Google Scholar
+Hormaechea-Agulla, D. et al. Chronic infection drives Dnmt3a-loss-of-function clonal hematopoiesis via IFNgamma signaling.
+Cell Stem Cell
+28
+, 1428–1442 e1426 (2021).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Plakhova, N. et al. Age-related mesenchymal stromal cell senescence is associated with progression from MGUS to multiple myeloma.
+Leukemia
+39
+, 1464–1475 (2025).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Abegunde, S. O., Buckstein, R., Wells, R. A. & Rauh, M. J. An inflammatory environment containing TNFalpha favors Tet2-mutant clonal hematopoiesis.
+Exp. Hematol.
+59
+, 60–65 (2018).
+Article
+CAS
+PubMed
+Google Scholar
+McClatchy, J. et al. Clonal hematopoiesis related TET2 loss-of-function impedes IL1β-mediated epigenetic reprogramming in hematopoietic stem and progenitor cells.
+Nat. Commun.
+14
+, 8102 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Cai, Z. et al. Inhibition of inflammatory signaling in Tet2 mutant preleukemic cells mitigates stress-induced abnormalities and clonal hematopoiesis.
+Cell Stem Cell
+23
+, 833–849 e835 (2018).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Meisel, M. et al. Microbial signals drive pre-leukaemic myeloproliferation in a Tet2-deficient host.
+Nature
+557
+, 580–584 (2018).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Jakobsen, N. A. et al. Selective advantage of mutant stem cells in human clonal hematopoiesis is associated with attenuated response to inflammation and aging.
+Cell Stem Cell
+31
+, 1127–1144 e1117 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hori, N. et al. Limitations of the p16-3MR mouse model for detecting and eliminating senescent cells.
+EMBO Rep.
+27
+, 3547–3563 (2026).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Evans, E. J. Jr & DeGregori, J. Cells with cancer-associated mutations overtake our tissues as we age.
+Aging Cancer
+2
+, 82–97 (2021).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Chaib, S., Tchkonia, T. & Kirkland, J. L. Cellular senescence and senolytics: the path to the clinic.
+Nat. Med.
+28
+, 1556–1568 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Amor, C. et al. Prophylactic and long-lasting efficacy of senolytic CAR T cells against age-related metabolic dysfunction.
+Nat. Aging
+4
+, 336–349 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Kuhn, R., Schwenk, F., Aguet, M. & Rajewsky, K. Inducible gene targeting in mice.
+Science
+269
+, 1427–1429 (1995).
+Article
+CAS
+PubMed
+Google Scholar
+Gazit, R. et al. Fgd5 identifies hematopoietic stem cells in the murine bone marrow.
+J. Exp. Med.
+211
+, 1315–1331 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Madisen, L. et al. A robust and high-throughput Cre reporting and characterization system for the whole mouse brain.
+Nat. Neurosci.
+13
+, 133–140 (2010).
+Article
+CAS
+PubMed
+Google Scholar
+Gothert, J. R. et al. In vivo fate-tracing studies using the Scl stem cell enhancer: embryonic hematopoietic stem cells significantly contribute to adult hematopoiesis.
+Blood
+105
+, 2724–2732 (2005).
+Article
+PubMed
+Google Scholar
+Lao, Z., Raju, G. P., Bai, C. B. & Joyner, A. L. MASTR: a technique for mosaic mutant analysis with spatial and temporal control of recombination using conditional floxed alleles in mice.
+Cell Rep.
+2
+, 386–396 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Vassiliou, G. S. et al. Mutant nucleophosmin and cooperating pathways drive leukemia initiation and progression in mice.
+Nat. Genet.
+43
+, 470–475 (2011).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Ruzankina, Y. et al. Deletion of the developmentally essential gene ATR in adult mice leads to age-related phenotypes and stem cell loss.
+Cell Stem Cell
+1
+, 113–126 (2007).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Sasaki, M. et al. IDH1(R132H) mutation increases murine haematopoietic progenitors and alters epigenetics.
+Nature
+488
+, 656–659 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Haigis, K. M. et al. Differential effects of oncogenic K-Ras and N-Ras on proliferation, differentiation and tumor progression in the colon.
+Nat. Genet.
+40
+, 600–608 (2008).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hecker, J. S. et al. CHIP and hips: clonal hematopoiesis is common in patients undergoing hip arthroplasty and is associated with autoimmune disease.
+Blood
+138
+, 1727–1732 (2021).
+Article
+CAS
+PubMed
+Google Scholar
+Hiatt, J. B., Pritchard, C. C., Salipante, S. J., O’Roak, B. J. & Shendure, J. Single molecule molecular inversion probes for targeted, high-accuracy detection of low-frequency variation.
+Genome Res.
+23
+, 843–854 (2013).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Danecek, P. et al. Twelve years of SAMtools and BCFtools.
+Gigascience
+10
+, giab008 (2021).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Hao, Y. et al. Dictionary learning for integrative, multimodal and scalable single-cell analysis.
+Nat. Biotechnol.
+42
+, 293–304 (2024).
+Article
+CAS
+PubMed
+Google Scholar
+Finak, G. et al. MAST: a flexible statistical framework for assessing transcriptional changes and characterizing heterogeneity in single-cell RNA sequencing data.
+Genome Biol.
+16
+, 278 (2015).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Love, M. I., Huber, W. & Anders, S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.
+Genome Biol.
+15
+, 550 (2014).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Gene Ontology Consortium et al. The Gene Ontology knowledgebase in 2023.
+Genetics
+224
+, iyad031 (2023).
+Article
+Google Scholar
+Liberzon, A. et al. The Molecular Signatures Database (MSigDB) hallmark gene set collection.
+Cell Syst.
+1
+, 417–425 (2015).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Milacic, M. et al. The Reactome Pathway Knowledgebase 2024.
+Nucleic Acids Res.
+52
+, D672–D678 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Subramanian, A. et al. Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles.
+Proc. Natl Acad. Sci. USA
+102
+, 15545–15550 (2005).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Zhou, B. O., Yue, R., Murphy, M. M., Peyer, J. G. & Morrison, S. J. Leptin-receptor-expressing mesenchymal stromal cells represent the main source of bone formed by adult bone marrow.
+Cell Stem Cell
+15
+, 154–168 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Janjic, A. et al. Prime-seq, efficient and powerful bulk RNA sequencing.
+Genome Biol.
+23
+, 88 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Huang, S. et al. An improved protocol for isolation and culture of mesenchymal stem cells from mouse bone marrow.
+J. Orthop. Transl.
+3
+, 26–33 (2015).
+Google Scholar
+Idelfonso-García, O. G. et al. Protocol to detect senescence-associated β-galactosidase and immunoperoxidase activity in fresh-frozen murine tissues.
+STAR Protoc.
+5
+, 103009 (2024).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Download references
+Acknowledgements
+The BMEC cell line was a kind gift from J. Butler. We thank all members of the Trowbridge laboratory and R. Gelfer from the Levine laboratory for experimental support. We acknowledge support from The Jackson Laboratory’s Single Cell Biology, Genome Technologies, Clinical Chemistry and Flow Cytometry Scientific Services. We thank B. Bowman, S. Rahmig, N. Asger Jakobsen, S. Turkalj, P. Vyas, S. Rushworth, K. Bowles, J. Willcox and B. Guezguez for their input into this work.
+Funding
+This work was supported by NIH grant nos. R01DK118072 and R01AG069010, an EvansMDS Discovery Research Grant to J.J.T., and U01AG077925 to J.J.T. and R.L.L. This work was supported in part by NIH/NCI Cancer Centre Support Grant P30CA034196. Work in the Levine laboratory is supported by MSKCC Support Grant/Core Grant P30CA008748. J.J.T. was supported by a Blood Cancer United (formerly Leukemia & Lymphoma Society) Scholar Award, Scholar Achievement Award and The Dattels Family Endowed Chair. J.J.M. was supported by a Blood Cancer United Career Development Program Fellow Award and The Jackson Laboratory Scholar Award. I.F.M. was supported by the Mark Foundation for Cancer Research, a Scholarship of Excellence Rafael del Pino, and an NCI F99 award (
+CA284253
+-01). K.S.G. was supported by funding from the ERC under the European Union’s Horizon 2020 Marie Sklodowska-Curie Innovative Training Network (MSCA-ITN, grant agreement no. 953407). A.N.T. is supported by funds from the Canadian Institutes for Health Research (PJT-203948, PJT-180406 to A.N.T.), a Tier II Canadian Research Chair, the Princess Margaret Cancer Foundation and the Ontario Institute for Cancer Research.
+Author information
+Authors and Affiliations
+The Jackson Laboratory, Bar Harbor, ME, USA
+Jayna J. Mistry, Kira A. Young, Patricia A. Colom Díaz, Maria Telpoukhovskaia & Jennifer J. Trowbridge
+Department of Medicine III, School of Medicine and Health, Technical University of Munich, Munich, Germany
+Anna Navarro Figueredo & Katharina S. Götze
+University Health Network, Princess Margaret Cancer Centre, Toronto, Ontario, Canada
+Gibran Edun, Alicia G. Aguilar-Navarro & Anastasia N. Tikhonova
+Memorial Sloan Kettering Cancer Center, Louis V. Gerstner Jr Graduate School of Biomedical Sciences, New York, NY, USA
+Inés Fernández Maestre
+Human Oncology and Pathogenesis Program, Center for Hematologic Malignancies and Leukemia Service, Department of Medicine, Memorial Sloan Kettering Cancer Center, New York, NY, USA
+Inés Fernández Maestre, Sheng F. Cai & Ross L. Levine
+Bavarian Cancer Research Center (BZKF), Munich, Germany
+Katharina S. Götze
+Department of Medical Biophysics and Department of Immunology, University of Toronto, Toronto, Ontario, Canada
+Anastasia N. Tikhonova
+Ontario Institute for Cancer Research, Toronto, Ontario, Canada
+Anastasia N. Tikhonova
+Authors
+Jayna J. Mistry
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Kira A. Young
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Anna Navarro Figueredo
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Gibran Edun
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Alicia G. Aguilar-Navarro
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Patricia A. Colom Díaz
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Maria Telpoukhovskaia
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Inés Fernández Maestre
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Sheng F. Cai
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Katharina S. Götze
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Anastasia N. Tikhonova
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Ross L. Levine
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Jennifer J. Trowbridge
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Contributions
+J.J.M. conceptualized the project. J.J.M. and J.J.T. designed experiments. J.J.M., K.A.Y, A.N.F., G.E., A.G.A.-N., P.A.C.D., I.F.M. and S.F.C. performed experiments, and J.J.M., A.N.F., G.E., A.G.A.-N., M.T. and J.J.T. analysed data. J.J.M., A.N.F., G.E., K.S.G., A.N.T., R.L.L. and J.J.T. interpreted data. J.J.M., K.A.Y., M.T. and J.J.T. wrote the manuscript. All authors edited the manuscript.
+Corresponding author
+Correspondence to
+Jennifer J. Trowbridge
+.
+Ethics declarations
+Competing interests
+S.F.C. is a consultant for Daiichi-Sankyo and Ursamin. He was previously a consultant for Dava Oncology and held equity interest in Imago Biosciences, neither of which are directly related to the content of this paper. R.L.L. is a former member of the Supervisory Board and current SAB member for Qiagen (compensation/equity), a co-founder at Ajax (equity), a board member of the Mark Foundation for Cancer Research and a former scientific advisor to Mission Bio, Kurome, Syndax, Scorpion, Zentalis, Jubilant, Auron, Prelude and C4 Therapeutics; for each of these entitites he received equity/compensation. He has received research support from the Cure Breast Cancer Foundation (with IP rights), Calico, Zentalis and Ajax, and has consulted/provided professional services for ECOG-ACRIN, Genome Canada, Goldman Sachs and Astra Zeneca. J.J.T. has previously received research support from H3 Biomedicine, and patent royalties from Fate Therapeutics. The remaining authors declare no competing interests.
+Peer review
+Peer review information
+Nature Cell Biology
+thanks Sean Morrison for his contribution to the peer review of this work.
+Peer reviewer reports
+are available.
+Additional information
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Extended data
+Extended Data Fig. 1 Additional analysis of single-cell RNA-seq from mice with control or
+Dnmt3a
+-mutant hematopoiesis, and SASP versus inflammatory MSC signatures in mouse and human CH.
+(
+a
+) Representative PCR genotyping showing wild-type (WT), floxed (fl-R878H) and Cre-recombined (R878H) alleles in
+Dnmt3a
+R878H/+
+Mx-Cre peripheral blood. (
+b
+) Frequency of donor (CD45.2
++
+tdTomato
++
+) hematopoietic cells (left), HSPCs (centre) and HSCs (right) in the BM of recipient mice transplanted with
+Dnmt3a
+R878H/+
+or control Fgd5-CreER hematopoietic cells. P values determined by two-tailed Mann-Whitney test (
+n
+= 4 biological replicate recipient mice per condition). (
+c
+) Transcript expression of genes defining hematopoietic (
+Ptprc
+), MSC (
+Lepr, Pgfra
+), Osteoblast (
+Bgalp2, Col1a1
+), EC (
+Pecam1
+), Arteriolar EC (
+Cav1
+) and Sinusoidal EC (
+Stab2
+) clusters identified by scRNA-seq. Cells shown are from
+n
+= 4 biological replicate recipient mice per condition. (
+d
+) Frequency of annotated cell clusters in mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis. Labels are defined in Fig.
+1b
+. P values determined by two-way ANOVA with uncorrected Fisher’s LSD (
+n
+= 4 biological replicate recipient mice per condition). Non-significant p values (P > 0.05) not shown. (
+e
+) Normalized enrichment score of DEGs in hematopoietic cell populations in
+Dnmt3a
+R878H/+
+versus control hematopoiesis (
+n
+= 4 biological replicate recipient mice per condition). All dots are FDR < 0.05. (
+f
+) Frequency of HSPCs with wild-type (+/+) or mutant (R878H/+)
+Dnmt3a
+transcripts detectable by scRNA-seq (
+n
+= 4 biological replicate recipient mice per condition). Bar graphs show mean +/- SEM. (
+g
+) Ranked scatter plot of all GO terms significantly enriched in MSC DEGs from mice with
+Dnmt3a
+R878H/+
+versus control hematopoiesis (
+n
+= 4 biological replicate recipient mice per condition). (
+h
+) Expression (transcripts per cell) of
+Cdkn1a, Cdkn2a, Tp53
+and
+Mmp14
+in MSCs from mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis. P values determined by unpaired, two-tailed
+t
+test with Welch’s correction of per-cell values (
+n
+= 4 biological replicate mice per condition). Non-significant p values (P > 0.05) not shown. (
+i
+) Expression of
+CDKN1A, CDKN2A, TP53
+, and
+MMP14
+in human MSCs from CHIP carriers or non-carriers. P values determined by unpaired, two-tailed
+t
+test of per-sample mean values (
+n
+= 7 non-carrier individuals,
+n
+= 6 CHIP carrier individuals). Non-significant p values (P > 0.05) not shown. (
+j
+) Pre-ranked gene set enrichment analysis (GSEA) of DEGs in mice with
+Dnmt3a
+R878H/+
+versus control hematopoiesis.
+n
+= 4 biological replicate mice per condition. Normalized enrichment scores (NES) and FDR q-values were calculated using 1,000 gene set permutations in GSEA software. (
+k
+) Lollipop plot showing the ranking score for leading edge genes from GSEA in (j).
+n
+= 4 biological replicate mice per condition. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values. Violin plots show the distribution of single-cell expression values; the line indicates the mean.
+Source data
+Extended Data Fig. 2 Representative flow cytometry gating and multi-parameter validation of MSC and senescence markers.
+(
+a
+) Representative gating of BM hematopoietic cells. (
+b
+) Representative gating used to identify and isolate mesenchymal stromal cells (MSCs) and endothelial cells (ECs)
+in vivo
+or after co-culture with control or
+Dnmt3a
+R878H/+
+HSPCs. (
+c
+) Representative staining of LepR and PDGFRa in whole viable bone marrow. (
+d
+) Representative histograms of PDGFRa and LepR staining in ECs and stroma. (
+e
+) Representative histograms of LepR staining in PDGFRa
++
+and PDGFRa
+−
+stroma. (
+f
+) Representative histograms of PDGFRa staining in LepR
++
+and LepR
+−
+stroma. (
+g
+) Representative histograms of SA-b-gal, Bcl-xL and Bcl-2 staining in FMO (fluorescence minus one) control, whole BM, and young and old MSCs. (
+h
+) Representative histograms of SA-b-gal staining in FMO control, whole BM, and Bcl-xL
+−
+Bcl-2
+−
+MSCs and Bcl-xL
++
+Bcl-2
++
+MSCs from old mice. (
+i
+) Representative staining of Bcl-xL and Bcl-2 in unstained, SA-b-gal
+hi
+and SA-b-gal
+lo
+MSCs. (
+j
+) Correlation between senescence markers assessed by flow cytometry. Statistical analysis was performed by two-sided Pearson correlation (
+n
+= 5 biological replicate mice per condition). P values shown in source data file. (
+k
+) Correlation between transcript expression of senescence markers in MSCs with respective MFI of SA-b-gal. Statistical analysis was performed by two-sided Pearson correlation (
+n
+= 5 biological replicate mice per condition). P values shown in source data file.
+Source data
+Extended Data Fig. 3 Evaluation of multi-parameter MSC senescence assessment in positive control mouse models of ageing- and irradiation-induced senescence.
+(
+a
+) Experimental design evaluating senescence of MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+LepR
++
+) in young (3mo) and old (24mo) wild-type C57BL/6 J mice. (
+b
+) Representative histogram (left) and MFI (right) of SA-b-gal in MSCs in young and old mice. P value determined by two-tailed Mann-Whitney test (
+n
+= 6 biological replicate mice per condition). (
+c
+) Representative Bcl-2 and Bcl-xL staining for young (left) and old (centre) MSCs. Frequency (right) of Bcl-xL
++
+Bcl-2
++
+MSCs. P value determined by two-tailed Mann-Whitney test (
+n
+= 6 biological replicate mice per condition). (
+d
+) Representative Bcl-2 and Bcl-xL staining (left) and representative SA-b-gal histogram (centre). Frequency of senescent (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs (right) in young and old mice. P value calculated by two-tailed Mann-Whitney test (
+n
+= 6 biological replicate mice per condition). (
+e
+) Median FSC (left) and SSC (right) of non-senescent (SA-b-gal
+lo
+Bcl-xL
+−
+Bcl-2
+−
+) and senescent (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs from old mice. P values determined by Mann-Whitney test (
+n
+= 6 biological replicate mice per condition). (
+f
+) Schematic of experimental design evaluating irradiation-induced senescence of MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+LepR
++
+) in p16
+INK4A
+-3MR mice. (
+g
+) Representative histogram (left) and MFI (right) of SA-b-gal in MSCs from control and irradiated p16-3MR mice. P value determined by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). (
+h
+) Frequency of Bcl-xL
++
+Bcl-2
++
+MSCs from control and irradiated p16-3MR mice. P value determined by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). (
+i
+) Frequency of senescent MSCs (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) in control and irradiated p16-3MR mice. P value determined by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). (
+j
+) Representative histogram (left) and MFI (right) of p16 mRFP in MSCs from control and irradiated p16-3MR mice. P value determined by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). (
+k
+) Representative histogram of p16 mRFP in unstained, SA-b-gal
+lo
+and SA-b-gal
+hi
+MSCs. (
+l
+) Frequency of senescent MSCs (SA-b-gal
+hi
+p16-mRFP
+hi
+) in control and irradiated p16-3MR mice. P value determined by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). (
+m
+) Median SSC (left) and FSC (right) of non-senescent (SA-b-gal
+lo
+p16 mRFP
+lo
+) and senescent (SA-b-gal
+hi
+p16 mRFP
+hi
+) MSCs. P value determined by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). (
+n
+) Median SSC (left) and FSC (right) of non-senescent (SA-b-gal
+lo
+Bcl-xL
+−
+Bcl-2
+−
+) and senescent (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs. P value determined by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). Each dot represents an individual biological replicate mouse. For box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Extended Data Fig. 4 Additional experiments interrogating MSC senescence induction by
+Dnmt3a
+-mutant hematopoiesis
+in vivo
+.
+(
+a
+) Schematic of steady state experimental design using
+Dnmt3a
+R878H/+
+Mx-Cre and control Mx-Cre mice. Mice were evaluated > 5 weeks after Mx-Cre induction using poly(I:C). (
+b
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) in MSCs from control and
+Dnmt3a
+R878H/+
+mice. P values calculated by two-tailed Mann-Whitney tests (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice). (
+c
+) Median SSC (left) and FSC (right) of non-senescent (SA-b-gal
+lo
+Bcl-xL
+−
+Bcl-2
+−
+) and senescent (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs from
+Dnmt3a
+R878H/+
+mice. P values calculated by two-tailed Mann-Whitney tests (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice). (
+d
+) Correlation between senescence markers in MSCs in control and
+Dnmt3a
+R878H/+
+mice. Significance values determined by two-tailed Pearson correlation (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice). P values shown in source data file. (
+e
+) Schematic of steady state experimental design using
+Dnmt3a
+R878H/+
+Mx-Cre and control Mx-Cre mice. Mice were evaluated > 5 weeks after Mx-Cre induction using poly(I:C). (
+f
+) Frequency of ECs (CD45
+−
+Ter119
+−
+CD31
++
+) in control and
+Dnmt3a
+R878H/+
+recipient mice. Not significant (P > 0.05) by two-tailed Mann-Whitney test (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice). (
+g
+) Representative histogram (left) and MFI (right) of SA-b-gal in ECs from control and
+Dnmt3a
+R878H/+
+recipient mice. Not significant (P > 0.05) by two-tailed Mann-Whitney test (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice). (
+h
+) Frequency of senescent ECs in control and
+Dnmt3a
+R878H/+
+recipient mice. Not significant (P > 0.05) by two-tailed Mann-Whitney test (
+n
+= 4 control,
+n
+= 5
+Dnmt3a
+R878H/+
+biological replicate mice). (
+i
+) Schematic of steady state experimental design using
+Dnmt3a
+R878H/+
+Fgd5-CreER and control Fgd5-CreER mice. Mice were evaluated > 5 weeks after Fgd5-CreER induction using tamoxifen. (
+j
+) Representative histogram (left) and MFI (right) of SA-b-gal in MSCs from control and
+Dnmt3a
+R878H/+
+recipient mice. P value determined by unpaired, two-tailed
+t
+test (
+n
+= 3 biological replicate mice per condition). (
+k
+) Frequency of senescent MSCs in control and
+Dnmt3a
+R878H/+
+recipient mice. P value determined by unpaired, two-tailed
+t
+test (
+n
+= 3 biological replicate mice per condition). (
+l
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) MSCs in control and
+Dnmt3a
+R878H/+
+recipient mice. P values determined by unpaired, two-tailed
+t
+test (
+n
+= 3 biological replicate mice per condition). (
+m
+) Median SSC (left) and FSC (right) of non-senescent (SA-b-gal
+lo
+Bcl-xL
+−
+Bcl-2
+−
+) and senescent (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs from
+Dnmt3a
+R878H/+
+recipient mice. P values determined by unpaired, two-tailed
+t
+test (
+n
+= 3 biological replicate mice per condition). (
+n
+) Representative histogram (left) and MFI (right) of SA-b-gal in ECs from control and
+Dnmt3a
+R878H/+
+recipient mice. Not significant (P > 0.05) by unpaired, two-tailed
+t
+test (
+n
+= 3 biological replicate mice per condition). (
+o
+) Frequency of senescent ECs in control and
+Dnmt3a
+R878H/+
+recipient mice. Not significant (P > 0.05) by unpaired, two-tailed
+t
+test (
+n
+= 3 biological replicate mice per condition). (
+p
+) Schematic of busulfan-conditioned transplant experimental design using
+Dnmt3a
+R878H/+
+Fgd5-CreER and control Fgd5-CreER donor mice. Transplant was performed > 5 weeks after Fgd5-CreER induction using tamoxifen. (
+q
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) MSCs in control and
+Dnmt3a
+R878H/+
+recipient mice. P value determined by two-tailed Mann-Whitney test (
+n
+= 7 biological replicate recipient mice per condition). (
+r
+) Median SSC (left) and FSC (right) of non-senescent (SA-b-gal
+lo
+Bcl-xL
+−
+Bcl-2
+−
+) and senescent (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs in and
+Dnmt3a
+R878H/+
+recipient mice. P values determined by Mann-Whitney test (
+n
+= 7 biological replicate recipient mice per condition). (
+s
+) Schematic of busulfan-conditioned transplant experimental design using
+Dnmt3a
+R878H/+
+Mx-Cre or control Mx-Cre donor mice. Transplant was performed > 5 weeks after poly(I:C) treatment of donor mice. (
+t
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) MSCs in control and
+Dnmt3a
+R878H/+
+recipient mice. P values determined by unpaired, two-tailed
+t
+test (
+n
+= 10 biological replicate recipient mice per condition). (
+u
+) Median SSC (left) and FSC (right) of non-senescent (SA-b-gal
+lo
+Bcl-xL
+−
+Bcl-2
+−
+) and senescent (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) MSCs in
+Dnmt3a
+R878H/+
+recipient mice. P values determined by unpaired, two-tailed
+t
+test (
+n
+= 10 biological replicate recipient mice per condition). (
+v
+) Schematic of non-conditioned transplant experimental design using
+Dnmt3a
+R878H/+
+Mx-Cre and control Mx-Cre donor mice. Transplant was performed > 5 weeks after poly(I:C) treatment of donor mice. (
+w-y
+) Frequency of donor (CD45.2
++
+) cells in the (
+w
+) BM, (
+x
+) HSPCs, and (
+y
+) HSCs of recipient mice at 60 weeks post-transplant. P values determined by unpaired, two-tailed
+t
+test with Welch’s correction (
+n
+= 8 biological replicate recipient mice per condition). Dots represent individual biological replicate mice. Data in (
+j-o
+) include horizontal lines representing mean +/- SEM. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Extended Data Fig. 5
+Tet2
+-knockout hematopoiesis induces MSC senescence
+in vivo
+.
+(
+a
+) Schematic of steady state experimental design using
+Tet2
+KO
+Scl-CreER and control Scl-CreER mice. Mice were evaluated > 5 weeks after Scl-Cre induction using tamoxifen. (
+b
+) Representative histogram (left) and MFI (right) of SA-b-gal in MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+LepR
++
+) in mice with control or
+Tet2
+KO
+hematopoiesis. P value determined by unpaired, two-tailed
+t
+test (
+n
+= 5 biological replicate mice per condition). (
+c
+) Frequency of senescent MSCs in mice with control or
+Tet2
+KO
+hematopoiesis. P value determined by unpaired, two-tailed
+t
+test (
+n
+= 5 biological replicate mice per condition). (
+d
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) MSCs in mice with control or
+Tet2
+KO
+hematopoiesis. P values determined by unpaired, two-tailed
+t
+test (
+n
+= 5 biological replicate mice per condition). (
+e
+) Median side scatter (SSC) (left) and forward scatter (FSC) (right) of non-senescent MSCs (SA-b-gal
+lo
+Bcl-xL
+−
+Bcl-2
+−
+) and senescent MSCs (SA-b-gal
+hi
+Bcl-xL
++
+Bcl-2
++
+) in
+Tet2
+KO
+mice. P values determined unpaired, two-tailed
+t
+test (
+n
+= 5 biological replicate mice per condition). (
+f
+) Representative histogram (left) and MFI (right) of SA-b-gal in ECs (CD45
+−
+Ter119
+−
+CD31
++
+) in mice with control or
+Tet2
+KO
+hematopoiesis. Not significant (P > 0.05) by unpaired, two-tailed
+t
+test (
+n
+= 5 biological replicate mice per condition). (
+g
+) Frequency of senescent ECs in mice with control or
+Tet2
+KO
+hematopoiesis. Not significant (P > 0.05) by unpaired, two-tailed
+t
+test (
+n
+= 5 biological replicate mice per condition). Dots represent individual biological replicate mice. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Extended Data Fig. 6 Additional data on senescence induction in MSCs and its impact on wild-type and
+Dnmt3a
+-mutant hematopoiesis.
+(
+a
+) Schematic for the co-culture experimental design of control or
+Dnmt3a
+R878H/+
+Mx-Cre HSPCs with wild-type MSCs or BMECs. HSPCs were isolated > 5 weeks after Mx-Cre induction using poly(I:C). (
+b
+) Number of adherent CD45
+−
+MSCs (left) and CD45
++
+hematopoietic cells (right) after co-culture. P values determined by unpaired, two-tailed
+t
+tests with Welch’s correction (
+n
+= 16 biological replicates). Non-significant p values (P > 0.05) not shown. (
+c
+) Number of adherent CD45
+−
+BMECs (left) and CD45
++
+hematopoietic cells (right) after co-culture. Non-significant (P > 0.05) by unpaired, two-tailed
+t
+tests with Welch’s correction (
+n
+= 16 biological replicates). (
+d
+) Schematic of transwell experimental design using control or
+Dnmt3a
+R878H/+
+Mx-Cre HSPCs and wild-type MSCs. HSPCs were isolated > 5 weeks after Mx-Cre induction using poly(I:C). (
+e
+) Representative histogram (left) and MFI (right) of SA-b-gal in MSCs (CD45
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+) after transwell co-culture with control or
+Dnmt3a
+R878H/+
+HSPCs. P value determined by unpaired, two-tailed
+t
+test (
+n
+= 7 control,
+n
+= 8
+Dnmt3a
+R878H/+
+biological replicates). (
+f
+) Relative expression of
+Cdkn1a
+in MSCs after co-culture with control or
+Dnmt3a
+R878H/+
+HSPCs, normalized to
+Hprt
+expression. P value determined by unpaired, two-tailed
+t
+test with Welch’s correction (
+n
+= 12 control,
+n
+= 11
+Dnmt3a
+R878H/+
+biological replicates). (
+g
+) Schematic of cell tracer experiment to track replication of MSCs after exposure to CM from control or
+Dnmt3a
+R878H/+
+HSPCs. (
+h
+) Frequency of MSCs without cell division after 7-day
+ex vivo
+culture with CM from control or
+Dnmt3a
+R878H/+
+HSPCs. P value determined by unpaired, two-tailed
+t
+test (
+n
+= 6 biological replicates). (
+i
+) Heatmap of transcript expression z-scores for genes encoding putative secreted proteins in control and
+Dnmt3a
+R878H/+
+HSCs (
+n
+= 4 biological replicate mice). ** symbol denotes proteins detected in HSC/MPP. (
+j
+) Schematic of experimental design to determine SASP factors produced from MSCs after treatment with CM from control or
+Dnmt3a
+R878H/+
+HSPCs. (
+k
+) Concentration of MMP3 (left), S100a9 (middle) and TNFa (right) produced by MSCs after treatment with control or
+Dnmt3a
+R878H/+
+CM. P values determined by ratio-paired, two-tailed
+t
+tests (
+n
+= 5 biological replicates per condition). Non
+−
+significant p values (P > 0.05) not shown. (
+l
+) Schematic of experimental design to test the effect of senescent MSCs on wild-type HSPCs
+ex vivo
+. (
+m
+) Frequency of wild-type HSCs (Lin
+−
+Sca-1
++
+Flt3
+−
+CD150
++
+CD48
+−
+, left) and GMPs (Lin
+−
+Sca-1
+−
+c-Kit
++
+CD16/32
++
+CD34
++
+, right) after 7-day co-culture with non
+−
+senescent or senescent MSCs. P values determined by unpaired, two-tailed
+t
+test (
+n
+= 4 biological replicates per condition). (
+n
+) Schematic of experimental design to test the effect of senescent MSCs on wild-type hematopoiesis
+in vivo
+. (
+o
+) Frequency of wild-type (CD45.1
++
+) HSCs (Lin
+−
+Sca-1
++
+c-Kit
++
+Flt3
+−
+CD150
++
+CD48
+−
+, left) and GMPs (Lin
+−
+Sca-1
+−
+c-Kit
++
+CD16/32
++
+CD34
++
+, right) in mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis. P values determined by unpaired, two-tailed
+t
+test with Welch’s correction (
+n
+= 8 biological replicates per condition). (
+p
+) Schematic of experimental design to test the effect of senescent MSCs on
+Dnmt3a
+R878H/+
+hematopoiesis
+ex vivo
+. (
+q
+) Frequency of HSCs (Lin
+−
+Sca-1
++
+Flt3
+−
+CD150
++
+CD48
+−
+, left) and GMPs (Lin
+−
+Sca-1
+−
+c-Kit
++
+CD16/32
++
+CD34
++
+, right), after 7-day co-culture of control or
+Dnmt3a
+R878H/+
+HSPCs with wild-type MSCs. P values determined by unpaired, two-tailed
+t
+test (
+n
+= 17 control,
+n
+= 21
+Dnmt3a
+R878H/+
+biological replicates). Dots represent individual biological replicate mice. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Extended Data Fig. 7 Additional data on TNF and IL-6 receptor levels and phosphorylation of signalling intermediates in MSCs.
+(
+a
+) Schematic of steady state experimental design using control or
+Dnmt3a
+R878H/+
+Mx-Cre mice. Mice were evaluated > 5 weeks after Mx-Cre induction using poly(I:C). (
+b
+) Frequency of TNFR1
++
+(left), TNFR2
++
+(centre), and IL-6R
++
+(right) MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+LepR
++
+) in control and
+Dnmt3a
+R878H/+
+mice. P values determined by two-tailed Mann-Whitney tests (
+n
+= 5 biological replicate mice per condition). Non-significant p values (P > 0.05) not shown. (
+c
+) MFI of phospho-proteins pNF-kB (left), pMAPK (centre), and pAKT (right) in MSCs in control and
+Dnmt3a
+R878H/+
+mice. Not significant by two-tailed Mann-Whitney test (
+n
+= 5 biological replicate mice per condition). (
+d
+) Schematic of busulfan-conditioned recipient mice in transplant experimental design using control or
+Dnmt3a
+R878H/+
+Mx-Cre donor mice. Transplant was performed > 5 weeks after poly(I:C) treatment of donor mice. (
+e
+) MFI of phospho-proteins pNF-kB (left), pMAPK (centre), and pAKT (right) in MSCs from mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis. Not significant by two-tailed Mann-Whitney test (
+n
+= 10 biological replicate recipient mice per condition). Dots represent individual biological replicate mice. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Extended Data Fig. 8 Additional data on p16-3MR controls and data showing ABT-263 does not directly target
+Dnmt3a
+-mutant hematopoietic cells.
+(
+a
+) Representative histogram (left) and MFI (right) of p16-mRFP in MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+LepR
++
+) in p16-3MR mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis after treatment with vehicle or GCV. P values determined by one-way ANOVA with Tukey’s multiple comparisons test (
+n
+= 5 control vehicle,
+n
+= 4 control GCV,
+n
+= 5
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 7
+Dnmt3a
+R878H/+
+GCV biological replicate recipient mice). Non-significant p values (P > 0.05) not shown. (
+b
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) MSCs in p16-3MR mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis after treatment with vehicle or GCV. P values determined by one-way ANOVA with Tukey’s multiple comparisons test (
+n
+= 5 control vehicle,
+n
+= 4 control GCV,
+n
+= 5
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 7
+Dnmt3a
+R878H/+
+GCV biological replicate recipient mice). Non-significant p values (P > 0.05) not shown. (
+c
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) MSCs in recipient mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis treated with vehicle or ABT-263. P values determined by Kruskal-Wallis test with Dunn’s multiple comparisons test (
+n
+= 10 control vehicle,
+n
+= 10 control ABT-263,
+n
+= 9
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 10
+Dnmt3a
+R878H/+
+ABT-263 biological replicate recipient mice). Non-significant p values (P > 0.05) not shown. (
+d
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) hematopoietic cells in the BM of control Mx-Cre and
+Dnmt3a
+R878H/+
+Mx-Cre mice. Mice were evaluated > 5 weeks after Mx-Cre induction using poly(I:C). Not significant by multiple unpaired, two-tailed
+t
+tests (
+n
+= 3 biological replicate mice per condition). (
+e
+) Schematic of experimental design (left) and number of CFU (right) produced by control and
+Dnmt3a
+R878H/+
+HSPCs treated directly with vehicle or ABT-263 at passage 2 (P2) and passage 3 (P3). P values determined by two-way ANOVA with Tukey’s multiple comparisons test (
+n
+= 3 biological replicate mice per condition). (
+f
+) Schematic of experimental design evaluating cytokine production from
+Dnmt3a
+R878H/+
+HSPCs following treatment with ABT-263. (
+g
+) Concentration of IL-6 (left) or TNFa (right) produced by
+Dnmt3a
+R878H/+
+HSPCs treated with vehicle or ABT-263. Not significant by unpaired, two-tailed
+t
+tests (
+n
+= 4 biological replicates per condition). (
+h
+) Schematic of experimental design evaluating the effects of
+in vivo
+ABT-263 administration on wild-type hematopoiesis. (
+i
+) Complete blood count values in C57BL/6 J mice treated with vehicle or ABT-263. WBC; white blood cells, NEUT; neutrophils, PLT; platelets. Horizontal dashed lines indicated standard reference values. Not significant by two-tailed Mann-Whitney test (
+n
+= 8 biological replicate mice per condition). (
+j
+) Frequency of myeloid cells (left) and HSCs (right) in the BM of C57BL/6 J mice treated with vehicle or ABT-263. Not significant by two-tailed Mann-Whitney test (
+n
+= 8 biological replicate mice per condition). Dots represent individual biological replicate mice. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Extended Data Fig. 9
+In vivo
+treatment with the senolytics dasatinib and quercetin reduce MSC senescence and
+Dnmt3a-
+mutant hematopoiesis.
+(
+a
+) Schematic of experimental design to generate
+Dnmt3a
+R878H/+
+Mx-Cre hematopoiesis in wild-type recipient mice and treat recipients with dasatinib and quercetin (D + Q). Transplant was performed > 5 weeks after poly(I:C) treatment of donor mice. (
+b
+) Representative histogram (left) and MFI of SA-b-gal in MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+LepR
++
+) in recipient mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis treated with vehicle or D + Q. P values determined by Brown–Forsythe and Welch ANOVA test with Dunnett’s T3 multiple comparisons test (
+n
+= 9 control vehicle,
+n
+= 9 control D + Q,
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 9
+Dnmt3a
+R878H/+
+D + Q biological replicate recipient mice). Non-significant p values (P > 0.05) not shown. (
+c
+) Frequency of senescent MSCs in recipient mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis treated with vehicle or D + Q. P values determined by Brown–Forsythe and Welch ANOVA test with Dunnett’s T3 multiple comparisons test (
+n
+= 9 control vehicle,
+n
+= 9 control D + Q,
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 9
+Dnmt3a
+R878H/+
+D + Q biological replicate recipient mice). Non-significant p values (P > 0.05) not shown. (
+d
+) Frequency of Bcl-xL
++
+(left) and Bcl-2
++
+(right) MSCs in recipient mice with control or
+Dnmt3a
+R878H/+
+hematopoiesis treated with vehicle or D + Q. P values determined by Brown–Forsythe and Welch ANOVA test with Dunnett’s T3 multiple comparisons test (
+n
+= 9 control vehicle,
+n
+= 9 control D + Q,
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 9
+Dnmt3a
+R878H/+
+D + Q biological replicate recipient mice). Non-significant p values (P > 0.05) not shown. (
+e
+) Frequency of donor (CD45.2
++
+) hematopoietic cells in the BM (left) and HSPC (right) compartment of recipient mice. P values determined by Brown–Forsythe and Welch ANOVA test with Dunnett’s T3 multiple comparisons test (
+n
+= 9 control vehicle,
+n
+= 9 control D + Q,
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 9
+Dnmt3a
+R878H/+
+D + Q biological replicate recipient mice). Non-significant p values (P > 0.05) not shown. (
+f
+) Correlation between the frequency of senescent MSCs and donor-derived BM cells (left), and frequency of senescent MSCs and donor-derived HSCs (right) in mice transplanted with control hematopoiesis. Significance values determined by two-tailed Pearson correlation (
+n
+= 9 biological replicate mice per condition). (
+g
+) Correlation between the frequency of senescent MSCs and donor-derived BM cells (left), and frequency of senescent MSCs and donor-derived HSCs (right) in mice transplanted with
+Dnmt3a
+R878H/+
+hematopoiesis. Significance values determined by two-tailed Pearson correlation (
+n
+= 8
+Dnmt3a
+R878H/+
+vehicle,
+n
+= 9
+Dnmt3a
+R878H/+
+D + Q biological replicate mice). Dots represent individual biological replicate mice. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Extended Data Fig. 10 MSC senescence in other genetic mouse models of human AML.
+(
+a
+) Schematic of experimental design to evaluate induction of MSC senescence by
+Npm1;Flt3
+ITD
+and
+Idh1;Npm1;Nras
+G12D
+AML in busulfan-conditioned wild-type recipient mice. (
+b
+) Complete blood count values in mice transplanted with AML or control BM. MONO; monocytes, PLT; platelets. P values determined by Brown–Forsythe and Welch ANOVA with Dunnett’s T3 multiple comparisons test (
+n
+= 4 biological replicate mice per condition). Non-significant p values (P > 0.05) not shown. (
+c
+) Frequency of senescent MSCs (CD45
+−
+Ter119
+−
+CD31
+−
+CD51
++
+PDGFRa
++
+LepR
++
+) in recipient mice transplanted with AML or control BM. P values determined by Brown–Forsythe and Welch ANOVA with Dunnett’s T3 multiple comparisons test (
+n
+= 4 biological replicate mice per condition). Non-significant p values (P > 0.05) not shown. (
+d
+) Schematic of experimental design to evaluate induction of MSC senescence by
+Npm1;Flt3
+ITD
+and
+Idh1;Npm1;Nras
+G12D
+AML in irradiated wild-type recipient mice. (
+e
+) Complete blood count values in mice with transplanted with AML or control BM. MONO; monocytes, PLT; platelets. P values determined by Brown–Forsythe and Welch ANOVA with Dunnett’s T3 multiple comparisons test (
+n
+= 5 control,
+n
+= 5
+Npm1;Flt3
+ITD
+AML,
+n
+= 4
+Idh1;Npm1;Nras
+G12D
+AML biological replicate mice per condition). Non-significant p values (P > 0.05) not shown. (
+f
+) Frequency of senescent MSCs in recipient mice transplanted with AML or control BM. P values determined by Brown–Forsythe and Welch ANOVA with Dunnett’s T3 multiple comparisons test (
+n
+= 5 control,
+n
+= 5
+Npm1;Flt3
+ITD
+AML,
+n
+= 4
+Idh1;Npm1;Nras
+G12D
+AML biological replicate mice per condition). Non-significant p values (P > 0.05) not shown. (
+g
+) Expression of
+CDKN1A
+in human MSCs from aged-matched normal BM, non-
+DNMT3A
+/
+TET2-
+mutant AML, and
+DNMT3A
+- or
+TET2-
+mutant AML. Data from Chen et al. P values determined by Kruskal-Wallis with uncorrected Dunn’s test (
+n
+= 8 normal BM,
+n
+= 33 non-
+DNMT3A
+/
+TET2-
+mutant AML,
+n
+= 29
+DNMT3A
+- or
+TET2-
+mutant AML). Dots represent individual biological replicate mice or human samples. In box plots, the box represents the interquartile range, the median is indicated by the line inside the box and whiskers extend to the minimum and maximum values.
+Source data
+Supplementary information
+Reporting Summary (download PDF
+)
+Peer Review File (download PDF
+)
+Supplementary Table 1 (download XLSX
+)
+Top marker genes defining each mouse scRNA-seq cluster.
+Supplementary Table 2 (download XLSX
+)
+Gene sets used for mouse and human GSEA analyses and senescence score computation.
+Supplementary Table 3 (download XLSX
+)
+Annotation of primary human samples used in this study.
+Supplementary Table 4 (download XLSX
+)
+qRT-PCR primer sequences used for senescence gene expression analysis.
+Source data
+Source Data Fig. 1 (download XLSX
+)
+Statistical source data
+Source Data Fig. 2 (download XLSX
+)
+Statistical source data
+Source Data Fig. 3 (download XLSX
+)
+Statistical source data
+Source Data Fig. 4 (download XLSX
+)
+Statistical source data
+Source Data Fig. 5 (download XLSX
+)
+Statistical source data
+Source Data Fig. 6 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 1 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 2 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 3 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 4 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 5 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 6 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 7 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 8 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 9 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 10 (download XLSX
+)
+Statistical source data
+Source Data Extended Data Fig. 1 (download PDF
+)
+Unprocessed gel
+Rights and permissions
+Open Access
+This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+.
+Reprints and permissions
+About this article
+Cite this article
+Mistry, J.J., Young, K.A., Navarro Figueredo, A.
+et al.
+Stromal cell senescence augments haematopoietic cell fitness in clonal haematopoiesis.
+Nat Cell Biol
+28
+, 1656–1670 (2026). https://doi.org/10.1038/s41556-026-02025-4
+Download citation
+Received
+:
+05 March 2026
+Accepted
+:
+18 June 2026
+Published
+:
+06 August 2026
+Version of record
+:
+06 August 2026
+Issue date
+:
+August 2026
+DOI
+:
+https://doi.org/10.1038/s41556-026-02025-4
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Download PDF
+Associated content
+Pre-cancerous blood cells prematurely age the bone marrow to fuel cancer risk
+Nature Cell Biology
+Research Briefing
+06 Aug 2026
+Advertisement
+Explore content
+Research articles
+Reviews & Analysis
+News & Comment
+Current issue
+Collections
+Follow us on X
+Sign up for alerts
+RSS feed
+About the journal
+Aims & Scope
+Journal Information
+Editors
+Journal Metrics
+Research Cross-Journal Editorial Team
+Reviews Cross-Journal Editorial Team
+Our publishing models
+Editorial Values Statement
+Editorial Policies
+Content Types
+Web Feeds
+Posters
+Contact
+Publish with us
+Submission Guidelines
+For Reviewers
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature Cell Biology
+(
+Nat Cell Biol
+)
+ISSN
+1476-4679
+(online)
+ISSN
+1465-7392
+(print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+                        content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+                Policy
+Use
+                of cookies
+Your privacy choices/Manage cookies
+Legal
+                notice
+Accessibility
+                statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the
+Nature Briefing
+newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the
+Nature
+and Springer Nature Limited
+Privacy Policy
+.
+Close banner
+Close
+Get the most important science stories of the day, free in your inbox.
+Sign up for Nature Briefing

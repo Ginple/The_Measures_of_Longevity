@@ -1,0 +1,175 @@
+{
+  "all_parameters_synthetic_dimensionless": true,
+  "not_fitted_to_TBX3_or_mitochondria": true,
+  "equations": [
+    "dL=g-(k+e)L",
+    "dP=eL-uP",
+    "dR=uP-Vmax*R/(K+R)",
+    "dQ=kL+Vmax*R/(K+R)"
+  ],
+  "cargo_model": [
+    {
+      "scenario": "baseline",
+      "g": 1.0,
+      "k": 0.4,
+      "e": 0.1,
+      "Vmax": 0.55,
+      "J_steady_export": 0.2,
+      "bounded_steady_state": true,
+      "terminal_source_cargo": 2.0,
+      "terminal_recipient_cargo": 0.5714285714285714,
+      "terminal_retained_total": 2.7714285714285714,
+      "max_abs_balance_error": 2.842170943040401e-14,
+      "analytic_source_star": 2.0,
+      "analytic_transit_star": 0.2,
+      "analytic_recipient_star": 0.5714285714285714
+    },
+    {
+      "scenario": "export_only",
+      "g": 1.0,
+      "k": 0.4,
+      "e": 1.2,
+      "Vmax": 0.55,
+      "J_steady_export": 0.7499999999999999,
+      "bounded_steady_state": false,
+      "terminal_source_cargo": 0.6250000001317614,
+      "terminal_recipient_cargo": 30.5101936306154,
+      "terminal_retained_total": 31.885193630483638,
+      "max_abs_balance_error": 4.263256414560601e-14
+    },
+    {
+      "scenario": "export_plus_capacity",
+      "g": 1.0,
+      "k": 0.4,
+      "e": 1.2,
+      "Vmax": 2.0,
+      "J_steady_export": 0.7499999999999999,
+      "bounded_steady_state": true,
+      "terminal_source_cargo": 0.6250000001341911,
+      "terminal_recipient_cargo": 0.6000000003277952,
+      "terminal_retained_total": 1.9750000001936039,
+      "max_abs_balance_error": 4.263256414560601e-14,
+      "analytic_source_star": 0.625,
+      "analytic_transit_star": 0.7499999999999999,
+      "analytic_recipient_star": 0.5999999999999999
+    }
+  ],
+  "below_capacity_example": {
+    "Vmax": 0.95,
+    "baseline_total": 2.466666666666667,
+    "increased_export_total": 5.124999999999998,
+    "source_baseline": 2.0,
+    "source_after": 0.625,
+    "note": "Both equilibria bounded; total cargo is not itself a health score."
+  },
+  "clone_threshold": {
+    "JWT": 0.2,
+    "Jmut": 0.7499999999999999,
+    "Vmax": 0.55,
+    "xcrit": 0.6363636363636366,
+    "assumption": "Fixed clone fractions, same generation rate, fixed recipient capacity; no feedback or cargo identity change."
+  },
+  "order_model": [
+    {
+      "schedule": "NR",
+      "x_final": 0.07936088741217384,
+      "z_final": 0.12180175492045771,
+      "logit_final": -2.45106247143167,
+      "b": 0.6
+    },
+    {
+      "schedule": "RN",
+      "x_final": 0.17987057814879237,
+      "z_final": 0.12180175492045771,
+      "logit_final": -1.5172245773362183,
+      "b": 0.6
+    },
+    {
+      "schedule": "NR",
+      "x_final": 0.06931725556595594,
+      "z_final": 0.12180175492045771,
+      "logit_final": -2.5972245773362195,
+      "b": 0.0
+    },
+    {
+      "schedule": "RN",
+      "x_final": 0.06931725556595594,
+      "z_final": 0.12180175492045771,
+      "logit_final": -2.5972245773362195,
+      "b": 0.0
+    },
+    {
+      "schedule": "NR",
+      "x_final": 0.06046123387522661,
+      "z_final": 0.12180175492045771,
+      "logit_final": -2.7433866832407685,
+      "b": -0.6
+    },
+    {
+      "schedule": "RN",
+      "x_final": 0.024669118583879126,
+      "z_final": 0.12180175492045771,
+      "logit_final": -3.6772245773362204,
+      "b": -0.6
+    }
+  ],
+  "tests": [
+    {
+      "name": "all cargo conserved including terminal processing",
+      "passed": true
+    },
+    {
+      "name": "zero export leaves downstream empty",
+      "passed": true
+    },
+    {
+      "name": "export improves source yet increases retained cargo in low-capacity scenario",
+      "passed": true
+    },
+    {
+      "name": "larger capacity reduces recipient load",
+      "passed": true
+    },
+    {
+      "name": "below-capacity counterexample",
+      "passed": true
+    },
+    {
+      "name": "clone threshold identity",
+      "passed": true
+    },
+    {
+      "name": "same endpoint niche b=0.6",
+      "passed": true
+    },
+    {
+      "name": "analytic schedule contrast b=0.6",
+      "passed": true
+    },
+    {
+      "name": "same endpoint niche b=0.0",
+      "passed": true
+    },
+    {
+      "name": "analytic schedule contrast b=0.0",
+      "passed": true
+    },
+    {
+      "name": "commuting negative control",
+      "passed": true
+    },
+    {
+      "name": "same endpoint niche b=-0.6",
+      "passed": true
+    },
+    {
+      "name": "analytic schedule contrast b=-0.6",
+      "passed": true
+    },
+    {
+      "name": "order ranking reverses when ecological coefficient reverses",
+      "passed": true
+    }
+  ],
+  "interpretation": "Countermodels yield conditional boundaries and discriminating experiments, not empirical discoveries or treatment advice."
+}

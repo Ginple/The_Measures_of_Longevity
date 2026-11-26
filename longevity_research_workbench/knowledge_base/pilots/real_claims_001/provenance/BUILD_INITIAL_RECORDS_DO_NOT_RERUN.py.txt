@@ -1,0 +1,57 @@
+from pathlib import Path
+import hashlib,json,shutil,sys
+P=Path('/home/user/longevity_research_workbench/knowledge_base/pilots/real_claims_001');W=P.parents[2];CACHE=Path('/home/user/longevity_source_cache_001')
+sys.path.insert(0,str(W/'methods/research-assurance/src'))
+from research_assurance.core import claim_record_hash
+h=lambda b:hashlib.sha256(b).hexdigest()
+for folder in ['corpus','evidence','provenance','docs','scripts','tests','results','drafts','review']: (P/folder).mkdir(exist_ok=True)
+for ver,orig in [('v6',Path('/home/user/longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md')),('v7',Path('/home/user/longevity_v7/长寿研究_V7_谁在变年轻.md'))]:shutil.copy2(orig,P/f'corpus/{ver}.md')
+source_texts={id:(CACHE/f'{id}.txt').read_bytes().decode('utf8') for id in ['LIFE','MTDNA']}
+# Exact quotations, not generated/paraphrased source evidence. No trust refreshing on validation.
+L=source_texts['LIFE'];M=source_texts['MTDNA']
+select=[
+ ('E-LIFE-DESIGN','LIFE',L.splitlines()[244]),
+ ('E-LIFE-RESULT','LIFE',L.splitlines()[250].split(' Persistent mobility disability')[0]),
+ ('E-LIFE-ENDPOINT','LIFE',L.splitlines()[316]),
+ ('E-LIFE-ALTERNATIVE','LIFE','Of the 246 and 290 physical activity and health education participants classified with major mobility disability, 42 (17%) and 32 (11%) resulted from alternative adjudications in each group, respectively.'),
+ ('E-LIFE-ANALYSIS','LIFE','The effect of the intervention on the primary outcome (i.e. time until the initial ascertainment of major mobility disability) was tested based on a two-tailed significance of 0.05 using the intention to treat approach in which participants are grouped according to randomization assignment.'),
+ ('E-LIFE-DEATH','LIFE','Given the small number of events the data regarding mortality are inconclusive.'),
+ ('E-LIFE-SAE','LIFE','Serious adverse events were reported by 404/818 (49.4%) of the physical activity and 373/817 (45.7%) of the health education participants (Risk Ratio=1.08; 95%CI=0.98–1.20).'),
+ ('E-MTDNA-INPUT','MTDNA',M.splitlines()[209]),
+ ('E-MTDNA-QC','MTDNA','After quality control, we called a total of 19,051,526 variants (\nMethods\n) from 620,385 individuals.'),
+ ('E-MTDNA-MODEL','MTDNA','Our analyses support a model in which individual blood cells randomly accumulate low levels of neutral mtDNA variation (that is, cryptic mutations), probably owing to replication-related errors, that are not detectable in bulk. However, with age-related expansion of individual cellular clones (by means of CH), these low-level cryptic variants become detectable and give rise to the observed accumulation with age.'),
+ ('E-MTDNA-BULK-LIMIT','MTDNA','Third, because all analyses occurred in bulk samples, we were unable to evaluate the heteroplasmy distribution of a particular variant across cells in each sample or to\u00a0determine whether individuals with multiple mtSNVs had a single CH clone carrying all SNVs or multiple clones carrying individual mtSNVs. Single-cell analysis would provide further resolution to elucidate this.')]
+evidence=[];selections=[];bundles={'LIFE':'','MTDNA':''}
+for eid,id,quote in select:
+ assert quote in source_texts[id],(eid,quote)
+ start=len(bundles[id].splitlines())+1
+ # Bundle positions refer to original quotation bytes; a separate header line labels each quote.
+ bundles[id]+=eid+'\n'+quote+'\n\n'
+ qstart=start+1;qend=qstart+len(quote.splitlines())
+ evidence.append({'id':eid,'artifact_id':'A-'+id,'lines_1based_halfopen':[qstart,qend],'text':quote+'\n'})
+ offset=source_texts[id].index(quote)
+ selections.append({'evidence_id':eid,'source_id':id,'snapshot_character_span_0based_halfopen':[offset,offset+len(quote)],'snapshot_line_span_1based_halfopen':[source_texts[id][:offset].count('\n')+1,source_texts[id][:offset+len(quote)].count('\n')+2],'quote_sha256_utf8_without_appended_newline':h(quote.encode()),'bundle_path':f'evidence/{id}_excerpts.txt','bundle_lines_1based_halfopen':[qstart,qend]})
+for id,text in bundles.items():(P/f'evidence/{id}_excerpts.txt').write_bytes(text.encode())
+urls={'LIFE':'https://pmc.ncbi.nlm.nih.gov/articles/PMC4266388/','MTDNA':'https://www.nature.com/articles/s41586-026-10569-6'}
+receipts=[]
+for id in ['LIFE','MTDNA']:
+ receipts.append({'id':id,'url':urls[id],'retrieved_date':'2026-11-25','raw_html_sha256':h((CACHE/f'{id}.html').read_bytes()),'normalized_text_sha256':h((CACHE/f'{id}.txt').read_bytes()),'raw_cache_files':[f'{id}.html',f'{id}.txt'],'full_resource_acquired':True,'reading_depth':'selected_results_methods_discussion_not_entire_article_or_supplement','normalized_transform':"BeautifulSoup(html,'html.parser'); first article else main else soup; decompose script/style/nav; get_text('\\n',strip=True); UTF-8; preserve source unicode",'exported_excerpt_sha256':h((P/f'evidence/{id}_excerpts.txt').read_bytes())})
+(P/'provenance/SOURCE_RECEIPTS.json').write_text(json.dumps({'cache_location_hint':'/home/user/longevity_source_cache_001','public_package_includes_full_source_html':False,'sources':receipts,'selected_quotes':selections,'read_ranges_1based':{'LIFE':[[239,339],[440,506],[650,684]],'MTDNA':[[187,221],[755,879]]},'note':'Downloaded whole pages are not fully read articles. Exported excerpts are one source family per paper; raw HTML hashes are locally verifiable only with cache supplied.'},ensure_ascii=False,indent=2)+'\n')
+artifacts=[]
+for id in ['LIFE','MTDNA']:
+ artifacts.append({'id':'A-'+id,'path':f'evidence/{id}_excerpts.txt','sha256':h((P/f'evidence/{id}_excerpts.txt').read_bytes()),'role':'source','family':'study-'+id,'access_depth':'excerpt','url':urls[id],'version':'publisher/PMC snapshot 2026-11-25; selected quotes only'})
+for id in ['v6','v7']:
+ artifacts.append({'id':'A-'+id.upper(),'path':f'corpus/{id}.md','sha256':h((P/f'corpus/{id}.md').read_bytes()),'role':'manuscript','family':'longevity-manuscript','access_depth':'excerpt','url':'','version':id+' frozen original snapshot'})
+claims=[]
+for cid,ver,needle,ctx,eids in [
+ ('LON-C000001','v6','LIFE 随机试验在行动障碍高风险老人中',{'population':'LIFE trial: 1635 sedentary volunteers aged 70–89 with SPPB<=9, able to walk 400m at baseline; not all older adults','time':'variable trial follow-up; mean contact follow-up 2.6 years, not fixed 2.6-year risk','estimand':'reported ITT first-major-mobility-disability Cox hazard ratio and crude event proportions; neither mortality nor biological age','unit':'randomized participant','design':'multicentre randomized trial, active health education comparator; original participant data not reanalysed','domain':'mobility function in enrolled high-risk older adults'},[e['id'] for e in evidence if 'LIFE' in e['id']]),
+ ('LON-C000002','v7','2026年Nature研究最值得注意的不是样本量大',{'population':'UK Biobank and All of Us blood WGS; input 736038, post-QC 620385; downstream analyses have own sample sizes','time':'cohort age-associated bulk measurements; not a randomized anti-ageing intervention','estimand':'authors report genetic/observational support for a CH amplification model of detectable blood mtSNV burden, not a measured per-cell rejuvenation effect','unit':'participant bulk blood sample; not individually followed cell','design':'observational genomic and genetic analyses; no new raw data reanalysis in this pilot','domain':'low-level age-associated mtSNVs in blood; not all mtDNA mutations or tissues'},[e['id'] for e in evidence if 'MTDNA' in e['id']])]:
+ lines=(P/f'corpus/{ver}.md').read_bytes().decode().splitlines(keepends=True);i=next(i for i,line in enumerate(lines) if line.startswith(needle));c={'id':cid,'artifact_id':'A-'+ver.upper(),'lines_1based_halfopen':[i+1,i+2],'text':lines[i],'kind':'reported','role':'asserted','critical':True,'context':ctx,'evidence_ids':eids}
+ c['assessment']={'state':'supported','reviewer':'same-assistant-source-comparison-not-human-or-independent-review','rationale':'Targeted comparison supports faithful reporting only, with qualifications in CLAIM_CARDS.md. Does not endorse all rhetoric, identify the mechanism uniquely, or reproduce the trial/genomic analysis.','bound_hashes':{a['id']:a['sha256'] for a in artifacts if a['id'] in [c['artifact_id'],'A-LIFE' if ver=='v6' else 'A-MTDNA']},'dimensions':{d:('supported' if d in ['source_support','extraction'] else 'unknown') for d in ['source_support','extraction','measurement','statistical_inference','causal_identification','transportability','net_benefit','independent_review']},'record_sha256':claim_record_hash(c,{e['id']:e for e in evidence})}
+ claims.append(c)
+data={'schema_version':'0.1','project_id':'longevity-real-claims-pilot-001','authors':['project-author-unassigned','Arena-assisted-source-comparison-process-not-an-author'],'coverage':{'scope':'Exactly two selected pre-existing manuscript paragraphs; not exhaustive semantic extraction, no full human-reviewed inventory','human_inventory_complete':False,'candidate_units':2,'registered_claims':2,'note':'2 selected paragraph units, each may contain multiple propositions. These are not 2 wholly validated scientific facts, no human review count claimed.'},'artifacts':artifacts,'evidence':evidence,'claims':claims,'reviews':[],'debts':[{'id':'PILOT-INDEPENDENT-REVIEW','status':'blocked','blocks_formal_release':True,'question':'No independent domain/statistical review of the actual claims','next_action':'Request real review without fabricated receipts','closure_evidence':'Object-bound real independent review and responses'},{'id':'PILOT-READING-COVERAGE','status':'partial','blocks_formal_release':True,'question':'Only targeted primary text read; no full supplements/protocol/data reanalysis or exhaustive inventory','next_action':'Record further reading and reanalysis separately','closure_evidence':'Explicit completed scope and human acceptance; no automatic closure'}]}
+# The schema authors field is an administrative attribution list, not journal authorship.
+data['authors']=['project-author-unassigned']
+(P/'project.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+shutil.copy2(__file__,P/'provenance/BUILD_INITIAL_RECORDS_DO_NOT_RERUN.py')
+print('Created',len(artifacts),'artifacts',len(evidence),'evidence excerpts',len(claims),'paragraph claims')

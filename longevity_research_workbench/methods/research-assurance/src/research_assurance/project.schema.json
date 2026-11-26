@@ -1,0 +1,533 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/research-assurance/project-0.1.schema.json",
+  "title": "Local research assurance records, not scientific certification",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "human_inventory_complete": {
+          "type": "boolean"
+        },
+        "candidate_units": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "registered_claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "scope",
+        "human_inventory_complete",
+        "candidate_units",
+        "registered_claims",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/review"
+      }
+    },
+    "debts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/debt"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "project_id",
+    "authors",
+    "coverage",
+    "artifacts",
+    "evidence",
+    "claims",
+    "reviews",
+    "debts"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "role": {
+          "enum": [
+            "source",
+            "manuscript",
+            "dataset",
+            "code"
+          ]
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "access_depth": {
+          "enum": [
+            "metadata",
+            "abstract",
+            "excerpt",
+            "fulltext",
+            "data",
+            "code"
+          ]
+        },
+        "url": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "path",
+        "sha256",
+        "role",
+        "family",
+        "access_depth",
+        "url",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifact_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lines_1based_halfopen": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "integer",
+              "minimum": 2
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "artifact_id",
+        "lines_1based_halfopen",
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "assessment": {
+      "type": "object",
+      "properties": {
+        "state": {
+          "enum": [
+            "supported",
+            "refuted",
+            "mixed",
+            "unknown"
+          ]
+        },
+        "reviewer": {
+          "type": "string"
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "bound_hashes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "record_sha256": {
+          "type": "string",
+          "pattern": "^([a-f0-9]{64})?$"
+        },
+        "dimensions": {
+          "type": "object",
+          "properties": {
+            "source_support": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "extraction": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "measurement": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "statistical_inference": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "causal_identification": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "transportability": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "net_benefit": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "independent_review": {
+              "enum": [
+                "supported",
+                "refuted",
+                "mixed",
+                "unknown",
+                "not_applicable"
+              ]
+            }
+          },
+          "required": [
+            "source_support",
+            "extraction",
+            "measurement",
+            "statistical_inference",
+            "causal_identification",
+            "transportability",
+            "net_benefit",
+            "independent_review"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "state",
+        "reviewer",
+        "rationale",
+        "bound_hashes",
+        "record_sha256",
+        "dimensions"
+      ],
+      "additionalProperties": false
+    },
+    "claim": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifact_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lines_1based_halfopen": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "integer",
+              "minimum": 2
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "formal",
+            "reported",
+            "descriptive",
+            "statistical",
+            "causal",
+            "transport",
+            "decision",
+            "normative",
+            "proposal"
+          ]
+        },
+        "role": {
+          "enum": [
+            "asserted",
+            "hypothesis",
+            "rejected_misreading",
+            "proposal"
+          ]
+        },
+        "critical": {
+          "type": "boolean"
+        },
+        "context": {
+          "type": "object",
+          "properties": {
+            "population": {
+              "type": "string",
+              "minLength": 1
+            },
+            "time": {
+              "type": "string",
+              "minLength": 1
+            },
+            "estimand": {
+              "type": "string",
+              "minLength": 1
+            },
+            "unit": {
+              "type": "string",
+              "minLength": 1
+            },
+            "design": {
+              "type": "string",
+              "minLength": 1
+            },
+            "domain": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "population",
+            "time",
+            "estimand",
+            "unit",
+            "design",
+            "domain"
+          ],
+          "additionalProperties": false
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "assessment": {
+          "$ref": "#/$defs/assessment"
+        }
+      },
+      "required": [
+        "id",
+        "artifact_id",
+        "lines_1based_halfopen",
+        "text",
+        "kind",
+        "role",
+        "critical",
+        "context",
+        "evidence_ids",
+        "assessment"
+      ],
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independence_declared": {
+          "type": "boolean"
+        },
+        "receipt": {
+          "type": "string"
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "bound_hashes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "claim_record_hashes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "response_complete": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "reviewer",
+        "independence_declared",
+        "receipt",
+        "claim_ids",
+        "bound_hashes",
+        "claim_record_hashes",
+        "response_complete"
+      ],
+      "additionalProperties": false
+    },
+    "debt": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "open",
+            "partial",
+            "blocked",
+            "closed"
+          ]
+        },
+        "blocks_formal_release": {
+          "type": "boolean"
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "next_action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "closure_evidence": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "status",
+        "blocks_formal_release",
+        "question",
+        "next_action",
+        "closure_evidence"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

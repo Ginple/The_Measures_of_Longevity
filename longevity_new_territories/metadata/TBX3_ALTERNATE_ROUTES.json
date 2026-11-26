@@ -1,0 +1,20 @@
+[
+  {
+    "file": "data/oa.txt",
+    "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12435840",
+    "resolved_url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12435840",
+    "http": 404,
+    "bytes": 48716,
+    "magic": "0a0a3c21444f4354",
+    "sha256": "be7cae300cd730f793b6b9bbba9b13c10fe3ef6610129b86d10be6412e71b4e7"
+  },
+  {
+    "file": "data/jci_plain.txt",
+    "url": "https://www.jci.org/articles/view/191855/sd/4?download=1",
+    "resolved_url": "https://www.jci.org/articles/view/191855/sd/4?download=1",
+    "http": 200,
+    "bytes": 23015,
+    "magic": "3c21444f43545950",
+    "sha256": "9463d88147752066041b682223bcc29e3e4fdd8d9a483248d11db1dbb492a5fa"
+  }
+]

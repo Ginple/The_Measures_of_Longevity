@@ -1,0 +1,2961 @@
+The EV-mitochondrial outsourcing network as a therapeutic target for age-related testosterone deficiency: from network collapse to clinical intervention - PMC
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official
+                            government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+Search
+Log in
+Dashboard
+Publications
+Account settings
+Log out
+Search…
+Search NCBI
+Primary site navigation
+Search
+Logged in as:
+Dashboard
+Publications
+Account settings
+Log in
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+    the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+Front Endocrinol (Lausanne)
+. 2026 Jun 22;17:1866059. doi:
+10.3389/fendo.2026.1866059
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+The EV-mitochondrial outsourcing network as a therapeutic target for age-related testosterone deficiency: from network collapse to clinical intervention
+Lu Zhou
+Lu Zhou
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Conceptualization, Investigation, Project administration, Supervision, Writing – original draft, Writing – review & editing
+Find articles by
+Lu Zhou
+1,
+†
+,
+Xingzhao Tian
+Xingzhao Tian
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Investigation, Writing – original draft, Writing – review & editing
+Find articles by
+Xingzhao Tian
+1,
+†
+,
+Xiteng Wang
+Xiteng Wang
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Investigation, Writing – original draft, Writing – review & editing
+Find articles by
+Xiteng Wang
+1
+,
+Xiucheng Lan
+Xiucheng Lan
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Investigation, Writing – original draft, Writing – review & editing
+Find articles by
+Xiucheng Lan
+1
+,
+Meijing Wang
+Meijing Wang
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Investigation, Writing – original draft, Writing – review & editing
+Find articles by
+Meijing Wang
+1
+,
+Junjun Li
+Junjun Li
+2
+Chengdu Fifth People’s Hospital, Chengdu, Sichuan, China
+Investigation, Writing – original draft, Writing – review & editing
+Find articles by
+Junjun Li
+2
+,
+Liang Dong
+Liang Dong
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Investigation, Writing – original draft, Writing – review & editing
+Find articles by
+Liang Dong
+1
+,
+Xujun Yu
+Xujun Yu
+3
+The Second Affiliated Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Funding acquisition, Investigation, Supervision, Writing – review & editing
+Find articles by
+Xujun Yu
+3,
+*
+,
+Fang Yang
+Fang Yang
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+Conceptualization, Funding acquisition, Supervision, Writing – review & editing
+Find articles by
+Fang Yang
+1,
+*
+Author information
+Article notes
+Copyright and License information
+1
+Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+2
+Chengdu Fifth People’s Hospital, Chengdu, Sichuan, China
+3
+The Second Affiliated Hospital of Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China
+*
+Correspondence: Xujun Yu,
+20639179@qq.com
+; Fang Yang,
+252142600@qq.com
+†These authors have contributed equally to this work and share first authorship
+Roles
+Lu Zhou
+:
+Conceptualization, Investigation, Project administration, Supervision, Writing – original draft, Writing – review & editing
+Xingzhao Tian
+:
+Investigation, Writing – original draft, Writing – review & editing
+Xiteng Wang
+:
+Investigation, Writing – original draft, Writing – review & editing
+Xiucheng Lan
+:
+Investigation, Writing – original draft, Writing – review & editing
+Meijing Wang
+:
+Investigation, Writing – original draft, Writing – review & editing
+Junjun Li
+:
+Investigation, Writing – original draft, Writing – review & editing
+Liang Dong
+:
+Investigation, Writing – original draft, Writing – review & editing
+Xujun Yu
+:
+Funding acquisition, Investigation, Supervision, Writing – review & editing
+Fang Yang
+:
+Conceptualization, Funding acquisition, Supervision, Writing – review & editing
+Received 2026 Apr 27; Revised 2026 Jun 3; Accepted 2026 Jun 8; Collection date 2026.
+Copyright © 2026 Zhou, Tian, Wang, Lan, Wang, Li, Dong, Yu and Yang.
+This is an open-access article distributed under the terms of the
+Creative Commons Attribution License (CC BY)
+. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+PMC Copyright notice
+PMCID: PMC13333447  PMID:
+42440452
+Abstract
+The longevity and functional maintenance of Leydig cells (LCs) depend on an extracellular vesicle (EV)–mediated mitochondrial outsourcing system. In contrast to the conventional focus on intracellular quality control, LCs orchestrate a bidirectional EV transfer network with testicular macrophages: they export EVs containing defective mitochondria to CD206
++
+macrophages for clearance (the scavenger pathway), while importing EVs with healthy mitochondria from MHCII
++
+macrophages (the donor pathway). During aging, this network undergoes three-dimensional disruption—donor-side collapse characterized by diminished PGC-1α, a shift toward Drp1 predominance over Mfn2, and NAD
++
+depletion; scavenger-side obstruction reflected in reduced TREM2 and impaired phagosome-lysosome fusion; and communication uncoupling driven by decay of the VCAM1/ITGβ1 axis. These coordinated failures precipitate a mitochondrial quality crisis, steroidogenic enzyme dysfunction, and progressive loss of LCs, thereby initiating and driving late-onset hypogonadism (LOH). Individual variability in EV network efficiency dictates LOH susceptibility, and the point of network decompensation marks the transition from a compensated state to clinical disease. In-depth dissection of this network and its dysregulation may yield novel strategies for early diagnosis (INSL3, EV-miRNA signatures, mtDNA mutation burden) and targeted therapy (MSC-EVs, NAD
++
+precursors, TREM2 activation).
+Keywords:
+extracellular vesicles, late-onset hypogonadism, leydig cells, mitochondrial transfer, reproductive aging, testicular macrophages
+1. Introduction: a new paradigm for mitochondrial homeostasis maintenance in leydig cells
+Leydig cells (LCs) are the central effector cells of the male reproductive endocrine system, responsible for the synthesis and secretion of testosterone (
+1
+). Testosterone not only maintains male secondary sexual characteristics and spermatogenesis but also exerts widespread regulatory effects on systemic metabolic homeostasis, bone mineral density, muscle mass, and cognitive function (
+2
+,
+3
+). The steroidogenic process in LCs is a highly energy-dependent biochemical cascade: cholesterol is transported to the inner mitochondrial membrane by the steroidogenic acute regulatory protein (StAR), subsequently converted to pregnenolone by cytochrome P450 cholesterol side-chain cleavage enzyme (CYP11A1), and thereafter undergoes multiple enzymatic reactions within the endoplasmic reticulum to yield testosterone (
+4
+,
+5
+). Each of these steps requires an adequate supply of ATP and precise redox regulation, and mitochondria provide the vast majority of ATP demand through oxidative phosphorylation—studies have demonstrated that primary LCs rely almost exclusively on mitochondrial respiration for their energy requirements (
+6
+).Unlike most somatic cells, LCs are considered long-lived, terminally differentiated cells with limited proliferative and renewal capacity in adults; their functional maintenance is therefore intimately linked to the lifespan of the individual (
+7
+). This biological characteristic imposes a unique metabolic challenge upon LCs: during decades of sustained testosterone synthesis, mitochondria inevitably accumulate oxidative damage. Reactive oxygen species (ROS), by-products of the electron transport chain, are generated in abundance under prolonged high-load conditions, leading to mitochondrial DNA (mtDNA) mutations, protein oxidation, membrane lipid peroxidation, and disruption of mitochondrial dynamics (
+8
+). The terminally differentiated state of LCs restricts their ability to dilute damage through cell division, rendering mitochondrial quality control a critical determinant of the functional lifespan of LCs.
+Traditional intracellular quality control mechanisms—particularly mitophagy—are responsible for clearing a portion of damaged mitochondria, yet their capacity exhibits inherent limitations. On the one hand, the degradative capacity of mitophagy is finite; when the rate of damage exceeds the clearance threshold, clearance can no longer keep pace with production (
+9
+). On the other hand, mitophagy itself consumes energy and biosynthetic resources, and its efficiency declines further under conditions of energy stress or aging (
+9
+,
+10
+). These limitations have prompted investigators to re-evaluate the homeostatic maintenance strategies of LCs and to explore the existence of complementary pathways that extend beyond cell-autonomous mechanisms. Notably, LCs are able to maintain testosterone synthesis even in the face of severe mitochondrial dysfunction—in mtDNA mutator mice, the respiratory chain complex activity of LCs is reduced to merely 20% of normal levels, yet circulating testosterone remains completely unaffected, strongly suggesting the presence of a unique compensatory mechanism (
+11
+). This observation underscores the necessity of exploring non-cell-autonomous mechanisms of homeostatic maintenance in LCs. Subsequent studies have revealed that LCs can maintain steroidogenesis through several mechanisms (
+1
+): Cytochrome b5 bypass—in mtDNA mutator mice, Shabalina et al. demonstrated that LCs upregulate cytochrome b5 three-fold, transferring electrons derived from the pentose phosphate pathway directly to cytochrome c and bypassing impaired respiratory chain Complex III, thereby preserving mitochondrial membrane potential and testosterone synthesis (
+11
+); biophysical studies further confirm that direct electron transfer from cytochrome b5 to cytochrome c is thermodynamically feasible (
+12
+) (
+2
+). Pentose phosphate pathway enhancement—NR5A1 directly regulates PPP-related genes to supply the NADPH reducing equivalents required for CYP450-mediated steroidogenic reactions (
+13
+) (
+3
+). Lactate shuttle—within the testicular interstitium, Sertoli cells produce abundant lactate, which LCs can import via monocarboxylate transporters as an alternative energy substrate; exogenous lactate directly stimulates testosterone secretion by LCs (
+14
+). Although these compensatory mechanisms can transiently sustain testosterone synthesis, they possess inherent capacity limits; chronic overload ultimately leads to metabolic exhaustion and may accelerate the senescence-associated secretory phenotype (SASP) of LCs.
+Notably, Leydig cell endocrine function exhibits marked age-distribution characteristics. Epidemiological and longitudinal data indicate that serum total testosterone declines progressively with aging, while free testosterone falls more rapidly, largely reflecting age-associated increases in SHBG (
+15
+,
+16
+). The prevalence of LOH rises significantly after age 40; the European Male Aging Study (EMAS) reported rates increasing from 0.1% in men aged 40–49 years to 5.1% in those aged 70–79 years (
+15
+), and a national survey in China demonstrated a comparable progressive increase in LOH prevalence across age groups (
+17
+). The Baltimore Longitudinal Study of Aging further showed that approximately 50% of men in their 80s fall into the hypogonadal range (
+16
+).A cross-sectional study revealed that serum testosterone and LH display bimodal peaks at 13–19 and 30–45 years, whereas INSL3 peaks only during puberty (13–19 years) (
+18
+). This age-dependent fluctuation implies that LCs enter a prolonged high-load synthetic phase after puberty, rendering the network more vulnerable to crossing the critical decompensation threshold in middle-to-old age.” (
+19
+). Histologically, stereological studies demonstrate that the total number of LCs decreases significantly in older men (
+20
+). Concurrently, the intrinsic steroidogenic capacity of individual LCs declines, as evidenced by temporal reductions in testosterone production, StAR expression, and P450 side-chain cleavage enzyme (P450scc) expression during aging (
+21
+).
+The seminal work by Xia et al. provided the first systematic elucidation of the molecular mechanisms underlying bidirectional mitochondrial transfer between LCs and testicular macrophages (tMacs) via extracellular vesicles (EVs). This study revealed the existence of two functionally distinct macrophage subpopulations within the testicular interstitium: macrophages with high CD206 expression (CD206
++
+) primarily execute a “scavenger” function, whereas macrophages with high MHC class II molecule expression (MHCII
++
+) assume a “donor” role. LCs directionally export EVs containing defective mitochondrial “cargo” to CD206
++
+macrophages for clearance, whilst simultaneously acquiring EVs laden with healthy mitochondria from MHCII
++
+macrophages, thereby achieving highly efficient mitochondrial quality control and functional renewal (
+22
+). A schematic overview of this bidirectional EV-mediated mitochondrial transfer network is presented in
+Figure 1
+. The figure illustrates the two complementary arms of the network—the scavenger pathway, wherein CD206
++
+tMacs recognize and engulf LC-derived EVs containing defective mitochondria via TREM2-DAP12-Syk signaling, and the donor pathway, wherein MHCII
++
+tMacs supply functional mitochondria to LCs through VCAM1-ITGβ1-mediated EV uptake. This discovery has considerably broadened our understanding of the homeostatic maintenance mechanisms of LCs, extending the investigative perspective from isolated cell-autonomous mechanisms to a dynamic intercellular collaborative network.
+Figure 1.
+Open in a new tab
+Schematic of the bidirectional EV mitochondrial transfer network in the young state.
+It must be emphasized that the EV network is not the sole mechanism maintaining LC homeostasis. The hypothalamic-pituitary-gonadal (HPG) axis, as the classical endocrine regulatory pathway, also plays a critical role in LOH pathogenesis. Aging is accompanied by slowed GnRH neuronal pulsatility, reduced LH pulse amplitude, and altered pulse frequency (
+23
+). Concurrently, pituitary integration of GnRH drive is impaired at the ensemble level, although individual gonadotropes retain responsiveness to exogenous GnRH (
+23
+). At the testicular level, LC exhibit markedly diminished secretory responsiveness to LH (
+24
+), attributable to receptor downregulation and cAMP signaling defects, such that prolonged LH exposure cannot restore steroidogenic capacity (
+25
+). Furthermore, aging erodes endogenous testosterone-driven negative feedback on pulsatile LH secretion by 40–50% (
+26
+), and jointly alters the dose-dependent actions of GnRH through age–testosterone feedback interactions (
+27
+). By focusing on the EV-mediated mitochondrial transfer network, this review does not deny the substantial contribution of HPG-axis aging mechanisms; rather, it aims to illuminate a previously underappreciated core pathway that integrates cell-autonomous damage with immune microenvironment dysregulation.
+2. The EV-mediated bidirectional mitochondrial transfer network in the young state
+2.1. The scavenger pathway: quality control function of CD206
++
+/TREM2
+The heterogeneity of testicular macrophages provides the structural foundation for the efficient operation of the EV network. Among them, CD206
++
+macrophages act as the “scavenger” subpopulation, specifically recognizing LCs-derived EVs containing defective mitochondria via high surface expression of triggering receptor expressed on myeloid cells 2 (TREM2) (
+22
+,
+28
+). TREM2, a lipid-sensing receptor, forms a signaling complex with the adaptor protein DAP12. Through its intracellular immunoreceptor tyrosine-based activation motif (ITAM), this complex recruits spleen tyrosine kinase (Syk), thereby activating the PI3K-Akt and MAPK signaling pathways and triggering efficient phagocytosis in response to “eat-me” signals, such as phosphatidylserine and cardiolipin, exposed on the EV membrane (
+29
+). Concurrently, TREM2 signaling recruits the tyrosine phosphatase SHP-1 to restrain excessive NF-κB activation, thereby maintaining an anti-inflammatory microenvironment whilst facilitating phagocytic clearance (
+30
+). Notably, the recognition and phagocytic mechanism mediated by TREM2 is evolutionarily highly conserved, sharing the same molecular logic as macrophage clearance of apoptotic cells (efferocytosis), both relying on the precise sensing of phosphatidylserine on the membrane surface (
+28
+). Moreover, TREM2 signal intensity is tightly negatively regulated by the protein tyrosine phosphatases SHP-1 and SHIP-1 to prevent tissue damage caused by excessive phagocytosis (
+29
+).
+The selective packaging of damaged mitochondria into EVs is a prerequisite for the efficient operation of the scavenger pathway and involves multiple tiers of damage recognition. The dissipation of mitochondrial membrane potential induces the redistribution of cardiolipin from the inner to the outer mitochondrial membrane, serving as a key packaging signal (
+29
+,
+30
+); simultaneously, ubiquitylation of outer mitochondrial membrane proteins provides a molecular tag for cargo sorting (
+31
+). The dynamic allocation of these damaged mitochondria between autophagic degradation and EV export depends upon the severity of damage and is ultimately executed through the multivesicular body (MVB) pathway. In this process, the ESCRT-0 complex recognizes ubiquitylated substrates, ESCRT-I/II mediate membrane invagination, and ESCRT-III together with VPS4 drive membrane scission to generate intraluminal vesicles (ILVs); among these components, HRS and TSG101 play essential roles in vesicle formation, and human chorionic gonadotrophin (hCG) stimulation enhances MVB biogenesis (
+32
+,
+33
+).
+Genetic evidence demonstrates that conditional knockout of Trem2 results in markedly reduced clearance efficiency of LCs-derived defective mitochondria, leading to their intracellular accumulation, elevated oxidative stress, increased mtDNA damage, and ultimately a decline in serum testosterone levels of approximately 35% (
+22
+). These findings firmly establish the TREM2-mediated scavenger pathway as a central mechanism in maintaining testicular mitochondrial quality and endocrine function.
+2.2. The donor pathway: energy support via MHCII
++
+/VCAM1-ITGβ1
+MHCII
++
+macrophages, as the “donor” subpopulation, constitute an energy-support pathway by delivering EVs containing functional mitochondria to LCs. Although this subpopulation possesses a relatively lower absolute mitochondrial mass, it exhibits a distinct “quality-preferred” phenotype: high-resolution imaging reveals that its mitochondria display higher membrane potential, lower ROS levels, and greater ATP synthesis capacity. This functional advantage is attributed to PGC-1α-driven high rates of mitochondrial biogenesis and a fusion-dominated network architecture, which favors the assembly of respiratory chain supercomplexes (
+22
+,
+34
+). Indeed, PGC-1α is recognized as a master regulator of mitochondrial biogenesis and also participates in the precise regulation of mitochondrial dynamics (fusion/fission) and mitophagy (
+35
+). Notably, the function of PGC-1α extends beyond biogenesis; it also coordinates mitochondrial metabolism with anti-inflammatory gene expression through the NAD
++
+-SIRT1/SIRT3 axis, constituting a regulatory hub that links metabolic status to immune function (
+35
+).
+As the initiating point of the donor pathway, this subpopulation responds to demand signals from LCs by generating small mitochondrial fragments suitable for packaging through Drp1-mediated mitochondrial fission and promotes EV secretion via the RAB27A/RAB35-dependent MVB trafficking pathway (
+36
+). The uptake of donor EVs by LCs depends upon the specific recognition between integrin β1 (ITGβ1) and vascular cell adhesion molecule 1 (VCAM1), an interaction that requires the participation of divalent cations such as Mg²
++
+or Mn²
++
+to form stable adhesive contacts (
+37
+). Genetic evidence from knockout models further substantiates the indispensability of this pathway: LC-specific Vcam1 knockout leads to a reduction in EV uptake efficiency exceeding 70%, severely impaired integration of exogenous mitochondria, a decrease in ATP production of approximately 40%, and a reduction in testosterone secretion of 45–50% (
+22
+). Single-cell transcriptomic analysis in mice further reveals that the interaction strength between testicular macrophages and LCs via the Vcam1–Itga4/Itgb1 axis markedly declines with aging (notably reduced by 24 months) (
+38
+). Although the single-cell dynamics of this pathway in aging human testes remain to be directly validated, the functional necessity of VCAM1–α4β1 interactions in testicular interstitial tissue reconstruction has been established in mammalian models (
+39
+). These data robustly demonstrate that functional mitochondrial transfer mediated by the VCAM1–ITGβ1 axis—with ITGα4 serving as an obligate heterodimeric partner—within the MHCII
++
+subpopulation constitutes a critical mechanism for maintaining LC energy metabolism and endocrine function, but remains to be directly validated in human testes.
+Altogether, the EV-mediated bidirectional mitochondrial transfer network achieves efficient renewal of the LC mitochondrial pool through a collaborative “in-and-out” mechanism. In normal adult mice, a substantial proportion of mitochondria undergo daily turnover via this pathway, at a rate significantly exceeding that observed in other terminally differentiated cells. This network continuously clears damaged mitochondria whilst importing exogenous healthy ones, thereby alleviating the biosynthetic burden on LCs and maintaining steroidogenesis in an optimal state. Single knockout of Trem2 or Vcam1 results in a 30–40% reduction in testosterone synthesis, whereas double knockout produces a decline exceeding 70%, demonstrating a pronounced dose effect. It is worth emphasizing that this functional redundancy may be regarded as an evolutionarily adaptive strategy underpinning LC longevity: when one pathway is compromised, the other can still provide a degree of compensation, affording a valuable therapeutic window for potential clinical intervention.
+3. Aging-induced three-dimensional collapse of the EV network: from compensation to decompensation
+aging is the predominant risk factor for late-onset hypogonadism (LOH), yet not all aging men progress to clinical LOH. The possibility of this individual variation lies in the differential decline of EV network efficiency. Specifically, aging systematically impairs the EV network through three dimensions—”supply-side collapse”, “clearance-side obstruction”, and “communication decoupling”—and the tipping point of network decompensation marks the critical phase transition of the disease from the “compensated stage” to the “clinical stage”.
+Figure 2
+provides a mechanistic overview of the three-dimensional network collapse in the aging testis. The figure depicts how aging systematically impairs the EV outsourcing network at three levels.
+Figure 2.
+Open in a new tab
+Three-dimensional network collapse in the aging testis.
+(A)
+Supply-side collapse in MHCII+ donor macrophages: PGC-1α suppression, Drp1-mediated mitochondrial fission, cristae disruption, and OXPHOS collapse.
+(B)
+Clearance-side obstruction in CD206+ scavenger macrophages: TREM2 epigenetic silencing and shedding, autophagic-lysosomal dysfunction, and RhoA-ROCK-mediated cytoskeletal rigidity.
+(C)
+Communication decoupling: impaired EV biogenesis and toxic cargo transformation, VCAM1–ITGβ1/α4 axis decline, and ECM remodeling.
+3.1. Supply-side collapse: functional failure of the donor subpopulation
+Within the EV-mediated bidirectional mitochondrial transfer network, MHCII
++
+macrophages, as the “donor” subpopulation, bear the critical responsibility of supplying functional mitochondria to LCs. In the young state, this subpopulation continuously produces “high-quality” mitochondria for EV packaging and transfer through active PGC-1α-driven mitochondrial biogenesis, a finely tuned fusion/fission dynamic balance, and an efficient OXPHOS system (
+22
+,
+34
+). However, the aging process systematically erodes the material basis and functional efficiency of this supply pathway at multiple levels. It is important to emphasize that this “supply-side collapse” is not the consequence of a single molecular event but rather a multi-tiered metabolic restructuring driven by the aging microenvironment—extending from blocked mitochondrial biogenesis governed by nuclear genome regulation, through imbalanced dynamics at the organelle level, ultimately culminating in the comprehensive failure of the OXPHOS system.
+3.1.1. Transcriptional inactivation of mitochondrial biogenesis
+The ability of MHCII
++
+macrophages to maintain a high-quality mitochondrial pool depends primarily on their active mitochondrial biogenesis, the central regulatory hub of which is the transcriptional coactivator PGC-1α. By activating downstream transcription factors such as NRF-1/2 and ERRα, PGC-1α coordinately drives the expression of nuclear-encoded mitochondrial proteins and the replication of mtDNA, functioning as the “master switch” of mitochondrial biogenesis (
+11
+,
+21
+). However, male reproductive aging is accompanied by systemic alterations in the testicular microenvironment, among which chronic low-grade inflammation (inflammaging) and the progressive accumulation of oxidative stress are hallmark features. Basal levels of pro-inflammatory cytokines (IL-1β, IL-6, TNF-α) and chemokines (CCL2, CXCL10) are elevated in the aged testis, creating a low-grade but persistent inflammatory state. The sources of this inflammatory milieu are multifaceted: the senescence-associated secretory phenotype (SASP) of aged LCs and Sertoli cells, infiltration of systemic inflammatory factors due to increased permeability of the blood-testis barrier, and altered activation states of testis-resident immune cells (
+40
+,
+41
+).
+Against this backdrop, aging-related chronic low-grade inflammation directly suppresses the PGC-1α pathway through pro-inflammatory cytokines. As a core node linking oxidative stress, mitochondrial metabolism, and inflammatory responses, PGC-1α not only drives mitochondrial biogenesis via NRF-1/2 and ERRα but also coordinately upregulates the expression of antioxidant genes such as MnSOD, catalase, and Trx2. Under inflammatory conditions, diminished PGC-1α levels compromise antioxidant defenses and precipitate oxidative stress, which in turn promotes NF-κB activation and establishes a self-amplifying vicious cycle wherein low PGC-1α begets elevated reactive oxygen species, which further drives NF-κB activation. Within the testicular microenvironment, aging-related chronic low-grade inflammation transcriptionally represses Ppargc1a through the NF-κB pathway, thereby entrapping MHCII
++
+donor macrophages in a state of sustained PGC-1α functional suppression. defense The consequences include not only impaired mitochondrial biogenesis but also a comprehensive weakening of the antioxidant defense system—a double blow that collectively constitutes the molecular basis of donor-side collapse (
+42
+).
+Kang et al. utilized a telomere dysfunction mouse model to demonstrate that PGC-1α and the ubiquitin-editing enzyme TNFAIP3 coordinately regulate macrophage mitochondrial metabolism and inflammatory gene expression. It should be noted that this model did not directly validate the corresponding mechanisms in testicular macrophages, and the following inferences rely on cross-tissue analogy. Telomere damage can lead to mitochondrial abnormalities, oxidative stress, and excessive activation of the NLRP3 inflammasome through the p53–PGC-1α pathway (
+43
+). Specifically, telomere shortening activates p53, which can directly bind to the promoter region of the Ppargc1a gene and inhibit its transcriptional initiation, thereby directly translating genomic instability signals into mitochondrial metabolic impairment. Notably, systematic modeling studies have further revealed that the responsiveness of the AMPK–NAD
++
+–PGC-1α–SIRT1 signaling axis to stimuli is significantly diminished during aging (
+44
+). The age-related decline in NAD
++
+levels leads to insufficient deacetylase activity of SIRT1, which can no longer effectively antagonize the inhibitory acetylation of PGC-1α mediated by GCN5, resulting in an “acetylation lock” state. Under this condition, even in the presence of AMPK activation signals, PGC-1α cannot escape transcriptional repression, causing mitochondrial biogenesis to completely lose its adaptive upregulation capacity in response to external demand signals, such as the energy requirements of LCs (
+45
+).
+The functional inhibition of PGC-1α signaling in aged macrophages has profound metabolic consequences. Studies have shown that the mRNA and protein levels of various mitochondrial respiratory chain complex subunits are generally decreased in aged macrophages, and mtDNA copy number is reduced by 30–50%; these changes can all be attributed to the attenuation of PGC-1α activity (
+43
+). The suppression of PGC-1α in aged MHCII
++
+donor macrophages may produce a “dual transcriptional–translational checkpoint” effect: on the one hand, it reduces the transcription of both nuclear- and mtDNA-encoded mitochondrial genes; on the other, it impairs the translational efficiency of already transcribed mRNAs, thereby hindering the assembly of respiratory chain complexes due to insufficient subunit supply. This translational-level impairment acts synergistically with the hyperacetylation of respiratory chain complexes resulting from SIRT3 inactivation, together constituting the molecular basis of donor-side OXPHOS collapse (
+46
+).
+3.1.2. Mitochondrial dynamics imbalance and network fragmentation
+Healthy functional mitochondrial transfer requires not only a sufficient quantity of mitochondria but also appropriate mitochondrial morphology for packaging. Mitochondria maintain network integrity through a dynamic balance of fusion and fission—fusion (mediated by Mfn1/2 and OPA1) enables mitochondria to form interconnected networks for sharing metabolites and mtDNA, whereas fission (mediated by Drp1) generates small mitochondrial fragments suitable for EV encapsulation (
+34
+,
+40
+). In young MHCII
++
+macrophages, this dynamic balance is precisely regulated, ensuring both the functional integrity of the mitochondrial network and the ability to generate transferable mitochondrial fragments through moderate fission in response to LCs’ demands.
+However, aging tilts this balance toward pathological fragmentation. In aged macrophages, the expression of the pro-fission protein Drp1 is upregulated, whereas the expression of the pro-fusion proteins Mfn2 and OPA1 is significantly downregulated (
+34
+). The molecular basis of this imbalance involves multiple mechanisms: oxidative stress-activated p38 MAPK signaling promotes the mitochondrial translocation of Drp1, while SIRT1 activity decline due to NAD
++
+depletion weakens the transcriptional regulation of Mfn2 (
+47
+). Although the fragmented mitochondrial network appearsmorphologically convenient for EV packaging, its functionality is severely compromised—Drp1-driven excessive mitochondrial fission is intimately linked to cristae remodeling. In young MHCII
++
+donor macrophages, the coordinated actions of OPA1 and the MICOS complex maintain narrow cristae, supporting efficient respiratory chain supercomplex (RCS) assembly and ATP synthesis. It has been clearly established that cristae morphology directly determines the assembly and stability of RCS, thereby governing mitochondrial respiratory efficiency (
+48
+,
+49
+). Under aging or metabolic dysregulation, cristae disruption leads to the loss of physical contacts among complexes I–III–IV and a marked impairment of electron transfer efficiency. Consequently, even if fragmented mitochondria retain intact mtDNA-encoded subunits, their capacity for RCS assembly is fundamentally compromised, which explains why an increase in quantity cannot compensate for the decline in quality. At the same time, the OXPHOS collapse (loss of ΔΨm) in aged MHCII
++
+donor macrophages not only reduces ATP synthesis but also causes “quality degradation” of their EV cargo due to mitochondrial depolarization. After being taken up by LCs via the VCAM1-ITGβ1 axis, these depolarized mitochondria not only fail to provide energetic support but may instead trigger inflammatory responses in LCs, thereby converting the donor pathway from “protective” to “pathogenic.” The oxidative stress environment in aged LCs themselves may also lead to the secretion of EVs carrying depolarized mitochondria, which, upon recognition by tMacs, provoke inflammation rather than immunologically silent clearance, constituting the “erroneous response” mechanism of scavenger-side obstruction. Moreover, mitochondrial membrane potential serves as a quantifiable parameter of EV cargo quality and may provide a novel diagnostic marker for assessing donor macrophage function and EV network efficiency (
+50
+,
+51
+).
+Finally, the age-related downregulation of OPA1 expression (accompanied by sustained fission activation) deprives donor mitochondria of the molecular basis required for fusion competence (
+49
+,
+52
+). Even if successfully internalized via the VCAM1-ITGβ1 axis, they cannot form a functional syncytium with the recipient network. In other words, although aged MHCII
++
+macrophages may produce more “packageable” mitochondrial fragments, these fragments are functionally defective products characterized by “increased quantity but degraded quality”. Even if successfully transferred to LCs, they cannot be effectively integrated into the recipient mitochondrial network to exert respiratory function.
+3.1.3. OXPHOS system collapse and ATP supply crisis
+The combined effects of PGC-1α inhibition and disrupted mitochondrial dynamics ultimately converge on the dysfunction of the oxidative phosphorylation (OXPHOS) system, depriving MHCII
++
+macrophages of their metabolic foundation as “mitochondrial donors”. Seahorse cellular metabolic analyses have shown that the basal oxygen consumption rate (OCR) and ATP-coupled respiration in macrophages from aged Apoe−/− mice are significantly lower than those in young cells, with maximal respiratory capacity and spare respiratory capacity declining by 40–60% (
+47
+). Meanwhile, although the testicular interstitium is richly vascularized, age-related thickening of the blood-testis barrier (BTB) and interstitial fibrosis place tMacs in a state of chronic relative hypoxia (
+53
+), and testicular macrophages tend to adopt a more inflammatory phenotype with advancing age (
+53
+). The chronic activation of hypoxia-inducible factor HIF-1α synergizes with the exhaustion of the CD38-NAD
++
+-SIRT3 axis, forcing tMacs under “pseudohypoxic” conditions to undergo metabolic reprogramming from OXPHOS towards aerobic glycolysis (the Warburg effect) (
+54
+,
+55
+). However, the glycolytic pathway cannot compensate for the impact of OXPHOS loss on mitochondrial quality—OXPHOS activity is a prerequisite for high membrane potential and low ROS levels in mitochondria, whereas glycolysis-dependent macrophages generally exhibit degenerative changes such as decreased membrane potential, elevated ROS levels, and accumulation of mtDNA damage (
+48
+).
+One of the core molecular drivers of this OXPHOS collapse is the progressive depletion of NAD
++
+. The study by Camacho-Pereira et al. revealed that the expression and activity of the NAD
++
+hydrolase CD38 increase sharply with age, leading to a significant decline in NAD
++
+concentrations across various tissues through its hydrolysis (
+40
+). In Cd38-deficient mice, NAD
++
+levels are maintained into advanced age, and mitochondrial respiratory capacity, oxygen consumption rate, and membrane potential remain at levels comparable to those in young mice (
+56
+). This protective effect on mitochondrial function depends on the sustained activity of the NAD
++
+-dependent deacetylase SIRT3—in the absence of CD38, mitochondrial proteins maintain an appropriate deacetylation state, thereby ensuring the continued operation of oxidative metabolism (
+56
+). Conversely, in wild-type aged macrophages, CD38-mediated NAD
++
+depletion restricts SIRT3 activity, leading to hyperacetylation and functional inhibition of respiratory chain complex proteins, with OXPHOS efficiency consequently collapsing.
+The loss of SIRT3 activity has particularly profound implications for the supply function of MHCII
++
+macrophages. SIRT3 is the primary deacetylase located in the mitochondrial matrix, and its targets include multiple core OXPHOS components such as respiratory chain complex I (NDUFA9), complex II (SDHA), and ATP synthase (
+41
+). In an environment of NAD
++
+depletion caused by high CD38 expression, these key metabolic enzymes remain in a highly acetylated inhibitory state. Even if mtDNA copy number is maintained, the electron transfer efficiency of the respiratory chain is severely impaired. The age-related induction of CD38 expression leads to a progressive decline in NAD
++
+levels, and since NAD
++
+serves as an essential cofactor for the deacetylase activity of SIRT3, its depletion directly limits SIRT3 enzymatic function. The loss of SIRT3 activity consequently renders its downstream targets—including multiple core OXPHOS components such as respiratory chain complexes I and II and ATP synthase—in a highly acetylated and functionally inhibited state, resulting in markedly reduced mitochondrial electron transfer efficiency and slowed oxygen consumption rate. The decline in OXPHOS function not only impairs ATP synthesis capacity but also exacerbates electron leakage from the electron transport chain, triggering substantial production of mitochondria-derived ROS. Notably, accumulated ROS itself acts as a potent inducer of CD38 expression, further upregulating CD38 levels and thereby closing this positive feedback loop, trapping aged macrophages in a self-perpetuating cycle of NAD
++
+depletion and worsening mitochondrial dysfunction (
+57
+,
+58
+).
+It is also noteworthy that recent research by Vendrov et al. has revealed that age-related increased expression of NOX4 (NADPH oxidase 4) is another critical upstream factor driving mitochondrial dysfunction in macrophages. In aged Apoe Apoe−/− mice, Nox4 deficiency or pharmacological inhibition significantly reduces mitochondrial ROS levels in macrophages, improves mitochondrial respiratory function, and promotes macrophage polarization towards a CD206
++
+anti-inflammatory phenotype (i.e., M2-like state) (
+48
+). This finding suggests that the NOX4-ROS axis and the CD38-NAD
++
+-SIRT3 axis may constitute a synergistic two-hit mechanism that coordinately regulates mitochondrial quality in aged macrophages.
+Collectively, these convergent insults—encompassing PGC-1α suppression, dysregulated mitochondrial dynamics, and OXPHOS collapse—deprive aging MHCII
++
+macrophages of their donor competence, thereby establishing the cellular foundation for the supply-side decompensation of the EV network.
+3.2. Clearance-side obstruction: impaired recognition and degradative dysfunction in the scavenger subpopulation
+Within the EV-mediated mitochondrial outsourcing network, CD206
++
+macrophages, as the dedicated “scavenger” subpopulation, bear the critical responsibility of recognizing and clearing LCs-derived EVs containing defective mitochondria. In the young state, this subpopulation efficiently recognizes EVs through high TREM2 expression, degrades their contents via an intact autophagy-lysosome system, and executes the phagocytic process with a flexible cytoskeleton (
+28
+,
+29
+). During aging, however, the scavenger function of CD206
++
+macrophages undergoes systematic deterioration at multiple levels—from receptor recognition to phagosome formation and ultimately lysosomal degradation—with dysfunction manifesting at each step, culminating in “clearance-side obstruction”. This results in prolonged retention of defective mitochondria within LCs and accelerated accumulation of oxidative damage.
+3.2.1. Epigenetic silencing and proteolytic shedding of the TREM2 recognition receptor
+The recognition of EVs containing defective mitochondria by CD206
++
+macrophages is molecularly based upon high surface expression of the TREM2 receptor. In the aged testicular microenvironment, pro-inflammatory factors—particularly interferon-gamma (IFN-γ)—can induce persistent silencing of scavenger genes such as TREM2 through epigenetic mechanisms. The work of Kang et al. elucidated the molecular basis by which IFN-γ epigenetically represses M2-like genes (e.g., CD206) through an enhancer disassembly mechanism (
+59
+). Aging-related chronic low-grade inflammation leads to elevated IFN-γ levels, which may drive the epigenetic silencing of scavenger genes such as TREM2 and CD206 through a similar enhancer disassembly mechanism by analogy with CD206 regulation, thereby depriving CD206
++
+tMacs of their capacity to efficiently recognize and clear LC-derived EVs containing defective mitochondria. On this basis, future studies may further verify whether MAF or its analogous transcription factors indeed directly bind to the TREM2 gene enhancer, and whether IFN-γ inhibits TREM2 transcription by inducing their dissociation—validation of this hypothesis would provide a precise molecular entry point for repairing scavenger function through targeted enhancer remodeling. Although the work of Kang et al. did not directly validate TREM2, subsequent studies have demonstrated that TREM2 is subject to multilayered epigenetic regulation during aging. These mechanisms include DNA methylation, histone modification switches, and non-coding RNAs. Specifically, IFN-γ downregulates TREM2 expression in macrophages through the JNK/NF-κB pathway (
+60
+). This impairs their capacity to recognize and clear EVs containing defective mitochondria. Concomitantly, the loss of the inflammation-suppressive function of TREM2 signaling may shift the phagocytic process from immunologically silent clearance to inflammation-amplifying erroneous responses—this constitutes a key molecular basis of scavenger-side obstruction. Furthermore, Huang et al. have revealed that the H3K27ac/H3K27me3 histone modification switch serves as a core mechanism governing TREM2 expression in macrophages—the aging microenvironment progressively replaces H3K27ac with EZH2-mediated H3K27me3 deposition, thereby establishing a transcriptionally silent chromatin state (
+61
+). Notably, single-cell sequencing studies in 2025 have further confirmed that TREM2 is a conserved marker of aged testicular macrophages (the Ccl8hi/Cxcl13hi subpopulation), suggesting that it may play a more complex role in age-related scavenger dysfunction (
+62
+).
+Beyond transcriptional repression, the aged microenvironment can further reduce the level of functional TREM2 receptors on the cell surface by accelerating ectodomain shedding of the TREM2 protein. Studies have shown that TREM2 undergoes sequential proteolytic processing: first, proteases such as ADAM17 mediate ectodomain shedding at the His157-Ser158 site, releasing soluble TREM2 (sTREM2) (
+63
+); subsequently, γ-secretase mediates intramembrane cleavage of the transmembrane fragment (CTF), generating an intracellular domain (ICD) that is rapidly degraded (
+64
+). Once shed, TREM2 loses its function as an intact membrane receptor, resulting in a reduction in the number of functional receptors on the cell surface. Of particular note, recent research has revealed that aging-related oxidative stress can accelerate TREM2 shedding from the macrophage surface by activating the ROS-NRF2-ADAM17 axis, thereby impairing scavenger function (
+65
+). This post-translational mechanism acts synergistically with epigenetic silencing, collectively causing progressive depletion of functional TREM2 receptors on the surface of CD206
++
+macrophages.
+3.2.2. Autophagic dysfunction exacerbates the decline of the phagocytic-degradative pathway
+Effective scavenger function depends not only upon the recognition and phagocytosis of EVs but also upon the efficient degradation of their contents (especially EVs containing defective mitochondria) following phagosome-lysosome fusion. The autophagy-lysosome pathway occupies a central position in maintaining macrophage phagocytic function. Stranks et al. were the first to demonstrate that autophagy is a key mechanism for maintaining the “youthful state” of macrophages. In mice with hematopoietic system-specific knockout of Atg7, macrophages exhibit a phenotypic spectrum completely consistent with physiological ageing. This spectrum includes impaired phagocytic function, reduced nitrite burst capacity, and increased secretion of pro-inflammatory cytokines. These macrophages also show decreased expression of surface antigen-presenting molecules (MHC II, CD86) and a metabolic shift towards glycolysis.
+towards Using ImageStream imaging technology, this study quantitatively demonstrated that autophagic flux (LC3-LysoID colocalization) in bone marrow-derived macrophages from aged (>100-week-old) mice is reduced by more than 50% compared with young (6-week-old) mice, thereby directly establishing a causal link between “declined autophagic flux and macrophage aging” (
+66
+).
+In the testicular microenvironment, this decline in autophagy is directly linked to the clearance efficiency of the scavenger pathway: the progressive reduction in autophagic flux in aged CD206
++
+tMacs leads to a sustained impairment of their capacity to degrade phagocytosed cargo, including EVs containing defective mitochondria. Incompletely degraded mitochondrial components accumulate within lysosomes, forming a “phagocytic burden” that, in turn, feedback inhibits autophagic-lysosomal function, thereby constituting the core vicious cycle underlying scavenger-side obstruction.
+Autophagic dysfunction impairs the efficiency of the scavenger pathway at multiple levels. First, the decline in autophagic flux directly leads to weakened lysosomal acidification capacity and reduced cathepsin activity—in aged rat cells, lysosomal pH rises from the normal ~4.5 to ~6.0, and cathepsin B activity decreases significantly, severely impairing the degradation efficiency of contents after phagosome-lysosome fusion (
+67
+). More critically, impaired lysosomal acidification promotes the progressive accumulation of lipofuscin—a mixture of highly oxidized lipids, misfolded proteins, and metal ions that gradually builds up within lysosomes. Studies in microglia by Mendes Lopes et al. have confirmed that lipofuscin-like autofluorescence signals initially accumulate in microglial lysosomes and increase significantly with age (
+68
+); in the context of central nervous system aging, the work of Safaiyan et al. has shown that lipofuscin granules are closely associated with myelin debris and occupy substantial physical space within lysosomes (
+69
+). Lipofuscin accumulation not only progressively encroaches upon lysosomal space, thereby impairing phagocytic-degradative function, but can also trigger macrophage pyroptosis itself via lysosomal membrane permeabilization (LMP). The released lipofuscin and damage-associated molecular patterns (DAMPs) further activate surrounding tMacs and may be taken up by adjacent LCs, inducing secondary pyroptosis and accelerating the irreversible loss of functional LC reserve. Thus, as a common node connecting aging, lysosomal dysfunction, and pyroptosis, lipofuscin represents a key molecular hub for understanding both the irreversibility of scavenger-side obstruction within the EV network and the progression of LOH (
+68
+).
+The synergistic effect of reduced lysosomal degradation efficiency and declining phagocytic capacity ultimately leads to the accumulation of incompletely degraded mitochondrial components within CD206
++
+macrophages, forming a “phagocytic burden” that exerts feedback inhibition on their sustained scavenger capacity. Lipofuscin, as a hallmark product of incomplete lysosomal digestion, is a direct manifestation of this process—in cells with an increased phagocytic burden, the further accumulation of lipofuscin occupies more lysosomal volume, exacerbating the vicious cycle.
+The situation is further complicated by the fact that aging not only impairs the phagocytic capacity of macrophages towards EVs but also suppresses their broader efferocytosis function—i.e., the clearance of apoptotic cells. A systematic study evaluating the impact of aging on macrophage function demonstrated, through quantitative proteomic analysis, that pathways related to endocytosis, phagocytosis, and efferocytosis are significantly downregulated in aged macrophages compared with young macrophages following lipid loading, and functional experiments further confirmed that their efferocytosis capacity is reduced by approximately 40–50%. The paralysis of efferocytosis denotes a marked decline in the clearance efficiency of apoptotic cells and cellular debris within the testicular microenvironment, including apoptotic LCs, Sertoli cell remnants, and spermatogenic cell debris. This impairment further augments the clearance burden on CD206
++
+macrophages and establishes a vicious cycle wherein apoptotic cell retention fosters damage-associated molecular pattern release, thereby amplifying inflammation and ultimately driving downregulation of efferocytosis receptors (
+70
+). Furthermore, senescent cells can suppress macrophage-mediated efferocytosis by upregulating the CD47-QPCT/L axis—senescent cells are not only themselves difficult for macrophages to clear but can also “paralyze” the ability of macrophages to clear bystander apoptotic cells (
+71
+). This “bystander effect” may further impair the capacity of CD206
++
+macrophages to clear EVs containing defective mitochondria in the aged testis.
+3.2.3. Cytoskeletal rigidity and impaired phagosome formation
+Even if EVs are successfully recognized, aged CD206
++
+macrophages face significant obstacles in the execution steps of phagocytic cup formation and phagosome internalization. The underlying cause is primarily the excessive stiffening of the actin cytoskeleton resulting from hyperactivation of the RhoA-ROCK pathway, coupled with impaired filopodia formation mediated by downregulated Rac1 expression.
+The study by Saclier et al. revealed a dual role of the RhoA-ROCK1 pathway in macrophage phagocytic function: this pathway normally acts as a molecular brake limiting actin polymerization, and therefore its inhibition—rather than its activation—is a prerequisite for phagocytosis induction and the switch to an anti-inflammatory phenotype (
+72
+). During aging, however, oxidative stress and SASP factors persistently induce excessive RhoA activation, leading to excessive crosslinking and increased rigidity of the cytoskeleton, which paradoxically restricts the dynamic remodeling of the phagocytic cup (
+73
+). Concurrently, Rac1 expression declines significantly with age, impairing the activation of the Arp2/3 complex and filopodia formation, thereby further weakening the physical capacity of macrophages to envelop EVs (
+74
+). Given that EV phagocytosis and bacterial phagocytosis share similar mechanisms of actin cytoskeleton remodeling, it is reasonable to infer that the decline of this Rac1-Arp2/3-filopodia axis likewise impairs the physical envelopment of EVs containing defective mitochondria by aged CD206
++
+macrophages.
+Early studies have quantitatively demonstrated that the content of actin, myosin, and vimentin in Kupffer cells from 24-month-old mice is reduced by 32%, 15.1%, and 24.5%, respectively, compared with 6-month-old mice, accompanied by a 56% decrease in phagocytic capacity (
+75
+). Furthermore, the age-related degradation of the microtubule network also impairs the transport of phagosomes to the centrosome and their fusion with lysosomes, leading to defective phagosome maturation.
+In summary, aged CD206
++
+macrophages suffer full-chain scavenger failure encompassing impaired recognition, defective autophagy–lysosomal degradation, and cytoskeletal rigidity, which prolongs defective mitochondrial retention in LCs. Combined with supply-side collapse, this disrupts the EV network balance and drives LCs below the critical threshold for testosterone synthesis.
+3.3. Communication decoupling: dual decline in EV quality and recognition efficiency
+If supply-side collapse and clearance-side obstruction respectively impair the “input” and “output” functions of the EV-mediated mitochondrial transfer network, then the disruption of communication coupling fundamentally disturbs the efficiency of signal exchange and material transfer between network nodes. As the physical carriers of mitochondrial transfer, EVs are systematically affected by the aging microenvironment throughout their generation, secretion, cargo composition, and recognition and uptake by recipient cells. At the secretory end, the EV generation capacity of aged LCs declines and their cargo undergoes a “toxic transformation”; at the recipient end, the recognition and internalization capacity of LCs for donor EVs also deteriorates. This bidirectional communication impairment leaves LCs trapped in an isolated predicament where they can neither effectively “call for help” nor fully utilize “assistance”, further accelerating the deterioration of the mitochondrial quality crisis.
+3.3.1. Decline in ESCRT-dependent EV biogenesis and release, and “toxic transformation” of EV cargo
+The EV secretion capacity of aged LCs exhibits a multi-dimensional, progressive decline. Quantitative nanoparticle tracking analysis has shown that the basal EV secretion rate of aged LCs is reduced, and their responsiveness to hCG stimulation is attenuated (
+25
+). This secretory impairment is closely related to the functional decline of the MVB system, involving three intertwined molecular mechanisms:
+(
+1
+) Decline of the ESCRT machinery for MVB biogenesis: The ESCRT-0 component HRS and the ESCRT-I core protein TSG101 are downregulated in aged LCs, impairing the sorting efficiency of ubiquitylated mitochondrial proteins into MVBs (
+76
+,
+77
+). This sorting defect not only reduces the generation of intraluminal vesicles (ILVs) containing mitochondrial cargo but also leads to the aggregation of abnormal proteins, triggering MVB trafficking arrest. Similar mechanisms have been observed in neural aging—APOE4 carriers exhibit impaired exosome production, suggesting that ESCRT functional decline may be a cross-tissue feature of aging (
+76
+) (
+2
+). Increased lysosome-MVB fusion and diversion of the secretory pathway: The frequency of lysosome-MVB fusion increases in aged cells, creating a phenotype of “enhanced endosome-lysosome fusion” that results in more ILVs being degraded rather than released (
+78
+). This “degradation bias” represents a compensatory mechanism for the impaired clearance function of aged cells, but at the cost of reduced output of functional EVs. Inhibition of VPS4A (an ESCRT-III-associated ATPase) function further exacerbates MVB diversion towards lysosomes, although this mechanism remains to be experimentally validated in LCs (
+79
+) (
+3
+). Decreased plasma membrane fluidity and reduced fusion efficiency: The plasma membrane fluidity of aged LCs is significantly reduced, which is closely linked to membrane lipid peroxidation caused by oxidative stress (
+32
+). The depletion of glutathione (GSH) and increased oxidative damage in aged cells reduce membrane lipid fluidity, thereby affecting the fusion efficiency mediated by SNARE complexes (such as VAMP7, SNAP23, and STX4) between MVBs and the plasma membrane. Reduced membrane fluidity not only decreases EV release but also alters the membrane lipid composition of EVs, affecting their ability to be recognized by recipient cells (
+25
+,
+48
+).
+The EV cargo also undergoes a “quality crisis”, with the cargo composition of aged LC-derived EVs undergoing unfavorable changes characterized by “damage signal overload”.
+The cargo composition of EVs undergoes a toxic phenotypic switch, transitioning from protective signaling vectors to agents that propagate cellular damage. Operationally, this toxicity is defined by the following molecular signatures (
+1
+): elevated mitochondrial damage-associated molecular patterns, including oxidized cardiolipin (ox-CL)—whereas cardiolipin externalization normally functions as an “eat-me” signal for TREM2-mediated recognition, oxidative modification of cardiolipin may impair TREM2 binding affinity or act as a competitive antagonist of scavenger receptors (
+80
+) (
+2
+); increased leakage of damaged mtDNA into EVs, which contributes to STING-IFN–mediated inflammatory signaling (
+81
+) (
+3
+); altered mtDNA homeostasis within EVs during aging (
+82
+) (
+4
+); selective enrichment of pro-inflammatory microRNAs, notably miR-155 (
+83
+); and (
+5
+) functional deficit of critical antioxidant enzymes such as SOD2, PRDX3, and GPX4 under oxidative stress, as evidenced by the restorative capacity of exogenous EVs (
+84
+).
+Notably, miR-145-5p derived from Sertoli cells can be transferred to LCs via exosomes to inhibit steroidogenesis, suggesting an imbalance in EV-mediated paracrine regulation within the aging microenvironment (
+85
+). These alterations mean that aged LCs not only output fewer EVs but also that the EVs they do output are of “inferior quality”—they carry oxidatively damaged proteins, mutant mtDNA, and pro-inflammatory signals, potentially transmitting “damage alarms” rather than “clearance requests” to tMacs. Under normal circumstances, EVs containing damaged mitochondria are recognized by TREM2 on tMacs via exposed cardiolipin, triggering phagocytic clearance. However, oxidatively damaged cardiolipin in aged EVs may alter TREM2 recognition affinity or competitively inhibit scavenger receptors, leading tMacs to “reject” them or mount an “erroneous response” (inflammatory activation rather than phagocytosis).
+3.3.2. Decline in receptor recognition and internalization capacity
+In addition to the functional decline of both donor and recipient cells, aging also disrupts the communication coupling between them through three mechanisms: downregulation of recognition receptors, impairment of the endocytic machinery, and the establishment of physical barriers within the microenvironment. The expression of vascular cell adhesion molecule 1 (VCAM1) on the surface of aged LCs declines significantly with age, directly impairing their recognition and uptake efficiency of EVs derived from MHCII
++
+macrophages (
+38
+,
+41
+). Single-cell transcriptomic analysis has further confirmed that in aged testes (60–69 years), the strength and connectivity of the Vcam signaling pathway (involving Vcam1-Itga4/Itgb1 interactions) are markedly reduced (
+38
+). Age-related integrin dysfunction further exacerbates the impairment of EV uptake. The internalization of EVs mediated by the integrin–ITGβ1–VCAM1 axis depends on clathrin-mediated endocytosis (CME) and dynamin-dependent membrane scission. In aged cells, declining levels of the βPIX–GIT complex lead to reduced CME efficiency, thereby impairing integrin internalization. Concurrently, disrupted interaction between the clathrin adaptor protein AP2 and the integrin α-chain weakens CME efficiency (
+86
+,
+87
+). Defective BRAG2/GEP100/IQSec1-mediated Arf5 activation further compromises this process. Together, these defects result in a marked decline in the uptake of healthy mitochondria-containing EVs derived from MHCII
++
+donor tMacs by LCs. Notably, the integrity of RhoA signaling is critical for macrophage endocytosis and phagocytosis, and macrophages in different polarization states exhibit differential responses to RhoA pathway interference, suggesting that age-related dysregulation of RhoA signaling may further impair the effective uptake of EVs by LCs (
+88
+).
+Finally, age-related extracellular matrix (ECM) remodeling may alter the diffusion kinetics of EVs within the interstitium, further hindering efficient mitochondrial transfer. The aged testicular interstitium undergoes significant ECM remodeling: thickening of the basement membrane and increased deposition of fibronectin and laminin collectively form a dense ECM barrier (
+89
+,
+90
+). These changes may reduce tissue porosity, impede the penetration of EVs with diameters of 100–150 nm, and potentially “trap” EVs, causing them to remain near secretory cells and fail to reach distant tMacs, thereby creating “information islands”. The dTECM (decellularized testicular extracellular matrix) study by Chi et al. provides proof-of-concept for reversing this coupling disruption: remodeling the aged microenvironment with young dTECM not only restored the steroidogenic function of LCs but also significantly increased the number of CD206
++
+anti-inflammatory M2 macrophages in the testicular interstitium and alleviated age-related chronic inflammation (
+91
+). This confirms that the ECM microenvironment is a key modifiable factor regulating LCs-tMacs communication coupling.
+4. The cascade mechanisms by which EV network dysregulation drives LOH
+In the face of the aforementioned three-dimensional breakdown, the EV-mediated mitochondrial outsourcing network does not collapse immediately. During early aging, LCs can transiently maintain stable testosterone synthesis through compensatory mechanisms such as upregulating PGC-1α to enhance mitochondrial biogenesis, promoting the fusion of healthy mitochondria, and relying on feedback LH stimulation via the hypothalamic-pituitary-gonadal (HPG) axis. However, these compensatory mechanisms have inherent limits. When the clearance rate of the scavenger pathway or the replenishment rate of the donor pathway falls below the rate of mitochondrial damage generation, the network renewal rate will drop below the critical threshold required to sustain LC function—the “decompensation threshold”—and the system will undergo a phase transition from compensation to decompensation, at which point clinical LOH manifests. This threshold model not only explains why only a subset of aging men develop LOH (due to individual differences in network reserve) and why symptoms progressively worsen (the self-amplifying cycle triggered by ROS burst after crossing the threshold) but also reveals why testosterone supplementation alone has limited efficacy (because it fails to repair the three-dimensional damage to the network itself). The concept of the decompensation threshold and the phase transition from compensated aging to clinical LOH is illustrated in
+Figure 3
+. The following sections will sequentially dissect the cascade events that drive LOH progression once the threshold has been crossed.
+Figure 3.
+Open in a new tab
+The decompensation threshold model. Schematic illustration of the phase transition from compensated aging to clinical LOH.
+4.1. Network imbalance leads to LC dysfunction
+The immediate consequence of declining network efficiency is the progressive deterioration of mitochondrial quality within LCs. Network imbalance precipitates excessive reactive oxygen species (ROS) generation. ROS-induced damage to mitochondrial DNA and respiratory chain complexes further compromises electron transfer efficiency, thereby establishing a self-amplifying vicious cycle in which ROS accumulation promotes cellular damage, which in turn exacerbates ROS production (
+92
+). On the one hand, ROS activates p38 MAPK, thereby inhibiting CREB and subsequently downregulating steroidogenic acute regulatory protein (StAR). On the other hand, ROS induces cyclooxygenase-2 (COX-2) overexpression, and the resultant downstream inflammatory mediators further suppress steroidogenic enzyme activity (
+92
+,
+93
+). Additionally, ROS drives cellular senescence via the p53/p21 pathway (
+94
+). Ultimately, LCs undergo an irreversible transition from an early stage of metabolic adaptation, sustained by compensatory PGC-1α activity and antioxidant enzyme function, to a stage of metabolic crisis characterized by the sequential progression of ROS accumulation, cumulative damage, and cell death. This transition arises from the overwhelming failure of the mitochondrial quality control system and is accompanied by the complete collapse of testosterone biosynthetic capacity.
+The oxidative stress environment triggered by the mitochondrial quality crisis inflicts a devastating blow on the steroidogenic enzyme system of LCs. The rate-limiting steps of testosterone synthesis—the transport of cholesterol from the outer to the inner mitochondrial membrane and subsequent side-chain cleavage—are highly dependent on mitochondrial membrane potential, intact cristae structure, and a precise redox environment. The collapse of mitochondrial membrane potential and the ROS burst caused by network dysregulation impair this delicate process at multiple levels.
+First, to exert its cholesterol transport function on the outer mitochondrial membrane (OMM), StAR must undergo a pH-dependent molten globule conformational change (transitioning from a tightly folded state to a partially unfolded state), a transformation that depends on the proton gradient maintained by the mitochondrial membrane potential (ΔΨm). The collapse of the proton gradient due to loss of membrane potential prevents StAR from completing this essential conformational “switch”, causing StAR to “stall” on the membrane and lose its ability to continuously transport cholesterol (
+95
+,
+96
+).
+Second, CYP11A1 and other CYP450 family steroidogenic enzymes are inactivated by oxidative modifications. The study by Li et al. revealed that 1-nitropyrene (1-NP) exposure increases the acetylation levels of mitochondrial steroidogenic enzymes (including StAR, CYP11A1, and 3β-HSD1) by inhibiting SIRT3 activity, leading to decreased protein stability and loss of catalytic activity (
+97
+).
+Third, the structural disruption of mitochondria-associated endoplasmic reticulum membranes (MAMs) further blocks the spatial organization of steroidogenesis. Steroidogenesis depends on close physical contact and efficient metabolite transfer between mitochondria and the endoplasmic reticulum—after cholesterol is converted to pregnenolone within mitochondria, it must be rapidly transported to the endoplasmic reticulum for further processing by enzymes such as 3β-HSD1 and CYP17A1. Mitochondrial fragmentation and imbalanced network dynamics disrupt the integrity of MAMs, leading to reduced transport efficiency of intermediate metabolites and further impairment of testosterone synthesis capacity (
+98
+).
+Taken as a whole, the synergistic effects of ROS accumulation and SIRT3 inactivation drive LCs into a comprehensive decline in steroidogenic function. A recent review on testicular aging has explicitly stated that mitochondrial dysfunction is a key driver of testicular aging—the decline in mitochondrial membrane potential directly impairs testosterone synthesis efficiency, whereas ROS accumulation accelerates cellular senescence programs (
+99
+). Notably, damage to steroidogenic enzymes often exhibits functional irreversibility—CYP450 enzymes generate ROS during catalysis, and their active centers are exquisitely sensitive to oxidative stress. Once oxidative damage occurs, their enzymatic activity is difficult to fully restore through simple antioxidant therapy (
+100
+). This constitutes an important molecular basis for the irreversible progression of LOH driven by network dysregulation.
+4.2. Reduction in cell number
+Network dysregulation not only impairs the function of individual LCs but also leads to the irreversible reduction in the number of functional LCs through multiple intertwined cell death pathways. As terminally differentiated cells, adult LCs have extremely limited proliferative and renewal capacity—although a pool of stem LCs (SLCs) can differentiate into new LCs, this regenerative capacity declines significantly with age (
+101
+). Therefore, the death of each functional LC represents a permanent loss in the total capacity for testosterone synthesis. Network dysregulation induces LC death through the following mutually amplifying death pathways:
+(
+1
+) Apoptosis. Insufficient ATP supply and oxidative stress jointly activate the mitochondrial apoptotic pathway. The collapse of mitochondrial membrane potential leads to the release of cytochrome c from the intermembrane space into the cytosol. There, it forms the apoptosome with Apaf-1 and procaspase-9. This event activates the caspase cascade and ultimately leads to DNA fragmentation and cell disintegration. Studies have shown that the Bcl-2/Bax ratio is significantly reduced in aged LCs, indicating increased susceptibility to apoptosis (
+102
+) (
+2
+). Pyroptosis. Chronic inflammation in the aged testicular microenvironment induces LC pyroptosis through inflammasome activation. Ruan et al. found that exposure to environmental toxicants can induce caspase-1/GSDMD-dependent pyroptosis in LCs by activating the NLRP3 inflammasome, leading to the formation of cell membrane pores, release of cellular contents, and amplification of local inflammation (
+103
+). The DAMPs (such as mtDNA and cardiolipin) released during pyroptosis further activate tMacs, creating a vicious cycle of “cell death-inflammation-more cell death” (
+3
+). Senescence. Persistent oxidative stress and DNA damage push LCs into a state of cellular senescence. Senescent LCs not only lose their proliferative capacity and normal function but also secrete pro-inflammatory factors such as IL-6 and TNF-α through the SASP, disrupting the microenvironment of neighboring cells (
+104
+). Li et al. demonstrated that premature senescence of LCs initiated by mitochondrial dysfunction partially participates in the downregulation of steroidogenic enzymes induced by 1-NP. MitoQ treatment can prevent 1-NP-induced LC senescence, suggesting that mitochondria-targeted interventions may have dual effects in preserving both the number and function of LCs (
+97
+).
+Collectively, the three death pathways—apoptosis, pyroptosis, and senescence—do not operate independently but are intertwined and mutually amplifying. When the number of functional LCs falls below a certain critical threshold, the compensatory overwork of the remaining cells accelerates their functional decline, ultimately leading to a precipitous drop in total testosterone synthesis capacity. This constitutes the cytological basis for the rapid exacerbation of LOH symptoms in advanced stages.
+4.3. Disruption of the paracrine network
+The functional decline of LCs not only affects testosterone synthesis itself but also disrupts the homeostasis of the entire spermatogenic microenvironment through remodeling of paracrine signaling, creating a cascade effect that impacts spermatogenesis and male fertility.
+Testosterone, as a key paracrine factor supporting spermatogenesis, exerts a direct impact on Sertoli cell function and the integrity of the blood-testis barrier (BTB) through its declining interstitial concentration. Sertoli cells are the only somatic cells within the seminiferous epithelium that directly contact developing germ cells, and their function is highly dependent on testosterone signals derived from LCs (
+105
+). Testosterone, by binding to androgen receptors (AR) within Sertoli cells, regulates the expression of a series of genes crucial for spermatogenesis (
+85
+). Under LOH conditions, testosterone deficiency leads to the functional deterioration of Sertoli cells and compromised BTB integrity, subsequently causing meiotic arrest and impaired sperm release (
+106
+,
+107
+).
+In addition to testosterone, a variety of paracrine factors secreted by LCs are essential for spermatogenesis. Activin A, a key factor secreted by both fetal and adult LCs, promotes Sertoli cell proliferation and the formation of seminiferous cords (
+108
+). Furthermore, LCs regulate Sertoli cell function through the secretion of testosterone and paracrine signals (such as PDGF and DHH), while Sertoli cells in turn secrete growth factors such as GDNF, FGF2, and IGF1 to maintain the spermatogonial stem cell (SSC) niche (
+18
+,
+109
+,
+110
+). LC dysfunction caused by network dysregulation indirectly impairs the self-renewal and differentiation capacity of SSCs by disrupting this “LCs-Sertoli-germ cell” paracrine axis, further exacerbating the deterioration of the spermatogenic microenvironment.
+Importantly, EVs themselves are key mediators of intercellular communication within the testicular spermatogenic microenvironment. Zheng et al. (2025) discovered that EV-mediated transfer of let-7b/7c promotes the proliferation of transitional spermatogonia in neonatal mouse testes (
+111
+). The “toxic transformation” of EV cargo during aging implies that LCs not only reduce normal support signals to Sertoli cells but may also disseminate “damage signals” throughout the spermatogenic microenvironment by releasing EVs enriched in pro-inflammatory miRNAs and oxidatively damaged proteins, amplifying local inflammation and tissue injury. The review by Hofmann and McBeath further emphasized that paracrine and juxtacrine communication between Sertoli cells and germ cells is central to maintaining the SSC niche (
+112
+). Therefore, LC network dysregulation indirectly undermines the supportive capacity of Sertoli cells towards SSCs by altering EV-mediated signal transmission.
+In summary, LC dysfunction driven by network dysregulation transmits damage from the interstitium to the seminiferous tubules through three pathways—testosterone deficiency, aberrant paracrine factors, and the “toxic transformation” of EV signals—ultimately leading to impaired spermatogenesis and reduced male fertility. The disruption of this paracrine network further explains why exogenous testosterone supplementation alone cannot fully restore fertility in LOH patients—although testosterone replacement therapy (TRT) can partially compensate for testosterone deficiency, it cannot replace the complex regulatory role of LC-derived EVs in maintaining Sertoli cell-germ cell communication.
+5. Clinical translation: the EV network as a diagnostic and therapeutic target for LOH
+The conceptualization of the EV-mediated mitochondrial outsourcing network opens a new paradigm for the clinical management of LOH, shifting the focus from “symptom relief” towards “network repair”. Based on the network decompensation threshold model and cascade mechanisms elaborated above, this section explores the prospects for clinical translation from three perspectives: diagnostic biomarkers, therapeutic strategies, and preventive interventions.
+5.1. Diagnostic window: identifying at-risk individuals during the compensated phase
+The current clinical diagnosis of LOH relies primarily on the measurement of serum total testosterone levels, supplemented by the calculation of free testosterone indices using sex hormone-binding globulin (SHBG). However, serum testosterone levels decline significantly only after network efficiency has fallen below the decompensation threshold and LC function has undergone substantial deterioration—this means that traditional diagnostic methods capture the endpoint events of the “decompensated phase” rather than the early warning signals of the “compensated phase”. Developing biomarkers capable of identifying the risk of declining EV network efficiency during the compensated phase is crucial for early intervention in LOH.
+INSL3 is a direct indicator of LC functional reserve. Insulin-like factor 3 (INSL3) is a peptide hormone constitutively secreted by mature LCs, and its expression level is closely correlated with the differentiation status and functional reserve of LCs. Unlike testosterone, INSL3 secretion is not acutely regulated by the HPG axis; instead, it directly reflects the number and differentiation maturity of LCs (
+113
+). Studies have shown that INSL3 is significantly more sensitive to LC damage than testosterone—in adult men, a decline in INSL3 levels can be detected several years before a decrease in testosterone, signaling testicular endocrine dysfunction (
+114
+). A multi-omics study on testicular aging has also confirmed that the production of both testosterone and INSL3 by aged LCs declines simultaneously, reflecting a dual impairment of testicular function (
+53
+). It must be noted that evidence linking TREM2 signaling to INSL3 regulation currently derives from cryptorchidism studies rather than from aging or late-onset hypogonadism (LOH) models; specifically, Trem2 knockout mice exhibit reduced LC numbers and significantly decreased INSL3 levels (
+115
+). Consequently, establishing INSL3 as a biomarker reflective of EV outsourcing network functional status requires prospective validation of its diagnostic performance in aging cohorts. Nevertheless, serum INSL3 detection remains a promising preferred candidate biomarker for assessing network efficiency and identifying high-risk individuals during the compensated phase.
+In addition to INSL3, serum EV-miRNA profiles (such as the let-7b/7c ratio and levels of miR-155 and miR-146a) and mtDNA mutation burden together constitute a multidimensional biomarker system for evaluating EV network function. Zheng et al. demonstrated that testicular EVs regulate spermatogonial proliferation through let-7b/7c transfer, suggesting that changes in EV-miRNA content can reflect the secretory activity of testicular interstitial cells (
+111
+). By combining serum INSL3 (reflecting LC functional reserve) with EV-miRNA profiles (reflecting intercellular communication efficiency), a composite scoring model for predicting LOH risk could be constructed, enabling the early identification of individuals in the compensated phase (
+111
+,
+116
+).
+5.2. Therapeutic strategies: interventions targeting network repair
+Based on the three-dimensional breakdown mechanisms of the EV outsourcing network, therapeutic strategies should shift from simply supplementing testosterone towards multi-level, multi-target network repair (
+Table 1
+).
+Table 1.
+Therapeutic strategies for leydig cell function restoration.
+Therapeutic target
+Intervention/approach
+Proposed mechanism of action
+Key evidence
+Evidence level
+Human validation status
+Ref.
+Network repair: scavenger-side
+TREM2 agonists (monoclonal antibodies or small-molecule activators)
+Enhance CD206
++i
+tMac recognition and phagocytic clearance of LC-derived EVs containing defective mitochondria; restore anti-inflammatory microenvironment via TREM2-DAP12-Syk-PI3K-Akt signaling
+Trem2
+KO mice show 35% testosterone reduction with defective mitochondrial accumulation in LCs;
+TREM2 shedding by ADAM17 and epigenetic silencing via IFN-γ contribute to age-related scavenger dysfunction
+Preclinical (genetic and pharmacological models)
+Not validated; BTB penetration poses a major obstacle for antibody-based agonists
+(
+12
+,
+13
+) (
+43
+–
+49
+)
+Network repair: donor-side
+PGC-1α activators (ZLN005, exercise mimetics)
+Reactivate mitochondrial biogenesis in MHCII
++
+tMacs via AMPK-PGC-1α-NRF1/2 axis;
+restore fusion-fission balance (Mfn2/OPA1 upregulation, Drp1 normalization)
+Age-related PGC-1α suppression via NF-κB and p53 leads to mtDNA copy-number reduction (30–50%) and OXPHOS collapse; ZLN005 rescues mitochondrial function in aged macrophages
+Preclinical (cellular and animal models)
+Not validated for testicular application
+(
+20
+,
+26
+–
+30
+)
+Network repair: communication coupling
+VCAM1-ITGβ1/α4 axis enhancers (VCAM1 overexpression vectors or integrin-activating peptides)
+Restore LC recognition and uptake of donor EVs from MHCII
+hi
+tMacs; improve dynamin-dependent endocytosis and mitochondrial integration into LC network
+LC-specific
+Vcam1
+KO reduces EV uptake by >70%, lowers ATP by ~40%, and decreases testosterone by 45–50%; scRNA-seq confirms VCAM1-ITGA4/ITGB1 pathway weakening in aged human testes
+Preclinical (genetic KO models)
+Indirect support only (human scRNA-seq correlational data)
+(
+12
+,
+23
+,
+25
+,
+64
+,
+66
+,
+67
+)
+Network repair: multi-modal cell therapy
+MSC-derived small extracellular vesicles (MSC-sEVs)
+Deliver functional mitochondria directly to LCs, bypassing the compromised donor pathway; deliver anti-inflammatory and pro-survival cargoes (VEGF, miRNAs) to tMacs and LCs
+MSC-sEVs restore steroidogenic enzyme expression in damaged LCs; VEGF concentration in secretome correlates with testosterone-stimulatory potency; MSC-sEVs carry intact,respiration-competent mitochondria
+Preclinical (
+in vitro
+and
+in vivo
+injury models)
+Phase I/II trials ongoing for non-testicular indications; no LOH-specific human data
+(
+94
+–
+96
+)
+Network repair: microenvironment remodeling
+Young decellularized testicular ECM (dTECM) hydrogels
+Restore supportive interstitial architecture; reduce ECM stiffness to normalize PIEZO1-mediated Ca
+2+
+-ROS signaling; promote anti-inflammatory M2 tMac polarization
+Young dTECM rescues steroidogenic differentiation and testosterone production in aged LCs; increases CD206
++
+M2 macrophage abundance in aged testes
+Preclinical (animal models)
+Not validated
+(
+71
+)
+Mitochondrial protection: antioxidant defence
+Mitochondria-targeted antioxidants (MitoQ, SS-31)
+Scavenge mtROS at the source (matrix-targeted MitoQ; cardiolipin-binding SS-31); protect respiratory chain complexes from oxidative damage; prevent StAR and CYP11A1 dysfunction
+MitoQ prevents 1-NP-induced LC premature senescence and restores steroidogenic enzyme expression; SS-31 preserves mitochondrial cristae integrity in aging models
+Preclinical (animal and cell models)
+MitoQ: Phase II trials completed for other indications (kidney disease, multiple sclerosis); no LOH trials
+(
+75
+)
+Metabolic rescue: NAD
++
+restoration
+NAD
++
+precursors (NMN, NR)
+Pleiotropic, cell-type-specific metabolic repair: (i) in donor tMacs—restore SIRT1-PGC-1α axis to reactivate mitochondrial biogenesis;
+(ii) in LCs—SIRT3-mediated deacetylation maintains StAR, CYP11A1 and 3β-HSD1 stability; (iii) in scavenger tMacs—SIRT1-TFEB axis enhances autophagic-lysosomal clearance
+NMN increases testicular NAD
++
+and serum testosterone, and protects LCs and germ cells in ischemia-reperfusion injury;
+NR raises NAD
++
+and improves mitochondrial respiration in aged macrophages; SIRT3 OE rescues steroidogenic enzyme acetylation
+Preclinical (animal models); Phase I–II human trials for NMN/NR (anti-aging, metabolic syndrome)
+NMN/NR: multiple human trials show safety and peripheral metabolic benefits; no testis-specific PK or efficacy data published
+(
+40
+–
+42
+,
+97
+–
+99
+)
+Metabolic rescue: lifestyle intervention
+Caloric restriction/intermittent fasting; regular aerobic and resistance exercise
+Activate AMPK-SIRT1-PGC-1α axis; reduce systemic inflammaging; improve macrophage mitochondrial metabolism and polarization balance
+Caloric restriction attenuates oxidative and inflammatory markers in aged rat testis; exercise restores PGC-1α responsiveness in aged macrophages
+Preclinical (animal models); extensive human cohort studies for general metabolic health
+Exercise and caloric restriction widely recommended for metabolic health;
+no LOH-specific RCTs with testosterone as primary endpoint
+(
+24
+,
+28
+)
+HPG-axis modulation
+hCG stimulation
+Directly activate LC LH receptors to stimulate endogenous testosterone synthesis; potential partial restoration of donor-side PGC-1α via cAMP signaling
+hCG is clinically used for male hypogonadism and fertility preservation; may upregulate PGC-1α (hypothesis, no direct evidence)
+Clinical (established practice for hypogonadotropic hypogonadism and fertility)
+Widely used; however, network-repair effect on EV outsourcing remains speculative
+(
+105
+)
+HPG-axis modulation
+Selective estrogen receptor modulators (SERMs; clomiphene, enclomiphene)
+Antagonise hypothalamic-pituitary estrogen negative feedback → increase endogenous LH and FSH → stimulate LC function;
+untested hypothesis
+: direct NF-κB inhibition in tMacs may promote M2 anti-inflammatory polarization
+Polari et al. demonstrated SERMs inhibit NF-κB and promote M2 phenotype in human CD14
++
+monocytes (not tMacs); clomiphene increases testosterone in hypogonadal men
+Clinical (off-label use for male hypogonadism and fertility); preclinical (monocyte data only)
+SERMs used clinically for male infertility; translation to tMac EV-network modulation is an
+untested hypothesis
+requiring testis-specific validation
+(
+101
+,
+105
+)
+Symptom management
+Testosterone replacement therapy (TRT; gels, injections, patches)
+Restore circulating testosterone levels to alleviate LOH symptoms (fatigue, reduced libido, muscle loss, cognitive decline)
+Meta-analyses and registry studies confirm symptomatic benefit;
+TRT suppresses endogenous LH via negative feedback, potentially further compromising residual LC function and EV-network compensatory capacity
+Clinical (FDA-approved for male hypogonadism); long-term safety data from registry studies
+Approved and widely prescribed; does
+not
+repair the underlying EV-network pathology; concerns regarding fertility suppression and cardiovascular risk remain debated
+(
+104
+,
+105
+)
+Novel delivery: EV engineering
+Engineered LC-targeted EVs (loaded with healthy mitochondria, SIRT3 activators, or antioxidant enzymes)
+Surface modification with VCAM1-ITGβ1/α4 ligands for targeted LC uptake; internal cargo replaces defective mitochondria or rescues SIRT3 activity
+Sertoli cell-derived sEVs cross BTB and deliver functional cargoes to germ cells; conceptually extendable to LC-targeted delivery
+Proof-of-concept only
+Not validated; manufacturing standardization, batch consistency, and scalability remain critical bottlenecks
+(
+102
+)
+Novel delivery: BTB modulation
+Ultrasound-microbubble-assisted BTB opening; cytokine-mediated transient tight-junction modulation
+Create a therapeutic window for systemic macromolecules (antibodies, EVs) to access testicular interstitium; reversible approach minimizing germ-epithelium damage
+Demonstrated in brain-tumour models for blood-brain barrier opening; application to BTB remains speculative
+Conceptual only
+Not validated; safety regarding germinal epithelium integrity is a major concern
+—
+Open in a new tab
+5.2.1. MSC-derived small extracellular vesicles: a cell-free regenerative strategy
+Among the therapeutic strategies outlined above, MSC-sEVs are rapidly emerging as a research focus in the field of male reproductive repair owing to their unique biological advantages. Compared with direct MSC transplantation, MSC-sEVs offer low immunogenicity, no tumorigenic risk, the ability to cross biological barriers, and ease of standardized production and storage. A recent systematic review has summarized the therapeutic effects of adipose-, bone marrow-, and umbilical cord-derived MSC-exosomes in preclinical models of male reproductive disorders; available evidence indicates that MSC-exosomes promote the restoration of spermatogenesis and reestablish hormonal balance through multiple mechanisms, including attenuating oxidative stress, suppressing inflammatory responses, improving vascular function, and repairing damaged testicular architecture (
+117
+). The feasibility of large-scale standardized production is further supported by studies demonstrating that immortalized human MSC secretomes retain biological potency and lack transforming activity (
+118
+). With respect to the protection of LC function, the MSC secretome stimulates testosterone secretion in primary LC in a dose-dependent manner, an effect positively correlated with VEGF concentration that has been validated as a surrogate potency marker (
+119
+). Extending this concept to the EV-mediated mitochondrial outsourcing network, MSC-sEVs can not only modulate the polarization state of tMacs through their cargo of bioactive molecules, but more importantly, MSC-sEVs themselves are enriched with functionally intact mitochondria and may thus serve as a direct source of “exogenous healthy mitochondria.” These mitochondria can be taken up by LCs via the VCAM1-ITGβ1 axis or similar recognition mechanisms, thereby bypassing the declining MHCII
++
+donor pathway and directly replenishing the mitochondrial pool of LCs.
+5.2.2. NAD
++
+precursors and sirtuin activation: metabolic rescue of the network
+NAD
++
+precursor supplementation represents another highly promising network repair strategy, whose mechanism of action closely aligns with the core mechanism of donor-side collapse—namely, the dysregulation of the CD38–NAD
++
+–SIRT3 axis in MHCII
++
+macrophages. Adequate NAD
++
+levels support the activities of nuclear SIRT1 and SIRT6, as well as mitochondrial SIRT3. SIRT1 regulates spermatogonial stem cell self-renewal, meiotic fidelity, blood-testis barrier integrity, and testosterone synthesis. SIRT3 acts as a mitochondrial sentinel. It enhances antioxidant defense by activating SOD2, supports oxidative phosphorylation, and facilitates steroidogenesis. SIRT6 maintains genomic and telomeric stability through histone deacetylation (
+120
+).defense
+Direct experimental evidence further supports the translational potential of NAD
++
+precursors in testicular protection. Studies have demonstrated that NMN supplementation significantly elevates testicular NAD
++
+content, increases serum testosterone levels, prevents LC and germ cell damage, and improves sperm counts, with the underlying mechanism involving remodeling of the inflammatory properties of macrophages and neutrophils to modulate the immune microenvironment (
+121
+,
+122
+). Importantly, these studies confirmed that NMN supplementation produced no observable adverse effects in mouse models, providing preliminary safety evidence for its clinical translation.
+Within the network repair framework constructed in this review, NAD
++
+precursor (NMN/NR) supplementation can achieve a “three-in-one” therapeutic effect. First, in MHCII
++
+donor macrophages, restoration of SIRT1 activity leads to PGC-1α deacetylation. This reestablishes mitochondrial biogenesis and restores the supply of “healthy mitochondria” (repairing the donor side). Second, in LCs, SIRT3-mediated deacetylation maintains the protein stability and catalytic activity of steroidogenic enzymes such as StAR, CYP11A1, and 3β-HSD1 (preserving LC function) (
+97
+). Third, in CD206
++
+scavenger macrophages, restoration of the SIRT1--TFEB axis enhances autophagic-lysosomal function. This improves the degradation efficiency of EVs containing defective mitochondria (alleviating scavenger-side obstruction). This “three-in-one” effect provides a theoretical basis for NAD
++
+precursors as a core component of a “metabolic prescription” for LOH.
+Notably, certain existing endocrine therapeutic modalities may exert network-repair effects that have hitherto been underappreciated. hCG therapy—a classical clinical regimen for stimulating endogenous testosterone secretion—not only promotes steroidogenesis by activating LH receptors on LCs, but may also partially restore donor-side function through PGC-1α upregulation. Nevertheless, this mechanism remains a prospective hypothesis currently lacking direct experimental validation. Selective estrogen receptor modulators (SERMs), such as clomiphene, elevate endogenous LH and FSH levels by antagonizing hypothalamic–pituitary estrogen negative feedback, thereby indirectly stimulating LC function (
+123
+). Polari et al. first demonstrated in human CD14
++
+monocytes—notably, not testicular macrophages—that multiple SERMs can directly promote an M2 anti-inflammatory phenotype by inhibiting the NF-κB pathway (
+124
+). On this basis, a testable scientific hypothesis can be advanced: SERMs may indirectly improve scavenger-side EV network function by modulating testicular macrophage polarization. However, given that this study did not involve tMacs or the testicular microenvironment, and that the SERM types examined differ from clomiphene—the agent commonly used in clinical practice for male infertility—this hypothesis remains entirely untested. It should not be regarded as an established mechanism until direct validation is obtained in testis-specific experimental models. Any inferential effect of SERMs on testicular macrophage polarization constitutes a speculative inference (
+124
+).
+Given that the “three-dimensional decompensation” of the EV network involves the synergistic collapse of the donor side, scavenger side, and intercellular communication, single-target interventions are unlikely to suffice for network restoration. Combinatorial strategies—for example, NAD
++
+precursors (repairing donor-side metabolism), TREM2 agonists (enhancing scavenger recognition), and young dTECM hydrogels (remodeling the communication microenvironment)—are, at the theoretical level, conceptual frameworks rather than validated therapeutic regimens. An analogous concept—namely, achieving multi-target synergy by correcting metabolic reprogramming and mitochondrial function—has already received preliminary validation in the fields of type 2 diabetes and cardiovascular disease, and its applicability in LOH warrants systematic evaluation in preclinical models. Furthermore, a combined strategy of testosterone replacement therapy plus NAD
++
+precursor supplementation may theoretically achieve the dual benefit of symptomatic relief concomitant with network repair, yet this combination likewise requires experimental validation.
+5.2.3. EV-mediated targeted delivery: crossing the blood–testis barrier
+A critical obstacle facing network repair therapies is the blood–testis barrier (BTB). While the BTB safeguards the spermatogenic microenvironment from exogenous harmful agents, it also restricts the access of most therapeutic drugs to the testicular interstitium and seminiferous tubules. EVs themselves—particularly those derived from the testicular microenvironment—possess an inherent capacity to traverse the BTB. A breakthrough study by Chen et al. demonstrated that Sertoli cell-derived small extracellular vesicles (SC-sEVs) are capable of crossing the BTB and entering germ cells. The authors further successfully loaded an miR-24-3p inhibitor into SC-sEVs, creating the nanotherapeutic SC-sEV@miR-24-3p inhibitor, which significantly improved sperm motility,
+in vitro
+fertilization success rates, blastocyst formation rates, and litter size in a gossypol-induced asthenozoospermia mouse model (
+125
+). The significance of this proof-of-concept study extends well beyond the treatment of asthenozoospermia—it represents the first systematic demonstration of the feasibility of employing testicular microenvironment-derived EVs as inherent carriers for delivery across the BTB. Extending this strategy to the network repair framework, one can envision the design of engineered, LC-targeted EVs whose surfaces are modified with ligands to enhance VCAM1–ITGβ1 recognition efficiency, and whose cargoes are loaded with healthy mitochondria, antioxidant enzymes, or SIRT3 activators, thereby enabling the precise “material delivery” to LCs.
+The BTB challenge is critically size-dependent across therapeutic modalities (
+1
+). NAD
++
+precursors (NMN/NR). As small molecules (~300–400 Da), they may partially cross the BTB after systemic administration based on physicochemical principles; however, direct pharmacokinetic data measuring interstitial NAD
++
+elevation in the testis are currently absent, and peripheral increases observed in liver and muscle cannot be extrapolated to the testicular interstitium (
+126
+) (
+2
+). TREM2 agonists. Whether monoclonal antibodies or peptide agonists, their large molecular weight (>10 kDa) and Fc-mediated clearance render effective BTB traversal virtually impossible—as demonstrated for the structurally analogous blood–brain barrier, where unmodified TREM2 antibodies require engineered transport vehicles (e.g., TfR-mediated transcytosis) to achieve parenchymal penetration (
+127
+,
+128
+). Following systemic dosing, interstitial drug concentrations may reach <1–5% of peripheral blood levels, insufficient to activate CD206
++
+testicular macrophages (
+3
+). MSC-EVs and exogenous mitochondria. Native MSC-EVs possess limited intrinsic BTB-crossing capacity. Although engineered umbilical cord MSC-EVs have been demonstrated to traverse the BTB when functionalized with targeting ligands (
+129
+), and Sertoli cell-derived sEVs possess intrinsic BTB-crossing capacity (
+125
+,
+130
+), allogeneic MSC-EVs lack Sertoli-specific homing signals, resulting in negligible testicular targeting efficiency. Intravenous infusion risks >90% hepatic and splenic sequestration.
+Consequently, systemic administration alone is likely inadequate for macromolecular biologics and EVs. Clinical realism demands the development of local or semi-local delivery strategies: (i) Intratesticular microinjection—direct delivery of MSC-EVs, TREM2 agonists, or drug-loaded nanoparticles into the testicular interstitium bypasses the BTB entirely, as demonstrated by lipid-nanoparticle-mediated spermatogenesis restoration (
+131
+) and cationic lipid-fibroin complex delivery (
+132
+); (ii) Sustained-release depots—young decellularized testicular ECM (dTECM) hydrogels or PLGA microparticles implanted locally could serve as interstitial reservoirs, continuously releasing NAD
++
+precursors or small-molecule TREM2 agonists while balancing targeting precision with reduced invasiveness; (iii) Reversible BTB modulation—transient tight-junction opening using an FSH mutant–occludin peptide conjugate has been shown to reversibly disrupt the BTB without compromising other epithelial barriers (
+133
+), and the F5-peptide derived from laminin-γ3 can similarly create a therapeutic window for drug entry (
+134
+). Such approaches, however, require rigorous safety evaluation regarding germinal epithelium integrity.
+In summary, the BTB should not be treated merely as a passive obstacle to be “crossed,” but rather as a central determinant of dosing strategy design. Future LOH clinical trials must incorporate BTB penetrance as a drug-selection criterion, a principle already established in male contraceptive and infertility drug development (
+134
+), and establish interstitial concentration–effect relationships in preclinical models.
+5.3. Cross-talk with the hypothalamic–pituitary–gonadal axis: a systemic perspective on EV network repair
+The decompensation of the LCs–tMacs EV network is not an isolated event, but engages in profound bidirectional cross-talk with the hypothalamic–pituitary–gonadal (HPG) axis. Understanding this interplay is essential for designing systemic intervention strategies centered on the concept of “endocrine network resilience.”
+A core vicious cycle operates in the bidirectional regulation between the EV network and the HPG axis: declining LC function leads to reduced testosterone secretion, which, through diminished negative feedback, triggers a compensatory elevation of pituitary LH. However, persistently high LH levels exert an “excitotoxicity” effect on LCs. Beattie et al. directly demonstrated that LH stimulation induces a significant increase in ROS production in primary rat LCs, with aged cells exhibiting a higher ROS peak, prolonged recovery time, and more extensive DNA damage (
+135
+). LH overactivates steroidogenesis through the cAMP–PKA pathway, exacerbating the load on the mitochondrial respiratory chain and ROS generation, thereby further aggravating the mitochondrial quality crisis. Simultaneously, the sensitivity of aged LCs to LH is diminished due to receptor downregulation (
+25
+), creating a paradoxical state of “elevated LH yet reduced responsiveness.” At the molecular level, progressive accumulation of cGMP signaling in aged LCs is significantly correlated with mitochondrial dysfunction and the downregulation of PGC-1α (Ppargc1a), with cGMP serving as one of the downstream second messengers of LH/hCG stimulation. On the donor side, PGC-1α in aged MHCII
++
+tMacs has lost its responsiveness to AMPK and SIRT1 signaling (
+44
+)—meaning that even if enhanced LH signaling indirectly amplifies the “demand signals” from LCs, donor macrophages cannot be effectively activated to increase the supply of healthy mitochondria.
+The network repair effects of existing endocrine therapies merit reappraisal. hCG therapy—a classical clinical regimen for stimulating endogenous testosterone secretion—not only promotes steroidogenesis by activating LH receptors on LCs but may also partially restore donor-side function by upregulating PGC-1α (this remains a prospective hypothesis, currently lacking direct experimental evidence). SERMs (e.g., clomiphene) elevate endogenous LH and FSH levels by antagonizing hypothalamic–pituitary estrogen negative feedback, thereby indirectly stimulating LC function. It has been shown that multiple SERMs can directly promote an M2 anti-inflammatory macrophage phenotype by inhibiting the NF-κB pathway, and that their anti-inflammatory effects converge on the downregulation of IL-1β. Whether SERMs can indirectly improve the EV network by modulating tMacs polarization remains an intriguing direction for future exploration. However, the paradox of exogenous testosterone replacement therapy (TRT) cannot be overlooked: although TRT can rapidly correct systemic testosterone deficiency symptoms, it suppresses endogenous LH through negative feedback, which may further weaken the functional reserve of LCs and the compensatory capacity of the EV network (
+136
+). A sequential treatment strategy may therefore represent a superior alternative—short-term administration of hCG or SERMs to stimulate endogenous LC function and network repair, followed by a transition to low-dose TRT for maintenance once network efficiency has been partially restored, combined with NAD
++
+precursor supplementation to consolidate network repair (
+137
+). Within the network repair framework proposed herein, a “rebuild–consolidate–maintain” three-phase strategy may be envisaged sequentially, commencing with hCG or SERM-mediated activation of the endogenous network, proceeding to low-dose TRT for symptomatic maintenance, and culminating in NAD
++
+precursor supplementation for metabolic consolidation. This conceptual regimen holds theoretical potential for balancing symptomatic relief with etiological repair.
+6. Conclusions and future perspectives
+This review systematically elaborates a theoretical framework positing that the extracellular vesicle–mediated bidirectional mitochondrial transfer network between LCs and testicular macrophages serves as a critical hub for maintaining LC homeostasis. We propose a “three-dimensional decompensation” model whereby aging systematically impairs network efficiency through supply-side collapse, clearance-side obstruction, and communication decoupling. By introducing the concept of a “mitochondrial renewal rate threshold,” this framework further explains how network decompensation triggers a mitochondrial quality crisis, steroidogenic enzyme dysfunction, and a cascade of cell death, culminating in the irreversible collapse of testosterone synthesis. This mechanistic paradigm not only elucidates clinical conundrums of late-onset hypogonadism—including individual variability in susceptibility, progressive symptom worsening, and the limited efficacy of hormone replacement therapy—but also advances the therapeutic paradigm from symptomatic management toward network repair. Nevertheless, several critical limitations must be acknowledged. First, the majority of mechanistic data derive from rodent models; significant interspecies differences in testicular macrophage subpopulations, extracellular vesicle molecular signatures, and network architecture necessitate cautious extrapolation to humans. Second, direct evidence for extracellular vesicle–mediated mitochondrial transfer in the aging human testis remains absent, requiring validation in human tissue specimens. Third, all proposed network-repair strategies—including TREM2 agonists, young decellularized testicular extracellular matrix hydrogels, mesenchymal stem cell–derived extracellular vesicles, and NAD
++
+precursors—remain at the preclinical stage, facing formidable translational challenges such as blood–testis barrier penetration, long-term safety, and individualized dosing regimens. Fourth, the “decompensation threshold” remains a conceptual construct; the diagnostic sensitivity, specificity, and predictive value of candidate biomarkers such as INSL3, extracellular vesicle–miRNA profiles, and mitochondrial DNA mutation burden require prospective cohort validation, and the relative quantitative contributions of extracellular vesicle network decline versus hypothalamic–pituitary–gonadal axis aging to late-onset hypogonadism pathogenesis remain undefined. Looking ahead, a precision diagnostic and therapeutic system grounded in extracellular vesicle network theory holds promise as a novel paradigm for managing this disorder: liquid biopsies may capture early signals of declining network efficiency to identify high-risk individuals during the compensated phase, while multi-target combinatorial interventions may repair three-dimensional network damage. As live imaging, organoid models, and single-cell technologies converge, research on male reproductive aging is transitioning from descriptive science toward mechanism-driven translational medicine. Yet human validation of the network architecture, elucidation of its interplay with other intracellular quality control systems, and resolution of delivery bottlenecks in clinical translation remain critical scientific gaps demanding urgent attention.
+Glossary
+3β-HSD1
+3β-hydroxysteroid dehydrogenase type 1
+AMPK
+AMP-activated protein kinase
+ATP
+adenosine triphosphate
+CCL2
+C-C motif chemokine ligand 2
+CD38
+cyclic ADP-ribose hydrolase
+COX-2
+cyclooxygenase-2
+CYP11A1
+cytochrome P450 cholesterol side-chain cleavage enzyme
+Drp1
+dynamin-related protein 1
+ER
+estrogen receptor
+ESCRT
+endosomal sorting complexes required for transport
+GCN5
+general control non-derepressible 5
+HIF-1α
+hypoxia-inducible factor 1 alpha
+ICD
+intracellular domain
+IL
+interleukin
+ITAM
+immunoreceptor tyrosine-based activation motif
+LC
+Leydig cell
+LOH
+late-onset hypogonadism
+MHCII
+major histocompatibility complex class II
+MMP
+mitochondrial membrane potential
+mtDNA
+mitochondrial DNA
+NF-κB
+nuclear factor kappa-light-chain-enhancer of activated B cells
+NOX4
+NADPH oxidase 4
+OMM
+outer mitochondrial membrane
+PGC-1α
+peroxisome proliferator-activated receptor gamma coactivator 1-alpha
+QPCT/L
+glutaminyl-peptide cyclotransferase
+RhoA
+Ras homolog family member A
+SASP
+senescence-associated secretory phenotype
+sEV
+small extracellular vesicle
+SIRT
+sirtuin
+StAR
+steroidogenic acute regulatory protein
+TFEB
+transcription factor EB
+TREM2
+triggering receptor expressed on myeloid cells 2
+TSG101
+tumor susceptibility gene 101
+VPS4
+vacuolar protein sorting 4
+8-OHdG
+8-hydroxy-2′-deoxyguanosine
+AP2
+adaptor protein 2
+BTB
+blood-testis barrier
+CD
+cluster of differentiation
+CD47
+cluster of differentiation 47
+CTF
+C-terminal fragment
+CYP17A1
+cytochrome P450 17α-hydroxylase/17,20-lyase
+dTECM
+decellularized testicular extracellular matrix
+ERK
+extracellular signal-regulated kinase EV, extracellular vesicle
+GSH
+glutathione
+HPG
+hypothalamic-pituitary-gonadal
+IFN-γ
+interferon-gamma
+ILV
+intraluminal vesicle
+ITGβ1
+integrin beta-1
+LH
+luteinizing hormone
+MAPK
+mitogen-activated protein kinase
+MICOS
+mitochondrial contact site and cristae organizing system
+MnSOD
+manganese superoxide dismutase
+MVB
+multivesicular body
+NLRP3
+NLR family pyrin domain containing 3
+NR
+nicotinamide riboside
+OPA1
+optic atrophy 1
+PI3K
+phosphoinositide 3-kinase
+RAB27A
+Ras-related protein Rab-27A
+ROCK
+Rho-associated coiled-coil containing protein kinase
+SC
+Sertoli cell
+SHBG
+sex hormone-binding globulin
+SLC
+stem Leydig cell
+Syk
+spleen tyrosine kinase
+tMac
+testicular macrophage
+TRT
+testosterone replacement therapy
+VCAM1
+vascular cell adhesion molecule 1
+ADAM17
+A disintegrin and metalloproteinase 17
+AR
+androgen receptor
+cAMP
+cyclic adenosine monophosphate
+CD206
+mannose receptor C-type 1
+CME
+clathrin-mediated endocytosis
+CXCL10
+C-X-C motif chemokine ligand 10
+DAMP
+damage-associated molecular pattern
+ECM
+extracellular matrix
+ERRα
+estrogen-related receptor alpha
+FSH
+follicle-stimulating hormone
+hCG
+human chorionic gonadotrophin
+HRS
+hepatocyte growth factor-regulated tyrosine kinase substrate
+IGF-1
+insulin-like growth factor 1
+INSL3
+insulin-like factor 3
+JNK
+c-Jun N-terminal kinase
+LMP
+lysosomal membrane permeabilization
+Mfn1/2
+mitofusin ½
+miRNA
+microRNA
+MSC
+mesenchymal stem cell
+NAD⁺
+nicotinamide adenine dinucleotide
+NMN
+nicotinamide mononucleotide
+NRF-1
+nuclear respiratory factor 1
+OXPHOS
+oxidative phosphorylation
+PKA
+protein kinase A
+RCS
+respiratory chain supercomplex
+ROS
+reactive oxygen species
+SERM
+selective estrogen receptor modulator
+SHP-1
+Src homology region 2 domain-containing phosphatase-1
+SOD2
+superoxide dismutase 2
+TFAM
+transcription factor A, mitochondrial
+TNF-α
+tumor necrosis factor alpha
+Trx2
+thioredoxin 2
+VEGF
+vascular endothelial growth factor
+Funding Statement
+The author(s) declared that financial support was received for this work and/or its publication. This work was supported by the Sichuan Medical Association Medical Research Project (Grant No. S20250066 to FY) and the National Natural Science Foundation of China (Grant No. 82574804 to XY).
+Footnotes
+Edited by:
+Gautham Yepuri
+, New York University, United States
+Reviewed by:
+Huang Liu
+, Human Sperm Bank of Guangdong Province, China
+Yinchuan Li
+, Nantong University, China
+Author contributions
+LZ: Conceptualization, Investigation, Project administration, Supervision, Writing – original draft, Writing – review & editing. XT: Investigation, Writing – original draft, Writing – review & editing. XW: Investigation, Writing – original draft, Writing – review & editing. XL: Investigation, Writing – original draft, Writing – review & editing. MW: Investigation, Writing – original draft, Writing – review & editing. JL: Investigation, Writing – original draft, Writing – review & editing. LD: Investigation, Writing – original draft, Writing – review & editing. XY: Funding acquisition, Investigation, Supervision, Writing – review & editing. FY: Conceptualization, Funding acquisition, Supervision, Writing – review & editing.
+Conflict of interest
+The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+Generative AI statement
+The author(s) declared that generative AI was not used in the creation of this manuscript.
+Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.
+Publisher’s note
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+References
+1.
+Ge RS, Li X, Wang Y. 
+Leydig cell and spermatogenesis. Adv Exp Med Biol. (2021) 1288:111–29. doi:  10.1007/978-3-030-77779-1_6
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Tenuta M, Hasenmajer V, Gianfrilli D, Isidori AM. 
+Testosterone and male bone health: a puzzle of interactions. J Clin Endocrinol Metab. (2025) 110:e2121–35. doi:  10.1210/clinem/dgaf191
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Durdiakova J, Ostatnikova D, Celec P. 
+Testosterone and its metabolites--modulators of brain functions. Acta Neurobiol Exp (Wars). (2011) 71:434–54. doi:  10.55782/ane-2011-1863
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Miller WL. 
+Steroid hormone synthesis in mitochondria. Mol Cell Endocrinol. (2013) 379:62–73. doi:  10.1016/j.mce.2013.04.014
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Midzak A, Papadopoulos V. 
+Adrenal mitochondria and steroidogenesis: from individual proteins to functional protein assemblies. Front Endocrinol (Lausanne). (2016) 7:106. doi:  10.3389/fendo.2016.00106
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+6.
+Midzak AS, Chen H, Aon MA, Papadopoulos V, Zirkin BR. 
+ATP synthesis, mitochondrial function, and steroid biosynthesis in rodent primary and tumor Leydig cells. Biol Reprod. (2011) 84:976–85. doi:  10.1095/biolreprod.110.087460
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Zirkin BR, Papadopoulos V. 
+Leydig cells: formation, function, and regulation. Biol Reprod. (2018) 99:101–11. doi:  10.1093/biolre/ioy059
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Wang Y, Chen F, Ye L, Zirkin B, Chen H. 
+Steroidogenesis in Leydig cells: effects of aging and environmental factors. Reproduction. (2017) 154:R111–22. doi:  10.1530/REP-17-0064
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Sokanovic SJ, Baburski AZ, Kojic Z, Medar MLJ, Andric SA, Kostic TS. 
+Aging-related increase of cGMP disrupts mitochondrial homeostasis in Leydig cells. J Gerontol A Biol Sci Med Sci. (2021) 76:177–86. doi:  10.1093/gerona/glaa132
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Ni HM, Williams JA, Jaeschke H, Ding WX. 
+Zonated induction of autophagy and mitochondrial spheroids limits acetaminophen-induced necrosis in the liver. Redox Biol. (2013) 1:427–32. doi:  10.1016/j.redox.2013.08.005
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+Shabalina IG, Landreh L, Edgar D, Hou M, Gibanova N, Atanassova N, et al. 
+Leydig cell steroidogenesis unexpectedly escapes mitochondrial dysfunction in prematurely aging mice. FASEB J. (2015) 29:3274–86. doi:  10.1096/fj.15-271825
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Miller WL. 
+Steroidogenesis: unanswered questions. Trends Endocrinol Metab. (2017) 28:771–93. doi:  10.1016/j.tem.2017.09.002
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Morohashi KI, Inoue M, Baba T. 
+Coordination of multiple cellular processes by NR5A1/Nr5a1. Endocrinol Metab (Seoul). (2020) 35:756–64. doi:  10.3803/EnM.2020.402
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Lin H, Wang SW, Wang RY, Wang PS. 
+Stimulatory effect of lactate on testosterone production by rat Leydig cells. J Cell Biochem. (2001) 83:147–54. doi:  10.1002/jcb.1213
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Wu FC, Tajar A, Beynon JM, Pye SR, Silman AJ, Finn JD, et al. 
+Identification of late-onset hypogonadism in middle-aged and elderly men. N Engl J Med. (2010) 363:123–35. doi:  10.1056/NEJMoa0911101
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Harman SM, Metter EJ, Tobin JD, Pearson J, Blackman MR, Baltimore Longitudinal Study of Aging . 
+Longitudinal effects of aging on serum total and free testosterone levels in healthy men. Baltimore Longitudinal Study of Aging. J Clin Endocrinol Metab. (2001) 86:724–31. doi:  10.1210/jcem.86.2.7219
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Liu YJ, Shen XB, Yu N, Shang XJ, Gu YQ, Zuo LD, et al. 
+Prevalence of late-onset hypogonadism among middle-aged and elderly males in China: results from a national survey. Asian J Androl. (2021) 23:170–7. doi:  10.4103/aja.aja_59_20
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Basciani S, De Luca G, Dolci S, Brama M, Arizzi M, Mariani S, et al. 
+Platelet-derived growth factor receptor beta-subtype regulates proliferation and migration of gonocytes. Endocrinology. (2008) 149:6226–35. doi:  10.1210/en.2008-0349
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Liu H, Zhang Z, Gao Y, Lin H, Zhu Z, Zheng H, et al. 
+Leydig cell metabolic disorder act as a new mechanism affecting for focal spermatogenesis in Klinefelter syndrome patients: a real world cross-sectional study base on the age. Front Endocrinol (Lausanne). (2023) 14:1266730. doi:  10.3389/fendo.2023.1266730
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Petersen PM, Seierøe K, Pakkenberg B. 
+The total number of Leydig and Sertoli cells in the testes of men across various age groups - a stereological study. J Anat. (2015) 226:175–9. doi:  10.1111/joa.12261
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Luo L, Chen H, Zirkin BR. 
+Temporal relationships among testosterone production, steroidogenic acute regulatory protein (StAR), and P450 side-chain cleavage enzyme (P450scc) during Leydig cell aging. J Androl. (2005) 26:25–31. doi:  10.1002/j.1939-4640.2005.tb02868.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Xia K, Zhang S, Peng H, Chen H, Yang C, Yu J, et al. 
+An extracellular vesicle-mediated mitochondrial transfer network critical for testosterone synthesis. Nat Cell Biol. (2026) 28:707–24. doi:  10.1038/s41556-026-01896-x
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Veldhuis JD, Keenan DM, Liu PY, Iranmanesh A, Takahashi PY, Nehra AX. 
+The aging male hypothalamic-pituitary-gonadal axis: pulsatility and feedback. Mol Cell Endocrinol. (2009) 299:14–22. doi:  10.1016/j.mce.2008.09.005
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Mulligan T, Iranmanesh A, Veldhuis JD. 
+Pulsatile iv infusion of recombinant human LH in leuprolide-suppressed men unmasks impoverished Leydig-cell secretory responsiveness to midphysiological LH drive in the aging male. J Clin Endocrinol Metab. (2001) 86:5547–53. doi:  10.1210/jcem.86.11.8004
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Beattie MC, Adekola L, Papadopoulos V, Chen H, Zirkin BR. 
+Leydig cell aging and hypogonadism. Exp Gerontol. (2015) 68:87–91. doi:  10.1016/j.exger.2015.02.014
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Veldhuis JD, Iranmanesh A, Keenan DM. 
+Erosion of endogenous testosterone-driven negative feedback on pulsatile luteinizing hormone secretion in healthy aging men. J Clin Endocrinol Metab. (2004) 89:5753–61. doi:  10.1210/jc.2004-0399
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Veldhuis JD, Iranmanesh A, Mulligan T. 
+Age and testosterone feedback jointly control the dose-dependent actions of gonadotropin-releasing hormone in healthy men. J Clin Endocrinol Metab. (2005) 90:302–9. doi:  10.1210/jc.2004-1313
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Zhang L, Xiang X, Li Y, Bu G, Chen XF. 
+TREM2 and sTREM2 in Alzheimer's disease: from mechanisms to therapies. Mol Neurodegener. (2025) 20:43. doi:  10.1186/s13024-025-00834-z
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Paradowska-Gorycka A, Jurkowska M. 
+Structure, expression pattern and biological activity of molecular complex TREM-2/DAP12. Hum Immunol. (2013) 74:730–7. doi:  10.1016/j.humimm.2013.02.003
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Shen HL, He J, Lin F. 
+TREM2 signaling pathway in sepsis-induced acute lung injury: physiology, pathology, and therapeutic applications. Front Med (Lausanne). (2025) 12:1546292. doi:  10.3389/fmed.2025.1546292
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Koyano F, Yamano K, Kosako H, Kimura Y, Kimura M, Fujiki Y, et al. 
+Parkin-mediated ubiquitylation redistributes MITOL/March5 from mitochondria to peroxisomes. EMBO Rep. (2019) 20:e47728. doi:  10.15252/embr.201947728
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Henne WM, Stenmark H, Emr SD. 
+Molecular mechanisms of the membrane sculpting ESCRT pathway. Cold Spring Harb Perspect Biol. (2013) 5:a016766. doi:  10.1101/cshperspect.a016766
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Hurley JH. 
+The ESCRT complexes. Crit Rev Biochem Mol Biol. (2010) 45:463–87. doi:  10.3109/10409238.2010.502516
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Li P, Fan Z, Huang Y, Luo L, Wu X. 
+Mitochondrial dynamics at the intersection of macrophage polarization and metabolism. Front Immunol. (2025) 16:1520814. doi:  10.3389/fimmu.2025.1520814
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Halling JF, Pilegaard H. 
+PGC-1α-mediated regulation of mitochondrial function and physiological implications. Appl Physiol Nutr Metab. (2020) 45:927–36. doi:  10.1139/apnm-2020-0005
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Han QF, Li WJ, Hu KS, Gao J, Zhai WL, Yang JH, et al. 
+Exosome biogenesis: machinery, regulation, and therapeutic implications in cancer. Mol Cancer. (2022) 21:207. doi:  10.1186/s12943-022-01671-0
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Lomakina EB, Waugh RE. 
+Adhesion between human neutrophils and immobilized endothelial ligand vascular cell adhesion molecule 1: divalent ion effects. Biophys J. (2009) 96:276–84. doi:  10.1016/j.bpj.2008.10.001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Huang X, Xia K, Yang M, Hong M, Jiang M, Li W, et al. 
+A single-cell atlas of the testicular interstitium defines Leydig progenitor networks sustaining Leydig cell homeostasis across the lifespan. Elife. (2025) 14:e100396. doi:  10.7554/eLife.100396
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Abe K, Kon S, Kameyama H, Zhang J, Morohashi KI, Shimamura K, et al. 
+VCAM1-α4β1 integrin interaction mediates interstitial tissue reconstruction in 3-D re-aggregate culture of dissociated prepubertal mouse testicular cells. Sci Rep. (2021) 11:18332. doi:  10.1038/s41598-021-97729-y
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Bossio S, La Russa D, Antonucci G, Lofaro D, Urlandini L, Mandalà M, et al. 
+Caloric restriction attenuates oxidative and inflammatory markers of aging, while compromising germinative epithelium homeostasis in the rat aged testis. J Endocrinol Invest. (2026) 49:1083–96. doi:  10.1007/s40618-025-02806-y
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Jiang Q, Cui L, Nie X, Cai H, Zhang W, Lu X, et al. 
+A single-cell transcriptome atlas characterizes the immune landscape of human testes during aging. Aging Cell. (2025) 24:e70032. doi:  10.1111/acel.70032
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Rius-Pérez S, Torres-Cuevas I, Millán I, Ortega ÁL, Pérez S. 
+PGC-1α, inflammation, and oxidative stress: an integrative view in metabolism. Oxid Med Cell Longev. (2020) 2020:1452696. doi:  10.1155/2020/1452696
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+43.
+Kang Y, Zhang H, Zhao Y, Wang Y, Wang W, He Y, et al. 
+Telomere dysfunction disturbs macrophage mitochondrial metabolism and the NLRP3 inflammasome through the PGC-1α/TNFAIP3 axis. Cell Rep. (2018) 22:3493–506. doi:  10.1016/j.celrep.2018.02.071
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+44.
+Derbré F, Gomez-Cabrera MC, Nascimento AL, Sanchis-Gomar F, Martinez-Bello VE, Tresguerres JA, et al. 
+Age associated low mitochondrial biogenesis may be explained by lack of response of PGC-1α to exercise training. Age (Dordr). (2012) 34:669–79. doi:  10.1007/s11357-011-9264-y
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Tero-Vescan A, Degens H, Matsakas A, Ștefănescu R, Ősz BE, Slevin M. 
+Exercise-induced muscle-fat crosstalk: molecular mediators and their pharmacological modulation for the maintenance of metabolic flexibility in aging. Pharm (Basel). (2025) 18:1222. doi:  10.3390/ph18081222
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+de Smalen LM, Börsch A, Leuchtmann AB, Gill JF, Ritz D, Zavolan M, et al. 
+Impaired age-associated mitochondrial translation is mitigated by exercise and PGC-1α. Proc Natl Acad Sci USA. (2023) 120:e2302360120. doi:  10.1073/pnas.2302360120
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Wu C, Wu Z, Hu L, Tang L, Hu X, Fang C. 
+SIRT1/PGC-1α/Mfn2 pathway regulates mitochondrial homeostasis in VSMC to attenuate aging-related vascular calcification. Sci Rep. (2025) 15:38045. doi:  10.1038/s41598-025-21905-7
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Cogliati S, Frezza C, Soriano ME, Varanita T, Quintana-Cabrera R, Corrado M, et al. 
+Mitochondrial cristae shape determines respiratory chain supercomplexes assembly and respiratory efficiency. Cell. (2013) 155:160–71. doi:  10.1016/j.cell.2013.08.032
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+49.
+Cogliati S, Enriquez JA, Scorrano L. 
+Mitochondrial cristae: where beauty meets functionality. Trends Biochem Sci. (2016) 41:261–73. doi:  10.1016/j.tibs.2016.01.001
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+50.
+Rimma S, Ilya L, Daniil S. 
+Multifactorial imaging analysis as a platform for studying cellular senescence phenotypes. J Imaging. (2025) 11:351. doi:  10.3390/jimaging11100351
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+51.
+Manzar ZA, Davis LJ, Swanson KF, Muñoz E, Szeto HH, Minderman H, et al. 
+Mitochondrial cargo quality determines the paracrine effects of extracellular vesicles derived from vascular endothelial cells. BioMed Pharmacother. (2025) 193:118751. doi:  10.1016/j.biopha.2025.118751
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Molina-Riquelme I, Barrientos G, Breitsprecher L, Gómez W, Díaz-Castro F, Morris S, et al. 
+Multiscale mitochondrial cristae remodeling links Opa1 downregulation to reduced OXPHOS capacity in aged hearts. Proc Natl Acad Sci USA. (2026) 123:e2508911123. doi:  10.1073/pnas.2508911123
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Kaltsas A. 
+Multi-omics perspectives on testicular aging: Unraveling germline dysregulation, niche dysfunction, and epigenetic remodeling. Cells. (2025) 14:899. doi:  10.3390/cells14120899
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Corcoran SE, O'Neill LA. 
+HIF1α and metabolic reprogramming in inflammation. J Clin Invest. (2016) 126:3699–707. doi:  10.1172/JCI84431
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Fei F, Lee KM, McCarry BE, Bowdish DM. 
+Age-associated metabolic dysregulation in bone marrow-derived macrophages stimulated with lipopolysaccharide. Sci Rep. (2016) 6:22637. doi:  10.1038/srep22637
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+56.
+Camacho-Pereira J, Tarragó MG, Chini CCS, Nin V, Escande C, Warner GM, et al. 
+CD38 dictates age-related NAD decline and mitochondrial dysfunction through an SIRT3-dependent mechanism. Cell Metab. (2016) 23:1127–39. doi:  10.1016/j.cmet.2016.05.006
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Ahn BH, Kim HS, Song S, Lee IH, Liu J, Vassilopoulos A, et al. 
+A role for the mitochondrial deacetylase Sirt3 in regulating energy homeostasis. Proc Natl Acad Sci USA. (2008) 105:14447–52. doi:  10.1073/pnas.0803790105
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Yarbro JR, Emmons RS, Pence BD. 
+Macrophage immunometabolism and inflammaging: Roles of mitochondrial dysfunction, cellular senescence, CD38, and NAD. Immunometabolism. (2020) 2:e200026. doi:  10.20900/immunometab20200026
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Kang K, Park SH, Chen J, Qiao Y, Giannopoulou E, Berg K, et al. 
+Interferon-γ represses M2 gene expression in human macrophages by disassembling enhancers bound by the transcription factor MAF. Immunity. (2017) 47:235–250.e4. doi:  10.1016/j.immuni.2017.07.017
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Turnbull IR, Gilfillan S, Cella M, Aoshi T, Miller M, Piccio L, et al. 
+Cutting edge: TREM-2 attenuates macrophage activation. J Immunol. (2006) 177:3520–4. doi:  10.4049/jimmunol.177.6.3520
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Huang HY, Zheng XN, Tian L. 
+Ontogeny specification and epigenetic regulation of macrophage plasticity. Front Immunol. (2025) 16:1676953. doi:  10.3389/fimmu.2025.1676953
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Huang Y, Yao J, Zhang Z, Ouyang B, Zhuang J, Sha X, et al. 
+Spatiotemporal mapping reveals Ccl8hi macrophages as key drivers of testicular inflammaging. Clin Transl Med. (2025) 15:e70527. doi:  10.1002/ctm2.70527
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Schlepckow K, Kleinberger G, Fukumori A, Feederle R, Lichtenthaler SF, Steiner H, et al. 
+An Alzheimer-associated TREM2 variant occurs at the ADAM cleavage site and affects shedding and phagocytic function. EMBO Mol Med. (2017) 9:1356–65. doi:  10.15252/emmm.201707672
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+64.
+Steiner A, Schlepckow K, Brunner B, Steiner H, Haass C, Hagn F. 
+γ-Secretase cleavage of the Alzheimer risk factor TREM2 is determined by its intrinsic structural dynamics. EMBO J. (2020) 39:e104247. doi:  10.15252/embj.2019104247
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Chen Z, Cai S, Li P, Zhou Z, Huang Z, Deng J, et al. 
+TREM2 deficiency regulates macrophage apoptosis and repair in radiation-induced skin injury. Res (Wash D C). (2025) 8:1018. doi:  10.34133/research.1018
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Stranks AJ, Hansen AL, Panse I, Mortensen M, Ferguson DJ, Puleston DJ, et al. 
+Autophagy controls acquisition of aging features in macrophages. J Innate Immun. (2015) 7:375–91. doi:  10.1159/000370112
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Lim SHY, Hansen M, Kumsta C. 
+Molecular mechanisms of autophagy decline during aging. Cells. (2024) 13:1364. doi:  10.3390/cells13161364
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+68.
+Dougnon G, Matsui H. 
+Lipofuscin accumulation in aging and neurodegeneration: A potential "timebomb" overlooked in Alzheimer's disease. Transl Neurodegener. (2025) 14:67. doi:  10.1186/s40035-025-00529-x
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+Safaiyan S, Kannaiyan N, Snaidero N, Brioschi S, Biber K, Yona S, et al. 
+Age-related myelin degradation burdens the clearance function of microglia during aging. Nat Neurosci. (2016) 19:995–8. doi:  10.1038/nn.4325
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+70.
+Boucher DM, Robichaud S, Lorant V, Leon JS, Suliman I, Rasheed A, et al. 
+Age-related impairments in immune cell efferocytosis and autophagy hinder atherosclerosis regression. Arterioscler Thromb Vasc Biol. (2025) 45:481–95. doi:  10.1161/ATVBAHA.124.321662
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+Schloesser D, Lindenthal L, Sauer J, Chung KJ, Chavakis T, Griesser E, et al. 
+Senescent cells suppress macrophage-mediated corpse removal via upregulation of the CD47-QPCT/L axis. J Cell Biol. (2023) 222:e202207097. doi:  10.1083/jcb.202207097
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Saclier M, Lapi M, Bonfanti C, Rossi G, Antonini S, Messina G. 
+The transcription factor Nfix requires RhoA-ROCK1 dependent phagocytosis to mediate macrophage skewing during skeletal muscle regeneration. Cells. (2020) 9:708. doi:  10.3390/cells9030708
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Mu X, Tseng C, Hambright WS, Matre P, Lin CY, Chanda P, et al. 
+Cytoskeleton stiffness regulates cellular senescence and innate immune response in Hutchinson-Gilford Progeria Syndrome. Aging Cell. (2020) 19:e13152. doi:  10.1111/acel.13152
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+74.
+Li Z, Jiao Y, Fan EK, Scott MJ, Li Y, Li S, et al. 
+Aging-impaired filamentous actin polymerization signaling reduces alveolar macrophage phagocytosis of bacteria. J Immunol. (2017) 199:3176–86. doi:  10.4049/jimmunol.1700140
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+75.
+Sun WB, Han BL, Peng ZM, Li K, Ji Q, Chen J, et al. 
+Effect of aging on cytoskeleton system of Kupffer cell and its phagocytic capacity. World J Gastroenterol. (1998) 4:77–9. doi:  10.3748/wjg.v4.i1.77
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+76.
+Mathews PM, Levy E. 
+Exosome production is key to neuronal endosomal pathway integrity in neurodegenerative diseases. Front Neurosci. (2019) 13:1347. doi:  10.3389/fnins.2019.01347
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+77.
+Lu Q, Hope LW, Brasch M, Reinhard C, Cohen SN. 
+TSG101 interaction with HRS mediates endosomal trafficking and receptor down-regulation. Proc Natl Acad Sci USA. (2003) 100:7626–31. doi:  10.1073/pnas.0932599100
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+78.
+Anakor E, Le Gall L, Dumonceaux J, Duddy WJ, Duguez S. 
+Exosomes in ageing and motor neurone disease: Biogenesis, uptake mechanisms, modifications in disease and uses in the development of biomarkers and therapeutics. Cells. (2021) 10:2930. doi:  10.3390/cells10112930
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+79.
+Gallrein C, Iburg M, Michelberger T, Koçak A, Puchkov D, Liu F, et al. 
+Novel amyloid-beta pathology C. elegans model reveals distinct neurons as seeds of pathogenicity. Prog Neurobiol. (2021) 198:101907. doi:  10.1016/j.pneurobio.2020.101907
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+80.
+Deus CM, Tavares H, Beatriz M, Mota S, Lopes C. 
+Mitochondrial damage-associated molecular patterns content in extracellular vesicles promotes early inflammation in neurodegenerative disorders. Cells. (2022) 11:2364. doi:  10.3390/cells11152364
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+81.
+Cheng AN, Cheng LC, Kuo CL, Lo YK, Chou HY, Chen CH, et al. 
+Mitochondrial Lon-induced mtDNA leakage contributes to PD-L1-mediated immunoescape via STING-IFN signaling and extracellular vesicles. J Immunother Cancer. (2020) 8:e001372. doi:  10.1136/jitc-2020-001372
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+82.
+Lazo S, Noren Hooten N, Green J, Eitan E, Mode NA, Liu QR, et al. 
+Mitochondrial DNA in extracellular vesicles declines with age. Aging Cell. (2021) 20:e13283. doi:  10.1111/acel.13283
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+83.
+He J, Zhang B, Zhang H, Tu Q, Chen X, Qiu Y, et al. 
+M1 macrophage is a novel potential trigger for endothelial senescence: Role of exosomal miR-155 targeting SOCS1 signal. Hum Mutat. (2025) 2025:6771390. doi:  10.1155/humu/6771390
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+84.
+Ekram S, Khalid S, Ramzan F, Salim A, Bashir I, Durrieu MC, et al. 
+Mesenchymal stem cell-derived extracellular vesicles protect rat nucleus pulposus cells from oxidative stress. Cartilage. (2024) 15:328–44. doi:  10.1177/19476035231172154
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+85.
+Liang J, Li H, Mei J, Cao Z, Tang Y, Huang R, et al. 
+Sertoli cell-derived exosome-mediated transfer of miR-145-5p inhibits Leydig cell steroidogenesis by targeting steroidogenic factor 1. FASEB J. (2021) 35:e21660. doi:  10.1096/fj.202002589RRRR
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+86.
+Shin EY, Park JH, You ST, Lee CS, Won SY, Park JJ, et al. 
+Integrin-mediated adhesions in regulation of cellular senescence. Sci Adv. (2020) 6:eaay3909. doi:  10.1126/sciadv.aay3909
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+87.
+De Franceschi N, Arjonen A, Elkhatib N, Denessiouk K, Wrobel AG, Wilson TA, et al. 
+Selective integrin endocytosis is driven by interactions between the integrin α-chain and AP2. Nat Struct Mol Biol. (2016) 23:172–9. doi:  10.1038/nsmb.3161
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+88.
+Liu Y, Chen W, Minze LJ, Kubiak JZ, Li XC, Ghobrial RM, et al. 
+Dissonant response of M0/M2 and M1 bone-marrow-derived macrophages to RhoA pathway interference. Cell Tissue Res. (2016) 366:707–20. doi:  10.1007/s00441-016-2491-x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+89.
+Settle AH, Winer BY, de Jesus MM, Seeman L, Wang Z, Chan E, et al. 
+β2 integrins impose a mechanical checkpoint on macrophage phagocytosis. Nat Commun. (2024) 15:8182. doi:  10.1038/s41467-024-52453-9
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+90.
+Richardson LL, Kleinman HK, Dym M. 
+The effects of aging on basement membrane in the testis. J Androl. (1995) 16:118–26. doi:  10.1002/j.1939-4640.1995.tb01743.x
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+91.
+Chi A, Yang C, Liu J, Zhai Z, Shi X. 
+Reconstructing the stem Leydig cell niche via the testicular extracellular matrix for the treatment of testicular Leydig cell dysfunction. Adv Sci (Weinh). (2025) 12:e2410808. doi:  10.1002/advs.202410808
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+92.
+Dela Cruz CS, Kang MJ. 
+Mitochondrial dysfunction and damage associated molecular patterns (DAMPs) in chronic inflammatory diseases. Mitochondrion. (2018) 41:37–44. doi:  10.1016/j.mito.2017.12.001
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+93.
+Jing J, Ding N, Wang D, Ge X, Ma J, Ma R, et al. 
+Oxidized-LDL inhibits testosterone biosynthesis by affecting mitochondrial function and the p38 MAPK/COX-2 signaling pathway in Leydig cells. Cell Death Dis. (2020) 11:626. doi:  10.1038/s41419-020-02751-z
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+94.
+Luo D, Qi X, Xu X, Yang L, Yu C, Guan Q. 
+Involvement of p38 MAPK in Leydig cell aging and age-related decline in testosterone. Front Endocrinol (Lausanne). (2023) 14:1088249. doi:  10.3389/fendo.2023.1088249
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+95.
+Yaworsky DC, Baker BY, Bose HS, Best KB, Jensen LB, Bell JD, et al. 
+pH-dependent interactions of the carboxyl-terminal helix of steroidogenic acute regulatory protein with synthetic membranes. J Biol Chem. (2005) 280:2045–54. doi:  10.1074/jbc.M410937200
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+96.
+Bose HS, Whittal RM, Baldwin MA, Miller WL. 
+The active form of the steroidogenic acute regulatory protein, StAR, appears to be a molten globule. Proc Natl Acad Sci USA. (1999) 96:7250–5. doi:  10.1073/pnas.96.13.7250
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+97.
+Li J, Dong X, Gao L, Zhang WW, Zhong FJ, Liu SY, et al. 
+Mitochondrial malfunction-initiated Leydig cell premature senescence partially participates in 1-nitropyrene-evoked downregulation of steroidogenic synthases in testes. Free Radic Biol Med. (2024) 225:456–68. doi:  10.1016/j.freeradbiomed.2024.10.291
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+98.
+Latino D, Falvo S, Venditti M, Santillo A, Grillo G, Chieffi Baccari G, et al. 
+Cadmium-induced mitochondrial and MAMs dysregulation in rat testis: The protective role of D-aspartate. Environ Toxicol. (2026) 41:18–32. doi:  10.1002/tox.24559
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+99.
+Chen W, Zou H, Xu H, Cao R, Zhang Y, Ma Y, et al. 
+Exploring the mechanisms of testicular aging: Advances in biomarker research. Aging Dis. (2025) 17:877–89. doi:  10.14336/AD.2025.0070
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+100.
+Monageng E, Offor U, Takalani NB, Mohlala K, Opuwari CS. 
+A review on the impact of oxidative stress and medicinal plants on Leydig cells. Antioxidants (Basel). (2023) 12:1559. doi:  10.3390/antiox12081559
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+101.
+Stanley E, Lin CY, Jin S, Liu J, Sottas CM, Ge R, et al. 
+Identification, proliferation, and differentiation of adult leydig stem cells. Endocrinology. (2012) 153:5002–10. doi:  10.1210/en.2012-1417
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+102.
+Zhao J, Zhai L, Liu Z, Wu S, Xu L. 
+Leptin level and oxidative stress contribute to obesity-induced low testosterone in murine testicular tissue. Oxid Med Cell Longev. (2014) 2014:190945. doi:  10.1155/2014/190945
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+103.
+Ruan YB, Liu XH, Jiang JZ, Nie T, Ma J. 
+Leydig cells pyroptosis in testis mediates deoxynivalenol-induced male reproductive toxicity in mice. Sci Total Environ. (2024) 954:176432. doi:  10.1016/j.scitotenv.2024.176432
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+104.
+Huang S, Luo Q, Li X, Liu Y, Wei J, Wang S, et al. 
+Homotherapy for heteropathy of chronic kidney disease and oligoasthenozoospermia through regulating SIRT1/NF-κB pathway by shenqi pills. Front Pharmacol. (2025) 16:1551423. doi:  10.3389/fphar.2025.1551423
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+105.
+Kabbesh H, Bulldan A, Konrad L, Scheiner-Bobis G. 
+The role of ZIP9 and androgen receptor in the establishment of tight junctions between adult rat sertoli cells. Biol (Basel). (2022) 11:668. doi:  10.3390/biology11050668
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+106.
+Walker WH, Easton E, Moreci RS, Toocheck C, Anamthathmakula P, Jeyasuria P. 
+Restoration of spermatogenesis and male fertility using an androgen receptor transgene. PloS One. (2015) 10:e0120783. doi:  10.1371/journal.pone.0120783
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+107.
+Wang JM, Li ZF, Yang WX. 
+What does androgen receptor signaling pathway in sertoli cells during normal spermatogenesis tell us? Front Endocrinol (Lausanne). (2022) 13:838858. doi:  10.3389/fendo.2022.838858
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+108.
+Archambeault DR, Yao HH. 
+Activin A, a product of fetal leydig cells, is a unique paracrine regulator of sertoli cell proliferation and fetal testis cord expansion. Proc Natl Acad Sci USA. (2010) 107:10526–31. doi:  10.1073/pnas.1000318107
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+109.
+Wu Y, Li Q, Qi X, Liu Z, Wang C, Zhao X, et al. 
+Molecular characteristics and regulatory role of insulin-like growth factor 1 gene in testicular leydig cells of tibetan sheep. Sci Rep. (2024) 14:24799. doi:  10.1038/s41598-024-75234-2
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+110.
+Guan X, Chen F, Chen P, Zhao X, Mei H, Liu J, et al. 
+Effects of spermatogenic cycle on stem leydig cell proliferation and differentiation. Mol Cell Endocrinol. (2019) 481:35–43. doi:  10.1016/j.mce.2018.11.007
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+111.
+Zheng T, Choy KHK, Chan SY, Zheng M, Luo X, Chen H, et al. 
+Extracellular-vesicle-mediated transfer of let-7b/7c promotes the proliferation of transition-state spermatogonia in neonatal mouse testis. Stem Cell Rep. (2025) 20:102681. doi:  10.1016/j.stemcr.2025.102681
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+112.
+Hofmann MC, McBeath E. 
+Sertoli cell-germ cell interactions within the niche: Paracrine and juxtacrine molecular communications. Front Endocrinol (Lausanne). (2022) 13:897062. doi:  10.3389/fendo.2022.897062
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+113.
+Ivell R, Wade JD, Anand-Ivell R. 
+INSL3 as a biomarker of leydig cell functionality. Biol Reprod. (2013) 88:147. doi:  10.1095/biolreprod.113.108969
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+114.
+Facondo P, Delbarba A, Maffezzoni F, Cappelli C, Ferlin A. 
+INSL3: A marker of leydig cell function and testis-bone-skeletal muscle network. Protein Pept Lett. (2020) 27:1246–52. doi:  10.2174/0929866527666200925105739
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+115.
+Ye S, Wu C, Huang S, Fan H, Zhang Z, Chen J, et al. 
+Trem2-dependent insl3 regulation via dap12-syk-PI3K pathway: A new pathogenic mechanism in cryptorchidism. Genomics. (2025) 117:111120. doi:  10.1016/j.ygeno.2025.111120
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+116.
+Anand-Ivell R, Heng K, Antonio L, Bartfai G, Casanueva FF, Maggi M, et al. 
+Insulin-like peptide 3 (INSL3) as an indicator of leydig cell insufficiency (LCI) in middle-aged and older men with hypogonadism: Reference range and threshold. Aging Male. (2024) 27:2346322. doi:  10.1080/13685538.2024.2346322
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+117.
+Mahrooghi D, Abdi M, Soleimanzadeh F, Abdi S, Ojaroodi AF, Karimzadeh H. 
+Nanocarriers of fertility: Mesenchymal stem cell-derived exosomes in male reproductive repair. Cell Biol Int. (2026) 50:e70114. doi:  10.1002/cbin.70114
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+118.
+Karagyaur M, Primak A, Basalova N, Monakova A, Tolstoluzhinskaya A, Kulebyakina M, et al. 
+Safety and regenerative properties of immortalized human mesenchymal stromal cell secretome. Int J Mol Sci. (2025) 26:9322. doi:  10.3390/ijms26199322
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+119.
+Monakova A, Sagaradze G, Basalova N, Popov V, Balabanyan V, Efimenko A. 
+Novel potency assay for MSC secretome-based treatment of idiopathic male infertility employed leydig cells and revealed vascular endothelial growth factor as a promising potency marker. Int J Mol Sci. (2022) 23:9414. doi:  10.3390/ijms23169414
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+120.
+Zhou L, Lan X, Wang M, Li X, Zeng X, Peng S, et al. 
+Restoring NAD
++
+-sirtuins signaling: A novel approach to combat male reproductive aging. World J Mens Health. (2026) 44:e16. doi:  10.5534/wjmh.250248
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+121.
+Yi L, Maier AB, Tao R, Lin Z, Vaidya A, Pendse S, et al. 
+The efficacy and safety of β-nicotinamide mononucleotide (NMN) supplementation in healthy middle-aged adults: A randomized, multicenter, double-blind, placebo-controlled, parallel-group, dose-dependent clinical trial. Geroscience. (2023) 45:29–43. doi:  10.1007/s11357-022-00705-1
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+122.
+Mou H, Zhang X, Ren F, Deng Y, Chi A, Zhan G, et al. 
+Nicotinamide mononucleotide supplementation ameliorates testicular damage induced by ischemia-reperfusion through reshaping macrophage and neutrophil inflammatory properties. Int Immunopharmacol. (2025) 152:114407. doi:  10.1016/j.intimp.2025.114407
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+123.
+Wang X, Qi M, Yang L, Yang L, Wang X, Zhang F, et al. 
+GLP-1 receptor agonists synergistic effects of metabolic reprogramming and cardioprotection. Front Endocrinol (Lausanne). (2025) 16:1614726. doi:  10.3389/fendo.2025.1614726
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+124.
+Polari L, Wiklund A, Sousa S, Kangas L, Linnanen T, Härkönen P, et al. 
+SERMs promote anti-inflammatory signaling and phenotype of CD14+ cells. Inflammation. (2018) 41:1157–71. doi:  10.1007/s10753-018-0763-1
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+125.
+Chen Y, Xu D, Ma Y, Chen P, Hu J, Chen D, et al. 
+Sertoli cell-derived extracellular vesicles traverse the blood-testis barrier and deliver miR-24-3p inhibitor into germ cells improving sperm mobility. J Control Release. (2023) 362:58–69. doi:  10.1016/j.jconrel.2023.08.031
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+126.
+Ghafouri-Fard S, Shoorei H, Mohaqiq M, Haidar Abbas Raza S, Taheri M. 
+The role of different compounds on the integrity of blood-testis barrier: A concise review based on
+in vitro
+and
+in vivo
+studies. Gene. (2021) 780:145531. doi:  10.1016/j.gene.2021.145531
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+127.
+Zhao N, Bu G. 
+A TREM2 antibody energizes microglia. Nat Neurosci. (2023) 26:366–8. doi:  10.1038/s41593-023-01265-z
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+128.
+Pardridge WM. 
+Receptor-mediated drug delivery of bispecific therapeutic antibodies through the blood-brain barrier. Front Drug Delivery. (2023) 3:1227816. doi:  10.3389/fddev.2023.1227816
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+129.
+Yu X, Zeng L, Chen H, Dong X, Wen F, Wang M, et al. 
+Blood-testis barrier-crossing extracellular vesicles for asthenozoospermia therapy via synergistic ATP replenishment and ferroptosis suppression. Biomaterials. (2026) 327:123777. doi:  10.1016/j.biomaterials.2025.123777
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+130.
+Zhao F, Fan M, Jing Z, Zhang Y, Wang Y, Zhou C, et al. 
+Engineered nanoparticles potentials in male reproduction. Andrology. (2025) 13:694–705. doi:  10.1111/andr.13729
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+131.
+Du S, Li W, Zhang Y, Xue Y, Hou X, Yan J, et al. 
+Cholesterol-amino-phosphate (CAP) derived lipid nanoparticles for delivery of self-amplifying RNA and restoration of spermatogenesis in infertile mice. Adv Sci (Weinh). (2023) 10:e2300188. doi:  10.1002/advs.202300188
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+132.
+Kim WJ, Kim BS, Kim HJ, Cho YD, Shin HL, Yoon HI, et al. 
+Intratesticular peptidyl prolyl isomerase 1 protein delivery using cationic lipid-coated fibroin nanoparticle complexes rescues male infertility in mice. ACS Nano. (2020) 14:13217–31. doi:  10.1021/acsnano.0c04936
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+133.
+Wong CH, Mruk DD, Lee WM, Cheng CY. 
+Targeted and reversible disruption of the blood-testis barrier by an FSH mutant-occludin peptide conjugate. FASEB J. (2007) 21:438–48. doi:  10.1096/fj.05-4144com
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+134.
+Chen H, Mruk DD, Xia W, Bonanomi M, Silvestrini B, Cheng CY. 
+Effective delivery of male contraceptives behind the blood-testis barrier (BTB) - lesson from adjudin. Curr Med Chem. (2016) 23:701–13. doi:  10.2174/0929867323666160112122724
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+135.
+Beattie MC, Chen H, Fan J, Papadopoulos V, Miller P, Zirkin BR. 
+Aging and luteinizing hormone effects on reactive oxygen species production and DNA damage in rat leydig cells. Biol Reprod. (2013) 88:100. doi:  10.1095/biolreprod.112.107052
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+136.
+Papadopoulos V, Zirkin BR. 
+Leydig cell aging: Molecular mechanisms and treatments. Vitam Horm. (2021) 115:585–609. doi:  10.1016/bs.vh.2020.12.023
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+137.
+El Meliegy A, Motawi A, El Salam MAA. 
+Systematic review of hormone replacement therapy in the infertile man. Arab J Urol. (2017) 16:140–7. doi:  10.1016/j.aju.2017.11.011
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+Articles from Frontiers in Endocrinology are provided here courtesy of
+Frontiers Media SA
+ACTIONS
+View on publisher site
+PDF (4.5 MB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+8600 Rockville Pike
+Bethesda, MD 20894
+Web Policies
+FOIA
+HHS Vulnerability Disclosure
+Help
+Accessibility
+Careers
+NLM
+NIH
+HHS
+USA.gov
+Back to Top

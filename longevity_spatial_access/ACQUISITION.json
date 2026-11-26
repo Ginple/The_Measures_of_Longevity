@@ -1,0 +1,16 @@
+[
+  {
+    "label": "Fig6F",
+    "url": "https://cdn.elifesciences.org/articles/75354/elife-75354-fig6-data4-v1.csv",
+    "status": 200,
+    "bytes": 175,
+    "sha256": "33c7218f7d200e1a8c72e0b30dce81359f9923b5e858edffd4f5f7ae64a12b77"
+  },
+  {
+    "label": "Fig6_suspension",
+    "url": "https://cdn.elifesciences.org/articles/75354/elife-75354-fig6-figsupp2-data1-v1.csv",
+    "status": 200,
+    "bytes": 91,
+    "sha256": "d2e05f666c776f722828e8f7f1e6a6d6264bd09e1f4dac12cdc12961cc143fa8"
+  }
+]

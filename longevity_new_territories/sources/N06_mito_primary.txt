@@ -1,0 +1,4825 @@
+An extracellular vesicle-mediated mitochondrial transfer network critical for testosterone synthesis | Nature Cell Biology
+Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+            the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+            Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+            and JavaScript.
+Advertisement
+View all journals
+Saved research
+Search
+Log in
+Content
+Explore content
+About
+the journal
+Publish
+with us
+Sign up for alerts
+RSS feed
+nature
+nature cell biology
+articles
+article
+An extracellular vesicle-mediated mitochondrial transfer network critical for testosterone synthesis
+Download PDF
+Download PDF
+Article
+Open access
+Published:
+27 February 2026
+An extracellular vesicle-mediated mitochondrial transfer network critical for testosterone synthesis
+Kai Xia
+ORCID:
+orcid.org/0000-0002-8369-3433
+1
+,
+2
+,
+3
+na1
+,
+Suyuan Zhang
+ORCID:
+orcid.org/0000-0001-5544-1442
+2
+,
+3
+na1
+,
+Hao Peng
+ORCID:
+orcid.org/0009-0000-5211-3726
+2
+,
+3
+na1
+,
+Hainan Chen
+4
+na1
+,
+Cuifeng Yang
+2
+,
+Jiajie Yu
+1
+,
+Peng Luo
+5
+,
+Qiying Lu
+6
+,
+Hong Chen
+7
+,
+Li Huang
+4
+,
+Yifei Xiong
+2
+,
+Lerong Zhao
+2
+,
+Lei Jia
+8
+,
+Lu Li
+2
+,
+Yuan Qiu
+2
+,
+Yan Guo
+9
+,
+Congyuan Liu
+2
+,
+Hang Fan
+2
+,
+Ziran Dai
+1
+,
+Guihua Liu
+8
+,
+Qiong Ke
+2
+,
+3
+,
+Tao Wang
+ORCID:
+orcid.org/0000-0001-9732-4404
+2
+,
+3
+,
+Weiqiang Li
+ORCID:
+orcid.org/0000-0003-4741-6778
+2
+,
+3
+,
+Lili Chen
+ORCID:
+orcid.org/0000-0002-9965-8990
+10
+,
+Chunhua Deng
+ORCID:
+orcid.org/0000-0002-4969-2875
+1
+,
+2
+,
+Haipeng Xiao
+ORCID:
+orcid.org/0000-0002-4188-336X
+9
+&
+…
+Andy Peng Xiang
+ORCID:
+orcid.org/0000-0003-3409-5012
+2
+,
+3
+Show authors
+Nature Cell Biology
+volume
+28
+,
+pages
+707–724 (
+2026
+)
+Cite this article
+Save article
+View saved research
+28k
+Accesses
+12
+Citations
+13
+Altmetric
+Metrics
+details
+Abstract
+Testosterone production by testicular Leydig cells (LCs) in male mammals is energetically demanding and prone to mitochondrial damage. Despite these challenges, LCs exhibit remarkable longevity and minimal turnover, suggesting the existence of specialized mechanisms that maintain LC mitochondrial homeostasis under such constrains. Here we identify a mitochondrial transfer network between LCs and different testicular macrophage (tMac) subpopulations. Leydig cells release extracellular vesicles containing defective mitochondria, which are eliminated by CD206
+hi
+tMacs in a TREM2-dependent process. Deletion of
+Trem2
+in tMacs disrupts this transfer, leading to impaired testosterone synthesis. Conversely, LCs acquire extracellular vesicles containing functional mitochondria from MHCII
+hi
+tMacs through ITGβ1–VCAM1 interactions. Loss of
+Vcam1
+in LCs hinders this mitochondrial transfer, thereby compromising testosterone production. Together, our findings reveal an unrecognized mitochondrial transfer network between LCs and tMacs that safeguards LC homeostasis and testosterone production, offering valuable insights into intercellular communication mechanisms that maintain tissue homeostasis.
+Similar content being viewed by others
+Stem Leydig cells support macrophage immunological homeostasis through mitochondrial transfer in mice
+Article
+Open access
+08 March 2024
+MTCH2 acts as a novel inhibitory receptor to suppress germ cell mitophagy by tethering BECN1, thereby maintaining mitochondrial homeostasis and male fertility
+Article
+Open access
+18 August 2026
+MLKL deficiency elevates testosterone production in male mice independently of necroptotic functions
+Article
+Open access
+21 November 2024
+Explore related subjects
+Discover the latest articles and news in related subjects.
+Endocrinology
+Mitochondria
+Leydig Cell Development and Function Dynamics
+Main
+Testosterone is a critical sex hormone that plays a pivotal role in the development and maintenance of the male reproductive system
+1
+. It orchestrates the morphogenesis and maturation of reproductive organs such as the testis, epididymis, prostate and penis
+2
+. Testosterone facilitates the development of male secondary sexual characteristics and supports male sexual function
+1
+,
+2
+. Moreover, testosterone is needed to initiate and maintain the spermatogenic process, which is essential for sustaining male fertility
+3
+. Beyond the reproductive effects, testosterone exerts important regulatory effects on systemic physiology, including muscle formation, bone mineralization, fat metabolism and cognitive processes
+1
+,
+4
+,
+5
+,
+6
+. These functions establish testosterone as a central determinant of male phenotype, reproductive capacity and systemic health.
+Testosterone synthesis in mammalian males is performed almost exclusively by testicular Leydig cells (LCs), a specialized cell population constituting only 1–2% of total testicular cells
+7
+,
+8
+. Residing in the interstitial compartment between seminiferous tubules, LCs are structurally distinct, characterized by their large size and dense mitochondrial distribution
+9
+. Testosterone biosynthesis occurs in mitochondria, where the rate-limiting step is the translocation of cholesterol across the outer mitochondrial membranes into the mitochondrial matrix
+10
+. In addition, the functionality of LCs is intrinsically linked to mitochondrial bio-energetics
+8
+,
+9
+. Testosterone production necessitates a stable mitochondrial membrane potential (MMP) and efficient ATP generation as LCs predominantly rely on mitochondrial oxidative phosphorylation for their ATP supply
+9
+,
+11
+. However, ATP generation via the electron transport chain produces reactive oxygen species (ROS) as a byproduct and testosterone biosynthesis itself generates additional ROS through mitochondrial P450 enzyme activity
+9
+. This cumulative ROS burden places LCs at high risk of oxidative stress, which can threaten mitochondrial integrity and testosterone production, potentially leading to male hypogonadism
+11
+,
+12
+,
+13
+. These challenges are amplified by the remarkable longevity and low turnover rate of LCs in the adult testis
+7
+,
+8
+. This paradox suggests the existence of specialized mechanisms that preserve mitochondrial fitness over time.
+Intercellular mitochondrial transfer has emerged as a conserved mode of cell–cell communication that supports mitochondrial homeostasis and cellular function
+14
+,
+15
+,
+16
+. Examples include osteoblasts donating mitochondria to progenitors to reinforce differentiation and bone formation
+17
+, mesenchymal stem cells transferring mitochondria to endothelial cells to enhance engraftment
+18
+and stress-induced extrusion of damaged mitochondria for Müller glial clearance in the retina
+19
+. Whether mitochondrial transfer operates in the testis to maintain LCs mitochondrial competence and cellular function remains unclear.
+In this study we demonstrate that LCs release extracellular vesicles (EVs) containing defective mitochondria to CD206
+hi
+testicular macrophages (tMacs) through a TREM2-dependent process. In contrast, LCs obtain EVs with functional mitochondria from MHCII
+hi
+tMacs through ITGβ1–VCAM1 interactions. Disruption of the mitochondrial transfer network between LCs and tMacs impairs testosterone production.
+Results
+Testosterone production induces intercellular transfer of materials from Leydig cells to testicular macrophages
+To study testosterone production in vitro, we purified primary LCs via fluorescence-activated cell sorting (FACS) from the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice, in which LCs express the red florescent protein tdTomato (Extended Data Fig.
+1a–d
+). When the cells were treated with human chorionic gonadotropin (hCG), a stimulator of testosterone production, we observed the tdTomato
++
+particles originating from LCs appeared outside the cells (Fig.
+1a–d
+and Extended Data Fig.
+1e,f
+). To validate these observations in vivo, we treated
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice with hCG to induce an increase in serum testosterone levels (Fig.
+1e,f
+). High-resolution imaging revealed a corresponding increase in extracellular tdTomato
++
+particles (Fig.
+1g,h
+and Extended Data Fig.
+1g,h
+). Moreover, luteinizing hormone (LH) robustly induced testosterone production and triggered particle release from LCs (Extended Data Fig.
+1i–l
+), fully recapitulating the effects of hCG. Collectively, these findings suggest a dynamic release of tdTomato
++
+particles from LCs in response to testosterone production.
+Fig. 1: Testosterone production induces intercellular transfer of materials from Leydig cells to testicular macrophages.
+Full size image
+a
+, Experimental design overview. Primary LCs were isolated from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice and then treated with PBS (control) or hCG (10 international units (IU) l
+−1
+).
+b
+, Testosterone levels in the supernatant of cultured primary LCs treated with PBS or hCG (
+n
+= 4 biological replicates) as in
+a
+.
+c
+, Representative 3D reconstructions from confocal images of primary LCs showing LC-derived particles (
+n
+= 4 biological replicates).
+d
+, Number of particles in the two groups (
+n
+= 4 biological replicates, ten fields of view were captured and at least 100 cells were analysed for each replicate).
+e
+, Experimental design overview.
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice were administered intraperitoneal injections of saline (control) or hCG (1 IU per mouse).
+f
+, Serum testosterone concentrations in the mice treated with saline or hCG (
+n
+= 7 mice per group) as in
+e
+.
+g
+, Representative 3D reconstructions from confocal images of mouse testes showing LC-derived particles (
+n
+= 4 mice per group).
+h
+, Number of particles in the two groups (
+n
+= 4 mice per group, ten fields of view were captured and at least 100 cells were analysed for each mouse).
+i
+, Representative confocal images of the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (intraperitoneally injected with hCG) stained for the cell markers IBA1 (tMacs), α-SMA (myoid cells), PDGFRα (stromal cells) and α-tubulin (Sertoli cells;
+n
+= 4 mice per group). Insets: magnified views of the boxed regions in the main images. DAPI, 4′,6-diamidino-2-phenylindole.
+j
+, Percentage of the indicated cell types that co-localized with particles (
+n
+= 4 mice per group, ten fields of view were captured and 100 cells were analysed for each mouse).
+k
+, Representative confocal images and 3D reconstruction of tMacs taking up tdTomato
++
+particles from LCs (
+n
+= 6 mice per group).
+l
+, Percentage of tMacs containing LC-derived particles (
+n
+= 6 mice per group).
+m
+, Experimental design overview.
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice were intraperitoneally injected with saline or hCG (1 IU per mouse).
+n
+, Flow cytometry was used to analyse tMacs from the
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice in
+m
+.
+o
+, Percentage of tMacs containing LC-derived particles (
+n
+= 5 mice per group).
+b
+,
+d
+,
+f
+,
+h
+, Box plots: the box bounds depict the first to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values.
+j
+,
+l
+,
+o
+, Data are the mean ± s.e.m.
+b
+,
+d
+,
+f
+,
+h
+,
+j
+,
+l
+,
+o
+, Statistical significance was determined using a two-tailed Student’s
+t
+-test (
+b
+,
+d
+,
+h
+,
+l
+,
+o
+), two-tailed Mann–Whitney
+U-
+test (
+f
+) or one-way analysis of variance (ANOVA;
+j
+). Scale bars, 2 μm (
+c
+,
+g
+,
+i
+(insets),
+k
+) and 5 μm(
+i
+(main images)). Con, control. Schematic in
+a
+,
+e
+,
+m
+created in BioRender. Xia. K. (2026)
+https://biorender.com/j9ie5sk
+. Source numerical data are provided.
+Source Data
+We next examined whether these LC-derived particles are taken up by other testicular cells. Testes were collected from adult
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice and subjected to immunofluorescence analysis. The results revealed that tMacs (IBA1
++
+) internalized abundant tdTomato
++
+particles, whereas minimal uptake was observed in myoid (α-SMA
++
+), stromal (PDGFRα
++
+) and Sertoli (α-tubulin
++
+) cells (Fig.
+1i,j
+). Furthermore, we measured the distances between LCs and several major testicular cell types, which confirmed that LCs were significantly closer to tMacs than to myoid, stromal or Sertoli cells (Extended Data Fig.
+2a
+). These findings indicate that LCs preferentially transfer materials to tMacs.
+To confirm these results, we generated
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice whose LCs express tdTomato and tMacs express GFP (Extended Data Fig.
+2b
+). Testes from two-month-old male mice were cleared for whole-organ imaging using light-sheet fluorescence microscopy (Extended Data Fig.
+2c
+). Imaging revealed that tdTomato
++
+LCs and GFP
++
+tMacs were ubiquitously distributed within the interstitial compartment of the testes (Extended Data Fig.
+2d
+). High-resolution imaging further demonstrated that LCs were interdigitated with tMacs (Extended Data Fig.
+2e
+), suggesting direct interactions between them.
+Immunofluorescence imaging and three-dimensional (3D) reconstruction analysis confirmed the presence of tdTomato
++
+particles in the GFP
++
+tMacs (Fig.
+1k
+). Moreover, mice injected with hCG had a noticeable increase in the proportion of GFP
++
+tMacs with tdTomato
++
+particles (Fig.
+1l
+). Flow cytometry analysis showed that hCG injection resulted in a noticeable increase in the proportion of tMacs with tdTomato
++
+particles (Fig.
+1m–o
+and Extended Data Fig.
+2f
+). Next, we used degarelix to suppress the hypothalamic–pituitary–gonadal axis
+20
+. This treatment markedly reduced the levels of serum LH and testosterone in adult
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (Supplementary Fig.
+1a–c
+). Intercellular material transfer from LCs to tMacs was strongly diminished (Supplementary Fig.
+1d,e
+) in the degarelix-treated mice. These findings suggest that testosterone production amplifies the transfer of intercellular materials from LCs to tMacs.
+Leydig cells release extracellular vesicles with defective mitochondria
+Previous studies have reported the transfer of materials from donor to recipient cells via EVs
+14
+,
+21
+. To explore this possibility, we purified tdTomato
++
+particles devoid of nuclei from the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (Extended Data Fig.
+3a–c
+). The isolated particles were subsequently stained with wheat germ agglutinin (WGA), a lectin that binds to membrane lipids
+22
+. Flow cytometry analysis revealed that >90% of these particles were positive for WGA (Fig.
+2a
+), indicating that LCs release particles by EVs. Furthermore, we used the membrane-targeted Lck–EGFP technique and injected recombinant adeno-associated virus (AAV) expressing Cre-dependent Lck–EGFP (AAV-DIO-Lck–EGFP) into the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (Fig.
+2b
+and Extended Data Fig.
+3d–f
+)
+23
+. Analysis of vertical cross-sections of the mouse testes demonstrated that membrane-surrounded LC-derived particles are released extracellularly (Fig.
+2c
+). The presence of tdTomato
++
+particles in the GFP
++
+membrane was confirmed by 3D confocal imaging (Fig.
+2c
+). Furthermore, LC-derived EVs were detected in the cytoplasm of F4/80
++
+tMacs (Fig.
+2d
+). Together, these data demonstrate that LCs transfer particles to tMacs through EVs. We refer to these particles as ‘LC-EVs’.
+Fig. 2: Leydig cells release extracellular vesicles with defective mitochondria.
+Full size image
+a
+, Detection (left) and quantification (right) of WGA–Alexa Fluor 488 (AF488) signal in purified LC particles by flow cytometry (
+n
+= 3 biological replicates).
+b
+, Experimental strategy to label LC membranes by intratesticular injection of AAV-DIO-Lck–EGFP into the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice.
+c
+, Representative confocal image of the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice injected with AAV-DIO-Lck–EGFP (
+n
+= 3 mice). The LC particles were labelled with tdTomato and membrane EGFP.
+d
+, Representative confocal image of tMacs containing LC-EVs. Sections of the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice injected with AAV-DIO-Lck–EGFP were immunostained with the tMacs marker F4/80 (
+n
+= 3 mice).
+c
+,
+d
+, Inset: 3D reconstruction showing LC-derived particles. Scale bars, 5 μm (main images) and 2 μm (insets).
+e
+, Experimental design overview. LC-EVs were isolated from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice using FACS and then subjected to proteomics analysis.
+f
+, Donut chart showing the proteome composition of LC-EVs. CV, cytoplasmic vesicle; ER, endoplasmic reticulum; lyso, lysosome; mito, mitochondrion; PM, plasma membrane; ribo, ribosome.
+g
+, Venn diagrams of the LC-EV proteome with proteins reported in the MitoCarta3.0 and Vesiclepedia databases.
+h
+, Representative confocal image (left) and 3D reconstruction of LC-EVs (right). Sections of the testes of
+Cyp17a1
+Cre
+mice injected with AAV-DIO-Lck–EGFP were immunostained with mitochondrial marker (TOMM20) and counterstained with DAPI (
+n
+= 3 mice). Scale bars, 3 μm (confocal image) and 0.5 μm (3D reconstruction).
+i
+, Analysis of mitochondrial signal in purified LC-EVs by flow cytometry (
+n
+= 3 biological replicates). MTG, MitoTracker Green.
+j
+, Representative TEM micrographs showing mitochondria (arrowhead) in LCs (i) and LC-EVs (ii) (
+n
+= 3 mice). Scale bars, 500 nm (main image; left) and 200 nm (magnified view of the boxed regions; right).
+k
+, Ratio of cristae area to mitochondrial area (
+n
+= 50 mitochondria in LCs and LC-EVs from three mice).
+l
+, Assessment of MMP in mouse MA-10 cells and LC-EVs via MitoNIR staining following treatment with FCCP or oligomycin (
+n
+= 3 biological replicates). MFI, mean fluorescence intensity.
+m
+, Representative confocal images of LCs and LC-EVs stained with TMRE. Primary LCs were isolated from
+Cyp17a1
+Cre
+; R26
+mitoD2
+(mitoD2) mice.
+n
+, TMRE intensity per mitochondrion in LCs and LC-EVs.
+o
+, Representative confocal images of LCs and LC-EVs labelled with ATP probe.
+p
+, ATP intensity per mitochondrion.
+q
+, Representative confocal images of LCs and LC-EVs labelled with the dye MitoSOX.
+r
+, MitoSOX intensity per mitochondrion.
+m
+,
+o
+,
+q
+, Scale bars, 10 μm (main image; left) and 1 μm (magnified view of the boxed regions; right);
+n
+= 3 biological replicates.
+a
+,
+i
+,
+l
+, Data are the mean ± s.e.m.
+n
+,
+p
+,
+r
+,
+n
+= 21 mitochondria in LCs and LC-EVs from three biological replicates.
+k
+,
+l
+,
+n
+,
+p
+,
+r
+, Statistical significance was determined using a two-tailed Student’s
+t
+-test (
+k
+,
+n
+,
+r
+), two-tailed Welch’s
+t
+-test (
+p
+), one-way ANOVA (
+l
+(left)) or Kruskal–Wallis test (
+l
+(right)). Schematic in
+b
+,
+e
+created in BioRender. Xia, K. (2026)
+https://biorender.com/jflr23k
+. Source numerical data are provided.
+Source Data
+Next, we collected LC-EVs and profiled their proteome (Fig.
+2e
+); among the 1,933 identified proteins, almost 60% were ascribed as components of the mitochondrion (24.51%), plasma membrane (25.42%) and cytoplasmic vesicle (8.37%; Fig.
+2f
+). Comparing the proteome of LC-EVs with the MitoCarta3.0 and Vesiclepedia databases
+24
+,
+25
+, we found 291 and 1,534 overlapping proteins (Fig.
+2g
+), respectively. We confirmed these proteomic findings through immunofluorescence staining, which showed consistent presence of the mitochondrial protein TOMM20 in vesicles (Fig.
+2h
+). Staining with the mitochondrial probe MitoTracker Green confirmed that >90% of LC-EVs contained mitochondria (Fig.
+2i
+). Transmission electron microscopy (TEM) of testicular sections revealed mitochondria within LC-EVs that exhibited a significantly reduced cristae area compared with those in LCs (Fig.
+2j,k
+). Consistent with these data, the mitochondria within these EVs exhibited significant disruption of MMP and were unresponsive to depolarizing (carbonyl cyanide 4-(trifluoromethoxy)phenylhydrazone, FCCP) or hyperpolarizing (oligomycin) agents (Fig.
+2l
+). To further validate these findings, we assessed mitochondrial function in primary LCs and LC-EVs from
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice in which LC mitochondria are labelled with Dendra2 (GFP
++
+; Fig.
+2m–r
+)
+25
+. The signals of tetramethylrhodamine ethyl ester, perchlorate (TMRE) indicated that the MMP of mitochondria inside LC-EVs was reduced compared with those in LCs (Fig.
+2m,n
+). Similarly, ATP staining was decreased in LC-EVs (Fig.
+2o,p
+). In addition, most mitochondria within LC-EVs were MitoSOX positive, a sign of defective mitochondria (Fig.
+2q,r
+). Together, these results demonstrate that defective mitochondria are preferentially enriched in LC-EVs.
+Autophagy is a well-known process by which cells dispose defective organelles
+26
+. To analyse the connection between mitochondrial transfer in EVs and autophagy, we knocked down
+Atg7
+in the mouse LC cell line MA-10, which effectively blocked autophagic flux, as confirmed by the loss of ATG7 protein, accumulation of LC3-I and p62, and a reduction in LC3-positive puncta (Supplementary Fig.
+2a–e
+). Strikingly, this impairment of autophagy significantly increased the release of mitochondria via EVs from LCs (Supplementary Fig.
+2f,g
+). These results suggest that when the primary autophagy pathway is compromised, LCs shift towards EV-mediated extrusion to dispose of defective mitochondria.
+To elucidate the mechanism by which LCs selectively sort defective mitochondria into EVs, we investigated the role of motors that mediate mitochondrial translocation
+27
+,
+28
+,
+29
+. Knockdown of the anterograde kinesin
+Kif5b
+markedly reduced the fraction of LC-EVs containing mitochondria, indicating its necessity for outward transport (Extended Data Fig.
+4a,b,e–g
+). In contrast, silencing of the inward motor
+Myo6
+, which anchors mitochondria within the cytoplasm, enhanced mitochondrial export into EVs (Extended Data Fig.
+4c–g
+). We therefore hypothesised that the mitochondrial damage status dictates motor binding to regulate this sorting. To test this, we stratified mitochondria by MMP and found that defective (low TMRE) mitochondria exhibited significantly less MYO6 binding compared with their healthy (high TMRE) counterparts, whereas KIF5B association was similar between the two populations (Extended Data Fig.
+4h–j
+). Together, these data provide support for a model in which defective mitochondria escape MYO6-mediated retention, remain accessible to KIF5B-driven anterograde transport and are thereby preferentially delivered to the cell periphery for EV extrusion.
+Testicular macrophages eliminate Leydig cell-derived mitochondria to protect Leydig cells from dysfunction
+Given the prevalence of defective mitochondria in LC-EVs, we hypothesised that LCs transfer these mitochondria to tMacs. To test this, we generated LC-specific mitochondrial reporter mice by crossing the R26
+mitoD2
+reporter line with
+Cyp17a1
+Cre
+mice (Fig.
+3a
+). In these mice, approximately 65% of tMacs contained mitochondria derived from LCs (Fig.
+3b,c
+). Furthermore, we isolated tMacs from tamoxifen (TAM)-treated
+Cx3cr1
+CreER
+; R26
+tdTomato
+mice, adoptively transplanted these cells into
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice and performed intravital two-photon microscopy in vivo (Fig.
+3d
+). Time-lapse videography revealed the trafficking of LC-derived mitochondria into tdTomato
++
+tMacs (Fig.
+3e
+and Supplementary Video
+1
+). Moreover, the engulfed mitochondria in tMacs were surrounded by the endocytic markers RAB5 and RAB7 (Extended Data Fig.
+4k,l
+), indicating they had been internalized via phagocytosis. These data confirm an in vivo LC-to-tMac mitochondrial transfer axis within the testes.
+Fig. 3: Testicular macrophages eliminate Leydig cell-derived mitochondria to prevent Leydig cell dysfunction.
+Full size image
+a
+, Schematic of LCs in
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice.
+b
+, Representative confocal image of the testes of
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice. Sections of the testes were immunostained with F4/80 (
+n
+= 6 mice). Arrowheads indicate LC-derived mitoD2
++
+mitochondria within tMacs. Scale bars, 2 μm.
+c
+, Percentage of tMacs containing mitoD2
++
+LC-derived mitochondria (
+n
+= 6 mice).
+d
+, Experimental design overview. FACS-sorted tdTomato
++
+tMacs were transplanted into the testes of
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice and then analysed using intravital two-photon microscopy.
+e
+, Time-lapse imaging with 3D reconstructions revealing an LC-derived mitochondria-uptake process by tMacs in vivo. Arrows indicate transferred mitochondria from LCs to tMacs. Scale bars, 10 μm (top) and 5 μm (bottom; magnified 3D reconstructions of the boxed regions).
+f
+, Representative images of testes of
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice immunostained with F4/80 and the lysosome marker LAMP1 (
+n
+= 6 mice). Scale bars, 2 μm.
+g
+, Percentage of LC-derived mitochondria localized inside LAMP1
++
+lysosomes in tMacs (
+n
+= 6 mice).
+h
+, Degradation of mitoD2
++
+LC-derived mitochondria by tMacs (
+n
+= 3 biological replicates).
+i
+, Representative images of sections of the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice stained with F4/80 after tMac-depletion for seven days (
+n
+= 4 mice per group). Arrowheads indicate LC-EVs. Scale bars, 5 μm (top) and 2 μm (bottom; magnified views of the boxed regions).
+j
+, Number of extracellular LC-EVs (
+n
+= 4 mice per group, five fields of view were captured and 2,000-μm
+2
+images were analysed for each mouse).
+k
+, Representative TEM images of mice after tMac depletion for seven days (
+n
+= 4 mice per group). Scale bars, 1 μm (top) and 200 nm (bottom; magnified views of the boxed regions).
+l
+, Ratio of cristae area to mitochondrial area (
+n
+= 80 mitochondria in LCs and LC-EVs from four mice for each group).
+m
+, Number of mitochondria within LC-EVs (
+n
+= 4 mice per group, five fields of view were captured and 2,000-μm
+2
+images were analysed for each mouse).
+n
+, Experimental design overview. LC-EVs were isolated from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice and then used to treat primary LCs.
+o
+, Testosterone production of LCs co-cultured with or without LC-EVs at the indicated time points (
+n
+= 4 biological replicates per group).
+p
+, ATP levels of LCs co-cultured with or without LC-EVs (
+n
+= 3 biological replicates per group).
+q
+, Experimental design overview. Primary LCs were co-cultured with an equal volume of culture medium (control) or CCCP-treated mitochondria (defective mitochondria) for 12 h.
+r
+, Testosterone concentration in the supernatant of cultured primary LCs treated with culture medium or defective mitochondria for 12 h (
+n
+= 4 biological replicates per group).
+s
+, ATP levels of LCs co-cultured with culture medium or defective mitochondria (
+n
+= 3 biological replicates per group).
+c
+,
+g
+,
+h
+,
+j
+,
+m
+,
+p
+,
+s
+, Data are the mean ± s.e.m.
+o
+,
+r
+, Box plots: the box bounds depict the first to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values.
+j
+,
+l
+,
+m
+,
+o
+,
+p
+,
+r
+,
+s
+, Statistical significance was determined using a two-tailed Student’s
+t
+-test (
+j
+,
+m
+,
+o
+,
+p
+,
+r
+,
+s
+) or two-tailed Mann–Whitney
+U
+-test (
+l
+). mitoD2,
+Cyp17a1
+Cre
+; R26
+mitoD2
+. Con, control. Schematic in
+a
+,
+d
+,
+n
+,
+q
+created in BioRender. Xia, K. (2026)
+https://biorender.com/1l0dtjs
+. Source numerical data are provided.
+Source Data
+Next, we collected testes from two-month-old
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice and found that the majority (78.98 ± 4.61%) of mitoD2-labelled mitochondria in the F4/80
++
+tMacs were localized in LAMP1
++
+phagolysosomes (Fig.
+3f,g
+), indicating that LC-derived mitochondria are targeted for degradation in tMacs. Furthermore, when tMacs isolated from
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice were cultured in vitro, they progressively lost most of the mitoD2 fluorescence over four days (Fig.
+3h
+). These findings suggest that a large fraction of mitochondria extruded in LC-EVs are taken up and eliminated by tMacs.
+To test whether the elimination of defective mitochondria by tMacs protects LCs from dysfunction, we applied a well-established method to deplete tMacs from adult testes by taking advantage of mice expressing the diphtheria toxin receptor (DTR) under the
+CD11b
+locus (
+CD11b
+DTR
+)
+30
+. Intratesticular testosterone levels in the tMac-depleted testes decreased significantly post injection of diphtheria toxin (Extended Data Fig.
+5a–d
+). To further confirm these results, we injected liposome-clodronate (CL
+2
+DMP-liposome) into one testis of adult mice to deplete tMacs and control liposome into the contralateral testis (Extended Data Fig.
+5e–g
+). Examination of the testes at different time points post injection revealed a decrease in intratesticular testosterone levels in the tMac-depleted testes (Extended Data Fig.
+5h
+). As expected, the content of LC-EVs and defective mitochondria in LC-EVs markedly increased in the testicular extracellular space seven days after tMacs depletion (Fig.
+3i–m
+). To assess the impact of accumulated LC-EVs on LCs function, we treated LCs with LC-EVs isolated from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice and observed a significant decline in testosterone production in vitro (Fig.
+3n,o
+). ATP measurements showed that LC-EV exposure reduced the ATP levels of cultured LCs (Fig.
+3p
+). Next, we tested whether defective mitochondria in LC-EVs are sufficient to impair LC function. We isolated mitochondria from LCs and treated them with carbonyl cyanide 3 chlorophenylhydrazone (CCCP), a known inducer of mitochondrial defect
+28
+. Direct application of these defective mitochondria to primary LCs was sufficient to suppress testosterone synthesis and ATP generation (Fig.
+3q–s
+). These results suggest that tMacs preserve mitochondrial function in LCs by removing defective mitochondria.
+CD206
+hi
+testicular macrophages mediate the removal of LC-EVs through the phagocytic receptor TREM2
+Previous studies have identified two major macrophage subpopulations in the mouse testis: CD206
+hi
+MHCII
+lo
+(CD206
+hi
+) tMacs and CD206
+lo
+MHCII
+hi
+(MHCII
+hi
+) tMacs
+31
+. Flow cytometry analysis of dissociated testes from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice revealed that CD206
+hi
+tMacs contained significantly higher levels of tdTomato
++
+LC-EVs compared with MHCII
+hi
+tMacs (Fig.
+4a,b
+and Extended Data Fig.
+5i
+). Confocal imaging of testes from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice further showed that the majority of tdTomato
++
+LC-EVs were taken up by CD206
+hi
+tMacs (Extended Data Fig.
+5j,k
+). High-resolution imaging analysis of
+Cyp17a1
+Cre
+; R26
+mitoD2
+testes confirmed that LC-derived mitochondria were predominantly found in CD206
+hi
+tMacs, with negligible uptake by MHCII
+hi
+tMacs (Fig.
+4c,d
+). Furthermore, we compared the distances between LCs and the two tMac subsets, and found no significant difference in the proximity of LCs to CD206
+hi
+versus MHCII
+hi
+tMacs (Extended Data Fig.
+5l,m
+). Collectively, these data indicate that LCs preferentially transfer mitochondria to CD206
+hi
+tMacs.
+Fig. 4: The phagocytic receptor TREM2 in CD206
+hi
+testicular macrophages mediates the removal of Leydig cell-ejected mitochondria.
+Full size image
+a
+, Representative images of CD206
+hi
+and MHCII
+hi
+tMacs sorted from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice using FACS (
+n
+= 8 mice per group). Scale bars, 5 μm.
+b
+, Fluorescence intensity of tdTomato in CD206
+hi
+and MHCII
+hi
+tMacs (
+n
+= 8 mice per group).
+c
+, Representative images of testes of
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice stained with CD206 and MHCII (
+n
+= 5 mice per group). Scale bars, 8 μm (main images) and 2 μm (magnified views of the boxed regions).
+d
+, Levels of mitoD2
++
+signal in CD206
+hi
+and MHCII
+hi
+tMacs (
+n
+= 5 mice per group).
+e
+, Uniform manifold approximation and projection (UMAP) plots of tMacs. 1, 2 indicate tMac subsets.
+f
+, Heat map of differentially expressed genes and enriched GO terms in the scRNA-seq data of CD206
+hi
+and MHCII
+hi
+tMacs.
+g
+,
+Trem2
+expression levels, from the scRNA-seq data, in CD206
+hi
+and MHCII
+hi
+tMacs.
+h
+, Representative images of TREM2 on CD206
+hi
+and MHCII
+hi
+tMacs. The sections of the mouse testes were counterstained with DAPI (
+n
+= 5 mice per group). Scale bar, 10 μm.
+i
+, Levels of TREM2 expression on CD206
+hi
+and MHCII
+hi
+tMacs (
+n
+= 5 mice per group).
+j
+, Flow cytometry analysis of LC-EVs labelled with Annexin V (
+n
+= 3 biological replicates).
+k
+, Experimental design overview. Following isolation from
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice, mitoD2
++
+LCs were transplanted into TAM-treated
+Cx3cr1
+CreER
+(control) and
+Cx3cr1
+CreER
+;
+Trem2
+fl/fl
+(cKO) mice.
+l
+, Representative images of the testes of control and cKO mice nine days after mitoD2
++
+LC transplantation. Sections of the testes were stained with IBA1 and counterstained with the nuclear dye TWO-PRO-3 (white;
+n
+= 4 mice per group). Scale bars, 5 μm.
+m
+, Percentage of tMacs containing mitoD2
++
+signal (
+n
+= 4 mice per group).
+n
+, Testosterone levels of control and cKO mice 14 days after TAM injections (
+n
+= 4 mice per group).
+o
+, Sperm counts of the two groups (
+n
+= 5 mice per group).
+p
+, Number of litters obtained from the two groups (
+n
+= 5 mice per group).
+q
+, Number of pups per litter (
+n
+= 5 mice per group).
+r
+, Grip strength of mice in the two groups (
+n
+= 5 mice per group).
+s
+, Muscle endurance of the two groups (
+n
+= 5 mice per group).
+j
+,
+n
+,
+r
+,
+s
+, Data are the mean ± s.e.m.
+m
+,
+o
+–
+q
+, Box plots: the box bounds depict the first to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values.
+b
+,
+d
+,
+f
+,
+g
+,
+i
+,
+m
+–
+s
+, Statistical significance was determined using a two-tailed Student’s
+t
+-test (
+d
+,
+n
+–
+s
+), two-tailed Mann–Whitney
+U
+-test (
+b
+,
+i
+,
+m
+), two-tailed Wilcoxon rank-sum test with Bonferroni correction for differentially expressed genes (
+f
+,
+g
+) or two-tailed permutation test with Benjamini–Hochberg correction for gene set enrichment analysis (
+f
+). Con, control. Schematic in
+k
+,
+r
+,
+s
+created in BioRender. Xia, K. (2026)
+https://biorender.com/zw5vz3a
+. Source numerical data are provided.
+Source Data
+To further unravel the mechanisms governing mitochondrial transfer from LCs to CD206
+hi
+tMacs, we integrated previously published single-cell transcriptomic datasets of mouse testes (Supplementary Fig.
+3a
+)
+32
+,
+33
+,
+34
+,
+35
+. Consistent with immunofluorescence data, we identified two main tMacs subpopulations through single-cell RNA-sequencing (scRNA-seq): CD206
+hi
+and MHCII
+hi
+tMacs (Fig.
+4e
+and Supplementary Fig.
+3b
+). Differential expression analysis revealed 115 upregulated and 37 downregulated genes (|average log
+2
+(fold change) | > 0.25 and adjusted
+P
+< 0.05) in CD206
+hi
+tMacs compared with MHCII
+hi
+tMacs (Fig.
+4f
+and Supplementary Table
+1
+). Notably, CD206
+hi
+tMacs exhibited an enrichment of Gene Ontology (GO) terms such as ‘receptor-mediated endocytosis’, ‘lysosome organization’ and ‘phagocytosis, engulfment’ (Fig.
+4f
+and Supplementary Table
+1
+). These findings are consistent with the superior capacity of CD206
+hi
+tMacs to take up LC-EVs. Among the upregulated phagocytic receptor genes in CD206
+hi
+tMacs, we identified the presence of
+Trem2
+,
+Mertk
+,
+Axl
+and
+Cd36
+(Supplementary Table
+1
+). TREM2 has been shown to play a key role in macrophages by mediating the removal of dysfunctional subcellular fragments in various tissues
+36
+,
+37
+. In line with this, we observed a significant increase in
+Trem2
+expression in CD206
+hi
+tMacs compared with MHCII
+hi
+tMacs (Fig.
+4g–i
+). Flow cytometry analysis revealed that LC-EVs expressed phosphatidylserine (PS; Fig.
+4j
+), which is recognized by TREM2. Using Annexin V as a probe, we detected PS
++
+patches in fresh testicular tissues, distributed near LCs and in proximity to GFP
++
+tMacs (Supplementary Fig.
+3c,d
+). Previous studies demonstrated that ROS promote PS translocation to the outer leaflet
+38
+. We therefore hypothesised that PS signal in LCs-EVs may be related to ROS generated during testosterone synthesis in LCs
+9
+. To test this, we treated primary LCs with hCG to stimulate testosterone production, revealing PS signals in the cell membranes of LCs (Supplementary Fig.
+3e,f
+). However, the addition of a ROS scavenger,
+N
+-acetylcysteine, significantly reduced the PS signal (Supplementary Fig.
+3e,f
+).
+Next, we conditionally deleted
+Trem2
+from tMacs using
+Cx3cr1
+CreER
+;
+Trem2
+fl/fl
+(conditional knockout, cKO) mice in which
+Trem2
+is excised from
+Cx3cr1
+-expressing tMacs following TAM administration (Extended Data Fig.
+6a–d
+). The in vitro transfer of LC-derived mitoD2
++
+mitochondria into the tMacs of cKO mice was severely compromised compared with tMacs of their
+Cx3cr1
+CreER
+littermates (Extended Data Fig.
+6e–g
+). Analysis through TEM revealed that defective mitochondria accumulate in the interstitial regions of the testes of cKO mice (Extended Data Fig.
+6h–j
+). To confirm this, we isolated LCs from
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice and adoptively transferred these cells into TAM-treated
+Cx3cr1
+CreER
+or cKO mice (Fig.
+4k
+). High-resolution confocal analysis of the host testes revealed that tMacs from cKO mice contained fewer LC-derived mitoD2
++
+mitochondria (Fig.
+4l,m
+). More importantly, the deletion of
+Trem2
+in tMacs impaired testosterone production in the cKO mice (Fig.
+4n
+). Moreover, the TREM2 inhibitor IA9 suppressed mitochondria transfer from LCs to tMacs in cultured testicular tissue of
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice (Extended Data Fig.
+6k–m
+). Consistent with these results, IA9 treatment impaired testosterone production of the cultured testicular tissue (Extended Data Fig.
+6n
+). Collectively, these genetic and pharmacological approaches demonstrate that TREM2 is essential for efficient mitochondrial uptake by tMacs.
+Blocking this transfer in cKO mice reduced testis weight and caused thinning of the seminiferous epithelium relative to the
+Cx3cr1
+CreER
+controls (Supplementary Fig.
+4a–c
+). The sperm number and motility were diminished (Fig.
+4o
+and Supplementary Fig.
+4d–f
+), and fertility was markedly compromised (Fig.
+4p,q
+). Beyond reproduction, the gastrocnemius mass, myofiber cross-sectional area, forelimb grip strength and muscle endurance were all decreased in the cKO mice (Fig.
+4r,s
+and Supplementary Fig.
+4g–i
+). Together, these data indicate that LC-to-tMac mitochondrial transfer supports testosterone-dependent reproductive and somatic functions.
+Leydig cells acquire materials from testicular macrophages in response to testosterone production
+Next, we investigated whether LCs also reciprocally acquire particles from neighbouring cells. To test this, we generated transgenic mouse models in which only specific cell types—tMacs (
+Cx3cr1
+CreER
+; R26
+tdTomato
+), myoid cells (
+Sma
+CreER
+; R26
+tdTomato
+), stromal cells (
+Pdgfra
+CreER
+; R26
+tdTomato
+) and Sertoli cells (
+Amh
+Cre
+; R26
+tdTomato
+)—expressed tdTomato (Extended Data Fig.
+7a
+). Immunofluorescence analysis revealed that CYP17A1
++
+LCs efficiently internalized tdTomato
++
+particles from tMacs, whereas only minimal amounts of tdTomato
++
+particles were taken up from myoid, stromal and Sertoli cells (Extended Data Fig.
+7a,b
+). These results suggest that LCs preferentially internalize particles from the surrounding tMacs.
+To confirm the transfer of tMac-derived particles to LCs, we collected testes from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice for analysis. Immunofluorescence imaging and 3D reconstruction revealed that GFP
++
+particles were detected in the tdTomato
++
+LCs, providing direct evidence of material transfer from tMacs to LCs (Extended Data Fig.
+7c
+). Following the administration of hCG to induce elevated testosterone levels, we observed a noticeable increase in the number of tdTomato
++
+LCs with GFP
++
+particles (Extended Data Fig.
+7c–g
+). Conversely, when we used degarelix to suppress serum LH and testosterone in adult
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice (Extended Data Fig.
+7h,i
+), the intercellular transfer of materials from tMacs to LCs was strongly diminished (Extended Data Fig.
+7j,k
+). These findings indicate that testosterone production amplifies the transfer of intercellular particles from tMacs to LCs.
+Leydig cells acquire extracellular vesicles with functional mitochondria from testicular macrophages
+We purified GFP
++
+particles devoid of nuclei from the testes of
+Cx3cr1
+GFP
+mice (Extended Data Fig.
+8a–c
+). Flow cytometry analysis revealed that nearly 95% of these particles stained positive for WGA (Fig.
+5a
+), indicating that tMacs released these particles as EVs. We then generated
+Cx3cr1
+GFP
+; mTmG mice, which allowed for specific labelling of tMacs with GFP and membrane-targeted tdTomato (Fig.
+5b
+). Super-resolution fluorescence microscopy analysis demonstrated that membrane-surrounded tMac-derived particles were released extracellularly (Fig.
+5c
+). The presence of GFP
++
+particles in the tdTomato
++
+membrane was further confirmed by 3D reconstruction (Fig.
+5c
+). In addition, tMac-derived EVs were detected within the cytoplasm of CYP17A1
++
+LCs (Fig.
+5d
+), providing support for the idea that tMacs transfer particles to LCs through EVs. We refer to these particles as ‘tMac-EVs’.
+Fig. 5: Testicular macrophages transfer extracellular vesicles with functional mitochondria.
+Full size image
+a
+, Detection (left) and quantification (right) of WGA–Alexa Fluor 594 (AF594) signal in flow cytometry-purified tMac particles (
+n
+= 3 biological replicates).
+b
+, Experimental strategy to label tMacs with GFP and membrane-targeted tdTomato in
+Cx3cr1
+GFP
+; mTmG mice.
+c
+, Representative confocal image of the testes of
+Cx3cr1
+GFP
+; mTmG mice (
+n
+= 4 mice). Scale bars, 5 μm (main image) and 0.5 μm (inset, 3D reconstruction of the boxed regions).
+d
+, Representative confocal image of LCs containing tMac-EVs. Sections of the testes of
+Cx3cr1
+GFP
+; mTmG mice were immunostained with the LC marker CYP17A1 and counterstained with DAPI (
+n
+= 3 mice). Scale bars, 5 μm.
+e
+, Experimental design overview. Following isolation from
+Cx3cr1
+GFP
+mice using FACS, tMac-EVs were subjected to proteomics analysis.
+f
+, Donut chart showing the proteome composition of tMac-EVs. CV, cytoplasmic vesicle; ER, endoplasmic reticulum; lyso, lysosome; mito, mitochondrion; PM, plasma membrane; ribo, ribosome.
+g
+, Venn diagrams of the tMac-EV proteome with proteins reported in the MitoCarta3.0 and Vesiclepedia database.
+h
+, Representative confocal image (left) and 3D reconstruction (right) of tMac-EVs. Sections of the testes of TAM-treated
+Cx3cr1
+CreER
+; mTmG mice were immunostained with TOMM20 and counterstained with DAPI (
+n
+= 4 mice). Scale bars, 5 μm (confocal image) and 0.5 μm (magnified 3D reconstructions of the boxed regions).
+i
+, Analysis of mitochondrial signal in flow cytometry-purified tMac-EVs (
+n
+= 3 biological replicates).
+j
+, Representative TEM image showing mitochondria in tMac-EVs (i) and tMacs (ii) (left;
+n
+= 3 mice). Scale bars, 2 μm (left) and 200 nm (right; magnified views of the boxed regions).
+k
+, Ratio of cristae area to mitochondrial area (
+n
+= 50 mitochondria in tMacs and tMac-EVs from three mice).
+l
+, Assessment of MMP in RAW264.7 cells (mouse cell line of macrophages; left) and tMac-EVs (right) via MitoNIR staining following treatment with FCCP or oligomycin (
+n
+= 3 biological replicates).
+m
+, Representative confocal images of tMac-EVs and tMacs stained with TMRE. The tMacs were sorted from TAM-injected
+Cx3cr1
+CreER
+; R26
+mitoD2
+(mitoD2) mice (
+n
+= 3 biological replicates).
+n
+, TMRE intensity per mitochondrion.
+o
+, Representative confocal images of tMac-EVs and tMacs stained with ATP probe (
+n
+= 3 biological replicates).
+p
+, ATP intensity per mitochondrion.
+q
+, Representative confocal images of tMac-EVs and tMacs stained with MitoSOX (
+n
+= 3 biological replicates).
+r
+, Intensity of MitoSOX per mitochondrion.
+m
+,
+o
+,
+q
+, Scale bars, 3 μm (left) and 2 μm (right; magnified views of the boxed regions).
+n
+,
+p
+,
+r
+,
+n
+= 21 mitochondria in tMacs and tMac-EVs from three biological replicates.
+a
+,
+i
+,
+k
+,
+l
+, Data are the mean ± s.e.m.
+k
+,
+l
+,
+n
+,
+p
+,
+r
+, Statistical significance was determined using a two-tailed Student’s
+t
+-test (
+k
+,
+n
+,
+p
+), two-tailed Welch’s
+t
+-test (
+r
+) or one-way ANOVA (
+l
+). Schematics in
+b
+,
+e
+,
+h
+created in BioRender. Xia, K. (2026)
+https://biorender.com/u5q8ux2
+. Source numerical data are provided.
+Source Data
+Next, we profiled the proteome of tMac-EVs (Fig.
+5e
+). Among the 1,057 identified proteins, almost 60% were ascribed as components of mitochondrion (26.35%), plasma membrane (25.99%) and cytoplasmic vesicle (6.56%; Fig.
+5f
+). A comparison of the tMac-EV proteome with the MitoCarta3.0 and Vesiclepedia databases
+24
+,
+25
+revealed 183 and 864 overlapping proteins, respectively (Fig.
+5g
+). Staining with TOMM20 confirmed the presence of mitochondria in tMac-EVs of the testes of TAM-treated adult
+Cx3cr1
+CreER
+; mTmG mice (Fig.
+5h
+). Staining with MitoTracker Red (MTR) revealed that the majority (77.37 ± 1.92%) of tMac-EVs contained mitochondria (Fig.
+5i
+). Through TEM analysis of testes, we identified mitochondria within the EVs with cristae area fractions comparable to mitochondria in tMacs (Fig.
+5j,k
+). Functionally, EV-encapsulated mitochondria maintained a responsive MMP, depolarizing with FCCP and hyperpolarizing with oligomycin (Fig.
+5l
+). The TMRE fluorescence was not reduced relative to tMac mitochondria (Fig.
+5m,n
+) and the levels of ATP staining were similarly comparable (Fig.
+5o,p
+). Consistent with this, EV-contained mitochondria exhibited markedly lower MitoSOX signals (Fig.
+5q,r
+). Together, these data indicate that tMac-EVs are enriched for healthy mitochondria.
+Uptake of EVs has been reported to occur via endocytosis or direct fusion with the acceptor cell membrane
+39
+. Super-resolution imaging of the testes of TAM-induced
+Cx3cr1
+CreER
+; mTmG mice revealed GFP
++
+membrane-encapsulated tMac-EVs within the cytoplasm of 3βHSD
++
+LCs (Extended Data Fig.
+8d,e
+). Three-dimensional reconstructions confirmed TOMM20
++
+mitochondria enclosed by the GFP
++
+EV membrane inside LCs (Extended Data Fig.
+8d,e
+). These findings suggest that these mitochondria-containing tMac-EVs enter LCs via the endocytic pathway.
+Leydig cells integrate testicular macrophage-derived mitochondria to support testosterone production
+Given the abundance of functional mitochondria in tMac-EVs, we hypothesised that LCs might acquire these mitochondria to support testosterone production. To test this, we generated
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice, enabling the specific labelling of tMac mitochondria after TAM treatment (Fig.
+6a
+). Confocal imaging revealed that approximately 18% of the CYP17A1
++
+LCs contained mitoD2
++
+mitochondria derived from tMacs (Fig.
+6b,c
+). To validate this transfer, we isolated tMacs from TAM-treated
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice and adoptively transplanted these cells into the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (Fig.
+6d
+). Time-lapse videography and 3D reconstructions captured mitochondrial uptake events, with mitoD2
++
+mitochondria trafficking from tMacs into tdTomato
++
+host LCs (Fig.
+6e
+and Supplementary Video
+2
+). These data confirm the existence of a tMac-to-LC mitochondrial transfer axis in vivo.
+Fig. 6: Leydig cells integrate testicular macrophage-derived mitochondria to support testosterone production.
+Full size image
+a
+, Schematic of tMacs in TAM-induced
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice.
+b
+, Representative confocal image of the testes of TAM-injected
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice. Sections of the testes were immunostained with CYP17A1 and counterstained with TWO-PRO-3 (
+n
+= 5 mice). Arrows indicate tMac-derived mitoD2
++
+mitochondria within LCs. Scale bar, 3 μm.
+c
+, Percentage of LCs containing mitoD2
++
+tMac-derived mitochondria (
+n
+= 5 mice).
+d
+, Experimental design overview. FACS-sorted mitoD2
++
+tMacs were transplanted into the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice and then analysed using intravital two-photon microscopy.
+e
+, Time-lapse imaging (top) with 3D reconstructions (bottom) revealing a tMac-derived mitochondrial transfer process into LCs in vivo. Arrows indicate transferred mitochondria from tMacs to LCs. Scale bars, 5 μm.
+f
+, Experimental strategy to label LC mitochondria by intratesticular injection of AAV-mito–mCherry into the testes of TAM-induced
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice.
+g
+, Representative confocal images of the testes of AAV-mito–mCherry-injected
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice. Sections of the testes were immunostained with CYP17A1 (
+n
+= 5 mice). Arrows indicate tMac-derived mitoD2
++
+mitochondria fused (right) or not fused (left) with LC-derived mCherry
++
+mitochondria within LCs. Scale bars, 2 μm.
+h
+, Percentage of tMac-derived mitochondria fused with mCherry
++
+mitochondria in LCs (
+n
+= 5 mice).
+i
+, Experimental design overview. FACS was used to isolate tMac-EVs from
+Cx3cr1
+GFP
+mice. Primary LCs were treated with culture medium (control), culture medium containing tMac-EVs (tMac-EVs) or culture medium containing sonicated tMac-EVs (sonicated tMac-EVs).
+j
+, Testosterone production of LCs from the three groups at the indicated time points.
+k
+, ATP levels of LCs from the three groups.
+l
+, Experimental design overview. FACS was used to isolate tMac-EVs from
+Cx3cr1
+GFP
+mice. Primary LCs were treated with culture medium (control), culture medium containing tMac-EVs (tMac-EVs) or culture medium containing tMac-EVs pretreated with antimycin A (mito-inhibited tMac-EVs).
+m
+, Testosterone production of LCs from the three groups at 6 h.
+n
+, ATP levels of LCs from the three groups.
+o
+, Experimental design overview. Mitochondria were isolated from tMacs (tMac-mito) sorted from
+Cx3cr1
+GFP
+mice using FACS. Primary LCs were treated with culture medium (control), culture medium containing tMac-mito or culture medium containing sonicated tMac-mito (sonicated tMac-mito).
+p
+, Testosterone production of LCs from the three groups at 6 h.
+q
+, ATP levels of LCs from the three groups.
+c
+,
+h
+,
+j
+,
+k
+,
+m
+,
+n
+,
+p
+,
+q
+, Data are the mean ± s.e.m.
+j
+,
+k
+,
+m
+,
+n
+,
+p
+,
+q
+, Statistical significance was determined using a one-way ANOVA;
+n
+= 5 biological replicates per group. Con, control. Schematic in
+a
+,
+d
+,
+f
+,
+i
+,
+l
+,
+o
+created in BioRender. Xia, K. (2026)
+https://biorender.com/71c5gkk
+. Source numerical data are provided.
+Source Data
+To investigate the fate of tMac-derived mitochondria in LCs, we utilized a mitochondrial-targeted mCherry fluorescent protein technique and injected AAV expressing Cox8a–mCherry (AAV-CAG-mito–mCherry) into the testes of TAM-treated
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice (Fig.
+6f
+). This approach enabled specific targeting of tMacs with mitoD2
++
+mitochondria and >90% of LCs with mCherry
++
+mitochondria in the testes (Extended Data Fig.
+9a–c
+). Immunostaining analysis revealed that a small fraction (38.63 ± 1.24%) of the mitoD2-labelled mitochondria in CYP17A1
++
+LCs co-localized with mCherry-labelled mitochondria (Fig.
+6g,h
+), suggesting that a portion of the tMac-derived mitochondria were incorporated into LCs through mitochondrial fusion.
+To explore whether uptake of mitochondria-laden EVs supports LC function, we examined testosterone production in LCs treated with tMac-EVs isolated from
+Cx3cr1
+GFP
+mice (Fig.
+6i
+). We found that primary LCs treated with tMac-EVs exhibited a progressive increase in testosterone production in vitro (Fig.
+6j
+). However, treatment with sonicated tMac-EVs, in which mitochondria had been broken, did not affect testosterone production (Fig.
+6j
+). Exposure to tMac-EVs increased the ATP levels in LCs, whereas sonicated tMac-EVs had no effect on ATP production (Fig.
+6k
+). To further assess the role of mitochondria in tMac-EVs, we blocked the function of mitochondria in tMac-EVs using the complex III inhibitor antimycin A and then incubated primary LCs with these EVs (Fig.
+6l
+). Untreated tMac-EVs significantly increased testosterone and ATP production in LCs (Fig.
+6m,n
+). By contrast, antimycin A-treated tMac-EVs failed to augment testosterone or ATP (Fig.
+6m,n
+). To specifically identify the functional contribution of mitochondria from other EV components, we isolated mitochondria directly from tMacs (Fig.
+6o
+). Treatment of primary LCs with these tMac-derived mitochondria significantly enhanced both testosterone synthesis and ATP production in the recipient LCs (Fig.
+6p,q
+). Crucially, this pro-functional effect was abolished when the isolated mitochondria were broken by sonication before treatment (Fig.
+6p,q
+). Collectively, these results suggest that LCs integrate functional mitochondria from tMacs to support testosterone production.
+Leydig cells mainly uptake mitochondria from MHCII
+hi
+testicular macrophages
+Given that CD206
+hi
+tMacs clear defective mitochondria from LCs, we investigated whether they are also responsible for transferring functional mitochondria to LCs. To test this, we sorted CD206
+hi
+and MHCII
+hi
+tMacs by FACS from TAM-treated adult
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice and co-cultured them with tdTomato
++
+LCs in vitro (Fig.
+7a,b
+and Extended Data Fig.
+9d
+). Unexpectedly, confocal analysis revealed that significantly fewer CD206
+hi
+tMacs transferred mitoD2
++
+mitochondria to LCs compared with MHCII
+hi
+tMacs (Fig.
+7a,b
+). To further confirm this in vivo, we isolated CD206
+hi
+and MHCII
+hi
+tMacs from TAM-treated adult
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice and adoptively transplanted these cells into
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (Fig.
+7c,d
+). Confocal microscopy revealed that tdTomato
++
+host LCs contained significantly more mitoD2
++
+mitochondria from MHCII
+hi
+tMacs than from CD206
+hi
+tMacs (Fig.
+7c,d
+). Collectively, these data indicate that MHCII
+hi
+tMacs are primarily responsible for transferring mitochondria to LCs.
+Fig. 7: The adhesive molecule VCAM1 in Leydig cells mediates the uptake of testicular macrophage-derived mitochondria.
+Full size image
+a
+, Representative images of FACS-sorted tdTomato
++
+LCs co-cultured with CD206
+hi
+or MHCII
+hi
+tMacs isolated from
+Cx3cr1
+CreER
+; R26
+mitoD2
+(mitoD2) mice (
+n
+= 4 biological replicates per group). Arrows indicate tMac-derived mitoD2
++
+mitochondria within tdTomato
++
+LCs. Scale bars, 10 μm (top) and 5 μm (bottom; magnified views of the boxed regions).
+b
+, Levels of mitoD2
++
+signal in tdTomato
++
+LCs (
+n
+= 4 biological replicates per group).
+c
+, Representative images of tdTomato
++
+LCs containing CD206
+hi
+or MHCII
+hi
+tMac-derived mitochondria (mitoD2
++
+). CD206
+hi
+or MHCII
+hi
+tMacs isolated from TAM-induced
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice were transplanted into the testes of tMacs-depleted
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (
+n
+= 3 mice per group). Arrows indicate tMac-derived mitoD2
++
+mitochondria within tdTomato
++
+LCs. Scale bars, 5 μm (top) and 2 μm (bottom; magnified views of the boxed regions).
+d
+, Levels of mitoD2
++
+signal in tdTomato
++
+LCs (
+n
+= 3 mice per group).
+e
+, Illustration of intercellular communication between LCs and tMacs via ligand–receptor pairs.
+f
+, Circle plots showing cell–cell communication between tMacs and LCs via ligand–receptor pair signalling. The width of the arrows indicates the communication probability.
+g
+, Sections of testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice were immunostained with VCAM1 and counterstained with DAPI (
+n
+= 3 biological replicates). Scale bar, 20 μm (left) and 10 μm (right; magnified view of the boxed region).
+h
+, Flow cytometry analysis of tMac-EVs labelled with ITGβ1.
+i
+, Experimental design overview.
+Cyp17a1
+Cre
+; R26
+Cas9-tdTomato
+mice were injected with sgScr or sg
+Vcam1
+.
+j
+, The levels of
+Vcam1
+messenger RNA expression in the testes of
+Cyp17a1
+Cre
+; R26
+Cas9-tdTomato
+mice were determined by quantitative PCR with reverse transcription 14 days post AAV treatment (
+n
+= 3 mice per group).
+k
+, Representative images of testes of
+Cyp17a1
+Cre
+; R26
+Cas9-tdTomato
+mice stained with VCAM1 and DAPI 14 days after treatment with sgScr or sg
+Vcam1
+(
+n
+= 6 mice per group). Scale bars, 20 μm.
+l
+, Levels of VCAM1 expression on LCs (
+n
+= 6 mice per group).
+m
+, Experimental design overview. FACS was used to sort tMac-EVs containing mitochondria (WGA
++
+mtD2
++
+tMac-EVs), which were used to treat primary LCs from the sgScr and sg
+Vcam1
+groups.
+n
+, Representative images of primary LCs from the sgScr and sg
+Vcam1
+groups after treatment with tMac-EVs containing mitochondria. Arrows indicate tMac-derived mitoD2
++
+mitochondria within tdTomato
++
+LCs. Scale bars, 10 μm (top) and 4 μm (bottom; magnified views of the boxed regions).
+o
+, Percentage of LCs containing tMac-derived mitochondria.
+p
+, ATP production of primary LCs from the sgScr and sg
+Vcam1
+groups treated with tMac-EVs containing mitochondria.
+q
+, Testosterone levels of
+Cyp17a1
+Cre
+; R26
+Cas9-tdTomato
+mice 14 days following injection with sgScr or sg
+Vcam1.
+r
+, Sperm counts in the sgScr and sg
+Vcam1
+groups (
+n
+= 6 mice per group).
+s
+, Number of litters obtained from the two groups.
+t
+, Number of pups per litter.
+u
+, Grip strength of the mice in the two groups.
+v
+, Muscle endurance of the two groups.
+h
+,
+o
+–
+q
+,
+s
+–
+v
+,
+n
+= 5 biological replicates (
+h
+,
+o
+–
+q
+) or mice (
+s
+–
+v
+) per group.
+b
+,
+d
+,
+h
+,
+j
+,
+u
+,
+v
+, Data are the mean ± s.e.m.
+l
+,
+o
+–
+t
+, Box plots: the box bounds depict the first to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values.
+b
+,
+d
+,
+j
+,
+l
+,
+o
+–
+v
+, Statistical significance was determined using a two-tailed Student’s
+t
+-test (
+b
+,
+d
+,
+j
+,
+o
+–
+r
+,
+t
+,
+u
+), two-tailed Mann–Whitney
+U
+-test (
+l
+,
+s
+) or two-tailed Welch’s
+t
+-test (
+v
+). Schematic in
+e
+,
+i
+,
+m
+,
+u
+,
+v
+created using BioRender. Xia, K. (2026)
+https://biorender.com/cv4gh8q
+. Source numerical data are provided.
+Source Data
+To validate that MHCII
+hi
+tMacs enhance LCs testosterone production, we isolated mitochondria-containing EVs by sorting MHCII
+hi
+MitoTracker
++
+tMac-EVs from adult
+Cx3cr1
+GFP
+mice (Extended Data Fig.
+9e–g
+), leveraging the retention of plasma-membrane markers on macrophage EVs
+21
+. Treatment of primary LCs with these EVs significantly increased testosterone secretion and cellular ATP (Extended Data Fig.
+9h,i
+). By contrast, EVs pretreated with antimycin A, which blocks the function of mitochondria, failed to enhance testosterone or ATP (Extended Data Fig.
+9h,i
+).
+Next, we determined whether intrinsic mitochondrial features could account for preferential donation by profiled CD206
+hi
+and MHCII
+hi
+tMacs isolated from mitoD2 mice. High-resolution MTR imaging showed that MHCII
+hi
+tMacs contained fewer mitochondria per cell (Supplementary Fig.
+5a
+) yet exhibited short rounded organelles in contrast to the elongated, networked morphology in CD206
+hi
+tMacs (Supplementary Fig.
+5b–d
+). Functionally, MHCII
+hi
+tMacs showed higher MMP (Supplementary Fig.
+5e
+), lower mitochondrial ROS (Supplementary Fig.
+5
+f) and greater ATP-synthesis capacity (Supplementary Fig.
+5g,h
+). Together, these data provide a powerful mechanistic rationale to explaining the preferential role of MHCII
+hi
+tMacs in mitochondria transfer to LCs.
+Adhesive molecule VCAM1 mediates the uptake of testicular macrophages-derived mitochondria by Leydig cells
+We next aimed to uncover the molecular mechanisms underlying mitochondrial transfer from tMacs to LCs. Previous studies have shown that efficient docking of EVs to host cells is facilitated by ligand–receptor interactions
+14
+. To explore this, we integrated previously published single-cell transcriptomic datasets of mouse testes and used the ligand–receptor interaction tool CellChat to infer the communication networks between tMacs and LCs at the single-cell level (Fig.
+7e
+)
+32
+,
+33
+,
+34
+,
+35
+. Among the identified ligand–receptor pairs, the Itgb1–Vcam1 interaction ranked highest in terms of communication probability (Fig.
+7f
+and Supplementary Table
+2
+). Consistent with these data, we observed strong expression of VCAM1 on tdTomato
++
+LCs in the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice (Fig.
+7g
+). Flow cytometry analysis further revealed that tMac-EVs expressed ITGβ1 (Fig.
+7h
+). These findings prompted us to hypothesise that the ITGβ1–VCAM1 ligand–receptor pair mediates mitochondrial transfer from tMacs to LCs.
+We then investigated the role of
+Vcam1
+in regulating mitochondrial transfer. Using the CRISPR–Cas9 knockout technique, we conditionally deleted
+Vcam1
+in LCs by bilaterally injecting AAV expressing
+Vcam1
+-sgRNA (AAV-U6-sg
+Vcam1
+, sg
+Vcam1
+) or a control AAV (AAV-U6-sgScr or AAV-sgScramble, sgScr) into the testes of adult
+Cyp17a1
+Cre
+; R26
+Cas9-tdTomato
+mice (Fig.
+7i–l
+and Extended Data Fig.
+10a–c
+). We further isolated WGA
++
+mitoD2
++
+tMac-EVs from the testes of
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice (Extended Data Fig.
+10d,e
+). These sorted mitochondria-containing EVs were then added into the cultured primary LCs (Fig.
+7m
+). Immunofluorescence analysis revealed markedly fewer mitoD2
++
+mitochondria in
+Vcam1
+-deficient LCs (treated with sg
+Vcam1
+) than in control LCs (treated with sgScr; Fig.
+7n,o
+), indicating VCAM1 is required for efficient acquisition of tMac-derived mitochondria. Consistent with this, we observed diminished ATP production in
+Vcam1
+-deficient LCs (Fig.
+7p
+). Moreover, deletion of
+Vcam1
+in LCs impaired testosterone production in sg
+Vcam1
+-treated mice (Fig.
+7q
+). Furthermore, we employed a monoclonal antibody to VCAM1 in cultured testicular tissue from
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice (Extended Data Fig.
+10f
+). Confocal imaging revealed that the antibody to VCAM1 inhibited mitochondria transfer from tMacs to LCs (Extended Data Fig.
+10g,h
+). Consistent with this, treatment with anti-VCAM1 impaired testosterone production in cultured testicular tissue (Extended Data Fig.
+10i
+). We applied a monoclonal antibody to ITGβ1 to cultured testis tissue from
+Cx3cr1
+GFP
+mice (Extended Data Fig.
+10j
+). Confocal imaging revealed that the antibody to ITGβ1 inhibited EV transfer from tMacs to LCs and similarly decreased testosterone production (Extended Data Fig.
+10k–m
+). Together, these genetic and pharmacological approaches demonstrate that
+Vcam1
+is critical for efficient mitochondrial uptake by LCs.
+Blockage of the tMac-to-LC mitochondrial transfer reduced the testis weight and thinned the seminiferous epithelium of
+Vcam1
+-deficient mice (Supplementary Fig.
+6a–c
+). Semen analyses revealed significant decreases in sperm count and motility (Fig.
+7r
+and Supplementary Fig.
+6d–f
+), and fertility was markedly compromised (Fig.
+7s,t
+). Beyond reproduction, gastrocnemius mass and myofiber cross-sectional area, forelimb grip strength and muscle endurance were all reduced in sg
+Vcam1
+-treated mice (Fig.
+7u,v
+and Supplementary Fig.
+6g–i
+). These findings indicate that mitochondrial transfer from tMacs to LCs is required for testosterone-dependent reproductive and somatic functions.
+Mitochondrial transfer network between Leydig cells and testicular macrophages declines with age
+We next investigated whether the mitochondrial transfer network deteriorates with age and whether this relates to reduced testosterone output. Serum testosterone progressively declined across 3-, 12- and 18-month-old mice, whereas LH increased (Fig.
+8a–c
+), indicating diminished testosterone-secreting capacity of LCs with advancing age.
+Fig. 8: Mitochondrial transfer network between Leydig cells and testicular macrophages declines with age.
+Full size image
+a
+, Experimental design overview.
+b
+, Serum LH levels of mice at the ages of 3, 12 and 18 months (
+n
+= 5 mice per group).
+c
+, Serum testosterone levels of mice at the ages of 3, 12 and 18 months (
+n
+= 5 mice per group).
+d
+, Experimental design overview. CD206
+hi
+tMacs were sorted from wild-type (WT) mice of different ages and then co-cultured with LCs from three-month-old
+Cyp17a1
+Cre
+; R26
+mitoD2
+(mitoD2) mice.
+e
+, Representative images of tMacs containing LC-derived mitochondria (mitoD2
++
+;
+n
+= 9 biological replicates per group). Dashed lines indicate boundary of tMacs. Arrowheads indicate LC-derived mitoD2
++
+mitochondria within tMacs. Scale bars, 15 μm (main images; top) and 10 μm (magnified views of the boxed regions; middle and bottom).
+f
+, Levels of mitoD2
++
+signal in tMacs (
+n
+= 9 biological replicates per group, 20 fields of view were captured and 100 cells were analysed for each biological replicate).
+g
+, Experimental design overview. Following sorting from WT mice of different ages, LCs were co-cultured with MHCII
+hi
+tMacs from three-month-old
+Cx3cr1
+CreER
+; R26
+mitoD2
+(mitoD2) mice treated with TAM.
+h
+, Representative images of LCs containing tMac-derived mitochondria (mitoD2
++
+;
+n
+= 9 biological replicates per group). Dashed lines indicate boundary of LCs. Arrowheads indicate tMac-derived mitoD2
++
+mitochondria within LCs. Scale bars, 10 μm (main images; top) and 5 μm (magnified views of the boxed regions; middle and bottom).
+i
+, Levels of mitoD2
++
+signals in LCs (
+n
+= 9 biological replicates per group, 20 fields of view were captured and at least 100 cells were analysed for each biological replicate).
+b
+,
+c
+,
+f
+,
+i
+, Data are the mean ± s.e.m. Statistical significance was determined using a one-way ANOVA. Schematic in
+a
+,
+d
+,
+g
+created in BioRender. Xia, K. (2026)
+https://biorender.com/jbc6wok
+. Source numerical data are provided.
+Source Data
+We then performed cross-age co-culture experiments to dissect the integrity of the mitochondrial transfer network. We co-cultured mitoD2
++
+LCs from young (3 months)
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice with CD206
+hi
+tMacs from mice of different ages (Fig.
+8d
+). The uptake of LC-derived mitochondria by tMacs was significantly impaired when the tMacs were from older mice (Fig.
+8e,f
+). Conversely, we co-cultured mitoD2
++
+MHCII
+hi
+tMacs from young (3 months)
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice with LCs from mice of different ages (Fig.
+8g
+). The efficiency of mitochondrial transfer into LCs markedly declined with the age of the recipient LCs (Fig.
+8h,i
+). Collectively, these results suggest that the mitochondrial transfer network between LCs and tMacs progressively decline in ageing.
+Discussion
+Mitochondrial transfer as a mechanism of cell-to-cell signalling is a rapidly advancing area of research, with numerous studies underscoring its critical role in tissue homeostasis and repair
+14
+,
+15
+,
+16
+. However, the majority of existing studies have focused on unidirectional mitochondrial transfer, with limited investigation into the potential for mitochondrial transfer network
+14
+,
+40
+. To our knowledge, such a mitochondrial transfer network wherein LCs not only eject defective mitochondria to CD206
+hi
+tMacs but also acquire functional mitochondria from MHCII
+hi
+tMacs to sustain mitochondrial fitness and cellular function has not been reported. Whereas a previous study revealed that exogenously transplanted stem LCs can prevent inflammatory cascades via mitochondrial transfer to tMacs in models of testicular ischaemia reperfusion and ageing
+41
+, our work delineates an endogenous mitochondrial transfer network between resident LCs and distinct tMac subsets. This interplay underscores the dynamic and cooperative nature of mitochondrial transfer within tissues, highlighting its potential role in sustaining cellular homeostasis and functional integrity.
+Our findings raise an intriguing question: why do LCs eject damaged mitochondria and require exogenous healthy mitochondria? Testosterone synthesis in LCs is an energy-intensive process that relies on highly functional mitochondria
+9
+,
+10
+yet ATP production and mitochondrial P450 activity intrinsically inflict oxidative damage on the organelle itself
+7
+,
+13
+. Traditional models suggest that defective mitochondrial clearance occurs exclusively in the cell
+42
+. Here we reveal a non-canonical pathway for mitochondrial elimination whereby testosterone-driven particles production enables LCs to extrude defective mitochondria into the extracellular space where they are subsequently cleared by CD206
+hi
+tMacs. This process of delegated mitochondrial clearance by tMacs seems to be an adaptive strategy that allows long-lived LCs to sustain continuous function throughout the lifespan of an organism
+7
+. In addition, continuously rebuilding mitochondrial reticulum or maintaining excess mitochondrial reserves would impose significant energy costs and compromise cellular efficiency
+43
+. Our findings suggest that LCs adopt an alternative strategy by utilizing intercellular mitochondrial transfer from MHCII
+hi
+tMacs, thereby meeting the high metabolic requirements of testosterone production more effectively. This complementary strategy may be particularly advantageous for cells like LCs, which are subjected to persistent physiological stress
+11
+,
+12
+,
+13
+. We propose that a similar reliance on mitochondrial transfer network may represent a widespread adaptation in other cell populations under physiological condition or stress, providing a more energy-efficient mechanism for maintaining cellular function.
+From a macrophage-centric perspective, the divergence between MHCII
+hi
+and CD206
+hi
+tMacs in mitochondrial transfer reflects antagonistic cellular programmes that are unlikely to coexist in a single state
+31
+,
+44
+. CD206
+hi
+tMacs are transcriptionally and functionally tuned for phagocytic quality control. They preferentially internalize damaged mitochondria from LCs and show GO terms consistent with endocytosis, phagocytosis and lysosomal degradation. In contrast, MHCII
+hi
+tMacs act as metabolic donors, packaging and exporting healthy mitochondria that raise the levels of ATP and testosterone in LCs. Collapsing degradation and donation in the same cell would couple high lysosomal flux with oxidative catabolism, which is optimal for degrading defective cargo but harmful to the preservation of donor-grade mitochondrial fitness and increases the risk of misrouting healthy organelles into degradative pathways
+45
+. Subset specialization minimizes these trade-offs and installs directional ‘valves’ within the reciprocal circuit. Together with established macrophage heterogeneity
+31
+, these findings provide a mechanistic rationale for retaining two tMac subsets in the adult testis.
+Although diverse structures, such as tunnelling nanotubes, have been implicated in mediating intercellular mitochondrial transfer
+14
+,
+46
+, the mechanisms by which mitochondria are taken up into cells remain poorly understood
+14
+. Here we found that EVs mediate the mitochondrial transfer network between LCs and tMacs. Unlike classical EVs
+47
+, the EVs characterized in this study encapsulate mitochondria. Specifically, LC-EVs share defining traits with exophers–a specific type of EVs known for transporting damaged mitochondria for extracellular disposal to manage mechanical and metabolic stress
+48
+. Moreover, adult neurons from
+Caenorhabditis elegans
+extrude large exophers to clear accumulating mitochondria that threaten neuronal homeostasis
+49
+. Similarly, accumulation of LC-EVs compromises mitochondrial ATP in LCs and reduces testosterone production, demonstrating the critical role of EV-mediated mitochondrial transfer in maintaining the mitochondrial fitness and functional integrity of LCs. Furthermore, tMac-EVs contained functional mitochondria and significantly enhanced both testosterone production and ATP levels in LCs. In contrast, disruption of the integrity of tMac-EVs by sonication or pharmacological blockage of oxidative phosphorylation abolished their ability to enhance testosterone synthesis and ATP production. These findings suggest that tMac-EVs with intact mitochondria, rather than their individual components such as lipids and proteins, are sufficient to promote testosterone production in LCs. In agreement with this, macrophages have been shown to resolve inflammatory pain by transferring EVs to sensory neurons at sites distant from inflammation
+21
+. Collectively, these findings support the idea that EVs are crucial mediators in mitochondrial transfer, facilitating both the disposal of defective mitochondria and the replenishment of healthy mitochondria.
+Mechanistically, we elucidated the molecular pathways that mediate mitochondrial transfer between LCs and the two tMac subpopulations using genetic and pharmacological tools. Our results indicate that TREM2 on CD206
+hi
+tMacs is essential for recognizing PS signals on LC-EVs and facilitating the phagocytosis of damaged mitochondria. TREM2, a single-pass transmembrane receptor of the immunoglobulin superfamily, promotes DAP12 phosphorylation on activation, thereby enhancing cell survival, modulating phagocytosis and suppressing inflammation
+37
+. Conditional deletion of
+Trem2
+in tMacs significantly impaired the uptake of LC-derived mitochondria in both in vitro and in vivo models, resulting in reduced testosterone production. Previous studies suggest that receptor–ligand interactions play a critical role in docking EVs to host cells
+21
+,
+50
+. We identified ITGβ1–VCAM1 interactions as key mediators of mitochondria-containing tMac-EV uptake by LCs. VCAM1 is traditionally known to be expressed on the surface of endothelial cells where it mediates cell adhesion by interacting with adhesion molecules on target cells
+51
+. Interestingly, VCAM1 is also recognized as a marker of LCs, although its specific role in these cells has not been well defined
+52
+. In this study we demonstrated that VCAM1 on LCs is crucial for the uptake of mitochondria-containing EVs. Deletion of
+Vcam1
+in LCs or treatment with a VCAM1-blocking antibody significantly impaired mitochondrial uptake, suggesting that VCAM1 confers specificity for the recognition of tMac-EVs. However, we cannot exclude the possibility that alternative mechanisms may also contribute to the observed mitochondrial transfer network between LCs and tMacs.
+Although this study highlights the critical role of the mitochondrial transfer network between LCs and tMacs, two important questions remain unresolved. First, the molecular signals that drive the formation and release of LC-EVs and tMac-EVs have yet to be fully elucidated. Understanding these signalling pathways will be crucial for a more comprehensive understanding of how mitochondrial transfer is regulated in these cell types. Second, although mitochondria were identified as key functional components, both EV populations contain additional cargos whose contributions cannot be excluded. Whether these non‑mitochondrial cargos within EVs also contribute to LC homeostasis and testosterone production remain important subjects for future investigation.
+In summary, this study identifies a mitochondrial transfer network between LCs and tMacs that is critical for testosterone production. We show that LCs release EVs containing defective mitochondria, which are cleared by CD206
+hi
+tMacs through a TREM2-dependent mechanism. Conversely, LCs acquire EVs containing functional mitochondria from MHCII
+hi
+tMacs via ITGβ1–VCAM1 interactions. These findings uncover an intercellular communication mechanism that is essential for maintaining mitochondrial fitness and cell functionality.
+Methods
+Animals
+Cyp17a1
+Cre
+(ref.
+53
+), R26
+tdTomato
+(ref.
+54
+),
+Cx3cr1
+CreER
+(ref.
+55
+),
+Pdgfra
+CreER
+(ref.
+56
+),
+Sma
+CreER
+(ref.
+57
+),
+Cx3cr1
+GFP
+(ref.
+58
+), R26
+mitoD2
+(ref.
+59
+), mTmG (ref.
+60
+),
+Trem2
+fl/fl
+(ref.
+61
+),
+Amh
+Cre
+(ref.
+62
+), R26
+Cas9-tdTomato
+(ref.
+63
+) and wild-type mice were maintained under controlled temperature (24 ± 1 °C) and relative humidity (50–60%) with a standard 12-h light-and-dark cycle for the duration of the study. Unless otherwise specified, all experiments were performed in 8-to-16-week-old male mice in a C57BL/6 background. For induction of Cre recombinase, TAM (Sigma-Aldrich) was dissolved in corn oil and administered via intraperitoneal injection at the indicated time points (75 mg kg
+−1
+body weight) for three consecutive days. All procedures were approved by the Institutional Animal Care and Use Committee of Sun Yat-Sen University (approval number SYSU-IACUC-2023-000189).
+Cell lines and culture conditions
+MA-10 cells (CRL-3050, American Type Culture Collection) were maintained in DMEM/F12 medium supplemented with 15% horse serum (Thermo Fisher), 1% penicillin–streptomycin and 1% GlutaMAX (Thermo Fisher) at 37 °C under 5% CO
+2
+. MA-10 cells were stably labelled with mitochondria-targeted DsRed by lentiviral transduction (mitoDsRed plasmid; WZ Biosciences). DsRed
++
+cells were isolated by flow cytometry four days after transduction (Beckman Coulter). Short hairpin RNA (shRNA) targeting
+Atg7
+,
+Kif5b
+or
+Myo6
+was designed using the BLOCK-iT RNAi Designer (Thermo Fisher) and synthesized by Tsingke Biotechnology (sh-
+Atg7
+) or Vigene Biosciences (sh-
+Kif5b
+and sh-
+Myo6
+). Lentiviral transduction was used to deliver shRNA into mitoDsRed
++
+MA-10 cells and GFP
++
+cells were sorted by flow cytometry four days post transduction for downstream assays. The shRNA sequences used are listed in Supplementary Table
+3
+.
+Tissue preparation, flow cytometry analysis and cell sorting
+Mice testes were cut into small pieces, and digested with 1 mg ml
+−1
+Collagenase IV (Gibco) and 200 μg ml
+−1
+DNase I (Gibco) in DMEM/F12 at 37 °C for 15 min with slow shaking (100 cycles min
+−1
+). After digestion, single-cell suspensions were obtained by gentle pipetting, filtered through a 70-μm strainer and centrifuged for 5 min at 256
+g
+and 4 °C. To isolate LCs from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice or sort tMacs from
+Cx3cr1
+GFP
+mice, the cell pellets were rinsed twice with PBS and then stained with a Zombie aqua fixable viability kit (BioLegend) for 15 min at 4 °C. To obtain LCs from wild-type mice, the digested cells were blocked with anti-FcR (Bioxcell) and then incubated with conjugated antibodies to CD45 and LHCGR along with Zombie aqua fixable viability kit for 15 min at 4 °C. To obtain tMacs from wild-type mice, the digested cells were blocked with anti-FcR and then incubated with conjugated antibodies to CD45, CD11b and F4/80 along with Zombie aqua fixable viability kit for 15 min at 4 °C. To separate CD206
+hi
+and MHCII
+hi
+tMacs from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+or
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice, the cell pellets were blocked with anti-FcR and then stained with conjugated antibodies to CD206 and MHCII along with Zombie aqua fixable viability kit for 15 min at 4 °C. Samples were acquired in a MoFlo Astrios EQ (Beckman Coulter) or CytoFLEX SRT (Beckman Coulter) cell sorter. The FlowJo software (FlowJo LLC) was used to analyse the data. The antibodies used are listed in Supplementary Table
+4
+.
+Primary cell-culture experiments
+Isolation of LCs and tMacs was performed by FACS as described in the previous section. The obtained primary LCs were cultured in DMEM/F12 medium containing 10% fetal bovine serum (Gibco) and 1% insulin–transferrin–sodium selenite (Thermo Fisher) in a 96-well plate at 37 °C with 5% CO
+2
+. The cultured LCs were treated with LC-EVs, tMac-EVs, sonicated tMac-EVs, mitochondrial inhibitor (1 μM antimycin A; Sigma-Aldrich)-pretreated EVs, CCCP (4 μM; Sigma-Aldrich) defective mitochondria, tMac-mito and sonicated tMac-mito for downstream assays. The cell supernatants were collected and stored at −80 °C until analysis. Testosterone production of LCs was standardized by cell number per well. The obtained primary tMacs were cultured in DMEM medium containing 10% fetal bovine serum at 37 °C with 5% CO
+2
+. For co-culture experiments, LCs were incubated with tMacs for 48 h in an 18-well IBIDI plate containing LCs medium and tMacs medium at 1:1 ratio. The specific fluorescence was visualized and photographed using an LSM980 Airyscan2 (Zeiss), LSM800 confocal (Zeiss) or Nikon spatial array confocal (NSPARC) microscope.
+Tissue-culture experiments
+Tissue-culture experiments were conducted as previously described by our group
+64
+. Briefly, testicular tissues were collected and mechanically cut into small (2–4 mm
+3
+) pieces. Three pieces of the tissue were placed in each well of a 12-well plate and cultured in DMEM/F12 medium containing 0.1% BSA (Gibco) and 1% insulin–transferrin–sodium selenite (Gibco) at 37 °C with 5% CO
+2
+. Where indicated, explants were incubated with TREM2 inhibitor (7.5 μg ml
+−1
+IA9; MedChemExpress), monoclonal antibody to VCAM1 (250 μg ml
+−1
+anti-VCAM1; Bioxcell) or monoclonal antibody to ITGβ1 (200 μg ml
+−1
+anti-ITGβ1; Bioxcell). At the end of culture, the tissues were subjected to fixation in 4% paraformaldehyde (PFA) and processed for immunofluorescence. The ability of the tissues to produce testosterone was assessed after 3 h of incubation with DMEM/F12 containing 0.1% BSA, 1 IU ml
+−1
+hCG, 10 μM 22-hydroxycholesterol (MedChemExpress) and 1% insulin–transferrin–sodium selenite (Gibco). The supernatants were collected for testosterone quantification. The tissues were collected and frozen in liquid nitrogen, followed by DNA quantification for statistical analysis.
+Treatment with hCG and degarelix
+Primary LCs were stimulated with hCG (10 IU l
+−1
+; Sigma-Aldrich) or PBS. The supernatants were harvested 1 h after stimulation for testosterone quantification and live cells were imaged by confocal microscopy 2 h after stimulation. To stimulate testosterone production in vivo, hCG was administered intraperitoneally to mice at a dose of 1 IU per mouse for the indicated times. Serum was collected 1 h post injection and testes were collected 4 h post injection for subsequent immunofluorescence analysis and testosterone assays, respectively. To suppress the hypothalamic–pituitary–gonadal axis in vivo, degarelix (40 mg kg
+−1
+; MedChemExpress) was administered subcutaneously to mice. Serum and testes were collected 48 h post injection for subsequent immunofluorescence analysis and testosterone assays, respectively.
+Preparation of LC-EVs and tMac-EVs for FACS
+This protocol is an adaptation of previously described protocols to obtain samples enriched in cardiac exophers
+48
+. Briefly, the testes were cut into small pieces, and digested with 1 mg ml
+−1
+Collagenase IV and 200 μg ml
+−1
+DNase I in DMEM/F12 at 37 °C for 15 min with slow shaking (100 cycles min
+−1
+). After digestion, single-cell suspensions were obtained by gentle pipetting. We used a strategy of serial centrifugation at 50, 300 and 650
+g
+to discard pellets and kept the supernatant for a final centrifugation at 3,000
+g
+and 4 °C for 5 min. Within the pellets of this fraction, we used the endogenous expression of tdTomato or GFP along with size and DRAQ5 (BioLegend) staining to define LC-EVs or tMac-EVs. The samples were analysed and sorted in an CytoFLEX SRT system. For immunofluorescence analysis, the materials obtained in each fraction were subjected to fixation in 4% PFA for 15 min and then incubated with DAPI (Thermo Fisher) for 5 min. The specific fluorescence was then visualized and photographed using a Leica DMi8 microscope.
+Detection of membrane particles
+We used WGA conjugated to Alexa Fluor 488 (AAT Bioquest) to stain the outer membrane of LC-EVs and WGA conjugated to Alexa Fluor 594 (AAT Bioquest) to label tMac-EVs as per the manufacturer’s instructions. Fluorescence of the suspension was then detected using a CytoFLEX SRT (Beckman Coulter) system and analysed using the FlowJo software.
+Proteomic analysis of LC-EVs and tMac-EVs
+Proteomic analysis of LC-EVs and tMac-EVs was performed by the Technology Center for Protein Sciences at Tsinghua University (Beijing, China) through a contracted service. Briefly, EVs were treated with sodium deoxycholate at a final concentration of 1% by mixing with a 10% sodium deoxycholate solution, followed by incubation at 98 °C for 10 min. The sample was then subjected to sonication using a non-contact ultrasonic disruptor to ensure complete disruption. Protein digestion was carried out with trypsin and LysC enzymes, followed by desalting. The processed samples were analysed using liquid chromatography with tandem mass spectrometry. Protein identification was performed using the UniProt mouse database (
+q
+value < 0.01). For functional analysis, the identified proteins were subjected to cellular component annotation using the DAVID Bioinformatics Resources (version 6.8) from the NIAID (
+https://david.ncifcrf.gov
+).
+Analysis of LC-EV and tMac-EV mitochondrial ratios by flow cytometry
+To detect mitochondrial content, LC-EVs were stained with MitoTracker Green (Thermo Fisher) and tMac-EVs were labelled with MTR (Thermo Fisher) or MitoTracker Deep Red (Thermo Fisher) as per the manufacturer’s instructions. Fluorescence of the suspension was then detected using a CytoFLEX SRT (Beckman Coulter) system and analysed using the FlowJo software.
+Analysis of MMP, ATP, mitochondrial ROS and morphology of cells or extracellular vesicles
+To compare the mitochondrial parameters of cells and EVs, primary LCs and tMacs were isolated from the testes of
+Cyp17a1
+Cre
+; R26
+mitoD2
+and
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice, respectively. These cells were stained with TMRE (50 nM; Thermo Fisher), MitoSOX red mitochondrial superoxide indicator (MitoSOX; 5 μM; Thermo Fisher) or BioTracker ATP-red live cell dye (ATP probe; 5 μM Sigma-Aldrich) at 37 °C for 15 min. After a single gentle wash, the cells and corresponding EV preparations were imaged using a Nikon NSPARC confocal microscope. Fluorescence intensities for TMRE, ATP probe and MitoSOX were quantified in single-mitochondrion regions of interest defined by mitoD2 masks using the Fiji software.
+To compare the mitochondrial parameters of CD206
+hi
+and MHCII
+hi
+tMacs, cell pellets from the testes of
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice were stained with conjugated antibodies to CD206 and MHCII with Zombie aqua fixable viability kit, TMRE (50 nM; Thermo Fisher) and MitoSOX (5 μM; Thermo Fisher) for 15 min at 37 °C after FcR blocking. Samples were acquired in a CytoFLEX SRT (Beckman Coulter) system and analysed using the FlowJo software. The isolated CD206
+hi
+and MHCII
+hi
+tMacs were cultured and stained with MTR or BioTracker ATP-red live cell dye (5 μM). The specific fluorescence was visualized and photographed using a LSM980 Airyscan2 microscope (Zeiss). A convolution filter in the ImageJ Fiji software was applied to digital images to isolate and normalize fluorescent pixels. Following thresholding, the form factor (perimeter² / 4π × area) and aspect ratio (major axis / minor axis) were calculated.
+To assess the MMP of EVs, the purified LC-EVs and tMac-EVs were incubated with MitoNIR (Abcam) for 20 min at 37 °C after treatment with oligomycin (10 mg ml
+−1
+; MedChemExpress) or FCCP (1 μM; MedChemExpress) for 3 h. MA-10 and RAW264.7 (CL-0190, Procell) cells were used as internal controls to assess treatment responsiveness. Data were acquired using the CytoFLEX SRT system and analysed using the FlowJo software.
+Isolation of mitochondria
+Mitochondria were isolated from LCs and tMacs using a Mitochondria isolation kit (Beyotime) according to the manufacturer’s protocol. Briefly, cells were lysed in ice-cold lysis buffer for 10 min at 4 °C. The lysate was then homogenized through 30 cycles in a glass homogenizer and centrifuged for 10 min at 1,000
+g
+and 4 °C. To improve purity, the resulting supernatant was mixed with cell lysis reagent and centrifuged again under the same conditions. Finally, the supernatant was collected and centrifuged for 10 min at 6,000
+g
+and 4 °C. The pellet, containing the isolated mitochondria, was resuspended in mitochondria storage buffer at an appropriate concentration for subsequent experiments.
+Light-sheet microscopy of whole testes
+Eight-week-old
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice were euthanized and immediately transcardially perfused with normal saline solution, followed by 4% PFA (Phygene). The testes were dissected and fixed overnight in 4% PFA at 4 °C, followed by extensive washing with PBS as described previously
+65
+. Briefly, the PFA-fixed testes were immersed in CUBIC-L solution with shaking at 37 °C for three days. The CUBIC-L was refreshed every 1–2 days during the delipidation. The samples were then immersed in CUBIC-R solution at room temperature for two days. The samples were finally embedded in 2% (wt/vol) agarose gel, prepared with CUBIC-R solution, and visualized with a light-sheet microscope (Nuohai Life Science). For imaging at ×6.3 effective magnification, each sample was scanned by one-tile light sheets axially at a 3.5-μm
+Z
+-step size to image the whole sample. For imaging at ×25 effective magnification, each sample was scanned by three-tile light sheets axially at a 3.5-μm
+Z
+-step size to image the whole sample. Post-acquisition, high-resolution raw data were downsampled and corrected using the Imaris 10.0 software to remove high-intensity artefacts arising from uneven light illumination during acquisition.
+Immunofluorescence of testicular tissue
+Immunofluorescence staining was conducted as previously reported by our group
+2
+. Mice were killed and perfused with a saline solution, after which the testes were collected into a 4% PFA solution. After 6 h in fixation solution at 4 °C, the samples were cryopreserved with 30% sucrose solution at 4 °C for 24 h. The tissues were soaked in Tissue-Tek O.C.T. Compound (Sakura Finetek), frozen and cryosectioned at a thickness of 10 μm (most) or 30 μm (for 3D reconstructions) using a frozen slicer (Leica CM1950). For intracellular protein detection, the sections were permeabilized with 0.3% Triton X-100 (Sigma-Aldrich) for 30 min. Non-specific binding of antibodies was blocked with 3% BSA (Sigma-Aldrich) for 45 min at room temperature and the slices were incubated overnight with primary antibodies at 4 °C. The sections were then washed three times with PBS and incubated with secondary antibodies at room temperature for 45 min in the dark, followed by 5 min with DAPI. Finally, the specific fluorescence was visualized and photographed using an LSM800 confocal (Zeiss), an LSM980 Airyscan2 (Zeiss) or a Dragonfly CR-DFLY-202-2540 (Andor) microscope. The primary and secondary antibodies used are listed in Supplementary Table
+4
+.
+Phosphatidylserine staining in live testicular sections
+Testes from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice were collected in excision buffer (1×HBSS and 5% fetal bovine serum at pH 7.4) and manually cut into small pieces (1–2 mm thick). The tissues were incubated with Annexin V–APC (Elabscience) in Annexin binding buffer (10 mM HEPES–NaOH pH 7.4, 140 mM NaCl and 2.5 mM CaCl
+2
+). For imaging, the slices were placed into glass Petri dishes containing fresh Annexin binding buffer and immobilized with a coverslip. Finally, images were quickly taken using an LSM980 confocal microscope.
+Transmission electron microscopy
+After anaesthesia, mice were perfused with cold saline, followed by fixative. Subsequently, the testicular tissues were sectioned into blocks of approximately 1 mm
+3
+in size, fixed at 4 °C overnight, and then subjected to sectioning and staining at the Biomedical Research Core Facilities, Westlake University (Hangzhou, China) through a contracted service. Briefly, the samples were post fixed in 1% osmium acid at room temperature in the dark for 2 h, rinsed three times and dehydrated sequentially using 30, 50, 70, 80, 95 and 100% alcohol. Following embedding in resin, the blocks were sectioned into 60–80-nm ultrathin slices and collected in 150-mesh copper grids. After staining, the samples were observed and imaged using a TEM microscope (FEI Tecnai Spirit).
+Mitochondrial cristae morphology was assessed using TEM micrographs and analysed using the ImageJ software. For each mitochondrion, the outer mitochondrial membrane and each crista were manually delineated using the Freehand tool. The total crista area was computed as the sum of all traced cristae and mitochondrial area as the outer mitochondrial membrane-enclosed area. Cristae abundance was expressed as crista area density (total crista area / mitochondrial area).
+Intravital two-photon microscopy
+Mice were anaesthetized by intraperitoneal injection of Avertin (250 mg kg
+−1
+body weight). The lower abdomen of the mice was carefully shaved and sterilized with ethanol and a topical application of povidone-iodine. A small incision was made in the lower abdomen using sterile surgical scissors under aseptic conditions. The testes were pulled out and attached to a specialized mould, which was kept moist with PBS, and carefully positioned for imaging. The system utilized detectors coupled to a resonant galvo scanner operating at a frequency of 12,000 Hz, with very short dwell times. These settings, along with relatively low laser power, were optimized to prevent photo-conversion of the mitoD2. Three-dimensional stacks consisting of multiple planes (0.5-μm step size) were captured every 2 min. The Imaris software was used to reconstruct 3D images, determine cellular localization with 3D positional mapping and generate movies derived from time-lapsed imaging.
+Three-dimensional reconstruction
+The acquired
+Z
+-stack image series were imported into the Imaris 10.0 software and analysed with the Surfaces module for fully automated 3D segmentation. Surface detection used a detail level of 0.25 µm to balance reconstruction precision and computational efficiency, ensuring fine structural features (≥100 nm) were retained. The segmentation thresholds were set based on absolute intensity values and validated across 3–5 representative samples to ensure consistent detection of target structures. After segmentation, 3D surface models were generated to render the spatial distribution of the target channel.
+Depletion of testicular macrophages
+Intraperitoneal injection of either vehicle or diphtheria toxin (Sigma) was used to deplete tMacs in
+Cd11b
+DTR
+transgenic mice. The mice were injected with three consecutive doses once every seven days. Using chemical methods, tMacs were cleared via intratesticular injection of CL
+2
+DMP-liposome (FormuMax Scientific) in unilateral testis. Immunofluorescence imaging of the macrophage marker IBA1 was performed to validate tMacs depletion.
+Adoptive transfer of testicular macrophages or Leydig cells
+For adoptive transfer of tMacs or LCs, host mice were anaesthetized with Avertin (250 mg kg
+−1
+body weight) by intraperitoneal injection. In the transplantation experiment of tMacs, tMacs were enriched from the indicated mice and then transplanted into hosts at a ratio of one donor to one recipient through intratesticular injection. Before injection, the host mice were subjected to intratesticular injection of 20 μl CL
+2
+DMP-liposome per testis to delete tMacs as described in the previous section. In the transplantation experiment of LCs, LCs were enriched from
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice and then transplanted into
+Cx3cr1
+CreER
+;
+Trem2
+fl/fl
+mice or their
+Cx3cr1
+CreER
+littermates at a ratio of one donor to one recipient through intratesticular injection.
+Generation of AAV vectors and gene delivery in animal models
+The AAV viral vectors were generated by PackGene Biotech. Briefly, 293T cells were transiently transfected with a GOI plasmid (pAAV-CAG-DIO-Lck-GFP, pAAV-CAG-mito–mCherry, pAAV-U6-sgScr or pAAV-U6-sg
+Vcam1
+), an adenovirus helper plasmid (pHelper) and an AAV helper plasmid (pAAV-RC; pAAVDJ). Recombinant AAV were collected 72 h post transfection by lysing the cells to release the virus particles into the supernatant. The vectors were aliquoted and stored at −80 °C until further use. The sgRNAs were designed by CRISPick (Broad Institute; sequences listed in Supplementary Table
+3
+).
+For interstitial injection of PBS or AAV vectors, we modified a previously reported method
+2
+. Briefly, mice were anaesthetized with Avertin by intraperitoneal injection. The scrotum of the mice was sterilized with ethanol and povidone-iodine. The mouse testes were manually immobilized trans-scrotally with fingers and AAV particles were injected into the testes using an insulin syringe (20 μl per testis; 2 × 10
+9
+genomic copies per testis). After injection, the needle was left inside the tissue for 1 min to allow the virus to spread within the testis.
+Single-cell RNA-sequencing analysis
+Adult mouse testicular scRNA-seq datasets were downloaded from the GEO database (
+GSE112393
+,
+GSE210368
+and
+GSE249819
+) and the OMIX repository (
+OMIX1000
+). Computational analyses were performed using the Seurat R package (v5.1.0). We filtered out low-quality cells using the following parameters: 200 < nFeature_RNA < 6,000, percent.mt < 15 and nCount_RNA < 20,000. The read counts per cell were normalized and the top 2,000 variable genes were identified using the variance stabilizing transformation method. Data normalization was followed by centring and scaling using the ‘ScaleData’ function. Principal component analysis was applied to the scaled data focusing on highly variable genes. Batch effects were corrected through canonical correlation analysis using the ‘IntegrateLayers’ function. Significant principal components were identified using the ‘ElbowPlot’ function and the first 30 principal components were retained for clustering and uniform manifold approximation and projection. Cell populations were annotated using known markers. Macrophages were extracted and reclustered for subpopulation analysis. Heat maps were generated with the ComplexHeatmap package (v2.16.0) and density plots were produced using the ‘plot_density’ function from the Nebulosa package (v1.0.1). Gene Set Enrichment Analysis on GO terms was performed using the ‘gseGO’ function in the clusterProfiler R package (v4.8.3). Enrichment was considered significant for terms with adjusted
+P
+< 0.05 and |normalized enrichment score| > 1. Ligand−receptor interactions were determined using CellChat (v2.1.2), with results visualized using the ‘LRplot’ function of iTALK (v0.1.0).
+ATP assay by luminescence
+ATP levels were measured using an ATP assay kit (Beyotime). Cells were rinsed in ice-cold PBS, lysed in kit buffer for 5 min on ice and the lysates were centrifuged at 12,000
+g
+and 4 °C for 5 min. Next, 100 µl working reagent was mixed with 20 µl sample or ATP standard and luminescence was recorded on a microplate luminometer (TECAN Sunrise) at 10-s integration. ATP concentrations were derived from a standard curve and normalized to protein measured using a BCA protein assay kit (Thermo Fisher).
+Sex hormone assays
+Sex hormone concentrations were assayed as previously reported by our group
+2
+. Serum and testes samples were collected at the indicated times and stored at −80 °C until analysis. Testosterone levels were measured using a chemiluminescent immuno-assay (KingMed Diagnostics). The coefficient of variation of the chemiluminescent immuno-assay is 2.0–5.1% for intra-assay precision and 2.6–5.2% for inter-assay precision. The minimum detectable dose of testosterone is 0.01 ng ml
+−1
+. The levels of LH were measured using a mouse LH ELISA kit (Cloud-Clon) following the manufacturer’s protocol. Absorbance was read at 450 ± 10 nm (TECAN Sunrise) and concentrations were calculated from standard curves.
+Computer-aided semen analysis
+Semen samples were analysed as previously reported
+66
+. Briefly, one cauda epididymis was excised from each mouse and incubated in 0.5 ml pre-warmed buffer containing 0.5% BSA (Sigma) for 15 min at 37 °C to allow sperm release. Tissue fragments were removed, the suspension was diluted as required and sperm parameters were quantified by computer-assisted semen analysis (Hamilton Thorne). For each sample, ≥6 non-overlapping fields were recorded and analysed to determine sperm concentration, total motility and progressive motility.
+Fertility analysis
+Fertility was assessed by continuous mating as described previously
+67
+. Sexually mature males were paired with two proven-fertile C57BL/6 females for 45 days under standard housing. The cages were inspected daily; litters and pups were recorded at parturition (P0–P1). Outcomes were calculated as the total number of litters sired and mean litter size (pups per litter) per male. Pregnancies present on day 45 were allowed to deliver to capture conceptions occurring within the co-housing window.
+Grip strength test
+Grip strength was measured following established protocols
+68
+. The meter (Chatillon) was positioned horizontally. For each trial, a mouse was lowered so that only the forepaws grasped the grid while the trunk was held parallel to the surface; the mouse was then pulled backward at a constant speed until release and the peak force was recorded. Each mouse performed three consecutive trials per round, followed by a 10 min rest; five rounds (15 trials total) were completed. The maximal grip strength for each mouse was defined as the mean of the three highest readings from the 15 trials.
+Endurance test
+Muscle endurance was assessed following established protocols
+68
+. Mice were placed on a square wire grid (1 cm spacing); the grid was inverted 40 cm above a padded surface, allowing four-limb suspension. Latency to fall was recorded within a testing window of up to 900 s. Each mouse completed three trials separated by rest intervals of 10 min. The mean latency across the three trials was used as the endurance measure.
+RNA extraction, complementary DNA synthesis and quantitative PCR with reverse transcription
+Total RNA was isolated using an RNeasy kit (Qiagen) according to the manufacturer’s instructions. The RNA quantity and purity were assessed using a NanoDrop 1000 system (Thermo Fisher). Complementary DNA was generated using a NovoScript first strand cDNA synthesis kit (Novoprotein). Quantitative PCR with reverse transcription was performed with LightCycler 480 SYBR Green I master (Roche) on a LightCycler 480 instrument (Roche). Melt-curve analysis confirmed single products without primer-dimer formation. Target mRNA levels were calculated using the Δ
+C
+t
+method and expressed relative to
+β-actin
+. The primers were designed by PrimerBank (Harvard University; sequences listed in Supplementary Table
+5
+).
+Western blots
+MA-10 cells were washed three times with ice-cold PBS and lysed in RIPA buffer (Beyotime) for 30 min on ice. The lysates were centrifuged at 13,000
+g
+and 4 °C for 10 min and the supernatants were collected. Protein concentration was determined using a BCA protein assay kit (Thermo Fisher). Equal amounts of protein were resolved by SDS–PAGE and transferred to 0.45-µm polyvinylidene fluoride membranes (Millipore). The membranes were blocked with 5% milk in TBST buffer, incubated overnight with primary antibodies at 4 °C, washed in TBST and incubated with horseradish peroxidase-conjugated secondary antibodies for 1 h at room temperature. Signals were developed with ECL (NCM) and imaged on a ChemiDoc system (Bio-Rad). The antibodies and dilutions used are listed in Supplementary Table
+4
+.
+Statistics and reproducibility
+Statistical analyses were performed utilizing the SPSS 29 software (IBM). For the bar and line plots, data are represented as the mean, with variability indicated by the s.e.m. and visualized using error bars. For the box plots, the box bounds depict the first to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values. For the violin plots, the data range from the minimum to the maximum values, with the middle line showing the median and accompanied by a kernel density plot rotated on both sides. Normality of data distribution was assessed using the Shapiro–Wilk test. Equal variances of data were tested using Levene’s test. Data derived from two different conditions were compared using a two-tailed Student’s
+t
+-test (normal distribution, equal variances), two-tailed Welch’s
+t
+-test (normal distribution, unequal variances) or Mann–Whitney
+U
+-test (non-normal distribution). For comparisons of three or more datasets, a one-way ANOVA, followed by Tukey’s or Dunnett’s multiple comparisons test (normal distribution, unequal variances), or Kruskal–Wallis test, followed by Dunn’s multiple comparisons test (non-normal distribution or unequal variances) were performed. For all statistical evaluations, a threshold of
+P
+< 0.05 was established for determining statistical significance. No statistical method was used to pre-determine sample size but our sample sizes are similar to those reported in previous publications
+18
+,
+63
+,
+67
+. For the in vivo experiments, mice were randomly assigned to different treatment groups. No data were excluded from the analyses. Data collection and analysis were not performed blind to the conditions of the experiments. Detailed statistical analyses have been provided (
+Source Data
+).
+Reporting summary
+Further information on research design is available in the
+Nature Portfolio Reporting Summary
+linked to this article.
+Data availability
+Adult mouse testicular scRNA-seq datasets were downloaded from the GEO database (
+GSE112393
+,
+GSE210368
+and
+GSE249819
+) and the OMIX repository (
+OMIX1000
+). Proteomic datasets for LC-EVs and tMac-EVs have been deposited into the ProteomeXchange (
+http://www.ebi.ac.uk/pride
+) under the accession codes
+PXD059780
+and
+PXD059652
+, respectively.
+Source data
+are provided with this paper. All other data supporting the findings of this study are available from the corresponding author on reasonable request.
+References
+Salonia, A. et al. Paediatric and adult-onset male hypogonadism.
+Nat. Rev. Dis. Primers
+5
+, 38 (2019).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Xia, K. et al. AAV-mediated gene therapy produces fertile offspring in the Lhcgr-deficient mouse model of Leydig cell failure.
+Cell Rep. Med.
+3
+, 100792 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Smith, L. B. & Walker, W. H. The regulation of spermatogenesis by androgens.
+Semin. Cell Dev. Biol.
+30
+, 2–13 (2014).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Bhasin, S. et al. Testosterone therapy in men with hypogonadism: an endocrine society clinical practice guideline.
+J. Clin. Endocrinol. Metab.
+103
+, 1715–1744 (2018).
+Article
+PubMed
+Google Scholar
+De Silva, N. L. et al. Male hypogonadism: pathogenesis, diagnosis, and management.
+Lancet Diabetes Endocrinol.
+12
+, 761–774 (2024).
+Article
+PubMed
+Google Scholar
+Wu, F. C. et al. Identification of late-onset hypogonadism in middle-aged and elderly men.
+N. Engl. J. Med.
+363
+, 123–135 (2010).
+Article
+CAS
+PubMed
+Google Scholar
+Zirkin, B. R. & Papadopoulos, V. Leydig cells: formation, function, and regulation.
+Biol. Reprod.
+99
+, 101–111 (2018).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Teerds, K. J. & Huhtaniemi, I. T. Morphological and functional maturation of Leydig cells: from rodent models to primates.
+Hum. Reprod. Update
+21
+, 310–328 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Hales, D. B. et al. Mitochondrial function in Leydig cell steroidogenesis.
+Ann. N. Y. Acad. Sci.
+1061
+, 120–134 (2005).
+Article
+CAS
+PubMed
+Google Scholar
+Midzak, A. S., Chen, H., Aon, M. A., Papadopoulos, V. & Zirkin, B. R. ATP synthesis, mitochondrial function, and steroid biosynthesis in rodent primary and tumor Leydig cells.
+Biol. Reprod.
+84
+, 976–985 (2011).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Garza, S. & Papadopoulos, V. Testosterone recovery therapy targeting dysfunctional Leydig cells.
+Andrology
+11
+, 816–825 (2023).
+Article
+CAS
+PubMed
+Google Scholar
+Peltola, V., Huhtaniemi, I., Metsa-Ketela, T. & Ahotupa, M. Induction of lipid peroxidation during steroidogenesis in the rat testis.
+Endocrinology
+137
+, 105–112 (1996).
+Article
+CAS
+PubMed
+Google Scholar
+Chen, H. & Zirkin, B. R. Long-term suppression of Leydig cell steroidogenesis prevents Leydig cell aging.
+Proc. Natl Acad. Sci. USA
+96
+, 14877–14881 (1999).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Borcherding, N. & Brestoff, J. R. The power and potential of mitochondria transfer.
+Nature
+623
+, 283–291 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Dong, L. F. et al. Mitochondria on the move: Horizontal mitochondrial transfer in disease and health.
+J. Cell Biol.
+222
+, e202211044 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Brestoff, J. R. et al. Recommendations for mitochondria transfer and transplantation nomenclature and characterization.
+Nat. Metab.
+7
+, 53–67 (2025).
+Article
+PubMed
+Google Scholar
+Suh, J. et al. Mitochondrial fragmentation and donut formation enhance mitochondrial secretion to promote osteogenesis.
+Cell Metab.
+35
+, 345–360 (2023).
+Article
+CAS
+PubMed
+Google Scholar
+Lin, R. Z. et al. Mitochondrial transfer mediates endothelial cell engraftment through mitophagy.
+Nature
+629
+, 660–668 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Hutto, R. A. et al. Cone photoreceptors transfer damaged mitochondria to Muller glia.
+Cell Rep.
+42
+, 112115 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Dallos, M. C. et al. Androgen deprivation therapy drives a distinct immune phenotype in localized prostate cancer.
+Clin. Cancer Res.
+30
+, 5218–5230 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+van der Vlist, M. et al. Macrophages transfer mitochondria to sensory neurons to resolve inflammatory pain.
+Neuron
+110
+, 613–626 (2022).
+Article
+PubMed
+Google Scholar
+Lennon, K. M. et al. Single molecule characterization of individual extracellular vesicles from pancreatic cancer.
+J. Extracell. Vesicles
+8
+, 1685634 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Domingo-Muelas, A. et al. Human embryo live imaging reveals nuclear DNA shedding during blastocyst expansion and biopsy.
+Cell
+186
+, 3166–3181 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Chitti, S. V. et al. Vesiclepedia 2024: an extracellular vesicles and extracellular particles repository.
+Nucleic Acids Res.
+52
+, D1694–D1698 (2024).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Rath, S. et al. MitoCarta3.0: an updated mitochondrial proteome now with sub-organelle localization and pathway annotations.
+Nucleic Acids Res.
+49
+, D1541–D1547 (2021).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Vargas, J. N. S., Hamasaki, M., Kawabata, T., Youle, R. J. & Yoshimori, T. The mechanisms and roles of selective autophagy in mammals.
+Nat. Rev. Mol. Cell Biol.
+24
+, 167–185 (2023).
+Article
+CAS
+PubMed
+Google Scholar
+Liu, P. et al. Mitopherogenesis, a form of mitochondria-specific ectocytosis, regulates sperm mitochondrial quantity and fertility.
+Nat. Cell Biol.
+25
+, 1625–1636 (2023).
+Article
+CAS
+PubMed
+Google Scholar
+Jiao, H. et al. Mitocytosis, a migrasome-mediated mitochondrial quality-control process.
+Cell
+184
+, 2896–2910 (2021).
+Article
+CAS
+PubMed
+Google Scholar
+Kruppa, A. J. & Buss, F. Motor proteins at the mitochondria-cytoskeleton interface.
+J. Cell Sci.
+134
+, jcs226084 (2021).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Gaertner, F. et al. Plasmacytoid dendritic cells control homeostasis of megakaryopoiesis.
+Nature
+631
+, 645–653 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Meinhardt, A., Dejucq-Rainsford, N. & Bhushan, S. Testicular macrophages: development and function in health and disease.
+Trends Immunol.
+43
+, 51–62 (2022).
+Article
+CAS
+PubMed
+Google Scholar
+Liu, M. M., Fan, C. Q. & Zhang, G. L. A single-cell landscape of spermioteleosis in mice and pigs.
+Cells
+13
+, 563 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Green, C. D. et al. A comprehensive roadmap of murine spermatogenesis defined by single-cell RNA-seq.
+Dev. Cell
+46
+, 651–667 (2018).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Kim, J. J. et al. Cell type-specific role of CBX2 and its disordered region in spermatogenesis.
+Genes Dev.
+37
+, 640–660 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Zhang, W. et al. A single-cell transcriptomic landscape of mouse testicular aging.
+J. Adv. Res.
+53
+, 219–234 (2023).
+Article
+CAS
+PubMed
+Google Scholar
+Zhang, K. et al. TREM2
+hi
+resident macrophages protect the septic heart by maintaining cardiomyocyte homeostasis.
+Nat. Metab.
+5
+, 129–146 (2023).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Deczkowska, A., Weiner, A. & Amit, I. The physiology, pathology, and potential therapeutic applications of the TREM2 signaling pathway.
+Cell
+181
+, 1207–1217 (2020).
+Article
+CAS
+PubMed
+Google Scholar
+Kelkar, D. S. et al. A chemical-genetic screen identifies ABHD12 as an oxidized-phosphatidylserine lipase.
+Nat. Chem. Biol.
+15
+, 169–178 (2019).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Mathieu, M., Martin-Jaular, L., Lavieu, G. & Thery, C. Specificities of secretion and uptake of exosomes and other extracellular vesicles for cell-to-cell communication.
+Nat. Cell Biol.
+21
+, 9–17 (2019).
+Article
+CAS
+PubMed
+Google Scholar
+Ikeda, H. et al. Immune evasion through mitochondrial transfer in the tumour microenvironment.
+Nature
+638
+, 225–236 (2025).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Chi, A. et al. Stem Leydig cells support macrophage immunological homeostasis through mitochondrial transfer in mice.
+Nat. Commun.
+15
+, 2120 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Uoselis, L., Nguyen, T. N. & Lazarou, M. Mitochondrial degradation: mitophagy and beyond.
+Mol. Cell
+83
+, 3404–3420 (2023).
+Article
+CAS
+PubMed
+Google Scholar
+Tan, A. S. et al. Mitochondrial genome acquisition restores respiratory function and tumorigenic potential of cancer cells without mitochondrial DNA.
+Cell Metab.
+21
+, 81–94 (2015).
+Article
+CAS
+PubMed
+Google Scholar
+Park, M. D., Silvin, A., Ginhoux, F. & Merad, M. Macrophages in health and disease.
+Cell
+185
+, 4259–4279 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Settembre, C. & Perera, R. M. Lysosomes as coordinators of cellular catabolism, metabolic signalling and organ physiology.
+Nat. Rev. Mol. Cell Biol.
+25
+, 223–245 (2024).
+Article
+CAS
+PubMed
+Google Scholar
+Baldwin, J. G. et al. Intercellular nanotube-mediated mitochondrial transfer enhances T cell metabolic fitness and antitumor efficacy.
+Cell
+187
+, 6614–6630 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+van Niel, G. et al. Challenges and directions in studying cell-cell communication by extracellular vesicles.
+Nat. Rev. Mol. Cell Biol.
+23
+, 369–382 (2022).
+Article
+PubMed
+Google Scholar
+Nicolas-Avila, J. A. et al. A network of macrophages supports mitochondrial homeostasis in the heart.
+Cell
+183
+, 94–109 (2020).
+Article
+CAS
+PubMed
+Google Scholar
+Melentijevic, I. et al.
+C. elegans
+neurons jettison protein aggregates and mitochondria under neurotoxic stress.
+Nature
+542
+, 367–371 (2017).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Rosina, M. et al. Ejection of damaged mitochondria and their removal by macrophages ensure efficient thermogenesis in brown adipose tissue.
+Cell Metab.
+34
+, 533–548 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Liu, M. et al. Brain ischemia causes systemic Notch1 activity in endothelial cells to drive atherosclerosis.
+Immunity
+57
+, 2157–2172 (2024).
+Article
+CAS
+PubMed
+Google Scholar
+Strauss, L. et al. Increased exposure to estrogens disturbs maturation, steroidogenesis, and cholesterol homeostasis via estrogen receptor α in adult mouse Leydig cells.
+Endocrinology
+150
+, 2865–2872 (2009).
+Article
+CAS
+PubMed
+Google Scholar
+Bridges, P. J. et al. Generation of Cyp17iCre transgenic mice and their application to conditionally delete estrogen receptor alpha (Esr1) from the ovary and testis.
+Genesis
+46
+, 499–505 (2008).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Madisen, L. et al. A robust and high-throughput Cre reporting and characterization system for the whole mouse brain.
+Nat. Neurosci.
+13
+, 133–140 (2010).
+Article
+CAS
+PubMed
+Google Scholar
+Sahasrabuddhe, V. & Ghosh, H. S. Cx3Cr1–Cre induction leads to microglial activation and IFN-1 signaling caused by DNA damage in early postnatal brain.
+Cell Rep.
+38
+, 110252 (2022).
+Article
+CAS
+PubMed
+Google Scholar
+Chung, M. I., Bujnis, M., Barkauskas, C. E., Kobayashi, Y. & Hogan, B. L. M. Niche-mediated BMP/SMAD signaling regulates lung alveolar stem cell proliferation and differentiation.
+Development
+145
+, dev163014 (2018).
+Article
+PubMed
+PubMed Central
+Google Scholar
+Grcevic, D. et al. In vivo fate mapping identifies mesenchymal progenitor cells.
+Stem Cells
+30
+, 187–196 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Jung, S. et al. Analysis of fractalkine receptor CX(3)CR1 function by targeted deletion and green fluorescent protein reporter gene insertion.
+Mol. Cell Biol.
+20
+, 4106–4114 (2000).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Pham, A. H., McCaffery, J. M. & Chan, D. C. Mouse lines with photo-activatable mitochondria to study mitochondrial dynamics.
+Genesis
+50
+, 833–843 (2012).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Muzumdar, M. D., Tasic, B., Miyamichi, K., Li, L. & Luo, L. A global double-fluorescent Cre reporter mouse.
+Genesis
+45
+, 593–605 (2007).
+Article
+CAS
+PubMed
+Google Scholar
+Gao, H. et al. Distinct myeloid population phenotypes dependent on TREM2 expression levels shape the pathology of traumatic versus demyelinating CNS disorders.
+Cell Rep.
+42
+, 112629 (2023).
+Article
+CAS
+PubMed
+Google Scholar
+Shen, Z. et al. Inactivation of JNK signalling results in polarity loss and cell senescence of Sertoli cell.
+Cell Prolif.
+58
+, e13760 (2025).
+Article
+CAS
+PubMed
+Google Scholar
+Yao, S. et al. Nestin-dependent mitochondria–ER contacts define stem Leydig cell differentiation to attenuate male reproductive ageing.
+Nat. Commun.
+13
+, 4020 (2022).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Xia, K. et al. Single-cell RNA sequencing reveals transcriptomic landscape and potential targets for human testicular ageing.
+Hum. Reprod.
+39
+, 2189–2209 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Susaki, E. A. et al. Versatile whole-organ/body staining and imaging based on electrolyte-gel properties of biological tissues.
+Nat. Commun.
+11
+, 1982 (2020).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Xia, K. et al. Precise correction of Lhcgr mutation in stem Leydig cells by prime editing rescues hereditary primary hypogonadism in mice.
+Adv. Sci.
+10
+, e2300993 (2023).
+Article
+Google Scholar
+Ku, A. F. et al. Reversible male contraception by targeted inhibition of serine/threonine kinase 33.
+Science
+384
+, 885–890 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Zhang, S. et al. AAV-mediated gene therapy restores natural fertility and improves physical function in the Lhcgr-deficient mouse model of Leydig cell failure.
+Cell Prolif.
+57
+, e13680 (2024).
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Download references
+Acknowledgements
+We thank the Core Facility of Medical Science (Guangzhou Campus), Sun Yat-sen University for its help in equipment use and data analysis. We thank Y. Guan, Y. Tang, X. Li, Y. Wang, Q. Wu, J. Li, Y. Lin and Y. Wang for providing technical assistance. This work was supported by the National Key Research and Development Program of China (grant number 2022YFA1104100 to A.P.X.), National Natural Science Foundation of China (grant numbers 82430050 and 32130046 to A.P.X., 82371611 to K.X., 82371609 to C.D., 82200876 to Y.G. and 82471689 to Q.K.), Natural Science Foundation of Guangdong Province (grant numbers 2024A1515013290 to Y.G., 2024A1515012367 to Q.K. and 2023B1515020108 to G.L.), Guangdong Basic and Applied Basic Research Foundation (grant number 2023B1515120032 to C.D.), Key Scientific and Technological Program of Guangzhou City (grant number 2023B01J1002 to A.P.X.), Special Funds for the Cultivation of Guangdong College Students’ Scientific and Technological Innovation (grant number pdjh2025ak003 to S.Z.) and Sanming Project of Medicine in Shenzhen Nanshan (grant number SZSM202103012 to A.P.X.).
+Author information
+Author notes
+These authors contributed equally: Kai Xia, Suyuan Zhang, Hao Peng, Hainan Chen.
+Authors and Affiliations
+Department of Urology and Andrology, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, China
+Kai Xia, Jiajie Yu, Ziran Dai & Chunhua Deng
+Center for Stem Cell Biology and Tissue Engineering, Key Laboratory for Stem Cells and Tissue Engineering, Ministry of Education, Sun Yat-sen University, Guangzhou, China
+Kai Xia, Suyuan Zhang, Hao Peng, Cuifeng Yang, Yifei Xiong, Lerong Zhao, Lu Li, Yuan Qiu, Congyuan Liu, Hang Fan, Qiong Ke, Tao Wang, Weiqiang Li, Chunhua Deng & Andy Peng Xiang
+National-Local Joint Engineering Research Center for Stem Cells and Regenerative Medicine, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou, China
+Kai Xia, Suyuan Zhang, Hao Peng, Qiong Ke, Tao Wang, Weiqiang Li & Andy Peng Xiang
+Center of Stem Cell and Regenerative Medicine, Gaozhou People’s Hospital, Gaozhou, China
+Hainan Chen & Li Huang
+Reproductive Medicine Center, The Key Laboratory for Reproductive Medicine of Guangdong Province, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, China
+Peng Luo
+Department of Rehabilitation Medicine, The Third Affiliated Hospital, Sun Yat-Sen University, Guangzhou, China
+Qiying Lu
+Center for Stem Cells Translational Medicine, Shenzhen Qianhai Shekou Free Trade Zone Hospital, Shenzhen, China
+Hong Chen
+Department of Reproductive Medicine Center, Guangdong Engineering Technology Research Center of Fertility Preservation, The Sixth Affiliated Hospital, Sun Yat-sen University, Guangzhou, China
+Lei Jia & Guihua Liu
+Department of Endocrinology and Diabetes Center, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, China
+Yan Guo & Haipeng Xiao
+Hospital of Stomatology, Guanghua School of Stomatology, Sun Yat-sen University, Guangzhou, China
+Lili Chen
+Authors
+Kai Xia
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Suyuan Zhang
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Hao Peng
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Hainan Chen
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Cuifeng Yang
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Jiajie Yu
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Peng Luo
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Qiying Lu
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Hong Chen
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Li Huang
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Yifei Xiong
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Lerong Zhao
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Lei Jia
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Lu Li
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Yuan Qiu
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Yan Guo
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Congyuan Liu
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Hang Fan
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Ziran Dai
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Guihua Liu
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Qiong Ke
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Tao Wang
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Weiqiang Li
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Lili Chen
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Chunhua Deng
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Haipeng Xiao
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Andy Peng Xiang
+View author publications
+Search author on:
+PubMed
+Google Scholar
+Contributions
+K.X., S.Z., H.P. and H.C. performed most of the experiments. C.Y., Y.X., L.J. and Y.Q. assisted with the animal experiments. J.Y. performed bioinformatic analysis. H.C. and Q.L. performed tissue cleaning and statistical analysis. C.L., L.H., L.L. and P.L. helped with the immunofluorescence staining. Y.G. and H.F. assisted with the design of the viral vector and with flow cytometry. L.Z. and Z.D. performed the sex hormone analysis. G.L., Q.K. and T.W. helped with the intravital two-photon microscopy. W.L., C.D. and H.X. assisted with the experimental design. K.X. and A.P.X. wrote the manuscript with feedback from all co-authors. A.P.X., H.X., C.D. and L.C. conceived the project and supervised all experiments.
+Corresponding authors
+Correspondence to
+Lili Chen
+,
+Chunhua Deng
+,
+Haipeng Xiao
+or
+Andy Peng Xiang
+.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Peer review
+Peer review information
+Nature Cell Biology
+thanks Jonathan Brestoff, Jiri Neuzil, Ning Wang and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.
+Peer reviewer reports
+are available.
+Additional information
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Extended data
+Extended Data Fig. 1 LCs release extracellular particles in response to testosterone production.
+a
+, Schematic diagram depicts experimental design.
+b
+, The gating strategy of primary LCs sorting by FACS.
+c
+, Representative images of primary tdTomato
++
+LCs stained with CYP17A1, F4/80 and DAPI (
+n
+= 5 biological replicates). Scale bar, 10 μm.
+d
+, Quantification of the proportion of CYP17A1
++
+LCs among tdTomato
++
+cells (
+n
+= 5 biological replicates).
+e
+, Schematic diagram depicts experimental design. Primary LCs were treated with PBS (Con) or hCG (10 IU/L).
+f
+, Representative confocal images of primary LCs showing LC-derived particles (
+n
+= 4 biological replicates per group). Scale bars, 10 μm. Inset shows boxed regions that are magnified. Scale bars, 5 μm.
+g
+, Schematic diagram depicts the experimental design. Mice received i.p. injections of saline (Con) or hCG (1 IU/mouse).
+h
+, Representative confocal images of testicular sections from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice, illustrating the presence of LCs and LC-derived particles (
+n
+= 4 mice per group per group). Scale bars, 5 μm. Inset shows boxed regions that are magnified. Scale bars, 2 μm.
+i
+, Schematic diagram depicts experimental design.
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice received i.p. injections of saline (Con) or LH (50 μg/mouse).
+j
+, The serum testosterone concentrations were analysed in the mice treated with saline (Con) or LH (
+n
+= 6 mice per group).
+k
+, Representative confocal images of testicular sections from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice, illustrating the presence of LCs and LC-derived particles. Scale bars, 3 μm. Inset shows boxed regions that are magnified. Scale bars, 1 μm.
+l
+, The number of particles were quantified in the two groups (
+n
+= 6 mice per group). Data are represented by mean ± SEM (
+d
+,
+j
+,
+l
+). Significances were determined using Two-tailed Welch’s
+t
+-test (
+j
+) or Two-tailed Student’s
+t
+-test (
+l
+). Schematics in
+a
+,
+e
+,
+g
+,
+i
+created in BioRender. Xia, K. (2026)
+https://biorender.com/y8vgwsu
+. Source numerical data are provided.
+Source Data
+Extended Data Fig. 2 LCs are interdigitated with tMacs in adult testes.
+a
+, Distance between LCs and tMacs, Stromal cells, Myoid cells, and Sertoli cells in Fig.
+1i
+(
+n
+= 50 LCs from 3 mice).
+b
+, Illustration of tissue clearing and imaging of testes from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice.
+c
+, Bright field images of the whole testis before and after clearing from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice. Scale bars, 2.5 mm.
+d
+, 3D reconstructed light-sheet images of the cleared whole testis, showing the distribution of LCs (tdTomato
++
+) and tMacs (GFP
++
+). Scale bars, 1 mm (left), 100 μm (middle), 60 μm (right).
+e
+, Representative confocal images and 3D reconstructions of the cross section of the testis from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice (
+n
+= 3 mice). The testes sections were counterstained with DAPI. Scale bars, 500 μm (left), 50 μm (middle), 10 μm (right).
+f
+, Flow cytometry analysis showing the percentage of tdTomato
++
+particles within CD45
++
+CD11b
++
+F4/80
++
+tMacs in saline-treated (Con) or hCG-treated mice (hCG); WT were used as a negative control (
+n
+= 5 mice per group). Data are represented by mean ± SEM (
+a
+). Significances were determined using Kruskal–Wallis test (
+a
+). Schematic in
+b
+created in BioRender. Xia, K. (2026)
+https://biorender.com/wurmnz4
+. Source numerical data are provided.
+Source Data
+Extended Data Fig. 3 Isolation and characterization of LC-EVs.
+a
+, Experimental design for purifying LC-EVs by serial centrifugation and FACS.
+b
+, The gating strategy for sorting LC-EVs by FACS in the 3,000
+g
+pellets from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice.
+c
+, Representative images of pellets from the 50, 300, 650, and 3,000
+g
+fractions, respectively (
+n
+= 3 biological replicates). Scale bars, 50 μm (50
+g
+, 300
+g
+, and 650
+g
+), 2 μm (3,000
+g
+).
+d
+, Experimental strategy to label LCs membranes by intratesticular injection of AAV-DIO-Lck–EGFP into the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice.
+e
+, Representative confocal images of the testes from AAV-DIO-Lck–EGFP-injected
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice. The testes sections were counterstained with DAPI (
+n
+= 5 mice). Scale bar, 50 μm.
+f
+, Percentage of LCs infected with AAV-DIO-Lck–EGFP (
+n
+= 5 mice). Data are represented as mean ± SEM (
+f
+). Schematics in
+a
+,
+d
+created in BioRender. Xia, K. (2026)
+https://biorender.com/xlb1vjy
+. Source numerical data are provided.
+Source Data
+Extended Data Fig. 4 Defective mitochondria are preferentially extruded by evading MYO6-mediated retention.
+a
+, Representative western blot images of MA-10 cells stably transfected with either a non-targeting scrambled shRNA (sh-Scr) or an shRNA targeting the
+Kif5b
+gene (sh-
+Kif5b
+) (
+n
+= 3 biological replicates per group).
+b
+, Quantification of KIF5B protein levels in MA-10 from the two groups (
+n
+= 3 biological replicates per group).
+c
+, Representative western blot images of MA-10 cells stably transfected with either a non-targeting scrambled shRNA (sh-Scr) or an shRNA targeting the
+Myo6
+gene (sh-
+Myo6
+) (
+n
+= 3 biological replicates per group).
+d
+, Quantification of MYO6 protein levels in MA-10 from the two groups (
+n
+= 3 biological replicates per group).
+e
+, Representative immunofluorescence images of the MA-10 cells from different groups (
+n
+= 4 biological replicates per group). Scale bars, 15 μm. Inset shows boxed regions that are magnified. Scale bars, 5 μm.
+f
+, Flow cytometry analysis of the proportion of mitoDsRed
++
+particles among the GFP
++
+particles secreted by MA-10 in sh-Scr, sh-
+Kif5b
+or sh-
+Myo6
+groups (
+n
+= 4 biological replicates per group).
+g
+, Quantification of mitoDsRed
++
+GFP
++
+particles by flow cytometry (
+n
+= 4 biological replicates per group).
+h
+, The gating strategy for MA-10 mitochondria with low TMRE (the lower 20%) and high TMRE (the higher 20%) via FACS after hCG (10 IU/L) treatment. TMRE was used to stain for MMP. mito, TMRE
++
+mitochondria; L, low TMRE; H, high TMRE (
+n
+= 3 biological replicates).
+i
+, Detection and quantification of the mean fluorescence intensity (MFI) of KIF5B–AF488 in low TMRE or high TMRE mitochondria (
+n
+= 3 biological replicates per group).
+j
+, Detection and quantification of the MFI of MYO6–AF488 in the two groups by flow cytometry (
+n
+= 3 biological replicates per group).
+k
+, Representative confocal images of the testes from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice. The testes sections were counterstained with F4/80 and early endosome marker (RAB5) (
+n
+= 3 mice). Scale bars, 2 μm.
+l
+, Representative confocal images of the testes from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice. The testes sections were counterstained with F4/80 and late endosome marker (RAB7) (
+n
+= 3 mice). Scale bars, 2 μm. Data are represented by mean ± SEM (
+b
+,
+d
+,
+g
+,
+i
+,
+j
+). Significances were determined using one-way ANOVA (
+g
+) or Two-tailed Student’s
+t
+-test (
+b
+,
+d
+,
+i
+,
+j
+). Source numerical data and unprocessed blots are provided.
+Source data
+Extended Data Fig. 5 LC-EVs transport defective mitochondria to CD206hi tMacs.
+a
+, Schematic diagram depicts experimental design. Adult
+Cd11b
+DTR
+mice were weekly injected with vehicle (vehicle) or Diphtheria Toxin (DT) for a total of 3 consecutive injections, and testes were collected for analysis 7 days after the last injection.
+b
+, Representative confocal images of the testes. The testes sections were stained with IBA1 (
+n
+= 6 mice per group). Scale bars, 20 μm.
+c
+, Quantification of the number of tMacs between the 2 groups (
+n
+= 6 mice per group).
+d
+, Intratesticular testosterone levels of mice between the 2 groups (
+n
+= 6 mice per group).
+e
+, Schematic diagram depicts experimental design. Adult
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice were unilaterally injected liposome-clodronate (CL
+2
+DMP) into the testis to deplete tMacs, while the contralateral testis was injected with control liposome (Con). The analyses were performed at indicated time points.
+f
+, Representative images of testis stained with IBA1 21 days after liposome injection (
+n
+= 5 mice per group). Scale bars, 50 μm.
+g
+, The number of tMacs at 21 days after liposome injection between the 2 groups (
+n
+= 5 mice per group).
+h
+, Intratesticular testosterone levels of mice at the indicated times after liposome injection between the 2 groups (
+n
+= 4 mice per group).
+i
+, The gating strategy for sorting CD206
+hi
+tMacs and MHCII
+hi
+tMacs from
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice.
+j
+, Representative images of testis from
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice stained with CD206 and MHCII (
+n
+= 5 mice). Scale bars, 5 μm. Inset shows boxed regions that are magnified. Scale bars, 2 μm.
+k
+, Percentage of CD206
+hi
+tMacs and MHCII
+hi
+tMacs containing LC-EVs (
+n
+= 5 mice).
+l
+, Representative fluorescence micrographs of WT mice stained with CD206, MHCII, and CYP17A1 to detect the distance between LCs and tMacs subsets (
+n
+= 3 mice). Scale bars, 20 μm.
+m
+, Distance between LCs and CD206
+hi
+tMacs, MHCII
+hi
+tMacs (
+n
+= 50 LCs from 3 mice). Data are represented by box plots (
+c
+,
+d
+,
+g
+) or mean ± SEM (
+k
+,
+m
+). Box plots: the box bounds depict the first quartile to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values. Significances were determined by Two-tailed Student’s
+t
+-test (
+c
+,
+d
+,
+g
+), Two-tailed paired
+t
+-test (
+h
+), Two-tailed Welch’s
+t
+-test (
+k
+) or Two-tailed Mann–Whitney U-test (
+m
+). Schematics in
+a
+,
+e
+created in BioRender. Xia, K. (2026)
+https://biorender.com/k1crpuu
+. Source numerical data are provided.
+Source Data
+Extended Data Fig. 6 TREM2 is a phagocytic receptor for LC-EVs.
+a
+, Schematic diagram depicts experimental design.
+Cx3cr1
+CreER
+(Con) or
+Cx3cr1
+CreER
+;
+Trem2
+fl/fl
+(cKO) mice were treated with TAM, and then analysed at indicated time points.
+b
+, Quantitative RT-PCR analysis of
+Trem2
+expression in Con or cKO mice 14 days after treatment with TAM (
+n
+= 3 mice per group).
+c
+, Representative images of testes stained with TREM2 and F4/80 in Con or cKO mice 14 days after injections of TAM (
+n
+= 5 mice per group). Scale bars, 5 μm.
+d
+, Quantification of TREM2 expression on tMacs (
+n
+= 5 mice per group).
+e
+, Schematic diagram depicts experimental design. tMacs were sorted from Con or cKO mice, and then co-cultured with mitoD2
++
+LCs isolated from
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice, respectively.
+f
+, Representative images of Con-tMacs and cKO-tMacs co-cultured with mitoD2
++
+LCs for 24 h (
+n
+= 5 biological replicates per group). Scale bars, 5 μm.
+g
+, Percentage of tMacs containing mitoD2
++
+signals (
+n
+= 5 biological replicates per group).
+h
+, Representative TEM images of testes from Con or cKO mice (
+n
+= 4 mice per group). Scale bars, 1 μm. Inset shows boxed regions that are magnified. Scale bars, 200 nm.
+i
+, Quantification of the ratio of cristae area to mitochondrial area (
+n
+= 80 mitochondria within LCs and LC-EVs from 4 mice for each group).
+j
+, Quantification of the number of mitochondria within LC-EVs (
+n
+= 4 mice per group, 5 view fields were captured and 2,000 μm
+2
+images were analysed for each mouse).
+k
+, Schematic diagram depicts experimental design. Testes tissues from
+Cyp17a1
+Cre
+; R26
+mitoD2
+mice were cultured with vehicle (Con) or TREM2 inhibitor IA9 (IA9) for 48 h before analysis.
+l
+, Representative confocal images of testes tissues cultured with Con or IA9. Testes sections were immunostained with F4/80 (
+n
+= 4 biological replicates per group). Scale bars, 3 μm.
+m
+, Percentage of tMacs containing mitoD2
++
+signals (
+n
+= 4 biological replicates per group).
+n
+, The concentrations of testosterone in the supernatant of cultured testes tissue treated with Con or IA9 (
+n
+= 5 biological replicates per group). Data are represented by mean ± SEM (
+b
+,
+j
+), box plots (
+d
+,
+g
+,
+m
+,
+n
+), or violin plots (
+i
+). Box plots: the box bounds depict the first quartile to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values. Significances were determined by Two-tailed Student’s
+t
+-test (
+b
+,
+g
+,
+j
+,
+m
+), Two-tailed Welch’s
+t
+-test (
+d
+,
+n
+), or Two-tailed Mann–Whitney U-test (
+i
+). Schematics in
+a
+,
+e
+,
+k
+created in BioRender. Xia, K. (2026)
+https://biorender.com/begwixv
+. Source numerical data are provided.
+Source Data
+Extended Data Fig. 7 Testosterone production induces intercellular transfer of materials from tMacs to LCs.
+a
+, Representative confocal images of cells that transfer tdTomato
++
+particles to LCs in TAM-induced
+Cx3cr1
+CreER
+; R26
+tdTomato
+mice,
+Sma
+CreER
+; R26
+tdTomato
+mice,
+Pdgfra
+CreER
+; R26
+tdTomato
+mice and
+Amh
+Cre
+; R26
+tdTomato
+mice (From left to right). Testes sections were immunostained for CYP17A1 and counterstained with DAPI (
+n
+= 4 mice per group). Scale bars, 10 μm. Inset shows boxed regions that are magnified. Scale bars, 2 μm.
+b
+, Quantification of the percentage of LCs that phagocytosed particles originating from indicated cell types (
+n
+= 4 mice per group).
+c
+, Representative confocal images and 3D reconstruction of LCs taking up GFP
++
+tMac particles from the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice. These mice were injected i.p. with Saline (Con) or hCG (1 IU/mouse) (
+n
+= 3 mice per group). Scale bars, 3 μm. 3D reconstruction shows Inset boxed regions that are magnified, scale bars, 3 μm.
+d
+, The percentage of LCs uptake tMac-derived particles (
+n
+= 3 mice per group).
+e
+, The experimental design is illustrated in the schematic diagram.
+Cx3cr1
+GFP
+mice were injected i.p. with Saline (Con) or hCG (1 IU/mouse). Testicular single-cell suspensions were then prepared, and LCs were labelled with antibodies for subsequent analysis.
+f
+, The percentage of LCs that acquired tMac-derived particles was determined by flow cytometry (
+n
+= 5 biological replicates per group).
+g
+, The percentage of LCs that acquired tMac-derived particles (
+n
+= 5 biological replicates per group).
+h
+, Serum LH in
+Cyp17a1
+Cre
+; R26
+tdTomato
+;
+Cx3cr1
+GFP
+mice at 96 h after Saline (Con) or degarelix (40 mg/kg) treatment (
+n
+= 6 mice per group).
+i
+, Testosterone levels in mice from the 2 groups (
+n
+= 6 mice per group).
+j
+, Representative confocal images of the testes from the 2 groups (
+n
+= 6 mice per group). Scale bars, 7 μm. Inset shows boxed regions that are magnified. Scale bar, 2 μm. Inset shows boxed regions that are magnified. Scale bar, 2 μm.
+k
+, Percentage of LCs containing tMac-derived particles in mice from the 2 groups (
+n
+= 6 mice per group). Data are represented by mean ± SEM (
+b
+,
+d
+,
+g
+,
+h
+,
+i
+,
+k
+). Significances were determined using one-way ANOVA (
+b
+), Two-tailed Student’s
+t
+-test (
+d
+,
+g
+,
+k
+), or Two-tailed Welch’s
+t
+-test (
+h
+,
+i
+). Schematics in
+a
+,
+e
+created in BioRender. Xia, K. (2026)
+https://biorender.com/6urrzth
+. Source numerical data are provided.
+Source Data
+Extended Data Fig. 8 Isolation and characterization of tMac-EVs.
+a
+, Experimental design for enriching and purifying tMac-EVs by serial centrifugation and FACS.
+b
+, The gating strategy for sorting tMac-EVs by FACS in the 3,000
+g
+pellets from
+Cx3cr1
+GFP
+mice.
+c
+, Representative images of pellets from the 50
+g
+, 300g, 650
+g
+, and 3,000
+g
+fractions, respectively. Scale bars, 50 μm (50
+g
+, 300
+g
+, and 650
+g
+) and 5 μm (3,000
+g
+) (
+n
+= 3 biological replicates).
+d
+, Experimental strategy to label tMacs with membrane-targeted GFP in
+Cx3cr1
+CreER
+; mTmG mice.
+e
+, Representative confocal image and 3D reconstruction of tMac-EVs (with mitochondria) within LCs. The testes sections from TAM-induced
+Cx3cr1
+CreER
+; mTmG mice were immunostained with TOMM20 and LCs marker (3β-HSD) (
+n
+= 3 mice). Scale bars, 5 μm. Inset shows boxed regions that are magnified. Scale bar, 1 μm. Schematics in
+a
+,
+d
+created in BioRender. Xia, K. (2026)
+https://biorender.com/2813hkn
+.
+Source Data
+Extended Data Fig. 9 Strategies for labelling mitochondria of LCs, sorting tMacs and MHCIIhi tMac-EVs.
+a
+, Experimental strategy to label LCs mitochondria by intratesticular injection of AAV-mito–mCherry into the testes of WT mice.
+b
+, Representative confocal images of the testes from AAV-mito–mCherry-injected WT mice (
+n
+= 4 mice). Scale bar, 30 μm.
+c
+, Percentage of LCs infected with AAV-mito–mCherry (
+n
+= 4 mice).
+d
+, The gating strategy for sorting CD206
+hi
+tMacs and MHCII
+hi
+tMacs from
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice.
+e
+, Experimental strategy to isolate MHCII
+hi
+tMac-EVs in
+Cx3cr1
+GFP
+mice by FACS.
+f
+, Detection and quantification of the percentage of MHCII
+hi
+tMac-EVs from
+Cx3cr1
+GFP
+mice by FACS (
+n
+= 5 biological replicates).
+g
+, Analysis of mitochondria signal in purified MHCII
+hi
+tMac-EVs by FACS (
+n
+= 5 biological replicates).
+h
+, Testosterone levels in LCs culture medium after 6 h of treatment (
+n
+= 5 biological replicates).
+i
+, ATP levels of LCs from the 3 groups (
+n
+= 5 biological replicates). Data are represented as mean ± SEM (
+c
+,
+f
+–
+i
+). Significances were determined using one-way ANOVA (
+h
+,
+i
+). Schematics in
+a
+,
+e
+created in BioRender. Xia, K. (2026)
+https://biorender.com/22gt4hs
+. Source numerical data are provided.
+Source Data
+Extended Data Fig. 10 VCAM1 is an adhesive receptor for tMac-EVs.
+a
+, Experimental strategy to label LCs by intratesticular injection of AAV-CAG-GFP-U6-sgScramble (AAV-GFP-sgScr) into the testes of
+Cyp17a1
+Cre
+; R26
+Cas9-tdTomato
+mice.
+b
+, Representative confocal images of the testes from AAV-GFP-sgScr injected
+Cyp17a1
+Cre
+; R26
+Cas9-tdTomato
+mice. The testes sections were counterstained with DAPI (
+n
+= 5 mice). Scale bar, 20 μm.
+c
+, Percentage of LCs infected with AAV-GFP-sgScr (
+n
+= 5 mice).
+d
+, The gating strategy for sorting tMac-EVs containing mitochondria by FACS in the 3,000
+g
+pellets from TAM -induced
+Cx3cr1
+CreER
+R26
+mitoD2
+mice.
+e
+, Representative images of tMac-EVs containing mitochondria after FACS (
+n
+= 5 biological replicates). Scale bar, 5 μm.
+f
+, Schematic diagram depicts experimental design. Testes tissues from
+Cx3cr1
+CreER
+; R26
+mitoD2
+mice were cultured with IgG or VCAM1 mono-antibody (anti-VCAM1) for 48 h before analysis.
+g
+, Representative confocal images of testes tissues cultured with IgG or anti-VCAM1. Testes sections were immunostained with CYP17A1 and counterstained with nuclear dye TWO-PRO-3 (white) (
+n
+= 5 biological replicates per group). Scale bars, 10 μm.
+h
+, Percentage of LCs containing mitoD2
++
+signals (
+n
+= 5 biological replicates per group).
+i
+, The concentrations of testosterone in the supernatant of cultured testes tissue treated with IgG or anti-VCAM1 (
+n
+= 5 biological replicates per group).
+j
+, Schematic diagram depicts experimental design. Testes tissues from
+Cx3cr1
+GFP
+mice were cultured with IgG or ITGβ1 mono-antibody (anti-ITGβ1) for 48 h before analysis.
+k
+, Representative confocal images of testes tissues cultured with IgG or anti-ITGβ1. Testes sections were immunostained with CYP17A1 and counterstained with DAPI (
+n
+= 5 biological replicates per group). Scale bars, 2 μm.
+l
+, Percentage of LCs containing GFP
++
+signals (
+n
+= 5 biological replicates per group).
+m
+, The concentrations of testosterone in the supernatant of cultured testes tissue treated with IgG or anti-ITGβ1 (
+n
+= 5 biological replicates per group). Data are represented by mean ± SEM (
+c
+) or box plots (
+h
+,
+i
+,
+l
+,
+m
+). Box plots: the box bounds depict the first quartile to the third quartile, with the middle line indicating the median and the whiskers extending to the minimum and maximum values. Significances were determined using Two-tailed Student’s
+t
+-test (
+h
+,
+i
+,
+l
+,
+m
+). Schematics in
+a
+,
+f
+,
+j
+created in BioRender. Xia, K. (2026)
+https://biorender.com/mdov2hb
+. Source numerical data are provided.
+Source Data
+Supplementary information
+Supplementary Information (download PDF
+)
+Supplementary Figs. 1–6.
+Reporting Summary (download PDF
+)
+Peer Review File (download PDF
+)
+Supplementary Video 1 (download MP4
+)
+Mitochondrial transfer from LCs to tMacs, related to Fig. 3.
+Supplementary Video 2 (download MP4
+)
+Mitochondrial transfer from tMacs to LCs, related to Fig. 6.
+Supplementary Table 1 (download XLSX
+)
+Supplementary Table 1. Differentially expressed genes and Gene Set Enrichment Analysis-GO analysis of CD206
+hi
+and MHCII
+hi
+tMacs. Supplementary Table 2. Ligand–receptor pairs between tMacs and LCs obtained from CellChat analysis. Supplementary Table 3. Sequences of sgRNA and shRNA. Supplementary Table 4. Antibodies used for immunofluorescence, flow cytometry and western blots. Supplementary Table 5. Primers information for quantitative PCR with reverse transcription. Supplementary Table 6. Light microscopy reporting table.
+Supplementary Data 1 (download XLSX
+)
+Source data for Supplementary Figures.
+Source data
+Source Data Figs. 1–8 and Extended Data Fig. 1–10 (download XLSX
+)
+Statistical source data.
+Source Data Extended Data Fig. 4 (download PDF
+)
+Unprocessed western blots and gels.
+Rights and permissions
+Open Access
+This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+.
+Reprints and permissions
+About this article
+Cite this article
+Xia, K., Zhang, S., Peng, H.
+et al.
+An extracellular vesicle-mediated mitochondrial transfer network critical for testosterone synthesis.
+Nat Cell Biol
+28
+, 707–724 (2026). https://doi.org/10.1038/s41556-026-01896-x
+Download citation
+Received
+:
+28 February 2025
+Accepted
+:
+28 January 2026
+Published
+:
+27 February 2026
+Version of record
+:
+27 February 2026
+Issue date
+:
+April 2026
+DOI
+:
+https://doi.org/10.1038/s41556-026-01896-x
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Download PDF
+Advertisement
+Explore content
+Research articles
+Reviews & Analysis
+News & Comment
+Current issue
+Collections
+Follow us on X
+Sign up for alerts
+RSS feed
+About the journal
+Aims & Scope
+Journal Information
+Editors
+Journal Metrics
+Research Cross-Journal Editorial Team
+Reviews Cross-Journal Editorial Team
+Our publishing models
+Editorial Values Statement
+Editorial Policies
+Content Types
+Web Feeds
+Posters
+Contact
+Publish with us
+Submission Guidelines
+For Reviewers
+Language editing services
+Open access funding
+Submit manuscript
+Search
+Search articles by subject, keyword or author
+Show results from
+All journals
+This journal
+Search
+Advanced search
+Quick links
+Explore articles by subject
+Find a job
+Guide to authors
+Editorial policies
+Nature Cell Biology
+(
+Nat Cell Biol
+)
+ISSN
+1476-4679
+(online)
+ISSN
+1465-7392
+(print)
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded
+                        content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy
+                Policy
+Use
+                of cookies
+Your privacy choices/Manage cookies
+Legal
+                notice
+Accessibility
+                statement
+Terms & Conditions
+Your US state privacy rights
+© 2026 Springer Nature Limited
+Close banner
+Close
+Sign up for the
+Nature Briefing
+newsletter — what matters in science, free to your inbox daily.
+Email address
+Sign up
+I agree my information will be processed in accordance with the
+Nature
+and Springer Nature Limited
+Privacy Policy
+.
+Close banner
+Close
+Get the most important science stories of the day, free in your inbox.
+Sign up for Nature Briefing

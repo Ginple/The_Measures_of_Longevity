@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang='en' class='no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7'> <![endif]-->
+<!--[if IE 7]>    <html lang='en' class='no-js lt-ie10 lt-ie9 lt-ie8'> <![endif]-->
+<!--[if IE 8]>    <html lang='en' class='no-js lt-ie10 lt-ie9'> <![endif]-->
+<!--[if IE 9]>    <html lang='en' class='no-js lt-ie10'> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang='en' class='no-js'> <!--<![endif]-->
+<head>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdqSIwsAAAAAMaqy5uLiYS-EPIhRnFwvbhTZS9y"></script>
+<meta charset='utf-8'>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='The Journal of Clinical Investigation' name='AUTHOR'>
+<!-- /Set the viewport width to device width for mobile -->
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<link href='/rss' rel='alternate' title='JCI New Article RSS' type='application/rss+xml'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="mCK8p37Nd7JmQ0Jj0KZ6huEmt20RLU3F6fVDAMz977YDxw7MawBCNtpNXI53FKJ5MTF2A9fd4A9dOj_Q-Yuf9A" />
+<meta name="citation_title" content="Somatic mutations in <i>TBX3</i> promote hepatic clonal expansion by accelerating VLDL secretion" />
+<meta name="citation_author" content="Gregory Mannino" />
+<meta name="citation_author" content="Gabriella Quinn" />
+<meta name="citation_author" content="Min Zhu" />
+<meta name="citation_author" content="Zixi Wang" />
+<meta name="citation_author" content="Xun Wang" />
+<meta name="citation_author" content="Boyuan Li" />
+<meta name="citation_author" content="Meng-Hsiung Hsieh" />
+<meta name="citation_author" content="Thomas Mathews" />
+<meta name="citation_author" content="Lauren Zacharias" />
+<meta name="citation_author" content="Wen Gu" />
+<meta name="citation_author" content="Purva Gopal" />
+<meta name="citation_author" content="Natalia Brzozowska" />
+<meta name="citation_author" content="Peter Campbell" />
+<meta name="citation_author" content="Matt Hoare" />
+<meta name="citation_author" content="Glen Liszczak" />
+<meta name="citation_author" content="Hao Zhu" />
+
+<meta name="citation_journal_title" content="The Journal of Clinical Investigation" />
+<meta name="citation_journal_abbrev" content="J Clin Invest" />
+<meta name="citation_publisher" content="American Society for Clinical Investigation" />
+<meta name="citation_issue" content="18" />
+<meta name="citation_volume" content="135" />
+<meta name="citation_doi" content="10.1172/JCI191855" />
+<meta name="citation_pmid" content="0" />
+
+
+<meta name="citation_publication_date" content="2025/09/19" />
+<meta name="citation_html_url" content="http://www.jci.org/articles/view/191855" />
+<meta name="citation_pdf_url" content="http://www.jci.org/articles/view/191855/files/pdf" />
+<meta name="citation_xml_url" content="http://www.jci.org/articles/view/191855/xml" />
+<meta name="citation_issn" content="0021-9738" />
+<meta name="citation_fulltext_world_readable" content="" />
+<meta name="citation_reference" content="citation_title=A body map of somatic mutagenesis in morphologically normal human tissues;citation_author=R Li;citation_journal_title=Nature;citation_volume=597;citation_issue=7876;citation_pages=398-403;citation_year=2021;" />
+<meta name="citation_reference" content="citation_title=RNA sequence analysis reveals macroscopic somatic clonal expansion across normal tissues;citation_author=K Yizhak;citation_journal_title=Science;citation_volume=364;citation_issue=6444;citation_pages=-;citation_year=2019;" />
+<meta name="citation_reference" content="citation_title=Clonal expansion in non-cancer tissues;citation_author=N Kakiuchi;citation_author=S Ogawa;citation_journal_title=Nat Rev Cancer;citation_volume=21;citation_issue=4;citation_pages=239-256;citation_year=2021;" />
+<meta name="citation_reference" content="citation_title=Somatic mutant clones colonize the human esophagus with age;citation_author=I Martincorena;citation_journal_title=Science;citation_volume=362;citation_issue=6417;citation_pages=911-917;citation_year=2018;" />
+<meta name="citation_reference" content="citation_title=Tobacco smoking and somatic mutations in human bronchial epithelium;citation_author=K Yoshida;citation_journal_title=Nature;citation_volume=578;citation_issue=7794;citation_pages=266-272;citation_year=2020;" />
+<meta name="citation_reference" content="citation_title=Somatic evolution in non-neoplastic IBD-affected colon;citation_author=S Olafsson;citation_journal_title=Cell;citation_volume=182;citation_issue=3;citation_pages=672-684;citation_year=2020;" />
+<meta name="citation_reference" content="citation_title=Frequent mutations that converge on the NFKBIZ pathway in ulcerative colitis;citation_author=N Kakiuchi;citation_journal_title=Nature;citation_volume=577;citation_issue=7789;citation_pages=260-265;citation_year=2020;" />
+<meta name="citation_reference" content="citation_title=Somatic inflammatory gene mutations in human ulcerative colitis epithelium;citation_author=K Nanki;citation_journal_title=Nature;citation_volume=577;citation_issue=7789;citation_pages=254-259;citation_year=2020;" />
+<meta name="citation_reference" content="citation_title=Somatic mutations and clonal dynamics in healthy and cirrhotic human liver;citation_author=SF Brunner;citation_journal_title=Nature;citation_volume=574;citation_issue=7779;citation_pages=538-542;citation_year=2019;" />
+<meta name="citation_reference" content="citation_title=Convergent somatic mutations in metabolism genes in chronic liver disease;citation_author=SWK Ng;citation_journal_title=Nature;citation_volume=598;citation_issue=7881;citation_pages=473-478;citation_year=2021;" />
+<meta name="citation_reference" content="citation_title=Positive selection of somatically mutated clones identifies adaptive pathways in metabolic liver disease;citation_author=Z Wang;citation_journal_title=Cell;citation_volume=186;citation_issue=9;citation_pages=1968-1984;citation_year=2023;" />
+<meta name="citation_reference" content="citation_title=The roles and regulation of TBX3 in development and disease;citation_author=SF Khan;citation_journal_title=Gene;citation_volume=726;citation_pages=-;citation_year=2020;" />
+<meta name="citation_reference" content="citation_title=Mammary gland, limb and yolk sac defects in mice lacking Tbx3, the gene mutated in human ulnar mammary syndrome;citation_author=TG Davenport;citation_journal_title=Development;citation_volume=130;citation_issue=10;citation_pages=2263-2273;citation_year=2003;" />
+<meta name="citation_reference" content="citation_title=Lethal arrhythmias in Tbx3-deficient mice reveal extreme dosage sensitivity of cardiac conduction system function and homeostasis;citation_author=DU Frank;citation_journal_title=Proc Natl Acad Sci U S A;citation_volume=109;citation_issue=3;citation_pages=E154-E163;citation_year=2012;" />
+<meta name="citation_reference" content="citation_title=The spectrum of mutations in TBX3: genotype/phenotype relationship in ulnar-mammary syndrome;citation_author=M Bamshad;citation_journal_title=Am J Hum Genet;citation_volume=64;citation_issue=6;citation_pages=1550-1562;citation_year=1999;" />
+<meta name="citation_reference" content="citation_title=Wnt signaling regulates hepatocyte cell division by a transcriptional repressor cascade;citation_author=Y Jin;citation_journal_title=Proc Natl Acad Sci U S A;citation_volume=119;citation_issue=30;citation_pages=-;citation_year=2022;" />
+<meta name="citation_reference" content="citation_title=Structure of the DNA-bound T-box domain of human TBX3, a transcription factor responsible for ulnar-mammary syndrome;citation_author=M Coll;citation_journal_title=Structure;citation_volume=10;citation_issue=3;citation_pages=343-356;citation_year=2002;" />
+<meta name="citation_reference" content="citation_title=DDMut: predicting effects of mutations on protein stability using deep learning;citation_author=Y Zhou;citation_journal_title=Nucleic Acids Res;citation_volume=51;citation_issue=w1;citation_pages=W122-W128;citation_year=2023;" />
+<meta name="citation_reference" content="citation_title=Establishment of a general NAFLD scoring system for rodent models and comparison to human liver pathology;citation_author=W Liang;citation_journal_title=PLoS One;citation_volume=9;citation_issue=12;citation_pages=-;citation_year=2014;" />
+<meta name="citation_reference" content="citation_title=Role of insulin resistance in the development of nonalcoholic fatty liver disease in people with type 2 diabetes: from bench to patient care;citation_author=JP Nogueira;citation_author=K Cusi;citation_journal_title=Diabetes Spectr;citation_volume=37;citation_issue=1;citation_pages=20-28;citation_year=2024;" />
+<meta name="citation_reference" content="citation_title=Selective versus total insulin resistance: a pathogenic paradox;citation_author=MS Brown;citation_author=JL Goldstein;citation_journal_title=Cell Metab;citation_volume=7;citation_issue=2;citation_pages=95-96;citation_year=2008;" />
+<meta name="citation_reference" content="citation_title=Molecular mechanisms of hepatic lipid accumulation in non-alcoholic fatty liver disease;citation_author=DH Ipsen;citation_journal_title=Cell Mol Life Sci;citation_volume=75;citation_issue=18;citation_pages=3313-3327;citation_year=2018;" />
+<meta name="citation_reference" content="citation_title=Phosphatidylcholine biosynthesis and lipoprotein metabolism;citation_author=LK Cole;citation_journal_title=Biochim Biophys Acta;citation_volume=1821;citation_issue=5;citation_pages=754-761;citation_year=2012;" />
+<meta name="citation_reference" content="citation_title=Metabolic inflexibility promotes mitochondrial health during liver regeneration;citation_author=X Wang;citation_journal_title=Science;citation_volume=384;citation_issue=6701;citation_pages=-;citation_year=2024;" />
+<meta name="citation_reference" content="citation_title=An improved mouse model that rapidly develops fibrosis in non-alcoholic steatohepatitis;citation_author=M Matsumoto;citation_journal_title=Int J Exp Pathol;citation_volume=94;citation_issue=2;citation_pages=93-103;citation_year=2013;" />
+<meta name="citation_reference" content="citation_title=A highly sensitive assay for monitoring the secretory pathway and ER stress;citation_author=CE Badr;citation_journal_title=PLoS One;citation_volume=2;citation_issue=6;citation_pages=-;citation_year=2007;" />
+<meta name="citation_reference" content="citation_title=HDLBP binds ER-targeted mRNAs by multivalent interactions to promote protein synthesis of transmembrane and secreted proteins;citation_author=U Zinnall;citation_journal_title=Nat Commun;citation_volume=13;citation_issue=1;citation_pages=-;citation_year=2022;" />
+<meta name="citation_reference" content="citation_title=The RNA-binding protein vigilin regulates VLDL secretion through modulation of Apob mRNA translation;citation_author=MB Mobin;citation_journal_title=Nat Commun;citation_volume=7;citation_pages=-;citation_year=2016;" />
+<meta name="citation_reference" content="citation_title=Notch1 mutations drive clonal expansion in normal esophageal epithelium but impair tumor growth;citation_author=E Abby;citation_journal_title=Nat Genet;citation_volume=55;citation_issue=2;citation_pages=232-245;citation_year=2023;" />
+<meta name="citation_reference" content="citation_title=Mutant clones in normal epithelium outcompete and eliminate emerging tumours;citation_author=B Colom;citation_journal_title=Nature;citation_volume=598;citation_issue=7881;citation_pages=510-514;citation_year=2021;" />
+<meta name="citation_reference" content="citation_title=Somatic mutations increase hepatic clonal fitness and regeneration in chronic liver disease;citation_author=M Zhu;citation_journal_title=Cell;citation_volume=177;citation_issue=3;citation_pages=608-621;citation_year=2019;" />
+<meta name="citation_reference" content="citation_title=PKD1 mutant clones within cirrhotic livers inhibit steatohepatitis without promoting cancer;citation_author=M Zhu;citation_journal_title=Cell Metab;citation_volume=36;citation_issue=8;citation_pages=1711-1725;citation_year=2024;" />
+<meta name="citation_reference" content="citation_title=Inactivation of Tm6sf2, a gene defective in fatty liver disease, impairs lipidation but not secretion of very low density lipoproteins;citation_author=E Smagris;citation_journal_title=J Biol Chem;citation_volume=291;citation_issue=20;citation_pages=10659-10676;citation_year=2016;" />
+<meta name="citation_reference" content="citation_title=Role of cholesterol in embryonic development;citation_author=C Roux;citation_journal_title=Am J Clin Nutr;citation_volume=71;citation_issue=5 suppl;citation_pages=1270S-1279S;citation_year=2000;" />
+<meta name="citation_reference" content="citation_title=Malformation syndromes caused by disorders of cholesterol synthesis;citation_author=FD Porter;citation_author=GE Herman;citation_journal_title=J Lipid Res;citation_volume=52;citation_issue=1;citation_pages=6-34;citation_year=2011;" />
+<meta name="citation_reference" content="citation_title=The role of maternal-fetal cholesterol transport in early fetal life: current insights;citation_author=ME Baardman;citation_journal_title=Biol Reprod;citation_volume=88;citation_issue=1;citation_pages=-;citation_year=2013;" />
+<meta name="citation_reference" content="citation_title=Lipid-induced insulin resistance: unravelling the mechanism;citation_author=VT Samuel;citation_journal_title=Lancet;citation_volume=375;citation_issue=9733;citation_pages=2267-2277;citation_year=2010;" />
+<meta name="citation_reference" content="citation_title=Apolipoprotein B particles and cardiovascular disease: a narrative review;citation_author=AD Sniderman;citation_journal_title=JAMA Cardiol;citation_volume=4;citation_issue=12;citation_pages=1287-1295;citation_year=2019;" />
+<meta name="citation_reference" content="citation_title=Dual ARID1A/ARID1B loss leads to rapid carcinogenesis and disruptive redistribution of BAF complexes;citation_author=Z Wang;citation_journal_title=Nat Cancer;citation_volume=1;citation_issue=9;citation_pages=909-922;citation_year=2020;" />
+
+
+
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Language" content="en" />
+<meta content="Somatic mutations in TBX3 promote hepatic clonal expansion by accelerating VLDL secretion" name="DC.Title" />
+<meta content="10.1172/JCI191855" name="DC.Identifier" />
+<meta content="2025-09-19" name="DC.Date" />
+<meta content="American Society for Clinical Investigation" name="DC.Publisher" />
+<meta content="Gregory Mannino" name="DC.Contributor" />
+<meta content="Gabriella Quinn" name="DC.Contributor" />
+<meta content="Min Zhu" name="DC.Contributor" />
+<meta content="Zixi Wang" name="DC.Contributor" />
+<meta content="Xun Wang" name="DC.Contributor" />
+<meta content="Boyuan Li" name="DC.Contributor" />
+<meta content="Meng-Hsiung Hsieh" name="DC.Contributor" />
+<meta content="Thomas Mathews" name="DC.Contributor" />
+<meta content="Lauren Zacharias" name="DC.Contributor" />
+<meta content="Wen Gu" name="DC.Contributor" />
+<meta content="Purva Gopal" name="DC.Contributor" />
+<meta content="Natalia Brzozowska" name="DC.Contributor" />
+<meta content="Peter Campbell" name="DC.Contributor" />
+<meta content="Matt Hoare" name="DC.Contributor" />
+<meta content="Glen Liszczak" name="DC.Contributor" />
+<meta content="Hao Zhu" name="DC.Contributor" />
+
+<!-- / = favicon_link_tag favicon_filename -->
+<title>
+JCI -
+Somatic mutations in TBX3 promote hepatic clonal expansion by accelerating VLDL secretion
+</title>
+
+<!--[if gt IE 8]><!--><link rel="stylesheet" href="/assets/application-4e3473ed7442aa1dc35d11f58ed4edfbd690fa57a3eb3a1daca0cd68dc7fb1e0.css" media="all" /><!--<![endif]-->
+<!--[if (lt IE 9)]>
+<link rel="stylesheet" href="/assets/ie8/application-c9c1df9dc6f969fb6db3e6e1316b9ac163cdd7a9a2bd67746820c5d31a80258f.css" media="all" />
+<script src="/assets/ie8/ie8-head-e4cc6664a4e806f330a789c9756cfe50f1bb936ea97fe6e2dde7db04b3daa038.js"></script>
+<![endif]-->
+
+<style>
+  @font-face {
+    font-family: "klavika-bold";
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicBold.eot");
+    src:
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicBold.eot?#iefix") format("embedded-opentype"),
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/woff/KlavikaWebBasicBold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "klavika-regular";
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicRegular.eot");
+    src:
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/eot/KlavikaWebBasicRegular.eot?#iefix") format("embedded-opentype"),
+      url("//dm5migu4zj3pb.cloudfront.net/fonts/klavika/woff/KlavikaWebBasicRegular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "foundation-icons";
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.eot");
+    src: url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.eot?#iefix") format("embedded-opentype"),
+         url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.woff") format("woff"),
+         url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.ttf") format("truetype"),
+         url("//dm5migu4zj3pb.cloudfront.net/fonts/foundation-icons-3/foundation-icons.svg#fontcustom") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+</style>
+
+<script>
+  //Google Tag Manager Data Layer
+  //Values must be set before GTM tags are triggered
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'siteName': 'content-jci',
+    'ipAddress': '35.252.100.27',
+    'environment': 'production',
+  });
+</script>
+<script src="/assets/vendor/modernizr-2f68aa04c7424c280c5bc9db8b68f7f6ff70bcd38254c5b89383eac8e89b1781.js"></script>
+<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function () {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+
+	googletag.cmd.push(function () {
+
+		// NOTE: This script manages google ads, more info at doc/GoogleAds.md
+
+		var mapping = googletag.sizeMapping().addSize([800, 600], [300, 250]).addSize([640, 480], [260, 217]).build();
+		var mapping2 = googletag.sizeMapping()
+		   .addSize([1920, 1080], [728, 90])//All desktop like resolutions are set to 728x90
+		   .addSize([800, 600], [728, 90])
+		   .addSize([640, 480], [728, 90])
+		   .addSize([0, 0], [320, 50]) //Smaller than 640x480 screens
+		   .build();
+			
+		googletag.defineSlot('/82117132/jci-homepage-med-rectangle-left-col-top', [[300, 250],[260, 217]], 'jci-homepage-med-rectangle-left-col-top').defineSizeMapping(mapping).addService(googletag.pubads());
+
+		googletag.defineSlot('/82117132/jci-article-interior-leaderboard-top', [[728, 90],[320, 50]], 'jci-article-interior-leaderboard-top').defineSizeMapping(mapping2).addService(googletag.pubads());
+		googletag.defineSlot('/82117132/jci-article-interior-leaderboard-bottom', [728, 90], 'jci-article-interior-leaderboard-bottom').addService(googletag.pubads());
+		googletag.defineSlot('/82117132/jci-article-interior-skyscraper-right-col', [160, 600], 'jci-article-interior-skyscraper-right-col').addService(googletag.pubads());
+		googletag.defineSlot('/82117132/jci-interior-skyscraper-right-col', [160, 600], 'jci-interior-skyscraper-right-col').addService(googletag.pubads());
+
+		// collapseEmptyDivs requires all slots be defined above.
+		googletag.pubads().collapseEmptyDivs(true);
+		googletag.enableServices();
+	});
+</script>
+
+</head>
+
+<body class='' id='articles_controller'>
+<div class='row centered'>
+<noscript> <style type="text/css"> .pagecontainer {display:none;} </style> <div style="background-color:red; color: white; padding: 16px;" class="noscriptmsg"> You don't have javascript enabled. Please enable javascript for full site funcionality. </div> </noscript>
+</div>
+<div class='off-canvas-wrap' data-offcanvas=''>
+<div class='inner-wrap'>
+<div class='fixed show-for-large-up'>
+<div class='row menu-align' id='logo-bar'>
+<div class='small-12 columns'>
+<div class='cross-journal-container'>
+Go to
+<a href='http://insight.jci.org'>JCI Insight</a>
+</div>
+<a href="/"><img src="/assets/common/jci-spelled-out-white-on-transparent.20160208-958617d51a205b239bcef41eae5703962aee0ae2fcc9fbda0237e635a09ac7f3.png" /></a>
+</div>
+</div>
+
+<div class='row menu-align' id='journal-bar'>
+<div class='small-12 columns'>
+<ul class='inline-list'>
+<li><a href="/kiosks/about">About</a></li>
+<li><a href="/kiosks/editorial-board">Editors</a></li>
+<li><a href="/kiosks/about/consulting-editors">Consulting Editors</a></li>
+<li><a href="/kiosks/authors">For authors</a></li>
+<li><a href="/kiosks/journal-stats">Journal stats</a></li>
+<li><a href="/kiosks/ethics">Publication ethics</a></li>
+<li><a href="/kiosks/connect">Publication alerts by email</a></li>
+<li><a href="/kiosks/advertise">Advertising</a></li>
+<li><a href="https://the-asci.org/controllers/asci/JobBoard.php">Job board</a></li>
+<li><a href="/kiosks/contact">Contact</a></li>
+
+</ul>
+</div>
+</div>
+
+<div id='content-bar'>
+<nav class='top-bar' data-topbar=''>
+<section class='top-bar-section'>
+<ul class='left'>
+<li class='not-click'>
+<a href="/tags/141">Clinical Research and Public Health</a>
+</li>
+<li class='not-click'>
+<a id="topmenu_current_issue" href="/current">Current issue</a>
+</li>
+<li class='not-click'>
+<a href="/archive">Past issues</a>
+</li>
+<li class='has-dropdown not-click'>
+<a>By specialty</a>
+<ul class='dropdown'>
+<li><a href="/tags/118">COVID-19</a></li>
+<li><a href="/tags/15">Cardiology</a></li>
+<li><a href="/tags/21">Gastroenterology</a></li>
+<li><a href="/tags/25">Immunology</a></li>
+<li><a href="/tags/28">Metabolism</a></li>
+<li><a href="/tags/31">Nephrology</a></li>
+<li><a href="/tags/32">Neuroscience</a></li>
+<li><a href="/tags/33">Oncology</a></li>
+<li><a href="/tags/36">Pulmonology</a></li>
+<li><a href="/tags/42">Vascular biology</a></li>
+<li><a href="/specialties">All ...</a></li>
+</ul>
+</li>
+<li class='has-dropdown not-click'>
+<a href="/videos">Videos</a>
+<ul class='dropdown'>
+<li><a href="/videos/asci_milestone_awards">ASCI Milestone Awards</a></li>
+<li><a href="/videos/video_abstracts">Video Abstracts</a></li>
+<li><a href="/videos/cgms">Conversations with Giants in Medicine</a></li>
+</ul>
+</li>
+<li class='has-dropdown not-click'>
+<a href="/tags/reviews">Reviews</a>
+<ul class='dropdown'>
+<li>
+<label>Reviews</label>
+</li>
+<li><a href="/tags/reviews">View all reviews ...</a></li>
+<li class='divider'></li>
+<li>
+<label>Review Series</label>
+</li>
+<li><a href="/review_series/138">Emerging therapeutic strategies in breast cancer (Oct 2026)</a></li>
+<li><a href="/review_series/136">The cGAS-STING pathway: DNA sensing in health and disease (Jun 2026)</a></li>
+<li><a href="/review_series/135">Neurodegeneration (Mar 2026)</a></li>
+<li><a href="/review_series/134">Clinical innovation and scientific progress in GLP-1 medicine (Nov 2025)</a></li>
+<li><a href="/review_series/133">Pancreatic Cancer (Jul 2025)</a></li>
+<li><a href="/review_series/132">Complement Biology and Therapeutics (May 2025)</a></li>
+<li><a href="/review_series/131">Evolving insights into MASLD and MASH pathogenesis and treatment (Apr 2025)</a></li>
+<li>
+<a href="/review_series">View all review series ...</a>
+</li>
+</ul>
+</li>
+<li class='not-click'>
+<a href="/tags/111">Viewpoint</a>
+</li>
+<li class='has-dropdown not-click'>
+<a>Collections</a>
+<ul class='dropdown'>
+<li><a href="/in-press-preview">In-Press Preview</a></li>
+<li><a href="/tags/141">Clinical Research and Public Health</a></li>
+<li><a href="/tags/127">Research Letters</a></li>
+<li><a href="/tags/75">Letters to the Editor</a></li>
+<li><a href="/tags/56">Editorials</a></li>
+<li><a href="/tags/44">Commentaries</a></li>
+<li><a href="/tags/123">Editor&#39;s notes</a></li>
+<li><a href="/tags/2">Reviews</a></li>
+<li><a href="/tags/111">Viewpoints</a></li>
+<li><a href="/collections/topic/jci-100th-anniversary">100th anniversary</a></li>
+<li><a href="/top_articles">Top read articles</a></li>
+
+</ul>
+</li>
+</ul>
+<ul class='right'>
+<li class='has-form'>
+<div id='search-area'>
+<a class="finder_link" href="/finder">Search Articles</a>
+<form action="/search/results" accept-charset="UTF-8" method="get"><input type="text" name="q" id="q" value="" placeholder="Search the JCI" />
+<input type="image" src="/assets/search-black-ba9b554d6f74b1c93d6e6ab71d1c9830c18a20fc6b7e72393f136f5d875141ac.png" value="" />
+<input type="hidden" id="recaptcha-token-SEARCH_BAR" name="g-recaptcha-response" value="empty"/>
+<script type="text/javascript">
+		grecaptcha.enterprise.ready(async () => {
+			const token = await grecaptcha.enterprise.execute('6LdqSIwsAAAAAMaqy5uLiYS-EPIhRnFwvbhTZS9y', {action: 'SEARCH_BAR'});
+			document.getElementById("recaptcha-token-SEARCH_BAR").value = token;
+		});
+</script>
+
+</form></div>
+</li>
+</ul>
+</section>
+</nav>
+</div>
+
+</div>
+<!--[if gt IE 8]><!--><nav class='tab-bar hide-for-large-up fixed' id='small-navbar'>
+<section class='left-small'>
+<a class='left-off-canvas-toggle menu-icon'>
+<span></span>
+</a>
+</section>
+<section class='middle tab-bar-section'>
+<h1 class='title'><a href="/"><img width="40" src="/assets/common/jci-only-white-6c989e8f9744a714482158b82319d50aa8437aa4c8524c4f3dcf8450299cd4b7.png" /></a></h1>
+</section>
+</nav>
+<aside class='left-off-canvas-menu'>
+<ul class='off-canvas-list'>
+<li>
+<label>The Journal of Clinical Investigation</label>
+</li>
+<li><form action="/search/results" accept-charset="UTF-8" method="get"><div class='row collapse' id='search-div-offcanvas'>
+<div class='small-8 columns'>
+<input name='q' placeholder='Search the JCI' type='text'>
+</div>
+<div class='small-4 columns'>
+<input type="image" src="/assets/common/search-white-530f3f95b9080d73eba51eaeffdf1a3922af42ccc277a2d1d987b8aa24423c96.png" id="search-icon-offcanvas" />
+</div>
+</div>
+</form></li>
+<li><a id="offcanvas_current_issue" href="/current">Current issue</a></li>
+<li><a href="/archive">Past issues</a></li>
+<li><a href="/specialties">Specialties</a></li>
+<li><a href="/tags/reviews">Reviews</a></li>
+<li><a href="/review_series">Review series</a></li>
+<li>
+<label>Videos</label>
+</li>
+<li><a href="/videos/asci_milestone_awards">ASCI Milestone Awards</a></li>
+<li><a href="/videos/video_abstracts">Video Abstracts</a></li>
+<li><a href="/videos/cgms">Conversations with Giants in Medicine</a></li>
+<li>
+<label>Collections</label>
+</li>
+<li><a href="/in-press-preview">In-Press Preview</a></li>
+<li><a href="/tags/141">Clinical Research and Public Health</a></li>
+<li><a href="/tags/127">Research Letters</a></li>
+<li><a href="/tags/75">Letters to the Editor</a></li>
+<li><a href="/tags/56">Editorials</a></li>
+<li><a href="/tags/44">Commentaries</a></li>
+<li><a href="/tags/123">Editor&#39;s notes</a></li>
+<li><a href="/tags/2">Reviews</a></li>
+<li><a href="/tags/111">Viewpoints</a></li>
+<li><a href="/collections/topic/jci-100th-anniversary">100th anniversary</a></li>
+<li><a href="/top_articles">Top read articles</a></li>
+
+<li>
+<label>Journal Details</label>
+</li>
+<li><a href="/kiosks/about">About</a></li>
+<li><a href="/kiosks/editorial-board">Editors</a></li>
+<li><a href="/kiosks/about/consulting-editors">Consulting Editors</a></li>
+<li><a href="/kiosks/authors">For authors</a></li>
+<li><a href="/kiosks/journal-stats">Journal stats</a></li>
+<li><a href="/kiosks/ethics">Publication ethics</a></li>
+<li><a href="/kiosks/connect">Publication alerts by email</a></li>
+<li><a href="/kiosks/advertise">Advertising</a></li>
+<li><a href="https://the-asci.org/controllers/asci/JobBoard.php">Job board</a></li>
+<li><a href="/kiosks/contact">Contact</a></li>
+
+</ul>
+</aside>
+<a class='exit-off-canvas'></a><!--<![endif]-->
+
+	<!-- Provides top level banner in small view -->
+<nav class='fixed hide-for-large-up' id='article-tools-nav'>
+<a class='article-menu-button' href='#top' id='top-button' title='Go to top'>
+<i class='fi-arrow-up'></i>
+Top
+</a>
+<button aria-controls='tools-menu' aria-expanded='false' class='article-menu-button' data-dropdown='tools-menu' href='#'>
+<i class='fi-list'></i>
+<span>Tools</span>
+</button>
+<div class='f-dropdown medium content' data-dropdown-content='' id='tools-menu'>
+<ul class='side-nav' id='article-tools'>
+<li class='hide-for-small'>
+<a href="/articles/view/191855/pdf">View PDF <img class="article-tools-icon" src="//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png" /></a>
+</li>
+<li><a href="/articles/view/191855/cite">Download citation information</a></li>
+<li><a href="/eletters/submit/191855">Send a comment</a></li>
+<li><a href="/kiosks/terms">Terms of use</a></li>
+<li><a href="/kiosks/publish/abbreviations">Standard abbreviations</a></li>
+<li><a href="/feedback?reference=191855">Need help? Email the journal</a></li>
+<script>
+var addthis_share = {
+	email_template: 'jci_share_article',
+	email_vars: {
+		short_title: 'Somatic mutations in &lt;i&gt;TBX3&lt;/i&gt; promote hepatic clonal...',
+		author_list: 'Gregory Mannino, Gabriella Quinn, Min Zhu, Zixi Wang, Xun Wang, Boyuan Li, Meng-Hsiung Hsieh, Thomas Mathews, Lauren Zacharias, Wen Gu, Purva Gopal, Natalia Brzozowska, Peter Campbell, Matt Hoare, Glen Liszczak, Hao Zhu',
+	}
+}
+</script>
+<div class="addthis_sharing_toolbox" data-title="JCI - Somatic mutations in &lt;i&gt;TBX3&lt;/i&gt; promote hepatic clonal expansion by accelerating VLDL secretion"></div>
+
+</ul>
+
+</div>
+<button aria-controls='goto-menu' aria-expanded='false' class='article-menu-button' data-dropdown='goto-menu' href='#'>
+<i class='fi-list'></i>
+<span>Go to</span>
+</button>
+<div class='f-dropdown content' data-dropdown-content='' id='goto-menu'>
+<ul class='side-nav'>
+<li><a href="#top">Top</a></li>
+<li><a href="#ABS">Abstract</a></li>
+<li><a href="#SEC1">Introduction</a></li>
+<li><a href="#SEC2">Results</a></li>
+<li><a href="#SEC3">Discussion</a></li>
+<li><a href="#SEC4">Methods</a></li>
+<li><a href="#SEC5">Author contributions</a></li>
+<li><a href="#sd">Supplemental material</a></li>
+<li><a href="#ACK">Acknowledgments</a></li>
+<li><a href="#FN">Footnotes</a></li>
+<li><a href="#BIBL">References</a></li>
+<li><a href="#version_history">Version history</a></li>
+</ul>
+
+</div>
+<button class='article-menu-button' data-pdf-url='/articles/view/191855/pdf' id='article-tools-pdf-button'>
+<span>
+<img class="article-tools-icon" src="//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png" />
+PDF
+</span>
+</button>
+<button aria-controls='metrics-menu' aria-expanded='false' class='article-menu-button' data-dropdown='metrics-menu' href='#'>
+<i class='fi-list'></i>
+<span>Metrics</span>
+</button>
+<div class='f-dropdown medium content' data-dropdown-content='' id='metrics-menu'>
+<div class='altmetric-embed' data-badge-details='right' data-badge-type='medium-donut' data-doi='10.1172/JCI191855' style='background-color: white;'></div>
+<ul class='side-nav' id='article-metrics'>
+<li><a href="/articles/view/191855/usage">Article usage</a></li>
+<li>
+<a href="/articles/view/191855/citations">Citations to this article
+<span class='article-citation-count'></span>
+</a></li>
+</ul>
+
+</div>
+</nav>
+
+
+
+<!--[if (lt IE 9)]>
+<div class='alert-box info' data-alert=''>
+Please note that the JCI no longer supports your version of Internet Explorer. We recommend upgrading to the latest version of
+<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a>,
+<a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a>, or
+<a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>
+<a class='close' href='#'>&times;</a>
+</div>
+<![endif]-->
+
+<div class='row content-wrapper'>
+<div class='small-12 columns'>
+<div class='menu-align'>
+<div class='row'>
+<div class='large-10 medium-9 small-12 columns'>
+
+
+
+<div class="row">
+	<div class='ad-leaderboard-wrapper'>
+<div class='ad-leaderboard' id='jci-article-interior-leaderboard-top'>
+<span class='secondary label'>
+<p>
+Advertisement
+</p>
+</span>
+<script>
+  try {
+    googletag.cmd.push(function() {
+      googletag.display('jci-article-interior-leaderboard-top');
+    })
+  } catch(e){}
+</script>
+</div>
+</div>
+
+</div>
+
+<div class="row">
+	<div class="small-12 large-9 columns">
+		<div id="subscriber_label"></div>
+		
+<p class='tag-list'>
+<a href="/tags/51"><span style='margin-right: 6px' class="label-article-type">Research Article</span></a><a href="/tags/16"><span style='margin-right: 6px' class="label-specialty">Cell biology</span></a><a href="/tags/21"><span style='margin-right: 6px' class="label-specialty">Gastroenterology</span></a>
+<span class='license'>
+Open Access    |    <a href="/kiosks/terms"><img src="/assets/open_access_logo-ed0138215cced03e2b07c1a4924d43763f3d547ded809189c07b4816d6764fe8.png" /></a><a href="https://doi.org/10.1172/JCI191855">10.1172/JCI191855</a>
+</span>
+</p>
+
+<div>
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_20 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_x"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_wechat"></a>
+<a class="a2a_button_bluesky"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_copy_link"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+</div>
+
+<p>
+<b></b>
+</p>
+<h1 class="article-title">Somatic mutations in <i>TBX3</i> promote hepatic clonal expansion by accelerating VLDL secretion</h1>
+
+
+<h4 class="author-list">
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-0">
+		Gregory Mannino,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-1">
+		Gabriella Quinn,<sup>2</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-2">
+		Min Zhu,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-3">
+		Zixi Wang,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-4">
+		Xun Wang,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-5">
+		Boyuan Li,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-6">
+		Meng-Hsiung Hsieh,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-7">
+		Thomas Mathews,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-8">
+		Lauren Zacharias,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-9">
+		Wen Gu,<sup>1</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-10">
+		Purva Gopal,<sup>3</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-11">
+		Natalia Brzozowska,<sup>4</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-12">
+		Peter Campbell,<sup>4,5</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-13">
+		Matt Hoare,<sup>6,7</sup> 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-14">
+		Glen Liszczak,<sup>8</sup> and 
+	</a>
+	<a class="author-affiliation show-more" href="javascript:void(0);" data-dropdown="author-affiliation-15">
+		Hao Zhu<sup>1</sup>
+	</a>
+</h4>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-0">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Mannino, G.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Mannino+G[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AG+Mannino%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-1">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Quinn, G.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Quinn+G[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AG+Quinn%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-2">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Zhu, M.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Zhu+M[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AM+Zhu%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-3">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Wang, Z.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Wang+Z[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AZ+Wang%22"
+				>Google Scholar
+				</a> 
+					|
+					<a target="_blank"
+						 href=https://orcid.org/0000-0002-9354-1206
+					><img src="/assets/orcid_24x24-c3dd8466870e6d6844746d0390885a978817f110ed6b16957bc1ad3a282af054.png" />
+					</a>
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-4">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Wang, X.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Wang+X[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AX+Wang%22"
+				>Google Scholar
+				</a> 
+					|
+					<a target="_blank"
+						 href=https://orcid.org/0000-0001-5172-0305
+					><img src="/assets/orcid_24x24-c3dd8466870e6d6844746d0390885a978817f110ed6b16957bc1ad3a282af054.png" />
+					</a>
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-5">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Li, B.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Li+B[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AB+Li%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-6">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Hsieh, M.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Hsieh+M[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AM+Hsieh%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-7">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Mathews, T.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Mathews+T[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AT+Mathews%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-8">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Zacharias, L.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Zacharias+L[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AL+Zacharias%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-9">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Gu, W.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Gu+W[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AW+Gu%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-10">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Gopal, P.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Gopal+P[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AP+Gopal%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-11">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Brzozowska, N.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Brzozowska+N[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AN+Brzozowska%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-12">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Campbell, P.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Campbell+P[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AP+Campbell%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-13">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Hoare, M.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Hoare+M[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AM+Hoare%22"
+				>Google Scholar
+				</a> 
+					|
+					<a target="_blank"
+						 href=https://orcid.org/0000-0001-5990-9604
+					><img src="/assets/orcid_24x24-c3dd8466870e6d6844746d0390885a978817f110ed6b16957bc1ad3a282af054.png" />
+					</a>
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-14">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Liszczak, G.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Liszczak+G[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AG+Liszczak%22"
+				>Google Scholar
+				</a> 
+			</p>
+	</div>
+	<div class="f-dropdown content large" data-dropdown-content id="author-affiliation-15">
+		<p><p class="affiliations"><sup>1</sup>Children’s Research Institute, Department of Pediatrics and Internal Medicine, Center for Regenerative Science and Medicine, Simmons Comprehensive Cancer Center, Children’s Research Institute Mouse Genome Engineering Core;</p><p class="affiliations"><sup>2</sup>Department of Immunology; and</p><p class="affiliations"><sup>3</sup>Department of Pathology; University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p><p class="affiliations"><sup>4</sup>Cancer Genome Project, Wellcome Sanger Institute, Hinxton, Cambridgeshire, United Kingdom.</p><p class="affiliations"><sup>5</sup>Quotient Therapeutics, Little Chesterford, Saffron Walden, United Kingdom.</p><p class="affiliations"><sup>6</sup>University of Cambridge Department of Medicine, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>7</sup>University of Cambridge Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge, United Kingdom.</p><p class="affiliations"><sup>8</sup>Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, Texas, USA.</p></p>
+			
+  <p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+
+
+			<p>
+				Find articles by
+				Zhu, H.
+				in:
+				<a target="_blank"
+					 href="https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&#x0026;db=pubmed&#x0026;term=Zhu+H[au]&#x0026;dispmax=50"
+				>PubMed
+				</a> |
+				<a target="_blank"
+					 href="https://scholar.google.com/scholar?q=%22author%3AH+Zhu%22"
+				>Google Scholar
+				</a> 
+					|
+					<a target="_blank"
+						 href=https://orcid.org/0000-0002-8417-9698
+					><img src="/assets/orcid_24x24-c3dd8466870e6d6844746d0390885a978817f110ed6b16957bc1ad3a282af054.png" />
+					</a>
+			</p>
+	</div>
+
+
+<p class='publication_date'>
+Published July 10, 2025
+-
+<a class='show-more' data-dropdown='full-publication-dropdown' href='javascript:void(0);'>
+More info
+</a>
+</p>
+<div class='f-dropdown content large' data-dropdown-content='' id='full-publication-dropdown'>
+<div class='copyright'>
+Published in
+<a href="/135/18">Volume 135, Issue 18</a>
+on
+September 16, 2025
+<br>
+<i>
+J Clin Invest.
+</i>
+2025;135(18):e191855.
+<a href="https://doi.org/10.1172/JCI191855">https://doi.org/10.1172/JCI191855</a>.
+<br>
+© 2025 Mannino et al.
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+</div>
+
+<div class='publication_date'>
+Published July 10, 2025
+-
+<a href="#version_history">Version history</a>
+<br>
+Received:
+January 30, 2025;
+Accepted:
+July 3, 2025
+</div>
+
+</div>
+
+<a href="/articles/view/191855/pdf">View PDF <img class="article-tools-icon" src="//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png" /></a>
+<hr>
+<h3>Related article:</h3>
+<div class='row'>
+<div class='small-12  columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h5 class='article-title' style='display: inline-block;'><a href="/articles/view/197143">Loss of function of T-box 3 in the liver protects against MASLD</a></h5>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns article-metadata'>
+<a class="show-for-small" href="/articles/view/197143">Jacquelyn J. Maher</a>
+<a class='hide-for-small show-more' data-reveal-id='article46475-more' href='#'>
+<div class='article-authors'>
+Jacquelyn J. Maher
+</div>
+</a>
+<div>
+
+</div>
+<div class='row'>
+<div class='small-12 columns article-links'>
+</div>
+</div>
+<div class='row'>
+<div class='small-12 columns'>
+<a href="/tags/44"><span class='label-article-type'>
+Commentary
+</span>
+</a><span class='altmetric-embed' data-badge-popover='bottom' data-badge-type='2' data-doi='10.1172/JCI197143' data-hide-no-mentions='true'></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='reveal-modal xlarge' data-reveal='' id='article46475-more'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4><a href="/articles/view/197143">Loss of function of T-box 3 in the liver protects against MASLD</a></h4>
+</div>
+<div class='small-12 columns'>
+<ul class='button-group'>
+<li><a class="button tiny" href="/articles/view/197143">Text</a></li>
+<li><a class="button tiny" href="/articles/view/197143/pdf">PDF</a></li>
+</ul>
+</div>
+<div class='small-12 columns'>
+<h5>Abstract</h5>
+</div>
+<div class='small-12 columns'>
+<p>The hallmark feature of metabolic dysfunction-associated steatotic liver disease (MASLD) is hepatic lipid accumulation. A recent search for genes impacting MASLD in mice uncovered the transcriptional repressor T-box 3 (Tbx3) as a top hit. In this issue of the JCI, Mannino et al. investigated the mechanism of action of TBX3 in murine MASLD. Tbx3 deletion protected against MASLD by inducing high density lipoprotein binding protein and stimulating hepatic VLDL secretion. Loss-of-function mutations in human TBX3 identified in MASLD patients displayed a similar protective effect. Collectively, these findings highlight the importance of lipid export in the prevention of MASLD and identify a transcriptional pathway controlling hepatic lipid secretion that is poised for further investigation.</p>
+</div>
+<div class='small-12 columns'>
+<h5>Authors</h5>
+</div>
+<div class='small-12 columns'>
+<p>Jacquelyn J. Maher</p>
+</div>
+</div>
+<a class='close-reveal-modal'>&#215;</a>
+</div>
+
+<hr>
+
+
+
+			<div class="content_well">
+<a class="in-page" name="ABS"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#section-abstract"><span class="toggle-icon"></span><span class="section-title">Abstract</span></a><div id="section-abstract" class="content active"><p>Somatic mutations that increase clone fitness or resist disease are positively selected, but the impact of these mutations on organismal health remains unclear. We previously showed that <i>Tbx3</i> deletion increases hepatocyte fitness within fatty livers. Here, we detected <i>TBX3</i> somatic mutations in patients with metabolic dysfunction–associated steatotic liver disease (MASLD). In mice, <i>Tbx3</i> deletion protected against, whereas <i>Tbx3</i> overexpression exacerbated, MASLD. <i>Tbx3</i> deletion reduced lipid overload by accelerating VLDL secretion. Choline-deficient diets, which block VLDL secretion, abrogated this protective effect. TBX3 transcriptionally suppressed the conventional secretory pathway and cholesterol biosynthesis. <i>Hdlbp</i> is a direct target of TBX3 that is responsible for the altered VLDL secretion. In contrast to wild-type <i>TBX3</i>, the <i>TBX3</i> I155S and A280S mutations found in patients failed to suppress VLDL secretion. In conclusion, <i>TBX3</i> mutant clones expand during MASLD through increased lipid disposal, demonstrating that clonal fitness can benefit the liver at the cost of hyperlipidemia.</p></div>
+</dd></dl>
+<a class="in-page" name="GRABS"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#section-graphical-abstract"><span class="toggle-icon"></span><span class="section-title">Graphical Abstract</span></a><div id="section-graphical-abstract" class="content active"><a href="/articles/view/191855/ga"><img alt="graphical abstract" title="Graphical abstract" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/medium/JCI191855.ga.jpg"></a></div>
+</dd></dl>
+<a class="in-page" name="SEC1"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#section-1"><span class="toggle-icon"></span><span class="section-title">Introduction</span></a><div id="section-1" class="content active"><div id="intro">
+<p>Somatic mosaicism results from the accumulation of mutations in subpopulations of cells within a tissue. Some somatic mutations are inconsequential, but others confer selective advantages that lead to clonal expansion within tissues. Recently, deep sequencing of normal tissues has revealed somatic mosaicism driven by clonal evolution in most healthy organs (<span class="xref"><a id="#B1-link" href="#B1" onclick="showRefSection();">1</a></span>–<span class="xref"><span class="gen"></span><a id="#B3-link" href="#B3" onclick="showRefSection();">3</a></span>). While clonal evolution of hematopoietic stem cells has been extensively studied, somatic mosaicism within non-cancerous, solid tissues is just beginning to be investigated. In addition, it is now clear that the landscape of somatic mutations is determined not only by cell-autonomous influences of individual mutations, but also by environmental factors. Carcinogens such as those found in cigarette smoke increase somatic mosaicism within the lung and esophagus (<span class="xref"><span class="gen"></span><a id="#B4-link" href="#B4" onclick="showRefSection();">4</a></span>, <span class="xref"><span class="gen"></span><a id="#B5-link" href="#B5" onclick="showRefSection();">5</a></span>). Chronic inflammation can affect the evolution of regenerating intestinal epithelial cells in ulcerative colitis patients (<span class="xref"><span class="gen"></span><a id="#B6-link" href="#B6" onclick="showRefSection();">6</a></span>–<span class="xref"><span class="gen"></span><a id="#B8-link" href="#B8" onclick="showRefSection();">8</a></span>). In the liver, chronic diseases exert specific selective pressures on expanding hepatocytes (<span class="xref"><span class="gen"></span><a id="#B9-link" href="#B9" onclick="showRefSection();">9</a></span>–<span class="xref"><span class="gen"></span><a id="#B11-link" href="#B11" onclick="showRefSection();">11</a></span>). Identifying mutations and understanding the mechanisms by which they induce clonal expansion are critical to understanding the relationship between distinct liver disease etiologies and hepatocyte expansion. To functionally explore somatic mutations in the liver, we recently developed an in vivo CRISPR screening platform called <u>M</u>ethod <u>O</u>f <u>S</u>omatic <u>A</u>AV-transposon <u>I</u>n vivo <u>C</u>lonal <u>S</u>creening (MOSAICS) (<span class="xref"><a id="#B11-link" href="#B11" onclick="showRefSection();">11</a></span>). This adeno-associated virus–based (AAV-based) platform induces somatic mosaicism in the liver through CRISPR/Cas9–mediated gene editing, which, when combined with different models of chronic liver disease, results in unique patterns of sgRNA enrichment and depletion. Using MOSAICS, we identified loss-of-function mutations that induce clonal expansion only in the presence of metabolic dysfunction–associated steatotic liver disease (MASLD), and one of the most highly enriched mutations was in the transcription factor <i>Tbx3</i> (<span class="xref"><a id="#B11-link" href="#B11" onclick="showRefSection();">11</a></span>).</p>
+<p>TBX3 is a transcription factor in the T-box family of DNA-binding proteins that is broadly expressed during embryogenesis in multiple tissues. <i>Tbx3</i>-null embryos die in utero (<span class="xref"><a id="#B12-link" href="#B12" onclick="showRefSection();">12</a></span>–<span class="xref"><span class="gen"></span><a id="#B14-link" href="#B14" onclick="showRefSection();">14</a></span>), highlighting its importance during embryonic development. In humans, loss-of-function mutations in <i>TBX3</i> cause the developmental disorder ulnar mammary syndrome (<span class="xref"><a id="#B15-link" href="#B15" onclick="showRefSection();">15</a></span>). Within the liver, <i>Tbx3</i> is expressed in zone 3 hepatocytes, downstream of canonical Wnt signaling (<span class="xref"><a id="#B16-link" href="#B16" onclick="showRefSection();">16</a></span>). However, no link has been made between <i>TBX3</i> and chronic liver disease. Here, we show that <i>TBX3</i> mutations are enriched in clonally expanded hepatocytes in patients with MASLD. We demonstrate that loss of hepatic <i>Tbx3</i> ameliorates MASLD in Western diet–fed (WD-fed) mice, and elucidate the mechanisms driving clonal expansion and protection within MASLD. This offers an example of how somatic mutations can produce antagonistic relationships between cell, organ, and organismal fitness.</p>
+</div></div>
+</dd></dl>
+<a class="in-page" name="SEC2"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#section-2"><span class="toggle-icon"></span><span class="section-title">Results</span></a><div id="section-2" class="content active"><div id="results">
+<p><span class="level-4">Somatic mutations in TBX3 are observed in human livers.</span> The MOSAICS platform permits the modeling of liver somatic mosaicism in different disease contexts, resulting in unique patterns of hepatocyte expansion and depletion (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1A</a>). Using MOSAICS, we previously observed that sgRNAs targeting the transcription factor <i>Tbx3</i> were among the most statistically significantly enriched under MASLD conditions (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1B</a>) (<span class="xref"><span class="gen"></span><a id="#B11-link" href="#B11" onclick="showRefSection();">11</a></span>), suggesting that <i>Tbx3</i> loss confers a selective advantage to hepatocyte clones during MASLD development.</p>
+<a class="in-page" name="F1" id="F1-target"></a><div class="figure">
+<a href="/articles/view/191855/figure/1"><img class="figure_thumbnail" align="left" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/small/JCI191855.f1.gif" alt="Somatic mutations identified in TBX3 in liver tissues from MASLD patients." title="Somatic mutations identified in TBX3 in liver tissues from MASLD patients."></a><a class="figure_number" href="/articles/view/191855/figure/1">Figure 1</a><p><span class="figure_title">Somatic mutations identified in <i>TBX3</i> in liver tissues from MASLD patients.</span> (<b>A</b>) Graphic of the MOSAICS screen workflow. (<b>B</b>) β-Score showing <i>sgTbx3</i> enrichment in WD- versus NC-fed mice after 6 months of selection. (<b>C</b>) Somatic mutations in <i>TBX3</i> identified from the livers of patients with MASLD. The mutation in blue represents a synonymous mutation. (<b>D</b>) AlphaFold-predicted TBX3 structure (gray) showing somatic mutations (orange) that do not fall within the DNA-binding domain. (<b>E</b>) X-ray crystal structure (PDB ID: 1H6F) of the TBX3 T-box (gray) bound to DNA (teal) showing somatic mutations (orange) with their respective ΔΔG values.</p>
+</div>
+<p>We then asked whether somatic mutations in <i>TBX3</i> are present in humans with MASLD (<a href="#sd">Supplemental Table 1</a>; supplemental material available online with this article; <a target="_blank" href="https://doi.org/10.1172/JCI191855DS1">https://doi.org/10.1172/JCI191855DS1</a>). Genomic sequencing of liver tissues from MASLD and alcohol-related liver disease patients identified somatic mutations in <i>TBX3</i> (<span class="xref"><a id="#B10-link" href="#B10" onclick="showRefSection();">10</a></span>), several of which fell within the T-box DNA-binding domain (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1C</a>), indicating that <i>TBX3</i> mutations may also promote clonal expansion in human disease. To assess potential loss-of-function mechanisms, we mapped the mutations onto the AlphaFold-predicted structure of full-length TBX3. Mutations outside the DNA-binding domain had no predictable impact on TBX3 structure or function (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1D</a>). In contrast, mutations that occurred within the DNA-binding domain localized to key structural elements and were suggestive of loss-of-function mechanisms. To explore this further, we mapped the DNA-binding domain mutations onto the x-ray crystal structure of the TBX3 T-box bound to DNA (<span class="xref"><span class="gen"></span><a id="#B17-link" href="#B17" onclick="showRefSection();">17</a></span>). We then used DDMut to predict changes in Gibbs free energy (ΔΔG) between the WT and mutant proteins (<span class="xref"><span class="gen"></span><a id="#B18-link" href="#B18" onclick="showRefSection();">18</a></span>). The L207P, L263P, and I155S mutations were predicted to have moderate to severe destabilizing effects (ΔΔG ≤ –2.0 kcal/mol) (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1E</a>). Interestingly, the A280S mutation was predicted to only modestly destabilize TBX3 (ΔΔG = –0.94 kcal/mol), but is located near the DNA/protein interface (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1E</a>), suggesting that it may alter TBX3-DNA interactions. These findings suggested that several somatic <i>TBX3</i> mutations likely result in loss of functionality and could mirror the effects that were observed in mouse MASLD models.</p>
+<p><span class="level-4">Tbx3 loss protects against MASLD development.</span> To determine whether <i>Tbx3</i> levels physiologically change during MASLD progression, we performed quantitative PCR (qPCR) on livers from mice on a WD containing high fat, cholesterol, and sugar for up to 36 weeks. Compared with mice fed normal chow (NC) for 12 weeks, hepatic <i>Tbx3</i> expression was elevated in mice fed a WD for 8, 12, and 20 weeks, but decreased in mice fed a WD for 36 weeks (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2A</a>). To examine the role of <i>Tbx3</i> in MASLD development, we generated liver-specific <i>Tbx3</i>-knockout (<i>Tbx3</i>-KO) mice. Mice harboring <i>loxP</i> sites flanking exon 1 of <i>Tbx3</i> (<span class="xref"><a id="#B14-link" href="#B14" onclick="showRefSection();">14</a></span>) were injected with AAV8-TBG-Cre, which leads to hepatocyte-specific <i>Cre</i> expression and loss of <i>Tbx3</i> mRNA expression in the liver (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2B</a>). To induce MASLD, we fed <i>Tbx3</i>-KO mice a WD for 3 months (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2C</a>). <i>Tbx3</i>-KO mice had decreased liver weights despite unchanged body weights, resulting in lower liver/body weight ratios (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2D</a>), suggesting reduced lipid accumulation. Compared with control mice, macrosteatosis and microsteatosis were attenuated in <i>Tbx3</i>-KO mice (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2E</a>) along with mRNAs involved in fibrosis (<a href="#sd">Supplemental Figure 1</a>, A and B). We also observed reduced plasma alanine transaminase (ALT) in KO mice, indicative of reduced liver damage (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2F</a>). To ask whether the protection from MASLD could be sustained for longer periods, WT and KO mice were fed a WD for 6 months. Again, <i>Tbx3</i>-KO mice had lower liver/body weight ratios, liver triglycerides, and liver cholesterol (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2, G–I</a>). We then assessed the NAFLD activity score (NAS) (<span class="xref"><span class="gen"></span><a id="#B19-link" href="#B19" onclick="showRefSection();">19</a></span>) after 6 months of WD and found decreased NAS in KO versus WT mice (<a id="#F2-link" href="#F2" onclick="showFigSection(this);">Figure 2, J and K</a>). Despite the protection from MASLD, these mice had similar levels of liver fibrosis and plasma ALT (<a href="#sd">Supplemental Figure 1</a>, C–E). Because apoptosis is known to play a role in MASLD progression, and TBX3 has been reported to regulate apoptosis, we checked <i>Tbx3-</i>KO livers for cleaved PARP, a common marker of apoptosis. However, we found no appreciable levels of cleaved PARP in either <i>Tbx3-</i>WT or -KO mice after 3 and 6 months of WD feeding (<a href="#sd">Supplemental Figure 1F</a>). To determine whether this result is sex specific, we induced MASLD in <i>Tbx3-</i>KO female mice. While female mice develop less MASLD than male mice, <i>Tbx3-</i>KO females still showed reduced steatosis (<a href="#sd">Supplemental Figure 1</a>, G and H).</p>
+<a class="in-page" name="F2" id="F2-target"></a><div class="figure">
+<a href="/articles/view/191855/figure/2"><img class="figure_thumbnail" align="left" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/small/JCI191855.f2.gif" alt="Liver-specific Tbx3 deletion protects against MASLD." title="Liver-specific Tbx3 deletion protects against MASLD."></a><a class="figure_number" href="/articles/view/191855/figure/2">Figure 2</a><p><span class="figure_title">Liver-specific <i>Tbx3</i> deletion protects against MASLD.</span> (<b>A</b>) <i>Tbx3</i> mRNA levels in WT mouse livers after NC or WD feeding for indicated durations. (<b>B</b>) <i>Tbx3</i> mRNA levels in <i>Tbx3<sup>fl/fl</sup></i> livers 1 week after AAV-TBG-Cre injection. (<b>C</b>) Experimental schema for diet-induced MASLD. (<b>D</b>) Liver weight (left), body weight (middle), and liver/body weight ratio (right) of <i>Tbx3-</i>KO mice on WD for 3 months. (<b>E</b>) Representative H&amp;E images from mice from <b>D</b>. (<b>F</b>) Plasma ALT levels from mice from <b>D</b>. (<b>G</b>) Liver/body weight ratio of <i>Tbx3</i>-KO mice on WD for 6 months. (<b>H</b>) Liver triglycerides from mice from <b>G</b>. (<b>I</b>) Liver cholesterol from mice from <b>G</b>. (<b>J</b>) Representative H&amp;E images from mice from <b>G</b>. (<b>K</b>) NAS scores from mice from <b>G</b>. Significance of relative <i>Tbx3</i> mRNA in <b>A</b> was calculated using a 1-way ANOVA with Dunnett’s post hoc test. *<i>P</i> &lt; 0.05; **<i>P</i> &lt; 0.01; ****<i>P</i> &lt; 0.0001. Scale bars: 500 μm, left panels; 100 μm, right panels.</p>
+</div>
+<p>We then asked whether <i>Tbx3</i> deletion would impact MASLD-induced cancer. We induced MASLD-driven tumorigenesis by feeding <i>Tbx3-</i>KO or -WT mice a WD for 48 weeks, allowing tumors to develop within the context of MASLD. After 48 weeks, <i>Tbx3-</i>KO mice again had decreased liver/body weight ratios (<a href="#sd">Supplemental Figure 2A</a>). They also had decreased surface tumor numbers and sizes (<a href="#sd">Supplemental Figure 2</a>, B and C). Together, these results suggest that liver-wide <i>Tbx3</i> loss is protective against WD-induced MASLD.</p>
+<p><span class="level-4">Tbx3 overexpression exacerbates WD-induced MASLD development.</span> To determine whether increased <i>Tbx3</i> would be sufficient to promote MASLD, we generated an AAV8 overexpressing a V5-tagged <i>Tbx3</i> under the control of <i>TBG</i>, a hepatocyte-specific promoter (AAV8-TBG-V5-TBX3). One week after retro-orbital injection into WT mice, immunohistochemistry showed V5-positive staining and reverse transcription–qPCR confirmed increased <i>Tbx3</i> mRNA expression in the liver (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3, A and B</a>). After AAV delivery, we provided NC or WD for 3 months. On NC, <i>Tbx3</i> overexpression was insufficient to cause MASLD (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3, C–F</a>). On WD, <i>Tbx3</i> overexpression led to increases in liver weight, body weight, liver/body weight ratios, and liver triglycerides after 3 months (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3, G and H</a>). Histologically, overexpression led to increased steatosis and lipid droplet accumulation (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3I</a>). <i>Tbx3-</i>overexpressing mice also had increased plasma ALT and aspartate transaminase (AST), indicating increased liver damage (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3, J and K</a>). We observed increased <i>Tbx3</i> mRNA expression in livers after 3 months (<a href="#sd">Supplemental Figure 3</a>, A and B), demonstrating that AAV-mediated overexpression was sustained for the entire feeding period. These results showed that <i>Tbx3</i> overexpression alone cannot drive MASLD, but can accelerate WD-induced MASLD.</p>
+<a class="in-page" name="F3" id="F3-target"></a><div class="figure">
+<a href="/articles/view/191855/figure/3"><img class="figure_thumbnail" align="left" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/small/JCI191855.f3.gif" alt="Overexpression of Tbx3 exacerbates MASLD." title="Overexpression of Tbx3 exacerbates MASLD."></a><a class="figure_number" href="/articles/view/191855/figure/3">Figure 3</a><p><span class="figure_title">Overexpression of <i>Tbx3</i> exacerbates MASLD.</span> (<b>A</b>) Representative V5 staining from WT mice injected with AAV8-TBG-V5-GFP or AAV8-TBG-V5-TBX3. (<b>B</b>) <i>Tbx3</i> mRNA levels from livers of mice overexpressing GFP or TBX3. (<b>C</b>)Liver/body weight ratio of <i>Tbx3</i>-overexpressing mice on NC for 3 months. (<b>D</b>) Plasma ALT from mice in <b>C</b>. (<b>E</b>) Plasma AST from mice in <b>C</b>. (<b>F</b>) Representative H&amp;E images from mice in <b>C</b>. (<b>G</b>) Liver weight (left), body weight (middle), and liver/body weight ratio (right) of <i>Tbx3</i>-overexpressing mice on WD for 3 months. (<b>H</b>) Liver triglyceride measurements from mice in <b>G</b>. (<b>I</b>) Representative H&amp;E images from mice in <b>G</b>. (<b>J</b>) Plasma ALT from mice in <b>G</b>. One outlier from each group was excluded. (<b>K</b>) Plasma AST from mice in <b>G</b>. One outlier from each group was excluded. (<b>L</b>) Experimental schema to test the fitness of <i>Tbx3-</i>expressing hepatocytes during WD feeding. (<b>M</b>) Representative V5 staining from WT mice injected with AAV8-TBG-V5-GFP or AAV8-TBG-V5-TBX3 after 4 weeks of NC or WD. (<b>N</b>) Quantification of relative abundance of V5-expressing cells from <b>H</b>. Significance of the V5<sup>+</sup> quantification in <b>N</b> was calculated using a 2-way ANOVA with Tukey’s post hoc test. *<i>P</i> &lt; 0.05; **<i>P</i> &lt; 0.01; ***<i>P</i> &lt; 0.001. Scale bars: 500 μm, left panels; 100 μm, right panels.</p>
+</div>
+<p>Because <i>Tbx3</i>-KO hepatocytes are positively selected during MASLD (<span class="xref"><a id="#B11-link" href="#B11" onclick="showRefSection();">11</a></span>), we asked whether forced expression of <i>Tbx3</i> would confer a selective disadvantage during MASLD. To test this, we overexpressed <i>Tbx3</i> in WT mice, followed by NC or WD feeding for 4 weeks (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3L</a>). After 4 weeks on an NC diet, there were similar levels of V5-positive cells in <i>GFP</i>- and <i>Tbx3</i>-overexpressing livers (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3, M and N</a>). However, after 4 weeks on WD, there were significantly fewer V5-positive cells in the <i>Tbx3</i>-overexpressing versus <i>GFP</i>-overexpressing control livers (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figure 3, M and N</a>). One possibility is that <i>Tbx3</i> overexpression led to clonal demise in the context of WD-induced MASLD. Another possibility is that the selective pressure exerted by MASLD caused a subset of <i>Tbx3-</i>overexpressing hepatocytes to silence the AAV transgene in the context of WD feeding. Regardless of the mechanism, these results suggest that forced <i>Tbx3</i> expression in hepatocytes causes a selective disadvantage specifically in the context of MASLD, which is consistent with results showing that <i>Tbx3</i> deletion confers a selective advantage in the context of MASLD.</p>
+<p><span class="level-4">Tbx3 loss does not improve fatty liver through altered insulin resistance.</span> Because insulin resistance is correlated with MASLD progression (<span class="xref"><a id="#B20-link" href="#B20" onclick="showRefSection();">20</a></span>), we asked whether <i>Tbx3</i>-KO mice were protected from MASLD through altered insulin sensitivity. We measured several metabolic parameters in <i>Tbx3</i>-KO mice, including glucose tolerance, fasting insulin levels, plasma non-esterified fatty acids, and plasma triglycerides. Surprisingly, <i>Tbx3</i>-KO mice exhibited increased glucose intolerance, fasting hyperinsulinemia, and increased plasma triglycerides and non-esterified fatty acids (<a id="#F4-link" href="#F4" onclick="showFigSection(this);">Figure 4, A–D</a>), all of which indicated increased insulin resistance. While selective insulin resistance seen in diabetic patients is a major driver of fatty liver disease, complete loss of hepatic insulin signaling is known to ameliorate MASLD (<span class="xref"><span class="gen"></span><a id="#B21-link" href="#B21" onclick="showRefSection();">21</a></span>), so we asked whether <i>Tbx3</i> might induce complete insulin resistance. To test this, we maintained <i>Tbx3</i>-KO mice on an NC diet for 6 months. Even on NC, <i>Tbx3</i>-KO mice trended toward lower liver weight and liver/body weight ratios, and had lower plasma ALT (<a href="#sd">Supplemental Figure 4</a>). Under these conditions, <i>Tbx3</i>-KO mice had similar glucose tolerance, fasted insulin, and non-esterified fatty acids compared with WT mice (<a id="#F4-link" href="#F4" onclick="showFigSection(this);">Figure 4, E–G</a>). These mice still had elevated plasma triglycerides and plasma cholesterol (<a id="#F4-link" href="#F4" onclick="showFigSection(this);">Figure 4, H and I</a>). Overall, these results show that <i>Tbx3</i> loss alone is insufficient to drive insulin resistance, making complete insulin resistance unlikely to be responsible for MASLD protection.</p>
+<a class="in-page" name="F4" id="F4-target"></a><div class="figure">
+<a href="/articles/view/191855/figure/4"><img class="figure_thumbnail" align="left" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/small/JCI191855.f4.gif" alt="Tbx3 loss exacerbates diet-induced metabolic syndrome." title="Tbx3 loss exacerbates diet-induced metabolic syndrome."></a><a class="figure_number" href="/articles/view/191855/figure/4">Figure 4</a><p><span class="figure_title"><i>Tbx3</i> loss exacerbates diet-induced metabolic syndrome.</span> (<b>A</b>) Intraperitoneal glucose tolerance test from <i>Tbx3</i>-KO or -WT mice on WD for 6 months. <i>Tbx3</i> KO, <i>n</i> = 10; <i>Tbx3</i> WT, <i>n</i> = 10. (<b>B</b>) Fasting plasma insulin in mice from <b>A</b>. (<b>C</b>) Plasma free fatty acids (FFA) in mice from <b>A</b>. (<b>D</b>) Plasma triglycerides in mice from <b>A</b>. (<b>E</b>) Intraperitoneal glucose tolerance test in <i>Tbx3-</i>KO or -WT mice fed an NC diet for 6 months. <i>Tbx3</i> KO, <i>n</i> = 8; <i>Tbx3</i> WT, <i>n</i> = 8. (<b>F</b>) Fasted plasma insulin in mice from <b>E</b>. (<b>G</b>) Plasma FFAs in mice from <b>E</b>. (<b>H</b>) Plasma triglycerides in mice from <b>E</b>. (<b>I</b>) Plasma cholesterol in mice from <b>E</b>. Significance of the glucose tolerance test in <b>A</b> and <b>E</b> was calculated using a 2-way ANOVA with Šidák’s post hoc test. *<i>P</i> &lt; 0.05; **<i>P</i> &lt; 0.01; ***<i>P</i> &lt; 0.001.</p>
+</div>
+<p><span class="level-4">Tbx3 deletion transcriptionally upregulates genes involved in VLDL secretion.</span> We next investigated differences in major lipid metabolic pathways in the liver. The liver accumulates lipids primarily through de novo lipogenesis and free fatty acid uptake, while it disposes of lipids through fatty acid oxidation and very low-density lipoprotein (VLDL) particle secretion (<span class="xref"><a id="#B22-link" href="#B22" onclick="showRefSection();">22</a></span>). After 6 months on a WD, <i>Tbx3</i>-KO mice had increased expression of de novo lipogenesis genes, including <i>Srebp1c</i>, <i>Acc1</i>, <i>Acly</i>, and <i>Scd1</i> (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5A</a>). Similarly, KO mice had elevated expression of genes involved in regulation of free fatty acid uptake, such as <i>Slc27a2</i>, <i>Slc27a5</i>, and <i>Fabp5</i> (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5B</a>). Upregulation of de novo lipogenesis and free fatty acid uptake are associated with insulin resistance, consistent with the metabolic syndrome in these mice, but are unlikely to mediate protection against MASLD. Next, we assessed regulators of fatty acid oxidation and VLDL secretion. Genes regulating fatty acid oxidation such as <i>Cpt1b</i>, <i>Cpt2</i>, and <i>Acadl</i> were upregulated (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5C</a>). In addition, critical genes for VLDL particle formation such as <i>Mttp</i> and <i>Sar1b</i> were upregulated (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5D</a>). Because phosphatidylcholine (PC) is the major phospholipid found in lipoproteins and known to be required for lipoprotein assembly (<span class="xref"><span class="gen"></span><a id="#B23-link" href="#B23" onclick="showRefSection();">23</a></span>), we also assessed components of the PC biosynthesis pathway. <i>Tbx3</i>-KO mice had elevated expression of PC biosynthesis genes including <i>Chka</i>, <i>Pcyt1a</i>, and <i>Pemt</i> (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5D</a>). These results suggested that <i>Tbx3</i> loss may protect from MASLD by increasing lipid disposal, either through increased fatty acid oxidation, VLDL secretion, or both.</p>
+<a class="in-page" name="F5" id="F5-target"></a><div class="figure">
+<a href="/articles/view/191855/figure/5"><img class="figure_thumbnail" align="left" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/small/JCI191855.f5.gif" alt="Tbx3 deletion protects against MASLD by transcriptionally upregulating VLDL" title="Tbx3 deletion protects against MASLD by transcriptionally upregulating VLDL-TG particle secretion."></a><a class="figure_number" href="/articles/view/191855/figure/5">Figure 5</a><p><span class="figure_title"><i>Tbx3</i> deletion protects against MASLD by transcriptionally upregulating VLDL-TG particle secretion.</span> (<b>A</b>) qPCR results for genes involved in de novo lipogenesis from <i>Tbx3-</i>KO or -WT mice fed a WD for 6 months. (<b>B</b>) qPCR for free fatty acid uptake genes in mice from <b>A</b>. (<b>C</b>) qPCR for β-oxidation genes in mice from <b>A</b>. (<b>D</b>) qPCR for PC biosynthesis and VLDL secretion genes in mice from <b>A</b>. (<b>E</b>) qPCR for PC biosynthesis and VLDL secretion genes in <i>Tbx3-</i>WT or -KO mice fed a WD for 4 weeks. (<b>F</b>) qPCR for β-oxidation genes in mice from <b>E</b>. (<b>G</b>) Ratio of M+14 myristoylcarnitine to M+16 palmitoylcarnitine in the liver of <i>Tbx3-</i>KO or -WT mice fed a WD for 2 weeks. (<b>H</b>) Lipoprotein fractionation (left) and total plasma triglyceride concentration (right) from <i>Tbx3-</i>KO mice fed a WD for 4 weeks. For lipoprotein fractionation, plasma was pooled from 4 mice per group. (<b>I</b>) Experimental setup for in vivo VLDL triglyceride secretion assay. (<b>J</b>) Plasma triglyceride levels over time from <i>Tbx3</i>-KO or -WT mice fed a WD for 2 weeks. <i>Tbx3</i> KO, <i>n</i> = 8; <i>Tbx3</i> WT, <i>n</i> = 7. (<b>K</b>) Quantification of the triglyceride secretion rate from mice from <b>K</b>. (<b>L</b>) Plasma concentration of total apolipoprotein B (ApoB) 3 hours after poloxamer injection in mice from <b>K</b>. (<b>M</b>) Experimental setup to induce MASLD with a CDA-HFD. (<b>N</b>) Liver weight (left), body weight (middle), and liver/body weight ratio (right) of <i>Tbx3</i>-KO or -WT mice fed a CDA-HFD for 14 weeks. (<b>O</b>) Representative H&amp;E images in mice from <b>N</b>. 61.	Significance of the difference in plasma triglycerides at 180 minutes after P407 injection in <b>J</b> was calculated using a 2-way ANOVA with Šidák’s post hoc test. *<i>P</i> &lt; 0.05; **<i>P</i> &lt; 0.01; ***<i>P</i> &lt; 0.001; ****<i>P</i> &lt; 0.0001. Scale bars: 500 μm, left panels; 100 μm, right panels.</p>
+</div>
+<p>Both fatty acid oxidation and VLDL secretion are impacted by the presence and severity of MASLD, so it is difficult to attribute transcriptional differences directly to loss of <i>Tbx3</i> versus differences caused by reduced MASLD. To disentangle these possibilities, we examined changes in these pathways early in MASLD progression, or after only 4 weeks of WD (<a href="#sd">Supplemental Figure 5</a>, A and B). At this time point, we again found transcriptional upregulation of the PC biosynthesis and VLDL secretion genes, but no differences in fatty acid oxidation genes (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5, E and F</a>). These results suggested that upregulation of VLDL particle secretion occurs before fatty acid oxidation, making it more likely to be a direct effect of <i>Tbx3</i> loss.</p>
+<p>Although we did not see a transcriptional upregulation in fatty acid oxidation early in disease, we wanted to ensure that <i>Tbx3</i> deletion was not increasing flux through β-oxidation to reduce MASLD. After 2 weeks of WD, we tested β-oxidation in <i>Tbx3-</i>KO mice using [<sup>13</sup>C]palmitate, a recently developed and validated in vivo tracing approach (<span class="xref"><a id="#B24-link" href="#B24" onclick="showRefSection();">24</a></span>). We infused [<sup>13</sup>C]potassium palmitate into <i>Tbx3-</i>WT or -KO mice and performed metabolomics to calculate the ratio of M+14 myristoylcarnitine to M+16 palmitoylcarnitine to measure the rate of β-oxidation. We found that <i>Tbx3-</i>WT and -KO mice had similar rates of β-oxidation after 2 weeks on a WD (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5G</a>), suggesting that the <i>Tbx3</i> loss did not strongly perturb fatty acid oxidation.</p>
+<p>While <i>Tbx3-</i>KO mice had increased expression of Slc27a2, Slc27a5, and Fabp5, we observed a decrease in the fatty acid transporter CD36 in <i>Tbx3-</i>KO mice after 6 months of WD feeding (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5B</a>). This prompted us to more directly investigate fatty acid uptake in <i>Tbx3-</i>KO mice. We performed lipidomics on <i>Tbx3-</i>KO mice infused with [<sup>13</sup>C]potassium palmitate after 2 weeks of WD feeding and measured fractional enrichment of M+16 palmitate in the liver and plasma of these mice. We observed no difference in M+16 palmitate enrichment in the plasma (<a href="#sd">Supplemental Figure 5C</a>), confirming equivalent levels of tracer in the KO and WT mice. Similarly, we found no significant difference in M+16 palmitate enrichment in the liver (<a href="#sd">Supplemental Figure 5D</a>), suggesting that <i>Tbx3</i> KO does not directly influence fatty acid uptake.</p>
+<p><span class="level-4">Loss of Tbx3 accelerates VLDL particle secretion to protect against MASLD.</span> We further investigated the role of TBX3 in VLDL secretion. To understand the effect of <i>Tbx3</i> deletion on plasma lipids, we performed lipoprotein fractionation in <i>Tbx3</i>-KO mice. After 4 weeks on a WD, <i>Tbx3</i>-KO mice showed an increase in plasma triglycerides, specifically within the VLDL fractions (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5H</a>). To directly test the effect of <i>Tbx3</i> loss on VLDL particle secretion, we performed an in vivo VLDL-TG secretion assay using the detergent poloxamer-407 after 2 weeks of WD feeding (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5I</a>). KO mice had an increased rate of VLDL-TG secretion (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5, J and K</a>). Interestingly, we also found increased plasma apolipoprotein B (ApoB), suggesting that KO mice had increased numbers of VLDL-TG particles, rather than increased triglycerides per particle (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5L</a>). To test whether the increased VLDL secretion was the driving force behind the protection from MASLD, we used a choline-deficient, <span style="font-variant: small-caps;">l</span>-amino acid–defined high-fat diet (CDA-HFD) to induce MASLD (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5M</a>). This commonly used diet is deficient in both choline and methionine, which restricts PC biosynthesis, leading to lipoprotein retention, steatosis, and other features of MASLD (<span class="xref"><span class="gen"></span><a id="#B25-link" href="#B25" onclick="showRefSection();">25</a></span>). In contrast to mice fed a WD, <i>Tbx3</i>-WT and -KO mice had similar liver weight, body weight, and liver/body weight ratios (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5N</a>). Additionally, H&amp;E showed equivalent levels of lipid accumulation in <i>Tbx3</i>-WT versus -KO livers (<a id="#F5-link" href="#F5" onclick="showFigSection(this);">Figure 5O</a>). <i>Tbx3-</i>KO mice also had similar levels of plasma ALT and AST, as well as similar levels of liver fibrosis (<a href="#sd">Supplemental Figure 6</a>, A–D). Liver triglyceride measurements showed a small, but significant, decrease in <i>Tbx3-</i>KO mice (<a href="#sd">Supplemental Figure 6E</a>), suggesting that the CDA-HFD is incapable of fully rescuing the anti-MASLD phenotype of <i>Tbx3</i> deletion. These results demonstrated that CDA-HFD impairs the central mechanism of <i>Tbx3</i> loss, namely accelerated VLDL particle secretion, thereby ablating the protective phenotypes associated with <i>Tbx3</i> deletion.</p>
+<p>Because <i>Tbx3-</i>KO clones are positively selected as a result of increased VLDL-TG secretion, we asked whether altering VLDL secretion is a generalizable mechanism for MASLD-dependent clonal expansion. To see whether VLDL genes are associated with clonal fitness, we reanalyzed previous MOSAICS data (<span class="xref"><a id="#B11-link" href="#B11" onclick="showRefSection();">11</a></span>). In WD-fed livers, <i>Mttp-</i>KO clones were significantly negatively selected, and <i>Tm6sf2-</i>KO clones trended toward negative selection (<a href="#sd">Supplemental Figure 6F</a>). Notably, <i>Mttp</i> is required for the VLDL particle secretion, while <i>Tm6sf2-</i>KO clones can still secrete VLDL particles that are triglyceride poor. These results suggest that secreting lipids, rather than storing them, is a general mechanism of hepatocyte protection that is exemplified by <i>Tbx3-</i>KO clones.</p>
+<p><span class="level-4">TBX3 suppresses VLDL secretion through regulating HDLBP.</span> To determine the transcriptional targets of TBX3 in the context of MASLD, we generated <i>Tbx3</i>-KO and V5-tagged <i>Tbx3</i> overexpression hepatocyte cell lines (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6A</a>). To identify genome-wide TBX3 binding sites, we performed CUT&amp;RUN on <i>Tbx3</i>-overexpressing cells in tandem with Ty1-TBX3 ChIP-Seq on <i>Ty1-TBX3</i>–overexpressing mouse livers (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6B</a>). When we intersected these in vitro and in vivo data, we identified 1,518 genes containing a TBX3 binding site within 10 kb of their transcriptional start sites. Among these loci were <i>Mttp</i> and <i>Chka</i>, canonical regulators of VLDL secretion and PC biosynthesis, respectively. This suggested that TBX3 directly regulates some VLDL secretory components (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6C</a>). We then subjected the genes associated with all overlapping hits to Gene Ontology pathway enrichment analysis (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6D</a>). This identified several pathways related to developmental processes and apoptosis, known functions of TBX3 (<span class="xref"><span class="gen"></span><a id="#B12-link" href="#B12" onclick="showRefSection();">12</a></span>).</p>
+<a class="in-page" name="F6" id="F6-target"></a><div class="figure">
+<a href="/articles/view/191855/figure/6"><img class="figure_thumbnail" align="left" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/small/JCI191855.f6.gif" alt="TBX3 regulates VLDL secretion through regulating cholesterol homeostasis." title="TBX3 regulates VLDL secretion through regulating cholesterol homeostasis."></a><a class="figure_number" href="/articles/view/191855/figure/6">Figure 6</a><p><span class="figure_title">TBX3 regulates VLDL secretion through regulating cholesterol homeostasis.</span> (<b>A</b>) Western blots showing <i>Tbx3</i> KO and overexpression in H2.35 cells. (<b>B</b>) Heatmaps from in vitro CUT&amp;RUN (left) and in vivo ChIP-Seq for TBX3 binding loci. (<b>C</b>) Genomic tracks of VLDL secretion and cholesterol biosynthesis genes showing TBX3 binding in vitro and in vivo. (<b>D</b>) Gene Ontology pathway enrichment analysis from overlapping in vitro and in vivo TBX3 binding sites. (<b>E</b>) Relative secretion of Gaussia luciferase from <i>Tbx3-</i>KO and overexpression H2.35 cell lines. (<b>F</b>) Venn diagram showing the overlap of genes that are transcriptionally upregulated during MASLD in <i>Tbx3-</i>KO livers and have a TBX3 binding site in vitro and in vivo. (<b>G</b>) <i>Hdlbp</i> genomic tracks showing TBX3 binding in vitro and in vivo. (<b>H</b>) Western blot showing HDLBP expression in <i>Tbx3-</i>overexpressing H2.35 cells. (<b>I</b>) qPCR of <i>Hdlbp</i> mRNA levels in livers from <i>Tbx3-</i>KO mice fed a WD for 4 weeks. (<b>J</b>) Western blot showing HDLBP protein levels in livers from <i>Tbx3-</i>KO mice (top) or <i>Tbx3-</i>overexpressing mice (bottom) fed a WD for 4 weeks. (<b>K</b>) Western blot showing <i>Tbx3</i> and <i>Hdlbp</i> double knockout (DKO) in vivo and triglyceride secretion assay from <i>Tbx3/Hdlbp</i> DKO mice fed a WD for 2 weeks (<i>sgLacZ</i>/<i>sgNT</i>, <i>n</i> = 7; <i>sgLacZ</i>/<i>sgHdlbp</i>, <i>n</i> = 7; <i>sgTbx3</i>/<i>sgNT</i>, <i>n</i> = 7; <i>sgTbx3</i>/<i>sgHdlbp</i>, <i>n</i> = 8). (<b>L</b>) qPCR of cholesterol biosynthesis genes from <i>Tbx3-</i>KO or -WT mice fed a WD for 4 weeks. Significance of the difference in plasma triglycerides among all groups at 180 minutes after P407 injection in <b>K</b> was calculated using a 2-way ANOVA with Tukey’s post hoc test. *<i>P</i> &lt; 0.05; **<i>P</i> &lt; 0.01; ***<i>P</i> &lt; 0.001.</p>
+</div>
+<p>This approach also identified enrichments in intracellular transport and ER/Golgi vesicle–mediated transport pathways. Because loss of <i>Tbx3</i> accelerates the secretion of VLDL particles, and several secretory pathway genes were also enriched with TBX3 binding sites, we asked whether TBX3 was specifically regulating VLDL-TG, or secretion more generally. We tested secretory function using a Gaussia luciferase assay. Gaussia luciferase is a 20 kDa protein isolated from the marine copepod <i>Gaussia princeps</i>, and is normally secreted through the conventional secretory pathway (<span class="xref"><a id="#B26-link" href="#B26" onclick="showRefSection();">26</a></span>). After <i>Gaussia</i> luciferase transfection into <i>Tbx3</i>-KO and -overexpressing H2.35 hepatocyte cell lines, along with their respective controls, we measured luciferase activity in cell culture medium. While <i>Tbx3</i> overexpression suppressed secretion, <i>Tbx3</i> deletion accelerated it (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6E</a>). To test secretion using other knockdown approaches in human cells, we cotransfected HEK293T cells with Gaussia luciferase and 3 independent siRNAs targeting <i>TBX3</i>. Forty-eight hours after transfection, all 3 siRNAs led to increased Gaussia luciferase secretion (<a href="#sd">Supplemental Figure 6G</a>). This showed that TBX3 is a transcriptional regulator of secretory pathways that include VLDL.</p>
+<p>To identify targets of TBX3 that may be mediating the enhanced secretion of VLDL in the MASLD context, we overlapped TBX3 binding sites with RNA sequencing data generated in WD-fed mice with liver-specific <i>Tbx3</i> knockout, generated with Cas9 and AAV-U6-sgTbx3 (<span class="xref"><a id="#B11-link" href="#B11" onclick="showRefSection();">11</a></span>). Because TBX3 has transcriptional suppressor functions, we overlapped our binding sites with mRNAs that were upregulated (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6F</a>). We identified 47 genes bound by TBX3 and upregulated in KO livers during MASLD development. Among these gene products, HDL binding protein (HDLBP) is an RNA-binding protein that enhances the translation and secretion of bound mRNAs destined for ER-Golgi secretion (<span class="xref"><span class="gen"></span><a id="#B27-link" href="#B27" onclick="showRefSection();">27</a></span>). More specifically, HDLBP is known to bind and enhance the translation of <i>ApoB100</i> mRNA, thereby increasing VLDL-TG secretion (<span class="xref"><a id="#B28-link" href="#B28" onclick="showRefSection();">28</a></span>). Through this mechanism, HDLBP is a critical regulator of cholesterol homeostasis and prevents excess intracellular cholesterol. In vitro and in vivo, TBX3 binds to sites within 250 bp of <i>Hdlbp</i>’s promoter (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6G</a>). In H2.35 hepatocytes, <i>Tbx3</i> overexpression suppressed HDLBP levels (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6H</a>). In vivo, <i>Tbx3</i>-KO livers showed elevated <i>Hdlbp</i> mRNA and protein after 4 weeks of WD (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6, I and J</a>), whereas <i>Tbx3</i>-overexpressing livers showed reduced levels after 4 weeks of WD (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6J</a>). Altogether, TBX3 directly suppresses HDLBP in vitro and in vivo. To test whether <i>Hdlbp</i> upregulation was causing enhanced VLDL secretion as a result of <i>Tbx3</i> deletion, we used inducible Cas9 mice and AAV-U6-sgRNAs to generate <i>Tbx3</i>/<i>Hdlbp</i> double-knockout (DKO) livers (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6K</a>). This showed that loss of <i>Hdlbp</i> abrogated the increases in VLDL-TG secretion caused by loss of <i>Tbx3</i> (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6K</a>). These results demonstrated that <i>Hdlbp</i> is a key downstream target of TBX3 that mediates the enhanced secretion of VLDL particles.</p>
+<p>We asked whether TBX3 might regulate cholesterol homeostasis more generally beyond HDLBP. Interestingly, isoprenoid biosynthesis genes were also enriched in TBX3 binding sites (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6D</a>). Several genes that regulate cholesterol biosynthesis and homeostasis contain TBX3 binding sites within their promoters (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6C</a>). Moreover, many cholesterol synthesis genes were upregulated in <i>Tbx3</i>-KO livers after 4 weeks on a WD (<a id="#F6-link" href="#F6" onclick="showFigSection(this);">Figure 6L</a>). Even in the absence of WD feeding, loss of <i>Tbx3</i> led to transcriptional upregulation of several cholesterol biosynthesis genes (<a href="#sd">Supplemental Figure 6H</a>), further showing that TBX3 directly suppresses the cholesterol biosynthetic pathway. Taken together, our results suggest that TBX3 transcriptionally regulates cholesterol synthesis and export to control VLDL particle secretion.</p>
+<p><span class="level-4">Human TBX3 point mutations result in loss of functionality.</span> Loss of murine <i>Tbx3</i> accelerates VLDL particle export in the presence of MASLD, and sequencing of fatty livers revealed mutations of unknown consequence throughout human <i>TBX3</i> (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1C</a>). To characterize the functional impact of these mutations, we generated V5-tagged WT and mutant <i>Tbx3</i> expression constructs. Based on the high ΔΔG from AlphaFold predictive models (<a id="#F1-link" href="#F1" onclick="showFigSection(this);">Figure 1E</a>), we hypothesized that some of the mutations destabilize TBX3. To test whether these mutations alter protein stability, we transfected WT H2.35 cells with WT or point mutant constructs. Twenty-four hours after transfection, we detected less V5-TBX3 harboring the I155S point mutation, whereas the protein levels of TBX3 G35C, F40L, and A280S were unchanged (<a id="#F7-link" href="#F7" onclick="showFigSection(this);">Figure 7A</a>). Next, we asked whether any of these mutations alter the subcellular localization of TBX3 using immunofluorescence on H2.35 cells. While <i>TBX3</i> WT and G35C and F40L mutants localized mostly to the nucleus, I155S and A280S were found in the nucleus and cytoplasm, indicating loss of nuclear localization (<a id="#F7-link" href="#F7" onclick="showFigSection(this);">Figure 7B</a>). These mutations are within the T-box DNA binding domain, and the nuclear localization signal is found adjacent to this domain. We hypothesized that these DNA binding domain mutations affected nuclear localization and transcriptional functionality. To test whether these mutations prevented TBX3-mediated suppression of secretion, we cotransfected WT H2.35 cells with a Gaussia luciferase and different <i>Tbx3</i> constructs. The DNA binding domain mutants, in particular I155S, failed to suppress secretion of Gaussia luciferase to the same extent as WT TBX3, whereas the mutations found upstream of the DNA-binding domain were similar to the WT (<a id="#F7-link" href="#F7" onclick="showFigSection(this);">Figure 7C</a>).</p>
+<a class="in-page" name="F7" id="F7-target"></a><div class="figure">
+<a href="/articles/view/191855/figure/7"><img class="figure_thumbnail" align="left" src="//dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/small/JCI191855.f7.gif" alt="Human TBX3 point mutations are loss-of-function." title="Human TBX3 point mutations are loss-of-function."></a><a class="figure_number" href="/articles/view/191855/figure/7">Figure 7</a><p><span class="figure_title">Human <i>TBX3</i> point mutations are loss-of-function.</span> (<b>A</b>) Western blot for V5 from WT H2.35 cells transfected with WT or mutant TBX3. (<b>B</b>) Immunofluorescence for V5 from WT H2.35 cells transfected with WT or mutant <i>TBX3</i>. (<b>C</b>) Relative secretion of Gaussia luciferase from WT H2.35 24 hours after cotransfection with a Gaussia luciferase expression plasmid along with WT or mutant <i>Tbx3</i> expression plasmid. The significance in <b>C</b> was calculated using a 1-way ANOVA comparing each group to the <i>Tbx3</i> WT group and corrected with Dunnett’s post hoc test. (<b>D</b>) Representative immunohistochemistry images of V5<sup>+</sup> cells in livers of WT C57BL/6 mice 1 week after AAV injection expressing <i>GFP</i>, WT <i>Tbx3</i>, or <i>Tbx3</i> harboring the I155S or A280S mutation. Scale bars: 500 μm. (<b>E</b>) Triglyceride secretion assay after 2 weeks of WD feeding from mice from <b>D</b> (<i>GFP</i>, <i>n</i> = 12; <i>Tbx3</i> WT, <i>n</i> = 17; <i>Tbx3</i> I155S, <i>n</i> = 17; <i>Tbx3</i> A280S, <i>n</i> = 17). Two mice from the I155S group were excluded because of technical issues. The results displayed are an aggregation of 2 independent experiments. (<b>F</b>) Quantification of the triglyceride secretion rate of mice from <b>D</b>. The results displayed are an aggregation of 2 independent experiments. (<b>G</b>) Liver weight (left), body weight (middle), and liver/body weight ratios of WT C57BL/6 mice injected with AAV expressing <i>GFP</i>, WT <i>Tbx3</i>, or <i>Tbx3</i> harboring the I155S or A280S mutations fed a WD for 12 weeks. (<b>H</b>) Representative H&amp;E images of mice from <b>G</b>. Scale bars: 500 μm, left panels; 100 μm, right panels. Significance of the difference in plasma triglycerides among all groups at 180 minutes after P407 injection in <b>E</b> was calculated using a 2-way ANOVA with Tukey’s post hoc test. The statistics displayed in <b>E</b> represent significance of each group compared with the <i>Tbx3-</i>WT group. Significance of the difference in triglyceride secretion rates and the difference in liver weight, body weight, and liver/body weight ratio comparing each group to <i>Tbx3</i> WT in <b>F</b> and <b>G</b> was done using a 1-way ANOVA with Tukey’s post hoc test. *<i>P</i> &lt; 0.05; **<i>P</i> &lt; 0.01; ***<i>P</i> &lt; 0.001; ****<i>P</i> &lt; 0.0001.</p>
+</div>
+<p>To assess mutations in vivo, we injected WT mice with AAV-TBG-TBX3 containing the I155S or A280S mutations, and performed in vivo poloxamer-407 secretion assays after 2 weeks of WD feeding. Consistent with the in vitro data, 1 week after AAV injection, we observed less V5-positive staining in livers injected with TBX3 I155S (<a id="#F7-link" href="#F7" onclick="showFigSection(this);">Figure 7D</a>). While WT TBX3 suppressed VLDL secretion, I155S and A280S point mutants showed a complete inability to do so (<a id="#F7-link" href="#F7" onclick="showFigSection(this);">Figure 7, E and F</a>). Finally, after 12 weeks of WD feeding, I155S and A280S had decreased lipid accumulation relative to WT TBX3 and were comparable to the GFP control (<a id="#F7-link" href="#F7" onclick="showFigSection(this);">Figure 7, G and H</a>, and <a href="#sd">Supplemental Figure 6I</a>). This showed that <i>TBX3</i> somatic mutations identified in human patients are predominantly loss-of-function, and likely promote MASLD-driven clonal expansion through accelerated VLDL particle secretion.</p>
+</div></div>
+</dd></dl>
+<a class="in-page" name="SEC3"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#section-3"><span class="toggle-icon"></span><span class="section-title">Discussion</span></a><div id="section-3" class="content active"><div id="discussion">
+<p>Human tissues contain diverse somatic mutations, and aging and disease can accelerate somatic evolution. Clonal evolution is driven by not only the somatic mutations themselves, but the cellular environment within which the mutations arise. In order to capitalize on the genetic information gained from somatic genetics, it will be essential to distinguish between passenger and driver mutations, and to identify the specific mechanisms that underlie their expansion. To identify gene perturbations that drive expansion during MASLD, we used the MOSAICS screening platform, which identified loss-of-function <i>Tbx3</i> mutations that expand in MASLD livers.</p>
+<p>The implications of somatic mutations for disease progression and organismal health are unclear. One possibility is that these mutations are precursors to transformation and ultimately tumorigenesis. However, mutations could also be beneficial or adaptive, causing increased regeneration within damaged tissues. In the esophagus, clonally expanding epithelial cells restrict tumorigenesis by outcompeting emerging cancer cells (<span class="xref"><a id="#B29-link" href="#B29" onclick="showRefSection();">29</a></span>, <span class="xref"><span class="gen"></span><a id="#B30-link" href="#B30" onclick="showRefSection();">30</a></span>). In the liver, several mutations found in cirrhotic livers are not commonly found in hepatocellular carcinoma. Importantly, some of these mutations induce liver regeneration without promoting cancer (<span class="xref"><span class="gen"></span><a id="#B31-link" href="#B31" onclick="showRefSection();">31</a></span>, <span class="xref"><span class="gen"></span><a id="#B32-link" href="#B32" onclick="showRefSection();">32</a></span>). These results call into question the idea that somatic mutations are predominantly harmful. Instead, they raise the possibility that some somatic mutations, even at low frequencies, could be beneficial to the health of an organism in some contexts. Here, we show that mutations in <i>TBX3</i> provide a selective advantage in MASLD at the cellular level by accelerating the rate of VLDL-TG secretion. We further provide evidence that secreting lipids, rather than storing them, is a general mechanism that drives expansion of hepatocyte clones during MASLD development, including <i>TBX3</i> mutant clones. Notably, <i>TBX3</i> mutations increase the rate of VLDL particle secretion, resulting in an elevated VLDL particle number. This differs from other genes implicated in VLDL particle formation and MASLD, such as <i>TM6SF2</i>, which regulates the number of triglycerides per VLDL particle without influencing the number of VLDL particles secreted (<span class="xref"><a id="#B33-link" href="#B33" onclick="showRefSection();">33</a></span>).</p>
+<p>These results suggest that TBX3 assists in maintaining cholesterol homeostasis, which plays a role in its suppression of VLDL secretion and may also be important for its role in embryogenesis. In rats, pharmacologic inhibition of cholesterol synthesis causes developmental abnormalities (<span class="xref"><a id="#B34-link" href="#B34" onclick="showRefSection();">34</a></span>). In humans, inborn errors of cholesterol synthesis induce different malformation syndromes (<span class="xref"><span class="gen"></span><a id="#B35-link" href="#B35" onclick="showRefSection();">35</a></span>), many of which present clinically with underdeveloped limbs, mirroring features of ulnar mammary syndrome caused by germline <i>TBX3</i> mutations. TBX3 could play a unique role in maintaining proper cholesterol levels specifically early in embryogenesis, when much of the fetal cholesterol comes exogenously from the mother (<span class="xref"><a id="#B36-link" href="#B36" onclick="showRefSection();">36</a></span>).</p>
+<p>While inhibition of TBX3 may be useful in protecting from MASLD, it likely is not a viable treatment option owing to potential side effects. Despite being protected from MASLD, <i>Tbx3</i>-KO mice faced other health challenges, such as increased systemic insulin resistance. High-dose triglyceride infusion is a common method of inducing acute insulin resistance in mice and humans (<span class="xref"><a id="#B37-link" href="#B37" onclick="showRefSection();">37</a></span>), so it is possible that chronic hyperlipidemia resulting from accelerated VLDL secretion exacerbated the insulin resistance phenotype caused by the WD. Furthermore, elevated levels of VLDL and LDL particles are known to cause atherosclerosis and cardiovascular disease (<span class="xref"><span class="gen"></span><a id="#B38-link" href="#B38" onclick="showRefSection();">38</a></span>). This study is important because it shows that somatic mutations can have potent beneficial effects at the clone, tissue, and organ levels, but also a detrimental effect on the individual. This shows that potential inter-organ trade-offs of somatic mutations must be quantified and analyzed in the in vivo context before therapeutic conclusions can be made.</p>
+</div></div>
+</dd></dl>
+<a class="in-page" name="SEC4"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#section-4"><span class="toggle-icon"></span><span class="section-title">Methods</span></a><div id="section-4" class="content active"><div id="methods">
+<p><span class="level-4">Sex as a biological variable.</span> For the mouse MASLD phenotype, both male and female mice were used because sex was considered as a biological variable. For the remaining experiments, male mice were used because in general they exhibit more rapid and severe fatty liver disease development.</p>
+<p><span class="level-4">Sequencing of human MASLD patients and generation of predictive models.</span> Sequencing was performed as described by Ng et al. (<span class="xref"><a id="#B10-link" href="#B10" onclick="showRefSection();">10</a></span>). To predict the impact of <i>TBX3</i> mutations on protein stability and function, <i>TBX3</i> mutations were mapped onto the full-length TBX3 structure predicted by AlphaFold (<a target="_blank" href="https://alphafold.ebi.ac.uk/">https://alphafold.ebi.ac.uk/</a>) or the TBX3: DNA complex x-ray crystal structure (Protein Data Bank [PDB] ID: 1H6F) (<span class="xref"><a id="#B17-link" href="#B17" onclick="showRefSection();">17</a></span>) using PyMOL (<a target="_blank" href="https://www.pymol.org/">https://www.pymol.org/</a>). The impact of T-box mutations on TBX3 stability was predicted by importing of the TBX3: DNA x-ray crystal structure coordinates into the DDMut online server (<span class="xref"><a id="#B18-link" href="#B18" onclick="showRefSection();">18</a></span>) and querying of individual mutations of interest.</p>
+<p><span class="level-4">Mouse models of fatty liver disease.</span> We received <i>Tbx3<sup>fl/fl</sup></i> mice on a mixed FVB/129/B6 strain background from Anne Moon’s laboratory at the University of Utah and backcrossed them for 2 generations onto C57BL/6. For the <i>Tbx3</i>/<i>Hdlbp</i> double-knockout experiment, <i>Rosa-Rtta TRE-Cas9</i> mice on a C57BL/6 background (The Jackson Laboratory, 029415) were used. For all experiments that included <i>TBX3</i> overexpression (<a id="#F3-link" href="#F3" onclick="showFigSection(this);">Figures 3</a> and <a id="#F7-link" href="#F7" onclick="showFigSection(this);">7</a>), WT C57BL/6 mice were originally purchased from The Jackson Laboratory. We used the WD fatty liver disease model described previously (<span class="xref"><span class="gen"></span><a id="#B32-link" href="#B32" onclick="showRefSection();">32</a></span>). The diet contains solid food high in fat, cholesterol, and sucrose (Teklad Diets, TD.120528) and a high-sugar water with 23.1 g/L <span style="font-variant: small-caps;">d</span>-fructose (Sigma-Aldrich, G8270) and 18.9 g/L <span style="font-variant: small-caps;">d</span>-glucose (Sigma-Aldrich, F0127). Methionine- and choline-deficient HFD was used as an additional fatty liver disease model (Research Diets, A06071302) (<span class="xref"><a id="#B25-link" href="#B25" onclick="showRefSection();">25</a></span>). Six- to eight-week old <i>Tbx3<sup>fl/fl</sup></i> mice were injected with 5 × 10<sup>10</sup> genome copies (GC) of AAV-TBG-Cre or AAV-TBG-GFP, sufficient for whole liver coverage. AAV-TBG-GFP control mice were generated from littermates and cohoused with mice injected with AAV-TBG-Cre for each study. One week after AAV injection, the mice were switched to the indicated diets for the length of the study. At the endpoint of the studies, blood was collected from the submandibular vein for ALT, AST, cholesterol, triglyceride, and non-esterified fatty acids analysis, and liver tissue was harvested and processed. For the NC, <i>Tbx3<sup>fl/fl</sup></i> mice were injected with AAV-TBG-Cre or AAV-TBG-GFP and maintained on NC for the duration of the study. To generate <i>Tbx3</i> overexpression AAV vector, we cloned WT mouse <i>Tbx3</i> with a V5 tag into an AAV backbone driven by a TBG promoter (Addgene 105536). AAV expressing <i>Tbx3</i> or <i>GFP</i> (3 × 10<sup>10</sup> GC) were injected into WT C57BL/6 mice. One week after injection, mice were started on WD or maintained on NC for the remainder of the study. For the in vivo point mutant secretion and MASLD studies, 5 × 10<sup>10</sup> GC were injected into WT C57BL/6 mice.</p>
+<p><span class="level-4">Mouse somatic Tbx3 mutations.</span> We used the Site-Directed Mutagenesis Kit (New England Biolabs, E0552S) to generate lentiviral expression plasmids expressing a V5-tagged <i>Tbx3</i> containing somatic mutations. For TBX3 localization studies, WT H2.35 cells were sparsely seeded onto plates with a glass bottom (Thermo Fisher Scientific, 150680). The next day, cells were transfected with one of the lentiviral expression plasmids containing WT or point mutant <i>Tbx3</i>. Twenty-four hours after transfection, cells were washed with PBS and immunofluorescence was performed as described below. For Gaussia luciferase secretion assay, WT H2.35 cells were seeded into a 12-well plate. The next day, cells were cotransfected with the Gaussia luciferase expression plasmid and WT, or point mutant <i>Tbx3</i>. Twenty-four hours after transfection, secretion was measured as described below. To express point mutant <i>Tbx3</i> in mouse livers, we cloned point mutant <i>Tbx3</i> cDNAs into the same AAV backbone as before. Mice were injected with AAV and started on WD one week later. After 2 weeks, mice were subjected to the in vivo VLDL-TG secretion assay described below. After 12 weeks on WD, tissue was harvested and analyzed.</p>
+<p><span class="level-4">Tbx3/Hdlbp double-knockout livers.</span> sgRNAs targeting <i>Tbx3</i> and <i>Hdlbp</i> along with <i>LacZ</i> and a non-targeting control were cloned into the MOSAICS v10 vector. AAV was generated and purified as described below. At 7 weeks old, <i>Rosa-Rtta TRE-Cas9</i> mice were given doxycycline water (2 g/L) for 2 weeks. After 1 week on doxycycline, mice were injected with 1 × 10<sup>11</sup> GC of MOSAICS v10 vectors. The mice were maintained on doxycycline water for an additional week after AAV injection. One week after AAV injection, doxycycline water was removed, and the mice were given WD for 2 weeks before an in vivo VLDL-TG secretion assay described below.</p>
+<p><span class="level-4">AAV generation and purification.</span> AAV-Pro 293T cells (Takara 632273) were seeded at a density of 2 × 10<sup>7</sup> cells per 15 cm plate 1 day before transfection. For transfecting one 15 cm plate, 10 μg of AAV-TBG plasmid, 10 μg of pAAV2/8 (Addgene 112864), and 20 μg of pAdDeltaF6 (Addgene) were mixed with 500 μL of Opti-MEM (Thermo Fisher Scientific). In another tube, polyethyleneimine (PEI) was mixed with 500 μL Opti-MEM. The solutions from both tubes were mixed and incubated at room temperature for 30 minutes before being added to the plates. The next day, cell culture medium was replaced with low-glucose DMEM supplemented with 1% FBS and 1× penicillin/streptomycin. Forty-eight hours later, cells were scraped off the plate and collected by centrifugation, and the pellets were frozen at –80°C overnight. The next day, cells were thawed on ice and lysed in 2 mL per 15 cm plate of lysis buffer (200 mM NaCl in PBS supplemented with 0.5% CHAPS powder [wt/vol]). The lysates were rocked at 4°C for 15 minutes, centrifuged, and filtered with 0.45 μm filters. During centrifuging, the gravity column for AAV purification was set up. In a Poly-Prep chromatography column (Bio-Rad, 7311550), 0.8 mL of POROS CaptureSelect AAV8 Affinity Resin (Life Technologies, A30790) was added to the bottom of the column and washed with 5 mL of wash buffer (500 mM NaCl in PBS). After washing, the filtered cell lysate containing AAV was added to the resin without disturbing it and allowed to run through. Each column was then washed again with 8 mL of wash buffer before being eluted directly into 1 M Tris-HCl (pH 8) with the elution buffer (500 mM NaCl, 100 mM glycine [pH 2.5]). The eluate was transferred to a 100K Amicon centrifugal filter unit (Millipore, UFC910024) and concentrated by centrifugation. The concentrated AAV was diluted with 3 mL of AAV dialysis buffer (212 mM NaCl and 5% sorbitol [wt/vol]) and concentrated again. After concentration, the AAV was again diluted with 3 mL of AAV dialysis buffer and concentrated a third time. The final concentrated AAV was aliquoted and stored at –80°C until it was used. AAV titer was determined using the AAVpro titration kit (for Real Time PCR) version 2 (Takara 6233).</p>
+<p><span class="level-4">Glucose tolerance test and fasted plasma insulin concentration.</span> The glucose tolerance test (GTT) assay was performed 22 weeks after WD feeding was initiated. Peripheral blood for fasted insulin was collected 24 weeks after WD feeding was initiated. Mice were fasted overnight for 16 hours before the GTT test. A small opening was made with a blade on the lateral tail vein for blood glucose testing. Fasted glucose levels were measured and used as time point 0. Ten percent glucose was injected i.p. at 10 μL per gram of body weight. The dosage was 1 g/kg body weight. Plasma glucose levels at 30, 60, 90, and 120 minutes were measured with a LifeScan OneTouch glucometer. For fasting insulin concentration, mice were fasted for 5 hours before testing. After that, blood was collected from the lateral tail vein and collected into heparinized capillaries (Drummond Scientific 1-000-7500-HC). Peripheral blood was centrifuged, and plasma was transferred to a fresh tube and stored at –80°C. Insulin concentrations were measured using the Ultra Sensitive Mouse Insulin ELISA kit (Crystal Chem 90080).</p>
+<p><span class="level-4">Lipoprotein fractionation.</span> Fresh plasma was collected and pooled from 4–5 mice from each group and fractionated by the University of Texas (UT) Southwestern Medical Center Metabolic Phenotyping Core. Samples were separated using a Superose 6 10/300 GL gel filtration column, and triglycerides were measured from each fraction.</p>
+<p><span class="level-4">In vivo VLDL-TG secretion assay and ApoB concentration.</span> In vivo VLDL-TG secretion assay was performed on mice after 2 weeks on WD. Mice were fasted overnight before the secretion assay. Peripheral blood was collected in heparinized tubes from the submandibular vein from fasted mice, which served as time point 0. Poloxamer-407 (Sigma-Aldrich, 16758) was dissolved in saline, filtered, and given i.p. at a dose of 1 g/kg. Ninety minutes and 180 minutes after poloxamer injection, peripheral blood was collected with heparinized capillaries. The blood was centrifuged, and the plasma was transferred to a fresh tube and stored at –80°C until analysis. Triglycerides were measured from the plasma by the UT Southwestern Metabolic Phenotyping Core. We calculated VLDL secretion rates by subtracting the final TG concentration from the fasted triglyceride concentration and dividing by the total time. In <i>Tbx3-</i>KO mice, plasma ApoB concentration was measured using a mouse ApoB ELISA kit (Elabscience, E-EL-M3017).</p>
+<p><span class="level-4">CUT&amp;RUN and ChIP-Seq library preparation and analysis.</span> ChIP-Seq DNA was prepared from mouse livers as described previously using a Ty1 antibody (Diagenode, C15200054) (<span class="xref"><a id="#B39-link" href="#B39" onclick="showRefSection();">39</a></span>). DNA libraries were prepared using the NEBNext Ultra II DNA Library Prep Kit for Illumina (New England Biolabs, E7645). For CUT&amp;RUN DNA preparation, low-passage-number cell lines were harvested, and genomic binding sites were isolated according to the manufacturer’s protocol (Epicypher, 14-1048) using a V5 antibody (Abcam, ab15828). Next-generation sequencing libraries were also prepared according to the manufacturer’s protocol (Epicypher, 14-1001). Samples were sequenced with 50-bp paired-end flow cells using an Illumina NextSeq 2000 system at the Children’s Research Institute Sequencing Core.</p>
+<p>All FASTQ files were trimmed via Cutadapt (: <a target="_blank" href="https://cutadapt.readthedocs.io/en/stable/">https://cutadapt.readthedocs.io/en/stable/</a>) and aligned via Bowtie 2 (<a target="_blank" href="https://bowtie-bio.sourceforge.net/bowtie2/index.shtml">https://bowtie-bio.sourceforge.net/bowtie2/index.shtml</a>) to the UCSC reference mouse genome. Peaks were called using MACS2 (<a target="_blank" href="https://macs3-project.github.io/MACS/index.html">https://macs3-project.github.io/MACS/index.html</a>). All resulting bigWig files were visualized by the Integrative Genomics Viewer (<a target="_blank" href="https://igv.org/">https://igv.org/</a>). Heatmaps displaying promoter regions within the mouse genome were curated using deepTools (<a target="_blank" href="https://deeptools.readthedocs.io/en/latest/">https://deeptools.readthedocs.io/en/latest/</a>).</p>
+<p><span class="level-4">In vivo β-oxidation and free fatty acid flux.</span> [<sup>13</sup>C]potassium palmitate (Cambridge Isotope Laboratories, CLM-3943-PK) was resuspended at a concentration of 50 mM and mixed 1:10 in PBS containing 10% fatty acid–free BSA (Sigma-Aldrich, A8806). Mice were infused at a rate of 1 mg/kg/min for 2 hours, and then tissue was immediately collected. We performed metabolomics, and β-oxidation flux was measured by calculation of the ratio of M+14 myristoylcarnitine to M+16 palmitoylcarnitine in the liver. To calculate free fatty acid uptake, we performed lipidomics and calculated the fractional enrichment of M+16-labeled palmitate in the plasma and liver.</p>
+<p><span class="level-4">Histology and immunohistochemistry.</span> Tissue samples were fixed with 10% formalin and paraffin-embedded. Slides were deparaffinized using serial incubations with xylene, xylene, 100% ethanol, 100% ethanol, 90% ethanol, 80% ethanol, 70% ethanol, 50% ethanol, 30% ethanol, and H<sub>2</sub>O, followed by antigen retrieval using Citra Plus (Biogenex Laboratories, HK0809K). Slides were then blocked with 3% hydrogen peroxide in methanol, washed with PBS followed by 10% goat serum–PBST, and then incubated with primary antibody diluted in 10% goat serum–PBST overnight at 4°C. After washing with 1× PBST 3 times for 5 minutes each, slides were incubated with biotin-labeled secondary antibody and detected using the VECTASTAIN Elite ABC HRP Kit (Vector Laboratories, PK6100) and DAB with HRP Substrate Kit (Vector Laboratories, SK4100). Primary antibody used for immunohistochemistry was V5 (1:100) (Cell Signaling Technology, 13202). For Sirius red staining, slides were deparaffinized as described above, and Sirius red staining was performed using a Picro Sirius Red staining kit (Abcam, ab150681) according to the manufacturer’s protocol.</p>
+<p><span class="level-4">Immunofluorescence.</span> Cells were prepared as described above. Twenty-four hours after transfection, cells were washed with PBS and fixed with 4% paraformaldehyde (Thermo Fisher Scientific, AAJ19943K2) for 10 minutes. Cells were washed 3 times in PBS for 5 minutes each time, and permeabilized with 0.5% Triton 100 for 10 minutes. Again, cells were washed 3 times in PBS for 5 minutes each time and blocked in 5% BSA in PBS for 1 hour. After blocking, cells were incubated at 4°C with primary antibody diluted in blocking buffer overnight. The next day, cells were washed 3 times with 0.05% Triton X-100 in PBS for 5 minutes each time, and secondary antibody diluted in blocking buffer was added to the cells for 1 hour at room temperature. Cells were washed 3 times with 0.05% Triton and were stained with Hoechst 33342 for 15 minutes, washed with deionized water, and imaged immediately. Pictures were taken with a spinning disk confocal microscope from the UT Southwestern Live Cell Imaging Facility. Images were analyzed in ImageJ (NIH), but visualized using NIS elements image software (URL: <a target="_blank" href="https://www.microscope.healthcare.nikon.com/products/software/nis-elements/software-resources">https://www.microscope.healthcare.nikon.com/products/software/nis-elements/software-resources</a>). Antibodies used for immunofluorescence were anti-V5 (1:1,000) (Cell Signaling Technology, 13202) and anti-rabbit IgG Alexa Fluor 647 (1:500) (Thermo Fisher Scientific, A-21244).</p>
+<p><span class="level-4">RNA extraction and qPCR.</span> Total RNA was purified using Trizol, followed by chloroform extraction, isopropanol precipitation, and ethanol washing. Precipitated pellets were allowed to dry before being reconstituted in nuclease-free water. RNA concentration was measured using a NanoDrop spectrophotometer (Thermo Fisher Scientific) and diluted to reach a final concentration of 100 ng/μL. cDNA was prepared in a thermocycler from 1 μg of RNA using iScript (Bio-Rad, 1708891) with the following conditions: 25°C for 5 minutes, 42°C for 45 minutes, 95°C for 1 minute. cDNA was diluted 10-fold, and qPCR was done using SYBR Green (Bio-Rad, 1725125).</p>
+<p><span class="level-4">Cell culture studies.</span> HEK293T cells (ATCC, CRL-3216) were cultured in complete DMEM supplemented with 10% FBS and 1× penicillin/streptomycin. H2.35 cells were cultured with complete DMEM supplemented with 4% FBS, 200 nM dexamethasone, and 1× penicillin/streptomycin. H2.35 mouse hepatocyte cells (ATCC, CRL-1995) were infected with lentivirus expressing a V5-GFP, V5-TBX3, Cas9/<i>Gal4</i>, or Cas9/mouse <i>Tbx3</i> sgRNA. Cells were selected with 10 μg/mL blasticidin for at least 6 days before experiments. <i>Tbx3</i> deletion and overexpression were validated by Western blot.</p>
+<p>To measure the Gaussia luciferase secretion in <i>Tbx3</i>-KO and -overexpressing cell lines, cells from each genotype were seeded into a 6-well plate and allowed to adhere. The next day, cells were transfected with a Gaussia luciferase expression plasmid (Thermo Fisher Scientific, 16147) along with a fluorescently tagged plasmid to track transfection efficiency. Twenty-four hours after transfection, a sample of cell culture medium was collected, and luciferase activity was measured using a Pierce Gaussia Luciferase Glow Assay Kit (Thermo Fisher Scientific, 16160). For measurement of Gaussia luciferase secretion in HEK293T cells, WT HEK293T cells were seeded into a 12-well plate. The following day, they were cotransfected with a Gaussia luciferase expression plasmid and a siRNA targeting <i>TBX3</i> or siCTRL. Forty-eight hours after transfection, Gaussia luciferase activity in the medium was measured as before.</p>
+<p><span class="level-4">Protein extraction and Western blotting.</span> Protein was extracted from mouse liver tissue using T-PER Tissue Protein Extraction Reagent (Thermo Fisher Scientific, 78510) containing freshly added 1× protease inhibitor (ApexBio, K10070) and 1× phosphatase inhibitor (Thermo Fisher Scientific, 501905547). H2.35 cell lines were lysed with 1× RIPA buffer (Life Technologies, 89900) with 1× protease inhibitor and 1× phosphatase inhibitor cocktail. Samples were treated with 6× Laemmli SDS Sample Buffer R (Boston BioProducts, BP-111R-25ml) and heated at 95°C for 5 minutes. Approximately 20 μg of protein per sample (liver tissue) or 5 μg (H2.35 cells) was separated using a Bio-Rad 4%–20% gradient Tris-Glycine SDS Mini gel system and analyzed using the following antibodies: anti-TBX3 (1:10,000) (Bethyl Laboratories, A303-098A), anti-HDLBP (1:5,000) (Abcam, ab109324), anti-V5 (1:1,000) (Cell Signaling Technology, 13202), anti–β-actin (1:5,000) (Cell Signaling Technology, 4970), and anti–cleaved PARP (1:1,000) (Cell Signaling Technology, 94885).</p>
+<p><span class="level-4">Statistics.</span> Variation in all panels is indicated using standard error of the mean presented as mean ± SEM. Two-tailed, unpaired Student’s <i>t</i> tests were used to test the significance of differences between 2 groups unless otherwise indicated in the text or figure legends. Statistical significance is displayed as not significant (<i>P</i> ≥ 0.05) or the <i>P</i> value itself, *<i>P</i> &lt; 0.05, **<i>P</i> &lt; 0.01, ***<i>P</i> &lt; 0.001, ****<i>P</i> &lt; 0.0001, unless specified otherwise.</p>
+<p><span class="level-4">Study approval.</span> All mice were handled in accordance with the guidelines of the Institutional Animal Care and Use Committee at the University of Texas Southwestern Medical Center under approved protocol APN 2015-101118.</p>
+<p><span class="level-4">Data availability.</span> The next-generation sequencing data generated were uploaded to the NCBI’s Gene Expression Omnibus (GEO) repository database (accession number GSE300981). All other data are available within the article, supplemental information, and <a href="#sd">Supporting Data Values</a> file.</p>
+</div></div>
+</dd></dl>
+<a class="in-page" name="SEC5"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#section-5"><span class="toggle-icon"></span><span class="section-title">Author contributions</span></a><div id="section-5" class="content active"><p>GM designed research studies, conducted experiments, acquired and analyzed data, and wrote the manuscript. GQ and BL analyzed sequencing data. MZ conducted experiments and provided reagents. ZW and XW conducted experiments. MHH analyzed data. TM, LZ, and WG performed metabolomics and lipidomics, and assisted with data analysis. PG performed NAS scoring. NB, PC, and MH provided human patient sequencing data. GL conducted in silico modeling experiments and ddMut calculations. HZ acquired funding, conceived of the project, designed research studies, analyzed data, and wrote the manuscript.</p></div>
+</dd></dl>
+<a class="in-page" name="sd"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#supplemental-material"><span class="toggle-icon"></span><span class="section-title">Supplemental material</span></a><div id="supplemental-material" class="content active">
+<p><a href="/articles/view/191855/sd/1">
+										View Supplemental data</a></p>
+<p><a href="/articles/view/191855/sd/2">
+										View Unedited blot and gel images</a></p>
+<p><a href="/articles/view/191855/sd/3">
+										View Supplemental table 1</a></p>
+<p><a href="/articles/view/191855/sd/4">
+										View Supporting data values</a></p>
+</div>
+</dd></dl>
+<a class="in-page" name="ACK"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#acknowledgments"><span class="toggle-icon"></span><span class="section-title">Acknowledgments</span></a><div id="acknowledgments" class="content active">
+<p>This work is the result of NIH funding, in whole or in part, and is subject to the NIH Public Access Policy. Through acceptance of this federal funding, the NIH has been given a right to make the work publicly available in PubMed Central. We thank Anne Moon for providing <i>Tbx3<sup>fl/fl</sup></i> mice. We thank the UT Southwestern Metabolic Phenotyping Core for the analysis of plasma and liver triglycerides and cholesterol, plasma free fatty acids, plasma ALT and AST, and lipoprotein fractionation; the UT Southwestern Tissue Management Shared Resource for processing and embedding tissue for histology; the Whole Brain Microscopy Facility (RRID:SCR017949) for access to the scanners used to scan histology and immunohistochemistry slides; the UT Southwestern Quantitative Light Microscopy Core for access to its spinning disk confocal microscope; and Sihan Wu and Yoon Jung Kim at the Children’s Research Institute Sequencing Core for sequencing. GM was supported by a CPRIT training grant (RP210041). GQ was supported by an NIH T32 grant (T32AI005284). HZ is supported by the UT Southwestern Nutrition Obesity Research Center, the Moody Foundation, the NIH (DP1DK139976, 1R01CA251928, P30CA142543), and a Simmons Comprehensive Cancer Center Cancer and Obesity Translational Pilot Award.</p>
+<p>Address correspondence to: Hao Zhu, Children’s Research Institute at UT Southwestern Medical Center, 5901 Forest Park Road, Dallas, Texas 75390, USA. Phone: 214.648.2850; Email: <a href="mailto:Hao.Zhu@utsouthwestern.edu">Hao.Zhu@utsouthwestern.edu</a>.</p>
+</div>
+</dd></dl>
+<a class="in-page" name="FN"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#footnotes"><span class="toggle-icon"></span><span class="section-title">Footnotes</span></a><div id="footnotes" class="content active">
+<p><b>Conflict of interest:</b> HZ and PC are cofounders of Quotient Therapeutics and Jumble Therapeutics. HZ is an advisor for Newlimit, Alnylam Pharmaceuticals, and Chroma Medicines. HZ receives research support from Chroma Medicines and owns stock in Ionis and Madrigal Pharmaceuticals. HZ has a patent on TBX3 siRNA for liver disease (WO2023196998A2).</p>
+<p><b>Copyright:</b> © 2025, Mannino et al. This is an open access article published under the terms of the Creative Commons Attribution 4.0 International License.</p>
+<p><b>Reference information:</b><i> J Clin Invest</i>. 2025;135(18):e191855.https://doi.org/10.1172/JCI191855.</p>
+<p>See the related Commentary at <a href="https://doi.org/10.1172/JCI197143">Loss of function of T-box 3 in the liver protects against MASLD</a>.</p>
+</div>
+</dd></dl>
+<a class="in-page" name="BIBL" id="BIBL-target"></a><dl class="article-section" data-accordion=""><dd class="accordion-navigation active">
+<a href="#references"><span class="toggle-icon"></span><span class="section-title">References</span></a><div id="references" class="content active"><ol compact>
+<a class="in-page" name="B1"></a><li class="reference" value="1">Li R, et al. A body map of somatic mutagenesis in morphologically normal human tissues. <i>Nature</i>. 2021;597(7876):398–403.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41586-021-03836-1"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/34433965"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=A+body+map+of+somatic+mutagenesis+in+morphologically+normal+human+tissues&amp;author=Li&amp;journal=Nature&amp;year=2021&amp;volume=597&amp;issue=7876&amp;pages=398-403&amp;doi=10.1038/s41586-021-03836-1&amp;pmid=34433965">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B2"></a><li class="reference" value="2">Yizhak K, et al. RNA sequence analysis reveals macroscopic somatic clonal expansion across normal tissues. <i>Science</i>. 2019;364(6444):eaaw0726. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1126/science.aaw0726"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/31171663"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=RNA+sequence+analysis+reveals+macroscopic+somatic+clonal+expansion+across+normal+tissues&amp;author=Yizhak&amp;journal=Science&amp;year=2019&amp;volume=364&amp;issue=6444&amp;pages=&amp;doi=10.1126/science.aaw0726&amp;pmid=31171663">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B3"></a><li class="reference" value="3">Kakiuchi N, Ogawa S. Clonal expansion in non-cancer tissues. <i>Nat Rev Cancer</i>. 2021;21(4):239–256.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41568-021-00335-3"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/33627798"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Clonal+expansion+in+non-cancer+tissues&amp;author=Kakiuchi&amp;journal=Nat%20Rev%20Cancer&amp;year=2021&amp;volume=21&amp;issue=4&amp;pages=239-256&amp;doi=10.1038/s41568-021-00335-3&amp;pmid=33627798">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B4"></a><li class="reference" value="4">Martincorena I, et al. Somatic mutant clones colonize the human esophagus with age. <i>Science</i>. 2018;362(6417):911–917.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1126/science.aau3879"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/30337457"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Somatic+mutant+clones+colonize+the+human+esophagus+with+age&amp;author=Martincorena&amp;journal=Science&amp;year=2018&amp;volume=362&amp;issue=6417&amp;pages=911-917&amp;doi=10.1126/science.aau3879&amp;pmid=30337457">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B5"></a><li class="reference" value="5">Yoshida K, et al. Tobacco smoking and somatic mutations in human bronchial epithelium. <i>Nature</i>. 2020;578(7794):266–272.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41586-020-1961-1"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/31996850"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Tobacco+smoking+and+somatic+mutations+in+human+bronchial+epithelium&amp;author=Yoshida&amp;journal=Nature&amp;year=2020&amp;volume=578&amp;issue=7794&amp;pages=266-272&amp;doi=10.1038/s41586-020-1961-1&amp;pmid=31996850">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B6"></a><li class="reference" value="6">Olafsson S, et al. Somatic evolution in non-neoplastic IBD-affected colon. <i>Cell</i>. 2020;182(3):672–684.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/j.cell.2020.06.036"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/32697969"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Somatic+evolution+in+non-neoplastic+IBD-affected+colon&amp;author=Olafsson&amp;journal=Cell&amp;year=2020&amp;volume=182&amp;issue=3&amp;pages=672-684&amp;doi=10.1016/j.cell.2020.06.036&amp;pmid=32697969">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B7"></a><li class="reference" value="7">Kakiuchi N, et al. Frequent mutations that converge on the NFKBIZ pathway in ulcerative colitis. <i>Nature</i>. 2020;577(7789):260–265.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41586-019-1856-1"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/31853061"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Frequent+mutations+that+converge+on+the+NFKBIZ+pathway+in+ulcerative+colitis&amp;author=Kakiuchi&amp;journal=Nature&amp;year=2020&amp;volume=577&amp;issue=7789&amp;pages=260-265&amp;doi=10.1038/s41586-019-1856-1&amp;pmid=31853061">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B8"></a><li class="reference" value="8">Nanki K, et al. Somatic inflammatory gene mutations in human ulcerative colitis epithelium. <i>Nature</i>. 2020;577(7789):254–259.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41586-019-1844-5"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/31853059"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Somatic+inflammatory+gene+mutations+in+human+ulcerative+colitis+epithelium&amp;author=Nanki&amp;journal=Nature&amp;year=2020&amp;volume=577&amp;issue=7789&amp;pages=254-259&amp;doi=10.1038/s41586-019-1844-5&amp;pmid=31853059">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B9"></a><li class="reference" value="9">Brunner SF, et al. Somatic mutations and clonal dynamics in healthy and cirrhotic human liver. <i>Nature</i>. 2019;574(7779):538–542.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41586-019-1670-9"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/31645727"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Somatic+mutations+and+clonal+dynamics+in+healthy+and+cirrhotic+human+liver&amp;author=Brunner&amp;journal=Nature&amp;year=2019&amp;volume=574&amp;issue=7779&amp;pages=538-542&amp;doi=10.1038/s41586-019-1670-9&amp;pmid=31645727">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B10"></a><li class="reference" value="10">Ng SWK, et al. Convergent somatic mutations in metabolism genes in chronic liver disease. <i>Nature</i>. 2021;598(7881):473–478.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41586-021-03974-6"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/34646017"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Convergent+somatic+mutations+in+metabolism+genes+in+chronic+liver+disease&amp;author=Ng&amp;journal=Nature&amp;year=2021&amp;volume=598&amp;issue=7881&amp;pages=473-478&amp;doi=10.1038/s41586-021-03974-6&amp;pmid=34646017">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B11"></a><li class="reference" value="11">Wang Z, et al. Positive selection of somatically mutated clones identifies adaptive pathways in metabolic liver disease. <i>Cell</i>. 2023;186(9):1968–1984.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/j.cell.2023.03.014"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/37040760"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Positive+selection+of+somatically+mutated+clones+identifies+adaptive+pathways+in+metabolic+liver+disease&amp;author=Wang&amp;journal=Cell&amp;year=2023&amp;volume=186&amp;issue=9&amp;pages=1968-1984&amp;doi=10.1016/j.cell.2023.03.014&amp;pmid=37040760">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B12"></a><li class="reference" value="12">Khan SF, et al. The roles and regulation of TBX3 in development and disease. <i>Gene</i>. 2020;726:144223. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/j.gene.2019.144223"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/31669645"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=The+roles+and+regulation+of+TBX3+in+development+and+disease&amp;author=Khan&amp;journal=Gene&amp;year=2020&amp;volume=726&amp;pages=&amp;doi=10.1016/j.gene.2019.144223&amp;pmid=31669645">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B13"></a><li class="reference" value="13">Davenport TG, et al. Mammary gland, limb and yolk sac defects in mice lacking Tbx3, the gene mutated in human ulnar mammary syndrome. <i>Development</i>. 2003;130(10):2263–2273.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1242/dev.00431"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/12668638"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Mammary+gland,+limb+and+yolk+sac+defects+in+mice+lacking+Tbx3,+the+gene+mutated+in+human+ulnar+mammary+syndrome&amp;author=Davenport&amp;journal=Development&amp;year=2003&amp;volume=130&amp;issue=10&amp;pages=2263-2273&amp;doi=10.1242/dev.00431&amp;pmid=12668638">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B14"></a><li class="reference" value="14">Frank DU, et al. Lethal arrhythmias in Tbx3-deficient mice reveal extreme dosage sensitivity of cardiac conduction system function and homeostasis. <i>Proc Natl Acad Sci U S A</i>. 2012;109(3):E154–E163.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1073/pnas.1115165109"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/22203979"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Lethal+arrhythmias+in+Tbx3-deficient+mice+reveal+extreme+dosage+sensitivity+of+cardiac+conduction+system+function+and+homeostasis&amp;author=Frank&amp;journal=Proc%20Natl%20Acad%20Sci%20U%20S%20A&amp;year=2012&amp;volume=109&amp;issue=3&amp;pages=E154-E163&amp;doi=10.1073/pnas.1115165109&amp;pmid=22203979">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B15"></a><li class="reference" value="15">Bamshad M, et al. The spectrum of mutations in TBX3: genotype/phenotype relationship in ulnar-mammary syndrome. <i>Am J Hum Genet</i>. 1999;64(6):1550–1562.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1086/302417"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/10330342"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=The+spectrum+of+mutations+in+TBX3:+genotype/phenotype+relationship+in+ulnar-mammary+syndrome&amp;author=Bamshad&amp;journal=Am%20J%20Hum%20Genet&amp;year=1999&amp;volume=64&amp;issue=6&amp;pages=1550-1562&amp;doi=10.1086/302417&amp;pmid=10330342">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B16"></a><li class="reference" value="16">Jin Y, et al. Wnt signaling regulates hepatocyte cell division by a transcriptional repressor cascade. <i>Proc Natl Acad Sci U S A</i>. 2022;119(30):e2203849119. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1073/pnas.2203849119"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/35867815"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Wnt+signaling+regulates+hepatocyte+cell+division+by+a+transcriptional+repressor+cascade&amp;author=Jin&amp;journal=Proc%20Natl%20Acad%20Sci%20U%20S%20A&amp;year=2022&amp;volume=119&amp;issue=30&amp;pages=&amp;doi=10.1073/pnas.2203849119&amp;pmid=35867815">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B17"></a><li class="reference" value="17">Coll M, et al. Structure of the DNA-bound T-box domain of human TBX3, a transcription factor responsible for ulnar-mammary syndrome. <i>Structure</i>. 2002;10(3):343–356.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/S0969-2126(02)00722-0"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/12005433"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Structure+of+the+DNA-bound+T-box+domain+of+human+TBX3,+a+transcription+factor+responsible+for+ulnar-mammary+syndrome&amp;author=Coll&amp;journal=Structure&amp;year=2002&amp;volume=10&amp;issue=3&amp;pages=343-356&amp;doi=10.1016/S0969-2126(02)00722-0&amp;pmid=12005433">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B18"></a><li class="reference" value="18">Zhou Y, et al. DDMut: predicting effects of mutations on protein stability using deep learning. <i>Nucleic Acids Res</i>. 2023;51(w1):W122–W128.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1093/nar/gkad472"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/37283042"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=DDMut:+predicting+effects+of+mutations+on+protein+stability+using+deep+learning&amp;author=Zhou&amp;journal=Nucleic%20Acids%20Res&amp;year=2023&amp;volume=51&amp;issue=w1&amp;pages=W122-W128&amp;doi=10.1093/nar/gkad472&amp;pmid=37283042">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B19"></a><li class="reference" value="19">Liang W, et al. Establishment of a general NAFLD scoring system for rodent models and comparison to human liver pathology. <i>PLoS One</i>. 2014;9(12):e115922. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1371/journal.pone.0115922"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/25535951"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Establishment+of+a+general+NAFLD+scoring+system+for+rodent+models+and+comparison+to+human+liver+pathology&amp;author=Liang&amp;journal=PLoS%20One&amp;year=2014&amp;volume=9&amp;issue=12&amp;pages=&amp;doi=10.1371/journal.pone.0115922&amp;pmid=25535951">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B20"></a><li class="reference" value="20">Nogueira JP, Cusi K. Role of insulin resistance in the development of nonalcoholic fatty liver disease in people with type 2 diabetes: from bench to patient care. <i>Diabetes Spectr</i>. 2024;37(1):20–28.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.2337/dsi23-0013"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/38385099"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Role+of+insulin+resistance+in+the+development+of+nonalcoholic+fatty+liver+disease+in+people+with+type+2+diabetes:+from+bench+to+patient+care&amp;author=Nogueira&amp;journal=Diabetes%20Spectr&amp;year=2024&amp;volume=37&amp;issue=1&amp;pages=20-28&amp;doi=10.2337/dsi23-0013&amp;pmid=38385099">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B21"></a><li class="reference" value="21">Brown MS, Goldstein JL. Selective versus total insulin resistance: a pathogenic paradox. <i>Cell Metab</i>. 2008;7(2):95–96.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/j.cmet.2007.12.009"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/18249166"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Selective+versus+total+insulin+resistance:+a+pathogenic+paradox&amp;author=Brown&amp;journal=Cell%20Metab&amp;year=2008&amp;volume=7&amp;issue=2&amp;pages=95-96&amp;doi=10.1016/j.cmet.2007.12.009&amp;pmid=18249166">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B22"></a><li class="reference" value="22">Ipsen DH, et al. Molecular mechanisms of hepatic lipid accumulation in non-alcoholic fatty liver disease. <i>Cell Mol Life Sci</i>. 2018;75(18):3313–3327.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1007/s00018-018-2860-6"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/29936596"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Molecular+mechanisms+of+hepatic+lipid+accumulation+in+non-alcoholic+fatty+liver+disease&amp;author=Ipsen&amp;journal=Cell%20Mol%20Life%20Sci&amp;year=2018&amp;volume=75&amp;issue=18&amp;pages=3313-3327&amp;doi=10.1007/s00018-018-2860-6&amp;pmid=29936596">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B23"></a><li class="reference" value="23">Cole LK, et al. Phosphatidylcholine biosynthesis and lipoprotein metabolism. <i>Biochim Biophys Acta</i>. 2012;1821(5):754–761.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/j.bbalip.2011.09.009"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/21979151"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Phosphatidylcholine+biosynthesis+and+lipoprotein+metabolism&amp;author=Cole&amp;journal=Biochim%20Biophys%20Acta&amp;year=2012&amp;volume=1821&amp;issue=5&amp;pages=754-761&amp;doi=10.1016/j.bbalip.2011.09.009&amp;pmid=21979151">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B24"></a><li class="reference" value="24">Wang X, et al. Metabolic inflexibility promotes mitochondrial health during liver regeneration. <i>Science</i>. 2024;384(6701):eadj4301. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1126/science.adj4301"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/38870309"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Metabolic+inflexibility+promotes+mitochondrial+health+during+liver+regeneration&amp;author=Wang&amp;journal=Science&amp;year=2024&amp;volume=384&amp;issue=6701&amp;pages=&amp;doi=10.1126/science.adj4301&amp;pmid=38870309">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B25"></a><li class="reference" value="25">Matsumoto M, et al. An improved mouse model that rapidly develops fibrosis in non-alcoholic steatohepatitis. <i>Int J Exp Pathol</i>. 2013;94(2):93–103.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1111/iep.12008"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/23305254"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=An+improved+mouse+model+that+rapidly+develops+fibrosis+in+non-alcoholic+steatohepatitis&amp;author=Matsumoto&amp;journal=Int%20J%20Exp%20Pathol&amp;year=2013&amp;volume=94&amp;issue=2&amp;pages=93-103&amp;doi=10.1111/iep.12008&amp;pmid=23305254">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B26"></a><li class="reference" value="26">Badr CE, et al. A highly sensitive assay for monitoring the secretory pathway and ER stress. <i>PLoS One</i>. 2007;2(6):e571. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1371/journal.pone.0000571"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/17593970"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=A+highly+sensitive+assay+for+monitoring+the+secretory+pathway+and+ER+stress&amp;author=Badr&amp;journal=PLoS%20One&amp;year=2007&amp;volume=2&amp;issue=6&amp;pages=&amp;doi=10.1371/journal.pone.0000571&amp;pmid=17593970">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B27"></a><li class="reference" value="27">Zinnall U, et al. HDLBP binds ER-targeted mRNAs by multivalent interactions to promote protein synthesis of transmembrane and secreted proteins. <i>Nat Commun</i>. 2022;13(1):2727. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41467-022-30322-7"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/35585045"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=HDLBP+binds+ER-targeted+mRNAs+by+multivalent+interactions+to+promote+protein+synthesis+of+transmembrane+and+secreted+proteins&amp;author=Zinnall&amp;journal=Nat%20Commun&amp;year=2022&amp;volume=13&amp;issue=1&amp;pages=&amp;doi=10.1038/s41467-022-30322-7&amp;pmid=35585045">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B28"></a><li class="reference" value="28">Mobin MB, et al. The RNA-binding protein vigilin regulates VLDL secretion through modulation of Apob mRNA translation. <i>Nat Commun</i>. 2016;7:12848. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/ncomms12848"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/27665711"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=The+RNA-binding+protein+vigilin+regulates+VLDL+secretion+through+modulation+of+Apob+mRNA+translation&amp;author=Mobin&amp;journal=Nat%20Commun&amp;year=2016&amp;volume=7&amp;pages=&amp;doi=10.1038/ncomms12848&amp;pmid=27665711">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B29"></a><li class="reference" value="29">Abby E, et al. Notch1 mutations drive clonal expansion in normal esophageal epithelium but impair tumor growth. <i>Nat Genet</i>. 2023;55(2):232–245.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41588-022-01280-z"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/36658434"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Notch1+mutations+drive+clonal+expansion+in+normal+esophageal+epithelium+but+impair+tumor+growth&amp;author=Abby&amp;journal=Nat%20Genet&amp;year=2023&amp;volume=55&amp;issue=2&amp;pages=232-245&amp;doi=10.1038/s41588-022-01280-z&amp;pmid=36658434">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B30"></a><li class="reference" value="30">Colom B, et al. Mutant clones in normal epithelium outcompete and eliminate emerging tumours. <i>Nature</i>. 2021;598(7881):510–514.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s41586-021-03965-7"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/34646013"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Mutant+clones+in+normal+epithelium+outcompete+and+eliminate+emerging+tumours&amp;author=Colom&amp;journal=Nature&amp;year=2021&amp;volume=598&amp;issue=7881&amp;pages=510-514&amp;doi=10.1038/s41586-021-03965-7&amp;pmid=34646013">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B31"></a><li class="reference" value="31">Zhu M, et al. Somatic mutations increase hepatic clonal fitness and regeneration in chronic liver disease. <i>Cell</i>. 2019;177(3):608–621.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/j.cell.2019.03.026"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/30955891"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Somatic+mutations+increase+hepatic+clonal+fitness+and+regeneration+in+chronic+liver+disease&amp;author=Zhu&amp;journal=Cell&amp;year=2019&amp;volume=177&amp;issue=3&amp;pages=608-621&amp;doi=10.1016/j.cell.2019.03.026&amp;pmid=30955891">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B32"></a><li class="reference" value="32">Zhu M, et al. PKD1 mutant clones within cirrhotic livers inhibit steatohepatitis without promoting cancer. <i>Cell Metab</i>. 2024;36(8):1711–1725.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/j.cmet.2024.05.015"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/38901424"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=PKD1+mutant+clones+within+cirrhotic+livers+inhibit+steatohepatitis+without+promoting+cancer&amp;author=Zhu&amp;journal=Cell%20Metab&amp;year=2024&amp;volume=36&amp;issue=8&amp;pages=1711-1725&amp;doi=10.1016/j.cmet.2024.05.015&amp;pmid=38901424">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B33"></a><li class="reference" value="33">Smagris E, et al. Inactivation of Tm6sf2, a gene defective in fatty liver disease, impairs lipidation but not secretion of very low density lipoproteins. <i>J Biol Chem</i>. 2016;291(20):10659–10676.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1074/jbc.M116.719955"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/27013658"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Inactivation+of+Tm6sf2,+a+gene+defective+in+fatty+liver+disease,+impairs+lipidation+but+not+secretion+of+very+low+density+lipoproteins&amp;author=Smagris&amp;journal=J%20Biol%20Chem&amp;year=2016&amp;volume=291&amp;issue=20&amp;pages=10659-10676&amp;doi=10.1074/jbc.M116.719955&amp;pmid=27013658">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B34"></a><li class="reference" value="34">Roux C, et al. Role of cholesterol in embryonic development. <i>Am J Clin Nutr</i>. 2000;71(5 suppl):1270S–1279S.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1093/ajcn/71.5.1270s"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/10799401"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Role+of+cholesterol+in+embryonic+development&amp;author=Roux&amp;journal=Am%20J%20Clin%20Nutr&amp;year=2000&amp;volume=71&amp;issue=5%20suppl&amp;pages=1270S-1279S&amp;doi=10.1093/ajcn/71.5.1270s&amp;pmid=10799401">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B35"></a><li class="reference" value="35">Porter FD, Herman GE. Malformation syndromes caused by disorders of cholesterol synthesis. <i>J Lipid Res</i>. 2011;52(1):6–34.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1194/jlr.R009548"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/20929975"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Malformation+syndromes+caused+by+disorders+of+cholesterol+synthesis&amp;author=Porter&amp;journal=J%20Lipid%20Res&amp;year=2011&amp;volume=52&amp;issue=1&amp;pages=6-34&amp;doi=10.1194/jlr.R009548&amp;pmid=20929975">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B36"></a><li class="reference" value="36">Baardman ME, et al. The role of maternal-fetal cholesterol transport in early fetal life: current insights. <i>Biol Reprod</i>. 2013;88(1):24. <div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1095/biolreprod.112.102442"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/23153566"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=The+role+of+maternal-fetal+cholesterol+transport+in+early+fetal+life:+current+insights&amp;author=Baardman&amp;journal=Biol%20Reprod&amp;year=2013&amp;volume=88&amp;issue=1&amp;pages=&amp;doi=10.1095/biolreprod.112.102442&amp;pmid=23153566">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B37"></a><li class="reference" value="37">Samuel VT, et al. Lipid-induced insulin resistance: unravelling the mechanism. <i>Lancet</i>. 2010;375(9733):2267–2277.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1016/S0140-6736(10)60408-4"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/20609972"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Lipid-induced+insulin+resistance:+unravelling+the+mechanism&amp;author=Samuel&amp;journal=Lancet&amp;year=2010&amp;volume=375&amp;issue=9733&amp;pages=2267-2277&amp;doi=10.1016/S0140-6736(10)60408-4&amp;pmid=20609972">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B38"></a><li class="reference" value="38">Sniderman AD, et al. Apolipoprotein B particles and cardiovascular disease: a narrative review. <i>JAMA Cardiol</i>. 2019;4(12):1287–1295.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1001/jamacardio.2019.3780"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/31642874"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Apolipoprotein+B+particles+and+cardiovascular+disease:+a+narrative+review&amp;author=Sniderman&amp;journal=JAMA%20Cardiol&amp;year=2019&amp;volume=4&amp;issue=12&amp;pages=1287-1295&amp;doi=10.1001/jamacardio.2019.3780&amp;pmid=31642874">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+<a class="in-page" name="B39"></a><li class="reference" value="39">Wang Z, et al. Dual ARID1A/ARID1B loss leads to rapid carcinogenesis and disruptive redistribution of BAF complexes. <i>Nat Cancer</i>. 2020;1(9):909–922.<div class="reference_linkouts">View this article via: <a target="_blank" href="https://doi.org/10.1038/s43018-020-00109-0"> CrossRef </a><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/34386776"> PubMed </a><a target="_blank" href="https://scholar.google.com/scholar_lookup?title=Dual+ARID1A/ARID1B+loss+leads+to+rapid+carcinogenesis+and+disruptive+redistribution+of+BAF+complexes&amp;author=Wang&amp;journal=Nat%20Cancer&amp;year=2020&amp;volume=1&amp;issue=9&amp;pages=909-922&amp;doi=10.1038/s43018-020-00109-0&amp;pmid=34386776">
+
+				Google Scholar
+			</a>
+</div>
+</li>
+</ol></div>
+</dd></dl>
+</div>
+
+			<dl class='article-section' data-accordion>
+<dd class='accordion-navigation active'>
+<a href='#version_history'>
+<span class='toggle-icon'></span>
+<span class='section-title'>Version history</span>
+</a>
+<div class='content active' id='version_history'>
+<ul>
+<li>
+Version
+1
+(July 10, 2025):
+In-Press Preview
+</li>
+<li>
+Version
+2
+(September 16, 2025):
+Electronic publication
+</li>
+<li>
+Version
+3
+(September 19, 2025):
+Addition of missing funding source
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+
+	</div>
+
+	<div class="large-3 columns show-for-large-up">
+		<div id='sidebar-container'>
+<div id='sidebar'>
+<div class='non-sticky-content'>
+<h4 class='subheader'>Article tools</h4>
+<ul class='side-nav' id='article-tools'>
+<li class='hide-for-small'>
+<a href="/articles/view/191855/pdf">View PDF <img class="article-tools-icon" src="//dm5migu4zj3pb.cloudfront.net/images/adobe_pdf_file_icon.png" /></a>
+</li>
+<li><a href="/articles/view/191855/cite">Download citation information</a></li>
+<li><a href="/eletters/submit/191855">Send a comment</a></li>
+<li><a href="/kiosks/terms">Terms of use</a></li>
+<li><a href="/kiosks/publish/abbreviations">Standard abbreviations</a></li>
+<li><a href="/feedback?reference=191855">Need help? Email the journal</a></li>
+<script>
+var addthis_share = {
+	email_template: 'jci_share_article',
+	email_vars: {
+		short_title: 'Somatic mutations in &lt;i&gt;TBX3&lt;/i&gt; promote hepatic clonal...',
+		author_list: 'Gregory Mannino, Gabriella Quinn, Min Zhu, Zixi Wang, Xun Wang, Boyuan Li, Meng-Hsiung Hsieh, Thomas Mathews, Lauren Zacharias, Wen Gu, Purva Gopal, Natalia Brzozowska, Peter Campbell, Matt Hoare, Glen Liszczak, Hao Zhu',
+	}
+}
+</script>
+<div class="addthis_sharing_toolbox" data-title="JCI - Somatic mutations in &lt;i&gt;TBX3&lt;/i&gt; promote hepatic clonal expansion by accelerating VLDL secretion"></div>
+
+</ul>
+
+
+
+
+
+<h4 class='subheader'>Metrics</h4>
+<div class='altmetric-embed centered' data-badge-popover='left' data-badge-type='medium-donut' data-doi='10.1172/JCI191855'></div>
+<ul class='side-nav' id='article-metrics'>
+<li><a href="/articles/view/191855/usage">Article usage</a></li>
+<li>
+<a href="/articles/view/191855/citations">Citations to this article
+<span class='article-citation-count'></span>
+</a></li>
+</ul>
+
+</div>
+<div class='sticky-content'>
+<h4 class='subheader'>Go to</h4>
+<div id='goto'>
+<ul class='side-nav'>
+<li><a href="#top">Top</a></li>
+<li><a href="#ABS">Abstract</a></li>
+<li><a href="#SEC1">Introduction</a></li>
+<li><a href="#SEC2">Results</a></li>
+<li><a href="#SEC3">Discussion</a></li>
+<li><a href="#SEC4">Methods</a></li>
+<li><a href="#SEC5">Author contributions</a></li>
+<li><a href="#sd">Supplemental material</a></li>
+<li><a href="#ACK">Acknowledgments</a></li>
+<li><a href="#FN">Footnotes</a></li>
+<li><a href="#BIBL">References</a></li>
+<li><a href="#version_history">Version history</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+	</div>
+</div>
+<div class="row hide-for-small">
+	<div class="medium-12 columns">
+		<div style='width:100%; text-align: center;'>
+<div id='jci-article-interior-leaderboard-bottom'>
+<span class='secondary label'>Advertisement</span>
+<script>
+  try {
+    googletag.cmd.push(function() {
+      googletag.display('jci-article-interior-leaderboard-bottom');
+    })
+  } catch(e){}
+</script>
+</div>
+</div>
+
+	</div>
+</div>
+
+</div>
+<div class='large-2 medium-3 hide-for-small columns' style='padding: 12px 9px 12px 9px;'>
+<div style='width:100%; text-align: center;'>
+<div class='ad-interior-r-sideboard' id='jci-article-interior-skyscraper-right-col'>
+<span class='secondary label'>Advertisement</span>
+<script>
+  try {
+    googletag.cmd.push(function() {
+      googletag.display('jci-article-interior-skyscraper-right-col');
+    })
+  } catch(e){}
+</script>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div id='footer'>
+<div class='row panel-padding'>
+<div class='small-6 columns'>
+<div id='social-links'>
+<a onclick="trackOutboundLink(&#39;/twitter?ref=footer&#39;);" href="/twitter"><img title="Twitter" src="/assets/social/twitter-round-blue-78025a92064e3594e44e4ccf5446aefeafba696cd3c8e4a7be1850c7c9f62aba.png" /></a>
+<a onclick="trackOutboundLink(&#39;/facebook?ref=footer&#39;);" href="/facebook"><img title="Facebook" src="/assets/social/facebook-round-blue-2787910d46dcbdbee4bd34030fee044e5a77cfda2221af9191d437b2f5fadeb1.png" /></a>
+<a href="/rss"><img title="RSS" src="/assets/social/rss-round-color-6f5fa8e93dc066ee4923a36ba6a7cb97d53c5b77de78a2c7b2a721adc603f342.png" /></a>
+</div>
+
+<br>
+Copyright &#169; 2026
+<a href="http://www.the-asci.org">American Society for Clinical Investigation</a>
+<br>
+ISSN: 0021-9738 (print), 1558-8238 (online)
+</div>
+<div class='small-6 columns'>
+<div class='row'>
+<div class='small-12 columns'>
+<h4 class='notices-signup'>Sign up for email alerts</h4>
+<form action='https://notices.jci.org/subscribers/new' method='get'>
+<input name='utm_source' type='hidden' value='jci'>
+<input name='utm_medium' type='hidden' value='web'>
+<input name='utm_campaign' type='hidden' value='email_signup'>
+<input name='utm_content' type='hidden' value='footer'>
+<div class='row'>
+<div class='small-12 medium-9 columns'>
+<input name='email_address' placeholder='Your email address' required type='text'>
+</div>
+<div class='small-12 medium-3 columns'>
+<input class='button tiny orange' type='submit' value='Sign up'>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+<!--[if gt IE 8]><!--><script src="/assets/application-27f18b5fe3b7302e5b3e3c6d7cf9bb3f54759fad32679209f5aef429b89f3aef.js"></script><!--<![endif]-->
+<!--[if (lt IE 9)]>
+<script src="/assets/ie8/application-8c033a599105d459c98ea08bf9ef15e25d3fed26e913e4a8de4a5101d04025fd.js"></script>
+<![endif]-->
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4d8389db4b0bb592" async="async"></script>
+<script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async="async"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			ArticleStickyNav.init();
+			display_citation_count(191855);
+			setMaxGaSize(jQuery('div.inner-wrap .fixed.show-for-large-up'), jQuery('div#section-graphical-abstract img'));
+		});
+	</script>
+
+<!--[if lt IE 9]>
+<script src="/assets/ie8/ie8-1af1fadfa0df4a7f5fcf8fc444742398e0579e1d8aede97903d74bad8167eb5f.js"></script>
+<![endif]-->
+
+</body>
+</html>

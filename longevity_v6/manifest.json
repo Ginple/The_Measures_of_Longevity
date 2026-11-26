@@ -1,0 +1,93 @@
+{
+  "version": "V6",
+  "research_cutoff": "2026-11-25",
+  "scope": "Current distribution file hashes only; not scientific review. Old HTML/QA/indexes remain pre-session artifacts.",
+  "files": [
+    {
+      "name": "QA_FIRST_RUN.json",
+      "bytes": 3924,
+      "sha256": "5d74eef53435d98de8630ec49f3f076d2731d084036b81d8ac3dc8a7485e0292"
+    },
+    {
+      "name": "QA_REPORT.json",
+      "bytes": 3923,
+      "sha256": "ca9beaef7c282dba707ee564d1db97364b9f3f50c1af61097c223828985bb8f2"
+    },
+    {
+      "name": "QA_RUN.log",
+      "bytes": 3924,
+      "sha256": "6ee0932c26b11898772dca827db978dd991357afc42f41e0347d62121c5a6c19"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3668,
+      "sha256": "29b53fa5bb89a4bba9105d22f3e9da5e3b984e6676c89a7771417d4e069c2efe"
+    },
+    {
+      "name": "RESEARCH_LOG.md",
+      "bytes": 5741,
+      "sha256": "57131069786c0daa5c665117343f61717966d2b990c0451c4d389041e9b77ca2"
+    },
+    {
+      "name": "STATE_DASHBOARD.HTML",
+      "bytes": 251374,
+      "sha256": "19e23b0791682eb8e9a8dd1a09f6d062959ce70784764fd30eb2e61e439205e8"
+    },
+    {
+      "name": "build.py",
+      "bytes": 21408,
+      "sha256": "011979afef9ac0129755049cc3161a9ecab7a2983002c7de3fafa078ca23491c"
+    },
+    {
+      "name": "evidence_index.json",
+      "bytes": 21381,
+      "sha256": "6996e8587f566e5d6b6e3001caaeb9b1b8b06754aa67d2633607511414ecea0f"
+    },
+    {
+      "name": "evidence_index.tsv",
+      "bytes": 13221,
+      "sha256": "32e51e514229bb8ae5c07f57829e80963b435b21a9685ba490e9c17d4100b673"
+    },
+    {
+      "name": "legacy_anchors.json",
+      "bytes": 11360,
+      "sha256": "7fb780b62f582bf6238b3e7a1a9406729526ce2691f58e2519fad0833fb9805c"
+    },
+    {
+      "name": "manuscript.txt",
+      "bytes": 61406,
+      "sha256": "adda6794aa71abd7b23c1b911613f41973437eb8ce02133759924ab32fa3312a"
+    },
+    {
+      "name": "qa.py",
+      "bytes": 5522,
+      "sha256": "c9a792d17d73fb425961cc7d588d896b06c061725e2acf2bc78e7ce939ef6641"
+    },
+    {
+      "name": "qa_desktop.png",
+      "bytes": 144881,
+      "sha256": "abff00119b5848eb256b0e0bf41b0d1856470745ce4b03a62e2e65fd2461b294"
+    },
+    {
+      "name": "qa_mobile.png",
+      "bytes": 66305,
+      "sha256": "ba5f31a3568c03206e8c1774f33c087f1897f6b58874ed0959d3dee6c1f06805"
+    },
+    {
+      "name": "requirements.txt",
+      "bytes": 59,
+      "sha256": "20c4f630d74c705ba49e8a427e3ca091fbd29b5c542b6d571bce6483a38ed8a2"
+    },
+    {
+      "name": "长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md",
+      "bytes": 87861,
+      "sha256": "81b5410839b32602f7bba6d078274d9695ba644541c28540875924c5c3c330f2"
+    }
+  ],
+  "session_closeout": {
+    "date_label": "2026-11-25",
+    "manuscript_status": "in-place working-draft increment; independent review pending",
+    "frozen_generated_artifacts_not_rebuilt": true,
+    "historical_QA_not_reissued": true
+  }
+}

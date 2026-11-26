@@ -1,0 +1,144 @@
+{
+  "all_parameters_synthetic_dimensionless": true,
+  "biological_fit": false,
+  "parameters": {
+    "V": 1.0,
+    "K": 1.0,
+    "mean_J": 0.6,
+    "period": 8.0,
+    "pulse_duty": 0.125
+  },
+  "summaries": [
+    {
+      "scenario": "saturating_constant",
+      "mean_input": 0.6,
+      "input_per_cycle": 4.8,
+      "processed_per_cycle": 4.799999999995443,
+      "mean_backlog": 1.4999999999964393,
+      "peak_backlog_sampled": 1.499999999998242,
+      "min_backlog_sampled": 1.4999999999936857,
+      "periodic_start_end_error": 4.5563552930616424e-12,
+      "burn_in_cycles": 21
+    },
+    {
+      "scenario": "saturating_pulse",
+      "mean_input": 0.6,
+      "input_per_cycle": 4.8,
+      "processed_per_cycle": 4.799999999996263,
+      "mean_backlog": 2.0204509727798547,
+      "peak_backlog_sampled": 4.400382475555052,
+      "min_backlog_sampled": 0.25369529541157365,
+      "periodic_start_end_error": 3.736344567073502e-12,
+      "burn_in_cycles": 17
+    },
+    {
+      "scenario": "linear_constant",
+      "mean_input": 0.6,
+      "input_per_cycle": 4.8,
+      "processed_per_cycle": 4.800000000000649,
+      "mean_backlog": 0.6000000000000811,
+      "peak_backlog_sampled": 0.6000000000028444,
+      "min_backlog_sampled": 0.5999999999961726,
+      "periodic_start_end_error": -6.49147402498329e-13,
+      "burn_in_cycles": 5
+    },
+    {
+      "scenario": "linear_pulse",
+      "mean_input": 0.6,
+      "input_per_cycle": 4.8,
+      "processed_per_cycle": 4.799999999999896,
+      "mean_backlog": 0.599999999999987,
+      "peak_backlog_sampled": 3.035196877496681,
+      "min_backlog_sampled": 0.0027677412948033595,
+      "periodic_start_end_error": 1.0445030257377752e-13,
+      "burn_in_cycles": 4
+    }
+  ],
+  "checks": [
+    {
+      "name": "saturating_constant periodic closure",
+      "passed": true
+    },
+    {
+      "name": "saturating_constant throughput equals input",
+      "passed": true
+    },
+    {
+      "name": "saturating_constant mass balance",
+      "passed": true
+    },
+    {
+      "name": "saturating_constant nonnegative",
+      "passed": true
+    },
+    {
+      "name": "saturating_pulse periodic closure",
+      "passed": true
+    },
+    {
+      "name": "saturating_pulse throughput equals input",
+      "passed": true
+    },
+    {
+      "name": "saturating_pulse mass balance",
+      "passed": true
+    },
+    {
+      "name": "saturating_pulse nonnegative",
+      "passed": true
+    },
+    {
+      "name": "linear_constant periodic closure",
+      "passed": true
+    },
+    {
+      "name": "linear_constant throughput equals input",
+      "passed": true
+    },
+    {
+      "name": "linear_constant mass balance",
+      "passed": true
+    },
+    {
+      "name": "linear_constant nonnegative",
+      "passed": true
+    },
+    {
+      "name": "linear_pulse periodic closure",
+      "passed": true
+    },
+    {
+      "name": "linear_pulse throughput equals input",
+      "passed": true
+    },
+    {
+      "name": "linear_pulse mass balance",
+      "passed": true
+    },
+    {
+      "name": "linear_pulse nonnegative",
+      "passed": true
+    },
+    {
+      "name": "saturating constant matches analytic equilibrium",
+      "passed": true
+    },
+    {
+      "name": "Jensen inequality strict in pulse example",
+      "passed": true
+    },
+    {
+      "name": "linear control same mean backlog",
+      "passed": true
+    },
+    {
+      "name": "linear control can still have higher peaks",
+      "passed": true
+    },
+    {
+      "name": "no-input washout returns close to zero",
+      "passed": true
+    }
+  ],
+  "interpretation": "Same periodic total throughput, different retained backlog; not lifespan, injury, or a recommended dosing schedule."
+}

@@ -1,0 +1,12 @@
+{
+  "type": "assistant self-check, NOT independent review",
+  "arithmetic_checks_passed": 8,
+  "exact_grid_combinations": 110,
+  "relocated_result_files_identical": 2,
+  "new_source_table_reanalysis": false,
+  "new_biological_experiment": false,
+  "biological_parameters_fitted": false,
+  "independent_review_completed": false,
+  "formal_synthesis": false,
+  "remote_writes": false
+}

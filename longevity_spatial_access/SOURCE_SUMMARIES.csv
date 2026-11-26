@@ -1,0 +1,9 @@
+panel,group,n_entries,mean,sd_entries,endpoint,replication_level
+Figure6F,WT,3,46.76990145,3.777725196018002,"24h normalized total-bead MFI, % baseline; not bead-count fraction",biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,Itgb1 KO,3,69.99847710333333,6.997509933514676,"24h normalized total-bead MFI, % baseline; not bead-count fraction",biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,Itgb1 KO 2x cells,3,50.67391043666667,3.828190997458488,"24h normalized total-bead MFI, % baseline; not bead-count fraction",biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,WT 2x cells,3,32.29053866,3.0221604755130573,"24h normalized total-bead MFI, % baseline; not bead-count fraction",biological replicate summary; n=3 via Figure5 cross-reference
+Figure6supp2,WT,3,77.56666666666666,2.4826061575153897,"BMDMs with internalized beads, % total","technical replicate; one representative experiment, N=3"
+Figure6supp2,Tln1 KO,3,74.10000000000001,1.3527749258468695,"BMDMs with internalized beads, % total","technical replicate; one representative experiment, N=3"
+Figure6supp2,Itgb2 KO,3,68.86666666666666,3.3531080109852325,"BMDMs with internalized beads, % total","technical replicate; one representative experiment, N=3"
+Figure6supp2,Itgb1 KO,3,81.8,1.8734993995195177,"BMDMs with internalized beads, % total","technical replicate; one representative experiment, N=3"

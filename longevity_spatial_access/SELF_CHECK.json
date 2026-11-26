@@ -1,0 +1,17 @@
+{
+  "type": "assistant implementation self-check, not independent review",
+  "original_source_csv_sha256_verified": true,
+  "implementation_checks_passed": 23,
+  "relocated_results_byte_identical": [
+    "RESULTS.json",
+    "SOURCE_SUMMARIES.csv",
+    "SOURCE_VALUES_LONG.csv",
+    "SYNTHETIC_BRIDGE_SWEEP.csv",
+    "SYNTHETIC_NETWORK_ARCS.csv"
+  ],
+  "biological_parameters_fitted": false,
+  "independent_review_completed": false,
+  "formal_synthesis_performed": false,
+  "remote_writes": false,
+  "new_html_files": 0
+}

@@ -1,0 +1,27 @@
+{
+  "test_functions": 21,
+  "failed": 1,
+  "test": "test_claim_span_positions",
+  "expected_before_fix": [
+    [
+      384,
+      385
+    ],
+    [
+      77,
+      78
+    ]
+  ],
+  "actual_bound_project_spans": [
+    [
+      384,
+      385
+    ],
+    [
+      79,
+      80
+    ]
+  ],
+  "cause": "Manually written documentation/test locator was off by two lines; project.json original-quote binding was correct. Confirmed against numbered frozen manuscript.",
+  "action": "Correct documentation and test locator only; do not regenerate source hashes, quotes or assessments."
+}

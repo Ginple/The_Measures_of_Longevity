@@ -1,0 +1,10 @@
+{
+  "upstream_version": "0.1.0",
+  "constructed_fixture": true,
+  "test": "supported reported claim but required source_support dimension is refuted",
+  "actual_issues": [],
+  "actual_release_record_status": "recorded_prerequisites_present_not_certification",
+  "gap_reproduced": true,
+  "scientific_truth": "not_computed",
+  "meaning": "Internal contract inconsistency was not screened; no real external review asserted or fabricated."
+}

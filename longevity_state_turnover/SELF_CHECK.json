@@ -1,0 +1,20 @@
+{
+  "scope": "self-check only; not independent review",
+  "analytic_checks": 7,
+  "relocation_checks": [
+    "relocation identical: SYNTHETIC_CASES.csv",
+    "relocation identical: RESULTS.json"
+  ],
+  "independent_review": false,
+  "local_markdown_links_checked": 6,
+  "sha256": {
+    "RESULTS.json": "5825758110da083b8f7979d4087c81fc04dff1454493c28709df9cd95bcf4654",
+    "README.md": "64aa9e9ef879eae3980e4bed9aaf225b501d0790d9cb13bbb0c08d4503aa4bb4",
+    "READING_RECORD.md": "1c0bb23be96b6eee3c1985984fc0630fcfb983c06fc0bcf298018351ceecfe0b",
+    "SYNTHETIC_CASES.csv": "124e38351b4809e9b5f00d8c43f494c2798da37dc8070367d54e960f48f70122",
+    "identifiability_check.py": "5548e2d7a7abca4ded036eb94e3711909052c50bf278b8b18a27dc1fd9ec6867",
+    "RUN.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "\u72b6\u6001\u8fd8\u5728_\u4e0d\u7b49\u4e8e\u7ec6\u80de\u6ca1\u6362.md": "f75611a9fa91fb4ae5e3f19b5a0290a416ab2bd19fa464e0931205743df6f829",
+    "RUN.log": "eee0e14580bd5d5282cd9c00ea0738141bd8f9884ed8ca9746929d48edf52641"
+  }
+}

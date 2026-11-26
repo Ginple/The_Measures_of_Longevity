@@ -1,0 +1,25 @@
+{
+  "type": "assistant self-check, NOT independent review",
+  "source_script_exit": 0,
+  "model_script_exit": 0,
+  "model_implementation_checks": 14,
+  "all_model_checks_passed": true,
+  "relocated_output_comparison": "byte-identical CSV and JSON results, run from unrelated cwd",
+  "relocated_files": [
+    "COUNTERMODELS.json",
+    "CTNNB1_HEALTHY_COUNTS.csv",
+    "SOURCE_CONTRASTS.json",
+    "SOURCE_GROUP_SUMMARIES.csv",
+    "SOURCE_VALUES_LONG.csv",
+    "SYNTHETIC_CARGO_TRAJECTORIES.csv",
+    "SYNTHETIC_CLONE_CAPACITY_GRID.csv",
+    "SYNTHETIC_SCHEDULE_ENDPOINTS.csv",
+    "SYNTHETIC_SCHEDULE_TRAJECTORIES.csv",
+    "TBX3_GTT_AUC.csv",
+    "TBX3_GTT_TRAJECTORIES.csv"
+  ],
+  "html_files": 0,
+  "independent_review_completed": false,
+  "formal_synthesis": "blocked pending independent review",
+  "remote_writes": false
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/191000/191855/JCI191855.sdval.xlsx",
+  "discovered_in": "data/jci_plain.txt, attachment page download link",
+  "file": "data/N01_supporting_values.xlsx",
+  "status": 200,
+  "bytes": 111830,
+  "sha256": "b8cc968b99acc92286d97560f3094b26a24ff8a4f5c730b670a81a97be3bc5ff",
+  "magic": "504b030414000600"
+}

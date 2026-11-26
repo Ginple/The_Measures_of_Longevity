@@ -1,0 +1,118 @@
+{
+  "contrasts": [
+    {
+      "study": "TBX3",
+      "panel": "Figure 2F",
+      "endpoint": "Plasma ALT",
+      "KO_over_WT_mean": 0.5981651376146789,
+      "relative_change": -0.40183486238532107,
+      "context": "3 months WD"
+    },
+    {
+      "study": "TBX3",
+      "panel": "Figure 2H",
+      "endpoint": "Liver triglycerides",
+      "KO_over_WT_mean": 0.7441789469716957,
+      "relative_change": -0.25582105302830427,
+      "context": "6 months WD"
+    },
+    {
+      "study": "TBX3",
+      "panel": "Figure 4D",
+      "endpoint": "Plasma triglycerides",
+      "KO_over_WT_mean": 1.4968237704918035,
+      "relative_change": 0.4968237704918035,
+      "context": "6 months WD"
+    },
+    {
+      "study": "TBX3",
+      "panel": "Figure 5K",
+      "endpoint": "TG secretion rate",
+      "KO_over_WT_mean": 1.3158240315167433,
+      "relative_change": 0.3158240315167433,
+      "context": "2 weeks WD; P407 assay"
+    },
+    {
+      "study": "TBX3",
+      "panel": "Figure 5L",
+      "endpoint": "Plasma ApoB",
+      "KO_over_WT_mean": 3.2089300893329695,
+      "relative_change": 2.2089300893329695,
+      "context": "2 weeks WD; 3h after P407"
+    },
+    {
+      "study": "TBX3",
+      "panel": "Figure 4A",
+      "endpoint": "Glucose tolerance AUC 0-120min",
+      "KO_over_WT_mean": 1.274046931153548,
+      "relative_change": 0.27404693115354806,
+      "context": "6 months WD; 10 columns/group; native glucose units x minutes"
+    },
+    {
+      "study": "DNMT3A_stroma",
+      "panel": "Fig 5l",
+      "endpoint": "Senescent MSC frequency",
+      "control_change_pp": -0.17555555555555546,
+      "mutant_change_pp": -2.3594999999999997,
+      "difference_in_changes_pp": -2.1839444444444442,
+      "mutant_treated_over_vehicle": 0.34775397373877,
+      "context": "Descriptive interaction contrast, not a randomized interaction test or stromal-only drug specificity proof"
+    },
+    {
+      "study": "DNMT3A_stroma",
+      "panel": "Fig 5m",
+      "endpoint": "Donor BM contribution",
+      "control_change_pp": 3.4155555555555495,
+      "mutant_change_pp": -23.304999999999986,
+      "difference_in_changes_pp": -26.720555555555535,
+      "mutant_treated_over_vehicle": 0.6883316616516217,
+      "context": "Descriptive interaction contrast, not a randomized interaction test or stromal-only drug specificity proof"
+    },
+    {
+      "study": "DNMT3A_stroma",
+      "panel": "Fig 5n",
+      "endpoint": "Donor HSC contribution",
+      "control_change_pp": 7.3566666666666585,
+      "mutant_change_pp": -17.660000000000004,
+      "difference_in_changes_pp": -25.016666666666662,
+      "mutant_treated_over_vehicle": 0.7192368839427662,
+      "context": "Descriptive interaction contrast, not a randomized interaction test or stromal-only drug specificity proof"
+    }
+  ],
+  "TG_rate_relation_check": [
+    {
+      "group": "WT",
+      "n": 7,
+      "max_abs_difference_from_reported_rate": 0.30000000000001137,
+      "rounding_only_tolerance_used_in_failed_check": 0.06,
+      "all_within_rounding_only_tolerance": false,
+      "derived_endpoint_rate_mean": 457.0,
+      "reported_rate_mean": 456.90000000000003,
+      "interpretation": "Approximate agreement, not strict rounding-only identity; no source values altered"
+    },
+    {
+      "group": "KO",
+      "n": 8,
+      "max_abs_difference_from_reported_rate": 0.10000000000002274,
+      "rounding_only_tolerance_used_in_failed_check": 0.06,
+      "all_within_rounding_only_tolerance": false,
+      "derived_endpoint_rate_mean": 601.2208333333333,
+      "reported_rate_mean": 601.2,
+      "interpretation": "Approximate agreement, not strict rounding-only identity; no source values altered"
+    }
+  ],
+  "GTT_mean_AUC": {
+    "WT": 21286.5,
+    "KO": 27120.0
+  },
+  "units_policy": "Original workbook native units retained; TBX3 absolute axis-unit scale not independently verified, ratios unitless. No pooled damage score.",
+  "cautions": [
+    "TBX3 whole-liver KO not sparse-clone dose response",
+    "No same-mouse linkage across panels",
+    "Figure4A embedded summary N=45 not used as animal n; actual table 10 trajectories/group",
+    "Figure5K caption self-reference not used as sample mapping evidence",
+    "N02 GCV figure5f/g caption CD45.1 vs source CD45.2 discrepancy; primary recalculation restricted to ABT panels",
+    "N03 Figure7D has formatted dimension 1048573 rows; not iterated or analyzed",
+    "No independent statistical review or disease-risk/lifespan inference"
+  ]
+}

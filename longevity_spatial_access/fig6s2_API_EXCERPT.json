@@ -1,0 +1,35 @@
+{
+  "caption": [
+    {
+      "text": "Analysis of bead phagocytosis in cell suspensions. WT, <i>Itgb1<sup>−/−</sup></i>, <i>Itgb2<sup>−/−</sup></i>, and <i>Tln1<sup>−/−</sup></i> bone marrow-derived macrophages (BMDMs) were kept in stirred cell suspensions with fluorescent beads for a 2 hr incubation time. Bead internalization by macrophages was quantified by flow cytometry analysis, using a combination of intrinsic bead fluorescence and an annexin V labelling of extracellular beads. Representative experiment with N = 3 technical replicates. Bars display the mean; ns: non-significant, **p ≤ 0.01, Dunnett’s multiple comparison (post hoc analysis of variance [ANOVA]).",
+      "type": "paragraph"
+    }
+  ],
+  "id": "fig6s2",
+  "image": {
+    "alt": "",
+    "uri": "https://iiif.elifesciences.org/lax/75354%2Felife-75354-fig6-figsupp2-v1.tif",
+    "size": {
+      "width": 647,
+      "height": 515
+    },
+    "source": {
+      "mediaType": "image/jpeg",
+      "uri": "https://iiif.elifesciences.org/lax/75354%2Felife-75354-fig6-figsupp2-v1.tif/full/full/0/default.jpg",
+      "filename": "elife-75354-fig6-figsupp2-v1.jpg"
+    }
+  },
+  "label": "Figure 6—figure supplement 2",
+  "sourceData": [
+    {
+      "filename": "elife-75354-fig6-figsupp2-data1-v1.csv",
+      "id": "fig6s2sdata1",
+      "label": "Figure 6—figure supplement 2—source data 1",
+      "mediaType": "application/octet-stream",
+      "title": "Numerical data for the graph in <a href=\"#fig6s2\">Figure 6—figure supplement 2</a>.",
+      "uri": "https://cdn.elifesciences.org/articles/75354/elife-75354-fig6-figsupp2-data1-v1.csv"
+    }
+  ],
+  "title": "Macrophages do not require β1 integrins bead phagocytosis in suspension.",
+  "type": "image"
+}

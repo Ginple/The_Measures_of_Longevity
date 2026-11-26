@@ -1,0 +1,15 @@
+{
+  "main_page_requests": {
+    "http": 200,
+    "bytes": 3038,
+    "figure_ids_found": false,
+    "interpretation": "shell, not substantive caption"
+  },
+  "api_attempt": [
+    {
+      "url": "https://api.elifesciences.org/articles/75354",
+      "status": 200,
+      "bytes": 265924
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+fraction_input_removed,fraction_capacity_removed,input_before,capacity_before,input_after,capacity_after,load_ratio_after,bounded_saturating_equilibrium,equilibrium_retained_cargo,exact_boundary_capacity_loss
+0.5,0.1,0.6,1.0,0.3,0.9,0.3333333333333333,True,0.5,0.7
+0.5,0.5,0.6,1.0,0.3,0.5,0.6,True,1.5,0.7
+0.5,0.7,0.6,1.0,0.3,0.3,1.0,False,,0.7
+0.5,0.8,0.6,1.0,0.3,0.2,1.5,False,,0.7

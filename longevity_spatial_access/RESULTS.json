@@ -1,0 +1,561 @@
+{
+  "all_network_parameters_synthetic_dimensionless": true,
+  "not_fitted_to_source": true,
+  "source_descriptive_contrasts": {
+    "Fig6F_KO_minus_WT_normalized_MFI_pp": 23.22857565333333,
+    "Fig6F_KO2x_minus_KO_normalized_MFI_pp": -19.324566666666662,
+    "Fig6F_KO2x_minus_WT_normalized_MFI_pp": 3.9040089866666676,
+    "suspension_KO_minus_WT_percentage_points_descriptive_only": 4.233333333333334,
+    "caution": "No cross-panel pairing, new p-values, equivalence claims, or terminal degradation inference."
+  },
+  "networks": {
+    "baseline": {
+      "max_feasible_flow": 0.6000000000000001,
+      "min_cut_capacity": 0.6000000000000001,
+      "one_min_cut_source_side": [
+        "M1",
+        "S1",
+        "s"
+      ],
+      "cut_arcs": [
+        [
+          "s",
+          "S2"
+        ],
+        [
+          "M1",
+          "t"
+        ]
+      ],
+      "total_input": 1.0,
+      "total_processing_capacity": 1.2000000000000002,
+      "arcs": [
+        {
+          "from": "s",
+          "to": "S1",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.4
+        },
+        {
+          "from": "s",
+          "to": "S2",
+          "capacity": 0.2,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S2",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.0
+        },
+        {
+          "from": "S2",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "M1",
+          "to": "t",
+          "capacity": 0.4,
+          "one_optimal_flow": 0.4
+        },
+        {
+          "from": "M2",
+          "to": "t",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S1",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.4
+        }
+      ]
+    },
+    "remote_capacity_doubled": {
+      "max_feasible_flow": 0.6000000000000001,
+      "min_cut_capacity": 0.6000000000000001,
+      "one_min_cut_source_side": [
+        "M1",
+        "S1",
+        "s"
+      ],
+      "cut_arcs": [
+        [
+          "s",
+          "S2"
+        ],
+        [
+          "M1",
+          "t"
+        ]
+      ],
+      "total_input": 1.0,
+      "total_processing_capacity": 2.0,
+      "arcs": [
+        {
+          "from": "s",
+          "to": "S1",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.4
+        },
+        {
+          "from": "s",
+          "to": "S2",
+          "capacity": 0.2,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S2",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.0
+        },
+        {
+          "from": "S2",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "M1",
+          "to": "t",
+          "capacity": 0.4,
+          "one_optimal_flow": 0.4
+        },
+        {
+          "from": "M2",
+          "to": "t",
+          "capacity": 1.6,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S1",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.4
+        }
+      ]
+    },
+    "local_capacity_doubled": {
+      "max_feasible_flow": 1.0,
+      "min_cut_capacity": 1.0,
+      "one_min_cut_source_side": [
+        "s"
+      ],
+      "cut_arcs": [
+        [
+          "s",
+          "S1"
+        ],
+        [
+          "s",
+          "S2"
+        ]
+      ],
+      "total_input": 1.0,
+      "total_processing_capacity": 1.6,
+      "arcs": [
+        {
+          "from": "s",
+          "to": "S1",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.8
+        },
+        {
+          "from": "s",
+          "to": "S2",
+          "capacity": 0.2,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S2",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.0
+        },
+        {
+          "from": "S2",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "M1",
+          "to": "t",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.8
+        },
+        {
+          "from": "M2",
+          "to": "t",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S1",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.8
+        }
+      ]
+    },
+    "access_bridge_added": {
+      "max_feasible_flow": 1.0,
+      "min_cut_capacity": 1.0,
+      "one_min_cut_source_side": [
+        "s"
+      ],
+      "cut_arcs": [
+        [
+          "s",
+          "S1"
+        ],
+        [
+          "s",
+          "S2"
+        ]
+      ],
+      "total_input": 1.0,
+      "total_processing_capacity": 1.2000000000000002,
+      "arcs": [
+        {
+          "from": "s",
+          "to": "S1",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.8
+        },
+        {
+          "from": "s",
+          "to": "S2",
+          "capacity": 0.2,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S2",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.0
+        },
+        {
+          "from": "S2",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "M1",
+          "to": "t",
+          "capacity": 0.4,
+          "one_optimal_flow": 0.4
+        },
+        {
+          "from": "M2",
+          "to": "t",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.6000000000000001
+        },
+        {
+          "from": "S1",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.39999999999999997
+        },
+        {
+          "from": "S1",
+          "to": "M2",
+          "capacity": 0.4,
+          "one_optimal_flow": 0.4000000000000001
+        }
+      ]
+    },
+    "input_location_swapped": {
+      "max_feasible_flow": 1.0,
+      "min_cut_capacity": 1.0,
+      "one_min_cut_source_side": [
+        "s"
+      ],
+      "cut_arcs": [
+        [
+          "s",
+          "S1"
+        ],
+        [
+          "s",
+          "S2"
+        ]
+      ],
+      "total_input": 1.0,
+      "total_processing_capacity": 1.2000000000000002,
+      "arcs": [
+        {
+          "from": "s",
+          "to": "S1",
+          "capacity": 0.2,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "s",
+          "to": "S2",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.8
+        },
+        {
+          "from": "S2",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.0
+        },
+        {
+          "from": "S2",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.8
+        },
+        {
+          "from": "M1",
+          "to": "t",
+          "capacity": 0.4,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "M2",
+          "to": "t",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.8
+        },
+        {
+          "from": "S1",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.2
+        }
+      ]
+    },
+    "fully_connected": {
+      "max_feasible_flow": 1.0,
+      "min_cut_capacity": 1.0,
+      "one_min_cut_source_side": [
+        "s"
+      ],
+      "cut_arcs": [
+        [
+          "s",
+          "S1"
+        ],
+        [
+          "s",
+          "S2"
+        ]
+      ],
+      "total_input": 1.0,
+      "total_processing_capacity": 1.2000000000000002,
+      "arcs": [
+        {
+          "from": "s",
+          "to": "S1",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.8
+        },
+        {
+          "from": "s",
+          "to": "S2",
+          "capacity": 0.2,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S2",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.0
+        },
+        {
+          "from": "S2",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "M1",
+          "to": "t",
+          "capacity": 0.4,
+          "one_optimal_flow": 0.4
+        },
+        {
+          "from": "M2",
+          "to": "t",
+          "capacity": 0.8,
+          "one_optimal_flow": 0.6000000000000001
+        },
+        {
+          "from": "S1",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.4
+        },
+        {
+          "from": "S1",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.4
+        }
+      ]
+    },
+    "S1_isolated": {
+      "max_feasible_flow": 0.2,
+      "min_cut_capacity": 0.2,
+      "one_min_cut_source_side": [
+        "S1",
+        "s"
+      ],
+      "cut_arcs": [
+        [
+          "s",
+          "S2"
+        ]
+      ],
+      "total_input": 1.0,
+      "total_processing_capacity": 1.2000000000000002,
+      "arcs": [
+        {
+          "from": "s",
+          "to": "S1",
+          "capacity": 0.8,
+          "one_optimal_flow": -0.0
+        },
+        {
+          "from": "s",
+          "to": "S2",
+          "capacity": 0.2,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S2",
+          "to": "M1",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "S2",
+          "to": "M2",
+          "capacity": 2.0,
+          "one_optimal_flow": 0.0
+        },
+        {
+          "from": "M1",
+          "to": "t",
+          "capacity": 0.4,
+          "one_optimal_flow": 0.2
+        },
+        {
+          "from": "M2",
+          "to": "t",
+          "capacity": 0.8,
+          "one_optimal_flow": -0.0
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "pooled capacity exceeds load yet flow shortfall",
+      "passed": true
+    },
+    {
+      "name": "remote capacity increase does not help",
+      "passed": true
+    },
+    {
+      "name": "local_capacity_doubled restores ideal feasibility",
+      "passed": true
+    },
+    {
+      "name": "access_bridge_added restores ideal feasibility",
+      "passed": true
+    },
+    {
+      "name": "input_location_swapped restores ideal feasibility",
+      "passed": true
+    },
+    {
+      "name": "fully_connected restores ideal feasibility",
+      "passed": true
+    },
+    {
+      "name": "isolated S1 cannot be served remotely",
+      "passed": true
+    },
+    {
+      "name": "baseline LP equals independently enumerated cut",
+      "passed": true
+    },
+    {
+      "name": "baseline bounds and conservation",
+      "passed": true
+    },
+    {
+      "name": "remote_capacity_doubled LP equals independently enumerated cut",
+      "passed": true
+    },
+    {
+      "name": "remote_capacity_doubled bounds and conservation",
+      "passed": true
+    },
+    {
+      "name": "local_capacity_doubled LP equals independently enumerated cut",
+      "passed": true
+    },
+    {
+      "name": "local_capacity_doubled bounds and conservation",
+      "passed": true
+    },
+    {
+      "name": "access_bridge_added LP equals independently enumerated cut",
+      "passed": true
+    },
+    {
+      "name": "access_bridge_added bounds and conservation",
+      "passed": true
+    },
+    {
+      "name": "input_location_swapped LP equals independently enumerated cut",
+      "passed": true
+    },
+    {
+      "name": "input_location_swapped bounds and conservation",
+      "passed": true
+    },
+    {
+      "name": "fully_connected LP equals independently enumerated cut",
+      "passed": true
+    },
+    {
+      "name": "fully_connected bounds and conservation",
+      "passed": true
+    },
+    {
+      "name": "S1_isolated LP equals independently enumerated cut",
+      "passed": true
+    },
+    {
+      "name": "S1_isolated bounds and conservation",
+      "passed": true
+    },
+    {
+      "name": "bridge response matches analytic piecewise formula",
+      "passed": true
+    },
+    {
+      "name": "bridge response monotone",
+      "passed": true
+    }
+  ],
+  "caveats": [
+    "Max flow is an optimistic static feasible throughput, not measured clearance or queue stability.",
+    "Finite edge capacities are assumed, not derived from contact counts.",
+    "One divisible cargo; no signaling, toxicity, delay, routing failure, or adaptive recruitment.",
+    "At equality with biological maximum, finite saturating steady state is not guaranteed."
+  ]
+}

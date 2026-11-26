@@ -1,0 +1,29 @@
+[
+  {
+    "id": "N11_EP2_science",
+    "url": "https://www.science.org/doi/10.1126/science.aea3075",
+    "http": 403,
+    "bytes": 5540,
+    "text_characters": 58,
+    "sha256": "0ea0c4d733d0f208e2e6ed68a68b4f97e9ed1a4f193572127dcc627cdd8fc76b",
+    "download_is_not_full_read": true
+  },
+  {
+    "id": "N12_systemic_framework",
+    "url": "https://doi.org/10.18632/aging.206430",
+    "http": 403,
+    "bytes": 5538,
+    "text_characters": 58,
+    "sha256": "9b2d9500537adec42ad6d680df057a07eb30ced62be58a2f8ab61c14d7d0192c",
+    "download_is_not_full_read": true
+  },
+  {
+    "id": "N13_NOTCH_order_preprint",
+    "url": "https://www.biorxiv.org/content/10.1101/2024.09.26.615123v2",
+    "http": 429,
+    "bytes": 12179,
+    "text_characters": 331,
+    "sha256": "ae73a72ec92145f025d04ec36e0abfcf27c55632e1720aaa6e2c2197c6065b9c",
+    "download_is_not_full_read": true
+  }
+]

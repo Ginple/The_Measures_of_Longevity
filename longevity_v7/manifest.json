@@ -1,0 +1,108 @@
+{
+  "version": "V7",
+  "research_cutoff": "2026-11-25",
+  "files": [
+    {
+      "name": "BROWSER_SETUP.log",
+      "bytes": 14508,
+      "sha256": "eb32803b7e77dcb9bb7e1f9344f9170d30ad794f5ec7591e5e84107bd326b946"
+    },
+    {
+      "name": "PRE_SYNTHESIS_AUDIT.md",
+      "bytes": 8773,
+      "sha256": "7eeb060e50ad087d58fcdedf15f9a5820302632969cfd7800d60a4867e2a3e3e"
+    },
+    {
+      "name": "QA_ENVIRONMENT_FIRST.log",
+      "bytes": 5634,
+      "sha256": "187269076800663f7cabb88e6a476514fb9a7630582f6798feb56f86f994112c"
+    },
+    {
+      "name": "QA_FIRST_RUN.json",
+      "bytes": 3156,
+      "sha256": "84ebd6d33b953e57088b7130d429b59eef4bddd084701b938b47dd5a6d0c86f2"
+    },
+    {
+      "name": "QA_REPORT.json",
+      "bytes": 3154,
+      "sha256": "53e4784280b07e61f9eaac7afe334a086a099c4a0e8ac959a8bba1f54b11471c"
+    },
+    {
+      "name": "QA_RUN.log",
+      "bytes": 3155,
+      "sha256": "9ad45d35f6f6753ab0ba01ee00ae74d31a3537c6ed539341e3336f614cb3b690"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3809,
+      "sha256": "8de4aa30656fc0a5cb75d496ceb142cccc8cdb85404a6e8dcfd20c08aae8d0b3"
+    },
+    {
+      "name": "RESEARCH_LOG.md",
+      "bytes": 6333,
+      "sha256": "d56edd083344ca75d142fc9a455b3c43337183c0dea808209aa4a13b18337f3d"
+    },
+    {
+      "name": "RESEARCH_PROTOCOL.md",
+      "bytes": 2887,
+      "sha256": "59b9f5bbcfc28c3db9f46624b179d7eb8b6e49d2af6b113b052dcec38143d31c"
+    },
+    {
+      "name": "STATE_DASHBOARD.HTML",
+      "bytes": 212668,
+      "sha256": "19d311ff6a10223d650365d52f552348723fcc194b391a823c81f491cb2b9ab2"
+    },
+    {
+      "name": "build.py",
+      "bytes": 19490,
+      "sha256": "e7ec388c246787a9a5f65dc4fd37aa3ba6ef7b05d228eee3c6d69c0305629d15"
+    },
+    {
+      "name": "evidence_index.json",
+      "bytes": 9841,
+      "sha256": "b51dd524c1166f0dbbfa18b77f3cefafca40efadc8aa8adc1f8ad011e7361e2b"
+    },
+    {
+      "name": "evidence_index.tsv",
+      "bytes": 6526,
+      "sha256": "401da49f97d3a5dad891b5a06cf9707e0cf7bf44550988d537bce60f25566602"
+    },
+    {
+      "name": "qa.py",
+      "bytes": 5507,
+      "sha256": "afcb01b549060426654cd33fc7f165f99451a29d0e7185e003efddb8fb14fdde"
+    },
+    {
+      "name": "qa_desktop.png",
+      "bytes": 167021,
+      "sha256": "0012cdc6bdd45579b4e95a18e43e8a18fb474f3bf180c2b4312f58afd0530a8d"
+    },
+    {
+      "name": "qa_mobile.png",
+      "bytes": 68197,
+      "sha256": "0bcc2db772ecd22671f1e076360c8eea4d373005d70313f098b80e246dbae5f0"
+    },
+    {
+      "name": "requirements.txt",
+      "bytes": 57,
+      "sha256": "91b343ebe49a5192ab21cc7183449f0120139d2064b530ec4a68272cc82ef58c"
+    },
+    {
+      "name": "template_style.css",
+      "bytes": 7193,
+      "sha256": "a7012fd61f688478f804a847f2c23c12cc8884e86ffa6ff94c86c05ea98e41ab"
+    },
+    {
+      "name": "长寿研究_V7_谁在变年轻.md",
+      "bytes": 64618,
+      "sha256": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e"
+    }
+  ],
+  "scope": "Current distribution file hashes only; not scientific review. Old HTML/QA/indexes remain pre-session artifacts.",
+  "session_closeout": {
+    "date_label": "2026-11-25",
+    "manuscript_status": "in-place working-draft increment; independent review pending",
+    "frozen_generated_artifacts_not_rebuilt": true,
+    "historical_QA_not_reissued": true
+  }
+}

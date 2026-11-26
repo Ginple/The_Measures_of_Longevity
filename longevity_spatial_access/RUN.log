@@ -1,0 +1,93 @@
+{
+  "source_summaries": [
+    {
+      "panel": "Figure6F",
+      "group": "WT",
+      "n_entries": 3,
+      "mean": 46.76990145,
+      "sd_entries": 3.777725196018002,
+      "endpoint": "24h normalized total-bead MFI, % baseline; not bead-count fraction",
+      "replication_level": "biological replicate summary; n=3 via Figure5 cross-reference"
+    },
+    {
+      "panel": "Figure6F",
+      "group": "Itgb1 KO",
+      "n_entries": 3,
+      "mean": 69.99847710333333,
+      "sd_entries": 6.997509933514676,
+      "endpoint": "24h normalized total-bead MFI, % baseline; not bead-count fraction",
+      "replication_level": "biological replicate summary; n=3 via Figure5 cross-reference"
+    },
+    {
+      "panel": "Figure6F",
+      "group": "Itgb1 KO 2x cells",
+      "n_entries": 3,
+      "mean": 50.67391043666667,
+      "sd_entries": 3.828190997458488,
+      "endpoint": "24h normalized total-bead MFI, % baseline; not bead-count fraction",
+      "replication_level": "biological replicate summary; n=3 via Figure5 cross-reference"
+    },
+    {
+      "panel": "Figure6F",
+      "group": "WT 2x cells",
+      "n_entries": 3,
+      "mean": 32.29053866,
+      "sd_entries": 3.0221604755130573,
+      "endpoint": "24h normalized total-bead MFI, % baseline; not bead-count fraction",
+      "replication_level": "biological replicate summary; n=3 via Figure5 cross-reference"
+    },
+    {
+      "panel": "Figure6supp2",
+      "group": "WT",
+      "n_entries": 3,
+      "mean": 77.56666666666666,
+      "sd_entries": 2.4826061575153897,
+      "endpoint": "BMDMs with internalized beads, % total",
+      "replication_level": "technical replicate; one representative experiment, N=3"
+    },
+    {
+      "panel": "Figure6supp2",
+      "group": "Tln1 KO",
+      "n_entries": 3,
+      "mean": 74.10000000000001,
+      "sd_entries": 1.3527749258468695,
+      "endpoint": "BMDMs with internalized beads, % total",
+      "replication_level": "technical replicate; one representative experiment, N=3"
+    },
+    {
+      "panel": "Figure6supp2",
+      "group": "Itgb2 KO",
+      "n_entries": 3,
+      "mean": 68.86666666666666,
+      "sd_entries": 3.3531080109852325,
+      "endpoint": "BMDMs with internalized beads, % total",
+      "replication_level": "technical replicate; one representative experiment, N=3"
+    },
+    {
+      "panel": "Figure6supp2",
+      "group": "Itgb1 KO",
+      "n_entries": 3,
+      "mean": 81.8,
+      "sd_entries": 1.8734993995195177,
+      "endpoint": "BMDMs with internalized beads, % total",
+      "replication_level": "technical replicate; one representative experiment, N=3"
+    }
+  ],
+  "source_contrasts": {
+    "Fig6F_KO_minus_WT_normalized_MFI_pp": 23.22857565333333,
+    "Fig6F_KO2x_minus_KO_normalized_MFI_pp": -19.324566666666662,
+    "Fig6F_KO2x_minus_WT_normalized_MFI_pp": 3.9040089866666676,
+    "suspension_KO_minus_WT_percentage_points_descriptive_only": 4.233333333333334,
+    "caution": "No cross-panel pairing, new p-values, equivalence claims, or terminal degradation inference."
+  },
+  "network_flow": {
+    "baseline": 0.6000000000000001,
+    "remote_capacity_doubled": 0.6000000000000001,
+    "local_capacity_doubled": 1.0,
+    "access_bridge_added": 1.0,
+    "input_location_swapped": 1.0,
+    "fully_connected": 1.0,
+    "S1_isolated": 0.2
+  },
+  "passed_checks": 23
+}

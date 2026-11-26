@@ -1,0 +1,254 @@
+study,panel,group,cell,value,endpoint,context,pairing
+TBX3,Figure 2F,WT,C4,118.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C5,209.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C6,65.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C7,64.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C8,161.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C9,135.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C10,63.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C11,75.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C12,340.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C13,193.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C14,151.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,WT,C15,61.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D4,154.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D5,84.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D6,46.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D7,87.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D8,116.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D9,131.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D10,39.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D11,106.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D12,40.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D13,47.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D14,57.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2F,KO,D15,71.0,Plasma ALT,3 months WD,not_assumed
+TBX3,Figure 2H,WT,C4,305.5,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C5,311.32,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C6,209.12,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C7,290.87,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C8,282.49,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C9,299.84,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C10,207.45,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C11,275.17,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C12,203.08,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,WT,C13,268.46,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D4,184.33,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D5,159.47,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D6,283.03,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D7,214.8,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D8,233.49,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D9,227.86,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D10,185.99,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D11,202.15,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D12,158.98,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 2H,KO,D13,124.43,Liver triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C4,95.6,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C5,90.5,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C6,102.3,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C7,97.5,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C8,122.3,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C9,101.2,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C10,95.4,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C11,102.2,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C12,87.5,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,WT,C13,81.5,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D4,107.5,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D5,170.2,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D6,181.7,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D7,245.0,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D8,142.6,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D9,150.3,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D10,169.5,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D11,94.6,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D12,119.2,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 4D,KO,D13,80.3,Plasma triglycerides,6 months WD,not_assumed
+TBX3,Figure 5K,WT,C5,334.5,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,WT,C6,461.9,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,WT,C7,486.8,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,WT,C8,480.7,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,WT,C9,355.3,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,WT,C10,544.5,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,WT,C11,534.6,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D5,600.4,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D6,496.8,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D7,599.4,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D8,495.2,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D9,538.6,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D10,783.6,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D11,587.8,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5K,KO,D12,707.8,TG secretion rate,2 weeks WD; P407 assay,not_assumed
+TBX3,Figure 5L,WT,C5,5.463,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,WT,C6,19.015,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,WT,C7,5.954,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,WT,C8,8.564,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,WT,C9,10.567,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,WT,C10,6.534,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,WT,C11,6.254,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,KO,D5,19.432,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,KO,D6,17.576,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,KO,D7,10.453,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,KO,D8,13.921,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,KO,D9,57.93,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,KO,D10,52.665,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+TBX3,Figure 5L,KO,D11,28.103,Plasma ApoB,2 weeks WD; 3h after P407,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B3,1.43,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B4,0.94,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B5,0.93,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B6,2.44,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B7,1.08,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B8,1.13,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B9,1.63,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B10,0.86,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B11,1.7,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control vehicle,B12,1.26,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C3,1.48,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C4,1.16,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C5,0.59,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C6,1.41,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C7,0.83,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C8,0.82,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C9,1.15,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C10,1.11,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Control ABT263,C11,1.93,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D3,2.78,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D4,3.94,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D5,2.08,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D6,3.85,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D7,4.77,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D8,2.83,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D9,3.44,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant vehicle,D10,5.25,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E3,2.03,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E4,1.06,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E5,1.07,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E6,1.34,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E7,2.22,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E8,1.07,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E9,1.16,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E10,1.35,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E11,0.72,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5l,Mutant ABT263,E12,0.56,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B3,54.4,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B4,42.7,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B5,55.2,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B6,18.8,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B7,40.1,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B8,52.3,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B9,59.3,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B10,60.1,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B11,50.2,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control vehicle,B12,57.3,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C3,65.9,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C4,75.6,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C5,72.4,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C6,58.3,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C7,43.1,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C8,29.3,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C9,45.4,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C10,39.8,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Control ABT263,C11,42.3,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D3,78.8,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D4,81.0,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D5,79.5,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D6,64.6,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D7,83.2,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D8,73.2,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D9,68.6,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant vehicle,D10,69.3,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E3,51.4,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E4,52.5,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E5,45.2,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E6,45.9,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E7,56.4,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E8,65.7,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E9,66.6,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E10,26.9,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E11,42.6,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5m,Mutant ABT263,E12,61.5,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B3,28.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B4,20.9,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B5,36.6,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B6,15.3,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B7,16.7,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B8,39.6,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B9,25.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B10,17.3,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B11,55.2,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control vehicle,B12,30.3,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C3,20.9,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C4,78.0,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C5,50.0,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C6,57.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C7,30.4,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C8,19.4,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C9,27.3,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C10,26.3,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Control ABT263,C11,13.4,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D3,74.5,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D4,58.2,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D5,58.8,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D6,58.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D7,62.2,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D8,69.2,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D9,65.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant vehicle,D10,57.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E3,56.5,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E4,52.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E5,34.4,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E6,53.4,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E7,56.4,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E8,41.7,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E9,55.1,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E10,28.6,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E11,35.7,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+DNMT3A_stroma,Fig 5n,Mutant ABT263,E12,38.5,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,not_assumed
+CTNNB1,Figure 1C,Reporter,B2,62.81891,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,B3,94.72849,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,B4,45.20003,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,B5,142.4002,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,B6,135.1408,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,C2,132.74,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,C3,71.62164,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,C4,45.90007,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,C5,118.0357,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,C6,43.5132,Labeled hepatocytes per area,10 days young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,D2,50.75021,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,D3,135.1409,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,D4,78.39995,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,D5,46.91417,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,D6,11.13334,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,E2,110.3997,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,E3,81.12457,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,E4,106.9323,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,E5,123.1373,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,E6,53.02248,Labeled hepatocytes per area,1 month young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,F2,88.92679,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,F3,65.61992,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,F4,124.7462,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,F5,52.50007,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,F6,110.5005,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,G2,19.906,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,G3,6.889694,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,G4,57.81747,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,G5,16.49042,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,G6,24.05726,Labeled hepatocytes per area,2 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,H2,99.33004,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,H3,68.56258,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,H4,68.45888,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,H5,77.62344,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,H6,142.7002,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,I2,16.70502,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,I3,23.30704,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,I4,7.894129,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,I5,15.5538,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,I6,55.71687,Labeled hepatocytes per area,3 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,J2,104.1057,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,J3,93.02808,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,J4,93.1001,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,J5,31.05001,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,Reporter,J6,44.10005,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,K2,1.951178,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,K3,3.262734,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,K4,1.030925,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed
+CTNNB1,Figure 1C,BetaCatenin,K5,11.01675,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,not_assumed

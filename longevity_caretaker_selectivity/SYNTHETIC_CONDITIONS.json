@@ -1,0 +1,99 @@
+{
+  "all_parameters_synthetic_dimensionless": true,
+  "biological_fit": false,
+  "equations": [
+    "rho_post=rho_pre*(1-a)/(1-b)",
+    "rho_post>rho_pre iff b>a for rho_pre>0 and b<1",
+    "finite constant-input saturating steady state requires b<1-rho_pre*(1-a)"
+  ],
+  "examples": [
+    {
+      "fraction_input_removed": 0.5,
+      "fraction_capacity_removed": 0.1,
+      "input_before": 0.6,
+      "capacity_before": 1.0,
+      "input_after": 0.3,
+      "capacity_after": 0.9,
+      "load_ratio_after": 0.3333333333333333,
+      "bounded_saturating_equilibrium": true,
+      "equilibrium_retained_cargo": 0.5,
+      "exact_boundary_capacity_loss": 0.7
+    },
+    {
+      "fraction_input_removed": 0.5,
+      "fraction_capacity_removed": 0.5,
+      "input_before": 0.6,
+      "capacity_before": 1.0,
+      "input_after": 0.3,
+      "capacity_after": 0.5,
+      "load_ratio_after": 0.6,
+      "bounded_saturating_equilibrium": true,
+      "equilibrium_retained_cargo": 1.5,
+      "exact_boundary_capacity_loss": 0.7
+    },
+    {
+      "fraction_input_removed": 0.5,
+      "fraction_capacity_removed": 0.7,
+      "input_before": 0.6,
+      "capacity_before": 1.0,
+      "input_after": 0.3,
+      "capacity_after": 0.3,
+      "load_ratio_after": 1.0,
+      "bounded_saturating_equilibrium": false,
+      "equilibrium_retained_cargo": null,
+      "exact_boundary_capacity_loss": 0.7
+    },
+    {
+      "fraction_input_removed": 0.5,
+      "fraction_capacity_removed": 0.8,
+      "input_before": 0.6,
+      "capacity_before": 1.0,
+      "input_after": 0.3,
+      "capacity_after": 0.2,
+      "load_ratio_after": 1.5,
+      "bounded_saturating_equilibrium": false,
+      "equilibrium_retained_cargo": null,
+      "exact_boundary_capacity_loss": 0.7
+    }
+  ],
+  "checks": [
+    {
+      "name": "source-only reduction lowers ratio",
+      "passed": true
+    },
+    {
+      "name": "capacity-only reduction raises ratio",
+      "passed": true
+    },
+    {
+      "name": "equal fractions leave ratio unchanged",
+      "passed": true
+    },
+    {
+      "name": "50 percent lower source can coexist with overload",
+      "passed": true
+    },
+    {
+      "name": "equality gives no finite saturating equilibrium",
+      "passed": true
+    },
+    {
+      "name": "capacity-preserving example finite cargo equals one half",
+      "passed": true
+    },
+    {
+      "name": "ratio sign identity on exact grid",
+      "passed": true
+    },
+    {
+      "name": "capacity boundary identity on exact grid",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "a is fraction of input flux removed, NOT fraction of marker-positive cells removed.",
+    "b is fraction of effective processing capacity lost, NOT fraction of macrophages killed.",
+    "No killed-cell transient cargo, compensation, spatial bottleneck, immune toxicity, clinical dosing, or lifespan.",
+    "Algebraic capacity condition is NOT a biological safety condition."
+  ]
+}

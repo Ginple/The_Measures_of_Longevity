@@ -1,0 +1,105 @@
+{
+  "classification": "SYNTHETIC / NOT FITTED / arbitrary units",
+  "checks": [
+    "three mechanisms give stock 50",
+    "same stock 100 at 100 fold turnover difference",
+    "opposite maturation output despite same reduced stock",
+    "label survival cannot resolve fate partition",
+    "stock mass balance",
+    "cohort mass balance",
+    "positive hazards"
+  ],
+  "rows": [
+    {
+      "case": "baseline",
+      "entry": 10,
+      "maturation_hazard": 0.08,
+      "loss_hazard": 0.02,
+      "steady_stock": 100.0,
+      "mature_output": 8.0,
+      "loss_output": 2.0,
+      "mean_residence": 10.0,
+      "cohort_remaining_t10": 36.787944117144235,
+      "cohort_mature_cumulative_t10": 50.56964470628461,
+      "cohort_loss_cumulative_t10": 12.642411176571153
+    },
+    {
+      "case": "less_entry",
+      "entry": 5,
+      "maturation_hazard": 0.08,
+      "loss_hazard": 0.02,
+      "steady_stock": 50.0,
+      "mature_output": 4.0,
+      "loss_output": 1.0,
+      "mean_residence": 10.0,
+      "cohort_remaining_t10": 36.787944117144235,
+      "cohort_mature_cumulative_t10": 50.56964470628461,
+      "cohort_loss_cumulative_t10": 12.642411176571153
+    },
+    {
+      "case": "more_maturation",
+      "entry": 10,
+      "maturation_hazard": 0.18,
+      "loss_hazard": 0.02,
+      "steady_stock": 50.00000000000001,
+      "mature_output": 9.000000000000002,
+      "loss_output": 1.0000000000000002,
+      "mean_residence": 5.0,
+      "cohort_remaining_t10": 13.533528323661272,
+      "cohort_mature_cumulative_t10": 77.81982450870487,
+      "cohort_loss_cumulative_t10": 8.646647167633873
+    },
+    {
+      "case": "more_loss",
+      "entry": 10,
+      "maturation_hazard": 0.08,
+      "loss_hazard": 0.12,
+      "steady_stock": 50.0,
+      "mature_output": 4.0,
+      "loss_output": 6.0,
+      "mean_residence": 5.0,
+      "cohort_remaining_t10": 13.53352832366127,
+      "cohort_mature_cumulative_t10": 34.58658867053549,
+      "cohort_loss_cumulative_t10": 51.87988300580324
+    },
+    {
+      "case": "same_stock_slow",
+      "entry": 1,
+      "maturation_hazard": 0.008,
+      "loss_hazard": 0.002,
+      "steady_stock": 100.0,
+      "mature_output": 0.8,
+      "loss_output": 0.2,
+      "mean_residence": 100.0,
+      "cohort_remaining_t10": 90.48374180359595,
+      "cohort_mature_cumulative_t10": 7.613006557123239,
+      "cohort_loss_cumulative_t10": 1.9032516392808096
+    },
+    {
+      "case": "same_stock_fast",
+      "entry": 100,
+      "maturation_hazard": 0.8,
+      "loss_hazard": 0.2,
+      "steady_stock": 100.0,
+      "mature_output": 80.0,
+      "loss_output": 20.0,
+      "mean_residence": 1.0,
+      "cohort_remaining_t10": 0.004539992976248485,
+      "cohort_mature_cumulative_t10": 79.996368005619,
+      "cohort_loss_cumulative_t10": 19.99909200140475
+    },
+    {
+      "case": "same_label_different_fate",
+      "entry": 10,
+      "maturation_hazard": 0.02,
+      "loss_hazard": 0.08,
+      "steady_stock": 100.0,
+      "mature_output": 2.0,
+      "loss_output": 8.0,
+      "mean_residence": 10.0,
+      "cohort_remaining_t10": 36.787944117144235,
+      "cohort_mature_cumulative_t10": 12.642411176571153,
+      "cohort_loss_cumulative_t10": 50.56964470628461
+    }
+  ]
+}

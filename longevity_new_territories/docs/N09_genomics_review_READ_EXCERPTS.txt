@@ -1,0 +1,95 @@
+es and patient access, more easily drugged alternative targets such as the ones discussed above could address unmet needs.
+Somatic mutations can have divergent influences on clones and individuals
+A major challenge in the field is understanding the effects of mutant clones on the organismal level. Unlike germline variants, it is difficult to predict or measure the phenotypic impact of low VAF mutant clones on individual patients. Complex influences of clones on organisms that are not purely detrimental or adaptive may represent the rule and not the exception. Discord between clone fitness and organismal fitness is important but difficult to identify. Protective mutations in the liver provide clear examples of how increased clonal fitness would translate into increased organismal fitness, especially when the genes are well understood or have known germline genotype-phenotype relationships. However, variants in less-understood genes can cause increased clonal fitness that might even lead to increased organ fitness, but at the cost of reduced organismal fitness. For example, hepatocyte clones harboring somatic mutations in the transcription factor
+TBX3
+are positively selected in mice on MASLD diets because they reduce lipid accumulation and lipotoxicity through increased VLDL secretion.
+105
+Consistently, liver-wide
+Tbx3
+deletion protects against diet-induced MASLD. However, the increased VLDL secretion causes exacerbated hyperlipidemia and insulin resistance, ultimately reducing organismal fitness. Similarly,
+INSR
+and
+IRS1
+loss-of-function mutations in hepatocytes, which result in complete insulin resistance and impaired lipogenesis, are positively selected due to strong protection against lipotoxicity.
+49
+,
+85
+However, these might not be ideal drug targets because the inhibition of insulin signaling would cause severe insulin resistance.
+106
+,
+107
+These types of conflicts underscore a central challenge of somatic genet
+
+ organ fitness, but at the cost of reduced organismal fitness. For example, hepatocyte clones harboring somatic mutations in the transcription factor
+TBX3
+are positively selected in mice on MASLD diets because they reduce lipid accumulation and lipotoxicity through increased VLDL secretion.
+105
+Consistently, liver-wide
+Tbx3
+deletion protects against diet-induced MASLD. However, the increased VLDL secretion causes exacerbated hyperlipidemia and insulin resistance, ultimately reducing organismal fitness. Similarly,
+INSR
+and
+IRS1
+loss-of-function mutations in hepatocytes, which result in complete insulin resistance and impaired lipogenesis, are positively selected due to strong protection against lipotoxicity.
+49
+,
+85
+However, these might not be ideal drug targets because the inhibition of insulin signaling would cause severe insulin resistance.
+106
+,
+107
+These types of conflicts underscore a central challenge of somatic genetics—the inability to predict patient-level phenotypes based on selection strength alone.
+In vivo
+biological exploration of a mutant clone’s cell-autonomous and non-cell-autonomous influences on organismal fitness may be an essential step. We will illustrate how modeling approaches are useful to confirm fitness changes and uncover potential discord between clone and organism.
+SYSTEMATIC TARGET DISCOVERY USING SOMATIC GENOMICS
+Somatic genomics is a new way to identify pathways with human disease relevance
+Germline genetics has gained traction in the pharmaceutical industry because high-throughput approaches routinely generate impactful genotype-phenotype associations. The rapid translation of
+PCSK9
+from a new target identified in 1998 in familial hyperlipidemia to an approved drug helped fuel the excitement for germline genetics.
+79
+Other successes include
+CFTR
+in cystic fibrosis
+108
+and
+NAV1.8
+for pain.
+81
+Germline genetic support for a target is associated with a 2.6-fold probability of achieving d
+
+elected in mice on MASLD diets because they reduce lipid accumulation and lipotoxicity through increased VLDL secretion.
+105
+Consistently, liver-wide
+Tbx3
+deletion protects against diet-induced MASLD. However, the increased VLDL secretion causes exacerbated hyperlipidemia and insulin resistance, ultimately reducing organismal fitness. Similarly,
+INSR
+and
+IRS1
+loss-of-function mutations in hepatocytes, which result in complete insulin resistance and impaired lipogenesis, are positively selected due to strong protection against lipotoxicity.
+49
+,
+85
+However, these might not be ideal drug targets because the inhibition of insulin signaling would cause severe insulin resistance.
+106
+,
+107
+These types of conflicts underscore a central challenge of somatic genetics—the inability to predict patient-level phenotypes based on selection strength alone.
+In vivo
+biological exploration of a mutant clone’s cell-autonomous and non-cell-autonomous influences on organismal fitness may be an essential step. We will illustrate how modeling approaches are useful to confirm fitness changes and uncover potential discord between clone and organism.
+SYSTEMATIC TARGET DISCOVERY USING SOMATIC GENOMICS
+Somatic genomics is a new way to identify pathways with human disease relevance
+Germline genetics has gained traction in the pharmaceutical industry because high-throughput approaches routinely generate impactful genotype-phenotype associations. The rapid translation of
+PCSK9
+from a new target identified in 1998 in familial hyperlipidemia to an approved drug helped fuel the excitement for germline genetics.
+79
+Other successes include
+CFTR
+in cystic fibrosis
+108
+and
+NAV1.8
+for pain.
+81
+Germline genetic support for a target is associated with a 2.6-fold probability of achieving drug approval.
+109
+Somatic genetics can be viewed as an alternative and complementary approach to germline genetics, whose power has been built on genomic data from more th

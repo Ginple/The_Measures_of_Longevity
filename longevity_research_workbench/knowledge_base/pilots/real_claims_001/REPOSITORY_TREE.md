@@ -1,0 +1,39 @@
+# 增量实际文件清单 / Additive file tree
+
+```text
+longevity_research_workbench/knowledge_base/pilots/real_claims_001/
+  FILE_MANIFEST.json
+  README.md
+  REPOSITORY_TREE.md
+  corpus/v6.md
+  corpus/v7.md
+  docs/CLAIM_CARDS.md
+  docs/ESTIMAND_AND_DATA_CONTRACTS.md
+  docs/HANDOFF_AND_RIGHTS.md
+  docs/PILOT_REPORT.md
+  drafts/PAPER_EVIDENCE_INTERFACES.md
+  drafts/V6_FUNCTION_MODULE.md
+  drafts/V7_VISIBILITY_MODULE.md
+  evidence/LIFE_excerpts.txt
+  evidence/MTDNA_excerpts.txt
+  governance/history_before.json
+  governance/prior_540_expected.json
+  project.json
+  provenance/BUILD_INITIAL_RECORDS_DO_NOT_RERUN.py.txt
+  provenance/PUBLICATION_MAP.json
+  provenance/SOURCE_RECEIPTS.json
+  requirements-tested.txt
+  requirements.txt
+  results/FIRST_TEST_FAILURE.json
+  results/HISTORY_INTEGRITY_LOCAL.json
+  results/PROJECT_CHECK.json
+  results/QUANTITATIVE_CHECKS.json
+  results/SOURCE_TRACE_LOCAL.json
+  results/UPSTREAM_REGRESSION_RERUN.json
+  results/VALIDATION.json
+  review/INDEPENDENT_REVIEW_PACKET.md
+  scripts/package_addon.py
+  scripts/pilot_core.py
+  scripts/validate.py
+  tests/test_real_pilot.py
+```

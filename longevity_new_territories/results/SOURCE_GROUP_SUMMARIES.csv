@@ -1,0 +1,33 @@
+study,panel,endpoint,context,group,n,mean,median,sd
+TBX3,Figure 2F,Plasma ALT,3 months WD,WT,12,136.25,126.5,83.26750430226231
+TBX3,Figure 2F,Plasma ALT,3 months WD,KO,12,81.5,77.5,38.40336159528462
+TBX3,Figure 2H,Liver triglycerides,6 months WD,WT,10,265.33,278.83000000000004,42.63247301712106
+TBX3,Figure 2H,Liver triglycerides,6 months WD,KO,10,197.453,194.07,45.250544760379526
+TBX3,Figure 4D,Plasma triglycerides,6 months WD,WT,10,97.6,96.55,10.98878215878963
+TBX3,Figure 4D,Plasma triglycerides,6 months WD,KO,10,146.09,146.45,48.76507060500488
+TBX3,Figure 5K,TG secretion rate,2 weeks WD; P407 assay,WT,7,456.90000000000003,480.7,82.15921534841156
+TBX3,Figure 5K,TG secretion rate,2 weeks WD; P407 assay,KO,8,601.2,593.5999999999999,100.62013431004468
+TBX3,Figure 5L,Plasma ApoB,2 weeks WD; 3h after P407,WT,7,8.907285714285715,6.534,4.800968572912683
+TBX3,Figure 5L,Plasma ApoB,2 weeks WD; 3h after P407,KO,7,28.582857142857144,19.432,19.10491004452844
+DNMT3A_stroma,Fig 5l,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,Control vehicle,10,1.3399999999999999,1.1949999999999998,0.4840110191583108
+DNMT3A_stroma,Fig 5l,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,Control ABT263,9,1.1644444444444444,1.15,0.40460199922612566
+DNMT3A_stroma,Fig 5l,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,Mutant vehicle,8,3.6174999999999997,3.645,1.060212242902335
+DNMT3A_stroma,Fig 5l,Senescent MSC frequency,Recipient mice; no cross-panel pairing assumed,Mutant ABT263,10,1.2580000000000002,1.115,0.5199102486647735
+DNMT3A_stroma,Fig 5m,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,Control vehicle,10,49.04,53.349999999999994,12.512411615849459
+DNMT3A_stroma,Fig 5m,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,Control ABT263,9,52.45555555555555,45.4,16.144434885674315
+DNMT3A_stroma,Fig 5m,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,Mutant vehicle,8,74.77499999999999,76.0,6.786278172059517
+DNMT3A_stroma,Fig 5m,Donor BM contribution,Recipient mice; no cross-panel pairing assumed,Mutant ABT263,10,51.470000000000006,51.95,12.065013698937749
+DNMT3A_stroma,Fig 5n,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,Control vehicle,10,28.51,26.6,12.53151139239708
+DNMT3A_stroma,Fig 5n,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,Control ABT263,9,35.86666666666666,27.3,21.273575157927734
+DNMT3A_stroma,Fig 5n,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,Mutant vehicle,8,62.9,60.5,6.269654809363225
+DNMT3A_stroma,Fig 5n,Donor HSC contribution,Recipient mice; no cross-panel pairing assumed,Mutant ABT263,10,45.239999999999995,46.900000000000006,10.570209710943928
+CTNNB1,Figure 1C,Labeled hepatocytes per area,10 days young healthy; cross-sectional,Reporter,5,96.057686,94.72849,42.91911744658819
+CTNNB1,Figure 1C,Labeled hepatocytes per area,10 days young healthy; cross-sectional,BetaCatenin,5,82.362122,71.62164,41.12363277152835
+CTNNB1,Figure 1C,Labeled hepatocytes per area,1 month young healthy; cross-sectional,Reporter,5,64.467714,50.75021,46.17807567523824
+CTNNB1,Figure 1C,Labeled hepatocytes per area,1 month young healthy; cross-sectional,BetaCatenin,5,94.92327,106.9323,27.954644069638945
+CTNNB1,Figure 1C,Labeled hepatocytes per area,2 months young healthy; cross-sectional,Reporter,5,88.458696,88.92679,30.072727075804586
+CTNNB1,Figure 1C,Labeled hepatocytes per area,2 months young healthy; cross-sectional,BetaCatenin,5,25.0321688,19.906,19.39210466233661
+CTNNB1,Figure 1C,Labeled hepatocytes per area,3 months young healthy; cross-sectional,Reporter,5,91.335028,77.62344,31.353673198614544
+CTNNB1,Figure 1C,Labeled hepatocytes per area,3 months young healthy; cross-sectional,BetaCatenin,5,23.8353718,16.70502,18.643086065927797
+CTNNB1,Figure 1C,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,Reporter,5,73.076788,93.02808,33.0442198803523
+CTNNB1,Figure 1C,Labeled hepatocytes per area,6.5 months young healthy; cross-sectional,BetaCatenin,4,4.31539675,2.6069560000000003,4.560464860111037

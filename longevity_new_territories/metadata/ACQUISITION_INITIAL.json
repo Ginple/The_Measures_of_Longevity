@@ -1,0 +1,256 @@
+[
+  {
+    "id": "N01_TBX3",
+    "url": "https://www.jci.org/articles/view/191855",
+    "http": 200,
+    "bytes": 191005,
+    "text_characters": 92268,
+    "sha256": "7d60daaa7bca9b52c124f8c52f4a620893474829c3a9544e42c59dfe7606825b",
+    "links": [
+      {
+        "label": "https://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+        "url": "https://bowtie-bio.sourceforge.net/bowtie2/index.shtml"
+      },
+      {
+        "label": "https://www.microscope.healthcare.nikon.com/products/software/nis-elements/software-resources",
+        "url": "https://www.microscope.healthcare.nikon.com/products/software/nis-elements/software-resources"
+      },
+      {
+        "label": "Supplemental material",
+        "url": "https://www.jci.org/articles/view/191855#supplemental-material"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?title=Role+of+cholesterol+in+embryonic+development&author=Roux&journal=Am%20J%20Clin%20Nutr&year=2000&volume=71&issue=5%20suppl&pages=1270S-1279S&doi=10.1093/ajcn/71.5.1270s&pmid=10799401"
+      }
+    ]
+  },
+  {
+    "id": "N02_stroma",
+    "url": "https://www.nature.com/articles/s41556-026-02025-4",
+    "http": 200,
+    "bytes": 733961,
+    "text_characters": 167384,
+    "sha256": "e85e7742399f35f957230c71d86a0c50bd70965bf823adf8d3b7148d7a07c535",
+    "links": [
+      {
+        "label": "GSE240686",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240686"
+      },
+      {
+        "label": "GSE299122",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299122"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar_lookup?&title=Leptin-receptor-expressing%20mesenchymal%20stromal%20cells%20represent%20the%20main%20source%20of%20bone%20formed%20by%20adult%20bone%20marrow&journal=Cell%20Stem%20Cell&doi=10.1016%2Fj.stem.2014.06.008&volume=15&pages=154-168&publication_year=2014&author=Zhou%2CBO&author=Yue%2CR&author=Murphy%2CMM&author=Peyer%2CJG&author=Morrison%2CSJ"
+      },
+      {
+        "label": "Supplementary Table 1 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM3_ESM.xlsx"
+      },
+      {
+        "label": "Supplementary Table 2 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM4_ESM.xlsx"
+      },
+      {
+        "label": "Supplementary Table 3 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM5_ESM.xlsx"
+      },
+      {
+        "label": "Supplementary Table 4 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM6_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Fig. 1 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM7_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Fig. 2 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM8_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Fig. 3 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM9_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Fig. 4 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM10_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Fig. 5 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM11_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Fig. 6 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM12_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 1 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM13_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 2 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM14_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 3 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM15_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 4 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM16_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 5 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM17_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 6 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM18_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 7 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM19_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 8 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM20_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 9 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM21_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Extended Data Fig. 10 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM22_ESM.xlsx"
+      },
+      {
+        "label": "Language editing services",
+        "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022"
+      },
+      {
+        "label": "Contact us",
+        "url": "https://support.nature.com/support/home"
+      }
+    ]
+  },
+  {
+    "id": "N03_ctnnb1",
+    "url": "https://www.nature.com/articles/s41467-026-76373-y",
+    "http": 200,
+    "bytes": 555206,
+    "text_characters": 106850,
+    "sha256": "664bae11fc69b6af79d36657d92f3c97f189ede0c122b3970d0ee30a9f3a0365",
+    "links": [
+      {
+        "label": "GSE306578",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE306578"
+      },
+      {
+        "label": "GSE334406",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334406"
+      },
+      {
+        "label": "CAS",
+        "url": "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC38XlsFensQ%3D%3D"
+      },
+      {
+        "label": "Source Data (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-76373-y/MediaObjects/41467_2026_76373_MOESM4_ESM.xlsx"
+      },
+      {
+        "label": "Language editing services",
+        "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022"
+      },
+      {
+        "label": "Contact us",
+        "url": "https://support.nature.com/support/home"
+      }
+    ]
+  },
+  {
+    "id": "N04_mitoCH",
+    "url": "https://www.nature.com/articles/s41467-025-57238-2",
+    "http": 200,
+    "bytes": 539803,
+    "text_characters": 86662,
+    "sha256": "8bcd40562687c81d7536b593ce94ee57cef2da1c2bb25a6e0d0f4c10392bc5e3",
+    "links": [
+      {
+        "label": "GSE233963",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE233963"
+      },
+      {
+        "label": "GSE284493",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284493"
+      },
+      {
+        "label": "GSE98191",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98191"
+      },
+      {
+        "label": "GSE158067",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158067"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar_lookup?&title=Chronic%20Supplementation%20With%20a%20Mitochondrial%20Antioxidant%20%28MitoQ%29%20Improves%20Vascular%20Function%20in%20Healthy%20Older%20Adults&journal=Hypertension&doi=10.1161%2FHYPERTENSIONAHA.117.10787&volume=71&pages=1056-1063&publication_year=2018&author=Rossman%2CMJ"
+      },
+      {
+        "label": "CAS",
+        "url": "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BB3cXlsFegt7g%3D"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar_lookup?&title=DeconvolutionLab2%3A%20An%20open-source%20software%20for%20deconvolution%20microscopy&journal=Methods&doi=10.1016%2Fj.ymeth.2016.12.015&volume=115&pages=28-41&publication_year=2017&author=Sage%2CD"
+      },
+      {
+        "label": "Source Data (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-025-57238-2/MediaObjects/41467_2025_57238_MOESM4_ESM.xlsx"
+      },
+      {
+        "label": "Language editing services",
+        "url": "https://authorservices.springernature.com/go/sn/?utm_source=For+Authors&utm_medium=Website_Nature&utm_campaign=Platform+Experimentation+2022&utm_id=PE2022"
+      },
+      {
+        "label": "Contact us",
+        "url": "https://support.nature.com/support/home"
+      }
+    ]
+  },
+  {
+    "id": "N05_outsourcing_review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13333447/",
+    "http": 200,
+    "bytes": 394969,
+    "text_characters": 151385,
+    "sha256": "67d82ad3849893f24ace54523f28d095caf0e51ff5669a0104df03a2d16c9636",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?journal=J%20Clin%20Endocrinol%20Metab&title=Pulsatile%20iv%20infusion%20of%20recombinant%20human%20LH%20in%20leuprolide-suppressed%20men%20unmasks%20impoverished%20Leydig-cell%20secretory%20responsiveness%20to%20midphysiological%20LH%20drive%20in%20the%20aging%20male&author=T%20Mulligan&author=A%20Iranmanesh&author=JD%20Veldhuis&volume=86&publication_year=2001&pmid=11701734&doi=10.1210/jcem.86.11.8004&"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?journal=J%20Cell%20Biol&title=Senescent%20cells%20suppress%20macrophage-mediated%20corpse%20removal%20via%20upregulation%20of%20the%20CD47-QPCT/L%20axis&author=D%20Schloesser&author=L%20Lindenthal&author=J%20Sauer&author=KJ%20Chung&author=T%20Chavakis&volume=222&publication_year=2023&pages=e202207097&pmid=36459066&doi=10.1083/jcb.202207097&"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?journal=Geroscience&title=The%20efficacy%20and%20safety%20of%20%CE%B2-nicotinamide%20mononucleotide%20(NMN)%20supplementation%20in%20healthy%20middle-aged%20adults:%20A%20randomized,%20multicenter,%20double-blind,%20placebo-controlled,%20parallel-group,%20dose-dependent%20clinical%20trial&author=L%20Yi&author=AB%20Maier&author=R%20Tao&author=Z%20Lin&author=A%20Vaidya&volume=45&publication_year=2023&pages=29-43&pmid=36482258&doi=10.1007/s11357-022-00705-1&"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?journal=Int%20Immunopharmacol&title=Nicotinamide%20mononucleotide%20supplementation%20ameliorates%20testicular%20damage%20induced%20by%20ischemia-reperfusion%20through%20reshaping%20macrophage%20and%20neutrophil%20inflammatory%20properties&author=H%20Mou&author=X%20Zhang&author=F%20Ren&author=Y%20Deng&author=A%20Chi&volume=152&publication_year=2025&pages=114407&pmid=40073809&doi=10.1016/j.intimp.2025.114407&"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?journal=Biomaterials&title=Blood-testis%20barrier-crossing%20extracellular%20vesicles%20for%20asthenozoospermia%20therapy%20via%20synergistic%20ATP%20replenishment%20and%20ferroptosis%20suppression&author=X%20Yu&author=L%20Zeng&author=H%20Chen&author=X%20Dong&author=F%20Wen&volume=327&publication_year=2026&pages=123777&pmid=41092648&doi=10.1016/j.biomaterials.2025.123777&"
+      },
+      {
+        "label": "Help",
+        "url": "https://support.nlm.nih.gov/"
+      }
+    ]
+  }
+]

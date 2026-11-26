@@ -1,0 +1,10 @@
+{
+  "prior_historical_baseline_count": 540,
+  "pre_increment_baseline_count": 252,
+  "unique_protected_existing_files": 670,
+  "expectation_conflicts": [],
+  "changed": [],
+  "missing": [],
+  "status": "verified_unchanged",
+  "scope": "Read-only byte check, not full reading or academic validation"
+}

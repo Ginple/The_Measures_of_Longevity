@@ -1,0 +1,110 @@
+ LCs (Fig.
+8h,i
+). Collectively, these results suggest that the mitochondrial transfer network between LCs and tMacs progressively decline in ageing.
+Discussion
+Mitochondrial transfer as a mechanism of cell-to-cell signalling is a rapidly advancing area of research, with numerous studies underscoring its critical role in tissue homeostasis and repair
+14
+,
+15
+,
+16
+. However, the majority of existing studies have focused on unidirectional mitochondrial transfer, with limited investigation into the potential for mitochondrial transfer network
+14
+,
+40
+. To our knowledge, such a mitochondrial transfer network wherein LCs not only eject defective mitochondria to CD206
+hi
+tMacs but also acquire functional mitochondria from MHCII
+hi
+tMacs to sustain mitochondrial fitness and cellular function has not been reported. Whereas a previous study revealed that exogenously transplanted stem LCs can prevent inflammatory cascades via mitochondrial transfer to tMacs in models of testicular ischaemia reperfusion and ageing
+41
+, our work delineates an endogenous mitochondrial transfer network between resident LCs and distinct tMac subsets. This interplay underscores the dynamic and cooperative nature of mitochondrial transfer within tissues, highlighting its potential role in sustaining cellular homeostasis and functional integrity.
+Our findings raise an intriguing question: why do LCs eject damaged mitochondria and require exogenous healthy mitochondria? Testosterone synthesis in LCs is an energy-intensive process that relies on highly functional mitochondria
+9
+,
+10
+yet ATP production and mitochondrial P450 activity intrinsically inflict oxidative damage on the organelle itself
+7
+,
+13
+. Traditional models suggest that defective mitochondrial clearance occurs exclusively in the cell
+42
+. Here we reveal a non-canonical pathway for mitochondrial elimination whereby testosterone-driven particles production enables LCs to extrude defective m
+
+one formation
+17
+, mesenchymal stem cells transferring mitochondria to endothelial cells to enhance engraftment
+18
+and stress-induced extrusion of damaged mitochondria for Müller glial clearance in the retina
+19
+. Whether mitochondrial transfer operates in the testis to maintain LCs mitochondrial competence and cellular function remains unclear.
+In this study we demonstrate that LCs release extracellular vesicles (EVs) containing defective mitochondria to CD206
+hi
+testicular macrophages (tMacs) through a TREM2-dependent process. In contrast, LCs obtain EVs with functional mitochondria from MHCII
+hi
+tMacs through ITGβ1–VCAM1 interactions. Disruption of the mitochondrial transfer network between LCs and tMacs impairs testosterone production.
+Results
+Testosterone production induces intercellular transfer of materials from Leydig cells to testicular macrophages
+To study testosterone production in vitro, we purified primary LCs via fluorescence-activated cell sorting (FACS) from the testes of
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice, in which LCs express the red florescent protein tdTomato (Extended Data Fig.
+1a–d
+). When the cells were treated with human chorionic gonadotropin (hCG), a stimulator of testosterone production, we observed the tdTomato
++
+particles originating from LCs appeared outside the cells (Fig.
+1a–d
+and Extended Data Fig.
+1e,f
+). To validate these observations in vivo, we treated
+Cyp17a1
+Cre
+; R26
+tdTomato
+mice with hCG to induce an increase in serum testosterone levels (Fig.
+1e,f
+). High-resolution imaging revealed a corresponding increase in extracellular tdTomato
++
+particles (Fig.
+1g,h
+and Extended Data Fig.
+1g,h
+). Moreover, luteinizing hormone (LH) robustly induced testosterone production and triggered particle release from LCs (Extended Data Fig.
+1i–l
+), fully recapitulating the effects of hCG. Collectively, these findings suggest a dynamic release of tdTomato
++
+particles from LCs in response to testoster
+
+ghting its potential role in sustaining cellular homeostasis and functional integrity.
+Our findings raise an intriguing question: why do LCs eject damaged mitochondria and require exogenous healthy mitochondria? Testosterone synthesis in LCs is an energy-intensive process that relies on highly functional mitochondria
+9
+,
+10
+yet ATP production and mitochondrial P450 activity intrinsically inflict oxidative damage on the organelle itself
+7
+,
+13
+. Traditional models suggest that defective mitochondrial clearance occurs exclusively in the cell
+42
+. Here we reveal a non-canonical pathway for mitochondrial elimination whereby testosterone-driven particles production enables LCs to extrude defective mitochondria into the extracellular space where they are subsequently cleared by CD206
+hi
+tMacs. This process of delegated mitochondrial clearance by tMacs seems to be an adaptive strategy that allows long-lived LCs to sustain continuous function throughout the lifespan of an organism
+7
+. In addition, continuously rebuilding mitochondrial reticulum or maintaining excess mitochondrial reserves would impose significant energy costs and compromise cellular efficiency
+43
+. Our findings suggest that LCs adopt an alternative strategy by utilizing intercellular mitochondrial transfer from MHCII
+hi
+tMacs, thereby meeting the high metabolic requirements of testosterone production more effectively. This complementary strategy may be particularly advantageous for cells like LCs, which are subjected to persistent physiological stress
+11
+,
+12
+,
+13
+. We propose that a similar reliance on mitochondrial transfer network may represent a widespread adaptation in other cell populations under physiological condition or stress, providing a more energy-efficient mechanism for maintaining cellular function.
+From a macrophage-centric perspective, the divergence between MHCII
+hi
+and CD206
+hi
+tMacs in mitochondrial transfer reflects antagonistic cellular

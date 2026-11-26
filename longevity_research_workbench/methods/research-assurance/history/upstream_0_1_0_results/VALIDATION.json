@@ -1,0 +1,20 @@
+{
+  "tests_run": 55,
+  "failures": 0,
+  "errors": 0,
+  "seed7_seed113_and_moved_directory_byte_identical": {
+    "PROJECT_CHECK": true,
+    "TOPOLOGY": true,
+    "DIAGNOSTICS": true
+  },
+  "example_inputs_unchanged": true,
+  "schema_copies_identical": true,
+  "broken_markdown_links": [],
+  "no_new_dashboard_html": true,
+  "environment": {
+    "python": "3.13.18",
+    "networkx": "3.7",
+    "jsonschema": "4.26.0"
+  },
+  "scope": "software and artifact properties only; not scientific validity or independent review"
+}

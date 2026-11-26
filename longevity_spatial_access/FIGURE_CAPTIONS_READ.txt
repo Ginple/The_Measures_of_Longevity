@@ -1,0 +1,9 @@
+Caption acquisition note
+
+The first requests.get to https://elifesciences.org/articles/75354 returned HTTP 200 and 3038 bytes, but no fig6 or fig6s2 nodes. It did NOT yield substantive figure captions. No successful full-text reading is claimed from that response.
+
+Successful caption retrieval subsequently used https://api.elifesciences.org/articles/75354 (HTTP 200, application/vnd.elife.article-vor+json). Relevant structures were saved as fig6_API_EXCERPT.json, fig6s2_API_EXCERPT.json and METHODS_READ_EXCERPTS.json; the entire API response was not saved. The original two figure images were also inspected to confirm axes and group mapping.
+
+Figure6F: normalized total-bead MFI at 24h. Figure6 caption cross-refers to Figure5C-E for analysis; Figure5E identifies three biological replicates. No individual donor identities were inferred.
+
+Figure6 supplement2: BMDMs with internalized beads, % total. Caption explicitly calls this one representative experiment with N=3 technical replicates. These are not three independent biological experiments.

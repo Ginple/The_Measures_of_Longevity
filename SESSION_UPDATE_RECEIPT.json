@@ -1,0 +1,565 @@
+{
+  "date_label": "2026-11-25",
+  "scope": "user-authorized in-place working-draft integration and handoff; no independent external review",
+  "files": {
+    "longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md": {
+      "before_bytes": 79929,
+      "before_sha256": "83fee21876797f65d31353b0bec0b7213bf896c134d2c73a08a7f5c21714a887",
+      "after_bytes": 87861,
+      "after_sha256": "81b5410839b32602f7bba6d078274d9695ba644541c28540875924c5c3c330f2"
+    },
+    "longevity_v7/长寿研究_V7_谁在变年轻.md": {
+      "before_bytes": 55751,
+      "before_sha256": "7b30aed1ff7ffd89c0c5aaa899ceccbc9b62fc7ab1b8f360513d3d5662a9d494",
+      "after_bytes": 64618,
+      "after_sha256": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e"
+    },
+    "longevity_v6/README.md": {
+      "before_bytes": 2592,
+      "before_sha256": "707b0ce1f33b5d0d84ab92c6321054615e753ba24e97f32df7732d8722d73544",
+      "after_bytes": 3668,
+      "after_sha256": "29b53fa5bb89a4bba9105d22f3e9da5e3b984e6676c89a7771417d4e069c2efe"
+    },
+    "longevity_v7/README.md": {
+      "before_bytes": 2733,
+      "before_sha256": "f913e0d025e58dfd2a62a473c84f105406a6788f0abfb1a63f0d33125a38b4b1",
+      "after_bytes": 3809,
+      "after_sha256": "8de4aa30656fc0a5cb75d496ceb142cccc8cdb85404a6e8dcfd20c08aae8d0b3"
+    },
+    "longevity_v6/RESEARCH_LOG.md": {
+      "before_bytes": 5143,
+      "before_sha256": "8d0fa7f9d73b8109b1eeeab795da9d3a96a817ccedcf2add686870e0702dd4fb",
+      "after_bytes": 5741,
+      "after_sha256": "57131069786c0daa5c665117343f61717966d2b990c0451c4d389041e9b77ca2"
+    },
+    "longevity_v7/RESEARCH_LOG.md": {
+      "before_bytes": 5735,
+      "before_sha256": "c6bda9f16cc9be16cd154956ba3b35b45164eae450e202e0d28be90a057ce3b0",
+      "after_bytes": 6333,
+      "after_sha256": "d56edd083344ca75d142fc9a455b3c43337183c0dea808209aa4a13b18337f3d"
+    },
+    "longevity_v6/manifest.json": {
+      "before_bytes": 2576,
+      "before_sha256": "3b3b4299b2b01d20eb942e3d59127042a0af8e7fe6912870829485a5408bae2d",
+      "after_bytes": 2888,
+      "after_sha256": "1c2ec576d4f1bb5e0ba8b682de06077f6172419a6099b2b3f004eb86d736c511"
+    },
+    "longevity_v7/manifest.json": {
+      "before_bytes": 3024,
+      "before_sha256": "56032c2d1fcba85cd2a5c2dfbf3f837b7324153e00b9580e24ad2949528bef54",
+      "after_bytes": 3325,
+      "after_sha256": "a406a6d962e2bff17378ab87df65cd9adc501ab7372b1ac4f0bf05dc8d741614"
+    },
+    "longevity_research_workbench/README.md": {
+      "before_bytes": 3158,
+      "before_sha256": "edd3681d63516d18a8453c405233608d3f635255d01394fcdec00b0ad9c3e7b0",
+      "after_bytes": 4170,
+      "after_sha256": "1d4458da6b2520f0883a2289c12c7020af17f90bdb207b77058f934c209a313d"
+    },
+    "longevity_research_workbench/CHANGELOG.md": {
+      "before_bytes": 1302,
+      "before_sha256": "e556a28f51d63aecb6699870706e048ab08193bb137192d49f88b71ea9199656",
+      "after_bytes": 2162,
+      "after_sha256": "b8be2c0dee08f898f4f042056b8a607178f9b9e228e07294f77efd796190bc52"
+    },
+    "longevity_research_workbench/FILE_MANIFEST.json": {
+      "before_bytes": 15994,
+      "before_sha256": "2780e9d6dd5b5fe766faf35527e1522acc3a5a9614cf76a061581f479b0f1111",
+      "after_bytes": 20972,
+      "after_sha256": "c913057c329c3f5b3b76791593965fab6e4d3ccfce043f14c6c2e3badb731810"
+    },
+    "longevity_research_workbench/corpus/editions/README.md": {
+      "before_bytes": 585,
+      "before_sha256": "9cb4cef4b6830dc8c439d666fdf64d46df5390cbcaac090407db89532991262b",
+      "after_bytes": 1163,
+      "after_sha256": "b2ff3f600d6280f919cd3c738efd6a89b207648c0a967fb8027ed1491754ea4a"
+    },
+    "longevity_research_workbench/corpus/editions/v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md": {
+      "before_bytes": 79929,
+      "before_sha256": "83fee21876797f65d31353b0bec0b7213bf896c134d2c73a08a7f5c21714a887",
+      "after_bytes": 87861,
+      "after_sha256": "81b5410839b32602f7bba6d078274d9695ba644541c28540875924c5c3c330f2"
+    },
+    "longevity_research_workbench/corpus/editions/v7/长寿研究_V7_谁在变年轻.md": {
+      "before_bytes": 55751,
+      "before_sha256": "7b30aed1ff7ffd89c0c5aaa899ceccbc9b62fc7ab1b8f360513d3d5662a9d494",
+      "after_bytes": 64618,
+      "after_sha256": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e"
+    },
+    "longevity_research_workbench/books/longevity/BOOK_PROPOSAL.md": {
+      "before_bytes": 5690,
+      "before_sha256": "bb8572a14980f0ebeebc6edbe8e0688168be78114beee7ab1db663dfde889f62",
+      "after_bytes": 6560,
+      "after_sha256": "5e8621d94c26ed3cf9bb51e11702b96ec79304595d87c49113b00221399857fb"
+    },
+    "longevity_research_workbench/papers/PUBLICATION_MAP.md": {
+      "before_bytes": 2115,
+      "before_sha256": "e624f1b43a35ecbf1093715e22b7d11e2e077097ddf2d661369c9e2c97b52db9",
+      "after_bytes": 3090,
+      "after_sha256": "5f914f5780787fd8fda759d34974033ca6835ee0c7e20ce6d93eea3edeeb9fab"
+    },
+    "longevity_research_workbench/papers/P1_identity_selection/PROTOCOL.md": {
+      "before_bytes": 2352,
+      "before_sha256": "b8d6c6dab321fc69542652b5d865e928d7ec7f6a4e4b06083b7a0b9581052b7d",
+      "after_bytes": 4853,
+      "after_sha256": "1e5a6a8b131e302893f6193ff1e31b5baec5fd56d5a86754f4a337404e5a6d5c"
+    },
+    "longevity_research_workbench/papers/P2_weighting_observability/PROTOCOL.md": {
+      "before_bytes": 2372,
+      "before_sha256": "26a98795a423527a3ad4479cb0724cb9413b9773ede0c2b56cd75c5a46ac6a1f",
+      "after_bytes": 4702,
+      "after_sha256": "c373f321a2c1522b64f305587f02cdae4ca294fee049a0f055cda0a11f7fd420"
+    },
+    "longevity_research_workbench/papers/P3_research_assurance/PROTOCOL.md": {
+      "before_bytes": 2267,
+      "before_sha256": "3fb5852d4bf3ddea25bcddd8334848a9d7442ce5eaba7c00620a317e91c3895a",
+      "after_bytes": 3912,
+      "after_sha256": "85280ce59b850e8e33f2e5c8a4c239e3826cb2a123b1a46d24c80cd88c19ed01"
+    },
+    "longevity_research_workbench/docs/GITHUB_HANDOFF.md": {
+      "before_bytes": 3277,
+      "before_sha256": "ffe49aa7dc37abcab6135c7917f760bad502bf440c5206d45c379f3cad840a0a",
+      "after_bytes": 5001,
+      "after_sha256": "7a2fbe0cf10460dfab4c1b7bf67dc58462f939a27b721c2d28076b9efdae9cdf"
+    },
+    "longevity_research_workbench/governance/NEXT_PRIORITIES.md": {
+      "before_bytes": 1758,
+      "before_sha256": "e0292ce359123b1ca5638b8108fe4c147f01f01f4e4cb0c44f165b6f955c25e2",
+      "after_bytes": 2981,
+      "after_sha256": "7108376059cbbbb8ec3c88ded94a03624f375c3cb7ff7f1826808801700de86e"
+    }
+  },
+  "new_files_allowed": [
+    "HANDOFF.md",
+    "SESSION_UPDATE_RECEIPT.json",
+    "SESSION_HANDOFF_PATCH.zip"
+  ],
+  "history_baseline_policy": "Do not refresh governance/history_before.json or rewrite old audit verdicts to make historical unchanged checks pass.",
+  "original_manuscript_recovery": [
+    {
+      "path": "longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md",
+      "verified_recovery": [
+        {
+          "archive": "长寿V6_完整作品与原生HTML附件.zip",
+          "member": "longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md"
+        },
+        {
+          "archive": "Longevity_Research_Workbench_0.1.0.zip",
+          "member": "longevity_research_workbench/corpus/editions/v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md"
+        }
+      ]
+    },
+    {
+      "path": "longevity_v7/长寿研究_V7_谁在变年轻.md",
+      "verified_recovery": [
+        {
+          "archive": "长寿V7_谁在变年轻_完整作品与原生HTML.zip",
+          "member": "longevity_v7/长寿研究_V7_谁在变年轻.md"
+        },
+        {
+          "archive": "Longevity_Research_Workbench_0.1.0.zip",
+          "member": "longevity_research_workbench/corpus/editions/v7/长寿研究_V7_谁在变年轻.md"
+        }
+      ]
+    }
+  ],
+  "frozen_artifacts": {
+    "LIFE_OS_V6V7_事实修复与H0研究工作台_引擎3.zip": "1b6c29a13f845a0d9a50662aa18d8ed2d2993585cdd753b9a4f5255fba041e4c",
+    "LIFE_OS_V6V7_内容正确性与优先欠债_核验4.zip": "a5b5441489f6e31f7c5a3a4840cb56ed6e4d68ca2e18027d6d8dc47da7c91e32",
+    "LIFE_OS_V6V7_原代码与可识别性审计_核验6.zip": "05aef17cd04015f4919ce9ce4742d61c31d0ac83339900bf64b80e9e0a94a12f",
+    "LIFE_OS_V6V7_对称复核与研究合同_引擎2.zip": "38c19f16cd8e61044e32bab2f8aaca60141695ca050050faebece45ae7424480",
+    "LIFE_OS_V6V7_欠债推进与真实数据_核验5.zip": "523fef4f541b9c7e5d6206c5c593e05ff859ec3b5f60c663f8bbd09c750b761f",
+    "LIFE_OS_语料与类型图分析引擎_1.1_完整交付.zip": "6773c29dceb4bc8e2ddf1b0a36a1550965f2cd20bab589dde793a190dbe99b18",
+    "Longevity_After_Repair_III_真实公开数据复算.zip": "c4cad3227aad41ce9fdcd15b0cbac59116f388f12dc26db37cc4662628d48133",
+    "Longevity_After_Repair_II_保护性历史_研究增补.zip": "18606062d88e2158cc36f031119f76e603ccd88815bd55f94211b30446384363",
+    "Longevity_After_Repair_IV_转向并不等于修复.zip": "89cec2611e82d57ee764cb1ba4bf564cb612c9500e27350fedecc8273dba0eb3",
+    "Longevity_Fresh_Research_修复之后_探索增补.zip": "9351d33b3fb4418b9b5f3f87195131558a058387ccad1edcda49b42c718d3624",
+    "Longevity_New_Territories_谁在为年轻买单.zip": "5e0d78e6aacb67411a03310ac35574f7a9dfb551407d76f4e0eb9b8804ba3881",
+    "Longevity_Real_Claims_Pilot_001_增量包.zip": "58740b497d9e2bd60565b390c474e0283fce55c41f6bbfbe200fc9840ff6179c",
+    "Longevity_Research_Workbench_0.1.0.zip": "0bc03c8827225dceca9138c386fa3b9cd40b35b6188a305d1cf6c4cdbeda4205",
+    "Research_Assurance_Toolkit_证据约束型研究工程_0.1.0.zip": "d8e96c299ab74bdf5e4c1f286170540df2eb1776934ee0c79dca60132a4123c9",
+    "长寿V5_研究与仪表盘.zip": "00df87638501bbbdcf6d0f2d158579144978e586e93c61c729b044bb8657d30c",
+    "长寿V6_完整作品与原生HTML附件.zip": "df3f413700ffb4e13bb49c8909ec5ba73d77af993911f3ea09052717bbb526df",
+    "长寿V7_谁在变年轻_完整作品与原生HTML.zip": "8209be2c19c6cc92fed67943a4c3ee5d2f33032bc1d523c745e8be3bd3d7f639"
+  },
+  "protected_baselines": {
+    "longevity_research_workbench/governance/history_before.json": "1bd442fe0abf966d27ea25359bffd439a1840adb45da0ae3f3ff0fce50003185",
+    "longevity_research_workbench/artifacts/HISTORY_INTEGRITY.json": "30424fb6f914c46ee335dff61a72949fa3ba3ca7275ecdcc8b7c0eeabf162c4c",
+    "longevity_research_workbench/artifacts/VALIDATION.json": "40948a288d1406b8a5dbb6467aae60729f0e08ec06f07d3b601880b0d0f81da1",
+    "longevity_v6/STATE_DASHBOARD.HTML": "19e23b0791682eb8e9a8dd1a09f6d062959ce70784764fd30eb2e61e439205e8",
+    "longevity_v7/STATE_DASHBOARD.HTML": "19d311ff6a10223d650365d52f552348723fcc194b391a823c81f491cb2b9ab2",
+    "longevity_v7/PRE_SYNTHESIS_AUDIT.md": "7eeb060e50ad087d58fcdedf15f9a5820302632969cfd7800d60a4867e2a3e3e"
+  },
+  "workbench_delta_vs_base_archive": [
+    "longevity_research_workbench/CHANGELOG.md",
+    "longevity_research_workbench/FILE_MANIFEST.json",
+    "longevity_research_workbench/README.md",
+    "longevity_research_workbench/books/longevity/BOOK_PROPOSAL.md",
+    "longevity_research_workbench/corpus/editions/README.md",
+    "longevity_research_workbench/corpus/editions/v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md",
+    "longevity_research_workbench/corpus/editions/v7/长寿研究_V7_谁在变年轻.md",
+    "longevity_research_workbench/docs/GITHUB_HANDOFF.md",
+    "longevity_research_workbench/governance/NEXT_PRIORITIES.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/FILE_MANIFEST.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/README.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/REPOSITORY_TREE.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/corpus/v6.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/corpus/v7.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/CLAIM_CARDS.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/ESTIMAND_AND_DATA_CONTRACTS.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/HANDOFF_AND_RIGHTS.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/PILOT_REPORT.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/PAPER_EVIDENCE_INTERFACES.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/V6_FUNCTION_MODULE.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/V7_VISIBILITY_MODULE.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/evidence/LIFE_excerpts.txt",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/evidence/MTDNA_excerpts.txt",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/governance/history_before.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/governance/prior_540_expected.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/project.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/BUILD_INITIAL_RECORDS_DO_NOT_RERUN.py.txt",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/PUBLICATION_MAP.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/SOURCE_RECEIPTS.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/requirements-tested.txt",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/requirements.txt",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/FIRST_TEST_FAILURE.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/HISTORY_INTEGRITY_LOCAL.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/PROJECT_CHECK.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/QUANTITATIVE_CHECKS.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/SOURCE_TRACE_LOCAL.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/UPSTREAM_REGRESSION_RERUN.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/VALIDATION.json",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/review/INDEPENDENT_REVIEW_PACKET.md",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/package_addon.py",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/pilot_core.py",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/validate.py",
+    "longevity_research_workbench/knowledge_base/pilots/real_claims_001/tests/test_real_pilot.py",
+    "longevity_research_workbench/papers/P1_identity_selection/PROTOCOL.md",
+    "longevity_research_workbench/papers/P2_weighting_observability/PROTOCOL.md",
+    "longevity_research_workbench/papers/P3_research_assurance/PROTOCOL.md",
+    "longevity_research_workbench/papers/PUBLICATION_MAP.md"
+  ],
+  "patch": {
+    "path": "SESSION_HANDOFF_PATCH.zip",
+    "type": "incremental overlay, not complete session or repository",
+    "member_paths": [
+      "HANDOFF.md",
+      "RESEARCH_DATE_CLARIFICATION.md",
+      "SESSION_UPDATE_RECEIPT.json",
+      "WORKSPACE_CLEANUP_RECEIPT.json",
+      "WORKSPACE_STORAGE_NOTE.md",
+      "longevity_capacity_timing/README.md",
+      "longevity_capacity_timing/RESULTS.json",
+      "longevity_capacity_timing/RUN.log",
+      "longevity_capacity_timing/RUN.stderr",
+      "longevity_capacity_timing/SYNTHETIC_PULSE_TRACES.csv",
+      "longevity_capacity_timing/pulse_counterexample.png",
+      "longevity_capacity_timing/pulse_counterexample.py",
+      "longevity_capacity_timing/平均未超载_为什么仍会积压.md",
+      "longevity_caretaker_selectivity/READING_RECORD.md",
+      "longevity_caretaker_selectivity/README.md",
+      "longevity_caretaker_selectivity/RUN.log",
+      "longevity_caretaker_selectivity/RUN.stderr",
+      "longevity_caretaker_selectivity/SELF_CHECK.json",
+      "longevity_caretaker_selectivity/SYNTHETIC_CONDITIONS.json",
+      "longevity_caretaker_selectivity/SYNTHETIC_EXAMPLES.csv",
+      "longevity_caretaker_selectivity/condition_check.py",
+      "longevity_caretaker_selectivity/清除者也在靶标里_保留维护能力的年轻化.md",
+      "longevity_repair_memory/EVIDENCE_MAP.csv",
+      "longevity_repair_memory/READING_RECORD.md",
+      "longevity_repair_memory/README.md",
+      "longevity_repair_memory/SELF_CHECK.json",
+      "longevity_repair_memory/audit_package.py",
+      "longevity_repair_memory/修好这一次_还剩多少下一次.md",
+      "longevity_research_workbench/CHANGELOG.md",
+      "longevity_research_workbench/FILE_MANIFEST.json",
+      "longevity_research_workbench/README.md",
+      "longevity_research_workbench/books/longevity/BOOK_PROPOSAL.md",
+      "longevity_research_workbench/corpus/editions/README.md",
+      "longevity_research_workbench/corpus/editions/v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md",
+      "longevity_research_workbench/corpus/editions/v7/长寿研究_V7_谁在变年轻.md",
+      "longevity_research_workbench/docs/GITHUB_HANDOFF.md",
+      "longevity_research_workbench/governance/NEXT_PRIORITIES.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/FILE_MANIFEST.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/README.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/REPOSITORY_TREE.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/corpus/v6.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/corpus/v7.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/CLAIM_CARDS.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/ESTIMAND_AND_DATA_CONTRACTS.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/HANDOFF_AND_RIGHTS.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/PILOT_REPORT.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/PAPER_EVIDENCE_INTERFACES.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/V6_FUNCTION_MODULE.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/V7_VISIBILITY_MODULE.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/evidence/LIFE_excerpts.txt",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/evidence/MTDNA_excerpts.txt",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/governance/history_before.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/governance/prior_540_expected.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/project.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/BUILD_INITIAL_RECORDS_DO_NOT_RERUN.py.txt",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/PUBLICATION_MAP.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/SOURCE_RECEIPTS.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/requirements-tested.txt",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/requirements.txt",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/FIRST_TEST_FAILURE.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/HISTORY_INTEGRITY_LOCAL.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/PROJECT_CHECK.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/QUANTITATIVE_CHECKS.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/SOURCE_TRACE_LOCAL.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/UPSTREAM_REGRESSION_RERUN.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/VALIDATION.json",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/review/INDEPENDENT_REVIEW_PACKET.md",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/package_addon.py",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/pilot_core.py",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/validate.py",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/tests/test_real_pilot.py",
+      "longevity_research_workbench/papers/P1_identity_selection/PROTOCOL.md",
+      "longevity_research_workbench/papers/P2_weighting_observability/PROTOCOL.md",
+      "longevity_research_workbench/papers/P3_research_assurance/PROTOCOL.md",
+      "longevity_research_workbench/papers/PUBLICATION_MAP.md",
+      "longevity_spatial_access/ACQUISITION.json",
+      "longevity_spatial_access/BEFORE_VALUES.md",
+      "longevity_spatial_access/CAPTION_ACQUISITION.json",
+      "longevity_spatial_access/FIGURE_CAPTIONS_READ.txt",
+      "longevity_spatial_access/METHODS_READ_EXCERPTS.json",
+      "longevity_spatial_access/README.md",
+      "longevity_spatial_access/RESULTS.json",
+      "longevity_spatial_access/RUN.log",
+      "longevity_spatial_access/RUN.stderr",
+      "longevity_spatial_access/SELF_CHECK.json",
+      "longevity_spatial_access/SOURCE_SUMMARIES.csv",
+      "longevity_spatial_access/SOURCE_VALUES_LONG.csv",
+      "longevity_spatial_access/SYNTHETIC_BRIDGE_SWEEP.csv",
+      "longevity_spatial_access/SYNTHETIC_NETWORK_ARCS.csv",
+      "longevity_spatial_access/analyze.py",
+      "longevity_spatial_access/data/Figure6_original.jpg",
+      "longevity_spatial_access/data/Figure6_suspension_original.jpg",
+      "longevity_spatial_access/data/elife-75354-fig6-data4-v1.csv",
+      "longevity_spatial_access/data/elife-75354-fig6-figsupp2-data1-v1.csv",
+      "longevity_spatial_access/fig6_API_EXCERPT.json",
+      "longevity_spatial_access/fig6s2_API_EXCERPT.json",
+      "longevity_spatial_access/spatial_counterexample.png",
+      "longevity_spatial_access/有余量却用不上_空间可达性的研究盲点.md",
+      "longevity_state_turnover/READING_RECORD.md",
+      "longevity_state_turnover/README.md",
+      "longevity_state_turnover/RESULTS.json",
+      "longevity_state_turnover/RUN.log",
+      "longevity_state_turnover/RUN.stderr",
+      "longevity_state_turnover/SELF_CHECK.json",
+      "longevity_state_turnover/SYNTHETIC_CASES.csv",
+      "longevity_state_turnover/identifiability_check.py",
+      "longevity_state_turnover/状态还在_不等于细胞没换.md",
+      "longevity_v6/README.md",
+      "longevity_v6/RESEARCH_LOG.md",
+      "longevity_v6/manifest.json",
+      "longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md",
+      "longevity_v7/README.md",
+      "longevity_v7/RESEARCH_LOG.md",
+      "longevity_v7/manifest.json",
+      "longevity_v7/长寿研究_V7_谁在变年轻.md"
+    ],
+    "member_count": 115,
+    "small_research_modules_complete": [
+      "longevity_capacity_timing",
+      "longevity_spatial_access",
+      "longevity_caretaker_selectivity",
+      "longevity_state_turnover",
+      "longevity_repair_memory"
+    ],
+    "requires_for_complete_workbench": "Longevity_Research_Workbench_0.1.0.zip",
+    "requires_for_first_research_source_data": "Longevity_New_Territories_谁在为年轻买单.zip",
+    "does_not_include": [
+      "first research package source data/cache",
+      "unchanged workbench base files",
+      "all historical archives",
+      "chat history"
+    ],
+    "archive_sha256_policy": "Not self-embedded to avoid circular hashing; compute from delivered ZIP externally.",
+    "member_sha256_except_receipt": {
+      "HANDOFF.md": "1ba03d1fc25690f2888c2d374c6f83214d4e4899ffd72ff67bfc32f69e59da39",
+      "RESEARCH_DATE_CLARIFICATION.md": "330c102142d22b6d9c73fb0f1d130ca2003e6aec0c224a2df555e3135773ac6d",
+      "WORKSPACE_CLEANUP_RECEIPT.json": "4ab72200aa120fd7a7d1dd237b8eba306ac04de3295ca7619f77f1922be7297c",
+      "WORKSPACE_STORAGE_NOTE.md": "abdff6b23c79c0c3c18a5e729bfa7ce5dc0650827182860220896e8f319fca1e",
+      "longevity_capacity_timing/README.md": "8ab6e45401bf2b7f4c0812017d3b4b99de2f297e11a155fe91302e2dbb7a14bf",
+      "longevity_capacity_timing/RESULTS.json": "bc88d88d9682577896842680dc62cd2edb599d6f22838dbc296ae4e176f2c46f",
+      "longevity_capacity_timing/RUN.log": "bc88d88d9682577896842680dc62cd2edb599d6f22838dbc296ae4e176f2c46f",
+      "longevity_capacity_timing/RUN.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "longevity_capacity_timing/SYNTHETIC_PULSE_TRACES.csv": "d15fe3062a0c829a5402b13c74dd0721fe82003a9611cb5bb0d5f7960c5db468",
+      "longevity_capacity_timing/pulse_counterexample.png": "671405236a720373df5ce1b95ce5d1305c3be4de0c2151cc5f716167dbae292a",
+      "longevity_capacity_timing/pulse_counterexample.py": "44b063a7aa11e5bbd7c646eee491eec9529d0565365d924848b9171e4e8fdabc",
+      "longevity_capacity_timing/平均未超载_为什么仍会积压.md": "72fa3d4c4586d90c3c9f66821d6bd92820de86bf1ad47b9b458cb7b72920766a",
+      "longevity_caretaker_selectivity/READING_RECORD.md": "6139a02744d989996c8f9d31ab6e4bfcf8e2e0984875b1cd969257e61f6c3371",
+      "longevity_caretaker_selectivity/README.md": "a49fa1e85c22f1535bfabae02874fff5c1464539b92e279f65c26916bcdca958",
+      "longevity_caretaker_selectivity/RUN.log": "ecdc12a43cddad3923f15d4d0224f271da10b57d6d8fd944c38b793cf322dcf3",
+      "longevity_caretaker_selectivity/RUN.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "longevity_caretaker_selectivity/SELF_CHECK.json": "d0873bee47cb3dccb3177e6fc9b52526cba6b822aaec195683c5da329e81c317",
+      "longevity_caretaker_selectivity/SYNTHETIC_CONDITIONS.json": "ecdc12a43cddad3923f15d4d0224f271da10b57d6d8fd944c38b793cf322dcf3",
+      "longevity_caretaker_selectivity/SYNTHETIC_EXAMPLES.csv": "41e6568fc7af0e23345b596a1c1622fe8a753876d8423103f8784f637ccd8982",
+      "longevity_caretaker_selectivity/condition_check.py": "5b9a323a05adc81d8097ddde4247e0bc2a9babf58b19de26ab67ece509d2be4f",
+      "longevity_caretaker_selectivity/清除者也在靶标里_保留维护能力的年轻化.md": "2b9d4f7e4ec64d0177195a96a9cc162b6fb52078013319b5bb22d859ddf66117",
+      "longevity_repair_memory/EVIDENCE_MAP.csv": "ea3f1d91445239c9c82d19959b89fc17b20fb3eea683ab86049cc548e097577b",
+      "longevity_repair_memory/READING_RECORD.md": "0cb6c3b35c09662a7e1e09753a57d04847168ec8981dbc0898fe2fb02f0cb2e9",
+      "longevity_repair_memory/README.md": "b7df38c30cebb56bd7f571096238cdde55d42b2905dff5468b88972f92d2c443",
+      "longevity_repair_memory/SELF_CHECK.json": "bc2291fba0c75b9d04df76b22333255d767600d42508459622f4d30c24c0414f",
+      "longevity_repair_memory/audit_package.py": "df2e257440b498ef0f40b2da34a39f52665585e881be1280c56ad4d2135b8a94",
+      "longevity_repair_memory/修好这一次_还剩多少下一次.md": "8e201938844bf94d242d74b65a041a32bee08551b725f3a8ce7b6f4a273d84be",
+      "longevity_research_workbench/CHANGELOG.md": "b8be2c0dee08f898f4f042056b8a607178f9b9e228e07294f77efd796190bc52",
+      "longevity_research_workbench/FILE_MANIFEST.json": "c913057c329c3f5b3b76791593965fab6e4d3ccfce043f14c6c2e3badb731810",
+      "longevity_research_workbench/README.md": "1d4458da6b2520f0883a2289c12c7020af17f90bdb207b77058f934c209a313d",
+      "longevity_research_workbench/books/longevity/BOOK_PROPOSAL.md": "5e8621d94c26ed3cf9bb51e11702b96ec79304595d87c49113b00221399857fb",
+      "longevity_research_workbench/corpus/editions/README.md": "b2ff3f600d6280f919cd3c738efd6a89b207648c0a967fb8027ed1491754ea4a",
+      "longevity_research_workbench/corpus/editions/v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md": "81b5410839b32602f7bba6d078274d9695ba644541c28540875924c5c3c330f2",
+      "longevity_research_workbench/corpus/editions/v7/长寿研究_V7_谁在变年轻.md": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e",
+      "longevity_research_workbench/docs/GITHUB_HANDOFF.md": "7a2fbe0cf10460dfab4c1b7bf67dc58462f939a27b721c2d28076b9efdae9cdf",
+      "longevity_research_workbench/governance/NEXT_PRIORITIES.md": "7108376059cbbbb8ec3c88ded94a03624f375c3cb7ff7f1826808801700de86e",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/FILE_MANIFEST.json": "7d05dd01e6dd083e436bbba4be974dddcea98d2b1a1a6a13c0d78c99b599386e",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/README.md": "34c532709c550c9bc4d7b4f329326f3f9cbf295394dd314fbb912717eba7ba82",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/REPOSITORY_TREE.md": "b7bb15d94604f8b8661b1d4d3b49b689356f53f6c0adbc2cfd5d3b82785a1174",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/corpus/v6.md": "83fee21876797f65d31353b0bec0b7213bf896c134d2c73a08a7f5c21714a887",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/corpus/v7.md": "7b30aed1ff7ffd89c0c5aaa899ceccbc9b62fc7ab1b8f360513d3d5662a9d494",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/CLAIM_CARDS.md": "7186630bdaa62435fbd15af17034c835dbeae97a260f7429a2bf1f10920f00c6",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/ESTIMAND_AND_DATA_CONTRACTS.md": "eeae82e20a14a544959c1ee6c4da97967180730ddfbc23d45fc99014b46b0ccd",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/HANDOFF_AND_RIGHTS.md": "3ef8aab30cff8fa2a18b0b43aa4daeebe901d4533a37d0a1c55f7787ca36b141",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/docs/PILOT_REPORT.md": "297a8821d1ce767ccb5086ef5c3416d6e4010dfbf95adc6c5c62d2db7b3f2fc5",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/PAPER_EVIDENCE_INTERFACES.md": "f44330b0ebf841d656c43a3171abfdf3cf2af86247a0e55d148e7dafa90f9c33",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/V6_FUNCTION_MODULE.md": "c49dd558508d841da1571218981e7418c514045a4969fbfbe8ce6c8a081c2233",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/drafts/V7_VISIBILITY_MODULE.md": "931b95a594405653c7e6e9410948920dad3802d029140a9fe66c42df2ec599ef",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/evidence/LIFE_excerpts.txt": "2747e49cd3090eeea413164f26563dcddb88a2caf407746c5f14030163ae1360",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/evidence/MTDNA_excerpts.txt": "d6ae84329cfd1e71b57280a604be92c8469466ddfef18e717a8961b934a8ded6",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/governance/history_before.json": "1127ea9a018d91c46a4eef19c1138257a4865f3de7924f9de7dcbe5203b64eba",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/governance/prior_540_expected.json": "1bd442fe0abf966d27ea25359bffd439a1840adb45da0ae3f3ff0fce50003185",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/project.json": "f5334ea83ff98f58243bc830e6f4d4bad794ad4cf4c0d435a725ed1e7deb1b67",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/BUILD_INITIAL_RECORDS_DO_NOT_RERUN.py.txt": "7953765a1e5249718194310ae4c81008119f0505a48c59a58537e162e12ae36b",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/PUBLICATION_MAP.json": "9e04fb794eb11a10a6e83289f51dedc830b6c919f979ceadae12891793a501b2",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/provenance/SOURCE_RECEIPTS.json": "8c48790c65ed12b21c50036f27aad57765153d4f950a38c62f6a8227f942a5f5",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/requirements-tested.txt": "469730cf13039c00907c6ac85c790b32ff584f4d3b331e68cefc8194bb0bed77",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/requirements.txt": "c0396c59edf56b3c33e0606723278708554c7adde626c0319557b8f8232544ab",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/FIRST_TEST_FAILURE.json": "ec7eb37377d87fcffe5854b9324a48fb72640fc9b5db3d155518db0f3601fb95",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/HISTORY_INTEGRITY_LOCAL.json": "a18be8c5acfccb3ca5948bf03e6ad0605d744434a5080bb49887f58da244f0f2",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/PROJECT_CHECK.json": "fe8671c22ae1be439b69616b32bc74ad6d2dd95bdc50a673790dc18fd7c1ce9a",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/QUANTITATIVE_CHECKS.json": "b4812b0034de1779a5bc3dc2399b6188a1b84207487333a306955bf19776533c",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/SOURCE_TRACE_LOCAL.json": "0ee5fc60617849c81b227d98fc64ebcd86461d3f7ecc554ef359ada3871e163f",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/UPSTREAM_REGRESSION_RERUN.json": "a4425223d4348eb89fbdd5f1392909ae360aecd0fbd53846a8c0d6d3395fb238",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/results/VALIDATION.json": "da6ef48c0de4d2a74c6ae6c55dd852188c6451878fa3dbaef3df88cf2bb75d4f",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/review/INDEPENDENT_REVIEW_PACKET.md": "b051d2f9bef049f3085be5d327f7938a2bf94a8460af96a3be1ac89ede06b086",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/package_addon.py": "99a95136fe3271f164323052c2fe9061c4571eb00044991517faf74e562d5538",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/pilot_core.py": "07893c3c892d6616ad86a1a98ab676717233c5b3bb5bde3a797d1387bf5421b6",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/scripts/validate.py": "de9ca31acad2016f2e3377a5ffac001e69549af25c0455a941dd8451f6e7ee98",
+      "longevity_research_workbench/knowledge_base/pilots/real_claims_001/tests/test_real_pilot.py": "cf5c7aacdbe9b857290f78179c31accfebfd78839cdca7215ca00ebf61acf8ef",
+      "longevity_research_workbench/papers/P1_identity_selection/PROTOCOL.md": "1e5a6a8b131e302893f6193ff1e31b5baec5fd56d5a86754f4a337404e5a6d5c",
+      "longevity_research_workbench/papers/P2_weighting_observability/PROTOCOL.md": "c373f321a2c1522b64f305587f02cdae4ca294fee049a0f055cda0a11f7fd420",
+      "longevity_research_workbench/papers/P3_research_assurance/PROTOCOL.md": "85280ce59b850e8e33f2e5c8a4c239e3826cb2a123b1a46d24c80cd88c19ed01",
+      "longevity_research_workbench/papers/PUBLICATION_MAP.md": "5f914f5780787fd8fda759d34974033ca6835ee0c7e20ce6d93eea3edeeb9fab",
+      "longevity_spatial_access/ACQUISITION.json": "7cb127bbd210f4813a17376dcddbb341f3bafa5b1bc75dc59354cc579adfdf79",
+      "longevity_spatial_access/BEFORE_VALUES.md": "013cad5842ddd8b675884bdf00565701d54f3ca19ddc3c865877a3c6a85798ec",
+      "longevity_spatial_access/CAPTION_ACQUISITION.json": "66b63f0444e85dc68a9f25de5c0c3b1663fcddfd748b64f80e4085c009aa6ba2",
+      "longevity_spatial_access/FIGURE_CAPTIONS_READ.txt": "2b66487432f0fb943d6466bf6a272967a0814355300c00db7224d5eafc12f059",
+      "longevity_spatial_access/METHODS_READ_EXCERPTS.json": "fe6a8d4177e7048dc2502e54109c29fa4c126e84684a4765119e0de705d2aee3",
+      "longevity_spatial_access/README.md": "0aef7d80a644a0af3f6389a2de0e1cfe418e581b5251aa5bd7f3cded8296f172",
+      "longevity_spatial_access/RESULTS.json": "8868867ecd6886f93c503c882ac268f3d5b40048fa78120c6b230465f38204b3",
+      "longevity_spatial_access/RUN.log": "51caf141b68e50502481d5cfc465e879e3b8d5714167f73dc067b06a4702107d",
+      "longevity_spatial_access/RUN.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "longevity_spatial_access/SELF_CHECK.json": "326a2e67f6cb49a0d4bd82b6da6c15ddeafdc42f2c5bbaca5f5ebe34d0700da3",
+      "longevity_spatial_access/SOURCE_SUMMARIES.csv": "f745f207c8d7f75a51f8e3842bd4eab5312fa6b1f631dafb65fcc9041c68fcd1",
+      "longevity_spatial_access/SOURCE_VALUES_LONG.csv": "0db4f86d62b25e1d0377a9da0ff81f382f9705c50c5f77c678cf0ff6fa44ab17",
+      "longevity_spatial_access/SYNTHETIC_BRIDGE_SWEEP.csv": "44511656ac9fa307f9c8e38f1f206085ab0b70930115c1cebe63cd84933a0168",
+      "longevity_spatial_access/SYNTHETIC_NETWORK_ARCS.csv": "eee687728760ae685d327c176cd3598d6cae4e6724d7d422284e0037efad218f",
+      "longevity_spatial_access/analyze.py": "ee90008bb7f04e9ded16e6b05703469e00f52e640988bad4326858be8bcbd937",
+      "longevity_spatial_access/data/Figure6_original.jpg": "88e8bf682f3544efc187c5b3f4f3fed187cff41e64fb984fee8f137115cd1c3e",
+      "longevity_spatial_access/data/Figure6_suspension_original.jpg": "d7c347d18968c124d63d5a47cec49f61f8fa0c8e34d86f1a37b28d341f5fb427",
+      "longevity_spatial_access/data/elife-75354-fig6-data4-v1.csv": "33c7218f7d200e1a8c72e0b30dce81359f9923b5e858edffd4f5f7ae64a12b77",
+      "longevity_spatial_access/data/elife-75354-fig6-figsupp2-data1-v1.csv": "d2e05f666c776f722828e8f7f1e6a6d6264bd09e1f4dac12cdc12961cc143fa8",
+      "longevity_spatial_access/fig6_API_EXCERPT.json": "127f43fd64723cb234c92629ff51f44f5678738312551022815b0c0e635befb1",
+      "longevity_spatial_access/fig6s2_API_EXCERPT.json": "54046ae4602f668b780642e32d199909fbe132a24f6abeaec614bcce2a1fcbd6",
+      "longevity_spatial_access/spatial_counterexample.png": "a91ed956e559c6d75904a230412393fec651a08584a1b43237bc9c93a0456214",
+      "longevity_spatial_access/有余量却用不上_空间可达性的研究盲点.md": "d559bbfb217788289e792f0268c1633ff900948d8950a00c6fa3986812a060f3",
+      "longevity_state_turnover/READING_RECORD.md": "1c0bb23be96b6eee3c1985984fc0630fcfb983c06fc0bcf298018351ceecfe0b",
+      "longevity_state_turnover/README.md": "64aa9e9ef879eae3980e4bed9aaf225b501d0790d9cb13bbb0c08d4503aa4bb4",
+      "longevity_state_turnover/RESULTS.json": "5825758110da083b8f7979d4087c81fc04dff1454493c28709df9cd95bcf4654",
+      "longevity_state_turnover/RUN.log": "eee0e14580bd5d5282cd9c00ea0738141bd8f9884ed8ca9746929d48edf52641",
+      "longevity_state_turnover/RUN.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "longevity_state_turnover/SELF_CHECK.json": "e95d997ad6a15f3604f633526f1adc47954dc25ec0832544fc174cd8ffe35d39",
+      "longevity_state_turnover/SYNTHETIC_CASES.csv": "124e38351b4809e9b5f00d8c43f494c2798da37dc8070367d54e960f48f70122",
+      "longevity_state_turnover/identifiability_check.py": "5548e2d7a7abca4ded036eb94e3711909052c50bf278b8b18a27dc1fd9ec6867",
+      "longevity_state_turnover/状态还在_不等于细胞没换.md": "f75611a9fa91fb4ae5e3f19b5a0290a416ab2bd19fa464e0931205743df6f829",
+      "longevity_v6/README.md": "29b53fa5bb89a4bba9105d22f3e9da5e3b984e6676c89a7771417d4e069c2efe",
+      "longevity_v6/RESEARCH_LOG.md": "57131069786c0daa5c665117343f61717966d2b990c0451c4d389041e9b77ca2",
+      "longevity_v6/manifest.json": "1c2ec576d4f1bb5e0ba8b682de06077f6172419a6099b2b3f004eb86d736c511",
+      "longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md": "81b5410839b32602f7bba6d078274d9695ba644541c28540875924c5c3c330f2",
+      "longevity_v7/README.md": "8de4aa30656fc0a5cb75d496ceb142cccc8cdb85404a6e8dcfd20c08aae8d0b3",
+      "longevity_v7/RESEARCH_LOG.md": "d56edd083344ca75d142fc9a455b3c43337183c0dea808209aa4a13b18337f3d",
+      "longevity_v7/manifest.json": "a406a6d962e2bff17378ab87df65cd9adc501ab7372b1ac4f0bf05dc8d741614",
+      "longevity_v7/长寿研究_V7_谁在变年轻.md": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e"
+    },
+    "reconstruction_verified": true,
+    "workbench_manifest_entries_reconstructed": 163
+  },
+  "validation": {
+    "scope": "self-check of packaging and authorized working-draft changes only; not independent external review",
+    "checks": [
+      {
+        "name": "all 21 declared existing files changed and hashed",
+        "passed": true
+      },
+      {
+        "name": "both original book bodies preserved; existing mirrors byte-identical",
+        "passed": true
+      },
+      {
+        "name": "V7 chapters 34 through 39 present",
+        "passed": true
+      },
+      {
+        "name": "old frozen ZIPs, old QA and declared trust baselines unchanged",
+        "passed": true
+      },
+      {
+        "name": "current V6/V7 and workbench distribution manifests valid",
+        "passed": true
+      },
+      {
+        "name": "all local hyperlinks in changed Markdown and HANDOFF resolve",
+        "passed": true,
+        "link_count": 26
+      },
+      {
+        "name": "PATCH paths safe, all 115 members CRC-valid and exact byte match",
+        "passed": true
+      },
+      {
+        "name": "frozen bases plus PATCH reconstruct all 163 current workbench manifest entries",
+        "passed": true
+      },
+      {
+        "name": "optional V6/V7 frozen bases plus PATCH reconstruct current book manifests",
+        "passed": true
+      },
+      {
+        "name": "five small research modules complete; first research frozen base byte-preserved",
+        "passed": true
+      },
+      {
+        "name": "software-only project unit tests run in reconstructed temporary copy",
+        "passed": true,
+        "result": {
+          "errors": 0,
+          "failures": 0,
+          "passed": true,
+          "tests_run": 23
+        }
+      }
+    ],
+    "independent_external_review_completed": false,
+    "github_tool_lookup_this_turn": "unsupported; no repository read/write/push",
+    "all_six_scientific_modules_rerun_this_turn": false,
+    "workbench_full_validation_rerun_this_turn": false,
+    "workbench_unit_only_in_reconstructed_temp": true
+  },
+  "new_files_created": [
+    "HANDOFF.md",
+    "SESSION_UPDATE_RECEIPT.json",
+    "SESSION_HANDOFF_PATCH.zip"
+  ],
+  "workspace_bytes_before_patch_du_label": "approximately 112 MiB"
+}

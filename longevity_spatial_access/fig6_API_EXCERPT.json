@@ -1,0 +1,59 @@
+{
+  "caption": [
+    {
+      "text": "(A–C) Analysis of bone marrow-derived macrophage (BMDM) network sampling activity upon genetic interference with integrin functionality was performed as described in <a href=\"#fig5\">Figure 5A–E</a>. (<b>D</b>) Time sequence of an individual <i>Itgb1<sup>−/−</sup></i> macrophage is shown, correlating bead sampling and migratory activity as described in <a href=\"#fig5\">Figure 5G and H</a>. (<b>E, F</b>) Analysis of <i>Itgb1<sup>−/−</sup></i> BMDM network sampling activity upon doubling (2×) the cell number in the BMDM network. Analysis of network sampling as described in <a href=\"#fig5\">Figure 5C–E</a>. All bar graphs display the mean; ***p ≤ 0.001, ns: non-significant; Dunnett’s multiple comparison (post hoc analysis of variance [ANOVA]). Scale bars: 40 µm (<b>A</b>), 20 µm (<b>D</b>).",
+      "type": "paragraph"
+    }
+  ],
+  "id": "fig6",
+  "image": {
+    "alt": "",
+    "uri": "https://iiif.elifesciences.org/lax/75354%2Felife-75354-fig6-v1.tif",
+    "size": {
+      "width": 2008,
+      "height": 1092
+    },
+    "source": {
+      "mediaType": "image/jpeg",
+      "uri": "https://iiif.elifesciences.org/lax/75354%2Felife-75354-fig6-v1.tif/full/full/0/default.jpg",
+      "filename": "elife-75354-fig6-v1.jpg"
+    }
+  },
+  "label": "Figure 6",
+  "sourceData": [
+    {
+      "filename": "elife-75354-fig6-data1-v1.csv",
+      "id": "fig6sdata1",
+      "label": "Figure 6—source data 1",
+      "mediaType": "application/octet-stream",
+      "title": "Numerical data for the graph in <a href=\"#fig6\">Figure 6B</a>.",
+      "uri": "https://cdn.elifesciences.org/articles/75354/elife-75354-fig6-data1-v1.csv"
+    },
+    {
+      "filename": "elife-75354-fig6-data2-v1.csv",
+      "id": "fig6sdata2",
+      "label": "Figure 6—source data 2",
+      "mediaType": "application/octet-stream",
+      "title": "Numerical data for the graph in <a href=\"#fig6\">Figure 6C</a>.",
+      "uri": "https://cdn.elifesciences.org/articles/75354/elife-75354-fig6-data2-v1.csv"
+    },
+    {
+      "filename": "elife-75354-fig6-data3-v1.csv",
+      "id": "fig6sdata3",
+      "label": "Figure 6—source data 3",
+      "mediaType": "application/octet-stream",
+      "title": "Numerical data for the graph in <a href=\"#fig6\">Figure 6E</a>.",
+      "uri": "https://cdn.elifesciences.org/articles/75354/elife-75354-fig6-data3-v1.csv"
+    },
+    {
+      "filename": "elife-75354-fig6-data4-v1.csv",
+      "id": "fig6sdata4",
+      "label": "Figure 6—source data 4",
+      "mediaType": "application/octet-stream",
+      "title": "Numerical data for the graph in <a href=\"#fig6\">Figure 6F</a>.",
+      "uri": "https://cdn.elifesciences.org/articles/75354/elife-75354-fig6-data4-v1.csv"
+    }
+  ],
+  "title": "Haptokinesis is required for optimal bead removal by macrophage networks.",
+  "type": "image"
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "N06_mito_primary",
+    "url": "https://www.nature.com/articles/s41556-026-01896-x",
+    "http": 200,
+    "bytes": 707341,
+    "text_characters": 148798,
+    "sha256": "d18c60d0c9102f2e7e6b41abd09524be76aaba7e41977c5df0cb0806481a8128",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar_lookup?&title=Long-term%20suppression%20of%20Leydig%20cell%20steroidogenesis%20prevents%20Leydig%20cell%20aging&journal=Proc.%20Natl%20Acad.%20Sci.%20USA&doi=10.1073%2Fpnas.96.26.14877&volume=96&pages=14877-14881&publication_year=1999&author=Chen%2CH&author=Zirkin%2CBR"
+      },
+      {
+        "label": "CAS",
+        "url": "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BB2cXlsFGqtr8%3D"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar_lookup?&title=Stem%20Leydig%20cells%20support%20macrophage%20immunological%20homeostasis%20through%20mitochondrial%20transfer%20in%20mice&journal=Nat.%20Commun.&doi=10.1038%2Fs41467-024-46190-2&volume=15&publication_year=2024&author=Chi%2CA"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar_lookup?&title=A%20network%20of%20macrophages%20supports%20mitochondrial%20homeostasis%20in%20the%20heart&journal=Cell&doi=10.1016%2Fj.cell.2020.08.031&volume=183&pages=94-109&publication_year=2020&author=Nicolas-Avila%2CJA"
+      },
+      {
+        "label": "Supplementary Table 1 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-01896-x/MediaObjects/41556_2026_1896_MOESM6_ESM.xlsx"
+      },
+      {
+        "label": "Supplementary Data 1 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-01896-x/MediaObjects/41556_2026_1896_MOESM7_ESM.xlsx"
+      },
+      {
+        "label": "Source Data Figs. 1\u20138 and Extended Data Fig. 1\u201310 (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-01896-x/MediaObjects/41556_2026_1896_MOESM8_ESM.xlsx"
+      },
+      {
+        "label": "Contact us",
+        "url": "https://support.nature.com/support/home"
+      }
+    ]
+  },
+  {
+    "id": "N07_NOTCH1",
+    "url": "https://www.nature.com/articles/s41588-022-01280-z",
+    "http": 200,
+    "bytes": 584363,
+    "text_characters": 118738,
+    "sha256": "03701782e8469bb7bfe54826c32df0aff6f8657f672b0f7d229d0e87a2e47aa8",
+    "links": [
+      {
+        "label": "CAS",
+        "url": "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC1MXlslKms78%3D"
+      },
+      {
+        "label": "CAS",
+        "url": "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BD2MXlslyrur4%3D"
+      },
+      {
+        "label": "CAS",
+        "url": "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BD3MXlsV2jsL0%3D"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar_lookup?&title=Deletion%20of%20p120-catenin%20results%20in%20a%20tumor%20microenvironment%20with%20inflammation%20and%20cancer%20that%20establishes%20it%20as%20a%20tumor%20suppressor%20gene&journal=Cancer%20Cell&doi=10.1016%2Fj.ccr.2011.02.007&volume=19&pages=470-483&publication_year=2011&author=Stairs%2CDB"
+      },
+      {
+        "label": "Supplementary Tables (download XLSX )",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-022-01280-z/MediaObjects/41588_2022_1280_MOESM4_ESM.xlsx"
+      },
+      {
+        "label": "Contact us",
+        "url": "https://support.nature.com/support/home"
+      }
+    ]
+  },
+  {
+    "id": "N08_TBX3_PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435840/",
+    "http": 200,
+    "bytes": 234215,
+    "text_characters": 80503,
+    "sha256": "652f39281dbf357fe44b90fcc1012c83e375be2ead5f15de6af98999132fd187",
+    "links": [
+      {
+        "label": "jci-135-191855-s008.pdf",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s008.pdf"
+      },
+      {
+        "label": "jci-135-191855-s009.pdf",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s009.pdf"
+      },
+      {
+        "label": "jci-135-191855-s010.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s010.xlsx"
+      },
+      {
+        "label": "jci-135-191855-s011.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s011.xlsx"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?journal=Am%20J%20Clin%20Nutr&title=Role%20of%20cholesterol%20in%20embryonic%20development&author=C%20Roux&volume=71&issue=5%20suppl&publication_year=2000&pages=1270S-1279S&pmid=10799401&doi=10.1093/ajcn/71.5.1270s&"
+      },
+      {
+        "label": "jci-135-191855-s008.pdf",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s008.pdf"
+      },
+      {
+        "label": "jci-135-191855-s009.pdf",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s009.pdf"
+      },
+      {
+        "label": "jci-135-191855-s010.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s010.xlsx"
+      },
+      {
+        "label": "jci-135-191855-s011.xlsx",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12435840/bin/jci-135-191855-s011.xlsx"
+      },
+      {
+        "label": "Help",
+        "url": "https://support.nlm.nih.gov/"
+      }
+    ]
+  },
+  {
+    "id": "N09_genomics_review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13694181/",
+    "http": 200,
+    "bytes": 344778,
+    "text_characters": 112465,
+    "sha256": "4fec4719b6d198f3f26e747721a426ab42dfcb11b1b0c28f34952adba9bc3af8",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar_lookup?journal=Proc.%20Natl.%20Acad.%20Sci.%20USA&title=In%20vivo%20suppressor%20mutations%20correct%20a%20murine%20model%20of%20hereditary%20tyrosinemia%20type%20I&author=K%20Manning&author=M%20Al-Dhalimy&author=M%20Finegold&author=M%20Grompe&volume=96&publication_year=1999&pages=11928-11933&pmid=10518553&doi=10.1073/pnas.96.21.11928&"
+      },
+      {
+        "label": "Help",
+        "url": "https://support.nlm.nih.gov/"
+      }
+    ]
+  },
+  {
+    "id": "N10_multilevel",
+    "url": "https://journals.plos.org/plosbiology/article?id=10.1371%2Fjournal.pbio.3003290",
+    "http": 200,
+    "bytes": 428337,
+    "text_characters": 106555,
+    "sha256": "4e077971e4eca439c5ad72a2d7fde617c036a9188dc164817086fa3a0701f265",
+    "links": [
+      {
+        "label": "Supporting Information",
+        "url": "https://journals.plos.org/plosbiology/s/supporting-information"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar?q=Mutation+of+NOTCH1+is+selected+within+normal+esophageal+tissues%2C+yet+leads+to+selective+epistasis+suppressive+of+further+evolution+into+cancer+Glasmacher+2023"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar?q=Replication+and+preferential+inheritance+of+hypersuppressive+petite+mitochondrial+DNA+MacAlpine+2001"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "http://scholar.google.com/scholar?q=Inclusive+fitness+effects+can+select+for+cancer+suppression+into+old+age+Brown+2015"
+      }
+    ]
+  }
+]

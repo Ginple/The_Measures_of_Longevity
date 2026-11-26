@@ -1,0 +1,25 @@
+panel,source_column,source_row,group,value,replication_level
+Figure6F,WT,2,WT,51.09577421,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,WT,3,WT,44.12083103,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,WT,4,WT,45.09309911,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,B1 -/-,2,Itgb1 KO,75.37223146,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,B1 -/-,3,Itgb1 KO,62.08596902,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,B1 -/-,4,Itgb1 KO,72.53723083,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,X2 B1 -/-,2,Itgb1 KO 2x cells,53.59636883,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,X2 B1 -/-,3,Itgb1 KO 2x cells,46.34049148,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,X2 B1 -/-,4,Itgb1 KO 2x cells,52.084871,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,X2 WT,2,WT 2x cells,35.72361429,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,X2 WT,3,WT 2x cells,30.03183138,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6F,X2 WT,4,WT 2x cells,31.11617031,biological replicate summary; n=3 via Figure5 cross-reference
+Figure6supp2,WT,2,WT,79.6,"technical replicate; one representative experiment, N=3"
+Figure6supp2,WT,3,WT,78.3,"technical replicate; one representative experiment, N=3"
+Figure6supp2,WT,4,WT,74.8,"technical replicate; one representative experiment, N=3"
+Figure6supp2,Tln1 -/-,2,Tln1 KO,74.0,"technical replicate; one representative experiment, N=3"
+Figure6supp2,Tln1 -/-,3,Tln1 KO,75.5,"technical replicate; one representative experiment, N=3"
+Figure6supp2,Tln1 -/-,4,Tln1 KO,72.8,"technical replicate; one representative experiment, N=3"
+Figure6supp2,B2 -/-,2,Itgb2 KO,72.3,"technical replicate; one representative experiment, N=3"
+Figure6supp2,B2 -/-,3,Itgb2 KO,65.6,"technical replicate; one representative experiment, N=3"
+Figure6supp2,B2 -/-,4,Itgb2 KO,68.7,"technical replicate; one representative experiment, N=3"
+Figure6supp2,B1 -/-,2,Itgb1 KO,83.3,"technical replicate; one representative experiment, N=3"
+Figure6supp2,B1 -/-,3,Itgb1 KO,82.4,"technical replicate; one representative experiment, N=3"
+Figure6supp2,B1 -/-,4,Itgb1 KO,79.7,"technical replicate; one representative experiment, N=3"

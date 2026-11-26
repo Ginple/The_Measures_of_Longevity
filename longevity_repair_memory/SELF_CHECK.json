@@ -1,0 +1,23 @@
+{
+  "scope": "local structure and provenance consistency only; not scientific verification",
+  "checks_passed": 8,
+  "checks": [
+    "required content files",
+    "six distinct evidence entries",
+    "all source URLs use https",
+    "source IDs and URLs appear in reading record",
+    "preprint explicitly classified",
+    "local link: 修好这一次_还剩多少下一次.md -> READING_RECORD.md",
+    "local link: 修好这一次_还剩多少下一次.md -> EVIDENCE_MAP.csv",
+    "no html or zip generated"
+  ],
+  "source_rows": 6,
+  "independent_review_completed": false,
+  "sha256": {
+    "EVIDENCE_MAP.csv": "ea3f1d91445239c9c82d19959b89fc17b20fb3eea683ab86049cc548e097577b",
+    "READING_RECORD.md": "0cb6c3b35c09662a7e1e09753a57d04847168ec8981dbc0898fe2fb02f0cb2e9",
+    "README.md": "b7df38c30cebb56bd7f571096238cdde55d42b2905dff5468b88972f92d2c443",
+    "audit_package.py": "df2e257440b498ef0f40b2da34a39f52665585e881be1280c56ad4d2135b8a94",
+    "修好这一次_还剩多少下一次.md": "8e201938844bf94d242d74b65a041a32bee08551b725f3a8ce7b6f4a273d84be"
+  }
+}

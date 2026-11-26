@@ -1,0 +1,1761 @@
+Applying multilevel selection to understand cancer evolution and progression | PLOS Biology
+Skip to main content
+Advertisement
+PLOS Biology
+Browse
+Current Issue
+Journal Archive
+Collections
+Find and Read Articles
+Publish
+Submissions
+Submission Guidelines
+Figures
+Tables
+Supporting Information
+LaTeX
+What We Publish
+Preprints
+Revising Your Manuscript
+Submit Now
+Policies
+Best Practices in Research Reporting
+Human Subjects Research
+Animal Research
+Competing Interests
+Disclosure of Funding Sources
+Licenses and Copyright
+Data Availability
+Complementary Research
+Materials, Software and Code Sharing
+Ethical Publishing Practice
+Authorship
+Corrections, Expressions of Concern, and Retractions
+Manuscript Review and Publication
+Editorial and Peer Review Process
+Guidelines for Reviewers
+Accepted Manuscripts
+Comments
+Submit Your Manuscript
+PLOS Biology
+provides an Open Access platform to showcase your best research and commentary across all areas of biological science.
+Submit Now
+About
+Why Publish with PLOS Biology
+Journal Information
+Staff Editors
+Editorial Board
+Publishing Information
+Publication Fees
+Press and Media
+Contact
+Search
+Search
+advanced search
+Loading metrics
+Open Access
+Essay
+Essays articulate a specific perspective on a topic of broad interest to scientists.
+See all article types
+»
+Applying multilevel selection to understand cancer evolution and progression
+Lucie Laplane,
+Roles
+Conceptualization,
+
+    Funding acquisition,
+
+    Project administration,
+
+    Supervision,
+
+    Writing – original draft,
+
+    Writing – review & editing
+Affiliations
+UMR8590, CNRS & University Paris I Pantheon Sorbonne, Paris, France, 
+    UMR1270, Inserm & Gustave Roussy Cancer Campus, Villejuif, France
+⨯
+Anaïs Lamoureux,
+Roles
+Writing – original draft,
+
+    Writing – review & editing
+Affiliation
+UMR8590, CNRS & University Paris I Pantheon Sorbonne, Paris, France
+⨯
+Harley I. Richker,
+Roles
+Writing – review & editing
+Affiliations
+Arizona Cancer Evolution Center, Arizona State University, Tempe, Arizona, United States of America, 
+    Center for Evolution and Medicine, Arizona State University, Tempe, Arizona, United States of America, 
+    Biodesign Center for Biocomputing, Security and Society, Arizona State University, Tempe, Arizona, United States of America, 
+    School of Life Sciences, Arizona State University, Tempe, Arizona, United States of America
+⨯
+Gissel Marquez Alcaraz,
+Roles
+Writing – review & editing
+Affiliations
+Arizona Cancer Evolution Center, Arizona State University, Tempe, Arizona, United States of America, 
+    Center for Evolution and Medicine, Arizona State University, Tempe, Arizona, United States of America, 
+    Biodesign Center for Biocomputing, Security and Society, Arizona State University, Tempe, Arizona, United States of America, 
+    School of Life Sciences, Arizona State University, Tempe, Arizona, United States of America
+⨯
+Angelo Fortunato,
+Roles
+Writing – original draft,
+
+    Writing – review & editing
+Affiliations
+Arizona Cancer Evolution Center, Arizona State University, Tempe, Arizona, United States of America, 
+    Center for Evolution and Medicine, Arizona State University, Tempe, Arizona, United States of America, 
+    Biodesign Center for Biocomputing, Security and Society, Arizona State University, Tempe, Arizona, United States of America, 
+    School of Life Sciences, Arizona State University, Tempe, Arizona, United States of America, 
+    Department of Theoretical and Applied Sciences, eCampus University, Novedrate, Italy
+⨯
+Zachary Shaffer,
+Roles
+Writing – original draft,
+
+    Writing – review & editing
+Affiliation
+School of Life Sciences, Arizona State University, Tempe, Arizona, United States of America
+⨯
+Athena Aktipis,
+Roles
+Writing – review & editing
+Affiliations
+Arizona Cancer Evolution Center, Arizona State University, Tempe, Arizona, United States of America, 
+    Center for Evolution and Medicine, Arizona State University, Tempe, Arizona, United States of America, 
+    Department of Psychology, Arizona State University, Tempe, Arizona, United States of America, 
+    Global Futures Lab, Arizona State University, Tempe, Arizona, United States of America
+⨯
+Paul S. Mischel,
+Roles
+Funding acquisition,
+
+    Writing – original draft,
+
+    Writing – review & editing
+Affiliations
+Department of Pathology, Stanford University School of Medicine, Stanford, California, United States of America, 
+    Sarafan ChEM-H, Stanford University, Stanford, California, United States of America
+⨯
+Anya Plutynski,
+Roles
+Conceptualization,
+
+    Writing – original draft,
+
+    Writing – review & editing
+Affiliation
+Department of Philosophy, Affiliate with Division of Biological and Biomedical Sciences, Washington University in St Louis, St Louis, Missouri, United States of America
+⨯
+Jeffrey P. Townsend,
+Roles
+Writing – original draft,
+
+    Writing – review & editing
+Affiliations
+Department of Biostatistics, Yale School of Public Health, New Haven, Connecticut, United States of America, 
+    Department of Ecology and Evolutionary Biology, Yale University, New Haven, Connecticut, United States of America, 
+    Program in Computational Biology and Biomedical Informatics, Yale University, New Haven, Connecticut, United States of America, 
+    Program in Genomics, Genetics, and Epigenetics, Yale Cancer Center, New Haven, Connecticut, United States of America
+⨯
+Carlo C. Maley
+Roles
+Conceptualization,
+
+    Project administration,
+
+    Supervision,
+
+    Writing – original draft,
+
+    Writing – review & editing
+* E-mail:
+maley@asu.edu
+Affiliations
+Arizona Cancer Evolution Center, Arizona State University, Tempe, Arizona, United States of America, 
+    Center for Evolution and Medicine, Arizona State University, Tempe, Arizona, United States of America, 
+    Biodesign Center for Biocomputing, Security and Society, Arizona State University, Tempe, Arizona, United States of America, 
+    School of Life Sciences, Arizona State University, Tempe, Arizona, United States of America
+https://orcid.org/0000-0002-0745-7076
+⨯
+Applying multilevel selection to understand cancer evolution and progression
+Lucie Laplane,
+Anaïs Lamoureux,
+Harley I. Richker,
+Gissel Marquez Alcaraz,
+Angelo Fortunato,
+Zachary Shaffer,
+Athena Aktipis,
+Paul S. Mischel,
+Anya Plutynski,
+Jeffrey P. Townsend
+x
+Version 2
+Version 1     Uncorrected Proof
+Published: July 18, 2025
+https://doi.org/10.1371/journal.pbio.3003290
+Article
+Authors
+Metrics
+Comments
+Media Coverage
+Reader Comments
+Figures
+Figures
+Abstract
+Natural selection occurs at multiple levels of organization in cancer. At an organismal level, natural selection has led to the evolution of diverse tumor suppression mechanisms, while at a cellular level, it favors traits that promote cellular proliferation, survival and cancer. Natural selection also occurs at a subcellular level, among collections of cells and even among collections of organisms; selection at these levels could influence the evolution of cancer and cancer suppression mechanisms, affecting cancer risk and treatment strategies. There may also be cancer-like processes happening at different levels of organization, in which uncontrolled proliferation at lower levels may disrupt a higher level of organization. This Essay examines how selection operates across levels, highlighting how we might leverage this understanding to improve cancer research, prevention and treatment.
+Citation:
+Laplane L, Lamoureux A, Richker HI, Marquez Alcaraz G, Fortunato A, Shaffer Z, et al.  (2025) Applying multilevel selection to understand cancer evolution and progression. PLoS Biol 23(7):
+           e3003290.
+        
+        https://doi.org/10.1371/journal.pbio.3003290
+Academic Editor:
+Yibin Kang, Princeton University, UNITED STATES OF AMERICA
+Published:
+July 18, 2025
+Copyright:
+© 2025 Laplane et al. This is an open access article distributed under the terms of the
+Creative Commons Attribution License
+, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Funding:
+This work has been supported in part by NIH R01 CA140657 to CCM, by CNRS 80 Prime and ARC PJA2024080008687 to LL. This work was delivered as part of the eDyNAmiC team supported by the Cancer Grand Challenges partnership funded by Cancer Research UK (CGCATF-2021/100012 and the National Cancer Institute (OT2CA278688) to PSM. The findings, opinions and recommendations expressed here are those of the authors and not necessarily those of the universities where the research was performed or the funding agencies. The funders played no role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+Competing interests:
+I have read the journal's policy and the authors of this manuscript have the following competing interests: PSM is a co-founder of Boundless Bio. He has equity in the company and chairs the scientific advisory board, for which he is compensated. The remaining authors have declared that no competing interests exist.
+Abbreviations:
+ecDNA,
+            extra-chromosomal DNA; mtDNA,
+            mitochondrial DNA; MLS1,
+            multilevel selection 1; MLS2,
+            multilevel selection 2
+Introduction
+Natural selection occurs in any population of entities that exhibit heritable variation in their survival and reproductive success [
+1
+]. Limited resources amplify the effects of this variation in the “struggle for existence”, although it is not required for natural selection [
+1
+]. Evolutionary biologists have long recognized that natural selection can occur across a range of levels of organization, a phenomenon known as multilevel selection [
+2
+–
+4
+]. Selection at different levels of organization may act independently or they may interact. When they interact, the resulting adaptations can be understood as the combined action of natural selection at different levels, which may be aligned (synergistically selecting for an adaptation) or be in conflict, in which case the resulting character will be some form of compromise between the selective pressures [
+5
+,
+6
+]. For levels of selection to interact, the results of that selection at both levels must be passed on to the next generation. Cancer is an interesting example of natural selection at the level of organisms that favors organisms with traits that enable them to survive and reproduce before succumbing to cancer, leading to the evolution of cancer defenses. However, cancers are the result of natural selection at the level of the cell, favoring mutations that generate all the hallmarks of cancer [
+7
+]. Yet, because the cancerous cells are not generally passed on to the next generation of organisms, the phenotype of cancer susceptibility is only determined by selection at the level of the organism. In other words, natural selection at the level of cells is independent of natural selection at the level of organisms, with respect to cancer susceptibility phenotypes.
+The focus of most cancer research has been on the results of (independent) natural selection at the levels of cells and organisms. In this Essay, we show that natural selection also acts on genes, collections of cells and collections of organisms (
+Fig 1
+). Selection at these other levels can influence cancer risk, either promoting or inhibiting progression, with the possibility of also impacting cancer treatment strategies. Multilevel selection can also generate cancer-like phenomena if entities at any level start reproducing out of control to the point that they compromise a higher level of organization. This may select for cancer suppression mechanisms at multiple levels of organization as well. Here, we examine how selection operates across levels and identify important opportunities for leveraging this understanding to improve cancer research, prevention, and treatment. For each level of organization, we note whether conditions of natural selection have been observed: heritable variation that affects the survival and reproductive success of entities at that level (
+Table 1
+). At the end, we analyze which of these levels of selection interact and which are independent.
+Download:
+PNG
+larger image
+TIFF
+original image
+Table 1.
+Which levels of selection meet the criteria for natural selection.
+https://doi.org/10.1371/journal.pbio.3003290.t001
+Download:
+PNG
+larger image
+TIFF
+original image
+Fig 1.
+Levels of selection.
+There may be selection at the level of genes, or collections of genes in the form of transposable elements like retrotransposons, mitochondrial genomes, and extrachromosomal DNA (ecDNA). There may also be selection at the level of cells, collections of cells (in the form of epithelial proliferative units such as intestinal crypts or metastases), organisms or even collections of organisms in the form of eusocial superorganisms. Figure created with BioRender,
+https://BioRender.com
+.
+https://doi.org/10.1371/journal.pbio.3003290.g001
+Cells as units of selection
+Individual cells in normal tissues and tumors acquire somatic genetic mutations [
+8
+]. Many of these mutations are neutral and do not substantially affect cell fitness [
+9
+] (defined as the ability of individual cells to survive and reproduce). However, some somatic genetic mutations confer a selective advantage that enables the mutant cells to survive, proliferate and outcompete other cells within the tumor microenvironment [
+10
+–
+13
+]. Therefore, at a very basic level, cancer is an outcome of cellular competition [
+14
+], and the cell is a fundamental unit of selection operating in the development of cancer (
+Table 1
+). This competition is context-dependent, influenced by factors such as the availability of limiting resources such as space, nutrients and oxygen, which vary substantially between normal and tumor tissues. For example, in normal epithelial tissues, cells are organized in two-dimensional sheets, and a mutant cell may only realize a proliferative advantage if space becomes available or cells adapt to grow in three dimensions [
+15
+]. The nature of this competition likely changes during neoplastic progression as distinct resources become limiting, and depending on whether competition is primarily about rate of reproduction, survival or resource acquisition (including space) [
+16
+].
+Variation among cells is generated by a number of mechanisms during a person’s lifetime, owing to various factors such as errors in DNA replication, errors in replication of epigenetic modifications during DNA synthesis, defects in DNA repair mechanisms or exposure to mutagens. At the most basic level, any replicating system will occasionally make mistakes, so some mutational processes are endogenous and cannot be prevented by avoiding mutagens. Other mutational processes are exogenous; meaning exposure can be prevented. Classic epidemiological and laboratory studies have led to estimates that 40% of the human cancer burden is explained by known risk factors such as tobacco and obesity, raising the question of what is driving the rest of the cancer burden [
+17
+]. Recent studies on the mutagenic basis of cancer show that the ratio of endogenous, unavoidable mutations to exogenous, presumably preventable mutations ranges widely depending on the cancer type, from melanomas that are >80% driven by UV light to gliomas that are >95% driven by endogenous processes [
+18
+].
+Whether caused by endogenous or exogenous processes, somatic gene mutations and epigenetic alterations can alter the fitness of cells by altering cellular functions that enhance cellular survival or reproduction. These (epi)mutations can affect critical genes involved in cell growth, division, death and other cellular processes, playing crucial roles in the development of cancer. For instance, the driving amino acid substitutions conferring the greatest selective benefit to individual cells in lung adenocarcinoma include the mitogen-activated protein kinase pathway genes
+EGFR
+,
+KRAS
+, and
+BRAF
+, as well as the tumor suppressor
+TP53
+[
+12
+]. The driving amino-acid substitutions that are most beneficial for lung squamous-cell carcinoma cells occur in
+PIK3CA
+, which regulates cell growth and survival, and
+TP53
+, which regulates a variety of functions including cell cycle and apoptosis.
+However, the fitness benefit of a somatic genetic change can depend not just on the tumor microenvironment, but also on previous somatic genetic changes [
+10
+,
+19
+]. Moreover, these gene interactions can potentially impact cancer therapies and patient outcomes [
+20
+]. The conditionality of selective benefit of mutations is referred to as selective epistasis: the effect on selection of the direct or indirect interaction between different genetic mutations [
+21
+]. In cancer cells, epistatic interactions can occur when the effects of one mutation depend on the presence or absence of other mutations [
+22
+]. For example, if
+TP53
+is intact, many mutation events are deleterious because they trigger
+TP53
+-mediated apoptosis. But if
+TP53
+is inactivated by mutations, massive genomic instability can ensue. This interplay between mutations can influence the overall fitness of the cell and its ability to survive and proliferate.
+The presence of somatic mutations alone—even in canonical cancer driver genes or their combinations—does not inevitably result in tumor formation [
+23
+,
+24
+]. First, somatic mutations can sometimes play a role in the prevention of cancer rather than contribute to its development. Two examples of genes in which some mutations may contribute to clonal expansions while suppressing progression to cancer include
+KLF4
+in intraductal papillary mucinous neoplasms and
+NOTCH1
+in esophageal cancer [
+25
+–
+28
+]. Moreover, mutant but not yet malignant cells may outcompete mutant and already malignant cells [
+27
+,
+29
+,
+30
+]. Second, somatic mutations must occur in a particular cell type to form a tumor. The same set of mutations may lead to cancers with different properties depending on the cell of origin (i.e., the type of cell that is mutated) [
+31
+,
+32
+]. Somatic mutations must also encounter tumor-promoting tissue conditions that tip the balance from controlled to uncontrolled growth [
+23
+,
+33
+]. These tumor-promoting conditions constitute a complementary, physiological component to the mutagenic causation of cancer [
+34
+]. Tumor-promoting or tumor-suppressive conditions such as exposure to physiological toxins, the cumulative effects of exercise and aging, as well as the specific stage of cancer development each alter the selection on individual somatic mutations [
+34
+–
+36
+], playing key roles in the fate of tumors and of those who are afflicted with them.
+A consequence of both somatic genetic selective epistasis and the evolving tumor microenvironment is stage-specific selection: mutations may have distinct fitness effects on cancer cells at distinct stages of cancer progression [
+28
+,
+37
+]. For example, mutations that promote rapid cell division may be advantageous during the early stages of tumor growth, while mutations that allow cells to invade surrounding tissues or evade immune surveillance may become advantageous at later stages. The availability of specific resources such as space [
+15
+,
+38
+,
+39
+], nutrients [
+40
+] and oxygen [
+41
+] varies significantly across tumorigenesis, metastasis and therapy resistance [
+42
+,
+43
+], influencing which mutations provide a selective advantage. Stage-specific selection acts as a driving force shaping the evolutionary dynamics of cancer cells and determining their behavior at serial stages of disease progression, including during therapy [
+44
+]. A key aspect of how a tumor evolves through time is its interactions with the tumor immune microenvironment. Thus, it will be important not only to contextualize estimates of the selective impact of mutations within their specific somatic genetic landscape, but also to do so within the broader microenvironmental context—including immune context—that modulates tumor growth and survival.
+In summary, focusing on cells as units of selection in cancer highlights the role of somatic mutations, natural selection, epistasis, stage-specific selection and evolutionary trajectories in driving the growth, progression and heterogeneity of tumors. Viewing cancer through an evolutionary lens provides insights into the dynamic nature of the disease and informs strategies for its diagnosis, treatment and management. For example, we should be asking how we can change the microenvironments of pre-cancers and cancers to select for desired phenotypes. We might also measure the rate of evolution in neoplastic cells as prognostic or predictive biomarkers, and as targets for cancer prevention efforts based on slowing down the rate of neoplastic progression [
+45
+].
+Genes as units of selection
+In much of evolutionary biology, it has been helpful to consider natural selection primarily at the level of the gene [
+46
+]. This predominance arises because sexual recombination and horizontal gene transfer enable genes to be reshuffled among other genes with which they must interact. Consequently, the average fitness effect of a gene is integrated over the backgrounds of all collaborating genes within associated populations. In cancer cells, the conventional wisdom has been that there is little to no recombination or horizontal gene transfer, though it is possible that cell fusions and exchanges of cellular contents through nanotubes or extracellular vesicles may provide some degree of gene-level selection [
+47
+,
+48
+]. In addition, there are at least two other phenomena enabling selection at the level of genes instead of genomes: extra-chromosomal DNA (ecDNA) and retrotransposons. There may also be selection of collections of genes that are independent of the nuclear chromosomes, in the form of mitochondrial genomes.
+Extra-chromosomal DNA
+Circular bits of DNA were first observed in cancers back in 1962 when they were called double minutes [
+49
+]. These ecDNAs lack centromeres and are randomly segregated during cell division [
+50
+], leading to rapid changes in copy numbers of ecDNA over cell divisions. ecDNA particles are enriched for oncogenes, regulatory elements and immunomodulatory genes [
+51
+], often at high copy numbers (e.g., in the hundreds [
+52
+]).
+The enrichment of the number of ecDNA particles suggests that selection may be happening at the level of ecDNAs. For that selection to occur, there must be variation among the ecDNAs, and that variation must affect their ability to replicate and survive. There is clear evidence of variation among ecDNAs in a tumor [
+53
+–
+55
+]. There is also evidence for continuing generation of further variation in the ecDNAs over time [
+51
+,
+56
+]. It is hypothesized that this variation enhances the likelihood that structural variants or sequence changes that enhance cell fitness will occur and be selected at the cellular level [
+57
+]. The replication of ecDNA was thought to be tied to the cell cycle: each ecDNA only replicates in the phase when normal cells conduct ordinary DNA synthesis [
+58
+]. However, recent evidence suggests that this may be frequently dysregulated and highly variable [
+59
+]. There is also evidence that smaller ecDNAs have a survival advantage because they are less likely to be extruded from the cell in micronuclei [
+60
+], suggesting selection at the ecDNA level. Furthermore, ecDNAs evolve, accumulating structural complexity over time within a tumor [
+61
+] and acquiring persistent point mutations [
+56
+]. It is just not clear if ecDNAs are evolving by natural selection at the gene level or by other mechanisms (such as genetic drift or selection at the cellular level;
+Table 1
+).
+There is clear evidence of alignment of selective pressures on ecDNAs and cancer cells. ecDNAs carry genes that benefit cancer cells [
+50
+,
+51
+], and patients that have cancers with ecDNAs have a far worse prognosis than patients with other types of gene amplifications or those whose tumors lack oncogene amplifications [
+51
+]. ecDNA can also arise in pre-cancers during neoplastic progression. When Barrett’s esophagus pre-cancerous tissue has ecDNAs, it is extremely likely to evolve into fully-fledged esophageal cancer [
+61
+]. Prescient work by Robert Schimke and others [
+62
+] showed that these ecDNA elements could drive resistance to methotrexate by amplifying the dihydrofolate reductase gene, suggesting an adaptive form of gene amplification.
+Prior to the demonstration that ecDNA plays a role in dynamic resistance of tumors to targeted therapy [
+63
+], ecDNA was thought to be rare (1.4% of tumors according to the Mitelman database of chromosomal aberrations) and of unknown importance. An extensive series of studies has now demonstrated that ecDNA is common, particularly in solid cancers, and affects both children and adults. A recent study of nearly 15,000 tissue samples of 39 different tumor types revealed ecDNA in 17.1% of samples, with an increased frequency in those at an advanced tumor stage and in metastases [
+51
+]. It has not yet been shown whether those increased frequencies are necessarily linked to selection as opposed to being a secondary effect of degraded genetic instability with oncogenic progression.
+Retrotransposons
+Retrotransposons are mobile DNA sequences that reproduce and move within the genome using a ‘copy and paste’ mechanism. This process enables retrotransposons to replicate independently of the cell cycle. They are transcribed into RNA then reverse-transcribed back into DNA, which integrates the offspring retrotransposon at a new genomic location while the parental retrotransposon remains at its original place. Such replication can lead to evolution at the retrotransposon level, if some retrotransposons replicate more than others.
+Gene-level selection and evolution of retrotransposons is unlikely to occur in normal human cells, where retrotransposons are actively repressed with few exceptions (e.g., specific retrotransposons expressed at specific developmental stages) [
+64
+,
+65
+]. This repression is maintained through epigenetic mechanisms such as DNA methylation and histone modifications that promote heterochromatin formation and transcriptional silencing [
+66
+,
+67
+]. However, in cancers, retrotransposons are often reactivated. Active retrotransposition can be observed within cells of many cancers [
+68
+,
+69
+], a process associated with DNA hypomethylation and disrupted histone regulation [
+68
+]. One multi-sample study of pancreatic ductal adenocarcinoma comparing primary tumors and metastases showed that insertions of the LINE-1 retrotransposon across samples from a single patient were only partially overlapping, and the number of insertions was higher in metastases than in the primary tumor, indicating an increased reproductive success of some LINE-1 in some cancer cell lineages [
+70
+]. But whether this differential fitness is intrinsic to LINE-1 is unclear. It could only reflect variations in the epigenetic state of the cells, providing more or less opportunities for different LINE-1s to replicate in different cells. The fact that Alu elements derive from LINE-1s and yet outnumber them in the human genome suggests that Alus evolved a higher fitness than LINE-1s, possibly by reducing their size and parasitizing the retrotransposition genes of LINE-1s [
+71
+].
+In addition to these potential examples of positive selection, negative selection has clearly been at work. Genomes are littered with a large number of retrotransposons that are no longer able to copy and paste due to mutations. It remains undocumented whether negative selection acts on retrotransposons during cancer progression, but it is quite possible that sufficient data to study this is already available (
+Table 1
+). Proving that retrotransposons are negatively selected for during cancer progression would require careful phylogenetic reconstruction of retrotransposons in multi-region, longitudinal and/or single-cell sequencing studies.
+Mitochondria and mitochondrial genomes
+Like ecDNA and retrotransposons, mitochondria can replicate independently of cell replication [
+72
+]. They also accumulate alterations that they transmit to their descendants when they divide. They can therefore evolve, at least through neutral evolution. Whether they evolve by natural selection depends on whether their reproductive success is affected by heritable properties of the mitochondrial genome. The phenotypes of mitochondria and the replication of their genomes are largely regulated by genes in the cell nucleus and by the energy demands placed on the cell. For example, muscle cells vary greatly in mitochondrial content with organismal physical activity [
+73
+]. Given the nucleus’ dominant role in mitochondrial reproduction, it might seem impossible for a mitochondrial variant to have a reproductive or survival advantage over other mitochondria.
+It is easier to track the success of mitochondrial genomes rather than mitochondria, because mitochondria are constantly fusing and dividing. In addition, mitochondria often contain multiple mitochondrial genomes. However, if we ignore the fluid packaging of mitochondrial genomes, there are clear instances where mutations in the mitochondrial genome are deleterious for that genome, triggering mitochondrial death due to mitophagy [
+74
+,
+75
+]. There are also clear instances where a variant mitochondrial genome that is initially in the minority takes over the population of mitochondrial genomes in a cell [
+76
+–
+78
+]. This selection at the scale of mitochondrial DNA (mtDNA) leads these variants to be referred to as “selfish mtDNA” [
+79
+] (
+Table 1
+). Known examples include mtDNA with deletions that make them replicate faster than wild type mtDNA [
+79
+], mtDNA mutations that recruit replication machinery, enhancing their reproduction [
+80
+,
+81
+], and epigenetic (and heritable) alterations that bias mtDNA toward replication and away from transcription [
+82
+–
+84
+].
+Selfish mutations in mtDNA that interfere with their function in the cell are often countered by selection at the cellular level. However, there is evidence of horizontal transfer of mitochondria between cells, through tunneling nanotubes [
+85
+,
+86
+]. Moshoi and colleagues [
+87
+] demonstrated that more than 10% of the mitochondrial mass may be transferred this way, opening a potential channel for selfish mtDNA to escape their host cells before cell level selection removes them. This transfer of mitochondria may, however, be an adaptation at the cellular level, rather than a benefit to the mitochondria. The formation of tunneling nanotubes is increased after chemotherapy or oxidative stress [
+85
+,
+88
+] and appears to function in a way that enables cancer cells with damaged mitochondria to acquire healthy mitochondria from normal cells, rescuing their essential aerobic function [
+86
+,
+89
+–
+91
+].
+Collections of cells as units of selection
+Natural selection can act on groups of cells and not just individual cells. The concept of group selection is typically discussed in the context of organisms, but it can also apply to cellular groups.
+Damuth and Heisler [
+3
+,
+89
+] distinguished two types of group selection. In the case of multilevel selection 1 (MLS1), the fitness of the entities that compose the group is affected by group membership. In the case of multilevel selection 2 (MLS2), fitness is attributed to the group itself and depends on the properties of the collective group. In MLS2, group-level properties, such as the division of labor in social organisms, might lead some groups to survive longer or reproduce more frequently, generating more groups carrying those properties (
+Table 2
+). Some have argued that group selection processes of MLS1 could evolve into MLS2 [
+3
+,
+92
+].
+Download:
+PNG
+larger image
+TIFF
+original image
+Table 2.
+Is multilevel selection of type 1 (MLS1) and/or of type 2 (MLS2)?
+https://doi.org/10.1371/journal.pbio.3003290.t002
+In the following section, we examine three types of groups of cells that can undergo selection: stem cells and their progeny (including proliferative units in an epithelial tissue), a cancer stem cell with its non-stem cell progeny in a neoplasm, and metastases.
+Epithelial proliferative units
+In many epithelial tissues, where the majority of cancers arise [
+93
+], cells are organized into proliferative units. These are called crypts in the stomach, intestine and Barrett’s esophagus; acini in breast, lung, salivary gland, pancreas and liver tissue; epithelial proliferative units in the skin; and simply glands in the endometrium and prostate. Cairns pointed out in 1975 that the architectural constraints of subdividing a tissue into isolated small sets of stem cells and their progeny (glands), can itself act as a tumor suppressor [
+94
+]. A mutant stem cell with a cell-level selective advantage may take over the stem cell population of a gland, but there is no clear way it could expand into neighboring glands. In many epithelial glands, non-stem cells differentiate and are ejected from the tissue in a matter of days [
+95
+]. If a mutation occurs in a non-stem cell, it will soon be removed from the tissue, unless the mutation interferes with the differentiation process itself.
+Epithelial proliferative units can divide [
+96
+] (and fuse [
+97
+,
+98
+]), die [
+99
+] and mutate [
+96
+], making them a potential substrate for natural selection (MLS2, as those are properties attributed to the group;
+Tables 1
+and
+2
+). Early clonal expansions in tissues are thought to occur in part through the division of epithelial proliferative units. Natural selection at the proliferative unit level should select for mutations that trigger proliferative unit division and select against mutations that lead to the death of proliferative units. There is evidence that mutations in
+CDKN2A
+cause clonal expansion in the crypt structured epithelium of Barrett’s esophagus, but have little effect on the risk of progressing to esophageal cancer [
+100
+]. This indicates that cellular level selection for those mutations may not be part of the evolutionary trajectory that leads to esophageal cancer. Similarly, there is evidence that
+NOTCH1
+mutations drive clonal expansions in skin [
+101
+] and squamous esophageal tissue [
+102
+], but may even protect against the evolution of cancer [
+102
+]. Furthermore, colorectal cancer is thought to start with clusters of aberrant crypts, called aberrant crypt foci, which eventually evolve into polyps.
+If proliferative units are also units of selection, then the same logic that leads to the evolution of cells dividing out of control should also lead to proliferative units dividing out of control, which would generate a mass of proliferative units. This is what a colonic adenoma looks like. In fact, we propose that many ‘well-differentiated tumors’ (tumors that have retained much of the differentiation structure of the tissue in which they originated) may actually be generated by selection at the level of the proliferative unit. By contrast, poorly differentiated tumors are likely generated by selection at the level of the cell. Although, there is a continuum between tumors maintaining structured proliferative units and those in which such proliferative units are no longer visible, this difference might help explain why well-differentiated tumors have a better prognosis than poorly differentiated tumors. The rate of evolution depends in part on the population size of the evolving entities. For a well-differentiated tumor of a given size, the number of proliferative units is much less than the number of cells in a poorly differentiated tumor, so well-differentiated tumors should evolve more slowly than poorly differentiated tumors. Loss of differentiation may not only be a hallmark of cancer [
+103
+,
+104
+], it may also be the reversal of a major transition in evolution, when selection drops down from the proliferative unit level to the cellular level. Another reason that these well-differentiated tumors have better prognosis may be that they maintain much of the normal cell–cell regulatory processes with their neighbors that limit growth and reduce the likelihood of aberrant cellular behavior. Notably, in tumors in which proliferative units are no longer visible, there might still be a different type of group selection occurring on cancer stem cells and their progeny, which we discuss in the next section.
+Unfortunately, relatively little is known about the biology of what causes a proliferative unit to divide (in contrast with extensive knowledge about cell division inside the proliferative unit). Does an increase in the number of stem cells in the proliferative unit trigger division? Or is there some other control mechanism that triggers division and which entails expansion of the stem cell population either before or after division of the gland? Organization of epithelial tissues into proliferative units gives evolution at the organismal level a new set of levers and knobs to control that system, and potentially develop new cancer suppression mechanisms at the proliferative unit level.
+One of the interesting implications of this is that the birth and death dynamics of proliferative units (as opposed to the cells within them) may be an as yet unexplored regulatory system that could be targeted to help limit cancer progression. For example, there may be tumor suppressor genes (and oncogenes) that are involved in controlling when a proliferative unit divides and dies (and fuses [
+98
+]). They would have an impact on clonal expansions of mutations within tissues, the formation of well-differentiated tumors and the risk of progression to cancer. If such proliferative-unit-level cancer suppression mechanisms exist, they could be leveraged for cancer prevention and treatment.
+Cancer stem cells and their progeny
+Not all cells within a neoplasm are evolutionary equal. There is evidence that some cells in a neoplasm act like stem cells, with indefinite replication, whereas other cells have limited replicative potential and thus are evolutionary dead ends at the cellular level of natural selection [
+94
+,
+105
+]. This structure may be retained from the epithelial proliferative units or other differentiation structures in which the cancers evolved (which are generally niche dependent), or neoplasms may independently co-opt differentiation mechanisms in the cell. In fact, the very existence of cancer non-stem cells is an evolutionary conundrum [
+106
+]. At the cellular level of selection, any cancer stem cell that wastes its reproductive potential on generating non-stem cells should have a selective disadvantage compared to cancer stem cells that only divide symmetrically, exclusively producing daughter cancer stem cells [
+106
+]. It is possible that the distinction between cancer stem cells and cancer non-stem cells is a holdover from the organizational structure of the normal tissues from which cancers evolve, and there just has not been enough time for natural selection to favor clones of pure cancer stem cells. This view would predict that well-differentiated tumors would have a lower frequency of cancer stem cells than poorly differentiated tumors, and thus evolve more slowly. Another explanation for the presence of cancer non-stem cells is that cancer stem cells benefit from belonging to groups that contain cancer non-stem cells [
+106
+]. This would be a case of MLS1 (
+Table 2
+). Furthermore, according to the cancer stem cell model, cancer stem cells produce cancer non-stem cells, such that cancer stem cells are considered the units of selection, and cancer non-stem cells as evolutionary dead-ends [
+107
+]. As they form lineages, each lineage coming from a cancer stem cell could be considered like a proliferative unit. These proliferative units would be analogous to multicellular organisms, where the germline benefits from the production and action of somatic cells. If this hypothesis is correct, then cancer non-stem cells are maintained in neoplasms because clusters of cancer stem cells and the non-stem cells they produced are acting like proto-multicellular colonies, with the cancer stem cells acting as the germline and the cancer non-stem cells acting as their soma [
+106
+]. The fact that cancer stem cells and their non-stem cell progeny are almost genetically identical would facilitate the evolution of such cooperation through kin selection. There can clearly be variation between those colonies of cancer stem cells and their progeny due to heritable differences between cancer stem cells (
+Table 1
+). It seems likely, but it is not yet clear, if those differences allow some of those colonies to reproduce or survive better than other colonies, which would be a case of MLS2 (
+Table 2
+). In cancers in which the cancer stem cell model does not hold true, especially if any cancer cell can produce any cancer cell, the case for MLS2 is more difficult to make, and the notion of a group that would serve as reproductive units upon which selection can act becomes fuzzy [
+108
+].
+Metastases
+There may also be natural selection at the level of metastases [
+109
+]. Natural selection at the ‘metastasis level’ could take the form of either MLS1 or MLS2 (
+Table 2
+). In the case of MLS1, the fitness of the cells in a population of metastatic cells may be affected by membership in a group. In the case of MLS2, the metastatic population itself may be said to bear heritable variation and reproduce, and that heritable variation can in theory affect the ability of the metastases to survive and propagate new metastases.
+What is the evidence for either MLS1 or MLS2? A classic experiment from Fidler and Kripke showed that the ability to metastasize can evolve [
+110
+]. They injected a melanoma cell line into mice and showed that the variation in the ability to seed metastases was heritable when they derived new cell lines from those metastases and injected them into new mice. This should not be a surprise in that the phenotypes necessary for metastasis (migration, generation of growth signals, generation of angiogenic signals, etc.) are all at least partly genetically and epigenetically encoded. Thus, they may mutate and be passed down to offspring metastases (
+Table 1
+).
+Whether there is competition between metastases for limited resources is an open question; of note, there need not be competition between metastases to get natural selection, all you need is intrinsic variation in their ability to spawn new metastases. Natural selection does not require competition for limited resources. Metastases that evolve more effective mechanisms for spawning new metastases will tend to spread in the body more than metastases that do not.
+One source of evidence for MLS2 is that metastases tend to be generated by clusters of cells, rather than by single cells [
+111
+,
+112
+]. These clusters seem to be organized with ‘leader’ and ‘follower’ cells [
+113
+], with various roles attributed to them depending on migratory modalities. For example, a type of collective migration in colorectal cancer has been described that is similar to ameboid migration, in which the cells at the back propel the cluster [
+114
+], contrasting with other forms of cluster migration where the front “leader” cells pull the cluster through focal adhesion. Presumably some such clusters are more effective at propagating than others. Perhaps it is easier to metastasize when cells bring a bit of their microenvironment with them (MSL1) [
+115
+]. Metastases that are good at sending out propagules (which may be clusters of cells) and growing in new environments will tend to spread. It may be difficult to discriminate between MLS1 and MLS2 in this context. Because there is an alignment of selection at the cell and metastasis levels, it will be difficult to distinguish the relative contribution of selection at each level to the phenomenon of metastasis.
+Although metastases may meet the conditions for evolution by natural selection, their importance is an open question. Two important aspects are whether there are enough generations of metastases to generate significant adaptations at the metastasis level, and whether there is enough heritability between generations of metastases to allow natural selection to generate adaptations at the metastasis level [
+116
+].
+The amount of selection at the level of metastases is currently unknown, in part because micrometastases are so difficult to observe. If there are only a few generations of metastases, then MLS2 cannot really build on metastatic phenotypes. However, it is possible that there may be far more micrometastases and generations of micrometastases than has been observed. This process would be extremely difficult to observe or measure, and would leave little evidence, especially if some of these micrometastases were small and short lived [
+109
+]. Evolution occurring at this level could be an important driver of disease progression and patient mortality, selecting micrometastases capable of generating new metastatic propagules and creating the opportunities for cancer cell collectives to evolve more effective cooperation strategies within them that allow them to most effectively exploit the host and colonize new niches in the body. If selection is indeed operating among metastases, this might be key to understanding the challenges associated with managing late-stage cancer and developing effective treatments and prevention strategies [
+109
+].
+However, there are still many unknowns about metastases that affect the possibility that natural selection is operating among them. For example, the degree of heritability between parent and offspring metastases is largely unknown. The establishment of every new metastasis is a bottleneck event, where only a small proportion of the originating cell population gets into the next metastasis. This suggests that selection at the level of metastases may go hand in hand with genetic drift (i.e., founder effects) at the cell level, which could enhance differences between metastases. Moreover, if there is so much selection at the level of cells during the establishment and growth of a new metastasis, in a new tissue, the offspring metastasis may bear little resemblance to its parent metastasis, and the characteristics of the parent metastasis that allowed it to survive and reproduce may not be faithfully replicated in its offspring. This would limit the ability of natural selection to act at the level of metastases.
+Selection at the level of metastases does make at least one testable prediction: if we map out the lineage of relationships between the metastases and the primary tumor, selection at the level of metastases should generally result in metastases begetting metastases begetting metastases, such that they would typically form a single branch (clade) in the cell lineage. If there is little to no evolution at the metastasis level, then most metastases would be spawned directly from the primary tumor and would form independent branches on the cell lineage. Experimental evidence has tended to show that metastases cluster together on a single branch of the cancer cell lineage [
+117
+,
+118
+]. Metastasis level selection should also lead to the evolution of metastases that are either more and more independent of the tissues in which they land (e.g., generating their own growth signals), or more and more flexible at adjusting to and flourishing in those new environments. The fact that it is generally easier to derive a cancer cell line from a metastasis than from a primary tumor might be a sign of such a gain of independence from the environment.
+Organisms as units of selection
+Organisms can vary in the degree of their cancer defenses and susceptibility, much of which is encoded in their tumor suppressor genes, proto-oncogenes, tissue organization and immune systems. That variation is clearly heritable (
+Table 1
+), but does it have an effect on an organism’s fitness? Cancer is generally a lethal disease if left unchecked. So it is reasonable to suspect that cancer susceptibility has a strong effect on fitness.
+It is tempting to dismiss cancer as a selective pressure on organisms because cancer is generally a disease of old age, after reproduction in most humans [
+119
+]. But this perspective is mistaken in three ways. First, humans have a positive impact on the fitness of their children, long after their children are born, leading to the potential for inclusive fitness effects to favor cancer suppression in old age [
+120
+]. There is a long period of parental investment that even extends to grandchildren; for example, maternal grandmothers increase the fitness of their grandchildren [
+121
+]. Second, childhood cancers and early onset cancers kill people long before they complete their reproduction. In the United States from 2017 to 2019, 5.9% of women and 3.5% of men developed cancer before age 50 [
+119
+]. It does not take many such deaths for a disease to exert selective effects on a large population. Third, the reason cancer primarily occurs in old age is thought to be that cancer was a selective pressure on our ancestors, removing individuals from the population that were susceptible to early onset cancers before they could reproduce much. Thus, there is, and has been, natural selection at the level of organisms on their ability to suppress cancer. This can be seen most dramatically in the origin of many tumor suppressor genes at the point when multicellular life evolved [
+122
+].
+The degree to which cancer has been a selective force in the evolution of organisms depends on their ecology. If there have been other sources of mortality that kill organisms long before they develop cancer (e.g., infectious disease, predators, etc.), then natural selection would have generated adaptations to avoid or suppress those sources of mortality. In some cases, there may be tradeoffs between cancer defenses and other defenses [
+123
+]. For example, a prey species might evolve a high metabolism that helps it out-run predators, even if that metabolism leads to more oxidative stress, somatic mutations and eventually cancer. There has clearly been selection on organisms for wound healing, including angiogenesis, but those wound healing pathways are a vulnerability that cancers often exploit [
+124
+].
+There may also be tradeoffs between cancer susceptibility and other aspects of fitness, such as reproduction [
+125
+–
+127
+]. There is some evidence that
+BRCA1
+/
+BRCA2
+mutations, infamous for increasing the risk of cancer, are also associated with greater fertility [
+128
+]. There is also evidence that polymorphisms in
+TP53
+are associated with both higher fertility [
+129
+,
+130
+] (including twinning [
+131
+]) and higher cancer risk [
+132
+–
+134
+].
+The fact that the ecology of a species has implications for the degree to which cancer was a selective pressure on its evolution has an intriguing implication. If we can identify species that have been under strong selection from cancer mortality, they should have evolved effective cancer suppression mechanisms. We may learn from those species methods to improve cancer prevention in humans [
+135
+].
+Collections of organisms as units of selection
+Cancer literature regularly borrows concepts from social evolution theories. For example, describing cancer cells as ‘selfish’ or ‘cheaters’, terms normally used in eusocial societies, and describing the anti-cancer mechanisms of organisms as ‘policing’ mechanisms in these societies [
+123
+,
+136
+–
+138
+].
+Eusocial societies (with reproductive division of labor and overlapping generations) and especially ‘superorganismic’ ones (including leaf cutter ants, honeybees and others) are often discussed as paradigmatic cases of selection at multiple levels and especially at the level of the group [
+139
+] (
+Table 1
+). The fact that ‘workers’ have properties that can maximize the fitness of whole colonies (and lack traits improving their fitness within a colony), has been interpreted as the outcome of selection based on fitness differences among colonies [
+140
+]. Examples of this include the sterility of workers in eusocial societies, the sacrifice of workers’ lives in defense of the group, and others. But underneath this driving factor of group-level selection there may lie complementary or conflicting selection for individual level benefits. The fact that individuals within the superorganisms are usually highly related (like cells within an organism and cells within a tumor) supports natural selection for group-level traits [
+141
+,
+142
+]. For example, the cooperative genes of sterile workers are passed on through their fertile sisters in the superorganism, much like the genes of somatic cells are passed on by the germ cells of a multicellular body. Group and organism level selection are therefore intertwined, creating a mosaic of natural selection that shapes these societies [
+143
+].
+Because sterile workers are analogous to somatic cells, we might appeal to disposable soma theory [
+144
+] to predict that the workers would be more susceptible to cancer than the reproductive members of the community. Currently, there is no data to test that hypothesis. However, in almost every social insect society (including ants, bees, wasps and termites) there is a physiological and reproductive division of labor that is also associated with increases in longevity for the reproductive members. Social insect queens do not age gradually. Instead, they die suddenly at an old age [
+145
+]. In termites, the disparity in longevity between queens and workers increases with social complexity. The more primitive wood roaches have less of a disparity than their relatives, the advanced eusocial termites, and similar discrepancies are prominent in ant societies [
+146
+]. In all of the cases of increased longevity in reproductive members of society, there seems to be hormone mediated pathways with connections to such highly conserved mechanisms as the IIS/TOR signaling systems [
+147
+]. This suggests possible connections to research in longevity in many other vertebrates (including in eusocial naked mole rats, who famously have very low rates of cancer) [
+148
+,
+149
+]. Transposable elements also seem to play a role in senescence in termite castes, with queens and in-nest workers keeping them suppressed longer than out-of-nest (riskier work assignment) workers [
+150
+].
+While cancer literature regularly borrows concepts from social evolution theory, perhaps social evolution theory might also borrow concepts from cancer. Are there forms of ‘social cancer’ in superorganisms, where organisms within the colony start reproducing out of control, to the detriment of the superorganism? We see high levels of coordination in all eusocial societies and relatively little unsanctioned reproduction by workers [
+151
+]. Many eusocial societies show ‘policing’ behaviors where unsanctioned reproductive members are punished or removed in a manner reminiscent of apoptosis or immune surveillance of mutant cells in organisms [
+152
+]. For example, in honeybees, the few workers that have developed ovaries are attacked by nestmates, and their eggs are eaten [
+153
+]. Thus, most eusocial societies seem remarkably ‘cancer-free’ in this sense. But an exception is found in the Japanese ant
+Pristomyrmex punctatus
+, a species with no queens. Instead, monomorphic workers reproduce en masse when they are young and become workers as they age. Into this apparently egalitarian social world, a cheater lineage has been described, comprising large bodied female workers with more ovarioles than is typical, who do little useful work other than laying eggs [
+154
+]. It may be that on closer examination there are more such instances of what could be seen as cheaters or social cancer in eusocial species.
+A noted feature of many cancers is the increased incidence of cancer with age. In many eusocial societies, the senescence or loss of the dominant reproductive member (the queen) leads to a reappearance of previously suppressed independent reproduction. For example, in Formica ants, in colonies who have lost their queen, independent worker reproduction increases [
+155
+]. This appearance of more decentralized reproduction resembles cancer in organisms. But it must be emphasized that this non-centralized reproduction in aging or orphaned colonies may be adaptive for eusocial societies. By contrast, it is difficult to suggest that cancer in elderly organisms is ever adaptive for the individual. Still, it does show how group selection can create colony-level adaptations that suppress individual-focused adaptations and how, given a change in circumstances or loss of regulation, the individual-fitness enhancing actors reassert themselves.
+Finally, it is arguable that social cancers do occur frequently in another sense: through parasitism. Many eusocial species can be successfully invaded and parasitized by other species. One example of this is the parasitic Cape Honey bee [
+156
+], and there are numerous examples within ants of such social parasitism [
+157
+]. It has been suggested that very often these parasites are close relatives to the host species, essentially parasitic lineages that are taking advantage of their near-relatives. This is analogous to transmissible cancers, described in various species, for example the canine transmissible venereal tumor [
+158
+] or the Tasmanian devil facial tumor disease [
+159
+,
+160
+], where clones of tumor cells are transmitted between individuals of the same species. The close phylogenetic relationship of a social parasite with its host allows the social parasite or cancerous lineage to ‘crack the code’ of social life (evading the social or individual immune response), whether in an ant colony or a new body. Finally, there are the myriad and fascinating colony parasites (known in ants as myrmecophiles) that invade ant colonies [
+161
+]. These parasites are often able to invade the unique ecological niche that is the ant colony, displaying adaptations that allow them to insinuate themselves into colony life and imitate the ants’ chemical and behavioral language. Many similar parasites can be found afflicting both honeybees and termites. Similarly, some transmissible cancers can even parasitize different host species. This has been observed in a transmissible leukemia in mussels [
+162
+,
+163
+] and in several cases of seemingly cancerous tapeworm cells growing inside human hosts [
+123
+].
+Interactions between levels of selection
+Price’s formulation of multilevel selection, in which selection on a trait can be decomposed into the separate contributions of selection at the different levels [
+6
+,
+161
+], requires that the results of selection at both levels are passed onto the next generation [
+6
+,
+164
+]. Because the results of cellular level selection are generally not passed on to the next generation of the organisms, cancer is not an example of this strong sense of multilevel selection at the cellular and organismal level [
+164
+], although there are interesting exceptions in transmissible cancers [
+165
+] and gamete-level selection [
+166
+].
+Are there cases of multilevel selection in Price’s sense among the levels of selection we have analyzed? Yes. There is an extensive literature on multilevel selection in the evolution of genomes, which represent the combined effect of selection on transposable elements that may favor an increase in the number of such elements in the genome [
+167
+,
+168
+]. However, if they disrupt genes that are necessary for cell survival, cell level selection will remove them, and if they disrupt genes that are necessary for development, reproduction or survival of the organism, organismal level selection will remove them. Cancer cells’ fitness produces an obvious constraint on retrotransposons. Cells with highly active retrotransposons are more likely to be killed by a retrotransposon disrupting a gene necessary for cell survival, or by inducing a viral mimicry response [
+169
+,
+170
+], than cells with quiescent retrotransposons. But in some cases, the two levels may align, as retrotransposons can increase cell fitness. For example, depending on where they land in the genome, they can lead to over-expression of oncogenes [
+171
+] or down-regulation or disruption of tumor suppressor genes [
+172
+], a phenomenon called insertional mutagenesis.
+Mitochondrial phenotypes may represent the combined action of selection at the mitochondrial, cellular and organismal levels [
+78
+,
+173
+]. Similarly, ecDNA may evolve features, such as small size, due to selection at the level of ecDNA. But they may also evolve features, such as carrying oncogenes, due to cellular-level selection. Whether or not ecDNAs evolve through organismal-level selection depends on whether the ecDNAs are in germ cells.
+Phenotypes of collections of cells, such as crypts and metastases, are the result of interactions between selection on cells and selection on collections of cells. Selection at the cellular level for increased cellular proliferation may either disrupt or enhance the reproduction of epithelial proliferative units. We have already argued that there is interaction between selection at the cellular level, which should select for all cancer cells to act like stem cells, and selection at the level of colonies of stem cells and their non-stem progeny, which may act like proto-multicellular organisms [
+106
+].
+Selection at the metastasis level for cells to detach and move away, may be detrimental or possibly beneficial at the cellular level. Selection at both the cellular and metastatic level may lead to enhanced cell proliferation and survival. However, the vast majority of cells that leave a tumor do not establish new metastases, so cell migration may often be deleterious at the cellular level [
+174
+,
+175
+]. It may even be the case that previous work has conflated disease caused by reproduction at two different levels in the case of metastases. Metastatic cancer is generally much more lethal than non-metastatic cancer [
+176
+]. Is that because the metastases are dividing out of control or because the cancer cells are dividing out of control?
+Conflict between levels of selection is mitigated in most organisms by passing each generation through a single (germ) cell bottleneck. This prevents cancers from being transmitted to the next generation, but it also prevents rogue proliferative units as well as most ecDNA and damaged mitochondria from being passed on to offspring. Similarly, since most superorganisms are established by a single inseminated queen, it is difficult for ‘cheating’ or ‘cancerous’ non-sterile workers to get into the next generation of the colony, unless it evolves a social parasitism strategy.
+Cancer at different levels of organization
+Careful readers will have noticed that we have discussed two different types of cancer across these levels of organization. We are interested in how selection at different levels of organization affects the disease that we call cancer, and how we might use those insights to improve prevention and management of that disease. In addition, we asked the question, are there cases where uncontrolled reproduction at a lower level of organization destroys the entity at a higher level of organization (
+Fig 2
+)? If the disease we call cancer is the uncontrolled reproduction of cells that results in the destruction of the organism, are there analogous phenomena at different levels? This leads to some intriguing questions. Do workers in superorganisms ever start reproducing out of control until they kill the superorganism? Do retrotransposons or mitochondria ever start reproducing out of control until they kill the cell?
+Download:
+PNG
+larger image
+TIFF
+original image
+Fig 2.
+Potential cancer-like phenomena at different levels of selection.
+If cancer is the uncontrolled reproduction of cells that destroys the higher level of organization, including well-ordered tissues and the host organism, then other levels of selection (on the left) might also reproduce out of control (on the right), destroying higher levels of organization. Selection on retrotransposons, generating highly active retrotransposons, may lead to cell death if they cause to much DNA damages trigger an immune response. Selection on mitochondria might lead to them reproducing out of control, potentially destroying the cell. Selection on cells, leading to uncontrolled proliferation, leads to tumor formation, not only destroying the epithelial proliferative units (and other tissue structures), but often killing the organism with a lethal cancer. If selection on intestinal crypts leads to crypts starting to reproduce out of control, they will likely produce adenomas, which may eventually evolve into cancers. Selection on metastasis for the generation of more metastasis may also destroy the organism. Organismal level selection on workers in a eusocial superorganism would favor workers that regain the ability to reproduce, but by siphoning off resources and disrupting the functioning of the colony, such a mutant worker population would likely destroy the superorganism. If superorganisms (or organisms) reproduce too much, in some cases they destroy their environment and cause their population to crash, in a tragedy of the commons. It is not clear if there has been sufficient selection at those higher levels of organization to prevent such tragedies. Figure created with BioRender,
+https://BioRender.com
+.
+https://doi.org/10.1371/journal.pbio.3003290.g002
+The fact that selfish mtDNA mutations can occur raises the theoretical possibility that mitochondrial genomes might start reproducing out of control to the point that they kill their host cell, similar to cancer cells reproducing out of control and killing their host organism (
+Fig 2
+). This would be difficult to observe, and there have been no reports of it yet. The closest observation may be in renal oncocytomas, a rare benign tumor that is so packed with mutant mitochondria that the oncocytoma cells are swollen. The excess of mitochondria seem to impair the oncocytoma cells from evolving into cancers [
+177
+,
+178
+], which suggests a conflict between selection at the mitochondrial and cellular levels.
+Conclusions
+Cancer is not simply a case of natural selection on cells resulting in the death of their host. Rather, there are layers upon layers of natural selection in cancer, sometimes at odds with each other, and sometimes amplifying each other. In addition to selection at the level of cells and organisms, mitochondria and superorganisms also meet the necessary and sufficient criteria for natural selection. Whether or not ecDNA, retrotransposons, epithelial proliferative units, clusters of cancer stem cells and their progeny, and micrometastases are additional levels of selection during cancer progression remain open questions, which hinge on whether some of those entities are better at surviving and reproducing than others. While this may appear overwhelming, when we try to treat or prevent cancer, some of these levels of selection may reveal new clinical pathways for improving human health. Can we prevent cancers by inhibiting the reproduction of epithelial units with mutant stem cells? Can we enhance the fitness of retrotransposons in cancer cells to the detriment of the cancer? We are just beginning to appreciate, let alone harness, the many levels of selection in cancer.
+Acknowledgments
+We thank Jeremy Wideman for schooling us in the fascinating biology of mitochondria.
+References
+1.
+Lewontin RC. The units of selection. Annu Rev Ecol Syst. 1970;1(1):1–18.
+View Article
+Google Scholar
+2.
+Williams GC. Adaptation and natural selection: a critique of some current evolutionary thought. 2018. Available from:
+https://books.google.com/books?hl=en&lr=&id=gkBhDwAAQBAJ&oi=fnd&pg=PP1&dq=Williams,+G.+C.+(1966).+Adaptation+and+natural+selection&ots=Ch7qmD7WBS&sig=hczfGTZrzfIZfBO0UXsvdrljGFM
+View Article
+Google Scholar
+3.
+Okasha S. Evolution and the levels of selection. Oxford: Clarendon Press; 2006.
+4.
+Damuth J, Heisler IL. Alternative formulations of multilevel selection. Biol Philos. 1988;3:407–30.
+View Article
+Google Scholar
+5.
+Price GR. Selection and covariance. Nature. 1970;227:520–1.
+View Article
+Google Scholar
+6.
+Gardner A. The genetical theory of multilevel selection. J Evol Biol. 2015;28(2):305–19.  pmid:25475922
+View Article
+PubMed/NCBI
+Google Scholar
+7.
+Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation. Cell. 2011;144(5):646–74.  pmid:21376230
+View Article
+PubMed/NCBI
+Google Scholar
+8.
+Acha-Sagredo A, Ganguli P, Ciccarelli FD. Somatic variation in normal tissues: friend or foe of cancer early detection? Ann Oncol. 2022;33(12):1239–49.  pmid:36162751
+View Article
+PubMed/NCBI
+Google Scholar
+9.
+Cannataro VL, Townsend JP. Neutral theory and the somatic evolution of cancer. Mol Biol Evol. 2018;35(6):1308–15.  pmid:29684198
+View Article
+PubMed/NCBI
+Google Scholar
+10.
+Dasari K, Somarelli JA, Kumar S, Townsend JP. The somatic molecular evolution of cancer: mutation, selection, and epistasis. Prog Biophys Mol Biol. 2021;165:56–65.  pmid:34364910
+View Article
+PubMed/NCBI
+Google Scholar
+11.
+Majewski IJ. On fitness: how do mutations shape the biology of cancer? Biochem Soc Trans. 2019;47(2):559–69.  pmid:30850423
+View Article
+PubMed/NCBI
+Google Scholar
+12.
+Cannataro VL, Gaffney SG, Townsend JP. Effect sizes of somatic mutations in cancer. J Natl Cancer Inst. 2018;110(11):1171–7.  pmid:30365005
+View Article
+PubMed/NCBI
+Google Scholar
+13.
+Bowling S, Lawlor K, Rodríguez TA. Cell competition: the winners and losers of fitness selection. Development. 2019;146(13):dev167486.  pmid:31278123
+View Article
+PubMed/NCBI
+Google Scholar
+14.
+Gatenby RA, Brown J. Mutations, evolution and the central role of a self-defined fitness function in the initiation and progression of cancer. Biochim Biophys Acta Rev Cancer. 2017;1867(2):162–6.  pmid:28341421
+View Article
+PubMed/NCBI
+Google Scholar
+15.
+West J, Schenck RO, Gatenbee C, Robertson-Tessi M, Anderson ARA. Normal tissue architecture determines the evolutionary course of cancer. Nat Commun. 2021;12(1):2060.  pmid:33824323
+View Article
+PubMed/NCBI
+Google Scholar
+16.
+Aktipis CA, Boddy AM, Gatenby RA, Brown JS, Maley CC. Life history trade-offs in cancer evolution. Nat Rev Cancer. 2013;13(12):883–92.  pmid:24213474
+View Article
+PubMed/NCBI
+Google Scholar
+17.
+Brennan P, Davey-Smith G. Identifying novel causes of cancers to enhance cancer prevention: new strategies are needed. J Natl Cancer Inst. 2022;114(3):353–60.  pmid:34743211
+View Article
+PubMed/NCBI
+Google Scholar
+18.
+Cannataro VL, Mandell JD, Townsend JP. Attribution of cancer origins to endogenous, exogenous, and preventable mutational processes. Mol Biol Evol. 2022;39(5):msac084.  pmid:35580068
+View Article
+PubMed/NCBI
+Google Scholar
+19.
+Wang X, Fu AQ, McNerney ME, White KP. Widespread genetic epistasis among cancer genes. Nat Commun. 2014;5:4828.  pmid:25407795
+View Article
+PubMed/NCBI
+Google Scholar
+20.
+Wilkins JF, Cannataro VL, Shuch B, Townsend JP. Analysis of mutation, selection, and epistasis: an informed approach to cancer clinical trials. Oncotarget. 2018;9(32):22243–53.  pmid:29854275
+View Article
+PubMed/NCBI
+Google Scholar
+21.
+Pedruzzi G, Barlukova A, Rouzine IM. Evolutionary footprint of epistasis. PLoS Comput Biol. 2018;14(9):e1006426.  pmid:30222748
+View Article
+PubMed/NCBI
+Google Scholar
+22.
+Bauer B, Siebert R, Traulsen A. Cancer initiation with epistatic interactions between driver and passenger mutations. J Theor Biol. 2014;358:52–60.  pmid:24859427
+View Article
+PubMed/NCBI
+Google Scholar
+23.
+Balmain A. The critical roles of somatic mutations and environmental tumor-promoting agents in cancer risk. Nat Genet. 2020;52(11):1139–43.  pmid:33106632
+View Article
+PubMed/NCBI
+Google Scholar
+24.
+Grunt TW, Heller G. A critical appraisal of the relative contribution of tissue architecture, genetics, epigenetics and cell metabolism to carcinogenesis. Prog Biophys Mol Biol. 2023;182:26–33.  pmid:37268024
+View Article
+PubMed/NCBI
+Google Scholar
+25.
+Fujikura K, Hosoda W, Felsenstein M, Song Q, Reiter JG, Zheng L, et al. Multiregion whole-exome sequencing of intraductal papillary mucinous neoplasms reveals frequent somatic KLF4 mutations predominantly in low-grade regions. Gut. 2021;70(5):928–39.  pmid:33028669
+View Article
+PubMed/NCBI
+Google Scholar
+26.
+Martincorena I. Somatic mutation and clonal expansions in human tissues. Genome Med. 2019;11(1):35.  pmid:31138277
+View Article
+PubMed/NCBI
+Google Scholar
+27.
+Abby E, Dentro SC, Hall MWJ, Fowler JC, Ong SH, Sood R, et al. Notch1 mutations drive clonal expansion in normal esophageal epithelium but impair tumor growth. Nat Genet. 2023;55(2):232–45.  pmid:36658434
+View Article
+PubMed/NCBI
+Google Scholar
+28.
+Glasmacher KA, Cannataro VL, Mandell JD, Jackson M, Fisk JN, Townsend JP. Mutation of NOTCH1 is selected within normal esophageal tissues, yet leads to selective epistasis suppressive of further evolution into cancer. bioRxiv. 2023.
+View Article
+Google Scholar
+29.
+Colom B, Herms A, Hall MWJ, Dentro SC, King C, Sood RK, et al. Mutant clones in normal epithelium outcompete and eliminate emerging tumours. Nature. 2021;598(7881):510–4.  pmid:34646013
+View Article
+PubMed/NCBI
+Google Scholar
+30.
+Fernandez-Antoran D, Piedrafita G, Murai K, Ong SH, Herms A, Frezza C, et al. Outcompeting p53-mutant cells in the normal esophagus by redox manipulation. Cell Stem Cell. 2019;25(3):329-341.e6.  pmid:31327664
+View Article
+PubMed/NCBI
+Google Scholar
+31.
+Ince TA, Richardson AL, Bell GW, Saitoh M, Godar S, Karnoub AE, et al. Transformation of different human breast epithelial cell types leads to distinct tumor phenotypes. Cancer Cell. 2007;12(2):160–70.  pmid:17692807
+View Article
+PubMed/NCBI
+Google Scholar
+32.
+Visvader JE. Cells of origin in cancer. Nature. 2011;469(7330):314–22.  pmid:21248838
+View Article
+PubMed/NCBI
+Google Scholar
+33.
+Dillekås H, Schuster C, Davidsen KT, Straume O. The role of the microenvironment in tumor promoting stress responses. Biomarkers of the tumor microenvironment. Cham: Springer International Publishing; 2022. p. 519–36.
+34.
+Lopes-Coelho F, Gouveia-Fernandes S, Serpa J. Metabolic cooperation between cancer and non-cancerous stromal cells is pivotal in cancer progression. Tumour Biol. 2018;40(2):1010428318756203.  pmid:29421992
+View Article
+PubMed/NCBI
+Google Scholar
+35.
+DeGregori J. Adaptive oncogenesis: a new understanding of how cancer evolves inside us. Harvard University Press; 2018.
+36.
+Marusyk A, DeGregori J. Declining cellular fitness with age promotes cancer initiation by selecting for adaptive oncogenic mutations. Biochim Biophys Acta. 2008;1785:1–11.
+View Article
+Google Scholar
+37.
+Bozic I. Quantification of the selective advantage of driver mutations is dependent on the underlying model and stage of tumor evolution. Cancer Res. 2022;82(1):21–4.  pmid:34983781
+View Article
+PubMed/NCBI
+Google Scholar
+38.
+West J, Newton PK. Cellular interactions constrain tumor growth. Proc Natl Acad Sci U S A. 2019;116(6):1918–23.  pmid:30674661
+View Article
+PubMed/NCBI
+Google Scholar
+39.
+Marzban S, Srivastava S, Kartika S, Bravo R, Safriel R, Zarski A. Spatial interactions modulate tumor growth and immune infiltration. NPJ Syst Biol Appl. 2024;10:106.
+View Article
+Google Scholar
+40.
+Lobel GP, Jiang Y, Simon MC. Tumor microenvironmental nutrients, cellular responses, and cancer. Cell Chem Biol. 2023;30(9):1015–32.  pmid:37703882
+View Article
+PubMed/NCBI
+Google Scholar
+41.
+Garvalov BK, Acker T. Implications of Oxygen homeostasis for tumor biology and treatment. Adv Exp Med Biol. 2016;903:169–85.  pmid:27343096
+View Article
+PubMed/NCBI
+Google Scholar
+42.
+Dzobo K, Senthebane DA, Dandara C. The tumor microenvironment in tumorigenesis and therapy resistance revisited. Cancers (Basel). 2023;15(2):376.  pmid:36672326
+View Article
+PubMed/NCBI
+Google Scholar
+43.
+Gatenbee CD, Minor ES, Slebos RJC, Chung CH, Anderson ARA. Histoecology: applying ecological principles and approaches to describe and predict tumor ecosystem dynamics across space and time. Cancer Control. 2020;27(3):1073274820946804.  pmid:32869651
+View Article
+PubMed/NCBI
+Google Scholar
+44.
+Amirouchene-Angelozzi N, Swanton C, Bardelli A. Tumor evolution as a therapeutic target. Cancer Discov. 2017:10.1158/2159-8290.CD-17-0343.  pmid:28729406
+View Article
+PubMed/NCBI
+Google Scholar
+45.
+Maley CC, Szabo E, Reid BJ. Somatic evolution in neoplastic progression and cancer prevention. In: Fitzgerald RC, editor. Pre-invasive disease: pathogenesis and clinical management. New York, NY: Springer New York; 2011. p. 111–27.
+46.
+Dawkins R. The selfish gene. 4th ed. London, England: Oxford University Press; 2016.
+47.
+Laplane L, Maley CC. The evolutionary theory of cancer: challenges and potential solutions. Nat Rev Cancer. 2024;24(10):718–33.  pmid:39256635
+View Article
+PubMed/NCBI
+Google Scholar
+48.
+Miroshnychenko D, Baratchart E, Ferrall-Fairbanks MC, Velde RV, Laurie MA, Bui MM. Spontaneous cell fusions as a mechanism of parasexual recombination in tumour cell populations. Nat Ecol Evol. 2021;5:379–91.
+View Article
+Google Scholar
+49.
+SPRIGGS AI, BODDINGTON MM, CLARKE CM. Chromosomes of human cancer cells. Br Med J. 1962;2(5317):1431–5.  pmid:13978541
+View Article
+PubMed/NCBI
+Google Scholar
+50.
+Lange JT, Rose JC, Chen CY, Pichugin Y, Xie L, Tang J, et al. The evolutionary dynamics of extrachromosomal DNA in human cancers. Nat Genet. 2022;54(10):1527–33.  pmid:36123406
+View Article
+PubMed/NCBI
+Google Scholar
+51.
+Bailey C, Pich O, Thol K, Watkins TBK, Luebeck J, Rowan A, et al. Origins and impact of extrachromosomal DNA. Nature. 2024;635(8037):193–200.  pmid:39506150
+View Article
+PubMed/NCBI
+Google Scholar
+52.
+Turner KM, Deshpande V, Beyter D, Koga T, Rusert J, Lee C, et al. Extrachromosomal oncogene amplification drives tumour evolution and genetic heterogeneity. Nature. 2017;543(7643):122–5.  pmid:28178237
+View Article
+PubMed/NCBI
+Google Scholar
+53.
+Hung KL, Luebeck J, Dehkordi SR, Colón CI, Li R, Wong IT-L, et al. Targeted profiling of human extrachromosomal DNA by CRISPR-CATCH. Nat Genet. 2022;54(11):1746–54.  pmid:36253572
+View Article
+PubMed/NCBI
+Google Scholar
+54.
+Chamorro González R, Conrad T, Stöber MC, Xu R, Giurgiu M, Rodriguez-Fos E. Parallel sequencing of extrachromosomal circular DNAs and transcriptomes in single cancer cells. Nat Genet. 2023;55:880–90.
+View Article
+Google Scholar
+55.
+L’Abbate A, Macchia G, D’Addabbo P, Lonoce A, Tolomeo D, Trombetta D, et al. Genomic organization and evolution of double minutes/homogeneously staining regions with MYC amplification in human cancer. Nucleic Acids Res. 2014;42(14):9131–45.  pmid:25034695
+View Article
+PubMed/NCBI
+Google Scholar
+56.
+Bergstrom EN, Luebeck J, Petljak M, Khandekar A, Barnes M, Zhang T, et al. Mapping clustered mutations in cancer reveals APOBEC3 mutagenesis of ecDNA. Nature. 2022;602(7897):510–7.  pmid:35140399
+View Article
+PubMed/NCBI
+Google Scholar
+57.
+Yan X, Mischel P, Chang H. Extrachromosomal DNA in cancer. Nat Rev Cancer. 2024;24(4):261–73.  pmid:38409389
+View Article
+PubMed/NCBI
+Google Scholar
+58.
+Ilić M, Zaalberg IC, Raaijmakers JA, Medema RH. Life of double minutes: generation, maintenance, and elimination. Chromosoma. 2022;131(3):107–25.  pmid:35487993
+View Article
+PubMed/NCBI
+Google Scholar
+59.
+Jaworski JJ, Pfuderer PL, Czyz P, Petris G, Boemo MA, Sale JE. ecDNA replication is disorganised and vulnerable to replication stress. bioRxiv. 2025.
+View Article
+Google Scholar
+60.
+Ji W, Bian Z, Yu Y, Yuan C, Liu Y, Yu L, et al. Expulsion of micronuclei containing amplified genes contributes to a decrease in double minute chromosomes from malignant tumor cells. Int J Cancer. 2014;134(6):1279–88.  pmid:24027017
+View Article
+PubMed/NCBI
+Google Scholar
+61.
+Luebeck J, Ng AWT, Galipeau PC, Li X, Sanchez CA, Katz-Summercorn AC, et al. Extrachromosomal DNA in the cancerous transformation of Barrett’s oesophagus. Nature. 2023;616(7958):798–805.  pmid:37046089
+View Article
+PubMed/NCBI
+Google Scholar
+62.
+Alt FW, Kellems RE, Bertino JR, Schimke RT. Selective multiplication of dihydrofolate reductase genes in methotrexate-resistant variants of cultured murine cells. J Biol Chem. 1978;253(5):1357–70. pmid:627542
+View Article
+PubMed/NCBI
+Google Scholar
+63.
+Nathanson DA, Gini B, Mottahedeh J, Visnyei K, Koga T, Gomez G, et al. Targeted therapy resistance mediated by dynamic regulation of extrachromosomal mutant EGFR DNA. Science. 2014;343(6166):72–6.  pmid:24310612
+View Article
+PubMed/NCBI
+Google Scholar
+64.
+Friedli M, Trono D. The developmental control of transposable elements and the evolution of higher species. Annu Rev Cell Dev Biol. 2015;31:429–51.  pmid:26393776
+View Article
+PubMed/NCBI
+Google Scholar
+65.
+Guo Y, Li TD, Modzelewski AJ, Siomi H. Retrotransposon renaissance in early embryos. Trends Genet. 2024;40(1):39–51.  pmid:37949723
+View Article
+PubMed/NCBI
+Google Scholar
+66.
+Liu N, Lee CH, Swigut T, Grow E, Gu B, Bassik MC, et al. Selective silencing of euchromatic L1s revealed by genome-wide screens for L1 regulators. Nature. 2018;553(7687):228–32.  pmid:29211708
+View Article
+PubMed/NCBI
+Google Scholar
+67.
+Karimi MM, Goyal P, Maksakova IA, Bilenky M, Leung D, Tang JX, et al. DNA methylation and SETDB1/H3K9me3 regulate predominantly distinct sets of genes, retroelements, and chimeric transcripts in mESCs. Cell Stem Cell. 2011;8(6):676–87.  pmid:21624812
+View Article
+PubMed/NCBI
+Google Scholar
+68.
+Lee E, Iskow R, Yang L, Gokcumen O, Haseley P, Luquette LJ 3rd, et al. Landscape of somatic retrotransposition in human cancers. Science. 2012;337(6097):967–71.  pmid:22745252
+View Article
+PubMed/NCBI
+Google Scholar
+69.
+Helman E, Lawrence MS, Stewart C, Sougnez C, Getz G, Meyerson M. Somatic retrotransposition in human cancer revealed by whole-genome and exome sequencing. Genome Res. 2014;24(7):1053–63.  pmid:24823667
+View Article
+PubMed/NCBI
+Google Scholar
+70.
+Sun S, You E, Hong J, Hoyos D, Del Priore I, Tsanov KM, et al. Cancer cells restrict immunogenicity of retrotransposon expression via distinct mechanisms. Immunity. 2024;57(12):2879–94.e11.  pmid:39577413
+View Article
+PubMed/NCBI
+Google Scholar
+71.
+Cordaux R, Batzer MA. The impact of retrotransposons on human genome evolution. Nat Rev Genet. 2009;10(10):691–703.  pmid:19763152
+View Article
+PubMed/NCBI
+Google Scholar
+72.
+Chatre L, Ricchetti M. Prevalent coordination of mitochondrial DNA transcription and initiation of replication with the cell cycle. Nucleic Acids Res. 2013;41(5):3068–78.  pmid:23345615
+View Article
+PubMed/NCBI
+Google Scholar
+73.
+Holloszy JO. Biochemical adaptations in muscle. J Biol Chem. 1967;242:2278–82.
+View Article
+Google Scholar
+74.
+Diot A, Hinks-Roberts A, Lodge T, Liao C, Dombi E, Morten K, et al. A novel quantitative assay of mitophagy: combining high content fluorescence microscopy and mitochondrial DNA load to quantify mitophagy and identify novel pharmacological tools against pathogenic heteroplasmic mtDNA. Pharmacol Res. 2015;100:24–35.  pmid:26196248
+View Article
+PubMed/NCBI
+Google Scholar
+75.
+Liao S, Chen L, Song Z, He H. The fate of damaged mitochondrial DNA in the cell. Biochim Biophys Acta Mol Cell Res. 2022;1869:119233.
+View Article
+Google Scholar
+76.
+Dubie JJ, Caraway AR, Stout MM, Katju V, Bergthorsson U. The conflict within: origin, proliferation and persistence of a spontaneously arising selfish mitochondrial genome. Philos Trans R Soc Lond B Biol Sci. 2020;375(1790):20190174.  pmid:31787044
+View Article
+PubMed/NCBI
+Google Scholar
+77.
+Ma H, O’Farrell PH. Selfish drive can trump function when animal mitochondrial genomes compete. Nat Genet. 2016;48(7):798–802.  pmid:27270106
+View Article
+PubMed/NCBI
+Google Scholar
+78.
+Camus MF, Dhawanjewar AS. Multilevel selection on mitochondrial genomes. Curr Opin Genet Dev. 2023;80:102050.  pmid:37262983
+View Article
+PubMed/NCBI
+Google Scholar
+79.
+Havird JC, Forsythe ES, Williams AM, Werren JH, Dowling DK, Sloan DB. Selfish mitonuclear conflict. Curr Biol. 2019;29(11):R496–511.  pmid:31163164
+View Article
+PubMed/NCBI
+Google Scholar
+80.
+Rand DM. Population genetics of the cytoplasm and the units of selection on mitochondrial DNA in
+Drosophila melanogaster
+. Genetica. 2011;139(5):685–97.  pmid:21538136
+View Article
+PubMed/NCBI
+Google Scholar
+81.
+MacAlpine DM, Kolesar J, Okamoto K, Butow RA, Perlman PS. Replication and preferential inheritance of hypersuppressive petite mitochondrial DNA. EMBO J. 2001;20(7):1807–17.  pmid:11285243
+View Article
+PubMed/NCBI
+Google Scholar
+82.
+Ellison CK, Burton RS. Cytonuclear conflict in interpopulation hybrids: the role of RNA polymerase in mtDNA transcription and replication. J Evol Biol. 2010;23(3):528–38.  pmid:20070459
+View Article
+PubMed/NCBI
+Google Scholar
+83.
+Wolf DP, Hayama T, Mitalipov S. Mitochondrial genome inheritance and replacement in the human germline. EMBO J. 2017;36(15):2177–81.  pmid:28679504
+View Article
+PubMed/NCBI
+Google Scholar
+84.
+Milenkovic D, Matic S, Kühl I, Ruzzenente B, Freyer C, Jemt E, et al. TWINKLE is an essential mitochondrial helicase required for synthesis of nascent D-loop strands and complete mtDNA replication. Hum Mol Genet. 2013;22(10):1983–93.  pmid:23393161
+View Article
+PubMed/NCBI
+Google Scholar
+85.
+Valdebenito S, Malik S, Luu R, Loudig O, Mitchell M, Okafo G, et al. Tunneling nanotubes, TNT, communicate glioblastoma with surrounding non-tumor astrocytes to adapt them to hypoxic and metabolic tumor conditions. Sci Rep. 2021;11(1):14556.  pmid:34267246
+View Article
+PubMed/NCBI
+Google Scholar
+86.
+Pasquier J, Guerrouahen BS, Al Thawadi H, Ghiabi P, Maleki M, Abu-Kaoud N, et al. Preferential transfer of mitochondria from endothelial to cancer cells through tunneling nanotubes modulates chemoresistance. J Transl Med. 2013;11:94.  pmid:23574623
+View Article
+PubMed/NCBI
+Google Scholar
+87.
+Moschoi R, Imbert V, Nebout M, Chiche J, Mary D, Prebet T. Protective mitochondrial transfer from bone marrow stromal cells to acute myeloid leukemic cells during chemotherapy. Blood. 2016;128:253–64.
+View Article
+Google Scholar
+88.
+Desir S, O’Hare P, Vogel RI, Sperduto W, Sarkari A, Dickson EL, et al. Chemotherapy-induced tunneling nanotubes mediate intercellular drug efflux in pancreatic cancer. Sci Rep. 2018;8(1):9484.  pmid:29930346
+View Article
+PubMed/NCBI
+Google Scholar
+89.
+Caicedo A, Fritz V, Brondello J-M, Ayala M, Dennemont I, Abdellaoui N, et al. MitoCeption as a new tool to assess the effects of mesenchymal stem/stromal cell mitochondria on cancer cell metabolism and function. Sci Rep. 2015;5:9073.  pmid:25766410
+View Article
+PubMed/NCBI
+Google Scholar
+90.
+Spees JL, Olson SD, Whitney MJ, Prockop DJ. Mitochondrial transfer between cells can rescue aerobic respiration. Proc Natl Acad Sci U S A. 2006;103(5):1283–8.  pmid:16432190
+View Article
+PubMed/NCBI
+Google Scholar
+91.
+Tan AS, Baty JW, Dong L-F, Bezawork-Geleta A, Endaya B, Goodwin J, et al. Mitochondrial genome acquisition restores respiratory function and tumorigenic potential of cancer cells without mitochondrial DNA. Cell Metab. 2015;21(1):81–94.  pmid:25565207
+View Article
+PubMed/NCBI
+Google Scholar
+92.
+Michod RE, Herron MD. Cooperation and conflict during evolutionary transitions in individuality. J Evol Biol. 2006:1406–9.
+View Article
+Google Scholar
+93.
+Ferlay J, Colombet M, Soerjomataram I, Parkin DM, Piñeros M, Znaor A. Cancer statistics for the year 2020: an overview. Int J Cancer. 2021;149:778–89.
+View Article
+Google Scholar
+94.
+Cairns J. Mutation selection and the natural history of cancer. Nature. 1975;255(5505):197–200.  pmid:1143315
+View Article
+PubMed/NCBI
+Google Scholar
+95.
+Gehart H, Clevers H. Tales from the crypt: new insights into intestinal stem cells. Nat Rev Gastroenterol Hepatol. 2019;16(1):19–34.  pmid:30429586
+View Article
+PubMed/NCBI
+Google Scholar
+96.
+Wasan HS, Park HS, Liu KC, Mandir NK, Winnett A, Sasieni P, et al. APC in the regulation of intestinal crypt fission. J Pathol. 1998;185(3):246–55.  pmid:9771477
+View Article
+PubMed/NCBI
+Google Scholar
+97.
+Bruens L, Ellenbroek SIJ, van Rheenen J, Snippert HJ. In vivo imaging reveals existence of crypt fission and fusion in adult mouse intestine. Gastroenterology. 2017;153: 674–7.e3.
+View Article
+Google Scholar
+98.
+Baker A-M, Gabbutt C, Williams MJ, Cereser B, Jawad N, Rodriguez-Justo M, et al. Crypt fusion as a homeostatic mechanism in the human colon. Gut. 2019;68(11):1986–93.  pmid:30872394
+View Article
+PubMed/NCBI
+Google Scholar
+99.
+Greenow KR, Clarke AR, Jones RH. Chk1 deficiency in the mouse small intestine results in p53-independent crypt death and subsequent intestinal compensation. Oncogene. 2009;28(11):1443–53.  pmid:19169280
+View Article
+PubMed/NCBI
+Google Scholar
+100.
+Maley CC, Galipeau PC, Li X, Sanchez CA, Paulson TG, Reid BJ. Selectively advantageous mutations and hitchhikers in neoplasms: p16 lesions are selected in Barrett’s esophagus. Cancer Res. 2004;64(10):3414–27.  pmid:15150093
+View Article
+PubMed/NCBI
+Google Scholar
+101.
+Martincorena I, Roshan A, Gerstung M, Ellis P, Van Loo P, McLaren S, et al. Tumor evolution. High burden and pervasive positive selection of somatic mutations in normal human skin. Science. 2015;348(6237):880–6.  pmid:25999502
+View Article
+PubMed/NCBI
+Google Scholar
+102.
+Martincorena I, Fowler JC, Wabik A, Lawson ARJ, Abascal F, Hall MWJ, et al. Somatic mutant clones colonize the human esophagus with age. Science. 2018;362(6417):911–7.  pmid:30337457
+View Article
+PubMed/NCBI
+Google Scholar
+103.
+Compton Z, Hanlon K, Compton CC, Aktipis A, Maley CC. A Missing hallmark of cancer: dysregulation of differentiation. arXiv [q-bio.PE]. 2022. Available:
+http://arxiv.org/abs/2210.13343
+View Article
+Google Scholar
+104.
+Hanahan D. Hallmarks of cancer: new dimensions. Cancer Discov. 2022;12(1):31–46.  pmid:35022204
+View Article
+PubMed/NCBI
+Google Scholar
+105.
+Greaves M, Maley CC. Clonal evolution in cancer. Nature. 2012;481:306–13.
+View Article
+Google Scholar
+106.
+Sprouffske K, Athena Aktipis C, Radich JP, Carroll M, Nedelcu AM, Maley CC. An evolutionary explanation for the presence of cancer nonstem cells in neoplasms. Evol Appl. 2013;6(1):92–101.  pmid:23397439
+View Article
+PubMed/NCBI
+Google Scholar
+107.
+Greaves M. Cancer stem cells as “units of selection.” Evol Appl. 2013;6: 102–8.
+View Article
+Google Scholar
+108.
+Laplane L. Cancer stem cells: philosophy and therapies. Harvard University Press; 2016.
+109.
+Schiffman JD, White RM, Graham TA, Huang Q, Aktipis A. The Darwinian dynamics of motility and metastasis. In: Maley CC, Greaves M, editors. Frontiers in cancer research: evolutionary foundations, revolutionary directions. New York, NY: Springer New York; 2016. p. 135–176.
+110.
+Fidler IJ, Kripke ML. Metastasis results from preexisting variant cells within a malignant tumor. Science. 1977;197(4306):893–5.  pmid:887927
+View Article
+PubMed/NCBI
+Google Scholar
+111.
+Aceto N, Bardia A, Miyamoto DT, Donaldson MC, Wittner BS, Spencer JA, et al. Circulating tumor cell clusters are oligoclonal precursors of breast cancer metastasis. Cell. 2014;158(5):1110–22.  pmid:25171411
+View Article
+PubMed/NCBI
+Google Scholar
+112.
+Nagai T, Ishikawa T, Minami Y, Nishita M. Tactics of cancer invasion: solitary and collective invasion. J Biochem. 2020;167(4):347–55.  pmid:31926018
+View Article
+PubMed/NCBI
+Google Scholar
+113.
+Vilchez Mercedes SA, Bocci F, Levine H, Onuchic JN, Jolly MK, Wong PK. Nat Rev Cancer. 2021;21:592–604.
+View Article
+Google Scholar
+114.
+Pagès D-L, Dornier E, de Seze J, Gontran E, Maitra A, Maciejewski A, et al. Cell clusters adopt a collective amoeboid mode of migration in confined nonadhesive environments. Sci Adv. 2022;8(39):eabp8416.  pmid:36179021
+View Article
+PubMed/NCBI
+Google Scholar
+115.
+de Visser KE, Joyce JA. The evolving tumor microenvironment: from cancer initiation to metastatic outgrowth. Cancer Cell. 2023;41:374–403.
+View Article
+Google Scholar
+116.
+Germain PL, Laplane L. Metastasis as supra-cellular selection? A reply to Lean and Plutynski. Biol Philos. 2017;32:281–7.
+View Article
+Google Scholar
+117.
+Alves JM, Prado-López S, Cameselle-Teijeiro JM, Posada D. Rapid evolution and biogeographic spread in a colorectal cancer. Nat Commun. 2019;10(1):5139.  pmid:31723138
+View Article
+PubMed/NCBI
+Google Scholar
+118.
+El-Kebir M, Satas G, Raphael BJ. Inferring parsimonious migration histories for metastatic cancers. Nat Genet. 2018;50(5):718–26.  pmid:29700472
+View Article
+PubMed/NCBI
+Google Scholar
+119.
+Siegel RL, Giaquinto AN, Jemal A. Cancer statistics, 2024. CA Cancer J Clin. 2024;74:12–49.
+View Article
+Google Scholar
+120.
+Brown JS, Aktipis CA. Inclusive fitness effects can select for cancer suppression into old age. Philos Trans R Soc Lond B Biol Sci. 2015;370(1673):20150160.  pmid:26056358
+View Article
+PubMed/NCBI
+Google Scholar
+121.
+Chapman SN, Lahdenperä M, Pettay JE, Lynch RF, Lummaa V. Offspring fertility and grandchild survival enhanced by maternal grandmothers in a pre-industrial human society. Sci Rep. 2021;11(1):3652.  pmid:33574488
+View Article
+PubMed/NCBI
+Google Scholar
+122.
+Domazet-Loso T, Tautz D. Phylostratigraphic tracking of cancer genes suggests a link to the emergence of multicellularity in metazoa. BMC Biol. 2010;8:66.  pmid:20492640
+View Article
+PubMed/NCBI
+Google Scholar
+123.
+Aktipis A. The cheating cell. Princeton University Press; 2020.
+124.
+Lean C, Plutynski A. The evolution of failure: explaining cancer as an evolutionary process. Biol Philos. 2016;31:39–57.
+View Article
+Google Scholar
+125.
+Boddy AM, Kokko H, Breden F, Wilkinson GS, Aktipis CA. Cancer susceptibility and reproductive trade-offs: a model of the evolution of cancer defences. Philos Trans R Soc Lond B Biol Sci. 2015;370(1673):20140220.  pmid:26056364
+View Article
+PubMed/NCBI
+Google Scholar
+126.
+Crespi BJ, Summers K. Positive selection in the evolution of cancer. Biol Rev Camb Philos Soc. 2006;81(3):407–24.  pmid:16762098
+View Article
+PubMed/NCBI
+Google Scholar
+127.
+Sun T, Plutynski A, Ward S, Rubin JB. An integrative view on sex differences in brain tumors. Cell Mol Life Sci. 2015;72(17):3323–42.  pmid:25985759
+View Article
+PubMed/NCBI
+Google Scholar
+128.
+Smith KR, Hanson HA, Mineau GP, Buys SS. Effects of BRCA1 and BRCA2 mutations on female fertility. Proc Biol Sci. 2012;279(1732):1389–95.  pmid:21993507
+View Article
+PubMed/NCBI
+Google Scholar
+129.
+Vagnini LD, Renzi A, Petersen CG, Dieamant F, Oliveira JBA, Canas M do CT, et al. Correlation of TP53 (rs1625895), TP73 (rs3765730), MMP9 (rs17576), and MTHFR (rs868014) polymorphisms with low ovarian reserve. Eur J Obstet Gynecol Reprod Biol. 2022;269:132–7.  pmid:34953598
+View Article
+PubMed/NCBI
+Google Scholar
+130.
+Paskulin D d’Avila, Paixão-Côrtes VR, Hainaut P, Bortolini MC, Ashton-Prolla P. The TP53 fertility network. Genet Mol Biol. 2012;35(4 (suppl)):939–46.  pmid:23412905
+View Article
+PubMed/NCBI
+Google Scholar
+131.
+Tagliani-Ribeiro A, Paskulin DD, Oliveira M, Zagonel-Oliveira M, Longo D, Ramallo V, et al. High twinning rate in Cândido Godói: a new role for p53 in human fertility. Hum Reprod. 2012;27(9):2866–71.  pmid:22736329
+View Article
+PubMed/NCBI
+Google Scholar
+132.
+Assad Samani L, Javadirad S-M, Parsafar S, Tabatabaeian H, Ghaedi K, Azadeh M. TP53 rs1625895 is related to breast cancer incidence and early death in Iranian population. Indian J Clin Biochem. 2019;34(4):485–9.  pmid:31686737
+View Article
+PubMed/NCBI
+Google Scholar
+133.
+Szymanowska A, Jassem E, Dziadziuszko R, Borg A, Limon J, Kobierska-Gulida G, et al. Increased risk of non-small cell lung cancer and frequency of somatic TP53 gene mutations in Pro72 carriers of TP53 Arg72Pro polymorphism. Lung Cancer. 2006;52(1):9–14.  pmid:16499995
+View Article
+PubMed/NCBI
+Google Scholar
+134.
+Qiao Q, Hu W. The association between TP53 Arg72Pro polymorphism and lung cancer susceptibility: evidence from 30,038 subjects. Lung. 2013;191(4):369–77.  pmid:23595658
+View Article
+PubMed/NCBI
+Google Scholar
+135.
+Compton ZT, Mellon W, Harris VK, Rupp S, Mallo D, Kapsetaki SE, et al. Cancer prevalence across vertebrates. Cancer Discovery. 2025;15:227–44.
+View Article
+Google Scholar
+136.
+Aktipis A, Maley CC. Cooperation and cheating as innovation: insights from cellular societies. Philos Trans R Soc Lond B Biol Sci. 2017;372(1735):20160421.  pmid:29061894
+View Article
+PubMed/NCBI
+Google Scholar
+137.
+Aktipis CA, Boddy AM, Jansen G, Hibner U, Hochberg ME, Maley CC, et al. Cancer across the tree of life: cooperation and cheating in multicellularity. Philos Trans R Soc Lond B Biol Sci. 2015;370(1673):20140219.  pmid:26056363
+View Article
+PubMed/NCBI
+Google Scholar
+138.
+Aktipis CA, Nesse RM. Evolutionary foundations for cancer biology. Evol Appl. 2013;6(1):144–59.  pmid:23396885
+View Article
+PubMed/NCBI
+Google Scholar
+139.
+Holldobler B, Wilson EO. The superorganism: the beauty elegance and strangeness of insect societies. 2009. Available from:
+https://books.google.com/books?hl=en&lr=&id=Eyl-qJ0HizoC&oi=fnd&pg=PR16&dq=The+Superorganism+Hoelldobler+Wilson&ots=QrMWdGt-J5&sig=rVZh8EioDBtApVez4jyrrWeFW0M
+View Article
+Google Scholar
+140.
+Seeley TD. Honey bee colonies are group-level adaptive units. Am Nat. 1997;150(Suppl 1):S22–41.
+View Article
+Google Scholar
+141.
+Foster KR, Wenseleers T, Ratnieks FLW. Kin selection is the key to altruism. Trends Ecol Evol. 2006;21(2):57–60.  pmid:16701471
+View Article
+PubMed/NCBI
+Google Scholar
+142.
+Wilson DS, Sober E. Reviving the superorganism. J Theor Biol. 1989;136(3):337–56.  pmid:2811397
+View Article
+PubMed/NCBI
+Google Scholar
+143.
+Bourke AF. Inclusive fitness and the major transitions in evolution. Curr Opin Insect Sci. 2019;34:61–7.  pmid:31247419
+View Article
+PubMed/NCBI
+Google Scholar
+144.
+Kirkwood TB. The disposable soma theory. The evolution of senescence in the tree of life. 2017;552:23–39.
+145.
+Korb J. Termites and other social insects as emerging model organisms of ageing research: how to achieve a long lifespan and a high fecundity. J Exp Biol. 2024;227(22):jeb246497.  pmid:39535049
+View Article
+PubMed/NCBI
+Google Scholar
+146.
+Keller L, Genoud M. Extraordinary lifespans in ants: a test of evolutionary theories of ageing. Nature. 1997;389:958–60.
+View Article
+Google Scholar
+147.
+Korb J, Heinze J. Ageing and sociality: why, when and how does sociality change ageing patterns? Philos Trans R Soc Lond B Biol Sci. 2021;376(1823):20190727.  pmid:33678019
+View Article
+PubMed/NCBI
+Google Scholar
+148.
+Shepard A, Kissil J. The use of non-traditional models in the study of cancer resistance—the case of the naked mole rat. Oncogene. 2020;39:5083–97.
+View Article
+Google Scholar
+149.
+Brohus M, Gorbunova V, Faulkes CG, Overgaard MT, Conover CA. The insulin-like growth factor system in the long-lived naked mole-rat. PLoS One. 2015;10(12):e0145587.  pmid:26694858
+View Article
+PubMed/NCBI
+Google Scholar
+150.
+Elsner D, Meusemann K, Korb J. Longevity and transposon defense, the case of termite reproductives. Proc Natl Acad Sci U S A. 2018;115(21):5504–9.  pmid:29735660
+View Article
+PubMed/NCBI
+Google Scholar
+151.
+Korb J, Heinze J. Multilevel selection and social evolution of insect societies. Sci Nat. 2004;91(6):291–304.  pmid:15241605
+View Article
+PubMed/NCBI
+Google Scholar
+152.
+Smith AA, Hölldober B, Liebig J. Cuticular hydrocarbons reliably identify cheaters and allow enforcement of altruism in a social insect. Curr Biol. 2009;19(1):78–81.  pmid:19135369
+View Article
+PubMed/NCBI
+Google Scholar
+153.
+Ratnieks FLW, Visscher PK. Worker policing in the honeybee. Nature. 1989;342:796–7.
+View Article
+Google Scholar
+154.
+Dobata S, Tsuji K. A cheater lineage in a social insect: implications for the evolution of cooperation in the wild. Commun Integr Biol. 2009;2:67–70.
+View Article
+Google Scholar
+155.
+Helantera H, Sundstrom L. Worker reproduction in Formica ants. Am Nat. 2007;170(1):E14-25.  pmid:17853986
+View Article
+PubMed/NCBI
+Google Scholar
+156.
+Martin SJ, Beekman M, Wossler TC, Ratnieks FLW. Parasitic Cape honeybee workers,
+Apis mellifera capensis
+, evade policing. Nature. 2002;415:163–5.
+View Article
+Google Scholar
+157.
+Buschinger A. Social parasitism among ants: a review (Hymenoptera: Formicidae). Myrmecological News. 2009;12:219–35.
+View Article
+Google Scholar
+158.
+Baez-Ortega A, Gori K, Strakova A, Allen JL, Allum KM, Bansse-Issa L, et al. Somatic evolution and global expansion of an ancient transmissible cancer lineage. Science. 2019;365:eaau9923.
+View Article
+Google Scholar
+159.
+Pearse A-M, Swift K. Allograft theory: transmission of devil facial-tumour disease. Nature. 2006;439(7076):549.  pmid:16452970
+View Article
+PubMed/NCBI
+Google Scholar
+160.
+Pye RJ, Pemberton D, Tovar C, Tubio JMC, Dun KA, Fox S, et al. A second transmissible cancer in Tasmanian devils. Proc Natl Acad Sci U S A. 2016;113(2):374–9.  pmid:26711993
+View Article
+PubMed/NCBI
+Google Scholar
+161.
+Hölldobler B, Kwapich CL. The guests of ants. London, England: Harvard University Press; 2022.
+162.
+Metzger MJ, Villalba A, Carballal MJ, Iglesias D, Sherry J, Reinisch C, et al. Widespread transmission of independent cancer lineages within multiple bivalve species. Nature. 2016;534(7609):705–9.  pmid:27338791
+View Article
+PubMed/NCBI
+Google Scholar
+163.
+Yonemitsu MA, Giersch RM, Polo-Prieto M, Hammel M, Simon A, Cremonte F, et al. A single clonal lineage of transmissible cancer identified in two marine mussel species in South America and Europe. Elife. 2019;8.
+View Article
+Google Scholar
+164.
+Shpak M, Lu J. An evolutionary genetic perspective on cancer biology. Annu Rev Ecol Evol Syst. 2016;47:25–49.
+View Article
+Google Scholar
+165.
+Dujon AM, Gatenby RA, Bramwell G, MacDonald N, Dohrmann E, Raven N, et al. Transmissible cancers in an evolutionary perspective. iScience. 2020;23(7):101269.  pmid:32592998
+View Article
+PubMed/NCBI
+Google Scholar
+166.
+Myllymaa L, Lehtonen J. Kin selection in interactions between gametes: gamete competition, gamete limitation, and sex allocation. Front Ecol Evol. 2023;11.
+View Article
+Google Scholar
+167.
+Schrader L, Schmitz J. The impact of transposable elements in adaptive evolution. Mol Ecol. 2019;28(6):1537–49.  pmid:30003608
+View Article
+PubMed/NCBI
+Google Scholar
+168.
+Betancourt AJ, Wei KH-C, Huang Y, Lee YCG. Causes and consequences of varying transposable element activity: an evolutionary perspective. Annu Rev Genomics Hum Genet. 2024;25(1):1–25.  pmid:38603565
+View Article
+PubMed/NCBI
+Google Scholar
+169.
+Shen YJ, Le Bert N, Chitre AA, Koo CX, Nga XH, Ho SSW, et al. Genome-derived cytosolic DNA mediates type I interferon-dependent rejection of B cell lymphoma cells. Cell Rep. 2015;11(3):460–73.  pmid:25865892
+View Article
+PubMed/NCBI
+Google Scholar
+170.
+Roulois D, Loo Yau H, Singhania R, Wang Y, Danesh A, Shen SY. DNA-demethylating agents target colorectal cancer cells by inducing viral mimicry by endogenous transcripts. Cell. 2015;162:961–73.
+View Article
+Google Scholar
+171.
+Shukla R, Upton KR, Muñoz-Lopez M, Gerhardt DJ, Fisher ME, Nguyen T, et al. Endogenous retrotransposition activates oncogenic pathways in hepatocellular carcinoma. Cell. 2013;153(1):101–11.  pmid:23540693
+View Article
+PubMed/NCBI
+Google Scholar
+172.
+Simó-Riudalbas L, Offner S, Planet E, Duc J, Abrami L, Dind S. Transposon-activated POU5F1B promotes colorectal cancer growth and metastasis. Nat Commun. 2022;13:4913.
+View Article
+Google Scholar
+173.
+Shtolz N, Mishmar D. The mitochondrial genome–on selective constraints and signatures at the organism, cell, and single mitochondrion levels. Front Ecol Evol. 2019;7.
+View Article
+Google Scholar
+174.
+Chen J, Sprouffske K, Huang Q, Maley CC. Solving the puzzle of metastasis: the evolution of cell migration in neoplasms. PLoS One. 2011;6(4):e17933.  pmid:21556134
+View Article
+PubMed/NCBI
+Google Scholar
+175.
+Aktipis CA, Maley CC, Pepper JW. Dispersal evolution in neoplasms: the role of disregulated metabolism in the evolution of cell motility. Cancer Prev Res (Phila). 2012;5(2):266–75.  pmid:21930797
+View Article
+PubMed/NCBI
+Google Scholar
+176.
+Etzioni R, Urban N, Ramsey S, McIntosh M, Schwartz S, Reid BJ, et al. The case for early detection. Nat Rev Cancer. 2003;3:1–10.
+View Article
+Google Scholar
+177.
+De Luise M, Girolimetti G, Okere B, Porcelli AM, Kurelac I, Gasparre G. Molecular and metabolic features of oncocytomas: seeking the blueprints of indolent cancers. Biochim Biophys Acta Bioenerg. 2017;1858(8):591–601.  pmid:28115060
+View Article
+PubMed/NCBI
+Google Scholar
+178.
+Joshi S, Tolkunov D, Aviv H, Hakimi AA, Yao M, Hsieh JJ, et al. The genomic landscape of renal oncocytoma identifies a metabolic barrier to tumorigenesis. Cell Rep. 2015;13(9):1895–908.  pmid:26655904
+View Article
+PubMed/NCBI
+Google Scholar
+Download PDF
+Citation
+XML
+Print
+Share
+Reddit
+Facebook
+LinkedIn
+Mendeley
+Bluesky
+Email
+Related PLOS Articles
+has COMMENTARY
+Unveiling cancer crosstalk: Mapping complexity across time and space
+View Page
+PDF
+Advertisement
+Subject Areas
+?
+For more information about PLOS Subject Areas, click
+here
+.
+We want your feedback.
+Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!
+Cancers and neoplasms
+Is the Subject Area
+"Cancers and neoplasms"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Natural selection
+Is the Subject Area
+"Natural selection"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Metastasis
+Is the Subject Area
+"Metastasis"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Mitochondria
+Is the Subject Area
+"Mitochondria"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Malignant tumors
+Is the Subject Area
+"Malignant tumors"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Retrotransposons
+Is the Subject Area
+"Retrotransposons"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Cancer stem cells
+Is the Subject Area
+"Cancer stem cells"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Esophageal cancer
+Is the Subject Area
+"Esophageal cancer"
+applicable to this article?
+Yes
+No
+Thanks for your feedback.
+Publications
+PLOS Aging and Health
+PLOS Biology
+PLOS Climate
+PLOS Complex Systems
+PLOS Computational Biology
+PLOS Digital Health
+PLOS Ecosystems
+PLOS Genetics
+PLOS Global Public Health
+PLOS Medicine
+PLOS Mental Health
+PLOS Neglected Tropical Diseases
+PLOS One
+PLOS Pathogens
+PLOS Sustainability and Transformation
+PLOS Water
+Home
+Blogs
+Collections
+Give feedback
+LOCKSS
+Privacy Policy
+Terms of Use
+Advertise
+Media Inquiries
+Contact
+PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in California, US

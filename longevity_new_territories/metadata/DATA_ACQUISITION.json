@@ -1,0 +1,42 @@
+[
+  {
+    "id": "N01_supporting_values",
+    "file": "data/N01_supporting_values.bin",
+    "url": "https://www.jci.org/articles/view/191855/sd/4",
+    "resolved_url": "https://www.jci.org/articles/view/191855/sd/4",
+    "http": 503,
+    "bytes": 189,
+    "magic": "3c68323e5468697320776562",
+    "sha256": "f2be74458da1b827c8613b9a839efd766c8e538e7cf0f72e35e6f11431aad4d4"
+  },
+  {
+    "id": "N01_supplement",
+    "file": "data/N01_supplement.bin",
+    "url": "https://www.jci.org/articles/view/191855/sd/1",
+    "resolved_url": "https://www.jci.org/articles/view/191855/sd/1",
+    "http": 503,
+    "bytes": 189,
+    "magic": "3c68323e5468697320776562",
+    "sha256": "f2be74458da1b827c8613b9a839efd766c8e538e7cf0f72e35e6f11431aad4d4"
+  },
+  {
+    "id": "N02_Fig5",
+    "file": "data/N02_Fig5.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM11_ESM.xlsx",
+    "resolved_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-026-02025-4/MediaObjects/41556_2026_2025_MOESM11_ESM.xlsx",
+    "http": 200,
+    "bytes": 24521,
+    "magic": "504b03041400060008000000",
+    "sha256": "6a86a5781e728d84b2297aaeca67e67dc15fec2f31663d58faead5cf3dcc4c0d"
+  },
+  {
+    "id": "N03_source",
+    "file": "data/N03_source.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-76373-y/MediaObjects/41467_2026_76373_MOESM4_ESM.xlsx",
+    "resolved_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-76373-y/MediaObjects/41467_2026_76373_MOESM4_ESM.xlsx",
+    "http": 200,
+    "bytes": 10768337,
+    "magic": "504b03041400060008000000",
+    "sha256": "00dcf7173650d3ded5d7d404d7e708420c177a55a3d9780ea3556be0ab14251e"
+  }
+]
