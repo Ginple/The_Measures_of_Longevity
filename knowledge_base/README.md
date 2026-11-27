@@ -52,7 +52,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 
 ## 同日续研：两篇时钟研究的估计量
 
-[时钟研究比较与试验对比](CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md)已读 Sanchez 生活方式 RCT 综述全文主要方法和结果：CALERIE 因平均年龄被排除，DO-HEALTH 汇总运动而非 omega-3；表格、原始试验和 TranslAGE 样本重叠未逐条复核。X33 保持 open。
+[时钟研究比较与试验对比](CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md)已读 Sanchez 生活方式 RCT 综述全文主要方法和结果：CALERIE 因平均年龄被排除，DO-HEALTH 汇总运动而非 omega-3；表格、原始试验和 TranslAGE 样本重叠未逐条复核。X33 保持 open。进一步[核查 DO-HEALTH 单位换算](DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md)：组间标准化差值的中心项是否抵消需作者解释（X38），不能把时钟月数当寿命收益。
 
 ## 同日续研：分析代码与多重检验
 
