@@ -162,3 +162,8 @@ X44 后续：依据 PR2@b8434e22 线索，核登记当前结果及标注2014的�
 X60 后续：按 PR2@b8434e22 的线索重新核 S3，若57（29.8%）由整数分母最近舍入至一位小数产生，分母只可能191；这不证明实际分母或样本身份，其他口径仍可能。[条件舍入与完整例界](CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)同时列190/191下不同假设界；X60仍开放。
 
 | X87 | 2026-11-27 | CANTOS TET2 分层临床事件信号与效应交互、同源报告 | [2022基因子研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988022/)合并三剂量，TET2 CHIP层HR .38（.15–.96），名义P=.04，对无CHIP交互P=.14；[2023报告](https://pmc.ncbi.nlm.nih.gov/articles/PMC10758744/)是同母试验蛋白与贫血分析 | 组内显著不证明层间差异；交互不显著不证明相同；合并剂量与单剂量、蛋白指标与MACE不同，重复使用母试验不是独立复制 | [续审](CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)；核预设模型、事件、检验家族与独立前瞻性验证 | open |
+
+| X88 | 2026-11-27 | CALERIE脂质中介模型的治疗/时间暴露、样本与估计目标 | [2026 Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC13482398/)称中介模型treatment为暴露，又将ACME描述为time间接效应、按组分析；SEM亦定义time路径 | 可能为不同模型或报告省略；组内时间间接效应不自动是随机治疗组间中介效应；未取得执行代码及完整补表，不能认定实现错误 | [定向续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，核各表模型、时点、数据流及作者说明 | open |
+| X89 | 2026-11-27 | CALERIE脂质中介预注册与多重性校正的版本和家族 | [同行评议文件](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf)作者称此分析事后、未预注册及未做全代谢物全局FDR；回应中一段旧稿S16措辞称多重校正后仍显著，最终正文敏感性段未作同样声明 | 全局与局部校正、不同阶段/版本可能并存；未核S16及代码，不能断言没有任何局部校正、每一结果为假或所有试验终点未预设 | [定向续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，核补表、代码、检验家族和版本 | open |
+
+X60 又一线索：[脂质研究的公开评议回复](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf) S17临床缺失表中AUC insulin基线57、12月33、24月6，与轨迹文S3相同；基线29.8429%与191分母算术相容。两报告样本身份与表格生成过程未核，不能将相同摘要计数当同一个样本的证据。[续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)；X60仍开放。

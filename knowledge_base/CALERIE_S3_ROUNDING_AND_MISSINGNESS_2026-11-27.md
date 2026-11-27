@@ -30,3 +30,5 @@
 [精确分数计算器](experiments/rounded_percentage_denominators.py)与[测试](experiments/test_rounded_percentage_denominators.py)择取自PR2固定头对应[脚本](https://github.com/Ginple/The_Measures_of_Longevity/blob/b8434e22ec62ba21814546560a33fc38f4939e9f/knowledge_base/experiments/rounded_percentage_denominators.py)和[测试](https://github.com/Ginple/The_Measures_of_Longevity/blob/b8434e22ec62ba21814546560a33fc38f4939e9f/tests/test_rounded_percentage_denominators.py)，并补空观测拒绝、纯十进制输入校验、交集和不相容行测试。输入为转录的汇总计数与显示百分比，不包含身份或原始记录。程序在给定**有限闭区间**枚举候选，同时对舍入平局两侧都保留，因此候选可能是某种具体平局规则下的保守超集；空候选仅说明给定范围和规则下无解。57（29.8%）的全正整数唯一性来自上面的解析不等式，不依赖程序的1000搜索上限。
 
 运行 `python knowledge_base/experiments/rounded_percentage_denominators.py`，测试 `python -m unittest discover -s knowledge_base/experiments -p test_rounded_percentage_denominators.py`。软件测试是条件算术回归，不能确认来源真实分母、排除作者使用其他口径或完成科学认证。
+
+**后续来源线索**：[脂质分析的公开评议回复](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)列相同AUC缺失计数及基线29.8429%；脂质文报告191人。与本表数值一致不证明患者身份或本表实际分母，X60仍开放。
