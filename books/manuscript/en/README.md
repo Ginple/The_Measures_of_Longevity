@@ -26,10 +26,15 @@ Chapter numbers and English working titles come from [OUTLINE_v1](../OUTLINE_v1.
    - An English terminology list, checked against KERNEL, is still to be written.
    - Glossaries in uploaded knowledge-base files (for example V7.0 EN Appendix B) are candidates only.
 5. **Internal documents.** The ledger, assessments, audits, and governance records may stay in Chinese. Reader-facing manuscript and paper text is English-first.
-6. **Length.**
-   - The English length of the full edition, and whether a separate English trade edition is published, are still open (ledger X147/X156).
-   - For planning only, chapters are drafted towards about 4,500 words each (option E-2 in [market positioning §3.1](../../market/MARKET_POSITIONING_2026-11.md)).
-   - This target will be reconsidered once Volume Ⅰ (chapters 1–9) exists in English.
+6. **Length (DEC-017, author instruction, 2026-11-27).**
+   - Content decides length. No total word target and no per-chapter word target apply.
+   - A full English edition of about 200,000 words or more is acceptable.
+   - The former planning target of about 4,500 words per chapter (option E-2) is withdrawn. A separate abridged trade edition (E-3) is not planned at present. See ledger X157 and [market positioning §3.1](../../market/MARKET_POSITIONING_2026-11.md).
+   - Content-driven does not mean unconstrained. Every draft must pass three tests:
+     - (a) **load-bearing**: each section answers a reader question or carries a claim, and each claim is traceable to a ledger ID or bound excerpt;
+     - (b) **no repetition**: a point is developed once, in the chapter that owns it, and later chapters point back;
+     - (c) **right layer**: derivations, assay details and long evidence tables go to appendices or companion papers, not the running text.
+   - The Volume Ⅲ protection rule still binds. Chapters 23–33 must stay at or above 28% of the actual English word count. If they fall below, stop expanding Volume Ⅱ.
 
 ## Next steps
 
