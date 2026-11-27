@@ -65,3 +65,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## 同日续研：筛查、预测与停药后的尺度
 
 [筛查、预测和持久性专项审计](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)：NHS-Galleri 主要结局、加拿大 MCED 模型的筛出癌分母、BASE-II 跨时间预测和 TRIIM 原文逐指标；登记 X40–X42、修正 X10。配套合成反例及测试不是试验复算。[状态周转依赖与历史链接定位](../review/DEPENDENCIES_AND_LINKS_2026-11-27.md)限定复核范围；独立审阅与原始数据分析仍未完成。
+
+## 同日续研：实际暴露、骨密度与因子对比
+
+[CALERIE 骨密度和暴露审计](CALERIE_BONE_AND_EXPOSURE_AUDIT_2026-11-27.md)区分处方目标、分期实现与次要结局（X49），不把同一试验的时钟样本和骨样本当独立或个人联合数据；[DO-HEALTH 审计](DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md)补充钟、比较组及同一脚注两种换算规则（X38）。合成因子反例只展示估计量、不是实际 trial 数据。
