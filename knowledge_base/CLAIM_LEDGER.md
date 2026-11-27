@@ -112,3 +112,7 @@ X55 后续：已读 [补充材料](https://pmc.ncbi.nlm.nih.gov/articles/instanc
 | X59 | 2026-11-27 | CALERIE 2026 随机后体重轨迹、维持窗口与阈值分母 | [论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/)190人按第12–24月轨迹事后分组，回升20人中9限食、11对照；摘要说回升超过基线体重5%，结果段又称已减体重5% | 轨迹非随机，第二年仍属试验维持阶段；代码、阈值分母和等号、补充材料多重校正、权重分布及缺失未核；不判实际分组错误 | [专项审计](CALERIE_WITHIN_TRIAL_WEIGHT_TRAJECTORIES_2026_AUDIT_2026-11-27.md)与[合成因果反例](experiments/POST_RANDOMIZATION_TRAJECTORY_COUNTEREXAMPLE_2026-11-27.md)；核作者代码及授权数据，不能推断延寿或停用后的随机效应 | open |
 
 | X60 | 2026-11-27 | CALERIE 2026 体重轨迹报告的 AUC 缺失与 FDR 对应 | [S3](https://ndownloader.figshare.com/files/61614040)列 AUC 胰岛素基线/12月/24月缺失 57/33/6，表列比例 29.8%/17.3%/3.1%；[正文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/)分析样本190 | 百分比分母、各组及配对有效人数、入选 OGTT 的具体规则未知；[S1/S2](https://api.figshare.com/v2/articles/31244800)自动提取未定位 AUC 校正结果且 S2 标签截断；不能判断偏倚方向或视作全部190人三时点完整 | [补充审计](CALERIE_WITHIN_TRIAL_WEIGHT_TRAJECTORIES_2026_AUDIT_2026-11-27.md)；获取代码及授权数据，核 PDF 视觉表与 FDR 检验家族 | open |
+
+X21 后续：WHO GHE2019 生命表与YLD方法、当前元数据已定向查阅；当前元数据说全球/区域聚合 HALE 输入按人口加权，但2021版与旧版不可直接比较，不能据此认定2024论文实际全球值的每一计算步骤。参见 [HALE 版本与口径审计](HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md)；当年数据快照与作者代码仍未取得，X21 继续 open。
+
+| X61 | 2026-11-27 | HALE 研究年度变化率的端点间隔与年份计数 | [论文统计方法](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)写 `(Estimate2019−Estimate2000)/20`；若为同日期年度端点，2019−2000 为19个一年间隔，20是含两端的年份计数 | 论文原始数据、时间定义与代码未取，可能存在未说明的期间口径；全球6.5年增量不能直接拿来复算183国均值0.29；不判趋势结论或检验无效 | [口径审计与条件算术](HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md)；核历史数据、年份定义及作者解释，不静默替换结果 | open |
