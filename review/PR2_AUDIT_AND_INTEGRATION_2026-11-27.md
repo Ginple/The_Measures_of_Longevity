@@ -53,3 +53,7 @@
 ## 后续：FIND 骨折、跌倒及 VITAL
 
 沿 PR2 固定头的 FIND 线索重新定向核读[骨折、跌倒及VITAL原文](../knowledge_base/FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)；同一FIND多个结局不是独立试验，VITAL是独立母试验但剂量及骨折测量不同。记录 1600 IU附属骨折名义信号、共同对照、缺失和延长随访不同删失，不能将非显著当等效或将信号当普遍危害。沿 PR2 线索登记本分支X83（表1条件算术），另登记X84（两论文表列相同人年及风险时间定义待核）；均未裁定哪处错误或HR偏差。未核骨折补充表、代码、个体数据或独立审稿。定向算术复算及固定依赖环境根验证通过（项目110、实验98、pilot21；0新增/29历史断链、双种子及搬迁一致），工程验证不验证科学结论。
+
+## 后续：COLCOT 与 LoDoCo2
+
+沿固定头备忘录定向核读 [LoDoCo2作者稿和COLCOT 2024预印本v1](../knowledge_base/COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)；COLCOT最终版正文不可访问，不能把v1数值当作已核最终发表数或将两版当独立样本。择取[随机后选择人工例](../knowledge_base/experiments/post_randomization_selection_demo.py)及测试，移入实验套件；合成选择机制非真实偏差估计。登记X85（LoDoCo2导入期数值口径）和X86（COLCOT观察单位与阈值），澄清KERNEL的母试验/子样本并升至v0.9.8。未取得患者级数据、完整补表或独立外审，未修改冻结稿。

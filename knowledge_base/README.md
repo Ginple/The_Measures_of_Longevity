@@ -97,3 +97,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## FIND 跌倒与骨折续核
 
 [FIND/VITAL 骨折与跌倒定向核读](FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)区分同一母试验的多结局、骨折干预及延长随访与独立VITAL的不同剂量/结局；X83/X84为待澄清口径，未取得原始数据或独立审核，不是个人医疗建议。
+
+## 克隆造血、取样与测序续核
+
+[LoDoCo2/COLCOT比较](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)区分母试验、随机后DNA样本、检出规则及临床终点；登记X85/X86，保留COLCOT仅核2024预印本v1的限定。人工选择例不估计真实偏差；KERNEL更新至v0.9.8，冻结V7不改。
