@@ -73,3 +73,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## 同日续研：停用随访和临床终点
 
 [CALERIE 停用与登记审计](CALERIE_POST_INTERVENTION_FOLLOWUP_AUDIT_2026-11-27.md)核实单中心两年后随访，登记随访选择及 FFM 表述疑点 X50–X51；[DO-HEALTH 临床与癌症审计](DO_HEALTH_CLINICAL_CANCER_AUDIT_2026-11-27.md)区分原主要终点、探索性癌症与同一试验的钟子样本 X52。算术与合成缺失反例附测试，不是患者级复算。
+
+## PR #2 选择性整合
+
+[固定版本审计与取舍](../review/PR2_AUDIT_AND_INTEGRATION_2026-11-27.md)：命名空间和章号不可直接合并；新增X71–X74、两个有条件的数学示例及 P3 评价合同。软件负向检查不验证科学真实性；其余未移植内容可按固定提交继续复审。

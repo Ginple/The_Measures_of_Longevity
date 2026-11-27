@@ -69,6 +69,17 @@ def units_at(root, seed):
     return json.loads(r.stdout)
 
 
+def snapshot_check(root):
+    """Check local snapshot/manifest consistency in normal and optimized modes."""
+    script = root / 'knowledge_base/source_snapshots/verify_snapshots.py'
+    results = {}
+    for name, flags in [('normal', []), ('optimized', ['-O'])]:
+        r = subprocess.run([sys.executable, *flags, str(script)], cwd=root,
+                           capture_output=True, text=True, timeout=30)
+        results[name] = {'passed': r.returncode == 0, 'stderr': r.stderr.strip()}
+    return results
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--unit-only', action='store_true', help='run test suites and report counts')
@@ -84,6 +95,8 @@ def main():
         shutil.copytree(P, clone, ignore=shutil.ignore_patterns('__pycache__', '.git', '.venv', 'venv', '*.egg-info', 'build', 'dist', 'node_modules', '.pytest_cache'))
         moved_units = units_at(clone, 113)
         moved = derived(clone, 113)
+        snapshot_moved = snapshot_check(clone)
+    snapshot_local = snapshot_check(P)
     after = {f.relative_to(P).as_posix(): digest(f.read_bytes()) for f in (P/'examples').rglob('*') if f.is_file()}
     repro = {k: first[k] == second[k] == moved[k] for k in first}
     schema_identical = (P/'schemas/project.schema.json').read_bytes() == (P/'src/research_assurance/project.schema.json').read_bytes()
@@ -93,11 +106,14 @@ def main():
               'cli_byte_identical_seed7_seed113_moved': repro,
               'example_inputs_unchanged': before == after, 'schema_copies_identical': schema_identical,
               'dashboard_errors': dashboard_errors, 'markdown_links': links,
+              'local_snapshot_manifest_consistency': {'current': snapshot_local, 'moved': snapshot_moved},
               'environment': {'python': sys.version.split()[0], **{n: importlib.metadata.version(n) for n in ['networkx', 'jsonschema', 'beautifulsoup4']}},
               'external_review': 'not_performed', 'scientific_truth': 'not_computed',
               'scope': 'Software contracts and artifact properties only; historical known broken links are reported, not certified.'}
     result['all_software_checks_passed'] = (units7 == units113 == moved_units and all(repro.values()) and before == after
-                                              and schema_identical and not dashboard_errors and not links['new'])
+                                              and schema_identical and not dashboard_errors and not links['new']
+                                              and all(x['passed'] for x in snapshot_local.values())
+                                              and all(x['passed'] for x in snapshot_moved.values()))
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result['all_software_checks_passed'] else 1
 

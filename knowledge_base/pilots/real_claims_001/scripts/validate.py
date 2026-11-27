@@ -6,7 +6,7 @@ from pilot_core import inspect,quantitative_checks,check_source_trace
 
 def units():
  suite=unittest.defaultTestLoader.discover(str(P/'tests'));r=unittest.TextTestRunner(verbosity=1).run(suite)
- return {'test_functions':r.testsRun,'failures':len(r.failures),'errors':len(r.errors),'skipped':len(r.skipped),'passed':r.wasSuccessful() and not r.skipped}
+ return {'test_functions':r.testsRun,'failures':len(r.failures),'errors':len(r.errors),'skipped':len(r.skipped),'passed':r.testsRun > 0 and r.wasSuccessful() and not r.skipped}
 
 def history_check(workspace):
  b1=json.loads((P/'governance/history_before.json').read_text());b2=json.loads((P/'governance/prior_540_expected.json').read_text());conflicts=[x for x in b1.keys()&b2.keys() if b1[x]!=b2[x]];merged={**b2,**b1};changed=[];missing=[]

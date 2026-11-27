@@ -12,3 +12,4 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install -e . 'beautifulsoup4>=4.12,<5'
       - run: python scripts/run_validation.py
+      - run: python knowledge_base/pilots/real_claims_001/scripts/validate.py

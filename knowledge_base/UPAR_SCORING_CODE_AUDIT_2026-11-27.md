@@ -23,6 +23,10 @@
 
 另一个仓库的 `bulk_rnaseq_code_intestine.R` 创建4条件各两列的设计 `~condition`；它是另一类bulk分析，不能用来替代单细胞结果、或证明样本处理与脚本一致。条件列顺序假定计数矩阵顺序，需检查矩阵及元数据；未获得输入、未运行DESeq2。
 
+## 公开QC描述与脚本的版本差异（PR #2 增补，待核）
+
+[阳性雄鼠 GEO 条目](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7913144)写去除线粒体转录本超过15%、feature counts少于100或表达基因少于8000的细胞；[固定脚本](https://github.com/Vyoming/Regen_CAR-T/blob/37d02fd32d90c9dd14981da8b8e9f7edc6037179/UPAR_Sort_scRNA.R#L44-L52)依次保留 `percent.mt < 5`、`250 < nCount_RNA < 30000`、`nFeature_RNA > 2000`，不同字段和界限不能简单视为一致。GEO另称每样本目标捕获8000个细胞，与其QC所写的8000个基因是不同量，不能以一个替另一个纠错。GEO写2500个高变基因，脚本 `SelectIntegrationFeatures` 的 `nfeatures=3000`；可能涉及不同阶段、版本或报告，但实际原因未知。该问题由[PR #2 的固定头审计](https://github.com/Ginple/The_Measures_of_Longevity/blob/b8434e22ec62ba21814546560a33fc38f4939e9f/review/PR1_INCREMENTAL_AUDIT_52DD494_2026-11-27.md)指出，本次重新对照阳性条目和固定脚本，未运行R或下载矩阵，不能断定哪个版本用于发表结果或哪处错误。须向作者核最终版本、每样本过滤前后计数和环境，预设门限敏感性分析。详见 X71。
+
 ## 进一步对读
 
 [Demaria 2014鼠伤口研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC4349629/) Fig 6 的特定清除+PDGF-AA补充是已有救援试验，不是本项目新提议。补充改善伤口闭合速度、肌成纤维细胞指标；原文称未明显解决纤维化，补图未复算。两处“替代”不能混为同一设想或套用于uPAR：本项目的清除×保护/替代完整2×2仍未实施，而其他修复替代试验已经存在。
