@@ -57,3 +57,7 @@
 ## 后续：COLCOT 与 LoDoCo2
 
 沿固定头备忘录定向核读 [LoDoCo2作者稿和COLCOT 2024预印本v1](../knowledge_base/COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)；COLCOT最终版正文不可访问，不能把v1数值当作已核最终发表数或将两版当独立样本。择取[随机后选择人工例](../knowledge_base/experiments/post_randomization_selection_demo.py)及测试，移入实验套件；合成选择机制非真实偏差估计。登记X85（LoDoCo2导入期数值口径）和X86（COLCOT观察单位与阈值），澄清KERNEL的母试验/子样本并升至v0.9.8。未取得患者级数据、完整补表或独立外审，未修改冻结稿。
+
+## 后续：分选样本与总体比例
+
+复核固定头的[分选敏感性例](../knowledge_base/experiments/PR2_SORTED_SAMPLE_SENSITIVITY_2026-11-27.md)、uPAR原文Fig 1及两个GEO样本元数据；移植脚本与测试并补概率网格和边界测试。示例的假定纳入比、固定标签及精确总体分布不能当真实回收率、独立功能真值或有限样本校正；GEO目标捕获数不证明实际概率。相关问题沿用X66/X68/X71，未下载矩阵、运行作者R或校正真实约60%。
