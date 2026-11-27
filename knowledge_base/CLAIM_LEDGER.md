@@ -167,3 +167,6 @@ X60 后续：按 PR2@b8434e22 的线索重新核 S3，若57（29.8%）由整数�
 | X89 | 2026-11-27 | CALERIE脂质中介预注册与多重性校正的版本和家族 | [同行评议文件](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf)作者称此分析事后、未预注册及未做全代谢物全局FDR；回应中一段旧稿S16措辞称多重校正后仍显著，最终正文敏感性段未作同样声明 | 全局与局部校正、不同阶段/版本可能并存；未核S16及代码，不能断言没有任何局部校正、每一结果为假或所有试验终点未预设 | [定向续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，核补表、代码、检验家族和版本 | open |
 
 X60 又一线索：[脂质研究的公开评议回复](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf) S17临床缺失表中AUC insulin基线57、12月33、24月6，与轨迹文S3相同；基线29.8429%与191分母算术相容。两报告样本身份与表格生成过程未核，不能将相同摘要计数当同一个样本的证据。[续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)；X60仍开放。
+
+| X90 | 2026-11-27 | 健康寿命差图3A标称95% CI与国家间SD | [2024原文 Methods及Fig 3A](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)描述跨国差值均值±1.96×差值SD并称95% CI，图注虚线亦称CI | 若代码按所述使用国家间SD，此量不同于通常均值标准误CI；实际推断对象、样本框、误差相关及代码未核，不简单替换公式或裁定全文趋势错误 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)；获取历史快照、代码与作者说明 | open |
+| X91 | 2026-11-27 | 健康寿命差图3A横轴和纵轴共享LE、HALE | [2024原文](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)定义横轴两者均值、纵轴差值，并叙述缺口与长寿正相关 | 同一国家与权重下 `Cov((LE+HALE)/2,LE−HALE)=[Var(LE)−Var(HALE)]/2`；共享构造影响解释，但不决定实际数值或证明关联全是伪影，不支持因果政策结论 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)及人工测试；核原始国家数据、权重、误差与独立审阅 | open |

@@ -109,3 +109,5 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 [CANTOS TET2临床交互续审](CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)区分亚组内检验、组间交互、三剂量合并与母试验单剂量，以及同试验不同报告；人工多重性例不是论文实际假阳性率。
 
 [CALERIE脂质中介与公开评议续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)区分随机总效果、未随机中介和同试验报告，登记X88/X89并补充X60线索；[人工等价世界](experiments/randomized_mediator_equivalent_worlds.py)不是患者数据。
+
+[HALE共享坐标与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)根据PR2增量审计核图3A的均值/差值共享项及标称95%区间，人工例不拟合国家数据；X90/X91开放。

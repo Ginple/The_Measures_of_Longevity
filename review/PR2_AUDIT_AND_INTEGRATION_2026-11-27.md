@@ -73,3 +73,7 @@
 ## 后续：CALERIE 脂质中介与公开同行评议
 
 沿固定头线索重新读 [脂质组正文、图6及公开评议/回应](../knowledge_base/CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，区分试验预设探索指标与该事后分析未预注册、随机治疗与未随机中介、单项区间与整体多重性；登记X88/X89，补充X60的同母试验S17计数线索，未判断样本身份或发表计算错误。公开评议表明论文自身经过审阅，不等于本项目独立外审。新增[人工随机中介等价世界](../knowledge_base/experiments/randomized_mediator_equivalent_worlds.py)及测试，展示即使两组中介都有正概率，未测中介—结局混杂可导致同一观测分布对应不同自然效应；它不是对真实试验偏差的估算。完整补充资料本次抓取HTTP 500，作者程序、患者数据与独立复算未取得。
+
+## 后续：健康寿命差的共享坐标及区间
+
+按固定头对PR1的增量审计线索核读 [2024论文的Methods、Fig 3及结果](../knowledge_base/HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)，记录X90（均值±1.96跨国SD标称95% CI）及X91（均值/差值共享变量）；保留X21/X61。新[人工精确代数脚本](../knowledge_base/experiments/mean_difference_shared_axes.py)和测试给正、负、零协方差及网格检查，不估计真实国家关系，也不说明实际相关全为伪影。未获取作者代码或WHO历史数据，未改冻结稿。
