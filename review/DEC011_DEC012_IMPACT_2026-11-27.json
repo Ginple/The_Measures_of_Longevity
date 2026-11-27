@@ -3,7 +3,9 @@
     "change:DEC-011_architecture",
     "change:DEC-012_papers",
     "change:X125-X128_prior_art_and_attribution",
-    "change:X129-X132_margin_recovery_anchors"
+    "change:X129-X132_margin_recovery_anchors",
+    "change:X133-X137_PI_novelty",
+    "change:ch05_pilot_V7-06_reassign"
   ],
   "tool": "research_assurance.core.impact (transitive, cycle-safe)",
   "edges": [
@@ -132,6 +134,66 @@
       "books/manuscript/OUTLINE_v1.md"
     ],
     [
+      "change:X133-X137_PI_novelty",
+      "papers/PI_rejuvenation_identifiability/PROTOCOL.md"
+    ],
+    [
+      "change:X133-X137_PI_novelty",
+      "knowledge_base/MASTER.md"
+    ],
+    [
+      "change:X133-X137_PI_novelty",
+      "books/ARCHITECTURE_DECISION_2026-11-27.md"
+    ],
+    [
+      "change:X133-X137_PI_novelty",
+      "knowledge_base/README.md"
+    ],
+    [
+      "change:X133-X137_PI_novelty",
+      "review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md"
+    ],
+    [
+      "change:X133-X137_PI_novelty",
+      "knowledge_base/CLAIM_LEDGER.md#X125"
+    ],
+    [
+      "change:ch05_pilot_V7-06_reassign",
+      "books/manuscript/outline_build.py"
+    ],
+    [
+      "change:ch05_pilot_V7-06_reassign",
+      "books/manuscript/CH15_测量合同_示范稿.md"
+    ],
+    [
+      "change:ch05_pilot_V7-06_reassign",
+      "books/manuscript/README.md"
+    ],
+    [
+      "books/manuscript/outline_build.py",
+      "books/manuscript/outline_v1.json"
+    ],
+    [
+      "books/manuscript/outline_build.py",
+      "books/manuscript/OUTLINE_v1.md"
+    ],
+    [
+      "books/manuscript/OUTLINE_v1.md",
+      "knowledge_base/MASTER.md"
+    ],
+    [
+      "books/manuscript/OUTLINE_v1.md",
+      "knowledge_base/README.md"
+    ],
+    [
+      "books/manuscript/OUTLINE_v1.md",
+      "books/ARCHITECTURE_DECISION_2026-11-27.md"
+    ],
+    [
+      "books/manuscript/OUTLINE_v1.md",
+      "review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md"
+    ],
+    [
       "books/ARCHITECTURE_DECISION_2026-11-27.md",
       "knowledge_base/MASTER.md"
     ],
@@ -159,7 +221,7 @@
       "node": "books/ARCHITECTURE_DECISION_2026-11-27.md",
       "scope": "global",
       "state_after_this_turn": "revised",
-      "note": "§3 第 9 章条件未触发，保留 33 章；锚点表与 K3 处置更新"
+      "note": "§3 第 9 章条件未触发，保留 33 章；锚点表与 K3 处置更新；§6 两条触发行加处置：PI 检索未触发、§7.2 映射错误已触发一次"
     },
     {
       "node": "books/BOOK_PROPOSAL.md",
@@ -182,8 +244,8 @@
     {
       "node": "books/manuscript/CH15_测量合同_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "新第 5 章；\"关联论文\"仍写 P1/P2；建议作为 §7.2 单章试点；论文标签与新章号已在稿内标注，正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "v0.3：§7.2 试点原位修订——章号改第五章，关联论文改为 PI ①②，并入 V7-06 的机制特异性与使用规则，补 X126/X135；5 段主张逐字绑定（pilots/ch05_measurement_contract）；未绑定的 3 段仍待人工审读"
     },
     {
       "node": "books/manuscript/CH19_谁替谁维护_示范稿.md",
@@ -224,8 +286,8 @@
     {
       "node": "books/manuscript/OUTLINE_v1.md",
       "scope": "local",
-      "state_after_this_turn": "kept_valid",
-      "note": "章数与证据等级（第 8、9 章为 M）不变；生成物无需重建"
+      "state_after_this_turn": "revised",
+      "note": "C4：章数与证据等级不变；C6：重新生成，第 5 章继承 V6-15、V7-06，第 6 章变为新写"
     },
     {
       "node": "books/manuscript/PART_VI_维护容量_写作骨架.md",
@@ -237,7 +299,19 @@
       "node": "books/manuscript/README.md",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "文件头指针：方案 A 地图是历史，现行见 OUTLINE_v1"
+      "note": "文件头指针：方案 A 地图是历史，现行见 OUTLINE_v1；CH15 链接文字注明现为第 5 章 v0.3"
+    },
+    {
+      "node": "books/manuscript/outline_build.py",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "ASSIGN 一处：V7-06 由 6 改为 5，附注释"
+    },
+    {
+      "node": "books/manuscript/outline_v1.json",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "由 outline_build.py 重新生成；源文 hash 不变"
     },
     {
       "node": "books/pr2_candidates/",
@@ -250,6 +324,12 @@
       "scope": "global",
       "state_after_this_turn": "revised",
       "note": "评论更正：上一轮 2bb8edc 未推送已丢失，以本 PR 为准"
+    },
+    {
+      "node": "knowledge_base/CLAIM_LEDGER.md#X125",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "原文不改；X133 追加更正（Yücel 2024 是第①②层定性先行）"
     },
     {
       "node": "knowledge_base/CLAIM_LEDGER.md#X94",
@@ -267,7 +347,13 @@
       "node": "knowledge_base/MASTER.md",
       "scope": "global",
       "state_after_this_turn": "revised",
-      "note": "§3/§4 改为已定，历史候选原文保留；DEC-011–014；v1.3"
+      "note": "§3/§4 改为已定，历史候选原文保留；DEC-011–015；v1.3.2：PI 行改协议 v3 与 X137，§3 无继承章改为 6、7、9"
+    },
+    {
+      "node": "knowledge_base/README.md",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "架构段：无继承章改为 6、7、9 并链接试点；论文段加 v3/X133–X137"
     },
     {
       "node": "knowledge_base/experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md",
@@ -309,7 +395,7 @@
       "node": "papers/PI_rejuvenation_identifiability/PROTOCOL.md",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "新建协议 v2，引用 X125–X128"
+      "note": "v2 引用 X125–X128；v3：近邻检索门槛 1–2 完成，主张收窄为三条，加必引清单与禁用词（X133–X137）"
     },
     {
       "node": "papers/PUBLICATION_MAP.md",
@@ -321,7 +407,7 @@
       "node": "review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "§4 第 3 条追加后续"
+      "note": "§1/§2/§3/§4 追加后续：试点已执行、近邻检索门槛 1–2 完成、Yücel 已读、V7-06 改归"
     }
   ],
   "frozen_not_invalidated": {

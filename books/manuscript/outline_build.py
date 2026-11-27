@@ -62,11 +62,14 @@ CHAPTERS = {
     33: ('可撤回的知识', 'M', '', ''),
 }
 # Human classification of every numbered source chapter to exactly one primary target chapter.
+# 2026-11-27 §7.2 ch5 pilot: V7-06 moved 6 -> 5. Its body states the four properties in ch5's title
+# (prediction, mechanism specificity, responsiveness, surrogate status) plus usage rules; see
+# knowledge_base/pilots/ch05_measurement_contract/README.md.
 ASSIGN = {
     'V6': {1: 1, 2: 3, 3: 3, 4: 2, 5: 12, 6: 10, 7: 10, 8: 11, 9: 19, 10: 12, 11: 19, 12: 18,
            13: 20, 14: 20, 15: 5, 16: 8, 17: 29, 18: 29, 19: 23, 20: 23, 21: 27, 22: 25, 23: 26,
            24: 26, 25: 24, 26: 30, 27: 28, 28: 32, 29: 30, 30: 25, 31: 28, 32: 29, 33: 33},
-    'V7': {1: 4, 2: 3, 3: 16, 4: 16, 5: 15, 6: 6, 7: 13, 8: 18, 9: 13, 10: 19, 11: 12, 12: 11,
+    'V7': {1: 4, 2: 3, 3: 16, 4: 16, 5: 15, 6: 5, 7: 13, 8: 18, 9: 13, 10: 19, 11: 12, 12: 11,
            13: 11, 14: 12, 15: 12, 16: 17, 17: 8, 18: 17, 19: 14, 20: 20, 21: 2, 22: 16, 23: 14,
            24: 16, 25: 11, 26: 20, 27: 17, 28: 13, 29: 32, 30: 32, 31: 31, 32: 29, 33: 26, 34: 21,
            35: 22, 36: 19, 37: 15, 38: 17, 39: 31},

@@ -100,7 +100,8 @@
       "papers": "PI",
       "demo_draft": "CH15",
       "inherits": [
-        "V6-15"
+        "V6-15",
+        "V7-06"
       ]
     },
     {
@@ -112,9 +113,7 @@
       "evidence": "S",
       "papers": "PI",
       "demo_draft": "",
-      "inherits": [
-        "V7-06"
-      ]
+      "inherits": []
     },
     {
       "n": 7,
@@ -696,7 +695,7 @@
     "V7-06": {
       "line": 113,
       "title": "表观时钟的两个极端都错了",
-      "to": 6
+      "to": 5
     },
     "V7-07": {
       "line": 132,

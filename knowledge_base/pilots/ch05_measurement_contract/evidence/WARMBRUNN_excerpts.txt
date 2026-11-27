@@ -1,0 +1,6 @@
+# Warmbrunn et al. Diabetes Care 2026;49(5):783-791, PMC13094879 (PMID 41838032) and Supplementary Table S3 (figshare file 61614040), fetched 2026-11-27. Publisher licence restricts reproduction: minimal quotes for citation only.
+In the 2-year Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy 2 (CALERIE-2) trial (n = 220), participants were randomized to 25% CR or control diet. The intervention targeted weight loss over the first 6–12 months, followed by a 12-month maintenance phase.
+To assess weight-regain consequences, participants were stratified by weight trajectory regardless of randomization, and group differences were balanced by propensity score weighting.
+Between months 12 and 24, most participants either maintained weight (n = 112) or continued to lose weight (n = 58), whereas a smaller group regained >5% of baseline weight (n = 20).
+For this secondary analysis, 190 participants (n = 120 in CR group; n = 70 in control group) with available oral glucose tolerance test (OGTT) data were included.
+Table S3 row | AUC insulin | n_miss_12_months 33 | n_miss_24_months 6 | n_miss_BL 57 | pct 17.3 | 3.1 | 29.8

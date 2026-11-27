@@ -141,6 +141,6 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## 2026-11-27 第 6 轮：按 08_LINEAGE 工作流定架构与论文
 
 - 作者提供的 08_LINEAGE（统一架构与三条工作流）已纳入 `docs/`（DEC-014）。上一轮未推送的重构提交 2bb8edc 作废，本轮按 §6 重做。
-- 书稿架构：三卷·八部·33 章（DEC-011，工作草稿），见 [OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)。地图由脚本从冻结语料生成，并绑定语料 hash；第 7、9 章没有继承内容，第 9 章设为有条件章节。
-- 论文：P1+P2 合并为 [PI](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)（DEC-012）；三层各有先行工作（X125）；作者归属更正（X128）。
+- 书稿架构：三卷·八部·33 章（DEC-011，工作草稿），见 [OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)。地图由脚本从冻结语料生成，并绑定语料 hash；第 6、7、9 章没有继承内容（第 6 章源于 §7.2 试点的改归），第 9 章设为有条件章节。§7.2 第 5 章试点见 [pilots/ch05_measurement_contract](pilots/ch05_measurement_contract/README.md)。
+- 论文：P1+P2 合并为 [PI](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)（DEC-012）；三层各有先行工作（X125）；作者归属更正（X128）；近邻检索后收窄主张，协议 v3（X133–X137）。
 - 留痕：[检索日志](search_logs/SEARCH_LOG_2026-11-27_RESTRUCTURE.csv)、[影响记录](../review/DEC011_DEC012_IMPACT_2026-11-27.json)、[符合性审计](../review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md)。

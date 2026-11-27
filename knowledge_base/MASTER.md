@@ -1,4 +1,4 @@
-# MASTER｜《长寿的尺度》总控（v1.3：架构与论文已定为工作草稿，DEC-011/012）
+# MASTER｜《长寿的尺度》总控（v1.3.2：架构与论文已定为工作草稿，DEC-011/012）
 
 **纠错警示（2026-11-27）**：DEC-003/004 的“审计后采纳”仅为历史记录，暂停作为已验证最优解；当前地图只供工作参考，须待独立审计及作者评阅。详见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
 
@@ -16,7 +16,7 @@
 | 专著正文 V7 | `corpus/longevity_v7/长寿研究_V7_谁在变年轻.md` | 活跃工作稿 | 根级 `longevity_v7/` 同上 |
 | **书稿章节地图** | `books/manuscript/OUTLINE_v1.md`（由 `outline_build.py` 生成，`outline_v1.json` 绑定语料 hash） | **现行工作草稿（DEC-011）** | 只按标题归类，不是逐段核对 |
 | 书稿提案（历史） | `books/BOOK_PROPOSAL.md` | 历史 | 八部结构被 OUTLINE_v1 取代；§4 章节证据契约仍然有效 |
-| **论文 PI** | `papers/PI_rejuvenation_identifiability/PROTOCOL.md` | **现行（DEC-012）** | P1+P2 合并，加入动力学层；新颖性未认证（X125） |
+| **论文 PI** | `papers/PI_rejuvenation_identifiability/PROTOCOL.md` | **现行（DEC-012）** | 协议 v3：P1+P2 合并，加入动力学层；近邻检索后收窄主张（X133–X137）；新颖性仍未认证，不写"首次" |
 | 论文地图（历史） | `papers/PUBLICATION_MAP.md` | 历史 | P1/P2/P3 协议冻结不改；P1/P2 被 PI 取代，P3 协议仍然有效 |
 | 核心内核 | `knowledge_base/KERNEL.md` | 活跃 v0.9.10 | 不变式/锚点/范式转换/estimand |
 | 交叉验证台账 | `knowledge_base/CLAIM_LEDGER.md` | 活跃 | X-item 与旧债指针 |
@@ -40,7 +40,7 @@
 
 ## 3｜书稿架构（DEC-011，工作草稿）
 
-**现行结构**：三卷·八部·33 章。逐章地图见 [OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)；理由、源文绑定后暴露的问题（第 7、9 章无继承内容，第 9 章设为有条件章节）和重审条件见 [架构决定](../books/ARCHITECTURE_DECISION_2026-11-27.md)。
+**现行结构**：三卷·八部·33 章。逐章地图见 [OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)；理由、源文绑定后暴露的问题（第 6、7、9 章无继承内容——第 6 章是 §7.2 试点把 V7-06 移到第 5 章后才变成的；第 9 章设为有条件章节，条件未触发）和重审条件见 [架构决定](../books/ARCHITECTURE_DECISION_2026-11-27.md)。
 
 | 卷 | 部（章数） |
 |---|---|
@@ -113,7 +113,7 @@
 
 | 论文 | 决定 |
 |---|---|
-| **PI**《When Does a Younger Reading Mean a Younger System?》 | P1+P2 合并，加入第③层（动力学：读数→参数）；[协议 v2](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)；投稿前须完成系统近邻检索 |
+| **PI**《When Does a Younger Reading Mean a Younger System?》 | P1+P2 合并，加入第③层（动力学：读数→参数）；[协议 v3](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)；近邻检索门槛 1–2 已完成（PubMed + Europe PMC，[结果](../papers/PI_rejuvenation_identifiability/NOVELTY_SEARCH_RESULT.md)），处置为"保留原创、收窄主张"（X137）；门槛 3（Scopus/WoS + 独立第二筛选人）属外部条件，投稿前完成 |
 | 独立动力学论文 | 不立项（X125、X128） |
 | P3 研究保障 | 有条件保留：冻结评价协议（THE-231）；完成跨项目评估才投稿，否则作为第 31 章附录 |
 | P4 维护容量核算 | 暂缓（DEC-006 前提未满足），内容进入第 21–22 章 |
@@ -164,9 +164,11 @@ Linear 项目：**The Measures of Longevity｜长寿的尺度**（id `c6be975d-3
 | DEC-012 | 2026-11-27 | 论文：P1+P2 合并为 PI 并加入动力学层；不立独立动力学论文；P3 有条件保留；P4 暂缓；P5 只出合同；冻结协议不改字节 | 已执行（作者授权） |
 | DEC-013 | 2026-11-27 | 合并 PR #3（包含 PR #1 截至 cb90a08 的全部提交）；PR #1 被 GitHub 自动标为已合并，未手动关闭 | 已执行（作者指示） |
 | DEC-014 | 2026-11-27 | 采纳作者提供的 08_LINEAGE（统一架构与三条工作流），并按其 §6 重做 DEC-011/012：检索留痕、源文绑定的章节地图、依赖失效记录；上一轮未推送的 2bb8edc 作废 | 已执行 |
+| DEC-015 | 2026-11-27 | 08_LINEAGE §7.2 单章试点选第 5 章（测量合同）；按试点结果把 V7-06 由第 6 章改归第 5 章（ASSIGN 改一处，重新生成地图）；第 6 章变为无继承、需新写；章数与部结构不变 | 已执行（按作者"连续执行"指示；可逆，改 ASSIGN 一处即可） |
 
 ## 7｜变更日志
 
+- v1.3.2 · 2026-11-27：PI 近邻检索完成门槛 1–2，协议升至 v3（X133–X137，主张收窄、必引清单与禁用词）；08_LINEAGE §7.2 单章试点在第 5 章执行：5 条主张逐字绑定来源（`knowledge_base/pilots/ch05_measurement_contract/`），试点暴露一处映射错误，V7-06 由第 6 章改归第 5 章；影响记录追加 C5、C6。
 - v1.3.1 · 2026-11-27：第二轮检索（R09–R14，X129–X132）找到余量和恢复的直接人体测量，第 9 章合并条件未触发，保留 33 章；KERNEL 升至 v0.9.10。
 - v1.3 · 2026-11-27：DEC-011/012（工作草稿）、DEC-005 定为保留、DEC-013、DEC-014；权威路径表加入 OUTLINE_v1 与 PI 协议；作者归属更正见 X128。
 
