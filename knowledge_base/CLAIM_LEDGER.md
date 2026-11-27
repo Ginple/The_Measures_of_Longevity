@@ -57,6 +57,8 @@
 
 | X37 | 2026-11-27 | methylCIPHER 许可元数据不一致与 PoAm38 包装器待测 | [固定提交的 LICENSE](https://github.com/HigginsChenLab/methylCIPHER/blob/bfe5d02817e7dd5e923e8bf96528d5bfd52e1636/LICENSE)为 BSD 3-Clause，但 DESCRIPTION License 为占位；[PoAm38 源码](https://github.com/HigginsChenLab/methylCIPHER/blob/bfe5d02817e7dd5e923e8bf96528d5bfd52e1636/R/calcDunedinPoAm38.R)输入转置后缺失探针检查/填补方向存在待测疑点 | 尚无 R 运行、外部权重或试验版本对照；疑点不是已确认错误、也不证明影响任何论文 | 请维护者澄清许可证和依赖数据权利；用合成矩阵按固定依赖版本写回归测试，区分 PoAm38 与 DunedinPACE | open |
 
+X33 后续：已读取 [Sanchez 综述全文方法、主要结果及偏离协议表](CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md)，确认 CALERIE 因平均年龄 38 被排除；DO-HEALTH 合并的是运动因子、不能换成 omega-3 对比。补表及逐试验与 TranslAGE 重叠仍未核，综述提取和合并结果未复算；X33 保持 open。
+
 X31 后续：作者[固定版本 Stata 脚本及筛选/模型](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)已静态查阅，公开仓库无患者数据；导出脚本标示按 ID/时点排序且发布不含 ID，提示隐私风险而非授权按行配对。分母矛盾、真实模型与身份保护仍待核。
 
 X30 后续：已对照 SPRINTT 原试验事件判定、安全与事后潜类交互；两报告同一试验、不算独立复制；事后交互 P=.870 不支持已证实亚组差异，亦不证明相同。详见[审计](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)。

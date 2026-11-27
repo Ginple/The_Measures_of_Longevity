@@ -50,6 +50,10 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 
 [定向审计与后续执行队列](LONGITUDINAL_SURROGATE_REPAIR_AUDIT_2026-11-27.md)：比较 TranslAGE 和生活方式 RCT 估计量，修正多数一致性误读（X32），核小鼠 p16 谱系、DPPOS 临床追踪、CAPABLE 5/12 月及 MTO 撤稿替换（X34）；[合成替代终点反例](experiments/surrogate_identifiability_demo.py)附测试，不是临床数据或验证。
 
+## 同日续研：两篇时钟研究的估计量
+
+[时钟研究比较与试验对比](CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md)已读 Sanchez 生活方式 RCT 综述全文主要方法和结果：CALERIE 因平均年龄被排除，DO-HEALTH 汇总运动而非 omega-3；表格、原始试验和 TranslAGE 样本重叠未逐条复核。X33 保持 open。
+
 ## 同日续研：分析代码与多重检验
 
 [模型、多重检验与功能试验专项审计](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)：定位 CALERIE 作者固定版本 Stata 脚本及模型/筛选，识别公开无 ID 导出的隐私风险；X31 未解决、无患者数据复算。登记 X36：TranslAGE 论文 Bonferroni 独立性说法与 90% PCA 维数保障有数学边界，真实分析阈值待核；[可执行合成反例及测试](experiments/README_MULTIPLICITY.md)不是实际论文错误率。登记 X37：methylCIPHER 许可元数据冲突和 PoAm38 包装器待测疑点，不等于发现已确认错误。复核 SPRINTT 原试验及同一试验事后分析、判定规则与安全。
