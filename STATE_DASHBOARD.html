@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STATE DASHBOARD · The Measures of Longevity · 2026-11-27</title>
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--panel2:#1c2230;--border:#30363d;--text:#e6edf3;--muted:#8b949e;--acc:#58a6ff;--green:#3fb950;--amber:#d29922;--red:#f85149;--purple:#bc8cff}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:"PingFang SC","Microsoft YaHei",-apple-system,sans-serif;line-height:1.6;padding:24px;max-width:1200px;margin:0 auto}
+  h1{font-size:26px;margin-bottom:4px} h2{font-size:18px;margin:28px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--border);color:var(--acc)} h3{font-size:15px;margin:14px 0 8px;color:var(--purple)}
+  .sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+  .banner{background:linear-gradient(90deg,#2d1a0e,#1c2230);border:1px solid var(--amber);border-radius:8px;padding:10px 14px;font-size:13px;margin-bottom:18px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px;text-align:center}
+  .card .num{font-size:24px;font-weight:700;color:var(--acc)} .card .lbl{font-size:11px;color:var(--muted);margin-top:2px}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+  th{background:var(--panel2);color:var(--muted);text-align:left;padding:7px 10px;border:1px solid var(--border);font-weight:600}
+  td{padding:7px 10px;border:1px solid var(--border);vertical-align:top}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  .pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:11px;font-weight:600}
+  .ok{background:#0f2e1c;color:var(--green);border:1px solid #1d4428} .warn{background:#2d230a;color:var(--amber);border:1px solid #57490f} .bad{background:#3a1414;color:var(--red);border:1px solid #6b2020} .info{background:#12253c;color:var(--acc);border:1px solid #1f4163} .mu{background:#23272f;color:var(--muted);border:1px solid var(--border)}
+  .vol{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0}
+  .vol>div{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px}
+  .vol h4{font-size:14px;color:var(--purple);margin-bottom:6px}
+  .part{display:flex;justify-content:space-between;font-size:12.5px;padding:3px 0;border-bottom:1px dashed #21262d}
+  .part:last-child{border-bottom:none}
+  .part .n{color:var(--muted)}
+  .bar{height:10px;background:#21262d;border-radius:6px;overflow:hidden;margin-top:6px}
+  .bar>div{height:100%;background:linear-gradient(90deg,var(--acc),var(--green))}
+  .dir{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin:10px 0}
+  .dir>div{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px;font-size:12.5px}
+  .dir h4{font-size:14px;margin-bottom:6px}
+  .dir ul{margin-left:16px} .dir li{margin:3px 0}
+  .foot{margin-top:26px;padding-top:12px;border-top:1px solid var(--border);font-size:11.5px;color:var(--muted)}
+  a{color:var(--acc);text-decoration:none} a:hover{text-decoration:underline}
+  code{background:var(--panel2);padding:1px 5px;border-radius:4px;font-size:12px;color:#79c0ff}
+</style>
+</head>
+<body>
+
+<h1>《长寿的尺度》 · The Measures of Longevity</h1>
+<div class="sub">维护身体、辨认年轻，扩展值得过的生活 · Maintaining the Body, Identifying Rejuvenation, and Expanding the Possibilities of a Life Worth Living</div>
+
+<div class="banner">⚠️ <b>边界声明</b>：本仪表盘为用户授权生成的项目状态面板（2026-11-27）。当前"独立审计"为<b>同助手结构化自查</b>（review/scaffold_audit_2026-11-27.md），<b>不是独立外审</b>；D05 保持 open。不判科学真值、不认证返老还童；架构与论文处置为"审计后采纳（provisional）"，作者可推翻。</div>
+
+<div class="cards">
+  <div class="card"><div class="num">v1.0</div><div class="lbl">MASTER 总控版本</div></div>
+  <div class="card"><div class="num">10</div><div class="lbl">KERNEL 不变式</div></div>
+  <div class="card"><div class="num">25</div><div class="lbl">定量锚点（3.1–3.3）</div></div>
+  <div class="card"><div class="num">9</div><div class="lbl">范式转换候选</div></div>
+  <div class="card"><div class="num">13</div><div class="lbl">台账 X-items</div></div>
+  <div class="card"><div class="num">12</div><div class="lbl">Known Unknowns</div></div>
+  <div class="card"><div class="num">21</div><div class="lbl">本轮检索（4 方向）</div></div>
+  <div class="card"><div class="num">12</div><div class="lbl">Linear issues</div></div>
+</div>
+
+<h2>① 四方向深研覆盖（2026-11-27 第 2 期）</h2>
+<div class="dir">
+  <div><h4>▲ 向上 · 时间/理论/资金</h4><ul>
+    <li>寿命上限：110+ 死亡率平台 ~50%/年；2100 破纪录概率 89%</li>
+    <li>健康跨度缺口：183 国均值 9.6 年；美国 12.4；女性 +2.4</li>
+    <li>超级长寿哲学：身份/意义/分配（含非洲伦理视角）</li>
+    <li>资金：2024 ~$8.5B；FDA 不认"衰老"适应证</li></ul></div>
+  <div><h4>▼ 向下 · 机制/生态位</h4><ul>
+    <li>T 细胞四路线 + <b>TRIIM 停药回落（X10 对抗发现）</b></li>
+    <li>胸腺因子 mRNA、线粒体转移（MV/TNT/EV）</li>
+    <li>NAD⁺—EVA1C 剪接—自噬蛋白稳态</li>
+    <li><b>骨髓生态位：转录组年轻≠功能年轻（I5 最强实证）</b></li></ul></div>
+  <div><h4>⇒ 向外 · 环境/社会/政策</h4><ul>
+    <li>暴露组：64 化学物×8 钟；NO₂ +84 天表观年龄</li>
+    <li>社交隔离 HR 1.35 / 独居 1.21 / 孤独感 1.14</li>
+    <li>长寿鸿沟：美国 1% 首尾差 14.6 年且扩大中</li>
+    <li>热：老年人<b>在适应</b>（空调=防护技术，X12 未评审）</li></ul></div>
+  <div><h4>⊂ 向内 · 体验/意义/决策</h4><ul>
+    <li>主观福祉 HR 0.920（126 万人）；非线性阈值</li>
+    <li>意义双刃：−15% → 校正后 9–15%（X11 写法约束）</li>
+    <li>主观年龄 HR 1.24；INSPIRE-T 因果未知</li>
+    <li>MCED 过度诊断 1.1%→10.8%（50→75 岁）</li></ul></div>
+</div>
+
+<h2>② 书稿架构（DEC-003 · 方案 A 采纳 · provisional）</h2>
+<div class="vol">
+  <div><h4>卷一 · 尺度</h4>
+    <div class="part"><span>Ⅰ 提问</span><span class="n">4 章 · 示范章1（尺度）</span></div>
+    <div class="part"><span>Ⅱ 范式</span><span class="n">3 章 · 6+3 转换/证据地图</span></div></div>
+  <div><h4>卷二 · 身体</h4>
+    <div class="part"><span>Ⅲ 维护</span><span class="n">4 章 · 五路线/接口/重编程</span></div>
+    <div class="part"><span>Ⅳ 看见</span><span class="n">4 章 · 示范章2（测量合同）</span></div>
+    <div class="part"><span>Ⅴ 竞争</span><span class="n">3 章 · 生态/速度归属</span></div>
+    <div class="part"><span><b>Ⅵ 容量 ★原创</b></span><span class="n">6 章 · 六模块整合</span></div>
+    <div class="part"><span>Ⅶ 代价</span><span class="n">4 章 · TPE/D+Q/清除链</span></div></div>
+  <div><h4>卷三 · 生活</h4>
+    <div class="part"><span>Ⅷ 环境</span><span class="n">3 章 · 暴露组/热/鸿沟</span></div>
+    <div class="part"><span>Ⅸ 体验</span><span class="n">3 章 · 意义双刃/艺术</span></div>
+    <div class="part"><span>Ⅹ 行动</span><span class="n">4 章 · 双账本/决策</span></div>
+    <div class="part"><span>Ⅺ 可修订</span><span class="n">2 章 · P3 接口/未知</span></div></div>
+</div>
+<div class="sub">合计 40 slot；预算 30–36 章 → 预案 C 压缩第Ⅹ/Ⅺ部（不压第Ⅷ/Ⅸ部，审计 C.4）。写作硬约束 4 条见审计 §C。</div>
+
+<h2>③ 论文处置（DEC-004 · 采纳 · provisional）</h2>
+<table>
+  <tr><th>成果</th><th>处置</th><th>状态</th><th>说明</th></tr>
+  <tr><td><b>P1+P2 →《Identifiability of Rejuvenation》</b></td><td><span class="pill ok">采纳·合并</span></td><td>PROTOCOL v2 待写</td><td>身份映射+汇总算子统一 estimand＝速度变化归属分解（转换九）； motivating cases：TPE 置换液对、CHIP 生长率</td></tr>
+  <tr><td>P3《让研究结论随证据变化而失效》</td><td><span class="pill info">保持</span></td><td>冻结协议 v1（THE-231）</td><td>对照 A–E、攻击族、TP/FP 指标；第二真实项目接入</td></tr>
+  <tr><td>P4《Maintenance Capacity Accounting》</td><td><span class="pill warn">条件立项</span></td><td>暂缓（DEC-006）</td><td>条件：①六模块反例统一为可复用核算框架 ②存在第二应用领域；否则留书稿第Ⅵ部</td></tr>
+  <tr><td>P5 恢复后随机化设计</td><td><span class="pill mu">不占号</span></td><td>走注册报告</td><td>先实验合同（THE-237）后决定</td></tr>
+</table>
+
+<h2>④ 里程碑与看板（Linear · THE_CYCLE_OS）</h2>
+<table>
+  <tr><th>里程碑</th><th>目标</th><th>进度</th><th>Issues</th></tr>
+  <tr><td><b>M1 知识库与总控 scaffold</b></td><td>2026-12-15</td><td><div class="bar"><div style="width:75%"></div></div></td><td><a href="https://linear.app/thecycleos/issue/THE-227">THE-227</a> 架构裁决（审计后 provisional ✓）· <a href="https://linear.app/thecycleos/issue/THE-233">THE-233</a> 前沿机制（第2期 ✓）· <a href="https://linear.app/thecycleos/issue/THE-236">THE-236</a> 路径清理 · <a href="https://linear.app/thecycleos/issue/THE-238">THE-238</a> 未知机制（日志已建 ✓）</td></tr>
+  <tr><td><b>M2 示范章与论文形式化</b></td><td>2027-01-31</td><td><div class="bar"><div style="width:10%"></div></div></td><td><a href="https://linear.app/thecycleos/issue/THE-228">THE-228</a> 示范章 ×2 · <a href="https://linear.app/thecycleos/issue/THE-229">THE-229</a> P1+P2 合并（方向已定）· <a href="https://linear.app/thecycleos/issue/THE-230">THE-230</a> P4 评估 · <a href="https://linear.app/thecycleos/issue/THE-232">THE-232</a> 数据合同 · <a href="https://linear.app/thecycleos/issue/THE-235">THE-235</a> 断言卡</td></tr>
+  <tr><td><b>M3 外审与投稿包</b></td><td>2027-03-31</td><td><div class="bar"><div style="width:5%"></div></div></td><td><a href="https://linear.app/thecycleos/issue/THE-234">THE-234</a> 独立外审 D05（blocker）· <a href="https://linear.app/thecycleos/issue/THE-231">THE-231</a> P3 冻结 · <a href="https://linear.app/thecycleos/issue/THE-237">THE-237</a> 实验合同</td></tr>
+</table>
+<div class="sub">项目：<a href="https://linear.app/thecycleos/project/c6be975d-338d-4ec9-a1c0-6a51ffce5f33">The Measures of Longevity｜长寿的尺度</a> · 仓库：Ginple/The_Measures_of_Longevity · 分支 arena/072fa716</div>
+
+<h2>⑤ 交叉验证台账（X-items）</h2>
+<table>
+  <tr><th>ID</th><th>事项</th><th>影响</th><th>状态</th></tr>
+  <tr><td>X01</td><td>ER-100 获批月（01 vs 06-08）</td><td>V6 §09 更新</td><td><span class="pill warn">open</span></td></tr>
+  <tr><td>X02</td><td>RS5614 公司自报</td><td>永久标注</td><td><span class="pill mu">标注制</span></td></tr>
+  <tr><td>X03/X04</td><td>GLP-1 时钟 / TRIIM 换算</td><td>不入正文</td><td><span class="pill warn">open</span></td></tr>
+  <tr><td>X05/X06</td><td>TPE 钟数 / 器官钟口径</td><td>不影响方向</td><td><span class="pill warn">open</span>/<span class="pill ok">resolved</span></td></tr>
+  <tr><td>X10 <b>新</b></td><td><b>TRIIM-X 停药 6 月参数回落 vs "持续"叙事</b></td><td>转换八表述降级</td><td><span class="pill warn">open</span></td></tr>
+  <tr><td>X11 <b>新</b></td><td>意义/死亡率校正后 24%→9–15%</td><td>第Ⅸ部双刃写法</td><td><span class="pill ok">resolved</span></td></tr>
+  <tr><td>X12/X13 <b>新</b></td><td>热适应 SSRN 未评审 / D+Q RCT 原文未读</td><td>引用等级标注</td><td><span class="pill warn">open</span></td></tr>
+</table>
+<div class="sub">旧科学债 D02–D10、M01/M06 按原状态保留（不自动关闭）；<b>D05 独立外审 = 正式合成 blocker</b>。</div>
+
+<h2>⑥ 审计结果（2026-11-27 · 同助手结构化自查）</h2>
+<table>
+  <tr><th>层</th><th>结果</th><th>要点</th></tr>
+  <tr><td>机械核查 A1–A8</td><td><span class="pill ok">8/8 通过</span></td><td>脉冲数字/T*公式/ρ恒等式/ΔM分解/TBX3 锚点逐位一致；无断链；旧债隔离</td></tr>
+  <tr><td>来源层级</td><td><span class="pill ok">通过 + 4 待办</span></td><td>每锚点 ≥1 一手来源或保留标注；新增 X13</td></tr>
+  <tr><td>架构对抗审查</td><td><span class="pill ok">方案 A 通过</span></td><td>4 项写作硬约束（原创性定位/章数/映射表/价值章保护）</td></tr>
+  <tr><td>论文对抗审查</td><td><span class="pill ok">方案 B 通过</span></td><td>P4 降为条件立项；P5 不占号</td></tr>
+</table>
+
+<h2>⑦ 知识库文件</h2>
+<table>
+  <tr><th>文件</th><th>角色</th><th>版本</th></tr>
+  <tr><td><code>knowledge_base/KERNEL.md</code></td><td>不变式·定义·锚点·范式转换·estimand·禁写句·失效协议</td><td>v0.9.1</td></tr>
+  <tr><td><code>knowledge_base/MASTER.md</code></td><td>权威路径·架构·论文处置·里程碑·决策日志</td><td>v1.0</td></tr>
+  <tr><td><code>knowledge_base/CLAIM_LEDGER.md</code></td><td>X01–X13 台账</td><td>—</td></tr>
+  <tr><td><code>knowledge_base/RESEARCH_FRONTIERS.md</code></td><td>第 1 期（10 路）+ 第 2 期（四方向深研）</td><td>2026-11-27</td></tr>
+  <tr><td><code>knowledge_base/ANOMALY_LOG.csv</code></td><td>未知未知发现机制（3 条首录）</td><td>—</td></tr>
+  <tr><td><code>review/scaffold_audit_2026-11-27.md</code></td><td>结构化审计（同助手，非独立外审）</td><td>—</td></tr>
+  <tr><td><code>books/manuscript/README.md</code></td><td>书稿章节地图（方案 A）</td><td>—</td></tr>
+</table>
+
+<div class="foot">
+  <b>禁写句摘要</b>：时钟下降 X 年 ≠ 返老还童 X 年 · 干预响应性 ≠ 替代终点资格 · 生长率减慢 ≠ 克隆被治年轻 · 预印本级联 ≠ 因果 · 癌变风险两极端都禁 · 47% ≠ 疗效确立 · 搜索没找到 ≠ 无人做过。<br>
+  权威路径：corpus/longevity_v6|v7 = 唯一编辑源 · 根级副本遗留待 THE-236 · 更新：2026-11-27 · 本文件由 Arena Agent 生成，随代码库版本管理。
+</div>
+
+</body>
+</html>
