@@ -31,8 +31,8 @@ def main():
  u=units();base=inspect(P);quant=quantitative_checks();s7=subprocess_inspect(P,7);s113=subprocess_inspect(P,113)
  # Preserve correct location relative to the existing main component, without copying a second live engine.
  with tempfile.TemporaryDirectory() as td:
-  work=Path(td)/'moved-workbench';component=work/'methods/research-assurance';component.parent.mkdir(parents=True)
-  shutil.copytree(P.parents[2]/'methods/research-assurance',component,ignore=shutil.ignore_patterns('__pycache__','build','*.egg-info'))
+  work=Path(td)/'moved-workbench';work.mkdir()
+  shutil.copytree(P.parents[2]/'src',work/'src',ignore=shutil.ignore_patterns('__pycache__','*.egg-info'))
   moved=work/'knowledge_base/pilots/real_claims_001';moved.parent.mkdir(parents=True)
   shutil.copytree(P,moved,ignore=shutil.ignore_patterns('__pycache__'))
   relocated=subprocess_inspect(moved,113)

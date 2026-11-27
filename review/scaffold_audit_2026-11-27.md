@@ -10,12 +10,12 @@
 
 ---
 
-## A｜机械核查（全部通过）
+## A｜历史机械核查（原称全部通过；A2 漏检，见 X39）
 
 | # | 检查项 | 方法 | 结果 |
 |---|---|---|---|
 | A1 | 脉冲反例数字 | KERNEL §3.1 vs `longevity_capacity_timing/RESULTS.json` | ✅ 2.0204509727798547 / 4.400382475555052 逐位一致；恒定存量 1.4999999999964393 ≈ 1.5 ✓ |
-| A2 | 状态周转公式 T*=j/(m+d) | vs `longevity_state_turnover/状态还在…md` L58–59 | ✅ dT/dt = j − (m+d)T；T* = j/(m+d) ✓ |
+| A2 | 状态周转公式 T*=j/(m+d) | vs `longevity_state_turnover/状态还在…md` L58–59 | ⚠️ 当时仅核公式字符，漏检 KERNEL 对 m 的错误释义；m 为成熟退出风险率而非迁移率，d 为其他丢失风险率。已登记 X39，不是独立外审。 |
 | A3 | 选择性恒等式 ρ后=ρ前(1−a)/(1−b) | vs `longevity_caretaker_selectivity/…md` L140 | ✅ 逐字符一致（ρ = J/V）✓ |
 | A4 | ΔM 三项分解 | vs `corpus/longevity_v7/…md` L105 | ✅ 逐字符一致 ✓ |
 | A5 | TBX3 四组比值 | KERNEL §3.1 vs HANDOFF §3.1 接收数字 | ✅ 0.598165 / 0.744179 / 1.496824 / 1.274047 全部保留 ✓ |

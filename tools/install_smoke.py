@@ -4,7 +4,7 @@ import json,os,shutil,subprocess,sys,tempfile
 P=Path(__file__).resolve().parents[1]
 
 def main():
- C=P/'methods/research-assurance'
+ C=P
  with tempfile.TemporaryDirectory() as td:
   td=Path(td);installed=td/'installed'
   r=subprocess.run([sys.executable,'-m','pip','install','--no-deps','--no-build-isolation','--target',str(installed),str(C)],capture_output=True,text=True,timeout=90)

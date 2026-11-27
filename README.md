@@ -19,12 +19,12 @@
 ## 本地验证 / Local verification
 
 ```bash
-python -m pip install -e ./methods/research-assurance
-python tools/run_validation.py
+python -m pip install -e . 'beautifulsoup4>=4.12,<5'
+python scripts/run_validation.py  # tools/run_validation.py 是等价入口
 ```
 
 安装依赖需要联网或本地wheel；工具运行本身不请求网络。已经安装依赖时直接运行第二条即可；脚本设置子进程导入路径，不要求修改环境变量。
-验证会写入 `artifacts/` 和子组件 `results/`，不刷新历史信任基线，也不重签判断。上游原包的对照复现及附件钩子实验是**可选的本地来源重放**，不属于公开仓库必需CI：
+验证输出当前回执到标准输出，不覆盖历史 `artifacts/`、`results/` 或信任基线。它运行根目录、合成实验和真实断言试点的测试；检查所请求看板基本结构、两个大小写副本的一致性及精确 HTML 允许列表（排除本地缓存/构建目录）；检查 Markdown 相对链接并逐项报告 `governance/legacy_broken_links.json` 所列已知历史断链，新增断链仍失败；比较两种 hash seed 及移目录后的测试与 CLI 输出。测试不认证科学结论或独立评审。两个仅大小写不同的看板在不区分大小写的文件系统存在 checkout 风险，尚需决定可移植的发布策略。上游原包的对照复现及附件钩子实验是**可选的本地来源重放**，不属于公开仓库必需CI：
 
 ```bash
 python tools/audit_prior_toolkit.py /path/to/frozen/research_assurance_toolkit
@@ -38,14 +38,14 @@ python tools/audit_attachment_hook.py /path/to/CGEE_R5.5.md
 - `governance/`：人类决策、来源接收和历史保护；不是自动执法服务。
 - `knowledge_base/`：共享断言目录规范；当前**没有**把所有书稿断言提取为经人审的登记表。
 - `books/`、`papers/`：研究纲领与各自贡献，不是已完成新专著/论文。
-- `corpus/editions/`：V6/V7 两份正文的逐字节快照；保留不同透镜，不称新V8。
-- `methods/research-assurance/`：上一轮工具包的派生候选修订，原0.1.0在仓库外冻结不改。
+- `corpus/longevity_v6/`、`corpus/longevity_v7/`：V6/V7 正文的活跃编辑源；根级同名目录为遗留副本，保留不同透镜，不称新V8。
+- `src/research_assurance/`：上一轮工具包的派生候选修订，原0.1.0在仓库外冻结不改。
 - `platform_adapters/`：部署边界说明；无已启用Claude/GitHub/Linear/Notion执法。
 - `review/external/`：独立评审空缺及验收要求，不能用目录存在代替评审。
 - `artifacts/`：本轮实际运行回执；`references/`只存附件接收记录与定向核验说明，不复制第三方全文。
 
 ## 不作出的承诺 / Non-claims
 
-不判科学真值；不认证返老还童；不把有限全局截面可满足性当世界真理；不把1050候选说成全部人审；不把示例命令测试说成操作系统安全认证；无新HTML；未创建或推送远端仓库。
+不判科学真值；不认证返老还童；不把有限全局截面可满足性当世界真理；不把1050候选说成全部人审；不把示例命令测试说成操作系统安全认证。用户要求的新状态看板已提供，当前工作已推送至 PR；历史交付记录中的“无新 HTML / 无远端”仅指当时会话，不是现行约束。
 
 **公开前**请完成作者、许可、版权、敏感数据与原始历史材料纳入范围审查。此工作台包含两份正文及方法组件，**并未打包全部历代引擎、原始证据大文件和会话对话**。见 `docs/GITHUB_HANDOFF.md`。

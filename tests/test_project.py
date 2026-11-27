@@ -3,6 +3,9 @@ from pathlib import Path
 P=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(P/'tools'))
 from numeric_contracts import check_percentage,execution_contract
+from dashboard_contract import check_dashboard, DASHBOARDS
+from markdown_links import classify_links
+import json, tempfile
 
 class ProjectTests(unittest.TestCase):
  def test_rounded_third_is_legitimate(self):
@@ -36,7 +39,52 @@ class ProjectTests(unittest.TestCase):
   self.assertEqual(execution_contract([{'blocking':True,'status':'ran_pass'},{'blocking':True,'status':'skipped'}])['status'],'fail')
  def test_invalid_minimum(self):
   with self.assertRaises(ValueError):execution_contract([],0)
- def test_no_html(self):
-  self.assertFalse(any(f.suffix.lower()=='.html' for f in P.rglob('*') if f.is_file()))
+ def test_requested_dashboard_contract(self):
+  self.assertEqual(check_dashboard(P), [])
+ def test_dashboard_rejects_missing_mismatch_and_external_assets(self):
+  page='<!doctype html><html><head><title>Fixture</title><style></style></head><body><main id="a"><a href="#a">ok</a></main></body></html>'
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td)
+   self.assertTrue(check_dashboard(root))
+   for name in DASHBOARDS: (root/name).write_text(page)
+   self.assertEqual(check_dashboard(root), [])
+   (root/'unexpected.htm').write_text(page)
+   self.assertIn('unauthorized HTML: unexpected.htm',check_dashboard(root))
+   (root/'unexpected.htm').unlink()
+   (root/DASHBOARDS[1]).write_text(page+'changed')
+   self.assertIn('dashboard copies differ',check_dashboard(root))
+   for name in DASHBOARDS: (root/name).write_text(page.replace('</head>', '<script src="https://example.org/x.js"></script></head>'))
+   self.assertTrue(any('external rendering asset' in e for e in check_dashboard(root)))
+   for name in DASHBOARDS: (root/name).write_text(page.replace('href="#a"','href="#missing"'))
+   self.assertIn('missing anchor: missing',check_dashboard(root))
+ def test_new_broken_links_are_not_hidden_by_legacy_exceptions(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td); (root/'governance').mkdir()
+   (root/'governance/legacy_broken_links.json').write_text(json.dumps({'known_broken_links':[{'file':'history.md','link':'old.md'}]}))
+   (root/'history.md').write_text('[old](old.md)\n[new](new.md)\n')
+   result=classify_links(root)
+   self.assertEqual(result['known_legacy'],[{'file':'history.md','link':'old.md'}])
+   self.assertEqual(result['new'],[{'file':'history.md','link':'new.md'}])
+ def test_state_turnover_model_terminology_and_examples(self):
+  kernel=(P/'knowledge_base/KERNEL.md').read_text()
+  row=next(line for line in kernel.splitlines() if line.startswith('| I6 |'))
+  self.assertIn('m 是成熟退出风险率',row)
+  self.assertIn('d 是其他丢失风险率',row)
+  self.assertIn('模型不含迁移',row)
+  self.assertNotIn('迁移+死亡',row)
+  model=(P/'longevity_state_turnover/状态还在_不等于细胞没换.md').read_text()
+  self.assertIn('成熟退出风险率为m，其他丢失风险率为d',model)
+  self.assertIn('最小模型暂不含增殖、逆转、迁移',model)
+  data=json.loads((P/'longevity_state_turnover/RESULTS.json').read_text())
+  cases={r['case']:r for r in data['rows']}
+  for r in cases.values():
+   self.assertAlmostEqual(r['steady_stock'],r['entry']/(r['maturation_hazard']+r['loss_hazard']))
+   self.assertAlmostEqual(r['mature_output'],r['maturation_hazard']*r['steady_stock'])
+  self.assertAlmostEqual(cases['baseline']['maturation_hazard'],.08)
+  self.assertAlmostEqual(cases['baseline']['mature_output'],8)
+  self.assertAlmostEqual(cases['more_maturation']['mature_output'],9)
+  self.assertAlmostEqual(cases['more_loss']['mature_output'],4)
+  self.assertAlmostEqual(cases['baseline']['cohort_remaining_t10'],cases['same_label_different_fate']['cohort_remaining_t10'])
+  self.assertNotAlmostEqual(cases['baseline']['cohort_mature_cumulative_t10'],cases['same_label_different_fate']['cohort_mature_cumulative_t10'])
 
 if __name__=='__main__':unittest.main()

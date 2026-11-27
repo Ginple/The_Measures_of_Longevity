@@ -59,6 +59,8 @@
 
 | X38 | 2026-11-27 | DO-HEALTH 时钟结果标准化差值换算成月数的公式待澄清 | [Fig.2 图注](https://www.nature.com/articles/s43587-024-00793-y/figures/2)和[扩展表3脚注](https://www.nature.com/articles/s43587-024-00793-y/tables/4)写 `(standardized estimate × SD + mean) × 12`；[方法](https://www.nature.com/articles/s43587-024-00793-y)称对变化量减均值并除 SD | 共同中心及尺度下组间差的逆变换均值项会相消；不确定脚注例子具体系数、变量与作者意图，未获得原数据/代码，不能判论文数值错误 | [条件性推导和复核清单](DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md)；请求作者澄清，不把时钟月数写成寿命获益 | open |
 
+| X39 | 2026-11-27 | KERNEL I6 状态周转参数 m 被误写为迁移 | [原模型](../longevity_state_turnover/状态还在_不等于细胞没换.md) §4 定义 m 为成熟退出风险率、d 为其他丢失风险率，并明确不含迁移；[脚本](../longevity_state_turnover/identifiability_check.py)以 `maturation_hazard` 实现 | 原 KERNEL 的“迁移+死亡”与模型及 V7 不一致；其他丢失不必全为死亡；标签留存结论依赖理想脉冲、无新标记和常风险假设 | KERNEL 升 v0.9.5 修正术语与条件；受影响书稿及论文接口需人工复审，原计算和冻结数据不重签；同助手旧审计的公式符号通过不代表术语通过 | open（术语纠正，人工依赖复审及独立外审待完成） |
+
 X33 后续：已读取 [Sanchez 综述全文方法、主要结果及偏离协议表](CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md)，确认 CALERIE 因平均年龄 38 被排除；DO-HEALTH 合并的是运动因子、不能换成 omega-3 对比。补表及逐试验与 TranslAGE 重叠仍未核，综述提取和合并结果未复算；X33 保持 open。
 
 X31 后续：作者[固定版本 Stata 脚本及筛选/模型](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)已静态查阅，公开仓库无患者数据；导出脚本标示按 ID/时点排序且发布不含 ID，提示隐私风险而非授权按行配对。分母矛盾、真实模型与身份保护仍待核。

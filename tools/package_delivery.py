@@ -10,6 +10,7 @@ def files():
  return sorted(f for f in P.rglob('*') if f.is_file() and not any(x in OMIT or x.endswith('.egg-info') for x in f.relative_to(P).parts))
 def digest(b):return hashlib.sha256(b).hexdigest()
 def main():
+ raise SystemExit('Historical packager disabled: it trusts a stale receipt and overwrites frozen manifests. Create and review a new packaging workflow.')
  validation=json.loads((P/'artifacts/VALIDATION.json').read_text());assert validation['all_software_checks_passed']
  # A file listing, not a planned conceptual tree. Include itself and the new manifest.
  names=sorted(set([str(f.relative_to(P)) for f in files()]+['REPOSITORY_TREE.md','FILE_MANIFEST.json']))

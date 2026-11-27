@@ -26,7 +26,7 @@
 
 ```text
 longevity_research_workbench/
-  methods/research-assurance/          # 上轮0.1.1候选，继续使用，不复制第二活跃源码
+  src/research_assurance/              # 工具包 0.1.1 候选，使用根目录唯一活跃源码
   knowledge_base/pilots/real_claims_001/  # 本次新增
 ```
 
