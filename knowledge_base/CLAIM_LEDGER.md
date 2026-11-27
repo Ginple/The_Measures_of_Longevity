@@ -116,3 +116,7 @@ X55 后续：已读 [补充材料](https://pmc.ncbi.nlm.nih.gov/articles/instanc
 X21 后续：WHO GHE2019 生命表与YLD方法、当前元数据已定向查阅；当前元数据说全球/区域聚合 HALE 输入按人口加权，但2021版与旧版不可直接比较，不能据此认定2024论文实际全球值的每一计算步骤。参见 [HALE 版本与口径审计](HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md)；当年数据快照与作者代码仍未取得，X21 继续 open。
 
 | X61 | 2026-11-27 | HALE 研究年度变化率的端点间隔与年份计数 | [论文统计方法](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)写 `(Estimate2019−Estimate2000)/20`；若为同日期年度端点，2019−2000 为19个一年间隔，20是含两端的年份计数 | 论文原始数据、时间定义与代码未取，可能存在未说明的期间口径；全球6.5年增量不能直接拿来复算183国均值0.29；不判趋势结论或检验无效 | [口径审计与条件算术](HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md)；核历史数据、年份定义及作者解释，不静默替换结果 | open |
+
+| X62 | 2026-11-27 | 心肌源—接收案例：摄取、递送与终端处理的证据层级 | [2023 原研究](https://www.nature.com/articles/s41467-023-40680-5) Fig. 7：培养巨噬细胞摄取带标记 EV 后与 LysoTracker 共定位；小鼠心肌标记货物见于 CD68 阳性细胞；另有2名 Danon 患者的离体组织比较 | 共定位支持递送但不是终端降解量的直接定量；不同实验模型不可拼成同一条实时轨迹；2020原研究本次只读摘要及评论，不能由多效性耗竭确定单一路径效应 | [原文定向审计](SOURCE_RECIPIENT_CARDIAC_EVIDENCE_AUDIT_2026-11-27.md)及[条件反例](experiments/CARGO_FATE_BALANCE_2026-11-27.md)；核原始全文、源表、示踪回收、对照和独立研究 | open（证据边界，非声称原论文错误） |
+
+| X63 | 2026-11-27 | 2023 心肌 EV 研究的制备范围与摄取“rate” | [方法](https://www.nature.com/articles/s41467-023-40680-5)：组织提取含0.8微米过滤排除较大颗粒；EV uptake rate 为20–24小时一次测得的 CFSE 阳性细胞比例，Fig. 7 为5次独立实验 | 该比例不是单位时间摄取或降解通量；细胞/图像与实验单位不同；过滤并不证明生物路径完全独立，补图与源数据未复核 | [定向审计 §4](SOURCE_RECIPIENT_CARDIAC_EVIDENCE_AUDIT_2026-11-27.md)，书稿及跨文档引用时保留分离方法、尺度和对象 | open（计量边界，无计算错误裁定） |
