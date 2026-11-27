@@ -12,6 +12,7 @@ CHAPTERS = (
     ROOT / 'books/manuscript/CH20_平均不等于及时_示范稿.md',
     ROOT / 'books/manuscript/CH21_有余量却用不上_示范稿.md',
     ROOT / 'books/manuscript/CH22_清除之后谁来接班_示范稿.md',
+    ROOT / 'books/manuscript/CH23_状态还在细胞换了吗_示范稿.md',
 )
 
 
