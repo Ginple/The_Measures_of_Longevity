@@ -41,3 +41,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## 同日：决策层级与反例
 
 [深研增量：从指标改善到可审计的净受益](RESEARCH_DECISION_LAYERS_2026-11-27.md)记录 ILLUMINATE、CAST、CALERIE 安全和 SPRINT 联合画像；附件为另项目状态页，仅作界面参考。X28–X30 保持 open。
+
+## 同日续研：反例与人数边界
+
+[四向续研：反例成对比较与分母一致性审查](COUNTEREXAMPLES_AND_DENOMINATORS_2026-11-27.md)包括 CETP 药物、D+Q 可行性、家庭环境反例及 CALERIE 报告人数的条件性集合冲突（X31）；[可运行边界计算](experiments/calerie_denominator_bounds.py)并非试验数据复算。
