@@ -145,6 +145,15 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 - 论文：P1+P2 合并为 [PI](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)（DEC-012）；三层各有先行工作（X125）；作者归属更正（X128）；近邻检索后收窄主张，协议 v3（X133–X137）。
 - 留痕：[检索日志](search_logs/SEARCH_LOG_2026-11-27_RESTRUCTURE.csv)、[影响记录](../review/DEC011_DEC012_IMPACT_2026-11-27.json)、[符合性审计](../review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md)。
 
+## 2026-11-27 第 9 轮：篇幅决定（DEC-017）与市场定位后的重构审计（DEC-018）
+
+- **DEC-017（作者指示）**：篇幅由内容决定，英文全本约 20 万词或以上均可。E-2 的每章目标作废；E-3 大众删节版暂不立项（X157）。
+- **重构审计**：
+  - 先提交 [预注册协议](../review/MARKET_RESTRUCTURE_AUDIT_PROTOCOL_2026-11-27.md) 和 [L2 包](../review/MARKET_RESTRUCTURE_AUDIT_PACKET_L2_2026-11-27.md)（e20d915），再写 [L1 回执](../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md)。
+  - **结论**：不做架构重构；增加前后置槽位与细纲层；KERNEL v0.9.11 修旧部号指针、两处"首次/首个"和 reserve 术语（X158、X159）。
+  - L1 是同一助手，**不是独立审计**；D05 open。
+- **新文件**：[细纲规范与概念归属](../books/manuscript/en/DETAILED_OUTLINE_SPEC.md)、[卷Ⅰ细纲 v0.1](../books/manuscript/en/DETAILED_OUTLINE_VOL1.md)。
+
 ## 2026-11-27 第 8 轮：V7.0 EN 收录评估与语言决定（DEC-016）
 
 - **语言决定 DEC-016**：作者指示书稿（专著）与论文以英文为第一语言，简体中文为第二语言。

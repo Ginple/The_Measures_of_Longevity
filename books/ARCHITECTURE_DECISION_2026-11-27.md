@@ -81,3 +81,16 @@
 | 卷三实际字数低于 28% | 停止扩写卷二，先补卷三 |
 | PI 系统近邻检索发现三层框架已有发表 | PI 降为综述或评论稿；书的结构不变。**2026-11-27 检索后未触发**（X133–X137）：三层统一框架未命中；Yücel 2024 是第①②层的定性先行，第②③层部分命中，按协议处置为"保留原创、收窄主张"，见 [检索结果](../papers/PI_rejuvenation_identifiability/NOVELTY_SEARCH_RESULT.md)。Scopus/WoS 与独立第二筛选人尚未完成 |
 | §7.2 单章试点暴露出映射错误 | 修改 `outline_build.py` 的 ASSIGN，重新生成并复核。**2026-11-27 已触发一次**：第 5 章试点发现 V7-06 的正文就是本章标题里的四种属性和使用规则，ASSIGN 由 6 改为 5；第 6 章因此变为无继承、需新写（与第 7、9 章同），章数不变，见 [试点记录](../knowledge_base/pilots/ch05_measurement_contract/README.md) |
+
+## 7. 市场定位后的复核（2026-11-27，DEC-017、DEC-018）
+
+- **篇幅（DEC-017，作者指示）**：篇幅由内容决定。§1 与 OUTLINE 中的分卷预算降为平衡参考；§6"卷三实际字数低于 28%"一条继续有效，按英文实际字数计算。
+- **重构审计（DEC-018）**：按 [预注册协议](../review/MARKET_RESTRUCTURE_AUDIT_PROTOCOL_2026-11-27.md) 做了 L1 审计（同一助手，非独立），见 [回执](../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md)。
+  - 本结构的卷、部、章数与章序都不变。
+  - 增加前后置槽位 F1、B1–B4，不计入 33 章。
+  - 新建细纲层：[规范与概念归属](manuscript/en/DETAILED_OUTLINE_SPEC.md)、[卷Ⅰ细纲](manuscript/en/DETAILED_OUTLINE_VOL1.md)。
+- **§6 增加三条重审触发**：
+  - MR-2 读者访谈显示 R1 在卷Ⅱ大量放弃，或无法完成任务；
+  - L3 的美加代理或编辑认为 33 章结构即使作为长篇书也无法签约；
+  - 重构审计 L2 回执给出针对本结构的 K3 理由。
+  - 任一条成立，即重开 THE-227。

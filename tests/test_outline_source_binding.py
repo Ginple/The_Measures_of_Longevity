@@ -41,6 +41,20 @@ class OutlineSourceBinding(unittest.TestCase):
         self.assertGreaterEqual(sum(c['volume'] == 'Ⅲ' for c in ch) / len(ch), 0.28)
         self.assertEqual(len({c['part'] for c in ch}), 8)
 
+    def test_front_back_matter_slots_do_not_change_chapters(self):
+        # DEC-018: matter slots are positions only; they hold no inherited chapter and are not numbered chapters.
+        matter = self.data['matter']
+        self.assertEqual([m['position'] for m in matter if m['position'] == 'front'], ['front'])
+        self.assertTrue({'B1', 'B2', 'B3', 'B4'} <= {m['id'] for m in matter})
+        self.assertEqual(len({m['id'] for m in matter}), len(matter))
+        self.assertTrue(all(m['title_en'] and m['title'] for m in matter))
+        self.assertEqual(len(self.data['chapters']), 33)
+        self.assertTrue(all(isinstance(v['to'], int) for v in self.data['inherited'].values()))
+        # DEC-017: budgets are a balance reference, not a target.
+        self.assertIn('DEC-017', self.data['budget_status'])
+        md = (ROOT / 'books/manuscript/OUTLINE_v1.md').read_text(encoding='utf-8')
+        self.assertNotIn('预算约', md)
+
     def test_mutations_are_detected(self):
         # A drifted title in a copied corpus, a dropped assignment and a duplicate heading must each fail.
         import shutil, tempfile

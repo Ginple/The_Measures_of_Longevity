@@ -30,6 +30,44 @@
     "Ⅲ": 105000,
     "frame": 20000
   },
+  "budget_status": "balance_reference_only (DEC-017: content decides length; Volume III >= 28% of actual English words still binds)",
+  "matter": [
+    {
+      "position": "front",
+      "id": "F1",
+      "title_en": "Introduction: What a Longevity Number Can Tell You, and How to Read This Book",
+      "title": "导读：长寿数字能告诉你什么，以及怎样读这本书",
+      "purpose": "Opens with the reader's own question (for example a biological-age report; the scene must differ from the chapter 5 opening); states what the book does and does not do (no prescriptions, no promise of longer life); gives four reading routes for R1-R4."
+    },
+    {
+      "position": "back",
+      "id": "B1",
+      "title_en": "Glossary",
+      "title": "术语表",
+      "purpose": "English canonical terms checked against KERNEL; Chinese equivalents."
+    },
+    {
+      "position": "back",
+      "id": "B2",
+      "title_en": "Questions to Ask of Any Longevity Number",
+      "title": "读数提问清单",
+      "purpose": "Questions only, never thresholds or pass marks; each question points to the chapter that owns it."
+    },
+    {
+      "position": "back",
+      "id": "B3",
+      "title_en": "Methods Appendix",
+      "title": "方法附录",
+      "purpose": "Derivations, decompositions and long evidence tables moved out of the running text (DEC-017 rule c; audio)."
+    },
+    {
+      "position": "back",
+      "id": "B4",
+      "title_en": "Notes and Sources",
+      "title": "注释与来源",
+      "purpose": "Every number traceable to a ledger ID or a bound excerpt."
+    }
+  ],
   "sources": {
     "V6": {
       "path": "corpus/longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md",

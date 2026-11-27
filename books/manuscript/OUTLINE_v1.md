@@ -4,9 +4,17 @@
 
 > **由 `outline_build.py` 生成，请勿手改。** 状态：工作草稿，未经独立审阅（D05 open）。继承列只按编号章**标题**归类（每章取一个主要落点），不是逐段内容核对；源文件 hash 见 `outline_v1.json`，由 `tests/test_outline_source_binding.py` 复核。决定理由见 [架构决定](../ARCHITECTURE_DECISION_2026-11-27.md)。
 
+> **Length (DEC-017):** content decides length; no total or per-chapter word target. 篇幅由内容决定；各卷预算只作平衡参考，卷三不低于英文实际字数 28% 的规则继续有效。
+
 证据类别：S＝以已发表/实测为主；M＝混合；H＝以假说、合成模型或实验合同为主。
 
-## Volume Ⅰ · Measures / 卷Ⅰ · 尺度（预算约 90k 中文字）
+## Front matter / 前置部分
+
+| 槽位 | Title / 标题 | 用途（不是编号章，不含继承内容） |
+|---|---|---|
+| F1 | Introduction: What a Longevity Number Can Tell You, and How to Read This Book / 导读：长寿数字能告诉你什么，以及怎样读这本书 | Opens with the reader's own question (for example a biological-age report; the scene must differ from the chapter 5 opening); states what the book does and does not do (no prescriptions, no promise of longer life); gives four reading routes for R1-R4. |
+
+## Volume Ⅰ · Measures / 卷Ⅰ · 尺度（平衡参考：DEC-011 中文约 90k 字；DEC-017 后不是写作目标）
 
 ### Part 1 · Questions / 第1部 · 问题
 
@@ -27,7 +35,7 @@
 | 8 | Recovery: The Capacity You See Only After a Perturbation / 恢复：扰动之后才看得见的能力 | M | PI | — | V6-16《器官年龄、跨干预时钟与恢复曲线》、V7-17《刺激撤除以后，系统是否真的回来》 |
 | 9 | Reserve: How Far from the Threshold? / 余量：离阈值还有多远 | M | PI | — | —（新写） |
 
-## Volume Ⅱ · The Body / 卷Ⅱ · 身体（预算约 135k 中文字）
+## Volume Ⅱ · The Body / 卷Ⅱ · 身体（平衡参考：DEC-011 中文约 135k 字；DEC-017 后不是写作目标）
 
 ### Part 3 · Maintaining the Body / 第3部 · 维护身体
 
@@ -57,7 +65,7 @@
 | 21 | Capacity Accounting I: Who Maintains Whom, and When Help Arrives / 容量核算 I：谁替谁维护、何时到位 | H | P4 | CH19+CH20 | V7-34《源端改善，可以伴随接收端负荷增加》 |
 | 22 | Capacity Accounting II: Reserve You Cannot Use / 容量核算 II：有余量却用不上 | H | P4 | CH21 | V7-35《总余量之外，还有时间与空间的可达性》 |
 
-## Volume Ⅲ · Life / 卷Ⅲ · 生活（预算约 105k 中文字）
+## Volume Ⅲ · Life / 卷Ⅲ · 生活（平衡参考：DEC-011 中文约 105k 字；DEC-017 后不是写作目标）
 
 ### Part 6 · Conditions of a Life / 第6部 · 生活的条件
 
@@ -85,9 +93,18 @@
 | 32 | Unknowns and the Anomaly Log / 未知与异常日志 | M | — | — | V6-28《让综合能被反驳：五项可执行的研究提案》、V7-29《已知未知：把不确定性变成测量项目》、V7-30《Unknown Unknowns：不能列尽，但可以让它们更容易出现》 |
 | 33 | Knowledge That Can Be Withdrawn / 可撤回的知识 | M | — | — | V6-33《如何判断下一次更新是否真的更好》 |
 
+## Back matter / 后置部分
+
+| 槽位 | Title / 标题 | 用途（不是编号章，不含继承内容） |
+|---|---|---|
+| B1 | Glossary / 术语表 | English canonical terms checked against KERNEL; Chinese equivalents. |
+| B2 | Questions to Ask of Any Longevity Number / 读数提问清单 | Questions only, never thresholds or pass marks; each question points to the chapter that owns it. |
+| B3 | Methods Appendix / 方法附录 | Derivations, decompositions and long evidence tables moved out of the running text (DEC-017 rule c; audio). |
+| B4 | Notes and Sources / 注释与来源 | Every number traceable to a ledger ID or a bound excerpt. |
+
 ## 结构检查（生成时计算）
 
 - 章数 33；卷三 11 章（33%）。卷三章数或实际字数低于 28% 时，停止扩写卷二，先补卷三。
 - 没有继承编号章、需要新写的章：6、7、9。
-- 非编号内容（V6 导论/终章/出处说明/S6.1–S6.6，V7 导读/结语/附录 A–C/第十部引言）未纳入本表，须另行核对，不得自动合并。
+- 非编号内容（V6 导论/终章/出处说明/S6.1–S6.6，V7 导读/结语/附录 A–C/第十部引言）未纳入本表，须另行核对，不得自动合并；前后置槽位只是位置，不表示这些内容已归入。
 - V6 33 章、V7 39 章各有且只有一个主要落点。

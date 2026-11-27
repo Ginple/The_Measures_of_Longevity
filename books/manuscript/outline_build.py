@@ -116,6 +116,21 @@ TITLES_EN = {
     33: 'Knowledge That Can Be Withdrawn',
 }
 BUDGET = {'Ⅰ': 90_000, 'Ⅱ': 135_000, 'Ⅲ': 105_000, 'frame': 20_000}  # characters, planning only
+# DEC-017 (2026-11-27): content decides length; the budget above is a balance reference only, not a target.
+BUDGET_STATUS = 'balance_reference_only (DEC-017: content decides length; Volume III >= 28% of actual English words still binds)'
+# Front and back matter slots (post-positioning restructure audit, F-01/F-09/F-12). They are not numbered
+# chapters, do not change the 33-chapter count, and hold no inherited V6/V7 chapter.
+MATTER = [
+    ('front', 'F1', 'Introduction: What a Longevity Number Can Tell You, and How to Read This Book', '导读：长寿数字能告诉你什么，以及怎样读这本书',
+     'Opens with the reader\'s own question (for example a biological-age report; the scene must differ from the chapter 5 opening); states what the book does and does not do '
+     '(no prescriptions, no promise of longer life); gives four reading routes for R1-R4.'),
+    ('back', 'B1', 'Glossary', '术语表', 'English canonical terms checked against KERNEL; Chinese equivalents.'),
+    ('back', 'B2', 'Questions to Ask of Any Longevity Number', '读数提问清单',
+     'Questions only, never thresholds or pass marks; each question points to the chapter that owns it.'),
+    ('back', 'B3', 'Methods Appendix', '方法附录',
+     'Derivations, decompositions and long evidence tables moved out of the running text (DEC-017 rule c; audio).'),
+    ('back', 'B4', 'Notes and Sources', '注释与来源', 'Every number traceable to a ledger ID or a bound excerpt.'),
+]
 
 
 def sha256(path):
@@ -157,6 +172,8 @@ def build():
             'status': 'working_draft_not_reviewed',
             'mapping_scope': 'chapter-title classification only; not a paragraph-level content audit',
             'volumes': [{'id': v, 'title': t, 'title_en': VOLUMES_EN[v]} for v, t in VOLUMES], 'budget_chars': BUDGET,
+            'budget_status': BUDGET_STATUS,
+            'matter': [{'position': a, 'id': b, 'title_en': c, 'title': d, 'purpose': e} for a, b, c, d, e in MATTER],
             'sources': sources, 'chapters': chapters, 'inherited': inherited}
 
 
@@ -168,13 +185,20 @@ def render_md(data):
          '> **由 `outline_build.py` 生成，请勿手改。** 状态：工作草稿，未经独立审阅（D05 open）。'
          '继承列只按编号章**标题**归类（每章取一个主要落点），不是逐段内容核对；源文件 hash 见 `outline_v1.json`，'
          '由 `tests/test_outline_source_binding.py` 复核。决定理由见 [架构决定](../ARCHITECTURE_DECISION_2026-11-27.md)。', '',
+         '> **Length (DEC-017):** content decides length; no total or per-chapter word target. 篇幅由内容决定；'
+         '各卷预算只作平衡参考，卷三不低于英文实际字数 28% 的规则继续有效。', '',
          '证据类别：S＝以已发表/实测为主；M＝混合；H＝以假说、合成模型或实验合同为主。', '']
+    front = [m for m in data['matter'] if m['position'] == 'front']
+    back = [m for m in data['matter'] if m['position'] == 'back']
+    hdr = ['| 槽位 | Title / 标题 | 用途（不是编号章，不含继承内容） |', '|---|---|---|']
+    L += ['## Front matter / 前置部分', ''] + hdr
+    L += [f"| {m['id']} | {m['title_en']} / {m['title']} | {m['purpose']} |" for m in front] + ['']
     cur_v = cur_p = None
     for c in data['chapters']:
         if c['volume'] != cur_v:
             cur_v = c['volume']
             ven = next(v['title_en'] for v in data['volumes'] if v['id'] == cur_v)
-            L += [f"## Volume {cur_v} · {ven} / 卷{cur_v} · {vt[cur_v]}（预算约 {data['budget_chars'][cur_v] // 1000}k 中文字）", '']
+            L += [f"## Volume {cur_v} · {ven} / 卷{cur_v} · {vt[cur_v]}（平衡参考：DEC-011 中文约 {data['budget_chars'][cur_v] // 1000}k 字；DEC-017 后不是写作目标）", '']
         if c['part'] != cur_p:
             cur_p = c['part']
             L += [f"### Part {cur_p} · {c['part_title_en']} / 第{cur_p}部 · {c['part_title']}", '',
@@ -183,12 +207,14 @@ def render_md(data):
         L.append(f"| {c['n']} | {c['title_en']} / {c['title']} | {c['evidence']} | {c['papers'] or '—'} | {c['demo_draft'] or '—'} | {inh} |")
         if c['n'] in (4, 9, 13, 17, 22, 27, 30, 33):
             L.append('')
+    L += ['## Back matter / 后置部分', ''] + hdr
+    L += [f"| {m['id']} | {m['title_en']} / {m['title']} | {m['purpose']} |" for m in back] + ['']
     n3 = sum(1 for c in data['chapters'] if c['volume'] == 'Ⅲ')
     new = [str(c['n']) for c in data['chapters'] if not c['inherits']]
     L += ['## 结构检查（生成时计算）', '',
           f"- 章数 {len(data['chapters'])}；卷三 {n3} 章（{n3 / len(data['chapters']):.0%}）。卷三章数或实际字数低于 28% 时，停止扩写卷二，先补卷三。",
           f"- 没有继承编号章、需要新写的章：{'、'.join(new)}。",
-          '- 非编号内容（V6 导论/终章/出处说明/S6.1–S6.6，V7 导读/结语/附录 A–C/第十部引言）未纳入本表，须另行核对，不得自动合并。',
+          '- 非编号内容（V6 导论/终章/出处说明/S6.1–S6.6，V7 导读/结语/附录 A–C/第十部引言）未纳入本表，须另行核对，不得自动合并；前后置槽位只是位置，不表示这些内容已归入。',
           f"- V6 {data['sources']['V6']['numbered_chapters']} 章、V7 {data['sources']['V7']['numbered_chapters']} 章各有且只有一个主要落点。", '']
     return '\n'.join(L)
 
