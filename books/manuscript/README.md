@@ -44,3 +44,5 @@ VITAL 是与 DO-HEALTH 不同的随机试验，可补充 D 和 omega-3 主效应
 P2 的[双混合观测](../../knowledge_base/experiments/P2_TWO_MIXTURE_INVERSION_2026-11-27.md)说明两个已知不同权重只有在共用类型值和线性模型成立时才可反解；权重过近会放大误差（X56）。它不能把前后样本默认视为组分不变，也不是实际时钟或个体轨迹结果。
 
 DO-HEALTH 2026 年癌症与功能/钟轨迹是同一试验内的观察性比较，不是独立随机复制或验证中介；功能主结果汇总多个测量时点，正文敏感性数值标签与单位交叉，见 [X57–X58](../../knowledge_base/DO_HEALTH_CANCER_FUNCTION_2026_AUDIT_2026-11-27.md)。
+
+TPE 书稿待办（X05/X77/X78）：[时点、分配和统计单位审计](../../knowledge_base/TPE_TIMING_ALLOCATION_CLOCK_UNIT_AUDIT_2026-11-27.md)撤回旧的发表版钟数已解决和治疗中收益递减表述。置换液是干预成分，两个研究不是同一随机对照；第25–28章撰写前核各时点和人群、独立审读及安全证据。

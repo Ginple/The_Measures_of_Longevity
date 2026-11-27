@@ -33,3 +33,7 @@
 ## 后续：修复记忆择要整合
 
 以同一固定头 `b8434e22ec62ba21814546560a33fc38f4939e9f` 的研究审计及候选稿为线索，另核指定原文，按本分支章节安排重写 [第24章](../books/manuscript/CH24_修好这一次还剩多少下一次_示范稿.md)，不导入对方冲突章号与X项；详细范围、竞争解释及残留问题见[时间窗审计](../knowledge_base/RECOVERY_MEMORY_CAUSAL_AUDIT_2026-11-27.md)和[自查](CHAPTER_24_SELF_REVIEW_2026-11-27.md)。COLON体外撤药与体内同时诱导不拼接；GUT Fig 7的前一日开始与正文后续给药措辞差异、药效仍待核。另添加自行构造的[恢复资格反例](../knowledge_base/experiments/RECOVERY_ELIGIBILITY_COUNTEREXAMPLE_2026-11-27.md)，不是PR2原文数据。登记 X75–X76，X74补充；均未关闭。未做独立外审、数据复算或系统综述。
+
+## 后续：TPE 时间与推断单位
+
+依据PR2固定头的TPE审计线索，本分支由同一助手重新定向核对指定原文、当前登记与作者固定代码，[记录范围和未决事项](../knowledge_base/TPE_TIMING_ALLOCATION_CLOCK_UNIT_AUDIT_2026-11-27.md)；撤回X05将发表版35/36差异视作仅跨版本且已解决的判断，新增X77/X78并升级KERNEL v0.9.7、纠正前沿F6。新合成重复时钟示例受PR2启发、不使用真实试验数据，不证明发表数值错误；历史冻结文件及pilot语料未改，外部独审与复算仍未进行。

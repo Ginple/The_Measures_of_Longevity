@@ -81,3 +81,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## 修复记忆：PR #2 后续审读
 
 [时间窗与因果审计](RECOVERY_MEMORY_CAUSAL_AUDIT_2026-11-27.md)按一手图注及方法区分体外洗脱、诱导期干预和记忆形成期干预；[人工恢复资格反例](experiments/RECOVERY_ELIGIBILITY_COUNTEREXAMPLE_2026-11-27.md)及测试只说明选择问题，不是实际数据。X74–X76未关闭；第24章仍待独立审读。
+
+## TPE 审计修订
+
+[时间窗、分配与跨钟推断单位](TPE_TIMING_ALLOCATION_CLOCK_UNIT_AUDIT_2026-11-27.md)经原文和固定源码定向核读，重新开放 X05、登记 X77–X78；KERNEL 升至 v0.9.7，撤回未经证明的收益递减。两研究不是置换液随机对照。合成反例与测试不是试验复算，历史依赖需继续人工复审。
