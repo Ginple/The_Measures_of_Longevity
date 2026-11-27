@@ -10,6 +10,7 @@ CHAPTERS = (
     ROOT / 'books/manuscript/CH15_测量合同_示范稿.md',
     ROOT / 'books/manuscript/CH19_谁替谁维护_示范稿.md',
     ROOT / 'books/manuscript/CH20_平均不等于及时_示范稿.md',
+    ROOT / 'books/manuscript/CH21_有余量却用不上_示范稿.md',
 )
 
 
