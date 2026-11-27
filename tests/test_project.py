@@ -39,27 +39,21 @@ class ProjectTests(unittest.TestCase):
   self.assertEqual(execution_contract([{'blocking':True,'status':'ran_pass'},{'blocking':True,'status':'skipped'}])['status'],'fail')
  def test_invalid_minimum(self):
   with self.assertRaises(ValueError):execution_contract([],0)
- def test_requested_dashboard_contract(self):
+ def test_no_html_contract(self):
   self.assertEqual(check_dashboard(P), [])
- def test_dashboard_rejects_missing_mismatch_and_external_assets(self):
-  page='<!doctype html><html><head><title>Fixture</title><style></style></head><body><main id="a"><a href="#a">ok</a></main></body></html>'
+  self.assertEqual(DASHBOARDS, ())
+ def test_contract_rejects_html_and_case_collisions(self):
   with tempfile.TemporaryDirectory() as td:
    root=Path(td)
-   self.assertTrue(check_dashboard(root))
-   for name in DASHBOARDS: (root/name).write_text(page)
    self.assertEqual(check_dashboard(root), [])
-   (root/'unexpected.htm').write_text(page)
-   self.assertIn('unauthorized HTML: unexpected.htm',check_dashboard(root))
-   (root/'unexpected.htm').unlink()
+   (root/'STATE_DASHBOARD.HTML').write_text('<!doctype html>')
+   self.assertIn('unauthorized HTML: STATE_DASHBOARD.HTML',check_dashboard(root))
+   (root/'STATE_DASHBOARD.HTML').unlink()
    (root/'docs').mkdir(); (root/'docs/Note.md').write_text('a'); (root/'docs/note.md').write_text('b')
    if len(list((root/'docs').iterdir()))==2:  # skip on case-insensitive hosts
     self.assertIn('case-insensitive path collision: docs/Note.md | docs/note.md',check_dashboard(root))
    shutil.rmtree(root/'docs')
    self.assertEqual(check_dashboard(root), [])
-   for name in DASHBOARDS: (root/name).write_text(page.replace('</head>', '<script src="https://example.org/x.js"></script></head>'))
-   self.assertTrue(any('external rendering asset' in e for e in check_dashboard(root)))
-   for name in DASHBOARDS: (root/name).write_text(page.replace('href="#a"','href="#missing"'))
-   self.assertIn('missing anchor: missing',check_dashboard(root))
  def test_new_broken_links_are_not_hidden_by_legacy_exceptions(self):
   with tempfile.TemporaryDirectory() as td:
    root=Path(td); (root/'governance').mkdir()

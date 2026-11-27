@@ -30,7 +30,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 
 - [四方向穿透综合](DEPTH_SYNTHESIS_2026-11-27.md)；[工作证据卡 C000007–14](claims/ROUND_2026-11-27_DEPTH.md)。非系统综述、非独审、外源无字节快照。
 - [交叉验证台账 X21–X25](CLAIM_LEDGER.md) 包含三项既有误读及两项新证据边界；D05 仍为正式合成 blocker。
-- [STATE_DASHBOARD.HTML](../STATE_DASHBOARD.HTML) 是 PR #1 那一轮单项授权生成的状态快照，现已冻结、不更新；只差大小写的副本已删除（X83/DEC-008）。它不代表独立审计，也不反映实时的 Linear 状态。
+- `STATE_DASHBOARD.HTML` 是 PR #1 那一轮生成的状态快照。2026-11-27 按作者要求连同大小写副本一并删除（DEC-008），历史版本可从 git 历史提交 `dd47ce6` 找回。仓库恢复“不交付 HTML”的合同。
 
 ## 同日对抗研究增量
 
