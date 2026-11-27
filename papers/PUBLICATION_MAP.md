@@ -1,5 +1,7 @@
 # 主书与伴生论文分工 / Book–paper publication map
 
+> **2026-11-27（DEC-016）**：论文以英文为第一语言撰写与投稿；需要时另出简体中文版。
+
 > **2026-11-27（DEC-012）**：P1 与 P2 合并为 [PI](PI_rejuvenation_identifiability/PROTOCOL.md)，加入动力学层；P3 有条件保留；P4 暂缓；P5 只出合同。P1/P2/P3 的冻结协议不改字节。下表是历史分工。
 
 > **⚠️ 权威变更（2026-11-27）**：论文处置（保持/合并/衍生）的最新权威是 [`knowledge_base/MASTER.md`](../knowledge_base/MASTER.md) §4（方案 A 保持 / B 合并 P1+P2 / C +衍生 P4 / D +P5，待作者裁决）。P1/P2/P3 的 PROTOCOL 本体仍是权威协议；本文件保留为历史分工表。

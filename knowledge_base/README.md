@@ -145,6 +145,20 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 - 论文：P1+P2 合并为 [PI](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)（DEC-012）；三层各有先行工作（X125）；作者归属更正（X128）；近邻检索后收窄主张，协议 v3（X133–X137）。
 - 留痕：[检索日志](search_logs/SEARCH_LOG_2026-11-27_RESTRUCTURE.csv)、[影响记录](../review/DEC011_DEC012_IMPACT_2026-11-27.json)、[符合性审计](../review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md)。
 
+## 2026-11-27 第 8 轮：V7.0 EN 收录评估与语言决定（DEC-016）
+
+- **语言决定 DEC-016**：作者指示书稿（专著）与论文以英文为第一语言，简体中文为第二语言。
+  - 33 章结构不变；章节地图生成器加入英文工作章名（[OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)）。
+  - 新建 [英文书稿目录](../books/manuscript/en/README.md)，第 5 章英文稿 v0.1 由中文 v0.3 改写，尚未逐字绑定来源。
+  - 英文篇幅与是否另出大众版仍待作者裁决（X147→X156；[市场定位 §3.1](../books/market/MARKET_POSITIONING_2026-11.md)）。
+- [V7.0 EN 收录评估](intake/V7_0_EN_INTEGRATION_ASSESSMENT.md)：
+  - **结论**：V7.0 比 V4.0 规范，但仍只能当线索清单。
+  - **引用问题**：期刊错误 5 处、年份错误 1 处、不可定位 2 处；综述被当作 [A] 级证据 7 处；Park 2026 的免疫峰值被误读为性别配对。
+  - **可收线索**：性别特异钟（第 6 章）、端粒横断面与纵向速率（第 6、7 章）、人体类淋巴 RCT（第 12、18、20 章）、CMA 与衰老细胞清除（第 19 章）、非线性免疫衰老（第 7 章）、SASP 代谢检查点（第 19、11 章）。
+  - **不收录**："ECM 第 13 标志"、15 维张量、M15–M20/A11–A15、P23–P30、19 章地图。
+  - **PI**：没有新的必引近邻。
+  - 台账 X148–X156，[检索日志](search_logs/SEARCH_LOG_2026-11-27_V7_INTAKE.csv)。
+
 ## 2026-11-27 第 7 轮：V4.0 EN 收录评估与市场定位
 
 - [V4.0 EN 收录评估](intake/V4_0_EN_INTEGRATION_ASSESSMENT.md)：结论是 V4.0 只能当线索清单，不能当证据来源用；约 20 处引用中有多处期刊、DOI、作者错误。可收的线索映射到第 2、5、6、7、11、12、18、19 章；PI 新增一篇必引近邻（Tanigawa & Iwaki 2026，不构成 A 类命中）。台账 X139–X146，[检索日志](search_logs/SEARCH_LOG_2026-11-27_V4_INTAKE.csv)。

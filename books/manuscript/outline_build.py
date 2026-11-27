@@ -74,6 +74,47 @@ ASSIGN = {
            24: 16, 25: 11, 26: 20, 27: 17, 28: 13, 29: 32, 30: 32, 31: 31, 32: 29, 33: 26, 34: 21,
            35: 22, 36: 19, 37: 15, 38: 17, 39: 31},
 }
+# DEC-016 (2026-11-27): English is the first language of the monograph, Simplified Chinese the second.
+# English titles below are working titles; the Chinese titles above stay as the second-language titles.
+VOLUMES_EN = {'Ⅰ': 'Measures', 'Ⅱ': 'The Body', 'Ⅲ': 'Life'}
+PARTS_EN = {1: 'Questions', 2: 'Four Measures', 3: 'Maintaining the Body', 4: 'Identifying Rejuvenation',
+            5: 'Interventions and Costs', 6: 'Conditions of a Life', 7: 'Judgment and Action',
+            8: 'Revisable Knowledge'}
+TITLES_EN = {
+    1: 'What Does Longevity Actually Measure?',
+    2: 'Age Is Not the Only Clock',
+    3: 'Explanation, Prediction, Control, and Benefit',
+    4: 'What Counts as Evidence: Denominators, Source Families, and Replication',
+    5: 'Measurement Contracts: Prediction, Responsiveness, Mechanism, Surrogacy',
+    6: 'Level: What a Single Reading Tells You',
+    7: 'Rate: A Slope Is Not a State',
+    8: 'Recovery: The Capacity You See Only After a Perturbation',
+    9: 'Reserve: How Far from the Threshold?',
+    10: 'Maintenance, Repair, Replacement, and Compensation',
+    11: 'The Costs of Damage and Repair',
+    12: 'Organs, Interfaces, and Environments',
+    13: 'Competition Within the Body',
+    14: 'Identity: Who Is Getting Younger?',
+    15: 'Younger Samples, Younger Entities: State Turnover',
+    16: 'The Weights Inside Composite Measures',
+    17: 'History and Memory: After This Repair, How Many Remain?',
+    18: 'When Markers and Outcomes Part Ways',
+    19: 'Reprogramming and Senescent Cells: After Clearance, Who Takes Over?',
+    20: 'Tiers of Evidence for Nutrition, Exercise, Prevention, and Medicine',
+    21: 'Capacity Accounting I: Who Maintains Whom, and When Help Arrives',
+    22: 'Capacity Accounting II: Reserve You Cannot Use',
+    23: 'Housing, Environment, and Infrastructure',
+    24: 'Care, Dependence, and Autonomy',
+    25: 'Bodily Experience and Technological Monitoring',
+    26: 'Art, Relationships, and Meaning',
+    27: 'Inequality and Distribution',
+    28: 'Different Trade-offs for Different People',
+    29: 'Clinical and Personal Decisions',
+    30: 'Two Ledgers and a Minimal Safe Architecture for LIFE OS',
+    31: 'How to Read Conflicting Studies',
+    32: 'Unknowns and the Anomaly Log',
+    33: 'Knowledge That Can Be Withdrawn',
+}
 BUDGET = {'Ⅰ': 90_000, 'Ⅱ': 135_000, 'Ⅲ': 105_000, 'frame': 20_000}  # characters, planning only
 
 
@@ -94,6 +135,8 @@ def extract_headings(path):
 
 
 def build():
+    if set(TITLES_EN) != set(CHAPTERS) or set(PARTS_EN) != {p[0] for p in PARTS}:
+        raise ValueError('every chapter and part needs an English working title (DEC-016)')
     inherited, sources = {}, {}
     for key, path in SOURCES.items():
         heads = extract_headings(path)
@@ -107,17 +150,21 @@ def build():
         for c in range(first, last + 1):
             title, ev, papers, demo = CHAPTERS[c]
             chapters.append({'n': c, 'volume': vol, 'part': part, 'part_title': ptitle, 'title': title,
+                             'title_en': TITLES_EN[c], 'part_title_en': PARTS_EN[part],
                              'evidence': ev, 'papers': papers, 'demo_draft': demo,
                              'inherits': sorted(k for k, v in inherited.items() if v['to'] == c)})
-    return {'decision': 'DEC-011', 'status': 'working_draft_not_reviewed',
+    return {'decision': 'DEC-011', 'language': {'first': 'en', 'second': 'zh-Hans', 'decision': 'DEC-016'},
+            'status': 'working_draft_not_reviewed',
             'mapping_scope': 'chapter-title classification only; not a paragraph-level content audit',
-            'volumes': [{'id': v, 'title': t} for v, t in VOLUMES], 'budget_chars': BUDGET,
+            'volumes': [{'id': v, 'title': t, 'title_en': VOLUMES_EN[v]} for v, t in VOLUMES], 'budget_chars': BUDGET,
             'sources': sources, 'chapters': chapters, 'inherited': inherited}
 
 
 def render_md(data):
     vt = dict((v['id'], v['title']) for v in data['volumes'])
-    L = ['# 《长寿的尺度》章节地图 v1（DEC-011）', '',
+    L = ['# *The Measures of Longevity* — Chapter Map v1 / 《长寿的尺度》章节地图 v1（DEC-011）', '',
+         '> **Language (DEC-016):** English is the first language of the monograph; Simplified Chinese is the second. '
+         'English titles are working titles. 英文为第一语言，简体中文为第二语言；英文章名为工作标题。', '',
          '> **由 `outline_build.py` 生成，请勿手改。** 状态：工作草稿，未经独立审阅（D05 open）。'
          '继承列只按编号章**标题**归类（每章取一个主要落点），不是逐段内容核对；源文件 hash 见 `outline_v1.json`，'
          '由 `tests/test_outline_source_binding.py` 复核。决定理由见 [架构决定](../ARCHITECTURE_DECISION_2026-11-27.md)。', '',
@@ -126,13 +173,14 @@ def render_md(data):
     for c in data['chapters']:
         if c['volume'] != cur_v:
             cur_v = c['volume']
-            L += [f"## 卷{cur_v} · {vt[cur_v]}（预算约 {data['budget_chars'][cur_v] // 1000}k 字）", '']
+            ven = next(v['title_en'] for v in data['volumes'] if v['id'] == cur_v)
+            L += [f"## Volume {cur_v} · {ven} / 卷{cur_v} · {vt[cur_v]}（预算约 {data['budget_chars'][cur_v] // 1000}k 中文字）", '']
         if c['part'] != cur_p:
             cur_p = c['part']
-            L += [f"### 第{cur_p}部 · {c['part_title']}", '',
-                  '| 章 | 标题 | 证据 | 论文 | 示范稿 | 继承（V6/V7 编号章） |', '|---|---|---|---|---|---|']
+            L += [f"### Part {cur_p} · {c['part_title_en']} / 第{cur_p}部 · {c['part_title']}", '',
+                  '| 章 | Title / 标题 | 证据 | 论文 | 示范稿 | 继承（V6/V7 编号章） |', '|---|---|---|---|---|---|']
         inh = '、'.join(f"{k}《{data['inherited'][k]['title']}》" for k in c['inherits']) or '—（新写）'
-        L.append(f"| {c['n']} | {c['title']} | {c['evidence']} | {c['papers'] or '—'} | {c['demo_draft'] or '—'} | {inh} |")
+        L.append(f"| {c['n']} | {c['title_en']} / {c['title']} | {c['evidence']} | {c['papers'] or '—'} | {c['demo_draft'] or '—'} | {inh} |")
         if c['n'] in (4, 9, 13, 17, 22, 27, 30, 33):
             L.append('')
     n3 = sum(1 for c in data['chapters'] if c['volume'] == 'Ⅲ')

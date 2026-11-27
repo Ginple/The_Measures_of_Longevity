@@ -5,7 +5,8 @@
     "change:X125-X128_prior_art_and_attribution",
     "change:X129-X132_margin_recovery_anchors",
     "change:X133-X137_PI_novelty",
-    "change:ch05_pilot_V7-06_reassign"
+    "change:ch05_pilot_V7-06_reassign",
+    "change:DEC-016_english_first_language"
   ],
   "tool": "research_assurance.core.impact (transitive, cycle-safe)",
   "edges": [
@@ -170,6 +171,38 @@
       "books/manuscript/README.md"
     ],
     [
+      "change:DEC-016_english_first_language",
+      "books/manuscript/outline_build.py"
+    ],
+    [
+      "change:DEC-016_english_first_language",
+      "books/BOOK_PROPOSAL.md"
+    ],
+    [
+      "change:DEC-016_english_first_language",
+      "books/manuscript/README.md"
+    ],
+    [
+      "change:DEC-016_english_first_language",
+      "papers/PUBLICATION_MAP.md"
+    ],
+    [
+      "change:DEC-016_english_first_language",
+      "knowledge_base/MASTER.md"
+    ],
+    [
+      "change:DEC-016_english_first_language",
+      "books/manuscript/CH15_测量合同_示范稿.md"
+    ],
+    [
+      "change:DEC-016_english_first_language",
+      "books/market/MARKET_POSITIONING_2026-11.md"
+    ],
+    [
+      "change:DEC-016_english_first_language",
+      "books/manuscript/en/"
+    ],
+    [
       "books/manuscript/outline_build.py",
       "books/manuscript/outline_v1.json"
     ],
@@ -227,7 +260,7 @@
       "node": "books/BOOK_PROPOSAL.md",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "文件头指针：§3 被 OUTLINE_v1 取代，§4 证据契约继续有效"
+      "note": "文件头指针：§3 被 OUTLINE_v1 取代，§4 证据契约继续有效；DEC-016 指针：§3 末尾中文字数预算是历史"
     },
     {
       "node": "books/CHAPTER_CROSSWALK_DRAFT.md",
@@ -245,7 +278,7 @@
       "node": "books/manuscript/CH15_测量合同_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "v0.3：§7.2 试点原位修订——章号改第五章，关联论文改为 PI ①②，并入 V7-06 的机制特异性与使用规则，补 X126/X135；5 段主张逐字绑定（pilots/ch05_measurement_contract）；未绑定的 3 段仍待人工审读"
+      "note": "v0.3：§7.2 试点原位修订——章号改第五章，关联论文改为 PI ①②，并入 V7-06 的机制特异性与使用规则，补 X126/X135；5 段主张逐字绑定（pilots/ch05_measurement_contract）；未绑定的 3 段仍待人工审读。DEC-016：字节不改，成为英文稿 v0.1 的来源，在英文稿绑定前仍是已绑定版本"
     },
     {
       "node": "books/manuscript/CH19_谁替谁维护_示范稿.md",
@@ -287,7 +320,7 @@
       "node": "books/manuscript/OUTLINE_v1.md",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "C4：章数与证据等级不变；C6：重新生成，第 5 章继承 V6-15、V7-06，第 6 章变为新写"
+      "note": "C4：章数与证据等级不变；C6：重新生成，第 5 章继承 V6-15、V7-06，第 6 章变为新写；C7：重新生成，标题列改为英文/中文，继承列不变"
     },
     {
       "node": "books/manuscript/PART_VI_维护容量_写作骨架.md",
@@ -299,19 +332,31 @@
       "node": "books/manuscript/README.md",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "文件头指针：方案 A 地图是历史，现行见 OUTLINE_v1；CH15 链接文字注明现为第 5 章 v0.3"
+      "note": "文件头指针：方案 A 地图是历史，现行见 OUTLINE_v1；CH15 链接文字注明现为第 5 章 v0.3；DEC-016 指针指向 en/"
+    },
+    {
+      "node": "books/manuscript/en/",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "新建：英文书稿目录与工作规则；第 5 章英文稿 v0.1 由 v0.3 改写，未逐字绑定来源"
     },
     {
       "node": "books/manuscript/outline_build.py",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "ASSIGN 一处：V7-06 由 6 改为 5，附注释"
+      "note": "ASSIGN 一处：V7-06 由 6 改为 5，附注释；DEC-016：加 TITLES_EN/PARTS_EN/VOLUMES_EN 与 language 字段，ASSIGN 与章数不变"
     },
     {
       "node": "books/manuscript/outline_v1.json",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "由 outline_build.py 重新生成；源文 hash 不变"
+      "note": "由 outline_build.py 重新生成；源文 hash 不变；DEC-016 后多出英文章名与 language 字段"
+    },
+    {
+      "node": "books/market/MARKET_POSITIONING_2026-11.md",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "§3.1 加 DEC-016 更新：M-A 的中文为源前提与 M-C 作废，改列 E-1/E-2/E-3 篇幅选项（作者未裁决）；§1.4 简体中文解读与 MR-6 同步"
     },
     {
       "node": "books/pr2_candidates/",
@@ -347,7 +392,7 @@
       "node": "knowledge_base/MASTER.md",
       "scope": "global",
       "state_after_this_turn": "revised",
-      "note": "§3/§4 改为已定，历史候选原文保留；DEC-011–015；v1.3.2：PI 行改协议 v3 与 X137，§3 无继承章改为 6、7、9"
+      "note": "§3/§4 改为已定，历史候选原文保留；DEC-011–015；v1.3.2：PI 行改协议 v3 与 X137，§3 无继承章改为 6、7、9；v1.3.3：DEC-016 行、权威路径表加英文书稿行"
     },
     {
       "node": "knowledge_base/README.md",
@@ -401,7 +446,7 @@
       "node": "papers/PUBLICATION_MAP.md",
       "scope": "global",
       "state_after_this_turn": "revised",
-      "note": "文件头 DEC-012 指针；正文保留历史"
+      "note": "文件头 DEC-012 指针；正文保留历史；DEC-016 指针：论文以英文撰写与投稿"
     },
     {
       "node": "review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md",
