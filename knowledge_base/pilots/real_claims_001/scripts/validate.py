@@ -45,12 +45,13 @@ def main():
    if not link.startswith(('http:','https:','mailto:','#')) and not (f.parent/link.split('#')[0]).exists():links.append({'file':str(f.relative_to(P)),'link':link})
  result={'unit_tests':u,'moved_unit_tests':mu,'seed7_seed113_and_moved_inspection_byte_identical':s7==s113==relocated,'immutable_inputs_unchanged':before==after,'engine_integrity_issues':base['engine']['issues'],'mapping_issues':base['mapping_issues'],'broken_markdown_links':links,'no_html_in_export':not any(f.suffix.lower()=='.html' for f in P.rglob('*') if f.is_file()),'environment':{'python':sys.version.split()[0],**{n:importlib.metadata.version(n) for n in ['networkx','jsonschema','beautifulsoup4']}},'external_review':'not_performed','formal_academic_release':'blocked','scientific_truth':'not_computed'}
  result['portable_software_checks_passed']=u['passed'] and mu['passed'] and s7==s113==relocated and before==after and not base['engine']['issues'] and not base['mapping_issues'] and not links and result['no_html_in_export']
- (P/'results').mkdir(exist_ok=True)
- for name,data in [('PROJECT_CHECK',base),('QUANTITATIVE_CHECKS',quant),('VALIDATION',result)]: (P/f'results/{name}.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+ # Emit current diagnostics without overwriting historical receipts or baselines.
+ result['current_project_check']=base
+ result['current_quantitative_checks']=quant
  if a.source_cache:
-  traced=inspect(P,a.source_cache);(P/'results/SOURCE_TRACE_LOCAL.json').write_text(json.dumps(traced,ensure_ascii=False,indent=2)+'\n');result['local_source_trace_ok']=not traced['source_trace']['issues']
+  traced=inspect(P,a.source_cache);result['local_source_trace']=traced;result['local_source_trace_ok']=not traced['source_trace']['issues']
  if a.history_workspace:
-  hist=history_check(a.history_workspace);(P/'results/HISTORY_INTEGRITY_LOCAL.json').write_text(json.dumps(hist,ensure_ascii=False,indent=2)+'\n');result['local_history_unchanged']=hist['status']=='verified_unchanged'
- # Local optional results are separate provenance receipts, not falsely portable prerequisites.
+  hist=history_check(a.history_workspace);result['local_history_check']=hist;result['local_history_unchanged']=hist['status']=='verified_unchanged'
+ # Local optional results are separate checks, not falsely portable prerequisites.
  print(json.dumps(result,ensure_ascii=False,indent=2));return 0 if result['portable_software_checks_passed'] and result.get('local_source_trace_ok',True) and result.get('local_history_unchanged',True) else 1
 if __name__=='__main__':raise SystemExit(main())

@@ -4,9 +4,9 @@ import json,os,shutil,subprocess,sys,tempfile
 P=Path(__file__).resolve().parents[1]
 
 def main():
- C=P
  with tempfile.TemporaryDirectory() as td:
-  td=Path(td);installed=td/'installed'
+  td=Path(td);installed=td/'installed';C=td/'source'
+  shutil.copytree(P,C,ignore=shutil.ignore_patterns('.git','.venv','venv','__pycache__','build','dist','node_modules','*.egg-info'))
   r=subprocess.run([sys.executable,'-m','pip','install','--no-deps','--no-build-isolation','--target',str(installed),str(C)],capture_output=True,text=True,timeout=90)
   if r.returncode:raise RuntimeError(r.stdout+r.stderr)
   env={**os.environ,'PYTHONPATH':str(installed)}
@@ -19,9 +19,6 @@ def main():
  out={'local_no_deps_no_build_isolation_install_succeeded':True,'installed_module_version':info['module'],'installed_distribution_version':info['metadata'],'embedded_schema_present':info['schema'],
       'installed_cli_outside_source_directory':{'returncode':c.returncode,'issues':check['issues'],'formal_release_record_check':check['formal_release_record_check']},
       'scope':'Package plumbing only. Dependencies were preinstalled; no clean online dependency resolution was tested. CLI exit 0 is not academic release approval.'}
- (P/'artifacts/INSTALL_SMOKE.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps(out,ensure_ascii=False,indent=2))
+ print(json.dumps(out,ensure_ascii=False,indent=2))
  assert info['module']==info['metadata']=='0.1.1' and info['schema'] and not check['issues'] and check['formal_release_record_check']=='blocked'
- for name in ['build','src/research_assurance_toolkit.egg-info']:
-  f=C/name
-  if f.exists():shutil.rmtree(f)
 if __name__=='__main__':main()

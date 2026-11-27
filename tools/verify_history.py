@@ -18,5 +18,5 @@ def main():
  out={'baseline_file_count':len(baseline),'changed':changed,'missing':missing,'manuscript_snapshots':manuscripts,
       'status':'verified_unchanged' if not changed and not missing and all(x['byte_identical'] for x in manuscripts) else 'not_verified',
       'scope':'Byte integrity only, not full reading, scientific validity or external review. Original files must be locally available.'}
- (P/'artifacts/HISTORY_INTEGRITY.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps(out,ensure_ascii=False,indent=2));return 0 if out['status']=='verified_unchanged' else 1
+ print(json.dumps(out,ensure_ascii=False,indent=2));return 0 if out['status']=='verified_unchanged' else 1
 if __name__=='__main__':raise SystemExit(main())
