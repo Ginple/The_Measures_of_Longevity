@@ -44,6 +44,7 @@ EDGES = ([(C1, p) for p in ['knowledge_base/MASTER.md', 'books/BOOK_PROPOSAL.md'
          + [(C7, p) for p in ['books/manuscript/outline_build.py', 'books/BOOK_PROPOSAL.md', M + 'README.md',
                               'papers/PUBLICATION_MAP.md', 'knowledge_base/MASTER.md', M + DEMOS[1],
                               'books/market/MARKET_POSITIONING_2026-11.md', M + 'en/']]
+         + [(M + 'en/', 'knowledge_base/pilots/ch05_measurement_contract_en/')]
          + [('books/manuscript/outline_build.py', p) for p in ['books/manuscript/outline_v1.json',
                                                                'books/manuscript/OUTLINE_v1.md']]
          + [('books/manuscript/OUTLINE_v1.md', p) for p in ['knowledge_base/MASTER.md', 'knowledge_base/README.md',
@@ -85,7 +86,8 @@ ACTIONS = {
     'papers/PI_rejuvenation_identifiability/PROTOCOL.md': ('local', RV, 'v2 引用 X125–X128；v3：近邻检索门槛 1–2 完成，主张收窄为三条，加必引清单与禁用词（X133–X137）'),
     'README.md': ('global', RV, '"待作者裁决"改为已定，并指向 OUTLINE_v1 与 PI'),
     'books/market/MARKET_POSITIONING_2026-11.md': ('local', RV, '§3.1 加 DEC-016 更新：M-A 的中文为源前提与 M-C 作废，改列 E-1/E-2/E-3 篇幅选项（作者未裁决）；§1.4 简体中文解读与 MR-6 同步'),
-    M + 'en/': ('local', RV, '新建：英文书稿目录与工作规则；第 5 章英文稿 v0.1 由 v0.3 改写，未逐字绑定来源'),
+    M + 'en/': ('local', RV, '新建：英文书稿目录与工作规则；第 5 章英文稿 v0.1 由 v0.3 改写，5 个主张单元由 pilots/ch05_measurement_contract_en 绑定'),
+    'knowledge_base/pilots/ch05_measurement_contract_en/': ('local', RV, '新建：复用中文试点的证据片段与判定，绑定英文第 5 章 5 个主张单元，并连到对应中文段落；发布仍为 blocked'),
     'external:Linear THE-227/228/229/230/231': ('global', RV, '评论更正：上一轮 2bb8edc 未推送已丢失，以本 PR 为准'),
 }
 FROZEN = {

@@ -203,6 +203,10 @@
       "books/manuscript/en/"
     ],
     [
+      "books/manuscript/en/",
+      "knowledge_base/pilots/ch05_measurement_contract_en/"
+    ],
+    [
       "books/manuscript/outline_build.py",
       "books/manuscript/outline_v1.json"
     ],
@@ -338,7 +342,7 @@
       "node": "books/manuscript/en/",
       "scope": "local",
       "state_after_this_turn": "revised",
-      "note": "新建：英文书稿目录与工作规则；第 5 章英文稿 v0.1 由 v0.3 改写，未逐字绑定来源"
+      "note": "新建：英文书稿目录与工作规则；第 5 章英文稿 v0.1 由 v0.3 改写，5 个主张单元由 pilots/ch05_measurement_contract_en 绑定"
     },
     {
       "node": "books/manuscript/outline_build.py",
@@ -411,6 +415,12 @@
       "scope": "local",
       "state_after_this_turn": "revised",
       "note": "只改文档串的作者归属；数值、变量名不变"
+    },
+    {
+      "node": "knowledge_base/pilots/ch05_measurement_contract_en/",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "新建：复用中文试点的证据片段与判定，绑定英文第 5 章 5 个主张单元，并连到对应中文段落；发布仍为 blocked"
     },
     {
       "node": "papers/P1_identity_selection/SURVIVOR_IDENTIFICATION_NOTE_2026-11-27.md",

@@ -149,7 +149,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 
 - **语言决定 DEC-016**：作者指示书稿（专著）与论文以英文为第一语言，简体中文为第二语言。
   - 33 章结构不变；章节地图生成器加入英文工作章名（[OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)）。
-  - 新建 [英文书稿目录](../books/manuscript/en/README.md)，第 5 章英文稿 v0.1 由中文 v0.3 改写，尚未逐字绑定来源。
+  - 新建 [英文书稿目录](../books/manuscript/en/README.md)，第 5 章英文稿 v0.1 由中文 v0.3 改写；5 个主张单元已绑定到与中文试点相同的来源片段，并连到对应中文段落（[英文试点](pilots/ch05_measurement_contract_en/README.md)）。
   - 英文篇幅与是否另出大众版仍待作者裁决（X147→X156；[市场定位 §3.1](../books/market/MARKET_POSITIONING_2026-11.md)）。
 - [V7.0 EN 收录评估](intake/V7_0_EN_INTEGRATION_ASSESSMENT.md)：
   - **结论**：V7.0 比 V4.0 规范，但仍只能当线索清单。

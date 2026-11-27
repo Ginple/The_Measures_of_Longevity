@@ -5,7 +5,7 @@
 > **Status:**
 > - For author and domain review only; not a frozen text.
 > - Self-checked by the same assistant against v0.3; independent external review has not taken place.
-> - The verbatim claim-to-source binding in the [ch5 pilot](../../../knowledge_base/pilots/ch05_measurement_contract/README.md) still points at the Chinese v0.3 text. This English text is **not yet bound**: re-binding it is the next step before it can replace v0.3 as the canonical version.
+> - Five claim units of this English text are bound to the same source spans as the Chinese v0.3 pilot, and to the Chinese paragraphs they were rewritten from ([English pilot](../../../knowledge_base/pilots/ch05_measurement_contract_en/README.md)). Any edit to this file, to v0.3, or to a quoted excerpt makes the affected claims stale until they are re-bound. Which language version is canonical for chapter 5 is still to be decided after review.
 > - The chapter is about judging measurements. It does not give personal screening, medication, or diet advice.
 
 One report says your biological age is two years younger than your actual age. Another says your blood test is positive and you need further examination. Both pieces of paper carry numbers, yet they invite completely different actions. The first may change how a person imagines their own body. The second may send a person to hospital for imaging, endoscopy, or other follow-up. Whether a reading can be repeated, what a reading means, and what happens when we act on it are three different questions.
@@ -103,7 +103,7 @@ The next four chapters take up the four measures in turn. The first is level: wh
 - **Claim interface:**
   - KERNEL I1, I2, I7, I8, I9, I11.
   - Disputes and open items: X29, X31, X38, X41, X49–X51, X54, X56, X57, X59–X60, X126, X135, plus the sources cited here. KERNEL has not been fully re-reviewed.
-  - Verbatim claim-to-source binding exists for the Chinese v0.3 text only ([pilot project.json](../../../knowledge_base/pilots/ch05_measurement_contract/project.json)). **This English text is unbound.**
+  - Verbatim claim-to-source binding: [English pilot project.json](../../../knowledge_base/pilots/ch05_measurement_contract_en/project.json) (5 claim units, same evidence as the [Chinese pilot](../../../knowledge_base/pilots/ch05_measurement_contract/project.json), plus a lineage link to each Chinese paragraph). Translation accuracy beyond the bound numbers and qualifiers is not machine-checked.
 - **Primary evidence and extraction depth:** As in v0.3.
   - CALERIE methylation and bone reports, and the NHS-Galleri trial paper's main results and methods: targeted extraction.
   - The 2026 trajectory analysis: text, Tables 1–2, and extractable supplementary text.
@@ -134,12 +134,12 @@ The next four chapters take up the four measures in turn. The first is level: wh
   - real-world applicability of the mixture model;
   - long-term mortality and overdiagnosis results for screening;
   - global style and chapter order;
-  - **re-binding this English text to sources (DEC-016)**;
+  - a bilingual review of the English rendering (DEC-016);
   - an English terminology list checked against KERNEL.
   - Sources and evidence must be rechecked before publication or freezing.
 - **Change impact:**
   - Any ruling on X41/X59/X135, NHS-Galleri follow-up (3- and 6-year mortality analyses), or a change in a key anchor requires rechecking the relevant paragraphs and notes.
-  - Until this English text is bound, a change to v0.3 must be carried over here by hand, and vice versa.
+  - A change to v0.3 makes the bound English claims stale (`tests/test_ch05_en_pilot.py`); carry the change over and re-bind both pilots.
 
 [^1]: [CALERIE DNA methylation analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC10148951/) ([author affiliation correction](https://pmc.ncbi.nlm.nih.gov/articles/PMC10275750/)) and [bone density paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC4834845/). Samples, dose, and evidential limits: [bone and exposure audit](../../../knowledge_base/CALERIE_BONE_AND_EXPOSURE_AUDIT_2026-11-27.md) and [temporal and denominator audit](../../../knowledge_base/CALERIE_TEMPORAL_AUDIT_2026-11-27.md) (in Chinese).
 [^2]: [Warmbrunn et al. 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/). Grouping-threshold ambiguity and model limits: [dedicated audit](../../../knowledge_base/CALERIE_WITHIN_TRIAL_WEIGHT_TRAJECTORIES_2026_AUDIT_2026-11-27.md) (in Chinese).
