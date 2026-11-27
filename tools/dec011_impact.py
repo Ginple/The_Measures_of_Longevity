@@ -13,6 +13,7 @@ from research_assurance.core import impact  # noqa: E402
 
 OUT = ROOT / 'review/DEC011_DEC012_IMPACT_2026-11-27.json'
 C1, C2, C3 = 'change:DEC-011_architecture', 'change:DEC-012_papers', 'change:X125-X128_prior_art_and_attribution'
+C4 = 'change:X129-X132_margin_recovery_anchors'
 M = 'books/manuscript/'
 DEMOS = ['CH01_长寿的五个问题_示范稿.md', 'CH15_测量合同_示范稿.md', 'CH19_谁替谁维护_示范稿.md',
          'CH20_平均不等于及时_示范稿.md', 'CH21_有余量却用不上_示范稿.md', 'CH22_清除之后谁来接班_示范稿.md',
@@ -30,7 +31,10 @@ EDGES = ([(C1, p) for p in ['knowledge_base/MASTER.md', 'books/BOOK_PROPOSAL.md'
                               'knowledge_base/experiments/sr_published_params_robustness.py',
                               'knowledge_base/experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md',
                               'papers/PI_rejuvenation_identifiability/PROTOCOL.md']]
-         + [('knowledge_base/MASTER.md', 'README.md'), ('papers/PUBLICATION_MAP.md', 'README.md'),
+         + [(C4, p) for p in ['books/ARCHITECTURE_DECISION_2026-11-27.md', 'knowledge_base/KERNEL.md',
+                              'review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md', 'books/manuscript/OUTLINE_v1.md']]
+         + [('books/ARCHITECTURE_DECISION_2026-11-27.md', 'knowledge_base/MASTER.md'),
+            ('knowledge_base/MASTER.md', 'README.md'), ('papers/PUBLICATION_MAP.md', 'README.md'),
             ('knowledge_base/MASTER.md', 'external:Linear THE-227/228/229/230/231')])
 SR, KV, RV = 'stale_requires_review', 'kept_valid', 'revised'
 ACTIONS = {
@@ -39,19 +43,22 @@ ACTIONS = {
     M + 'README.md': ('local', RV, '文件头指针：方案 A 地图是历史，现行见 OUTLINE_v1'),
     'books/CHAPTER_CROSSWALK_DRAFT.md': ('local', KV, '主题桶本就声明不是终稿章号；章级落点改由 outline_v1.json 承担'),
     M + 'PART_VI_维护容量_写作骨架.md': ('local', SR, '六模块分到第 15/17/19/21/22 章；写作时重审'),
-    M + DEMOS[0]: ('local', SR, '新第 1 章；"论文关联"仍写 P1/P2'),
-    M + DEMOS[1]: ('local', SR, '新第 5 章；"关联论文"仍写 P1/P2；建议作为 §7.2 单章试点'),
-    M + DEMOS[2]: ('local', SR, '并入第 21 章'),
-    M + DEMOS[3]: ('local', SR, '并入第 21 章'),
-    M + DEMOS[4]: ('local', SR, '→第 22 章'),
-    M + DEMOS[5]: ('local', SR, '→第 19 章'),
-    M + DEMOS[6]: ('local', SR, '→第 15 章'),
-    M + DEMOS[7]: ('local', SR, '→第 17 章；标题行仍写"第24章"'),
+    M + DEMOS[0]: ('local', SR, '新第 1 章；"论文关联"仍写 P1/P2；论文标签与新章号已在稿内标注，正文未重审'),
+    M + DEMOS[1]: ('local', SR, '新第 5 章；"关联论文"仍写 P1/P2；建议作为 §7.2 单章试点；论文标签与新章号已在稿内标注，正文未重审'),
+    M + DEMOS[2]: ('local', SR, '并入第 21 章；论文标签与新章号已在稿内标注，正文未重审'),
+    M + DEMOS[3]: ('local', SR, '并入第 21 章；论文标签与新章号已在稿内标注，正文未重审'),
+    M + DEMOS[4]: ('local', SR, '→第 22 章；论文标签与新章号已在稿内标注，正文未重审'),
+    M + DEMOS[5]: ('local', SR, '→第 19 章；论文标签与新章号已在稿内标注，正文未重审'),
+    M + DEMOS[6]: ('local', SR, '→第 15 章；论文标签与新章号已在稿内标注，正文未重审'),
+    M + DEMOS[7]: ('local', SR, '→第 17 章；标题已改为新章号（本稿原无论文关联行），正文未重审'),
     'books/pr2_candidates/': ('local', SR, 'PR2 候选样章用自身章号；只作素材，不改'),
     'papers/PUBLICATION_MAP.md': ('global', RV, '文件头 DEC-012 指针；正文保留历史'),
     'papers/P1_identity_selection/SURVIVOR_IDENTIFICATION_NOTE_2026-11-27.md': ('local', KV, 'PI 第①层输入，内容不变'),
     **{'papers/P2_weighting_observability/' + n: ('local', KV, 'PI 第②层输入，内容不变') for n in P2N},
-    'knowledge_base/KERNEL.md': ('global', KV, '不变式/定义不受影响；§4 表"P1/P2"标签留待下个 KERNEL 版本统一改为 PI'),
+    'knowledge_base/KERNEL.md': ('global', RV, 'v0.9.10：§4/§5 论文标签改为 PI；四个尺度注明经典出处与余量—年数公式；不变式无增删'),
+    'books/ARCHITECTURE_DECISION_2026-11-27.md': ('global', RV, '§3 第 9 章条件未触发，保留 33 章；锚点表与 K3 处置更新'),
+    'review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md': ('local', RV, '§4 第 3 条追加后续'),
+    'books/manuscript/OUTLINE_v1.md': ('local', KV, '章数与证据等级（第 8、9 章为 M）不变；生成物无需重建'),
     'knowledge_base/CLAIM_LEDGER.md#X94': ('local', RV, '原文与数值不改；X128 追加作者归属更正'),
     'knowledge_base/experiments/sr_published_params_robustness.py': ('local', RV, '只改文档串的作者归属；数值、变量名不变'),
     'knowledge_base/experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md': ('local', RV, '文件头加更正注'),
@@ -70,11 +77,11 @@ FROZEN = {
 
 
 def build():
-    queue = [n for n in impact(EDGES, [C1, C2, C3]) if not n.startswith('change:')]
+    queue = [n for n in impact(EDGES, [C1, C2, C3, C4]) if not n.startswith('change:')]
     missing = set(queue) ^ set(ACTIONS)
     if missing:
         raise ValueError(f'actions and computed stale queue differ: {sorted(missing)}')
-    return {'change_ids': [C1, C2, C3], 'tool': 'research_assurance.core.impact (transitive, cycle-safe)',
+    return {'change_ids': [C1, C2, C3, C4], 'tool': 'research_assurance.core.impact (transitive, cycle-safe)',
             'edges': [list(e) for e in EDGES],
             'stale_queue': [{'node': n, 'scope': ACTIONS[n][0], 'state_after_this_turn': ACTIONS[n][1],
                              'note': ACTIONS[n][2]} for n in queue],

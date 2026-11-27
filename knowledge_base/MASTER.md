@@ -18,7 +18,7 @@
 | 书稿提案（历史） | `books/BOOK_PROPOSAL.md` | 历史 | 八部结构被 OUTLINE_v1 取代；§4 章节证据契约仍然有效 |
 | **论文 PI** | `papers/PI_rejuvenation_identifiability/PROTOCOL.md` | **现行（DEC-012）** | P1+P2 合并，加入动力学层；新颖性未认证（X125） |
 | 论文地图（历史） | `papers/PUBLICATION_MAP.md` | 历史 | P1/P2/P3 协议冻结不改；P1/P2 被 PI 取代，P3 协议仍然有效 |
-| 核心内核 | `knowledge_base/KERNEL.md` | 活跃 v0.9.9 | 不变式/锚点/范式转换/estimand |
+| 核心内核 | `knowledge_base/KERNEL.md` | 活跃 v0.9.10 | 不变式/锚点/范式转换/estimand |
 | 交叉验证台账 | `knowledge_base/CLAIM_LEDGER.md` | 活跃 | X-item 与旧债指针 |
 | 前沿扫描 | `knowledge_base/RESEARCH_FRONTIERS.md` | 活跃 2026-11-27 | 季度机制见 THE-233 |
 | 异常日志 | `knowledge_base/ANOMALY_LOG.csv` | 活跃 | Unknown unknowns 机制 |
@@ -167,6 +167,7 @@ Linear 项目：**The Measures of Longevity｜长寿的尺度**（id `c6be975d-3
 
 ## 7｜变更日志
 
+- v1.3.1 · 2026-11-27：第二轮检索（R09–R14，X129–X132）找到余量和恢复的直接人体测量，第 9 章合并条件未触发，保留 33 章；KERNEL 升至 v0.9.10。
 - v1.3 · 2026-11-27：DEC-011/012（工作草稿）、DEC-005 定为保留、DEC-013、DEC-014；权威路径表加入 OUTLINE_v1 与 PI 协议；作者归属更正见 X128。
 
 - v1.2 · 2026-11-27：按作者要求删除剩余的仪表盘 HTML，合同恢复为禁止 HTML（DEC-008）；PR #2 新增文件中有 76 个经命名空间隔离后移植，随后关闭 PR #2（DEC-010）。

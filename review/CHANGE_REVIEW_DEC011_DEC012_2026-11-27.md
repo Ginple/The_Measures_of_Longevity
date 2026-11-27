@@ -43,3 +43,19 @@
   - D05 独立外审。
 
 **本次未刷新任何旧的信任基线：** FILE_MANIFEST、`governance/history_before.json` 与 L2 盲审包都未改动。
+
+## 追加 · `change:X129-X132_margin_recovery_anchors`（同日第二轮检索）
+
+- **What changed / 变化内容：**
+  - 余量与恢复找到直接的人体测量（X129、X132）；
+  - 横断面下降斜率偏乐观（X130）；
+  - 新增合成算例：余量换算年数（X131）。
+- **Prior judgement → new / 旧判定→新判定：**
+  - 架构决定 §3 原定"第 9 章为有条件章节"；条件未触发，**保留 33 章**。
+  - 第 8、9 章的外部锚点由"弱"调为"中"；OUTLINE 的证据等级本来就是 M，不需要重建。
+- **Impacted / 受影响对象：** 同一影响记录 JSON 现有 29 个节点：revised 13、kept_valid 6、stale_requires_review 10。
+  - KERNEL 升为 v0.9.10（由 kept_valid 改为 revised）；
+  - 8 份示范稿已在稿内标注新章号与 PI 映射，正文仍待重审，状态不变。
+- **Debt still open / 未偿债务：**
+  - Strehler–Mildvan 原文未读；
+  - 肾储备研究的具体数值只在综述片段中见到。

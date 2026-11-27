@@ -2,7 +2,8 @@
   "change_ids": [
     "change:DEC-011_architecture",
     "change:DEC-012_papers",
-    "change:X125-X128_prior_art_and_attribution"
+    "change:X125-X128_prior_art_and_attribution",
+    "change:X129-X132_margin_recovery_anchors"
   ],
   "tool": "research_assurance.core.impact (transitive, cycle-safe)",
   "edges": [
@@ -115,6 +116,26 @@
       "papers/PI_rejuvenation_identifiability/PROTOCOL.md"
     ],
     [
+      "change:X129-X132_margin_recovery_anchors",
+      "books/ARCHITECTURE_DECISION_2026-11-27.md"
+    ],
+    [
+      "change:X129-X132_margin_recovery_anchors",
+      "knowledge_base/KERNEL.md"
+    ],
+    [
+      "change:X129-X132_margin_recovery_anchors",
+      "review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md"
+    ],
+    [
+      "change:X129-X132_margin_recovery_anchors",
+      "books/manuscript/OUTLINE_v1.md"
+    ],
+    [
+      "books/ARCHITECTURE_DECISION_2026-11-27.md",
+      "knowledge_base/MASTER.md"
+    ],
+    [
       "knowledge_base/MASTER.md",
       "README.md"
     ],
@@ -135,6 +156,12 @@
       "note": "\"待作者裁决\"改为已定，并指向 OUTLINE_v1 与 PI"
     },
     {
+      "node": "books/ARCHITECTURE_DECISION_2026-11-27.md",
+      "scope": "global",
+      "state_after_this_turn": "revised",
+      "note": "§3 第 9 章条件未触发，保留 33 章；锚点表与 K3 处置更新"
+    },
+    {
       "node": "books/BOOK_PROPOSAL.md",
       "scope": "local",
       "state_after_this_turn": "revised",
@@ -150,49 +177,55 @@
       "node": "books/manuscript/CH01_长寿的五个问题_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "新第 1 章；\"论文关联\"仍写 P1/P2"
+      "note": "新第 1 章；\"论文关联\"仍写 P1/P2；论文标签与新章号已在稿内标注，正文未重审"
     },
     {
       "node": "books/manuscript/CH15_测量合同_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "新第 5 章；\"关联论文\"仍写 P1/P2；建议作为 §7.2 单章试点"
+      "note": "新第 5 章；\"关联论文\"仍写 P1/P2；建议作为 §7.2 单章试点；论文标签与新章号已在稿内标注，正文未重审"
     },
     {
       "node": "books/manuscript/CH19_谁替谁维护_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "并入第 21 章"
+      "note": "并入第 21 章；论文标签与新章号已在稿内标注，正文未重审"
     },
     {
       "node": "books/manuscript/CH20_平均不等于及时_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "并入第 21 章"
+      "note": "并入第 21 章；论文标签与新章号已在稿内标注，正文未重审"
     },
     {
       "node": "books/manuscript/CH21_有余量却用不上_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "→第 22 章"
+      "note": "→第 22 章；论文标签与新章号已在稿内标注，正文未重审"
     },
     {
       "node": "books/manuscript/CH22_清除之后谁来接班_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "→第 19 章"
+      "note": "→第 19 章；论文标签与新章号已在稿内标注，正文未重审"
     },
     {
       "node": "books/manuscript/CH23_状态还在细胞换了吗_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "→第 15 章"
+      "note": "→第 15 章；论文标签与新章号已在稿内标注，正文未重审"
     },
     {
       "node": "books/manuscript/CH24_修好这一次还剩多少下一次_示范稿.md",
       "scope": "local",
       "state_after_this_turn": "stale_requires_review",
-      "note": "→第 17 章；标题行仍写\"第24章\""
+      "note": "→第 17 章；标题已改为新章号（本稿原无论文关联行），正文未重审"
+    },
+    {
+      "node": "books/manuscript/OUTLINE_v1.md",
+      "scope": "local",
+      "state_after_this_turn": "kept_valid",
+      "note": "章数与证据等级（第 8、9 章为 M）不变；生成物无需重建"
     },
     {
       "node": "books/manuscript/PART_VI_维护容量_写作骨架.md",
@@ -227,8 +260,8 @@
     {
       "node": "knowledge_base/KERNEL.md",
       "scope": "global",
-      "state_after_this_turn": "kept_valid",
-      "note": "不变式/定义不受影响；§4 表\"P1/P2\"标签留待下个 KERNEL 版本统一改为 PI"
+      "state_after_this_turn": "revised",
+      "note": "v0.9.10：§4/§5 论文标签改为 PI；四个尺度注明经典出处与余量—年数公式；不变式无增删"
     },
     {
       "node": "knowledge_base/MASTER.md",
@@ -283,6 +316,12 @@
       "scope": "global",
       "state_after_this_turn": "revised",
       "note": "文件头 DEC-012 指针；正文保留历史"
+    },
+    {
+      "node": "review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "§4 第 3 条追加后续"
     }
   ],
   "frozen_not_invalidated": {
