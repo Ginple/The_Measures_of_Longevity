@@ -44,7 +44,7 @@
 | X29 | 2026-11-27 | CALERIE 时钟与安全论文不同样本不能推断个体联合效应 | [DNAm 事后分析](https://www.nature.com/articles/s43587-022-00357-y)197；[安全报告](https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=6013&context=open_access_pubs)218；220 原随机 | 参与者样本、时间点及缺失交集未取得；两个研究是同一试验 | 报告随机、分析人群及不同终点；仅取得可连接数据后评价个体联合画像 | open |
 | X30 | 2026-11-27 | SPRINTT 多病潜类与干预效应异质性 | [2026 事后分析](https://www.nature.com/articles/s43587-026-01188-x) 包括潜类及部分池化亚组分析 | 统计交互、潜类不确定性、多重比较、先验及外部验证尚未复核 | 禁止由亚组显著与否直接断言效应差异；核模型、先验与 protocol | open |
 
-| X31 | 2026-11-27 | CALERIE 甲基化分析时点人数的集合边界冲突 | [原文 Main 与 Fig. 1 说明](https://www.nature.com/articles/s43587-022-00357-y)：分析 128/69，12 月变化 125/66、24 月变化 117/68；三时点均有数据 105/59 | 若各时点是同一组 197 人母集且同一定义的个体，完整数据下界分别 114/65，与报告值不相容；可能另有口径或报告问题 | 核图、补充表、数据字典及作者；暂不判哪项出错或影响方向；[条件算术](COUNTEREXAMPLES_AND_DENOMINATORS_2026-11-27.md) | open |
+| X31 | 2026-11-27 | CALERIE 甲基化分析时点人数的集合边界冲突 | [Main 与 Fig. 1](https://www.nature.com/articles/s43587-022-00357-y/figures/1)：分析 128/69，12 月变化 125/66、24 月变化 117/68；Main 三时点 105/59。[补充表 S1](https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-022-00357-y/MediaObjects/43587_2022_357_MOESM1_ESM.pdf)称 AL 12 月随访 65 | 在共同人群、个人唯一与共同筛选假设下，图注给出交集下界 114/65；换 S1 的 65 后为 114/64，均与 Main 不相容。随访数据与变化数据的定义、筛选可能不同；作者澄清、数据和模型未取得 | 不判哪个数字错误或效应方向；核数据字典、样本 QC 和作者解释；[本轮溯源与两种条件算术](CALERIE_TEMPORAL_AUDIT_2026-11-27.md) | open |
 
 ## 交叉验证规则（本轮起生效）
 
