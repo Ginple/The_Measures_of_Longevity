@@ -147,3 +147,21 @@ X74 后续：Fig 7 图注规定首次照射前一天开始抗体；正文相关�
 
 | X79 | 2026-11-27 | CAPABLE 2014设计、登记与2019报告的主要终点描述 | [设计文](https://pmc.ncbi.nlm.nih.gov/articles/PMC4074085/)将ADL列主要、IADL列次要；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)仅列ADL，[2019结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)将两者都列主要 | 口径和正式修订日期未核；无全部方案及分析计划，不能判违规、错误或偏倚方向 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核登记历史、有日期方案、伦理修订和多重性 | open |
 | X80 | 2026-11-27 | CAPABLE 登记与结果文的收入阈值及住宅资格 | [当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)列收入低于贫困线175%，未列排除公寓；[结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)写低于200%且排除公寓 | 登记摘要不等于完整方案或实际筛选；资格可能随时间改变，未取得带日期历史和入选者数据 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核版本、筛选与外推，保留差异不裁决 | open |
+
+### 第 3 期（2026-11-27，PR #1 审计与动力学前沿）
+
+| ID | 日期 | 事项 | 证据 | 不确定点 | 处置 | 状态 |
+|---|---|---|---|---|---|---|
+| X81 | 2026-11-27 | X06 把 44,498 定为“二手报道的全集口径”，实为另一项一手研究 | 44,498 人、11 器官、2,916 蛋白出自 [Oh 2025 Nat Med 摘要](https://www.nature.com/articles/s41591-025-03798-1)（V6 参考文献 36）；43,616 人、10 器官出自 [Nat Aging 2025](https://www.nature.com/articles/s43587-025-01016-8) | 两个数字都正确，各属一项研究；X06 的“resolved（以 43,616 为准）”会误导 V6 的 36 号引用改写 | X06 不静默改动，以本条更正：V6 §36 保留 44,498，KERNEL §3.2 保留 43,616；正文须写明是哪项研究 | resolved（以本条取代 X06 的裁决理由） |
+| X82 | 2026-11-27 | Oh 2025 中“年轻动脉风险反而更高”（U 形） | 二手检索摘要提到；原文摘要只说脑与免疫 “uniquely” 与长寿相关 | 未见原文图表；可能是转述误差 | 核全文图表前不进正文；对应 U16 | open |
+| X83 | 2026-11-27 | PR #1 让验证合同强制两个只差大小写的 STATE_DASHBOARD 路径 | `tools/dashboard_contract.py` 旧版 `DASHBOARDS` 含两个路径，并要求是不同文件 | 大小写不敏感的文件系统无法检出；用户最新要求是不再生成仪表盘 | 删除小写副本；合同改为一个规范路径，并对全仓库做大小写碰撞检查；HTML 冻结不更新，是否删除留作者裁决（DEC-008） | resolved（工程） |
+| X84 | 2026-11-27 | `requirements-tested.txt` 的 networkx 3.7 在 Py3.11 CI 无法安装 | PR #1 dd47ce6 新增 `requirements-ci-py311.txt`（networkx 3.6.1），CI 改用该清单 | 只固定版本、不固定哈希；未测 3.10/3.12/3.13 | 本轮在全新 Py3.11.2 venv 按 CI 步骤复现：pip check 通过、两种模式 smoke 通过、根验证与 pilot 通过 | resolved（工程，本地） |
+| X85 | 2026-11-27 | “容量 / 排队”框架的原创性 | [Ledberg 2020](https://doi.org/10.1371/journal.pone.0233384) 用排队论推出 Gompertz；Karin/Alon 的 SR 模型；临界减速与动态韧性文献 | 检索并不穷尽；本项目的六模块与 SR 反例可能与更多既有工作重叠 | 第Ⅵ部、P4、转换七/九的相关工作必须引用；原创表述降级为“重组与可识别性” | open |
+| X86 | 2026-11-27 | Pyrkov 2021 外推的恢复时间在 120–150 岁发散 | [PMID 34035236](https://pubmed.ncbi.nlm.nih.gov/34035236/) | 是外推，不是观测；二手报道常写成“寿命上限 150 岁” | 正文只写“外推的发散点”，不写“上限” | open |
+| X87 | 2026-11-27 | 随机性时钟对“时钟年轻化”解释的影响 | [Meyer & Schumacher 2024](https://doi.org/10.1038/s43587-024-00619-x)；Tarkhov 2024 Nat Aging 4:854 | 随机成分占多大比例因钟而异；干预使方差减小，是否等同于功能改善未知 | 合并论文与第Ⅳ部：时钟变化要分“均值移动”与“方差 / 熵变化” | open |
+| X88 | 2026-11-27 | 热浪与医院拥堵导致已入院患者死亡增加 4.9% | [NBER w33491](https://www.nber.org/papers/w33491)（墨西哥 IMSS，2012–2019） | 工作论文；只覆盖单一医疗系统；“拥堵”是作者的识别论证 | 第Ⅷ部可引用，须注明工作论文级；跟踪发表版 | open |
+| X89 | 2026-11-27 | 中性血液交换与 “1-Generation” 药物主张 | Conboy 2020（小鼠）；Generation Lab 的主张只有媒体报道 | 药物主张没有可查的同行评审数据 | 小鼠结果只作机制线索；药物主张不进正文 | open |
+| X90 | 2026-11-27 | AgelessRx XPRIZE 试验的成分数与样本量 | FRONTIERS 第 1 期写 6 成分、n≈186；第 3 期二手来源写 9 成分、n=235 | 方案可能有修订，或某个来源有误 | 以官方登记或团队公告为准；THE-233 跟踪 | open |
+| X91 | 2026-11-27 | TAME 入组状态 | 范围综述类报道称从未入组；另一杂志称 3,000 人、2026 年底出中期结果 | 两种说法冲突，都没有一手来源 | 核 ClinicalTrials.gov 与 AFAR；核实前正文不写进度 | open |
+| X92 | 2026-11-27 | 内在能力（IC）共识框架与 ICD-11 条目 | ARPA-H PROSPR 报道；ICD-11 “Ageing associated decline in intrinsic capacity” | 提交 FDA 的只是提议，不是获批终点；ICD 条目的编码与用途待核 | 只作“外部趋势”引用，不写“监管采纳” | open |
+| X93 | 2026-11-27 | SR 合成反例：读数匹配而生存曲线交叉（H-SR1） | [实验](experiments/SR_SNAPSHOT_IDENTIFIABILITY_2026-11-27.md)：70 岁存活者平均损伤相同（4.1816），S70 0.881 对 0.873，S90 0.572 对 0.605，预期寿命 89.75 对 91.66；9 组 ε×d 组合交叉方向一致 | 合成参数、一维模型；回复率是线性化近似；不代表人群效应大小 | 只作存在性反例；H-SR1 须用真实多时点数据检验（U14） | open（合成层已复现） |

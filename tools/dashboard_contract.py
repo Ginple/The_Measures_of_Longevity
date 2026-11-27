@@ -1,8 +1,16 @@
-"""Structural checks for the requested static dashboard, not content certification."""
+"""Structural checks for the frozen static dashboard, not content certification.
+
+2026-11-27 audit fix: the earlier contract REQUIRED two paths that differ only
+by letter case (STATE_DASHBOARD.HTML / .html). Such a pair cannot be checked
+out reliably on case-insensitive file systems (default macOS/Windows). The
+contract now allows exactly one canonical dashboard path and rejects any
+repository paths that collide when compared case-insensitively.
+"""
+from collections import defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
 
-DASHBOARDS = ('STATE_DASHBOARD.HTML', 'STATE_DASHBOARD.html')
+DASHBOARDS = ('STATE_DASHBOARD.HTML',)
 EXCLUDED_DIRS = {'.git', '.venv', 'venv', '__pycache__', 'build', 'dist', 'node_modules', '.pytest_cache'}
 
 
@@ -43,9 +51,21 @@ class DashboardParser(HTMLParser):
             self.title += data
 
 
+def case_collisions(root):
+    """Return groups of repository paths that are equal ignoring letter case."""
+    root = Path(root)
+    groups = defaultdict(list)
+    for path in root.rglob('*'):
+        rel = path.relative_to(root)
+        if any(part in EXCLUDED_DIRS for part in rel.parts):
+            continue
+        groups[rel.as_posix().casefold()].append(rel.as_posix())
+    return sorted(sorted(v) for v in groups.values() if len(v) > 1)
+
+
 def check_dashboard(root):
     root = Path(root)
-    errors = []
+    errors = ['case-insensitive path collision: ' + ' | '.join(g) for g in case_collisions(root)]
     for path in root.rglob('*'):
         rel = path.relative_to(root)
         if any(part in EXCLUDED_DIRS for part in rel.parts):
@@ -64,10 +84,6 @@ def check_dashboard(root):
             errors.append(f'unreadable dashboard: {name}: {exc}')
     if len(contents) != len(DASHBOARDS):
         return errors
-    if (root / DASHBOARDS[0]).samefile(root / DASHBOARDS[1]):
-        errors.append('dashboard paths do not refer to distinct files')
-    if contents[0] != contents[1]:
-        errors.append('dashboard copies differ')
     try:
         text = contents[0].decode('utf-8')
     except UnicodeDecodeError:

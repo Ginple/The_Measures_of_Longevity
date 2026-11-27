@@ -30,7 +30,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 
 - [四方向穿透综合](DEPTH_SYNTHESIS_2026-11-27.md)；[工作证据卡 C000007–14](claims/ROUND_2026-11-27_DEPTH.md)。非系统综述、非独审、外源无字节快照。
 - [交叉验证台账 X21–X25](CLAIM_LEDGER.md) 包含三项既有误读及两项新证据边界；D05 仍为正式合成 blocker。
-- [STATE_DASHBOARD.HTML](../STATE_DASHBOARD.HTML) 为用户本轮单项授权的状态快照；小写副本同字节，不代表独立审计或实时 Linear 状态。
+- [STATE_DASHBOARD.HTML](../STATE_DASHBOARD.HTML) 是 PR #1 那一轮单项授权生成的状态快照，现已冻结、不更新；只差大小写的副本已删除（X83/DEC-008）。它不代表独立审计，也不反映实时的 Linear 状态。
 
 ## 同日对抗研究增量
 
@@ -89,3 +89,9 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## CAPABLE 写作边界续核
 
 [终点和资格审计](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)按PR2固定头线索核对2014设计文、当前登记及2019结果文；X79/X80未关闭。2025出院后研究只读摘要，不能做正式综合。
+
+## 同日：PR #1 审计与动力学前沿（第 3 期）
+
+- [前沿第 3 期](RESEARCH_FRONTIERS.md)：SR 模型、排队死亡率（Ledberg）、临界减速、随机性时钟、器官蛋白组（Oh 2025）、热浪与医院拥堵、XPRIZE 与监管现状。台账为 [X81–X93](CLAIM_LEDGER.md)，异常为 ANOM-005–007。
+- [SR 快照可识别性（合成）](experiments/SR_SNAPSHOT_IDENTIFIABILITY_2026-11-27.md)：读数匹配而生存曲线交叉；提高阈值让存活者“读数变老”；脉冲带来的年轻化只是暂时的。只用标准库，有 9 项测试。
+- KERNEL 升至 v0.9.8：新增 I11（读数 ≠ 参数）、四个可测尺度、estimand 动力学层。MASTER 升至 v1.1：新增方案 A′（35 slot，DEC-009），修正仪表盘大小写碰撞（DEC-008）。均待作者裁决与独立审阅。

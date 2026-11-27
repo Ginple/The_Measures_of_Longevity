@@ -5,7 +5,7 @@ sys.path.insert(0,str(P/'tools'))
 from numeric_contracts import check_percentage,execution_contract
 from dashboard_contract import check_dashboard, DASHBOARDS
 from markdown_links import classify_links
-import json, tempfile
+import json, shutil, tempfile
 
 class ProjectTests(unittest.TestCase):
  def test_rounded_third_is_legitimate(self):
@@ -51,8 +51,11 @@ class ProjectTests(unittest.TestCase):
    (root/'unexpected.htm').write_text(page)
    self.assertIn('unauthorized HTML: unexpected.htm',check_dashboard(root))
    (root/'unexpected.htm').unlink()
-   (root/DASHBOARDS[1]).write_text(page+'changed')
-   self.assertIn('dashboard copies differ',check_dashboard(root))
+   (root/'docs').mkdir(); (root/'docs/Note.md').write_text('a'); (root/'docs/note.md').write_text('b')
+   if len(list((root/'docs').iterdir()))==2:  # skip on case-insensitive hosts
+    self.assertIn('case-insensitive path collision: docs/Note.md | docs/note.md',check_dashboard(root))
+   shutil.rmtree(root/'docs')
+   self.assertEqual(check_dashboard(root), [])
    for name in DASHBOARDS: (root/name).write_text(page.replace('</head>', '<script src="https://example.org/x.js"></script></head>'))
    self.assertTrue(any('external rendering asset' in e for e in check_dashboard(root)))
    for name in DASHBOARDS: (root/name).write_text(page.replace('href="#a"','href="#missing"'))

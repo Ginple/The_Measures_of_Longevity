@@ -32,3 +32,9 @@ score 是两个时段**末尾库存快照的和**，单位是货物量，不是�
 运行 `python knowledge_base/experiments/timing_capacity_interaction.py`；精确有理数检查见 [测试](test_timing_capacity_interaction.py)，覆盖四格、守恒、容量上限、初始存量和非法输入。测试确认计算，不验证生物假设。
 
 2026-11-27 审计更正：PR #2 固定头 `b8434e22` 的 [PR #1 增量审计](https://github.com/Ginple/The_Measures_of_Longevity/blob/b8434e22ec62ba21814546560a33fc38f4939e9f/review/PR1_INCREMENTAL_AUDIT_C56C97B_2026-11-27.md)指出此前将“两段总输入”为2误写成“输出在两个时段均为2”；现按模型改正文句，表格和计算不变。
+
+## 先行文献与跨尺度对照（2026-11-27 第 3 期补充）
+
+- **排队与衰老死亡率**：[Ledberg 2020](https://doi.org/10.1371/journal.pone.0233384) 把损伤建模为排队系统（M/M/1 及 G/G/1），修复率随年龄下降；由 P(Q≥k)=ρ^k 推出死亡率随年龄指数上升。本例只是两时段的离散快照，**不扩展也不检验** Ledberg 的结果。正文引用时必须并列两者，不写“首次”（X85）。
+- **饱和清除**：Karin/Alon 的 SR 模型里，清除 βX/(κ+X) 本身就是一种“有上限的处理能力”。本项目的 [SR 快照可识别性](SR_SNAPSHOT_IDENTIFIABILITY_2026-11-27.md) 在这一模型中说明：读数匹配并不意味着结局匹配。
+- **系统层的真实例子**：[NBER w33491](https://www.nber.org/papers/w33491) 报告，日最高气温超过 34°C 时急诊与住院增加，热浪前已入院患者的死亡也增加。作者将其解释为拥堵外溢。这是社会系统的容量峰值，不是细胞清除的证据；本身也只是工作论文（X88）。
