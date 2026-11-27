@@ -1,0 +1,4 @@
+anomaly_id,first_observed,phenomenon,source,possible_class,relation_to_kernel,disposition,date_logged
+ANOM-001,2026-11-27,同一手术名（血浆置换）在不同置换液协议下时钟读数方向相反：白蛋白+IVIG 报告生物年龄下降2.6年；无白蛋白置换报告 GrimAge/DunedinPACE 上升,"Aging Cell 2025 e70103 vs Sci Rep 2025 s41598-025-05396-0",范式冲突/测量伪影候选,支持I5与转换九：观测算子（置换液）是漏报变量,进入FRONTIERS F6与书第Ⅶ部案例章；向P2提交干预描述合同最小案例,2026-11-27
+ANOM-002,2026-11-27,ER-100 IND获批月份两个二手来源不一致（2026-01 vs 2026-06-08）但首例给药日期一致（2026-06-09）,"2026-07系统综述 vs 科普页",测量伪影候选（转述噪声）,不直接影响不变式；影响V6 §09更新准确性,登记CLAIM_LEDGER X01；核官方公告,2026-11-27
+ANOM-003,2026-11-27,TranslAGE中DunedinPACE在17.6%的显著干预中是唯一显著的钟且从不与其他钟方向冲突,"Nat Med 2026-08-21",范式冲突候选（钟敏感性vs假阳性未分）,加强转换九：响应性不等于归属；与V7 §06多钟筛网规则互补,列入KERNEL §3.2；U1测量计划跟踪,2026-11-27

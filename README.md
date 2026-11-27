@@ -1,17 +1,20 @@
-# 长寿研究工作台 · Longevity Research Workbench
+# 长寿的尺度 · The Measures of Longevity
 
-**定位 / Positioning**：一本长篇跨学科专著与三篇独立问题导向的 companion papers 的研究仓库；内含可测试的研究保障子组件，而不是“用一组提示词生成一本书”。
+**定位 / Positioning**：长篇跨学科专著《长寿的尺度》与伴生论文的研究仓库；内含可测试的研究保障子组件，而不是“用一组提示词生成一本书”。
 
-**当前版本**：workbench 0.1.0；内嵌 toolkit **0.1.1 候选修订版**。2026-11-25。本地工程验收不等学术发布许可。人工独立外审 **未发生**；科学债未因本轮测试关闭。
+**当前版本**：scaffold v0.9（2026-11-27）：knowledge_base 四件套 + Linear 看板已建；书稿架构与论文处置待作者裁决。人工独立外审 **未发生**；科学债未关闭。
 
 ## 从这里读 / Start here
 
-1. [本轮决策与附件比较](docs/DECISION_REPORT_ZH_EN.md)
-2. [书名、研究纲领与章节架构](books/longevity/BOOK_PROPOSAL.md)
-3. [三篇论文及成果分工](papers/PUBLICATION_MAP.md)
-4. [敌对测试报告](evaluation/ADVERSARIAL_REVIEW.md)
-5. [手动建库、运行、许可与公开边界](docs/GITHUB_HANDOFF.md)
-6. [架构决策记录](governance/ADR_001.md) · [实际目录树](REPOSITORY_TREE.md)
+1. **[KERNEL.md](knowledge_base/KERNEL.md)** — 核心内核：不变式、定量锚点、范式转换候选
+2. **[MASTER.md](knowledge_base/MASTER.md)** — 总控：权威路径、书稿架构方案、论文处置方案、里程碑
+3. [CLAIM_LEDGER.md](knowledge_base/CLAIM_LEDGER.md) — 交叉验证台账 · [RESEARCH_FRONTIERS.md](knowledge_base/RESEARCH_FRONTIERS.md) — 前沿扫描
+4. [本轮决策与附件比较](docs/DECISION_REPORT_ZH_EN.md)
+5. [书名与历史提案](books/BOOK_PROPOSAL.md)（架构以 MASTER §3 为准）
+6. [三篇论文及成果分工](papers/PUBLICATION_MAP.md)（处置以 MASTER §4 为准）
+7. [敌对测试报告](evaluation/ADVERSARIAL_REVIEW.md)
+8. [手动建库、运行、许可与公开边界](docs/GITHUB_HANDOFF.md)
+9. [架构决策记录](governance/ADR_001.md) · [实际目录树](REPOSITORY_TREE.md)
 
 ## 本地验证 / Local verification
 
