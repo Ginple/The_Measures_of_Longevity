@@ -1,5 +1,0 @@
-# Actual shared environment, Python 3.13.18; not a full transitive lockfile.
-# The single upstream component in the parent workbench is 0.1.1 candidate.
-networkx==3.7
-jsonschema==4.26.0
-beautifulsoup4==4.15.0
