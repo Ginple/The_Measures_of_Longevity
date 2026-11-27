@@ -32,3 +32,5 @@ v1 临床扩展复合终点加入任何冠脉血运重建，与母试验主要�
 ## 下一步
 
 预先规定随机前采样、基因与阈值、绝对细胞计数/谱系与技术重复、采样与失访时间、多重性及独立的临床目标；索取完整代码、可授权数据和研究者解释再开展复算。[TECTONIC登记](https://clinicaltrials.gov/api/v2/studies/NCT06691217)截至2026-10-15显示仍在招募、计划120人，干预为canakinumab而非秋水仙碱；48周冠脉影像变化是主要终点，TET2 VAF次要，尚不是已发表临床结果。对真实研究和个体治疗均不能由本合成示例直接推断。
+
+另见 [CANTOS临床交互续审](CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)：canakinumab的TET2亚组MACE信号与组间交互不等同于本页两项秋水仙碱VAF研究，且CANTOS的蛋白报告不是独立母试验复制。

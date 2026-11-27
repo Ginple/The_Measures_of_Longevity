@@ -105,3 +105,5 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 [分选后比例的条件敏感性示例](experiments/PR2_SORTED_SAMPLE_SENSITIVITY_2026-11-27.md)择取 PR2 的精确算术与测试，补充uPAR分选后与总体的区别；假设的纳入比不代表真实回收率。
 
 [CALERIE补表条件舍入与缺失续核](CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)引入PR2的精确分数算术：在指定舍入规则下57（29.8%）对应的整数分母候选为191，不能据此判定实际样本或完整记录人数。
+
+[CANTOS TET2临床交互续审](CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)区分亚组内检验、组间交互、三剂量合并与母试验单剂量，以及同试验不同报告；人工多重性例不是论文实际假阳性率。
