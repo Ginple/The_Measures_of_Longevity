@@ -1,0 +1,223 @@
+# CLAIM LEDGER｜交叉验证与不确定项台账
+
+**用途**：登记"本轮研究与写作中发现的冲突、待核项与跨来源不一致"。规则：不确定 → 先登记 → 交叉验证 → 裁决 → 修改来源文件并递增版本。**不得静默采用任何一方数字。**
+
+**与旧债的关系**：D02–D10、M01/M06 等历史科学债在 `session/OWED_DEBTS.json` 保持原状态，本台账不复制其内容、不自动关闭；仅登记新 X-item 与其关联。
+
+**状态图例**：`open`（待核）· `resolved`（已交叉验证并裁决）· `blocked`（需外部数据/作者）
+
+## X-item 登记
+
+| ID | 日期 | 事项 | 证据 | 不确定点 | 处置 | 状态 |
+|---|---|---|---|---|---|---|
+| X01 | 2026-11-27 | ER-100 获许可与给药时间线 | 公司 2026-01-28 [公告 IND 已获 FDA 许可](https://www.lifebiosciences.com/life-biosciences-announces-fda-clearance-of-ind-application-for-er-100-in-optic-neuropathies/)；2026-06-09 [公告首位已给药](https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/) | 两者是公告日期，未核 FDA 有效日期与实际给药日；历史二手 06-08 说法不可靠 | 以公告日期和公司自报明确表述；FDA 原始确认、首例认证仍待查 | open（公告时间核实） |
+| X02 | 2026-11-27 | RS5614 半决赛数据性质 | 公司自报 PDF：19 人、4 月、Horvath −3.4 年 / PC-Horvath −1.9 年 | 是否盲法/安慰剂对照；终点是否预注册；评审委员会是否已独立复核 | 引用时一律标注"公司自报、半决赛数据"；追踪 XPRIZE 官方发布 | open |
+| X03 | 2026-11-27 | GLP-1 与时钟 | [RCT 探索性分析 n=84](https://www.nature.com/articles/s41467-026-72861-3)：−0.09；[SLIM LIVER n=41](https://www.nature.com/articles/s41514-026-00383-9)是单臂，DunedinPACE 中位变化 +0.018 | 先前将后者误写为“无组间减速”；两研究人群/设计不同，均不能证明延寿；AD 阴性结果仍待核 | 撤销组间表述；原文相关段已读；协议、数据和 AD 试验待核 | open（设计/指标局部核实） |
+| X04 | 2026-11-27 | TRIIM "逆转 11/28 年" | 二手来源引用 Fahy 口径（naive CD8 +20%≈11 年、CD4 +13%≈28 年）；原始论文 12 月四钟平均 EA−A 相对基线约 −2.5 年；GrimAge 12/18 月为 −2.16/−2.12 年，18 月仅第一队列有血样（见 X10） | T 细胞计数→"逆转年数"换算口径未核实 | 仅引原始数字；换算句禁入正文 | open |
+| X05 | 2026-11-27 | Buck TPE 钟数与人数口径（重新开放） | [2024 预印本 v1](https://www.medrxiv.org/content/10.1101/2024.08.02.24310303v1.full) 报35钟；[2025发表版](https://onlinelibrary.wiley.com/doi/10.1111/acel.70103)图2和§2.3写36钟，§1及§4.6写35；§2称44入组、42完成，表1性别计数合计41，[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT06534450)实际40 | 旧记录称“不是同一版本计数冲突”并标 resolved，现撤回；不同计数是否对应不同分析集或流程未核，不裁定论文错误 | 按[专项审计](TPE_TIMING_ALLOCATION_CLOCK_UNIT_AUDIT_2026-11-27.md)查样本流、最终数据及作者解释；只在引用特定图表时说该处写36，不将36当已核全部口径 | open（纠正旧状态） |
+| X06 | 2026-11-27 | 器官钟 UKB 样本量 | Nat Aging 正文 43,616（分析集）；一处二手报道 44,498（全集） | 两个口径都真实存在，引用需指明口径 | 以原文口径为准 | resolved（以 43,616 为准） |
+| X07 | 2026-11-27 | 14 项共识清单的误传 | Grokipedia 等二手页把 VO2max/HbA1c 列入共识；原文共识为 IGF-1/GDF-15/hsCRP/IL-6/肌肉量/肌力/握力/TUG/步速/平衡/衰弱指数/认知/血压/DNAm 钟 | 无 | 已按原文裁决；作为"来源卫生"示例保留在台账 | resolved |
+| X08 | 2026-11-27 | 器官钟纵向研究状态 | bioRxiv 预印本（2026-02，n=1,250） | 未同行评审 | 只作 Known Unknown（U3），不作定论 | open |
+| X09 | 2026-11-27 | 旧债关联确认 | 本台账不复制 OWED_DEBTS.json 内容 | — | D03/D04/D08/D10 的推进在 THE-232；D05 在 THE-234 | resolved（机制确立） |
+| X10 | 2026-11-27 | TRIIM 停药后各指标的持久性两说 | [Fahy 2019 原文](https://gwern.net/doc/longevity/epigenetics/2019-fahy.pdf) Table 1：GrimAge 的 EA−A 变化 12/18 月 −2.16/−2.12 年，Horvath −2.50/−0.94 年；[2026 综述](https://academic.oup.com/intimm/advance-article-pdf/doi/10.1093/intimm/dxag042/70632311/dxag042.pdf)概括诸参数回基线，ref 131 指向同一原研究而非 TRIIM-X | 原图 naive T 比例回近基线，与 GrimAge 保留可并存；综述总体表述与原文 GrimAge 结果冲突。18 月指标各自人数、胸腺 MRI 随访与更正待核；单臂不能确立因果 | [逐指标审读](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；只报告来源与期限，不能将时钟读数作寿命获益或已证长期持久 | open（原文及综述部分核实） |
+| X11 | 2026-11-27 | 目的/意义与死亡率的再分析缩水 | UK Biobank 153,505 人 6 年：每 SD 意义 → 全因死亡 −15%；2026 汇总（~50 万人、32 年随访）：~24% → 校正健康习惯/抑郁后 9–15%；Sias & Turtle 2026：仔细测基线健康后大部分关联消失 | 观察性；反向因果（健康→有意义感）未排除 | 书第Ⅸ部意义章用双刃证据写法（15% 与 9–15% 同段给出）；不把目的写成"处方" | resolved（写法约束确立） |
+| X12 | 2026-11-27 | 美国热适应研究证据等级 | SSRN 工作论文（3,135 县、25 年、三重差分）：老年人热脆弱性随空调普及**下降**，LIHEAP=气候适应政策 | 未同行评审 | 只作机制线索；欧洲部分（Nat Commun 2025 同行评审：89.4% 热死亡在 65+）可正常引用 | open |
+| X13 | 2026-11-27 | D+Q MASH RCT 来源与缺失口径 | [原文 Results/Fig. 2 与敏感性分析](https://www.nature.com/articles/s42255-026-01643-4)：8/17 vs 1/14，复合终点含 MASH 未恶化；4 例缺失活检按未应答；不同缺失假设影响精度 | 原文相关段已读；注册、附录协议和源表未核、未复算；见 LON-C000004 | 改正 KERNEL/FRONTIERS，引用结果与不良事件/缺失分析并列 | open（主终点文本已核，协议/源表待核） |
+| X14 | 2026-11-27 | 器官钟 43,616 误写成全部训练集 | [原文 Methods / Fig. 1](https://www.nature.com/articles/s43587-025-01016-8) | 分析集随机 7:3 训练/测试；r=0.98/0.93 为跨队列模型表现相关，不是个体内器官钟相关 | 已更正 KERNEL/FRONTIERS；引用和下游复核 | resolved（样本口径） |
+| X15 | 2026-11-27 | 维护容量乘减式未定义 | KERNEL 旧 §2 | 各项变量、单位、相互作用、加减的物理意义均未给出；不能据此运算 | 撤回等号，保留为分项研究概念；形式化需新模型、量纲与反例 | open |
+| X16 | 2026-11-27 | 读深图例与审计不一致 | FRONTIERS 图例 vs 审计 B/F5 | ◇ 被同时用作全文、摘要和二手，不能证明读深 | 历史标记降为不可用；逐项记录实际读取位置 | open |
+| X17 | 2026-11-27 | 方案 A 章数和压缩方案自相矛盾 | MASTER §3、审计 C、书稿地图 | 实为 40 slot，旧审计称 36；C 一处压环境体验，另一处不压；无具体验证的 ≤36 地图 | 暂停认定最优方案；保持现有图作参考，独立审计前不得定稿 | open |
+| X18 | 2026-11-27 | MASH 原文男性比例内部不一致 | [摘要](https://www.nature.com/articles/s42255-026-01643-4)称 76%；[基线表](https://www.nature.com/articles/s42255-026-01643-4/tables/1)为 13/17 和 9/14，合计 22/31≈71% | 可能是摘要或表口径/报告错误，未取得作者澄清 | 不能静默采用摘要总体比例；引用组别人数并联系作者或查勘误 | open |
+| X19 | 2026-11-27 | LoDoCo2 TET2 安慰剂斜率区间正负号不一致 | [JACC 原文](https://www.jacc.org/doi/10.1016/j.jacc.2025.08.025)摘要下限 +0.16，Results 正文下限 −0.157 | 图、补充表与更正尚未核；两个版本不是独立验证 | 暂不引用该区间；核图表/作者并记录 | open |
+| X20 | 2026-11-27 | CAPABLE 干预组年龄均值正文与表不一致 | [JAMA 原文 Results 与 Table 1](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)：正文 75.7，表 76.1 | 口径或报告差异待核 | 暂不引用干预组均值；待核图表和更正 | open |
+| X21 | 2026-11-27 | 健康预期寿命差 9.6 与 9.2 混同 | [原文 Results Fig.1/Fig.2](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)：2019 全球差值 9.6 年；183 会员国差值均值 9.2 年 | 原文未在已读段落明确两个统计口径的权重来源，不能猜测 | 修正全球值/会员国均值；核 WHO 原始数据与权重；不将差值解释为个人必然疾病年数 | open（统计来源待核） |
+| X22 | 2026-11-27 | p53 数值被误写成癌变风险 | [综述摘要](https://www.researchgate.net/publication/406907247_Cellular_Reprogramming_as_a_Strategy_for_Radical_Rejuvenation)称 27.8 倍是 p53 抑制与**体外全重编程效率**的汇总，不是肿瘤发生风险 | 原文页面元数据和 PDF 关联有异常，同行评审及计算质量未核 | 撤回全部将此数当癌变风险的说法，不将综述数值作安全证据；原始研究核查另行进行 | open（报告与证据真实性待核；误读已撤回） |
+| X23 | 2026-11-27 | ER-100 的 2026-10 公司期中数据 | [公司公告](https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/)自报 3 人第 56 天安全、2 人视野信号 | 开放标签无对照；归因、长期安全与有效性不能确定；不作为独立验证 | 仅以公司自报表述，跟踪正式文章、注册结果及长期监测 | open |
+| X24 | 2026-11-27 | HEAL-HOA 12 月失访及小效应 | [原文 Results](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844641)：699/1151 失访，组间比例不等，UCLA 差约 0.7 分 | 混合模型与模式混合敏感性分析不自动排除所有 MNAR；中介因果需额外假设 | 引用效应、量表、失访、对照及限制并列；不承诺大规模成本效益 | open |
+| X25 | 2026-11-27 | 司美格鲁肽小鼠寿命 vs 限食比较 | [Nature 2026](https://www.nature.com/articles/s41586-026-10940-7)寿命组为药物 vs 溶媒；另有 5 个月限食功能队列 | 非直接终生药物 vs 等摄入限食生存比较；仅雌鼠单品系 | 区分队列和终点，不将功能对照推成寿命机制裁决 | open |
+
+| X26 | 2026-11-27 | Corley 等单核细胞 EpiTOC P/区间不一致 | [原文 Results](https://pmc.ncbi.nlm.nih.gov/articles/PMC10776116/) 同一药物组内 EpiTOC P=.003，95% CI −0.003 至 +0.008 | 若两者对应同一参数与通常双侧检验则不一致；尺度、方法或笔误未核，其他指标不能代替核查 | 暂不以该 P 或 CI 作确定证据；核补充图、统计方法、作者更正和源数据 | open |
+| X27 | 2026-11-27 | METFORAGING 使用 DunedinPACE 代码的实际版本 | [论文 Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC13098334/) 链到官方 GitHub；本轮固定快照 commit 4b569983543e51d1022aecec9a25e694bb3a336a，双接口字节一致 | 论文所用提交、权重、环境和具体批处理未核，本地代码观察不证明试验有偏差 | 记录 [manifest](source_snapshots/dunedinpace_4b569983/manifest.json)；申请运行版本与数据并验证 | open |
+
+
+| X28 | 2026-11-27 | ILLUMINATE 主要复合结局的协议修订与批准 | [NEJM Study Design](https://www.nejm.org/doi/full/10.1056/NEJMoa0706628)称 2006-11-28 修订加入不稳定心绞痛住院，停试时尚未经 IRB 批准 | 原始协议、预先主要终点与敏感性分析尚未核，尚不能断定调整对结果的影响 | 摘录时同步披露修订与批准状态，核原协议及各结局 | open |
+| X29 | 2026-11-27 | CALERIE 时钟与安全论文不同样本不能推断个体联合效应 | [DNAm 事后分析](https://www.nature.com/articles/s43587-022-00357-y)197；[安全报告](https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=6013&context=open_access_pubs)218；220 原随机 | 参与者样本、时间点及缺失交集未取得；两个研究是同一试验 | 报告随机、分析人群及不同终点；仅取得可连接数据后评价个体联合画像 | open |
+| X30 | 2026-11-27 | SPRINTT 多病潜类与干预效应异质性 | [2026 事后分析](https://www.nature.com/articles/s43587-026-01188-x) 包括潜类及部分池化亚组分析；报告交互 P=0.870 | 交互检验不支持已证实的亚组差异；潜类不确定性、多重比较、先验及外部验证尚未复核；结果段每人年事件单位待核 | 禁止由亚组显著与否直接断言效应差异；核模型、先验、单位与 protocol | open |
+
+| X31 | 2026-11-27 | CALERIE 甲基化分析时点人数的集合边界冲突 | [Main 与 Fig. 1](https://www.nature.com/articles/s43587-022-00357-y/figures/1)：分析 128/69，12 月变化 125/66、24 月变化 117/68；Main 三时点 105/59。[补充表 S1](https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-022-00357-y/MediaObjects/43587_2022_357_MOESM1_ESM.pdf)称 AL 12 月随访 65 | 在共同人群、个人唯一与共同筛选假设下，图注给出交集下界 114/65；换 S1 的 65 后为 114/64，均与 Main 不相容。随访数据与变化数据的定义、筛选可能不同；作者澄清、数据和模型未取得 | 不判哪个数字错误或效应方向；核数据字典、样本 QC 和作者解释；[本轮溯源与两种条件算术](CALERIE_TEMPORAL_AUDIT_2026-11-27.md) | open |
+
+| X32 | 2026-11-27 | TranslAGE 的“从不分歧”被误写成逐钟从无方向冲突 | [原文 Fig. 4c 与方法](https://www.nature.com/articles/s41591-026-04562-9)：仅在某钟显著时与同研究其他显著钟比较；多数同向、少于半数同向和唯一显著分别分类 | 未读取/复算补充表确认每一逐钟比较及平手如何处理；多数规则下无“分歧类别”不等于所有配对方向一致；17.6%分母为该钟自身显著结果 | 修正 FRONTIERS F2 与 ANOM-003；后续逐条核源表，勿把响应性或组内变化当临床替代终点 | open（概念误写已更正，逐项数据未核） |
+| X33 | 2026-11-27 | TranslAGE 描述性组内变化与随机生活方式荟萃分析的 estimand 不同 | [TranslAGE Methods](https://www.nature.com/articles/s41591-026-04562-9)描述配对前后检验和参考队列标准化；[Sanchez 2026 摘要](https://pubmed.ncbi.nlm.nih.gov/43038634/)为平均年龄≥45岁的生活方式 RCT 组间荟萃 | 试验重叠、每项估计/时钟与质量、荟萃模型和全文未核；不同人群、干预和尺度不能简单解释为互相否定 | 分开报告人群、设计、估计量与低确定性；取得全文/补充数据后核研究重叠与方法 | open |
+
+| X34 | 2026-11-27 | MTO 青少年精神健康原论文撤稿并替换；PubMed 旧摘要与更正不一致 | [2016 撤稿替换公告](https://pmc.ncbi.nlm.nih.gov/articles/PMC6005353/)：女生重度抑郁结果 P=.06，而非原文 .04 | 旧摘要和新闻继续传播原结论；事后探索与多个终点均需注意，非成人健康分析的独立复制 | 不引旧显著结论；如引用此亚组须注明替换与探索性质，核更新论文与分析代码 | open（版本及主要更正已核，完整替换与方法未审） |
+
+| X35 | 2026-11-27 | p16-3MR 报告/清除功能争议 | [Hori 2026](https://link.springer.com/article/10.1038/s44319-026-00802-8)报告其条件下弱信号与清除失败；[Wang 等回应](https://link.springer.com/article/10.1038/s44319-026-00801-9)强调场景、灵敏度与对照差异并反对全面否定 | 两方与独立研究的模型批次、剂量、分析和原数据未逐项复核；不能将此争议直接套用 Cell 2024 的不同交叉遗传系统 | 核同窝对照、底物背景、遗传型×药物交互、正交指标及独立复制 | open |
+
+| X36 | 2026-11-27 | TranslAGE 多重检验与 90% 方差 PCA 阈值的依据 | [论文方法](https://www.nature.com/articles/s41591-026-04562-9)称经典 Bonferroni 假设独立、名义 .05 与有效检验数修正类似；[合成反例](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)说明 90% PCA 维数不能一般性保证 FWER | 有效单检验 P 下 Bonferroni 不要求独立；补表20、每个结论实际阈值、原数据与代码未核；合成 FWER 不是论文的 FWER | 分清论文原话、数学性质与尚未复算；获取补表及数据逐项核检验家族和阈值，不断言全部结果无效 | open |
+
+| X37 | 2026-11-27 | methylCIPHER 许可元数据不一致与 PoAm38 包装器待测 | [固定提交的 LICENSE](https://github.com/HigginsChenLab/methylCIPHER/blob/bfe5d02817e7dd5e923e8bf96528d5bfd52e1636/LICENSE)为 BSD 3-Clause，但 DESCRIPTION License 为占位；[PoAm38 源码](https://github.com/HigginsChenLab/methylCIPHER/blob/bfe5d02817e7dd5e923e8bf96528d5bfd52e1636/R/calcDunedinPoAm38.R)输入转置后缺失探针检查/填补方向存在待测疑点 | 尚无 R 运行、外部权重或试验版本对照；疑点不是已确认错误、也不证明影响任何论文 | 请维护者澄清许可证和依赖数据权利；用合成矩阵按固定依赖版本写回归测试，区分 PoAm38 与 DunedinPACE | open |
+
+| X38 | 2026-11-27 | DO-HEALTH 时钟结果标准化差值换算成月数的公式待澄清 | [Fig.2 图注](https://www.nature.com/articles/s43587-024-00793-y/figures/2)和[扩展表3脚注](https://www.nature.com/articles/s43587-024-00793-y/tables/4)写 `(standardized estimate × SD + mean) × 12`；[方法](https://www.nature.com/articles/s43587-024-00793-y)称对变化量减均值并除 SD | 共同中心及尺度下组间差的逆变换均值项会相消；不确定脚注例子具体系数、变量与作者意图，未获得原数据/代码，不能判论文数值错误 | [条件性推导和复核清单](DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md)；请求作者澄清，不把时钟月数写成寿命获益 | open |
+
+| X39 | 2026-11-27 | KERNEL I6 状态周转参数 m 被误写为迁移 | [原模型](../longevity_state_turnover/状态还在_不等于细胞没换.md) §4 定义 m 为成熟退出风险率、d 为其他丢失风险率，并明确不含迁移；[脚本](../longevity_state_turnover/identifiability_check.py)以 `maturation_hazard` 实现 | 原 KERNEL 的“迁移+死亡”与模型及 V7 不一致；其他丢失不必全为死亡；标签留存结论依赖理想脉冲、无新标记和常风险假设 | KERNEL 升 v0.9.5 修正术语与条件；受影响书稿及论文接口需人工复审，原计算和冻结数据不重签；同助手旧审计的公式符号通过不代表术语通过 | open（术语纠正，人工依赖复审及独立外审待完成） |
+
+X33 后续：已读取 [Sanchez 综述全文方法、主要结果及偏离协议表](CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md)，确认 CALERIE 因平均年龄 38 被排除；DO-HEALTH 合并的是运动因子、不能换成 omega-3 对比。补表及逐试验与 TranslAGE 重叠仍未核，综述提取和合并结果未复算；X33 保持 open。
+
+X31 后续：作者[固定版本 Stata 脚本及筛选/模型](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)已静态查阅，公开仓库无患者数据；导出脚本标示按 ID/时点排序且发布不含 ID，提示隐私风险而非授权按行配对。分母矛盾、真实模型与身份保护仍待核。
+
+X30 后续：已对照 SPRINTT 原试验事件判定、安全与事后潜类交互；两报告同一试验、不算独立复制；事后交互 P=.870 不支持已证实亚组差异，亦不证明相同。详见[审计](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)。
+
+| X40 | 2026-11-27 | BASE-II 发表版预测比较的时间、选择与摘要差异 | [Vetter 2026](https://link.springer.com/article/10.1186/s40364-026-00909-z)：T0 1671/316、T1 1083/90，主单指标非统一时间或风险集；联合模型 T1 参与者、左截断，AICc 同数据选模 | 摘要列五项，正文 model 2 另列肌力（握力阈值派生）；model 3 肌力不显著；多重性、选择偏差与外部验证待核 | [审计](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；不把预测排序当干预替代终点；核补表、代码与外部验证 | open |
+| X41 | 2026-11-27 | 多癌检测模型与随机试验的分母、版本和净收益 | [Malagón 发表版](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740675/)的 1.1%/10.8% 是对应年龄段筛检癌中过诊断模型比例；[NHS-Galleri](https://pmc.ncbi.nlm.nih.gov/articles/PMC7619610/) 12 癌 III/IV 主要终点未达，IV 仅描述 | 发表/预印本同研究；模型不是试验数据；75–79 岁表与 50–75 岁筛查方案年龄口径待核；死亡与过诊断随访未完成 | [审计及合成反例](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；筛出癌分母不可改成所有受检者 | open |
+| X42 | 2026-11-27 | 多癌微模拟发表版 Table 3 特定行统计待复核 | [Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740675/table/cam472455-tbl-0003/) 78,183 TP、73,810 FP、PPV 53.4%、NNS 108；分项中位数之比约 51.44% | 中位数之比通常不等于比值中位数；数值异常不单凭这一点判错，逐次配对数据/定义/代码和作者解释未核；Fig.2 图注 III 期灵敏度 50% 而表1基础情景为 60%，差异未裁决 | [V1 代码静态审读](MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md)表明 PPV 从独立指标取边际汇总；数组无年度逐次配对信息。取最终发表脚本、年度逐次数据及作者定义再复算；人工反例不是原模型数据 | open |
+
+## 交叉验证规则（本轮起生效）
+
+1. 任何进入 KERNEL §3.2 的数字，至少一个来源须为一手（原文/官方 PDF）；二手来源只能提供线索。
+2. 两来源冲突 → 登记 X-item → 读一手 → 裁决 → 在此留痕（不删除记录）。
+3. 公司/竞赛自报数据（X02 类）永久带标注；不得以"已获奖"佐证科学结论。
+4. 预印本（X08 类）永久带标注；升级为"已核"须有同行评审版本。
+5. 台账与 KERNEL 冲突时：先修 KERNEL 并递增版本，再修改下游书稿/论文。
+
+| X43 | 2026-11-27 | MCED 模型作表边际极值与逐次比值口径 | [Borealis V1 代码审计](MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md)：表 2 比例极值使用过诊断边际极值/筛出癌中位数；表 3 不同列算法不同 | 最终发表脚本和年度逐次配对数组未核，发表表两年龄行与该算法相容不证明使用该版本；NNS min/max 代码命名亦需核 | 取最终版本和逐次数据复算；不把这些括号自动当逐次比例范围或 CI，不声称论文已错 | open |
+| X44 | 2026-11-27 | HARP 首次跌倒与重复跌倒的结局和时零 | [原文和 2017 方案审读](MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md)：主要 HR 0.90（0.66–1.27），次要事件率比 0.62；两组报告的时零不同，正文合计 140 vs 分组 141 | 非全随机人群的分析和干预前事件、删失处理待核；不知偏差方向；正文与表 2 的 CI 小幅不一 | 复核方案/登记及数据，不把事件率当无跌倒人数或主要终点成功；CAPABLE 为不同干预及结局 | open |
+| X45 | 2026-11-27 | Cochrane 综述的引用重叠和摘要表格不一致 | [Cochrane](https://pmc.ncbi.nlm.nih.gov/articles/PMC9998238/)含 HARP，摘要 vs 汇总表对质量生活研究数及骨折证据等级不同 | 文献检索截止在 HARP 结果发表前，纳入渠道及版本、表与摘要差异及勘误待核 | 不将单试验与其所在汇总算独立复制；核森林图、勘误和数据 | open |
+| X46 | 2026-11-27 | Cochrane 高风险跌倒人数绝对风险算术和 HARP 附录分母冲突 | [汇总表](https://pmc.ncbi.nlm.nih.gov/articles/PMC9998238/table/CD013258-tbl-0001/) 550/1000、RR .74，却列 461/1000；[HARP 表2](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/table/zoi210656t2/) 与[附录5](https://pmc.ncbi.nlm.nih.gov/articles/PMC9998238/table/CD013258-tblf-0004/)两组分母对调 | 550×.74=407；四舍五入不足以解释，但精确输入、计算口径、森林图所用数据及勘误未核 | [算术与分母审计](FALLS_STUDIES_DEEP_AUDIT_2026-11-27.md)；禁把条件算术称为汇总复算，核原数据和作者澄清 | open |
+| X47 | 2026-11-27 | OTIS 敏感性段 IRR 与区间不一致 | [NIHR 结果](https://www.ncbi.nlm.nih.gov/books/NBK571976/)两处敏感性段写 0.17（0.99–1.38），主要估计为 1.17（0.99–1.38） | 表述疑似笔误但未核代码或勘误；不可把 0.17 当可靠效果或自行改写来源 | [方案、缺失和实施审计](FALLS_STUDIES_DEEP_AUDIT_2026-11-27.md)；查原分析与作者更正 | open |
+| X48 | 2026-11-27 | 独立 MCED 生存者模型的输入文件命名及作者稿数值歧义 | [代码/论文审计](MCED_SURVIVOR_MODEL_REPRODUCIBILITY_2026-11-27.md)：README `BC_Incidence...` vs 代码 `BC_incidence...`；作者稿正文写 39–11，摘要/表 3 为 39–111（每 100,000 人年） | 仅静态阅读，缺原工作簿、R 环境、发表版确切提交和最终版核验；大小写敏感系统按说明原样放置可能失败，未实际运行 | 核作者、最终版本、输入数据及许可证；不把这一独立模型冒充 Malagón 模型或判论文计算错误 | open |
+
+| X49 | 2026-11-27 | CALERIE 目标限食与实际时间分期被混用 | [骨密度报告](https://pmc.ncbi.nlm.nih.gov/articles/PMC4834845/)：目标 25%，前六个月 19.5±0.8%，后六个月 10.8±0.7%，再 12 个月 8.3±0.8%；[安全报告](https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=6013&context=open_access_pubs)两年平均 11.9% | [2024 JCI 讨论](https://pmc.ncbi.nlm.nih.gov/articles/PMC11383369/)将 19.5% 写为随机分配两年；缺患者级暴露和报告间计算口径，不能推断单人依从性 | [剂量、骨密度及书稿接口审计](CALERIE_BONE_AND_EXPOSURE_AUDIT_2026-11-27.md)；区分目标、分期实际暴露、骨折与 BMD；核不同报告测量、缺失和后续长期事件 | open |
+
+X38 后续：原文辨认 −0.16 为 PC PhenoAge、−0.32 为 GrimAge2，后者与全安慰剂比较而非其余因子主效应；扩展表 3 脚注同时写只乘 SD 和加均值两条规则。各钟均值、SD 与代码仍待核，详见[单位换算审计](DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md)。
+
+| X50 | 2026-11-27 | CALERIE 停用随访、Legacy 登记与样本选择 | [Marlatt 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5366052/)单中心按依从性筛选，39 人参加、29 人两次随访完成；[Legacy 登记](https://clinicaltrials.gov/api/v2/studies/NCT05651620)为长期计划、截至 2026-06-09 更新未发布结果 | 两年随访不是全随机样本或重新随机的继续/停止比较；登记的全身骨矿物含量不是部位 BMD 或骨折；登记 42 与论文 39 口径待核 | [停用随访审计](CALERIE_POST_INTERVENTION_FOLLOWUP_AUDIT_2026-11-27.md)；核选择、缺失、登记更新与后续骨折数据 | open |
+| X51 | 2026-11-27 | CALERIE 停用随访论文 FFM 恢复比例与表值 | [正文及表1](https://pmc.ncbi.nlm.nih.gov/articles/PMC5366052/)称 FU24 恢复 27%，表列 M24 −2.7、FU24 +0.1 kg，按组均值及 0.1 kg 舍入条件推导约 101.8%–105.7% | 句子的分母、个体比例、样本及设备换算未明确；组均值比例不等于个体比例均值，不能判哪项错误 | [审计及算术测试](CALERIE_POST_INTERVENTION_FOLLOWUP_AUDIT_2026-11-27.md)；请求作者阐明计算和核勘误，勿将 27% 引为确定结论 | open |
+| X52 | 2026-11-27 | DO-HEALTH 原试验主要终点、探索性癌症及钟分析重叠 | [癌症论文](https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2022.852643/full)三项 vs 全对照 4/264 vs 12/270，调整 HR .39（.18–.85），癌症为母试验预定探索性结局 | JAMA 六个主要终点未达预设显著性；癌症分析及 777 人钟子样本同一母试验、多比较，不能当独立复制或时钟中介已证；NNT 有时域和模型条件 | [临床与癌症审计](DO_HEALTH_CLINICAL_CANCER_AUDIT_2026-11-27.md)；核方案版本、风险集、未验证病例及独立复制 | open |
+| X53 | 2026-11-27 | VITAL 与 DO-HEALTH 因子主效应、三项组合和癌症结局不可混作独立复制 | [比较审计](VITAL_DO_HEALTH_CANCER_COMPARISON_2026-11-27.md)：VITAL D 和鱼油总侵袭癌主效应 HR .96、1.03；其晚期癌复合二次分析 D HR .83 | VITAL 无随机家庭运动、不同年龄/配方；VITAL 主报告和二次分析同一试验；复合不是单独癌死亡，交互未显著不证实无交互 | 查相同三项组合的独立随机研究及预注册；系统综述、患者级复算未做 | open |
+| X54 | 2026-11-27 | 混合读数及已知固定权重不能单独确定类型内部变化方向 | [P2 合成两类锐界](experiments/P2_TWO_TYPE_SHARP_BOUNDS_2026-11-27.md)：p=.5、y .6→.4 时类型1变化区间 [−1,+.6]；两端有构造见证 | 仅在精确、两类、线性、[0,1]、无跨时约束下成立；权重为有效测量权重，不是自动等于细胞比例，非时钟或真实人群估计 | 验证应用假设、误差、配对与外部同行评议，未进行真实数据检验 | open |
+
+| X55 | 2026-11-27 | FIND 癌症主要终点与表3亚组计数口径差异 | [原文表2](https://pmc.ncbi.nlm.nih.gov/articles/PMC9071497/table/tbl2/)侵袭癌 41/48/40；[表3](https://pmc.ncbi.nlm.nih.gov/articles/PMC9071497/table/tbl3/) `Any cancer` 男女行相加 62/71/62 | 表3标题为主要终点、正文说交互只做主要终点，但标签、事件定义、时间和分析集可能不同，未核作者、代码及补充资料；另有无失访与412人退出删失口径待澄清 | [FIND及登记审计](FIND_AND_REPLICATION_SEARCH_AUDIT_2026-11-27.md)；不宣称表或 HR 错误，不将表3直接写为主侵袭癌亚组效应 | open |
+
+X53 后续：定向登记检索找到的 DO-HEALTH-C 是同一试验的观察性延续、ENHANce 的维生素 D 所有组均补充；其他候选多为癌症治疗期间而非预防。有限检索未找到直接复现不等于不存在，另有 FIND 不同剂量 D 单因素主要终点；详见 [X55 审计](FIND_AND_REPLICATION_SEARCH_AUDIT_2026-11-27.md)。
+
+X54 后续：在已知 p 和可信类型2硬约束下，[附加测量条件锐界](experiments/P2_ADDITIONAL_MEASUREMENT_BOUNDS_2026-11-27.md)展示可行性检查、两时点端点见证与区间收窄；精确无噪声模型不是统计置信界，非真实数据。
+
+| X56 | 2026-11-27 | 两次混合观测的点识别依赖权重差与共同组分；近奇异会放大误差 | [P2 双混合推导及代码](experiments/P2_TWO_MIXTURE_INVERSION_2026-11-27.md)：相同成分、不同精确权重时可解；合成 p .50/.51 及每次读数 .001 扰动产生 .099/.101 误差 | 需检验相同成分、线性及权重准确；误差上界不含权重或模型错误，不是置信区间；奇异情况下边界约束可能唯一 | 对真实测量方案做独立校准、误差与可行性评估，非患者级结果 | open |
+
+X55 后续：已读 [补充材料](https://pmc.ncbi.nlm.nih.gov/articles/instance/9071497/bin/nqab419_supplemental_file.docx)可提取文字，未解主表口径；发现 52 月子样本描述中 116/60/54 与分组 18+18+20 及补图图注56不一致，限于子样本计数、未判哪一处出错。见 [审计续](FIND_AND_REPLICATION_SEARCH_AUDIT_2026-11-27.md)。
+
+| X57 | 2026-11-27 | DO-HEALTH 2026 癌症/功能/时钟观察性分析的选择与时间零点 | [2026 论文及补表审计](DO_HEALTH_CANCER_FUNCTION_2026_AUDIT_2026-11-27.md)：正文功能样本 2,125、80 例；777 瑞士时钟样本 30 例；癌症编码为距确诊最近的年度访视 | 是否发癌非随机，基线在诊断前不排除潜伏癌；癌症分组的后续功能差、随机干预主效应与中介是不同对象；多重性、错分和选择未解决 | 不能当独立复现或时钟中介；核样本流、时间、缺失、代码及授权数据 | open |
+| X58 | 2026-11-27 | DO-HEALTH 2026 癌症功能敏感性正文单位和标签交叉 | [正文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13396198/)将 −1.70 kPa 放在 STS、+0.75 秒放在握力后；[补表2](https://pmc.ncbi.nlm.nih.gov/articles/instance/13396198/bin/41514_2026_360_MOESM1_ESM.docx)分别列为握力和 STS | 摘要 2,152 vs 正文 2,125；正文 212 vs 方法 217 既往癌史也待核；未经代码、作者及勘误核实不能裁定计算错误 | [专项审计](DO_HEALTH_CANCER_FUNCTION_2026_AUDIT_2026-11-27.md)；使用补表数值须说明正文交叉 | open |
+
+| X59 | 2026-11-27 | CALERIE 2026 随机后体重轨迹、维持窗口与阈值分母 | [论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/)190人按第12–24月轨迹事后分组，回升20人中9限食、11对照；摘要说回升超过基线体重5%，结果段又称已减体重5% | 轨迹非随机，第二年仍属试验维持阶段；代码、阈值分母和等号、补充材料多重校正、权重分布及缺失未核；不判实际分组错误 | [专项审计](CALERIE_WITHIN_TRIAL_WEIGHT_TRAJECTORIES_2026_AUDIT_2026-11-27.md)与[合成因果反例](experiments/POST_RANDOMIZATION_TRAJECTORY_COUNTEREXAMPLE_2026-11-27.md)；核作者代码及授权数据，不能推断延寿或停用后的随机效应 | open |
+
+| X60 | 2026-11-27 | CALERIE 2026 体重轨迹报告的 AUC 缺失与 FDR 对应 | [S3](https://ndownloader.figshare.com/files/61614040)列 AUC 胰岛素基线/12月/24月缺失 57/33/6，表列比例 29.8%/17.3%/3.1%；[正文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/)分析样本190 | 百分比分母、各组及配对有效人数、入选 OGTT 的具体规则未知；[S1/S2](https://api.figshare.com/v2/articles/31244800)自动提取未定位 AUC 校正结果且 S2 标签截断；不能判断偏倚方向或视作全部190人三时点完整 | [补充审计](CALERIE_WITHIN_TRIAL_WEIGHT_TRAJECTORIES_2026_AUDIT_2026-11-27.md)；获取代码及授权数据，核 PDF 视觉表与 FDR 检验家族 | open |
+
+X21 后续：WHO GHE2019 生命表与YLD方法、当前元数据已定向查阅；当前元数据说全球/区域聚合 HALE 输入按人口加权，但2021版与旧版不可直接比较，不能据此认定2024论文实际全球值的每一计算步骤。参见 [HALE 版本与口径审计](HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md)；当年数据快照与作者代码仍未取得，X21 继续 open。
+
+| X61 | 2026-11-27 | HALE 研究年度变化率的端点间隔与年份计数 | [论文统计方法](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)写 `(Estimate2019−Estimate2000)/20`；若为同日期年度端点，2019−2000 为19个一年间隔，20是含两端的年份计数 | 论文原始数据、时间定义与代码未取，可能存在未说明的期间口径；全球6.5年增量不能直接拿来复算183国均值0.29；不判趋势结论或检验无效 | [口径审计与条件算术](HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md)；核历史数据、年份定义及作者解释，不静默替换结果 | open |
+
+| X62 | 2026-11-27 | 心肌源—接收案例：摄取、递送与终端处理的证据层级 | [2023 原研究](https://www.nature.com/articles/s41467-023-40680-5) Fig. 7：培养巨噬细胞摄取带标记 EV 后与 LysoTracker 共定位；小鼠心肌标记货物见于 CD68 阳性细胞；另有2名 Danon 患者的离体组织比较 | 共定位支持递送但不是终端降解量的直接定量；不同实验模型不可拼成同一条实时轨迹；2020原研究本次只读摘要及评论，不能由多效性耗竭确定单一路径效应 | [原文定向审计](SOURCE_RECIPIENT_CARDIAC_EVIDENCE_AUDIT_2026-11-27.md)及[条件反例](experiments/CARGO_FATE_BALANCE_2026-11-27.md)；核原始全文、源表、示踪回收、对照和独立研究 | open（证据边界，非声称原论文错误） |
+
+| X63 | 2026-11-27 | 2023 心肌 EV 研究的制备范围与摄取“rate” | [方法](https://www.nature.com/articles/s41467-023-40680-5)：组织提取含0.8微米过滤排除较大颗粒；EV uptake rate 为20–24小时一次测得的 CFSE 阳性细胞比例，Fig. 7 为5次独立实验 | 该比例不是单位时间摄取或降解通量；细胞/图像与实验单位不同；过滤并不证明生物路径完全独立，补图与源数据未复核 | [定向审计 §4](SOURCE_RECIPIENT_CARDIAC_EVIDENCE_AUDIT_2026-11-27.md)，书稿及跨文档引用时保留分离方法、尺度和对象 | open（计量边界，无计算错误裁定） |
+
+| X64 | 2026-11-27 | 特定多药“先补能量再清除”时序的确定语气与证据状态 | [2025 未同行评审预印本](https://www.preprints.org/manuscript/202512.0724)摘要/结论写顺序优于同时；其限制部分承认缺少头对头验证、不是临床试验结果 | [2018 NR 人类交叉试验](https://www.nature.com/articles/s41467-018-03421-7)测 PBMC NAD+，30随机、24完成、N=21代谢分析；不测试三药顺序，ATP 次要指标校正后未显著，试验剂量与预印本提案不同；单试验不代表全部文献 | [审计](SEQUENCING_PREPRINT_EVIDENCE_AUDIT_2026-11-27.md)：不将预印本方案作为医疗建议；系统搜索、引用文献逐一复核及独立外审尚未做 | open |
+
+| X65 | 2026-11-27 | 空间采样培养成像及小鼠切片的指标与推断边界 | [Paterson 2022](https://elifesciences.org/articles/75354)：Fig 6F 珠子荧光 24h 指标，补图2为1次代表实验的3个技术重复；Fig 8D 每基因型3只鼠的 TUNEL+/CD68不重叠事件 | 细胞被带到相近焦平面、可垂直移出；切片存量不单独识别输入/退出，遗传操作非纯运动开关；两倍细胞部分补偿不等于统计等效；趋化和随机巡视的实验条件不同 | [定向审计](SPATIAL_ACCESS_EVIDENCE_AUDIT_2026-11-27.md)、[库存反例](experiments/STOCK_FLOW_AMBIGUITY_2026-11-27.md)；核图像分割、对照、来源数据配对及面积/输入，不判断论文错误 | open（证据边界） |
+
+| X66 | 2026-11-27 | 2025 uPAR CAR-T肠道获益的动物设计与标记分母 | [原文](https://www.nature.com/articles/s43587-025-01022-w)：Fig 2f 老龄对照13、CAR 14；方法称小鼠未随机分配，收集和分析未盲；Fig 1 约60%是计算识别细胞中uPAR阳性比例 | 对照功能测量是实证但非随机盲法；算法标签非删除净收益真值、分选细胞数非总体流行率；人样本非干预 | [定向审计](SELECTIVITY_EVIDENCE_AUDIT_2026-11-27.md)；独立核对源值、样本排除及重复 | open（范围和设计限定） |
+| X67 | 2026-11-27 | 2026 GFD-CD3靶点依赖损伤、猕猴流程和取样标签 | [论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13620297/)结果描述1只剂量探索、另2只重复给药，Fig 6E/7D–E写3只；Fig 7D列肝/脂肪/皮肤，结果与方法列肌肉/脂肪/皮肤，方法未详述第42天采样 | 动物流程、组织名及时点可能有未说明细节，尚未核动物级数据；全身uPAR KO不独立证明内皮特异机制，转氨酶正常不证无伤害，不裁定论文计算错误 | [专项审计](SELECTIVITY_EVIDENCE_AUDIT_2026-11-27.md)；核补图、原始数据及作者说明 | open |
+| X68 | 2026-11-27 | uPAR分选单细胞标签构造与脚本重现依赖 | 固定[脚本版本](https://github.com/Vyoming/Regen_CAR-T/blob/37d02fd32d90c9dd14981da8b8e9f7edc6037179/UPAR_Sort_scRNA.R)：模块评分 >.02、按标签列归一；基因集含Plaur，脚本含本地路径及未见本文件定义的对象 | 表面蛋白与mRNA非同一读数，单基因重叠可能影响一致性但未量化；MAST局部调用未显式指定池级随机效应；未运行R、未取原矩阵，不能断言图表/统计有误 | [静态代码审计](UPAR_SCORING_CODE_AUDIT_2026-11-27.md)；获输入与会话环境、实际运行顺序，预先设定去Plaur和阈值敏感性分析 | open（待复现） |
+
+| X69 | 2026-11-27 | 肺修复状态的谱系、标记窗口和人体动态周转 | [Kobayashi 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7461628/) Fig 3已有Krt19相关细胞的谱系标记；[Choi 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7487779/)说明其Il1r1谱系不能完全排除残余诱导剂重组；[Liang 2026](https://www.biorxiv.org/content/10.64898/2026.11.08.765110v1.full)为预印本，人组织脱落与重覆为静态观察 | 状态标记并不完全特异，原细胞与后代不可混同；人体停留时间及流量未测，不同状态定义、物种、人样本以及GSE135893复用不能当完全独立证据 | [定向证据审计](STATE_TURNOVER_EVIDENCE_AUDIT_2026-11-27.md)与[再标记人工反例](experiments/PULSE_RELABEL_COUNTEREXAMPLE_2026-11-27.md)；核补充资料、标记校准和人群独立验证 | open（证据和识别边界） |
+| X70 | 2026-11-27 | Watanabe 2021 Fig 7/8图注与方法剂量、Fig 7损伤路径不一致 | [Fig 7](https://pmc.ncbi.nlm.nih.gov/articles/PMC8157939/figure/fig07/)与[Fig 8](https://pmc.ncbi.nlm.nih.gov/articles/PMC8157939/figure/fig08/) ISRIB 25 mg/kg；[方法](https://pmc.ncbi.nlm.nih.gov/articles/PMC8157939/) 2.5 mg/kg。Fig 7图注对博来霉素称intrathecal，方法称intratracheal | 具体试验方案可能存在未说明差异；原实验记录、补充资料、勘误及作者解释未全核；不裁定哪一处错误，更不推断计算或结论错误 | [报告冲突审计](STATE_TURNOVER_EVIDENCE_AUDIT_2026-11-27.md)；询作者并核原记录，不将任一剂量或路径静默用作方案 | open（报告冲突待核） |
+
+| X71 | 2026-11-27 | uPAR单细胞分选GEO记录与固定脚本的QC/特征数口径 | [GSM7913144](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7913144)写线粒体>15%、feature counts<100或表达基因<8000被剔除，2500高变基因；[固定脚本](https://github.com/Vyoming/Regen_CAR-T/blob/37d02fd32d90c9dd14981da8b8e9f7edc6037179/UPAR_Sort_scRNA.R#L44-L52)有percent.mt<5、250<nCount<30000、nFeature>2000及整合特征数3000 | 数据入口、阈值及阶段可能不同；GEO目标8000细胞不等于QC文字的8000基因；无真实输入、运行顺序或作者确认，不判发表结果错误 | [代码审计](UPAR_SCORING_CODE_AUDIT_2026-11-27.md)；由PR2@b8434e2引入，需作者澄清各样本QC与最终版本 | open |
+| X72 | 2026-11-27 | CALERIE轨迹分析胰岛素AUC组内变化与表列交互的条件口径 | [表2](https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/table/T2/)回升与轻微变化组12月−4.9、−10.8，直接相减5.9，列交互3.0；24月15.9、−7.6，直接相减23.5，列交互21.2 | 如果为同一模型、尺度及对比，三项按0.1舍入不足解释偏差；尺度、模型和样本是否一致未核，不裁定计算错误或替换发表数 | 根据[PR2@b8434e2审计](https://github.com/Ginple/The_Measures_of_Longevity/blob/b8434e22ec62ba21814546560a33fc38f4939e9f/review/PR1_INCREMENTAL_AUDIT_52362B6_2026-11-27.md)核模型输出、对比、变换与分母；与X59/X60同研究不算独立复现 | open |
+| X73 | 2026-11-27 | CANTOS基因组子研究hs-CRP正文与表1标称单位冲突 | [正文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988022/)CHIP/无CHIP中位0.44/0.42 mg/dL；[表1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988022/table/hoi220009t1/)对应4.40/4.20亦标mg/dL | 如相同对象和口径，同单位数值相差十倍；潜在单位、转换或文本版本差异未定，尚未核发表PDF及数据，不认定哪一处错误或HR有误 | PR2@b8434e2指出；对照出版图像、单位/数据字典与勘误、请求作者解释，暂不引用该组数 | open |
+| X74 | 2026-11-27 | GUT26记忆形成时IFN-γ阻断与恢复后擦除的时间窗不同 | [Fig 7](https://www.nature.com/articles/s41467-026-79014-6/figures/7)抗体从第一次照射前一天起每3天5次，三周后再照射；体重曲线n=7，EdU n=3 | 干预覆盖首次损伤与早期修复，无法视作形成记忆后随机擦除；按图注推算末次约第11天、再挑战约第21天，但确切药效和靶点占有未知，不能把时间间隔等同完全洗脱 | PR2@b8434e2续审引入；核确切给药、药效与独立来源，纳入第24章写作前复审 | open |
+
+| X75 | 2026-11-27 | COLON26体外撤药与体内肿瘤诱导期AP-1抑制不可拼接 | [原文方法](https://www.nature.com/articles/s41586-026-10258-4)体外5天处理后20天培养；体内给药第3天诱导，见 [Fig 2](https://www.nature.com/articles/s41586-026-10258-4/figures/2) 和 [Fig 4](https://www.nature.com/articles/s41586-026-10258-4/figures/4) | 体外大小未显著不证明等效；多个类器官或肿瘤嵌套于孔/鼠；体内与诱导重叠，不能推出停药后防癌或特异擦除记忆 | [定向审计](RECOVERY_MEMORY_CAUSAL_AUDIT_2026-11-27.md)；核个体/供体分层、药效与源数据 | open |
+| X76 | 2026-11-27 | 仅比较不同损伤历史的恢复者不能识别总会恢复者的历史效应 | [合成有限总体反例](experiments/RECOVERY_ELIGIBILITY_COUNTEREXAMPLE_2026-11-27.md)：两世界恢复边际和结果边际相同，但共同恢复者效应方向相反 | 非实际研究或偏倚估计；恢复后干预随机化与历史选择、干预后死亡截断是不同问题 | 预定义恢复门槛、入排与estimand；独立方法审阅并评估选择和结局缺失 | open |
+
+X74 后续：Fig 7 图注规定首次照射前一天开始抗体；正文相关段落描述为首次照射后每三天，两处措辞并不完全一致。暂按给出明确起始日的图注描述，具体原始流程、药效及源记录待核；[详见审计](RECOVERY_MEMORY_CAUSAL_AUDIT_2026-11-27.md)。
+
+| X77 | 2026-11-27 | TPE跨钟汇总的推断单位与多重校正版本 | [固定脚本](https://github.com/msfuentealba/lyfspn/blob/3004ec018b845c044bd5bd33e885e0407256ba22/code/Figure1_update.R#L20-L27)先算组内每钟均值，[L105–127](https://github.com/msfuentealba/lyfspn/blob/3004ec018b845c044bd5bd33e885e0407256ba22/code/Figure1_update.R#L105-L127)对这些均值计算检验和误差条，p.adjust未指定方法；发表版Fig 2b称FDR及均值CI | 源码与发表图最终执行版本关系未证；钟不是独立随机参与者；R默认Holm不等于可以断定发表p值错误或实际覆盖率 | [专项审计](TPE_TIMING_ALLOCATION_CLOCK_UNIT_AUDIT_2026-11-27.md)；索取可复现输入、代码环境、检验家族和最终图版本 | open |
+| X78 | 2026-11-27 | TPE按申请次序先填周期组与四组随机的分配、登记和时间口径 | [论文§4.2–4.3](https://onlinelibrary.wiley.com/doi/10.1111/acel.70103)称按次序先填短周期组，又称四组1:1:1:1随机；抽样在第1、4、6次前；登记初发晚于所报主要完成 | 未知周期内随机序列、隐藏、时间与偏差，不能认定全无随机分配或违规；观察点3仍在治疗中，显著与不显著差别不证明收益递减 | 查预先方案、分配日志、组别时间和作者；功能终点登记与正文时间窗也待核 | open |
+
+| X79 | 2026-11-27 | CAPABLE 2014设计、登记与2019报告的主要终点描述 | [设计文](https://pmc.ncbi.nlm.nih.gov/articles/PMC4074085/)将ADL列主要、IADL列次要；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)仅列ADL，[2019结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)将两者都列主要 | 口径和正式修订日期未核；无全部方案及分析计划，不能判违规、错误或偏倚方向 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核登记历史、有日期方案、伦理修订和多重性 | open |
+| X80 | 2026-11-27 | CAPABLE 登记与结果文的收入阈值及住宅资格 | [当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)列收入低于贫困线175%，未列排除公寓；[结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)写低于200%且排除公寓 | 登记摘要不等于完整方案或实际筛选；资格可能随时间改变，未取得带日期历史和入选者数据 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核版本、筛选与外推，保留差异不裁决 | open |
+
+### 第 3 期（2026-11-27，PR #1 审计与动力学前沿）
+
+| ID | 日期 | 事项 | 证据 | 不确定点 | 处置 | 状态 |
+|---|---|---|---|---|---|---|
+| X81 | 2026-11-27 | X06 把 44,498 定为“二手报道的全集口径”，实为另一项一手研究 | 44,498 人、11 器官、2,916 蛋白出自 [Oh 2025 Nat Med 摘要](https://www.nature.com/articles/s41591-025-03798-1)（V6 参考文献 36）；43,616 人、10 器官出自 [Nat Aging 2025](https://www.nature.com/articles/s43587-025-01016-8) | 两个数字都正确，各属一项研究；X06 的“resolved（以 43,616 为准）”会误导 V6 的 36 号引用改写 | X06 不静默改动，以本条更正：V6 §36 保留 44,498，KERNEL §3.2 保留 43,616；正文须写明是哪项研究 | resolved（以本条取代 X06 的裁决理由） |
+| X82 | 2026-11-27 | Oh 2025 中“年轻动脉风险反而更高”（U 形） | 二手检索摘要提到；原文摘要只说脑与免疫 “uniquely” 与长寿相关 | 未见原文图表；可能是转述误差 | 核全文图表前不进正文；对应 U16 | open |
+| X83 | 2026-11-27 | PR #1 让验证合同强制两个只差大小写的 STATE_DASHBOARD 路径 | `tools/dashboard_contract.py` 旧版 `DASHBOARDS` 含两个路径，并要求是不同文件 | 大小写不敏感的文件系统无法检出；用户最新要求是不再生成仪表盘 | 先删小写副本，再按作者要求删除大写文件；合同恢复为禁止 HTML，并检查全仓库大小写碰撞（DEC-008） | resolved |
+| X84 | 2026-11-27 | `requirements-tested.txt` 的 networkx 3.7 在 Py3.11 CI 无法安装 | PR #1 dd47ce6 新增 `requirements-ci-py311.txt`（networkx 3.6.1），CI 改用该清单 | 只固定版本、不固定哈希；未测 3.10/3.12/3.13 | 本轮在全新 Py3.11.2 venv 按 CI 步骤复现：pip check 通过、两种模式 smoke 通过、根验证与 pilot 通过 | resolved（工程，本地） |
+| X85 | 2026-11-27 | “容量 / 排队”框架的原创性 | [Ledberg 2020](https://doi.org/10.1371/journal.pone.0233384) 用排队论推出 Gompertz；Karin/Alon 的 SR 模型；临界减速与动态韧性文献 | 检索并不穷尽；本项目的六模块与 SR 反例可能与更多既有工作重叠 | 第Ⅵ部、P4、转换七/九的相关工作必须引用；原创表述降级为“重组与可识别性” | open |
+| X86 | 2026-11-27 | Pyrkov 2021 外推的恢复时间在 120–150 岁发散 | [PMID 34035236](https://pubmed.ncbi.nlm.nih.gov/34035236/) | 是外推，不是观测；二手报道常写成“寿命上限 150 岁” | 正文只写“外推的发散点”，不写“上限” | open |
+| X87 | 2026-11-27 | 随机性时钟对“时钟年轻化”解释的影响 | [Meyer & Schumacher 2024](https://doi.org/10.1038/s43587-024-00619-x)；Tarkhov 2024 Nat Aging 4:854 | 随机成分占多大比例因钟而异；干预使方差减小，是否等同于功能改善未知 | 合并论文与第Ⅳ部：时钟变化要分“均值移动”与“方差 / 熵变化” | open |
+| X88 | 2026-11-27 | 热浪与医院拥堵导致已入院患者死亡增加 4.9% | [NBER w33491](https://www.nber.org/papers/w33491)（墨西哥 IMSS，2012–2019） | 工作论文；只覆盖单一医疗系统；“拥堵”是作者的识别论证 | 第Ⅷ部可引用，须注明工作论文级；跟踪发表版 | open |
+| X89 | 2026-11-27 | 中性血液交换与 “1-Generation” 药物主张 | Conboy 2020（小鼠）；Generation Lab 的主张只有媒体报道 | 药物主张没有可查的同行评审数据 | 小鼠结果只作机制线索；药物主张不进正文 | open |
+| X90 | 2026-11-27 | AgelessRx XPRIZE 试验的成分数与样本量 | 团队官方页面（[Finals 页](https://agelessrx.com/agelessrx-xprize-healthspan/)，2026-11-19 更新；[pilot 页](https://agelessrx.com/agelessrx-xprize-pilot-longevity-protocol-results/)）：pilot（NCT07475546）入组 26 人、分析 18 人，90 天，三组；综合治疗组 PhenoAge 平均 −1.84 年。决赛阶段为 9 种成分加阻抗训练，入组目标 235 人、分析 186 人，12 个月，双盲、安慰剂对照 | 两种说法各对一半：6/7 种成分对应 pilot，9 种对应决赛；186 是分析数，235 是入组数 | 正文写清阶段与口径；pilot 的 PhenoAge 结果只写"n=18 的信号"，不写效果 | resolved |
+| X91 | 2026-11-27 | TAME 入组状态 | 2026 年多家二手来源一致称尚未入组、AFAR 页面写仍在筹款（progevita 2026-08-29；technology.org 2026-09-26）；只有一家称"2026 年初完成入组"，且引用了错误的 NCT 号 | AFAR 页面本轮无法抓取，一手来源仍未直接核对 | 正文可写"截至 2026 年下半年，多方报道尚未开始入组"，并注明出处层级；继续核 ClinicalTrials.gov | open（倾向：未入组） |
+| X92 | 2026-11-27 | 内在能力（IC）共识框架与 ICD-11 条目 | ARPA-H PROSPR 报道；ICD-11 “Ageing associated decline in intrinsic capacity” | 提交 FDA 的只是提议，不是获批终点；ICD 条目的编码与用途待核 | 只作“外部趋势”引用，不写“监管采纳” | open |
+| X93 | 2026-11-27 | SR 合成反例：读数匹配而生存曲线交叉（H-SR1） | [实验](experiments/SR_SNAPSHOT_IDENTIFIABILITY_2026-11-27.md)：70 岁存活者平均损伤相同（4.1816），S70 0.881 对 0.873，S90 0.572 对 0.605，预期寿命 89.75 对 91.66；9 组 ε×d 组合交叉方向一致 | 合成参数、一维模型；回复率是线性化近似；不代表人群效应大小 | 只作存在性反例；H-SR1 须用真实多时点数据检验（U14） | open（合成层已复现） |
+| X94 | 2026-11-27 | H-SR1 在已发表人类参数下的稳健性 | [实验](experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md)：用 Karin 2025 的人类参数，在 d=0.1/0.2/0.3 与两种网格下，"70 岁读数匹配而生存曲线交叉"都成立；d=0.1 时预期寿命也相同（74.43 对 74.42），曲线仍然交叉 | 一维模型，无 Makeham 项、无个体异质性；未治疗组绝对寿命偏低 | X93 的结论升级为"在 SR 族内不依赖特定参数"；异质性检验列为 U18 | open（合成） |
+| X95 | 2026-11-27 | SR 模型的人类"准稳态"老化区 | Raz…Alon，*Nat Aging* 2026（s43587-026-01138-7）：跨物种拟合，人类、狗、猫、豚鼠属准稳态区；产生率跨 7 个数量级 | 只拟合生存曲线，作者称"有待实验验证" | 作为回复率可识别性的前提引用；不写成"损伤已被测量" | open |
+| X96 | 2026-11-27 | 表观钟对干预的响应性 | Sehgal…Higgins-Chen，*Nat Med* 2026，32:3477（s41591-026-04562-9）：51 项研究、3,128 份样本、16 种钟；第二代钟响应最一致。Kasamoto 2026，*Aging Cell* e70430：衰老细胞特异的甲基化钟在 senolytic 治疗后不降，部分反而上升 | "响应"不等于"替代终点有效"；Kasamoto 的人体随访只有 3–6 个月 | 进入测量合同章：预测、响应、机制、替代四种属性分开写 | open |
+| X97 | 2026-11-27 | SR 先行工作：基于常规指标的机制生物年龄 | bioRxiv 2026.09.29.755448（IQN-BIOAGE-01）：SR 核心 + 8 条器官轴 + 13 项常规指标 + 首次穿越阈值死亡 | 预印本，未同行评审 | 本项目的"个体动态可识别性"必须引用它作先行工作；不称首创 | open |
+| X98 | 2026-11-27 | IC 轨迹优于基线水平 | *Age Ageing* 2026，afag255（加拿大 interRAI 居家照护）：5 条轨迹；"低起点改善"组死亡 HR 1.50，"高起点下降"组 1.28（参照为"高起点稳定"组） | 观察性；轨迹分组依赖模型；排除者死亡率更高 | 作为"速率≠水平"的人群锚点；不写因果 | open |
+| X99 | 2026-11-27 | senolytic 与 4Ms、社会处方、家居改造的证据层级 | D+Q MASH RCT，n=31；4Ms 依从性与住院时长 −41% 相关（PMID 42904683，观察性，依从性以记录为准）；社会处方荟萃分析 33 项 RCT：抑郁 SMD −0.23，孤独感无明确获益；HARP 主要终点阴性、次要终点跌倒率 −38% | 二手摘要，未逐篇读全文；4Ms 研究混杂严重 | 卷三按价值立论；效应量只作次要支撑，并标明层级 | open |
+| X100 | 2026-11-27 | 热浪下老年照护容量的直接证据 | 法国 PUGG FLASH-HEATWAVE 2026（PMID 42842818）：73.1% 的康复病房推迟或拒绝收治，下游容量不足约 87%。Lancet Planet Health 2026：Medicare 7,377 万人，每多一次热浪，年死亡率增加 8.83/万人年 | 服务层面的问卷调查；生态学关联 | 并入 X88 的社会层容量案例；仍属工作论文级 | open |
+| X101 | 2026-11-27 | 继承材料只占目标篇幅约 19% | 本轮计算：V6 37,850 字符，V7 28,080 字符，目标约 35 万字；V7 第十部约 3,500 字符，对应 5–6 章 | 字符数不等于可用内容 | 架构比较时下调"改动最小"一项的权重；见[四向深研 IN-1/IN-2](../books/ARCHITECTURE_DEEP_RESEARCH_2026-11-27.md) | resolved（描述性重算） |
+| X102 | 2026-11-27 | LoDoCo2 导入期 β 的点估计落在自己的区间之外 | [PMC 作者稿 Results](https://pmc.ncbi.nlm.nih.gov/articles/PMC12557339/)，本轮直接核对："βtime = −0.026; 95% CI: −0.099 to −0.046; P = 0.48"。来源：PR #2 的 [LoDoCo2 审计](imported_pr2/LODOCO2_AUDIT_2026-11-27.md)（PR2-X40） | 若是常规双侧区间，点估计不应落在区间外，且区间不含 0 与 P=.48 矛盾；出版版 PDF、补充图 3A 与勘误未核 | 不引用该区间和 P；与 X19 一起列为向作者澄清的问题 | open |
+| X103 | 2026-11-27 | "一组显著、另一组不显著"不等于组间差异已确立（CH 亚组） | CANTOS TET2 子研究：TET2 组 HR 0.38（0.15–0.96），无 CHIP 组 0.93，交互 P=.14；母试验全因死亡 HR 0.94（0.83–1.06）。LoDoCo2：安慰剂组内显著、秋水仙碱组内不显著，总体交互 P=.13；只有 TET2 交互 P=.04，且未做多重校正。来源：[CANTOS 审计](imported_pr2/CANTOS_TET2_CLINICAL_INTERACTION_2026-11-27.md)，LoDoCo2 数字本轮已核 PMC | CANTOS 数字为 PR #2 转述，本轮未重读原文 | 写作规则：CH 分层治疗只写"需前瞻验证的假说"；书中一律以交互检验为准 | open |
+| X104 | 2026-11-27 | COLCOT 与 LoDoCo2 的 CH 子研究不是同方案的独立复现 | COLCOT 2024 预印本 v1：首份 DNA 中位在基线访视后 187 天采集；总体交互 P=.03、TET2 交互 P=.001；TET2 首次临床复合事件 2 对 4，HR .62（.11–3.42）。2026 年已发表于 *Circulation*，但正文未核。来源：[COLCOT/LoDoCo2 对照](imported_pr2/COLCOT_LODOCO2_TRIANGULATION_2026-11-27.md)，附合成例 `post_randomization_selection_demo.py`（已移植，含测试） | 用的是预印本数字；随机后采样可能引入选择 | 只写"不同母试验的方向性线索"；不写"已复现"，不写临床获益 | open |
+| X105 | 2026-11-27 | CALERIE 脂质组的中介分析只是同一试验内的工作假说 | Warmbrunn 等，*Nat Commun* 2026：191 人（120/71）；作者自己把脂联素—神经酰胺通路标为工作假说。文中暴露变量在"治疗组别"与"时间"之间表述不一。来源：[脂质组审计](imported_pr2/CALERIE_LIPID_MEDIATION_2026_2026-11-27.md) | 本轮未重读原文；模型代码未核 | 不写成因果链；不算作独立复制 | open |
+| X106 | 2026-11-27 | CALERIE 2026 轨迹报告补表 S3 的百分比只与分母 191 相容 | 本轮独立重算：按四舍五入到一位小数，10 组"缺失数/百分比"在 N∈[100,400] 范围内只与 N=191 相容；正文写 190 人。另一份同试验报告（X105）恰为 191 人。来源：[轨迹缺失审计](imported_pr2/CALERIE_TRAJECTORY_MISSINGNESS_FIGSHARE_2026-11-27.md)，脚本 `rounded_percentage_denominators.py` | 不证明补表实际用了 191 人；百分比的生成方式未知 | 扩展 X60；作为向作者提问的线索，不改数字 | open（描述性重算） |
+| X107 | 2026-11-27 | 表观谱系标签在甲基化干预下的漂移（假说） | EPI-Clone（*Nature* 2025）已用 LARRY 遗传条码证明标签在 5–10 个月内保持；但改变甲基化的干预是否会重写标签，尚未检验。来源：[EPI-Clone 后续](imported_pr2/EPI_CLONE_X33_FOLLOWUP_2026-11-27.md)（PR2-X33），其中附带遗传条码对照的实验设计 | 只是假说与设计，没有任何数据；已有相近研究（MethylTree、PCDH 条码预印本） | 作为 P1（身份可识别性）的候选反例场景；不称首创 | open（假说） |
+| X108 | 2026-11-27 | 分选后测得的比例不能反推组织中的比例 | 代数恒等式 q = r·t/(r·t + 1 − t)：没有相对纳入比 r，任何 0<t<1 都与同一个 q 相容；若限定 1/2≤r≤2，则 q=0.6 对应 t∈[3/7, 3/4]（锐界）。案例为 uPAR 单细胞研究的"约 60%"。来源：[分选敏感性](imported_pr2/SORTED_SAMPLE_SENSITIVITY_2026-11-27.md)，脚本含 4 项测试 | 合成例，不重算论文数据 | 并入 P2（观测权重）的识别论证；与 X54/X56 同族 | open（合成） |
+| X109 | 2026-11-27 | HARP 登记、方案与论文之间的另外三处口径差异 | 登记的主要结果字段为跌倒次数（201 对 316），方案与论文的主要分析为首次跌倒时间；FES-I 版本不同（论文为 10 项、每项 1–10 分，登记为 7 项、每项 1–4 分）；女性人数 229/243/244 三种写法；跌倒者 67+74=141，正文写 140。来源：[HARP 复核](imported_pr2/HARP_PROTOCOL_REGISTRY_RECHECK_2026-11-27.md) | 本轮未重读；可能都是口径问题 | 补充 X44；书中不引用 FES-I 数值与人口学计数 | open |
+| X110 | 2026-11-27 | FIND 维生素 D：1600 IU 组骨折增多是名义信号，不是已证实的伤害 | [Bone 2026，118081](https://www.sciencedirect.com/science/article/pii/S8756328226003078)，本轮已核摘要：干预期 49/73/52 例，1600 IU 组 HR 1.52（1.06–2.18），3200 IU 组 1.07（0.72–1.58）；延长随访 HR 1.40（1.08–1.80）。VITAL（2,000 IU）骨折 HR .98（.89–1.08）。来源：[FIND 审计](imported_pr2/FIND_CANCER_FALLS_FRACTURES_2026-11-27.md)，其中另指出表 1 中 309/829=37.3%，而印的是 33.1% | 附属分析、多剂量多结局；剂量不单调 | 写作：同一试验的癌症、跌倒、骨折不是三次复现；不写"维生素 D 有害"，也不写"无效" | open |
+| X111 | 2026-11-27 | WHO 年龄友好环境证据地图的范围 | [WHO 2026-11-10 发布](https://www.who.int/news/item/10-11-2026-who-releases-global-mega-map-on-age-friendly-environments)，本轮已核：1,542 篇系统综述加 3 张证据地图（2002–2025）；只有 2 篇综述评估整个年龄友好城市项目；交通、公民参与、尊重与包容的证据较少，公平与经济结局罕见；WHO 明说地图不表示哪种干预最好。来源：[年龄友好证据范围](imported_pr2/AGE_FRIENDLY_EVIDENCE_SCOPE_2026-11-27.md) | 综述之间有重叠，不能把综述数当作试验数 | 卷三环境章用作"证据分布"背景，不用作效果证据 | resolved（一手核对） |
+
+X44 后续：依据 PR2@b8434e22 线索，核登记当前结果及标注2014的方案：[HARP续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)记录首次事件/总数的口径、135/140与127/126分母的登记解释和不同起算点；当前登记不证明历史变更，未判违规或偏倚方向。
+
+X60 后续：按 PR2@b8434e22 的线索重新核 S3，若57（29.8%）由整数分母最近舍入至一位小数产生，分母只可能191；这不证明实际分母或样本身份，其他口径仍可能。[条件舍入与完整例界](CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)同时列190/191下不同假设界；X60仍开放。
+
+X60 又一线索：[脂质研究的公开评议回复](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf) S17临床缺失表中AUC insulin基线57、12月33、24月6，与轨迹文S3相同；基线29.8429%与191分母算术相容。两报告样本身份与表格生成过程未核，不能将相同摘要计数当同一个样本的证据。[续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)；X60仍开放。
+
+### PR #1 增量（合并 1c7334a 与 cb90a08；PR #1 原编号 X81–X93 → 本台账 X112–X124）
+
+PR #1 在 dd47ce6 之后与本分支并行，各自从 X81 起编号，两边同号不同义。合并时本分支 X81–X111 保持不变，PR #1 新增条目整体顺延 31 号（X81→X112 … X91→X122），其增量文件内的引用已同步改号。下列条目与本分支 X102–X111 是同一发现的两次独立核读，**不是两项独立证据**：
+
+| PR #1 条目 | 对应本分支条目 | 关系 |
+|---|---|---|
+| X116（原 X85）LoDoCo2 导入期 β | X102 | 同一原文数字，两次核读一致 |
+| X117（原 X86）COLCOT 抽样与单位 | X104 | 互补：X117 细化观察单位与检出阈值 |
+| X118（原 X87）CANTOS TET2 交互 | X103 | 同一发现 |
+| X119/X120（原 X88/X89）CALERIE 脂质中介 | X105 | X119/X120 更细：暴露定义与公开评议中"事后分析"表述 |
+| X112/X113（原 X81/X82）HARP 人口与 FES-I | X109 | 同一发现 |
+| X114（原 X83）FIND 表 1 309/829 | X110 | X110 只附带提及 |
+| X60 后续（舍入分母 191） | X106 | 同一算术，两次独立实现 |
+| X115、X121、X122 | 无 | 本分支未覆盖，直接保留 |
+| X123、X124（原 X92/X93，cb90a08） | 无 | DO-HEALTH 时间编码、NHS-Galleri 分期配对；本分支未覆盖，直接保留 |
+
+| ID | 日期 | 事项 | 证据 | 不确定点 | 处置 | 状态 |
+|---|---|---|---|---|---|---|
+| X112 | 2026-11-27 | HARP 人口表、登记与分层随机描述冲突 | [论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/)摘要女性229、黑人161，正文243和170；[表1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/table/zoi210656t1/)黑人对照83/HARP87，HARP女性122+男性34=156；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT02392013)黑人对照87/HARP83，男女各122/33 | 摘要称按种族和性别分层，方法称年龄和性别；原始分层与表格、勘误及版本未核，不能选一处静默修正或判定偏倚 | [续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)；索取随机化日志、数据字典、作者说明 | open |
+| X113 | 2026-11-27 | HARP 跌倒效能量表题项和计分描述不一致 | [论文 Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/)称短版10项各1–10；表1脚注称每项1–4；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT02392013)称7项各1–4、总分7–28 | 表中均值与登记范围相容不确定真实问卷；未核问卷、计分代码及修订，不判计算错误 | [续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)；核实际问卷、计分、作者和勘误 | open |
+| X114 | 2026-11-27 | FIND骨折论文表1跌倒史人数与百分比条件算术 | [表1](https://www.sciencedirect.com/science/article/pii/S8756328226003078#t0005)1600 IU组过去一年至少一次跌倒 309（33.1%），分母829；309/829≈37.3% | 若分子、分母和百分比为同一口径则不符；表格转录、实际定义及数据未核，不能指定修改或推断骨折HR有误 | [专项续审](FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)，核原表、数据字典、勘误及作者 | open |
+| X115 | 2026-11-27 | FIND骨折及癌症表共用相同人年与风险集口径 | [2022表2](https://pmc.ncbi.nlm.nih.gov/articles/PMC9071497/table/tbl2/)与[2026表2](https://www.sciencedirect.com/science/article/pii/S8756328226003078#t0010)三组均列3480.0、3558.2、3538.4人年；骨折方法还列首骨折终止 | 可能为共用描述性人年、事件处理或不同口径；条件性比较依赖同一人群、其他删失和精度，未核模型实际风险人时，不能判结果错误 | [专项续审](FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)，核原始人时计算、事件日期和模型代码 | open |
+| X116 | 2026-11-27 | LoDoCo2导入期估计、区间和P值的报告口径 | [作者稿 Results](https://pmc.ncbi.nlm.nih.gov/articles/PMC12557339/)报告 β=−.026，95% CI −.099至−.046，P=.48；点估计在报告区间外 | 如果各值指同一参数、通常同一双侧检验则需解释；开放标签导入非随机对照；补图、统计输出、勘误与作者未核，不指定修改 | [专项审计](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)，核完整模型及输出；原文报告冲突不是计算错误判决 | open |
+| X117 | 2026-11-27 | COLCOT预印本抽样、检测阈值与变异/观察单位 | [2024 v1](https://www.medrxiv.org/content/10.1101/2024.10.17.24315679v1.full) 848人两次DNA，Results列1954 unique variants、15919 longitudinal observations，摘要称15919 mutations；参照样品的检出与PPV随过滤阈值变化 | 选择取样、治疗后首样及有限参照性能限制解释；2026发表版正文未读，不能当最终版数字；阈值检验不是对真实疗效偏差的定量估计 | [专项审计](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)，取补表、最终文、代码与授权数据 | open |
+| X118 | 2026-11-27 | CANTOS TET2 分层临床事件信号与效应交互、同源报告 | [2022基因子研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988022/)合并三剂量，TET2 CHIP层HR .38（.15–.96），名义P=.04，对无CHIP交互P=.14；[2023报告](https://pmc.ncbi.nlm.nih.gov/articles/PMC10758744/)是同母试验蛋白与贫血分析 | 组内显著不证明层间差异；交互不显著不证明相同；合并剂量与单剂量、蛋白指标与MACE不同，重复使用母试验不是独立复制 | [续审](CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)；核预设模型、事件、检验家族与独立前瞻性验证 | open |
+| X119 | 2026-11-27 | CALERIE脂质中介模型的治疗/时间暴露、样本与估计目标 | [2026 Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC13482398/)称中介模型treatment为暴露，又将ACME描述为time间接效应、按组分析；SEM亦定义time路径 | 可能为不同模型或报告省略；组内时间间接效应不自动是随机治疗组间中介效应；未取得执行代码及完整补表，不能认定实现错误 | [定向续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，核各表模型、时点、数据流及作者说明 | open |
+| X120 | 2026-11-27 | CALERIE脂质中介预注册与多重性校正的版本和家族 | [同行评议文件](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf)作者称此分析事后、未预注册及未做全代谢物全局FDR；回应中一段旧稿S16措辞称多重校正后仍显著，最终正文敏感性段未作同样声明 | 全局与局部校正、不同阶段/版本可能并存；未核S16及代码，不能断言没有任何局部校正、每一结果为假或所有试验终点未预设 | [定向续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，核补表、代码、检验家族和版本 | open |
+| X121 | 2026-11-27 | 健康寿命差图3A标称95% CI与国家间SD | [2024原文 Methods及Fig 3A](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)描述跨国差值均值±1.96×差值SD并称95% CI，图注虚线亦称CI | 若代码按所述使用国家间SD，此量不同于通常均值标准误CI；实际推断对象、样本框、误差相关及代码未核，不简单替换公式或裁定全文趋势错误 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)；获取历史快照、代码与作者说明 | open |
+| X122 | 2026-11-27 | 健康寿命差图3A横轴和纵轴共享LE、HALE | [2024原文](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)定义横轴两者均值、纵轴差值，并叙述缺口与长寿正相关 | 同一国家与权重下 `Cov((LE+HALE)/2,LE−HALE)=[Var(LE)−Var(HALE)]/2`；共享构造影响解释，但不决定实际数值或证明关联全是伪影，不支持因果政策结论 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)及人工测试；核原始国家数据、权重、误差与独立审阅 | open |
+| X123 | 2026-11-27 | DO-HEALTH 2026 时钟变化模型病例确诊天数、无癌赋零与对比参照 | [原文 Methods 和 Fig 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC13396198/)称三年变化模型为病例调整到癌症的天数，无癌者赋0；图注称 time without cancer | 零是无癌者编码不是诊断时间；简化加性模型中病例指标系数随病例时间参照变动而拟合不变。实际模型、日期起点、边际均值定义未知，不能认定实际表值为零天对比或推断偏倚方向 | [续审与人工代数](DO_HEALTH_CANCER_TIME_REFERENCE_AUDIT_2026-11-27.md)；核模型程序、参照、支持范围和作者说明 | open |
+| X124 | 2026-11-27 | NHS-Galleri 分期边际与个体反事实转移 | [原文 Results、Table 2及Discussion](https://pmc.ncbi.nlm.nih.gov/articles/PMC7619610/)描述12癌III期360/287、IV期341/394；各事件终点则使用首个合格事件，分期描述按最高分期分类 | III期净增与IV期净减不能直接作为同人IV→III转移人数；提前诊断等可能并存；人工例不量化试验贡献，主终点及死亡边界保持 | [分期计数与配对续审](NHS_GALLERI_STAGE_COUNTS_AND_PAIRING_AUDIT_2026-11-27.md)；核补表及未来随访，对反事实界明确额外假设 | open |

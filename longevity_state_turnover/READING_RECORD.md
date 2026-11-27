@@ -57,3 +57,7 @@ URL：https://pmc.ncbi.nlm.nih.gov/articles/PMC13482673/
 ## 未采用的线索
 
 2025 Gote-Schniering年轻/老龄肺时序预印本只读搜索片段，未全文验证，不用于独立数值或因果主张。2023 JCI综述帮助找到ISRIB原研究，不把综述的推测升级成原始谱系结果。搜索无结果不证明无人提出状态流量/停留时间问题。
+
+## 2026-11-27 更新：取得Kobayashi作者手稿
+
+此前该文仅摘要的记录保留作当时访问范围；本次找到 [PMC作者手稿](https://pmc.ncbi.nlm.nih.gov/articles/PMC7461628/)，定向读 Fig 2–7、部分方法及讨论。其 Fig 3 已使用损伤后 Krt19-CreER 相关细胞谱系追踪，不应把状态相关追踪表述为从未做过；特异性、后代及人样本边界见[新证据审计](../knowledge_base/STATE_TURNOVER_EVIDENCE_AUDIT_2026-11-27.md) X69。另核 Watanabe Fig 7/8 与方法存在剂量及损伤途径报告冲突 X70；无原始记录或作者澄清，不能自行取舍。阅读仍非系统综述或数据复算。

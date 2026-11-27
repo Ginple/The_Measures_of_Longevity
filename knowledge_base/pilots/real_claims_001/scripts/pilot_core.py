@@ -5,7 +5,7 @@ from decimal import Decimal,localcontext
 import hashlib,json,re,sys
 P=Path(__file__).resolve().parents[1]
 W=P.parents[2]
-sys.path.insert(0,str(W/'methods/research-assurance/src'))
+sys.path.insert(0,str(W/'src'))
 from research_assurance.core import inspect_project,impact,confined,sha256
 
 def load(root=P):return json.loads((Path(root)/'project.json').read_text())

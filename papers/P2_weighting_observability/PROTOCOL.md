@@ -36,3 +36,5 @@
 HipSci原代码/图系数问题继续开放；当前归档代码不证明论文当时执行路径。MitoPerturb的bulk/ddPCR不自动提供每细胞配对金标；缺配对矩阵、copy/capture及crosswalk时只可做条件分析，不能宣称真实案例已经裁决。
 
 与P1的区别：P1核心是对象身份和存活选择；本篇核心是汇总算子与权重。必要时合稿，不为出版数量强拆。
+
+从 PR #2 择取的[两类捕获比例界](../../knowledge_base/experiments/PR2_CAPTURE_AND_SURVIVAL_BOUNDS_2026-11-27.md)限定捕获相对比及跨时共享假设；其中基础总体比例不同于上式有效权重，不对非线性时钟直接套用。

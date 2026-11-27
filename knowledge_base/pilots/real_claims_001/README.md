@@ -26,7 +26,7 @@
 
 ```text
 longevity_research_workbench/
-  methods/research-assurance/          # 上轮0.1.1候选，继续使用，不复制第二活跃源码
+  src/research_assurance/              # 工具包 0.1.1 候选，使用根目录唯一活跃源码
   knowledge_base/pilots/real_claims_001/  # 本次新增
 ```
 
@@ -37,7 +37,7 @@ python -m pip install -r requirements.txt
 python scripts/validate.py
 ```
 
-依赖已安装时无需第一条；验证不联网。不要求本会话缓存或旧历史目录。它检查便携提取绑定、稿件映射、变异、算例和移目录复现，**不会声称全文缓存已验证**。
+依赖已安装时无需第一条；验证不联网，当前结果输出到标准输出，不覆盖 `results/` 中的历史回执或科学基线。不要求本会话缓存或旧历史目录。它检查便携提取绑定、稿件映射、变异、算例和移目录复现，**不会声称全文缓存已验证**。历史 pilot 打包器因会覆盖旧清单且信任旧回执已禁用，发布须另建并审阅新流程。
 
 本会话中可追加：
 

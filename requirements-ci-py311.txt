@@ -1,0 +1,15 @@
+# CI runtime/build dependencies, pinned 2026-11-27 for CPython 3.11 on Linux.
+# Version pins, not hashes: package artifacts and pip/bootstrap are not locked.
+# Install the local project separately with --no-deps --no-build-isolation.
+attrs==26.1.0
+beautifulsoup4==4.15.0
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+networkx==3.6.1
+packaging==26.4
+referencing==0.37.0
+rpds-py==2026.9.1
+setuptools==84.2.1
+soupsieve==2.10
+typing-extensions==4.16.0
+wheel==0.48.0

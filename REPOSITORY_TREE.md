@@ -1,137 +1,71 @@
-# 实际文件清单 / Repository tree
+# 实际文件清单 / Repository tree（2026-11-27 同步）
 
-排除缓存、构建产物和.git；精确hash见FILE_MANIFEST.json。
+排除缓存、构建产物和 .git；本树为**实际布局**（工具包已从 methods/research-assurance/ 平铺到根；V6/V7 正文位于 corpus/）。精确 hash 以各 manifest 为准。
 
 ```text
-longevity_research_workbench/
+The_Measures_of_Longevity/
+  .gitattributes
+  .github/
   .gitignore
+  ARENA_AGENT_UNIVERSAL_P0_P8_PLAYBOOK_ZH_2026-11-10_R3.8.md
+  CGEE_R5.5.md
   CHANGELOG.md
+  CONTRIBUTING.md
+  DELIVERY_NOTES.md
   FILE_MANIFEST.json
+  HANDOFF.md
   LICENSE_POLICY.md
+  METHOD_HANDBOOK_ZH_EN.md
   README.md
   REPOSITORY_TREE.md
-  artifacts/ATTACHMENT_HOOK_AUDIT.json
-  artifacts/COMPONENT_PATCH_RECEIPT.json
-  artifacts/FIRST_VALIDATION_FAILURE.json
-  artifacts/HISTORY_INTEGRITY.json
-  artifacts/INSTALL_SMOKE.json
-  artifacts/PRIOR_TOOLKIT_ADVERSARIAL.json
-  artifacts/VALIDATION.json
-  books/longevity/BOOK_PROPOSAL.md
-  corpus/editions/README.md
-  corpus/editions/v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md
-  corpus/editions/v7/长寿研究_V7_谁在变年轻.md
-  docs/DECISION_REPORT_ZH_EN.md
-  docs/GITHUB_HANDOFF.md
-  evaluation/ADVERSARIAL_REVIEW.md
-  governance/ADR_001.md
-  governance/NEXT_PRIORITIES.md
-  governance/history_before.json
-  knowledge_base/README.md
-  methods/research-assurance/.github/workflows/ci.yml
-  methods/research-assurance/.gitignore
-  methods/research-assurance/CONTRIBUTING.md
-  methods/research-assurance/DELIVERY_NOTES.md
-  methods/research-assurance/LICENSE_POLICY.md
-  methods/research-assurance/METHOD_HANDBOOK_ZH_EN.md
-  methods/research-assurance/README.md
-  methods/research-assurance/REPOSITORY_TREE.md
-  methods/research-assurance/SECURITY.md
-  methods/research-assurance/SKILL.md
-  methods/research-assurance/UPSTREAM_0_1_0_README.md
-  methods/research-assurance/docs/01_POSITIONING.md
-  methods/research-assurance/docs/02_METHODOLOGY.md
-  methods/research-assurance/docs/03_WORKFLOW.md
-  methods/research-assurance/docs/04_DATA_CONTRACTS.md
-  methods/research-assurance/docs/05_CORPUS_ENGINE.md
-  methods/research-assurance/docs/06_VALIDATION.md
-  methods/research-assurance/docs/07_ADAPTATION.md
-  methods/research-assurance/docs/08_LINEAGE.md
-  methods/research-assurance/docs/09_LIMITATIONS.md
-  methods/research-assurance/docs/10_SKILL_DISTILLATION.md
-  methods/research-assurance/docs/GLOSSARY.md
-  methods/research-assurance/docs/INTEGRATION.md
-  methods/research-assurance/examples/toy/corpus/draft.md
-  methods/research-assurance/examples/toy/evidence/synthetic_source.txt
-  methods/research-assurance/examples/toy/ontology.json
-  methods/research-assurance/examples/toy/project.json
-  methods/research-assurance/history/upstream_0_1_0_results/DIAGNOSTICS.json
-  methods/research-assurance/history/upstream_0_1_0_results/HISTORY_INTEGRITY.json
-  methods/research-assurance/history/upstream_0_1_0_results/INSTALL_SMOKE.json
-  methods/research-assurance/history/upstream_0_1_0_results/PROJECT_CHECK.json
-  methods/research-assurance/history/upstream_0_1_0_results/REAL_BINDING_PILOT.json
-  methods/research-assurance/history/upstream_0_1_0_results/TOPOLOGY.json
-  methods/research-assurance/history/upstream_0_1_0_results/VALIDATION.json
-  methods/research-assurance/pyproject.toml
-  methods/research-assurance/requirements-tested.txt
-  methods/research-assurance/results/DIAGNOSTICS.json
-  methods/research-assurance/results/PROJECT_CHECK.json
-  methods/research-assurance/results/TOPOLOGY.json
-  methods/research-assurance/results/VALIDATION.json
-  methods/research-assurance/schemas/project.schema.json
-  methods/research-assurance/scripts/build_handbook.py
-  methods/research-assurance/scripts/build_schema.py
-  methods/research-assurance/scripts/create_toy_example.py
-  methods/research-assurance/scripts/package_delivery.py
-  methods/research-assurance/scripts/run_validation.py
-  methods/research-assurance/scripts/verify_history.py
-  methods/research-assurance/scripts/write_skills.py
-  methods/research-assurance/scripts/write_templates.py
-  methods/research-assurance/session/DATA_ACCEPTANCE_CONTRACTS.md
-  methods/research-assurance/session/HISTORY_REVIEW.json
-  methods/research-assurance/session/METHOD_REFERENCES.json
-  methods/research-assurance/session/NEXT_PRIORITIES.md
-  methods/research-assurance/session/OWED_DEBTS.json
-  methods/research-assurance/session/SELF_REVIEW.md
-  methods/research-assurance/session/history_before.json
-  methods/research-assurance/session/run_real_binding_pilot.py
-  methods/research-assurance/skills/01-scope-and-route/SKILL.md
-  methods/research-assurance/skills/02-search-and-provenance/SKILL.md
-  methods/research-assurance/skills/03-corpus-topology/SKILL.md
-  methods/research-assurance/skills/04-claim-evidence/SKILL.md
-  methods/research-assurance/skills/05-measurement-and-identification/SKILL.md
-  methods/research-assurance/skills/06-reproduce-and-challenge/SKILL.md
-  methods/research-assurance/skills/07-rivals-and-contracts/SKILL.md
-  methods/research-assurance/skills/08-synthesis-and-writing/SKILL.md
-  methods/research-assurance/skills/09-review-and-debts/SKILL.md
-  methods/research-assurance/skills/10-change-and-release/SKILL.md
-  methods/research-assurance/src/research_assurance/__init__.py
-  methods/research-assurance/src/research_assurance/cli.py
-  methods/research-assurance/src/research_assurance/consistency.py
-  methods/research-assurance/src/research_assurance/core.py
-  methods/research-assurance/src/research_assurance/corpus.py
-  methods/research-assurance/src/research_assurance/measurement.py
-  methods/research-assurance/src/research_assurance/project.schema.json
-  methods/research-assurance/src/research_assurance/tasks.py
-  methods/research-assurance/src/research_assurance/topology.py
-  methods/research-assurance/templates/CHANGE_REVIEW.md
-  methods/research-assurance/templates/CLAIM_REVIEW.md
-  methods/research-assurance/templates/DEBT_LEDGER.csv
-  methods/research-assurance/templates/INDEPENDENT_REVIEW.md
-  methods/research-assurance/templates/LENS_AND_RHETORIC.md
-  methods/research-assurance/templates/MEASUREMENT_CONTRACT.md
-  methods/research-assurance/templates/PROJECT_CHARTER.md
-  methods/research-assurance/templates/PROTOCOL.md
-  methods/research-assurance/templates/RESEARCH_CONTRACT.md
-  methods/research-assurance/templates/SCENARIO.md
-  methods/research-assurance/templates/SEARCH_LOG.csv
-  methods/research-assurance/templates/TRANSFER_AND_IMPLEMENTATION.md
-  methods/research-assurance/tests/test_toolkit.py
-  papers/P1_identity_selection/PROTOCOL.md
-  papers/P2_weighting_observability/PROTOCOL.md
-  papers/P3_research_assurance/PROTOCOL.md
-  papers/PUBLICATION_MAP.md
-  platform_adapters/README.md
-  references/SOURCE_CHECKS.md
-  references/attachment_receipts.json
-  review/external/REVIEW_REQUEST.md
-  tests/test_adversarial_complex.py
-  tests/test_project.py
-  tools/audit_attachment_hook.py
-  tools/audit_prior_toolkit.py
-  tools/install_smoke.py
-  tools/numeric_contracts.py
-  tools/package_delivery.py
-  tools/run_validation.py
-  tools/verify_history.py
+  RESEARCH_DATE_CLARIFICATION.md
+  Research Assurance Toolkit — 0.1.1 candidate.md
+  SECURITY.md
+  SESSION_UPDATE_RECEIPT.json
+  SKILL.md
+  UPSTREAM_0_1_0_README.md
+  WORKSPACE_CLEANUP_RECEIPT.json
+  WORKSPACE_STORAGE_NOTE.md
+  artifacts/
+  books/
+  corpus/
+  docs/
+  evaluation/
+  examples/
+  governance/
+  history/
+  knowledge_base/
+  longevity_capacity_timing/
+  longevity_caretaker_selectivity/
+  longevity_new_territories/
+  longevity_repair_memory/
+  longevity_spatial_access/
+  longevity_state_turnover/
+  longevity_v6/
+  longevity_v7/
+  papers/
+  platform_adapters/
+  pyproject.toml
+  references/
+  requirements-tested.txt
+  results/
+  review/
+  schemas/
+  scripts/
+  session/
+  skills/
+  src/
+  templates/
+  tests/
+  tools/
 ```
+
+## 关键路径与角色（权威表见 knowledge_base/MASTER.md §1）
+
+- `knowledge_base/` — KERNEL / MASTER / CLAIM_LEDGER / RESEARCH_FRONTIERS / ANOMALY_LOG（scaffold 四件套 + 异常日志）
+- `corpus/longevity_v6|v7/` — 两份专著正文的**唯一活跃编辑源**
+- `longevity_v6|v7/`（根级）— 字节相同遗留副本，待 THE-236 处置
+- `longevity_new_territories/` 等 6 个 `longevity_*` 目录 — 六轮研究模块（证据，冻结）
+- `papers/P1|P2|P3/PROTOCOL.md` — 三篇论文协议；处置方案见 MASTER §4
+- `src/research_assurance/`、`tools/`、`tests/` — 研究保障工具包 0.1.1 候选
+- `session/OWED_DEBTS.json` — 历史科学债（状态保留，不自动关闭）

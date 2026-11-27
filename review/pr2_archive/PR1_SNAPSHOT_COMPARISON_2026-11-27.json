@@ -1,0 +1,459 @@
+{
+  "compared_at_utc": "2026-11-27T11:43:36.401500+00:00",
+  "base_head": "6be77be2b2b8d7cfd8182faa936853cc5b45111e",
+  "remote_pr1_head": "5d544dbc4256058807f44c4c2c13748f30ee7721",
+  "scope": "Remote paths changed relative to HEAD compared to current working-tree bytes at this instant; missing local paths include case-conflicting dashboard; not a semantic merge or independent scientific validation.",
+  "counts": {
+    "different": 30,
+    "remote_only": 23,
+    "identical": 15
+  },
+  "paths": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "comparison": "different",
+      "remote_sha256": "58efcda79b80e1905ad0da04a31e33804087b855e2bb488099d2e7b9ae37e241",
+      "worktree_sha256": "696f5cea2021d72478c1860444a7dd93a82b44b84fa8c71363ae9dc33bd259f5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "comparison": "different",
+      "remote_sha256": "90e8617f49d38ee2b2da41e8ff767ec889107ae04077ef35de59a8ed0eb19dcc",
+      "worktree_sha256": "e556a28f51d63aecb6699870706e048ab08193bb137192d49f88b71ea9199656"
+    },
+    {
+      "path": "README.md",
+      "comparison": "different",
+      "remote_sha256": "09e8e7fc05bf20573bd8467f6158b91a9e8986b0eb3651c3b6d74470d05ad8a9",
+      "worktree_sha256": "87a1ef41caf850651952aa9522e5b775688b68f9fac83bc4335e84717f800d25"
+    },
+    {
+      "path": "REPOSITORY_TREE.md",
+      "comparison": "different",
+      "remote_sha256": "87d926fecf6927bcc5619ec95ddb49cf1c6a56ee8e43975840825f20eaa61b7f",
+      "worktree_sha256": "be274ee6e2d7fa1872baff60207c09d64cb62c1ae3de8552ae6f569f9f951fd7"
+    },
+    {
+      "path": "STATE_DASHBOARD.HTML",
+      "comparison": "different",
+      "remote_sha256": "6e1f148448ccb696dbd4c6bc71a6a6c4315b50c1955631f0a641420c6b8fc584",
+      "worktree_sha256": "29311df2accf94879bf23e673d783f41fefca12ffe274afe688acaed2e8fe012"
+    },
+    {
+      "path": "STATE_DASHBOARD.html",
+      "comparison": "remote_only",
+      "remote_sha256": "6e1f148448ccb696dbd4c6bc71a6a6c4315b50c1955631f0a641420c6b8fc584",
+      "worktree_sha256": null
+    },
+    {
+      "path": "books/BOOK_PROPOSAL.md",
+      "comparison": "different",
+      "remote_sha256": "4ff548f7eb3611d8eb9fb5f216fc1e6809dbbed41141cf9261db7fcf1e8ddab3",
+      "worktree_sha256": "0453c099743e6a6ff290ff3c0b0e946de6ef61bdf13f18ee9028a6c70d0c0e72"
+    },
+    {
+      "path": "books/CHAPTER_CROSSWALK_DRAFT.md",
+      "comparison": "different",
+      "remote_sha256": "ac419d0069a8492d1230bec84b4d23edca9313edd0e58ab377d69fb0583fad6d",
+      "worktree_sha256": "4b96804ab9609971a5b2c8506f1b95d0043ede6bd0a84160cbe73ef834d0259a"
+    },
+    {
+      "path": "books/manuscript/README.md",
+      "comparison": "different",
+      "remote_sha256": "66c20d9090eab0eb44f498a9bc070ef17bb7e6b081d8fe913758cd2cd5462796",
+      "worktree_sha256": "82960ad8cf7dea7d34fe29471dff99fc666983ddb07b8abdb5cb4a11e0d47193"
+    },
+    {
+      "path": "governance/legacy_broken_links.json",
+      "comparison": "remote_only",
+      "remote_sha256": "84632042887cdf1e1fc7929adf4b296fd97cc6522efc5dc8619e9ab700e0aa1f",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/ANOMALY_LOG.csv",
+      "comparison": "different",
+      "remote_sha256": "287ba0ce7c39f1a1d3329d7ca92048d2fbe0d700581c4f9ef86ca9485d4db3df",
+      "worktree_sha256": "dac3fefd4750353393957891d3c63d517098cf74daef75b84d7e7a3179854187"
+    },
+    {
+      "path": "knowledge_base/CALERIE_TEMPORAL_AUDIT_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "6897b92cd2d094272a7821380fbc434f9865a2b60b6ca5f5efeaea00520c6144",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/CLAIM_LEDGER.md",
+      "comparison": "different",
+      "remote_sha256": "9d7c25bb199453578f11e6376b822cd77adc0069a4e341a76dc63bf37c09ec55",
+      "worktree_sha256": "41c6f2098265a59eb442536f2953121969348d0e41f3afa498af601b536dab82"
+    },
+    {
+      "path": "knowledge_base/CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "a2806d88dcfc09852cf35c8d9efa18b1e29761604d9154a7bd6d7207f5a6fb55",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/COUNTEREXAMPLES_AND_DENOMINATORS_2026-11-27.md",
+      "comparison": "identical",
+      "remote_sha256": "8f9711389f5e438bfa0732be81a7b8a3e0de8d82e629c269fbe18a7ed6cf593d",
+      "worktree_sha256": "8f9711389f5e438bfa0732be81a7b8a3e0de8d82e629c269fbe18a7ed6cf593d"
+    },
+    {
+      "path": "knowledge_base/DEEP_RESEARCH_RESTART_2026-11-27.md",
+      "comparison": "identical",
+      "remote_sha256": "df882e7ee9f00d6ececa92db109a9ce9b3cd6d22d2c8cf46f3e73bf95655b815",
+      "worktree_sha256": "df882e7ee9f00d6ececa92db109a9ce9b3cd6d22d2c8cf46f3e73bf95655b815"
+    },
+    {
+      "path": "knowledge_base/DEPTH_SYNTHESIS_2026-11-27.md",
+      "comparison": "identical",
+      "remote_sha256": "bbdd709b9ee3e0bc505a2f26cb1ebf21602f74e05e7c7ce29816b0004245910e",
+      "worktree_sha256": "bbdd709b9ee3e0bc505a2f26cb1ebf21602f74e05e7c7ce29816b0004245910e"
+    },
+    {
+      "path": "knowledge_base/DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "70566de2f88a9d84522e4d33eabed57ff6600e346155bc754d1fb4d795dac130",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/KERNEL.md",
+      "comparison": "different",
+      "remote_sha256": "4d1c1c7df5f36a1fff072a4dc7145abd508639664e2d43e2dda46de15eeae735",
+      "worktree_sha256": "91541f6eb2f9bbbab1c3d0d3919a75190b4b0616bf44776ec641fe7e892e38d7"
+    },
+    {
+      "path": "knowledge_base/LONGITUDINAL_SURROGATE_REPAIR_AUDIT_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "e8dc2a7b8cea3b670118d1ca53f64a0a10d10262c136dda59995019ab0b82e4e",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/MASTER.md",
+      "comparison": "different",
+      "remote_sha256": "e21533c0c76fc9942d3673f0ff11d196950f2389abd0c7c43c64f295a8e88f23",
+      "worktree_sha256": "843cba52c5aaf0cafbf070de94e6c2e6d4d15acf06058a337a846fd51fcb77b2"
+    },
+    {
+      "path": "knowledge_base/MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "f5a8e1b98ce09e156846417694b70352a7bcc464f15795a3871905cf1e08f3cb",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "0bfb515c3d09b6da2f823e743c5625329dd43a4e97c5e8689838191827702858",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/README.md",
+      "comparison": "different",
+      "remote_sha256": "087d6229385e91056b67cb106c80ad12de48a51d7484e28e9589e1d3c94c2d5a",
+      "worktree_sha256": "293ab4872833e73f569e4cc55dc93e3d20954b0e6339faae9756e146c6ec465a"
+    },
+    {
+      "path": "knowledge_base/RED_TEAM_RESEARCH_2026-11-27.md",
+      "comparison": "identical",
+      "remote_sha256": "54c99a725c8dc82358a2e17523d358ec0880190c9babd04207a05e60c55c6491",
+      "worktree_sha256": "54c99a725c8dc82358a2e17523d358ec0880190c9babd04207a05e60c55c6491"
+    },
+    {
+      "path": "knowledge_base/RESEARCH_DECISION_LAYERS_2026-11-27.md",
+      "comparison": "identical",
+      "remote_sha256": "afd2b06bfa38b0f41b73699f9fbee5141d3c2dc4c33c91497a7b02b784bfaf50",
+      "worktree_sha256": "afd2b06bfa38b0f41b73699f9fbee5141d3c2dc4c33c91497a7b02b784bfaf50"
+    },
+    {
+      "path": "knowledge_base/RESEARCH_FRONTIERS.md",
+      "comparison": "different",
+      "remote_sha256": "9587fac48c29bd50e84781e366203d597d2df1bcc636bf0d27d3957288bf8f0f",
+      "worktree_sha256": "cba2579e006a5e0b45741420de73471512721435ba80bfa4d66225273761ea87"
+    },
+    {
+      "path": "knowledge_base/SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "9242f2fafce9b7cd04a436f5aa369281a0ae67ccd869c3e2f2a4909a62903df0",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/claims/RESEARCH_CARDS_2026-11-27.md",
+      "comparison": "different",
+      "remote_sha256": "c6c802869dee9e17fda47c867e458a62bbd0e1a7760ee0cf994ab105af6267e9",
+      "worktree_sha256": "3ba757024cb4480db50f6ae6d55bf5df81ea3ca59ba7705e8b6563bae8d7fcf7"
+    },
+    {
+      "path": "knowledge_base/claims/ROUND_2026-11-27_DEPTH.md",
+      "comparison": "identical",
+      "remote_sha256": "7226dd21c89525ab708142ebc13da7717277482d6d4db74f2f899bc39a0d0698",
+      "worktree_sha256": "7226dd21c89525ab708142ebc13da7717277482d6d4db74f2f899bc39a0d0698"
+    },
+    {
+      "path": "knowledge_base/experiments/POST_RECOVERY_RANDOMIZATION_CONTRACT_DRAFT.md",
+      "comparison": "different",
+      "remote_sha256": "67e711c71ab41353768fc8da163145827072d02815156934001020e23cfd7a9b",
+      "worktree_sha256": "c8bd9475136b5d985ece9ba24d84ff22109a7ec0ca0bdd09c5201821e502672d"
+    },
+    {
+      "path": "knowledge_base/experiments/README_MULTIPLICITY.md",
+      "comparison": "remote_only",
+      "remote_sha256": "7bf29951b287bdca4fb448e08d0635b0702a985fb73ecbb301a5909c43ec096c",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/calerie_denominator_bounds.py",
+      "comparison": "different",
+      "remote_sha256": "ec82779a83784804e8480583d387419701224b9fff7ad92799fdc34ba47dc5ca",
+      "worktree_sha256": "4f8beed9536d7c009b30ad6a0d9f52c71c77bb578520a551e78ef7c5e6f0b4c9"
+    },
+    {
+      "path": "knowledge_base/experiments/calerie_fig2_audit.py",
+      "comparison": "remote_only",
+      "remote_sha256": "52f1f3342c3a1cba6148bc78e964dc1e12e68dc3cce5a45c9208228fc772277a",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/mixture_identifiability_demo.py",
+      "comparison": "identical",
+      "remote_sha256": "54d5471a0ecb3a65a3d221e17624d0cc4e31e3f8fabf751a759427c877e67929",
+      "worktree_sha256": "54d5471a0ecb3a65a3d221e17624d0cc4e31e3f8fabf751a759427c877e67929"
+    },
+    {
+      "path": "knowledge_base/experiments/multiplicity_pca_counterexample.py",
+      "comparison": "remote_only",
+      "remote_sha256": "58afd1055ef5682220b8f6b7f3aea97015a206b8fa666513dcf75ecec2a3702a",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/rate_and_range_counterexamples.py",
+      "comparison": "remote_only",
+      "remote_sha256": "8b8ee7fea55cde5790367d20c41bdf39a35ae467bf2c46d228fdf84876027190",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/screening_endpoints_counterexample.py",
+      "comparison": "remote_only",
+      "remote_sha256": "08c7ea6f96702c795b5e27a3a7fe24a59f51a0af0a2cd7e564c0e39cf136cfe7",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/surrogate_identifiability_demo.py",
+      "comparison": "remote_only",
+      "remote_sha256": "1ef793658683ba2e3bcb0895b666d4d9f4642616245b7a8318ed3e19dee9514d",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_multiplicity_pca_counterexample.py",
+      "comparison": "remote_only",
+      "remote_sha256": "f376b80c5973ac92c6aee547c034f4440d9688e9e1a0daa3d74e0281638c457e",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_rate_and_range_counterexamples.py",
+      "comparison": "remote_only",
+      "remote_sha256": "b8987ff3db818b3291037674920023c7af1e99871bd36becee15e5444b8e795c",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_screening_endpoints_counterexample.py",
+      "comparison": "remote_only",
+      "remote_sha256": "7d0cab41bc31e4012ca19854c0486dcab7cda81768c608e9bd18706aa17f2aec",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_surrogate_identifiability_demo.py",
+      "comparison": "remote_only",
+      "remote_sha256": "f06519b165522744c1def9cfad5f438b5c97b2973a841805bcbec79231698e4d",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/README.md",
+      "comparison": "different",
+      "remote_sha256": "beb06f227b60ec8a2a2f0bafe16639390d1aee06aed40855da51e96a1e019fa3",
+      "worktree_sha256": "34c532709c550c9bc4d7b4f329326f3f9cbf295394dd314fbb912717eba7ba82"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/requirements.txt",
+      "comparison": "different",
+      "remote_sha256": "e1482109a9b523a84712612503b2b17a172a7a200612c529150c39db90c8b2d8",
+      "worktree_sha256": "c0396c59edf56b3c33e0606723278708554c7adde626c0319557b8f8232544ab"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/scripts/package_addon.py",
+      "comparison": "different",
+      "remote_sha256": "c1948c0d7d89a56297be4b4751f3438a2d550a7ad30561866f3c6d612958087b",
+      "worktree_sha256": "99a95136fe3271f164323052c2fe9061c4571eb00044991517faf74e562d5538"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/scripts/pilot_core.py",
+      "comparison": "different",
+      "remote_sha256": "26282654c33a42d7b5b91eaf45e417fad3d7973a08bca14b7c836cde1f2adc1f",
+      "worktree_sha256": "07893c3c892d6616ad86a1a98ab676717233c5b3bb5bde3a797d1387bf5421b6"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/scripts/validate.py",
+      "comparison": "different",
+      "remote_sha256": "4967bf95f463f6dc221c0c195ab30d5b545ae946f00abd43c1119a7ee1b57d16",
+      "worktree_sha256": "de9ca31acad2016f2e3377a5ffac001e69549af25c0455a941dd8451f6e7ee98"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/dunedinpace_4b569983/LICENSE",
+      "comparison": "identical",
+      "remote_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "worktree_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/dunedinpace_4b569983/PACEProjector.R",
+      "comparison": "identical",
+      "remote_sha256": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e",
+      "worktree_sha256": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/dunedinpace_4b569983/manifest.json",
+      "comparison": "identical",
+      "remote_sha256": "233c590759249e08a727159edbf6d3cb5dd920a210b4857b8cd952374dbd72a5",
+      "worktree_sha256": "233c590759249e08a727159edbf6d3cb5dd920a210b4857b8cd952374dbd72a5"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/verify_snapshots.py",
+      "comparison": "identical",
+      "remote_sha256": "5ced8a0150f7f2d4b5643f9f4932ce172a40de4147fdaa2a8edac9aef7dda5eb",
+      "worktree_sha256": "5ced8a0150f7f2d4b5643f9f4932ce172a40de4147fdaa2a8edac9aef7dda5eb"
+    },
+    {
+      "path": "papers/PUBLICATION_MAP.md",
+      "comparison": "identical",
+      "remote_sha256": "35d4af35d9a271303d109b162c37d99501886ced1079ecf8f20ae6c78910035f",
+      "worktree_sha256": "35d4af35d9a271303d109b162c37d99501886ced1079ecf8f20ae6c78910035f"
+    },
+    {
+      "path": "review/DEPENDENCIES_AND_LINKS_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "c9b50070208231f9218b768acac06c2f74cff6eb2551bca48c69b5171e753824",
+      "worktree_sha256": null
+    },
+    {
+      "path": "review/EXECUTION_DURATION_REVIEW_2026-11-27.md",
+      "comparison": "remote_only",
+      "remote_sha256": "28edc65eabd330333a5b13e0c3477446db9424484cdfc5eab8a334cafac3e520",
+      "worktree_sha256": null
+    },
+    {
+      "path": "review/local_source_snapshot.sha256",
+      "comparison": "identical",
+      "remote_sha256": "51cfbdc70f2681c9580a52e3de3222d9e473a7709975b42866925c66da7d2415",
+      "worktree_sha256": "51cfbdc70f2681c9580a52e3de3222d9e473a7709975b42866925c66da7d2415"
+    },
+    {
+      "path": "review/provenance_correction_2026-11-27.md",
+      "comparison": "identical",
+      "remote_sha256": "a89152e6a7fd61e4626d99acfe4742a2fe21bd40c626bf06103b467f8377935d",
+      "worktree_sha256": "a89152e6a7fd61e4626d99acfe4742a2fe21bd40c626bf06103b467f8377935d"
+    },
+    {
+      "path": "review/scaffold_audit_2026-11-27.md",
+      "comparison": "different",
+      "remote_sha256": "1be0cb7e86f4f60f2df9679fe041e3d688773dd11eee855c52fa4f3350b0f78f",
+      "worktree_sha256": "b487113932bfedb76db0ffe0531866dfb1df8b23b6c2001c154cfd08caf76a87"
+    },
+    {
+      "path": "scripts/package_delivery.py",
+      "comparison": "different",
+      "remote_sha256": "661b3d5c63ce879fbc0e3b227ecab47a4f934115cb1ec1b764c87dad3980619d",
+      "worktree_sha256": "8bbf25264cbb5b44bcb60d65a3a647c0c993b22792316583c0c7a3c959437ca3"
+    },
+    {
+      "path": "scripts/run_validation.py",
+      "comparison": "different",
+      "remote_sha256": "b9b8cefcd38d2e3f054d86cacb3de9d2068f7080a7c4aa9356f0816709ef4693",
+      "worktree_sha256": "d2e42b391c390f1fe415b65f3d1b2b35d870384e4b9814b6058e3014dad2b023"
+    },
+    {
+      "path": "tests/test_adversarial_complex.py",
+      "comparison": "identical",
+      "remote_sha256": "adc5d5085f84a404df3947da1209d2ab06a068d0aeeb45c4b4c9c7c55fe5a2fd",
+      "worktree_sha256": "adc5d5085f84a404df3947da1209d2ab06a068d0aeeb45c4b4c9c7c55fe5a2fd"
+    },
+    {
+      "path": "tests/test_project.py",
+      "comparison": "different",
+      "remote_sha256": "a7defdea93e4adaab9c74f5464009a2be4bd4784baf8a6a1f2f3635c731a2db0",
+      "worktree_sha256": "b7ec12800158b5f0101dbc74c191d8d6c0074631b898264c5f3ae0845874fca1"
+    },
+    {
+      "path": "tools/dashboard_contract.py",
+      "comparison": "remote_only",
+      "remote_sha256": "ecdeedc98a967e9750b24383d17f5c3e55adcd8bedde3ce62720a8d26ed14794",
+      "worktree_sha256": null
+    },
+    {
+      "path": "tools/install_smoke.py",
+      "comparison": "different",
+      "remote_sha256": "4044e80c1ba94c7cab43d5dddb1b41226109589f035fa8da68c00ce5dba3fa21",
+      "worktree_sha256": "b74a83111128d0f1343403e8e43f41c669993799fc57fd8ee495d6669de89c49"
+    },
+    {
+      "path": "tools/markdown_links.py",
+      "comparison": "remote_only",
+      "remote_sha256": "b546e640b9208276e7494ade8e67f852e27e6072b0957655dfcd2f6dc036a04f",
+      "worktree_sha256": null
+    },
+    {
+      "path": "tools/package_delivery.py",
+      "comparison": "different",
+      "remote_sha256": "03ec1b10e210d5d4289403fe83b0864932a31a8da47cb05f042d93e25233aec6",
+      "worktree_sha256": "a763d3a0e12b8897786044da2bcaddf6055d445bbed2b878c8ecc88f574b4d15"
+    },
+    {
+      "path": "tools/run_validation.py",
+      "comparison": "different",
+      "remote_sha256": "96fb945d0e41b4914d5908125e69502abd0e85fa21d30b67a9b59f7171e6d6a6",
+      "worktree_sha256": "6b0436439b0d27ff08871d6168a30c06ace7a8ea21f1b177d638d16c35e52350"
+    },
+    {
+      "path": "tools/verify_history.py",
+      "comparison": "different",
+      "remote_sha256": "f00a633d5d3e229aac96496df84efbfa140b781b417f9d3fb25639cf1dd9cd3b",
+      "worktree_sha256": "0b8f6c5d3273a091041277f67e8bbfdd3bcad59cf08f6e5da4f944f349978d4d"
+    }
+  ],
+  "untracked_paths_not_in_remote_diff": [
+    "books/ARCHITECTURE_WORKING_2026-11-27.md",
+    "books/PARAGRAPH_CROSSWALK_PILOT_2026-11-27.md",
+    "books/manuscript/EXCERPTS_MEASUREMENT_AND_LIVING_DRAFT_2026-11-27.md",
+    "books/manuscript/REPAIR_MEMORY_DRAFT_2026-11-27.md",
+    "books/manuscript/SAMPLE_CH01_MEASURES_2026-11-27.md",
+    "books/manuscript/SAMPLE_CH11_WEIGHTING_2026-11-27.md",
+    "knowledge_base/CALERIE_X31_VERSION_AUDIT_2026-11-27.md",
+    "knowledge_base/CAPABLE_RECHECK_2026-11-27.md",
+    "knowledge_base/EPI_CLONE_X33_FOLLOWUP_2026-11-27.md",
+    "knowledge_base/LODOCO2_AUDIT_2026-11-27.md",
+    "knowledge_base/RECOVERY_MEMORY_CAUSAL_AUDIT_2026-11-27.md",
+    "knowledge_base/RESEARCH_BRIDGE_2026-11-27.md",
+    "knowledge_base/experiments/PREREGISTRATION_TEMPLATE.md",
+    "knowledge_base/experiments/assurance_benchmark_metrics.py",
+    "knowledge_base/experiments/assurance_fixture_comparison.py",
+    "knowledge_base/experiments/exhaustive_survivor_oracle.py",
+    "knowledge_base/experiments/mixture_decomposition.py",
+    "knowledge_base/experiments/survivor_bounds.py",
+    "knowledge_base/experiments/survivor_selection_demo.py",
+    "papers/P1_identity_selection/KERNEL.md",
+    "papers/P1_identity_selection/SURVIVOR_IDENTIFICATION_NOTE_2026-11-27.md",
+    "papers/P2_weighting_observability/DECOMPOSITION_NOTE_2026-11-27.md",
+    "papers/P2_weighting_observability/KERNEL.md",
+    "papers/P3_research_assurance/EVALUATION_DESIGN_2026-11-27.md",
+    "papers/P3_research_assurance/KERNEL.md",
+    "review/CONTINUED_WORK_2026-11-27.md",
+    "review/DASHBOARD_REBUILD_2026-11-27.md",
+    "review/PR1_CONTINUATION_AUDIT_2026-11-27.md",
+    "review/legacy_broken_links.json",
+    "tests/test_assurance_benchmark_metrics.py",
+    "tests/test_assurance_fixture_comparison.py",
+    "tests/test_calerie_bounds.py",
+    "tests/test_exhaustive_survivor_oracle.py",
+    "tests/test_mixture_decomposition.py",
+    "tests/test_survivor_bounds.py",
+    "tests/test_survivor_selection_demo.py"
+  ]
+}

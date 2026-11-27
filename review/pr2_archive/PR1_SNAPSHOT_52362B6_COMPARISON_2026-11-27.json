@@ -1,0 +1,637 @@
+{
+  "base_commit": "6be77be2b2b8d7cfd8182faa936853cc5b45111e",
+  "snapshot_commit": "52362b6fe3b6f82e39bdf5a3e34ed38c9fa6ba8a",
+  "changed_paths": 103,
+  "counts": {
+    "different": 27,
+    "identical": 24,
+    "local_absent": 52
+  },
+  "casefold_collisions_in_snapshot": [
+    [
+      "STATE_DASHBOARD.HTML",
+      "STATE_DASHBOARD.html"
+    ]
+  ],
+  "paths": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "status": "different",
+      "snapshot_sha256": "58efcda79b80e1905ad0da04a31e33804087b855e2bb488099d2e7b9ae37e241",
+      "worktree_sha256": "a94e90f1844c59b4fca2d993e0c98dcb08a199d2e49bc1b6cbaa0da2cc2d92ea"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "status": "different",
+      "snapshot_sha256": "90e8617f49d38ee2b2da41e8ff767ec889107ae04077ef35de59a8ed0eb19dcc",
+      "worktree_sha256": "e556a28f51d63aecb6699870706e048ab08193bb137192d49f88b71ea9199656"
+    },
+    {
+      "path": "README.md",
+      "status": "different",
+      "snapshot_sha256": "09e8e7fc05bf20573bd8467f6158b91a9e8986b0eb3651c3b6d74470d05ad8a9",
+      "worktree_sha256": "87a1ef41caf850651952aa9522e5b775688b68f9fac83bc4335e84717f800d25"
+    },
+    {
+      "path": "REPOSITORY_TREE.md",
+      "status": "different",
+      "snapshot_sha256": "87d926fecf6927bcc5619ec95ddb49cf1c6a56ee8e43975840825f20eaa61b7f",
+      "worktree_sha256": "be274ee6e2d7fa1872baff60207c09d64cb62c1ae3de8552ae6f569f9f951fd7"
+    },
+    {
+      "path": "STATE_DASHBOARD.HTML",
+      "status": "different",
+      "snapshot_sha256": "e3d4899d3f3d14cce51a4955a779630fe2c4584c8fdc3ff1fb6e9ddd1e71dffb",
+      "worktree_sha256": "29311df2accf94879bf23e673d783f41fefca12ffe274afe688acaed2e8fe012"
+    },
+    {
+      "path": "STATE_DASHBOARD.html",
+      "status": "local_absent",
+      "snapshot_sha256": "e3d4899d3f3d14cce51a4955a779630fe2c4584c8fdc3ff1fb6e9ddd1e71dffb",
+      "worktree_sha256": null
+    },
+    {
+      "path": "books/BOOK_PROPOSAL.md",
+      "status": "different",
+      "snapshot_sha256": "4ff548f7eb3611d8eb9fb5f216fc1e6809dbbed41141cf9261db7fcf1e8ddab3",
+      "worktree_sha256": "0453c099743e6a6ff290ff3c0b0e946de6ef61bdf13f18ee9028a6c70d0c0e72"
+    },
+    {
+      "path": "books/CHAPTER_CROSSWALK_DRAFT.md",
+      "status": "different",
+      "snapshot_sha256": "ac419d0069a8492d1230bec84b4d23edca9313edd0e58ab377d69fb0583fad6d",
+      "worktree_sha256": "4b96804ab9609971a5b2c8506f1b95d0043ede6bd0a84160cbe73ef834d0259a"
+    },
+    {
+      "path": "books/manuscript/CH15_测量合同_示范稿.md",
+      "status": "local_absent",
+      "snapshot_sha256": "02b233112aa7323fc67591e69182da9cfe3def1deadfe9a61635b652d4548ca3",
+      "worktree_sha256": null
+    },
+    {
+      "path": "books/manuscript/README.md",
+      "status": "different",
+      "snapshot_sha256": "16fd78fd74458326dce030d6ac8aac85089879bec672fe8f2f729c89ea1cec88",
+      "worktree_sha256": "82960ad8cf7dea7d34fe29471dff99fc666983ddb07b8abdb5cb4a11e0d47193"
+    },
+    {
+      "path": "governance/legacy_broken_links.json",
+      "status": "local_absent",
+      "snapshot_sha256": "84632042887cdf1e1fc7929adf4b296fd97cc6522efc5dc8619e9ab700e0aa1f",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/ANOMALY_LOG.csv",
+      "status": "different",
+      "snapshot_sha256": "287ba0ce7c39f1a1d3329d7ca92048d2fbe0d700581c4f9ef86ca9485d4db3df",
+      "worktree_sha256": "dac3fefd4750353393957891d3c63d517098cf74daef75b84d7e7a3179854187"
+    },
+    {
+      "path": "knowledge_base/CALERIE_BONE_AND_EXPOSURE_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "9f09f492d9aa0e04769620498885470eda6ffe6bdde1c171ff4a30418e2dd3ba",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/CALERIE_POST_INTERVENTION_FOLLOWUP_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "0bc41a44b8ba4f5cb9d13c7172353a282fa18f3b553eaa5c630c6190ec4c46b2",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/CALERIE_TEMPORAL_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "6897b92cd2d094272a7821380fbc434f9865a2b60b6ca5f5efeaea00520c6144",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/CALERIE_WITHIN_TRIAL_WEIGHT_TRAJECTORIES_2026_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "566aa28d64060a8a6a2b7ee6d3140dbdb975c7fadcb81ba3e11207b0f9fc1afd",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/CLAIM_LEDGER.md",
+      "status": "different",
+      "snapshot_sha256": "773b98dfad4fc16c4ffd8d26239740050d0960f3a611ae7ddcb5db7de96eb50f",
+      "worktree_sha256": "28d03b4f2ac06942248077132f5c0ffbbdbf2d73ceabe70d77112c3416a6f678"
+    },
+    {
+      "path": "knowledge_base/CLOCK_REVIEWS_ESTIMANDS_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "a2806d88dcfc09852cf35c8d9efa18b1e29761604d9154a7bd6d7207f5a6fb55",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/COUNTEREXAMPLES_AND_DENOMINATORS_2026-11-27.md",
+      "status": "different",
+      "snapshot_sha256": "d683f316ca39a273e15423aaa1e39576975295d608609be7154de3a4c1312706",
+      "worktree_sha256": "2a4d7473dac5da32c8110c66cd87e68114530401718d083d6eb1054a83171a1e"
+    },
+    {
+      "path": "knowledge_base/DEEP_RESEARCH_RESTART_2026-11-27.md",
+      "status": "identical",
+      "snapshot_sha256": "df882e7ee9f00d6ececa92db109a9ce9b3cd6d22d2c8cf46f3e73bf95655b815",
+      "worktree_sha256": "df882e7ee9f00d6ececa92db109a9ce9b3cd6d22d2c8cf46f3e73bf95655b815"
+    },
+    {
+      "path": "knowledge_base/DEPTH_SYNTHESIS_2026-11-27.md",
+      "status": "identical",
+      "snapshot_sha256": "bbdd709b9ee3e0bc505a2f26cb1ebf21602f74e05e7c7ce29816b0004245910e",
+      "worktree_sha256": "bbdd709b9ee3e0bc505a2f26cb1ebf21602f74e05e7c7ce29816b0004245910e"
+    },
+    {
+      "path": "knowledge_base/DO_HEALTH_CANCER_FUNCTION_2026_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "30110e8f1dd671e6930d4affc298dea84979066c4746cbc8ae5750a8e8652b38",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/DO_HEALTH_CLINICAL_CANCER_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "35662cb084c84ed16f30c021878ef3182eb18257b847b8a029d45961d1bd9ef3",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "11f939133297940a1c78a6bc0ade4da86616b2507d1fb1ecdd02fd436916000b",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/FALLS_STUDIES_DEEP_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "d8bc188d899dcdf2006cd238ab85eb59dc6c4e1e388fac8839ee7e08173fff1b",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/FIND_AND_REPLICATION_SEARCH_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "7ec4f7624c0ace114e5347e5d0433d71378bf0a5c2b86d324dcb03f23e878919",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/KERNEL.md",
+      "status": "different",
+      "snapshot_sha256": "4d1c1c7df5f36a1fff072a4dc7145abd508639664e2d43e2dda46de15eeae735",
+      "worktree_sha256": "27e099a40f2eb03fa3156a480d19cb55d84ab45d579d5f4496c22d6ace752033"
+    },
+    {
+      "path": "knowledge_base/LONGITUDINAL_SURROGATE_REPAIR_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "e8dc2a7b8cea3b670118d1ca53f64a0a10d10262c136dda59995019ab0b82e4e",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/MASTER.md",
+      "status": "different",
+      "snapshot_sha256": "e21533c0c76fc9942d3673f0ff11d196950f2389abd0c7c43c64f295a8e88f23",
+      "worktree_sha256": "8498d6653a4a3c3a667d94c11c62bd80c8505da538064215d4d0bec11146939f"
+    },
+    {
+      "path": "knowledge_base/MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "695d2f9a35815505b832e98cf3b5c3025e86b853ced23638e74d4fb87e5127bf",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/MCED_SURVIVOR_MODEL_REPRODUCIBILITY_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "7e3e26624d9ded66959b3a3896ae024d765ded97d924985d6b5eca200ab24145",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "0bfb515c3d09b6da2f823e743c5625329dd43a4e97c5e8689838191827702858",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/README.md",
+      "status": "different",
+      "snapshot_sha256": "1e622dcfc10c5db037ad2b66a3c25d69dfe558edf83336994e99458243edbf6e",
+      "worktree_sha256": "ae4377ad2f84f5481c73b9b91072038ce4e8ea33975d1f609b93862b8b7d9e8e"
+    },
+    {
+      "path": "knowledge_base/RED_TEAM_RESEARCH_2026-11-27.md",
+      "status": "identical",
+      "snapshot_sha256": "54c99a725c8dc82358a2e17523d358ec0880190c9babd04207a05e60c55c6491",
+      "worktree_sha256": "54c99a725c8dc82358a2e17523d358ec0880190c9babd04207a05e60c55c6491"
+    },
+    {
+      "path": "knowledge_base/RESEARCH_DECISION_LAYERS_2026-11-27.md",
+      "status": "identical",
+      "snapshot_sha256": "afd2b06bfa38b0f41b73699f9fbee5141d3c2dc4c33c91497a7b02b784bfaf50",
+      "worktree_sha256": "afd2b06bfa38b0f41b73699f9fbee5141d3c2dc4c33c91497a7b02b784bfaf50"
+    },
+    {
+      "path": "knowledge_base/RESEARCH_FRONTIERS.md",
+      "status": "different",
+      "snapshot_sha256": "9587fac48c29bd50e84781e366203d597d2df1bcc636bf0d27d3957288bf8f0f",
+      "worktree_sha256": "2a2a09dbcf46df95c22f8f7a4f841034b65a814607a863ca7a6d44ec2f9a123d"
+    },
+    {
+      "path": "knowledge_base/SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "75b967dcfaf33063cee4d01a9d44bf40b10fda7a9a9fb8c48c06ad71ae5d611b",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/VITAL_DO_HEALTH_CANCER_COMPARISON_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "ae34f1f09dbf611fba31183cf90b4fbc60280eabc846eed936d7669a0f260ac6",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/claims/RESEARCH_CARDS_2026-11-27.md",
+      "status": "different",
+      "snapshot_sha256": "c6c802869dee9e17fda47c867e458a62bbd0e1a7760ee0cf994ab105af6267e9",
+      "worktree_sha256": "3ba757024cb4480db50f6ae6d55bf5df81ea3ca59ba7705e8b6563bae8d7fcf7"
+    },
+    {
+      "path": "knowledge_base/claims/ROUND_2026-11-27_DEPTH.md",
+      "status": "identical",
+      "snapshot_sha256": "7226dd21c89525ab708142ebc13da7717277482d6d4db74f2f899bc39a0d0698",
+      "worktree_sha256": "7226dd21c89525ab708142ebc13da7717277482d6d4db74f2f899bc39a0d0698"
+    },
+    {
+      "path": "knowledge_base/experiments/P2_ADDITIONAL_MEASUREMENT_BOUNDS_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "88cceef36d6829d0065469653edc93a3e85b7c7ffd1ae5dcd50348398c1c419e",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/P2_TWO_MIXTURE_INVERSION_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "3a6173c9467f84ae8d8d7ab81395702b232d5fb98787126d118793e423a86545",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/P2_TWO_TYPE_SHARP_BOUNDS_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "8f898fb90ae1b4f4f04722619e1da1b803bccb72fa49595c633de24c5cd9f63e",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/POST_RANDOMIZATION_TRAJECTORY_COUNTEREXAMPLE_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "75e181ec56adc3cbbc853691188dc1582504c5e1522e50fbd19788df0bf89434",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/POST_RECOVERY_RANDOMIZATION_CONTRACT_DRAFT.md",
+      "status": "different",
+      "snapshot_sha256": "404f90374be342336630fcbc922afa0e5b1a1e89af77a9588f97eb89e92e52ca",
+      "worktree_sha256": "c8bd9475136b5d985ece9ba24d84ff22109a7ec0ca0bdd09c5201821e502672d"
+    },
+    {
+      "path": "knowledge_base/experiments/README_MULTIPLICITY.md",
+      "status": "local_absent",
+      "snapshot_sha256": "7bf29951b287bdca4fb448e08d0635b0702a985fb73ecbb301a5909c43ec096c",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/SURVIVAL_TRUNCATION_ESTIMAND_AUDIT_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "7ce96900aea497bdf05d7ccccd914a2d58c7d40bbc1463f7b7156eef78916706",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/calerie_denominator_bounds.py",
+      "status": "different",
+      "snapshot_sha256": "ec82779a83784804e8480583d387419701224b9fff7ad92799fdc34ba47dc5ca",
+      "worktree_sha256": "4f8beed9536d7c009b30ad6a0d9f52c71c77bb578520a551e78ef7c5e6f0b4c9"
+    },
+    {
+      "path": "knowledge_base/experiments/calerie_fig2_audit.py",
+      "status": "local_absent",
+      "snapshot_sha256": "52f1f3342c3a1cba6148bc78e964dc1e12e68dc3cce5a45c9208228fc772277a",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/factorial_estimands_counterexample.py",
+      "status": "identical",
+      "snapshot_sha256": "8edb600cec5008f2e49bd443f141ba58fe9b5764a12cb31790f181520dac9fea",
+      "worktree_sha256": "8edb600cec5008f2e49bd443f141ba58fe9b5764a12cb31790f181520dac9fea"
+    },
+    {
+      "path": "knowledge_base/experiments/falls_estimate_audit.py",
+      "status": "identical",
+      "snapshot_sha256": "685a99252a4c3dbd2f9b5afaf71683304b7e9c679a1129f79ce2d320f5ab9687",
+      "worktree_sha256": "685a99252a4c3dbd2f9b5afaf71683304b7e9c679a1129f79ce2d320f5ab9687"
+    },
+    {
+      "path": "knowledge_base/experiments/followup_selection_and_rounding.py",
+      "status": "local_absent",
+      "snapshot_sha256": "40caf67791ffd22a89e80472498f3fd12197a1c24ea642f80f03d7673e530d8c",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/mixture_identifiability_demo.py",
+      "status": "identical",
+      "snapshot_sha256": "54d5471a0ecb3a65a3d221e17624d0cc4e31e3f8fabf751a759427c877e67929",
+      "worktree_sha256": "54d5471a0ecb3a65a3d221e17624d0cc4e31e3f8fabf751a759427c877e67929"
+    },
+    {
+      "path": "knowledge_base/experiments/mortality_scale_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "f8ffa0bcaaf53aea6f5872cf501b8c63c8627417bc195ac0b549a59600759283",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/multiplicity_pca_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "58afd1055ef5682220b8f6b7f3aea97015a206b8fa666513dcf75ecec2a3702a",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/paired_ratio_identifiability.py",
+      "status": "identical",
+      "snapshot_sha256": "f73f6c988a70468c26ccc0e1264682333267b8083d7c69ab7aff2c8ce5923783",
+      "worktree_sha256": "f73f6c988a70468c26ccc0e1264682333267b8083d7c69ab7aff2c8ce5923783"
+    },
+    {
+      "path": "knowledge_base/experiments/post_randomization_trajectory_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "36419a38aa9daeb3e3ef3327c50f926d118988d29c1cdbf071fad8ee590782d2",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/rate_and_range_counterexamples.py",
+      "status": "local_absent",
+      "snapshot_sha256": "8b8ee7fea55cde5790367d20c41bdf39a35ae467bf2c46d228fdf84876027190",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/screening_endpoints_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "08c7ea6f96702c795b5e27a3a7fe24a59f51a0af0a2cd7e564c0e39cf136cfe7",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/surrogate_identifiability_demo.py",
+      "status": "local_absent",
+      "snapshot_sha256": "1ef793658683ba2e3bcb0895b666d4d9f4642616245b7a8318ed3e19dee9514d",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_factorial_estimands_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "bd49af0143619280969be909a5a72b33ac0f0572a9836b67e94da1607e9fc4c7",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_falls_estimate_audit.py",
+      "status": "local_absent",
+      "snapshot_sha256": "5f175585236520126b126ca194bad4fe8e7d5b233ecae639e2d7cd720aaadc6a",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_followup_selection_and_rounding.py",
+      "status": "local_absent",
+      "snapshot_sha256": "178c014182c9d1b70347bfb9a066ce31c05c5a6ef34a47806260bb29aaa54f11",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_mortality_scale_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "5430f9e7fe39fc3add38e0bf16ee6ad53ba85919696febdc284ba8b826342958",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_multiplicity_pca_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "f376b80c5973ac92c6aee547c034f4440d9688e9e1a0daa3d74e0281638c457e",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_paired_ratio_identifiability.py",
+      "status": "local_absent",
+      "snapshot_sha256": "55de9e96d2732074d6f774a816c42d0e94677ad2f1b60c63f2fe30a94d50d150",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_post_randomization_trajectory_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "1004d399cd8c7413438b74a1060fff01308384948b27f8e618f5c051a2ae98ac",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_rate_and_range_counterexamples.py",
+      "status": "local_absent",
+      "snapshot_sha256": "b8987ff3db818b3291037674920023c7af1e99871bd36becee15e5444b8e795c",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_screening_endpoints_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "7d0cab41bc31e4012ca19854c0486dcab7cda81768c608e9bd18706aa17f2aec",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_surrogate_identifiability_demo.py",
+      "status": "local_absent",
+      "snapshot_sha256": "f06519b165522744c1def9cfad5f438b5c97b2973a841805bcbec79231698e4d",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_time_origin_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "f09eac72d342b113919648d6421b48c14f933422a51097929b5a183000771330",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_truncation_by_death_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "d65d37b4ae0959ac561c398e4a07bb05e0479cad526c34f5330757ae5ffdf692",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_two_mixture_inversion.py",
+      "status": "local_absent",
+      "snapshot_sha256": "e5532480a30a420efa51657d782630b7bf7f3e50d509e037bb805a5227b9f6ae",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/test_two_type_sharp_bounds.py",
+      "status": "local_absent",
+      "snapshot_sha256": "1e2a6db38d870570f2a5e4c4f1530f8d5730438fc44a77bd4c96256c4361f840",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/time_origin_counterexample.py",
+      "status": "different",
+      "snapshot_sha256": "0571110cd27b623b73578fd683d867c3d86ebe5c0f2c0fcad9105df5becf660e",
+      "worktree_sha256": "a572a55ed8bb6dc6cbb91b339bfb4b877de659fcb67ab77d3999483d392f3bc9"
+    },
+    {
+      "path": "knowledge_base/experiments/truncation_by_death_counterexample.py",
+      "status": "local_absent",
+      "snapshot_sha256": "1bea0509c0eae29f066aa6cd53cf4a028eded19d9807b92636f4e81636b30264",
+      "worktree_sha256": null
+    },
+    {
+      "path": "knowledge_base/experiments/two_mixture_inversion.py",
+      "status": "identical",
+      "snapshot_sha256": "d8516009ec6a5de7fe532c3cb594541b81c17b91f4799f6ebd4c88b7ee3a71da",
+      "worktree_sha256": "d8516009ec6a5de7fe532c3cb594541b81c17b91f4799f6ebd4c88b7ee3a71da"
+    },
+    {
+      "path": "knowledge_base/experiments/two_type_sharp_bounds.py",
+      "status": "identical",
+      "snapshot_sha256": "4d696d71c584235b890dc111c3d7aeca91136900b7d3fef6a13677d36dfd3b4c",
+      "worktree_sha256": "4d696d71c584235b890dc111c3d7aeca91136900b7d3fef6a13677d36dfd3b4c"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/README.md",
+      "status": "different",
+      "snapshot_sha256": "beb06f227b60ec8a2a2f0bafe16639390d1aee06aed40855da51e96a1e019fa3",
+      "worktree_sha256": "34c532709c550c9bc4d7b4f329326f3f9cbf295394dd314fbb912717eba7ba82"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/requirements.txt",
+      "status": "different",
+      "snapshot_sha256": "e1482109a9b523a84712612503b2b17a172a7a200612c529150c39db90c8b2d8",
+      "worktree_sha256": "9e281d6f739a93a0c0fb302cf02d17d8b134da4727755870446f31a0a54fa2c8"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/scripts/package_addon.py",
+      "status": "different",
+      "snapshot_sha256": "c1948c0d7d89a56297be4b4751f3438a2d550a7ad30561866f3c6d612958087b",
+      "worktree_sha256": "99a95136fe3271f164323052c2fe9061c4571eb00044991517faf74e562d5538"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/scripts/pilot_core.py",
+      "status": "different",
+      "snapshot_sha256": "26282654c33a42d7b5b91eaf45e417fad3d7973a08bca14b7c836cde1f2adc1f",
+      "worktree_sha256": "07893c3c892d6616ad86a1a98ab676717233c5b3bb5bde3a797d1387bf5421b6"
+    },
+    {
+      "path": "knowledge_base/pilots/real_claims_001/scripts/validate.py",
+      "status": "identical",
+      "snapshot_sha256": "4967bf95f463f6dc221c0c195ab30d5b545ae946f00abd43c1119a7ee1b57d16",
+      "worktree_sha256": "4967bf95f463f6dc221c0c195ab30d5b545ae946f00abd43c1119a7ee1b57d16"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/dunedinpace_4b569983/LICENSE",
+      "status": "identical",
+      "snapshot_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "worktree_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/dunedinpace_4b569983/PACEProjector.R",
+      "status": "identical",
+      "snapshot_sha256": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e",
+      "worktree_sha256": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/dunedinpace_4b569983/manifest.json",
+      "status": "identical",
+      "snapshot_sha256": "233c590759249e08a727159edbf6d3cb5dd920a210b4857b8cd952374dbd72a5",
+      "worktree_sha256": "233c590759249e08a727159edbf6d3cb5dd920a210b4857b8cd952374dbd72a5"
+    },
+    {
+      "path": "knowledge_base/source_snapshots/verify_snapshots.py",
+      "status": "identical",
+      "snapshot_sha256": "5ced8a0150f7f2d4b5643f9f4932ce172a40de4147fdaa2a8edac9aef7dda5eb",
+      "worktree_sha256": "5ced8a0150f7f2d4b5643f9f4932ce172a40de4147fdaa2a8edac9aef7dda5eb"
+    },
+    {
+      "path": "papers/PUBLICATION_MAP.md",
+      "status": "identical",
+      "snapshot_sha256": "35d4af35d9a271303d109b162c37d99501886ced1079ecf8f20ae6c78910035f",
+      "worktree_sha256": "35d4af35d9a271303d109b162c37d99501886ced1079ecf8f20ae6c78910035f"
+    },
+    {
+      "path": "review/DEPENDENCIES_AND_LINKS_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "c9b50070208231f9218b768acac06c2f74cff6eb2551bca48c69b5171e753824",
+      "worktree_sha256": null
+    },
+    {
+      "path": "review/EXECUTION_DURATION_REVIEW_2026-11-27.md",
+      "status": "local_absent",
+      "snapshot_sha256": "104b6ec24e04d659795d68d290e6a08e1dde69e77179a4e5e7b989f10092afe8",
+      "worktree_sha256": null
+    },
+    {
+      "path": "review/local_source_snapshot.sha256",
+      "status": "identical",
+      "snapshot_sha256": "51cfbdc70f2681c9580a52e3de3222d9e473a7709975b42866925c66da7d2415",
+      "worktree_sha256": "51cfbdc70f2681c9580a52e3de3222d9e473a7709975b42866925c66da7d2415"
+    },
+    {
+      "path": "review/provenance_correction_2026-11-27.md",
+      "status": "identical",
+      "snapshot_sha256": "a89152e6a7fd61e4626d99acfe4742a2fe21bd40c626bf06103b467f8377935d",
+      "worktree_sha256": "a89152e6a7fd61e4626d99acfe4742a2fe21bd40c626bf06103b467f8377935d"
+    },
+    {
+      "path": "review/scaffold_audit_2026-11-27.md",
+      "status": "different",
+      "snapshot_sha256": "1be0cb7e86f4f60f2df9679fe041e3d688773dd11eee855c52fa4f3350b0f78f",
+      "worktree_sha256": "b487113932bfedb76db0ffe0531866dfb1df8b23b6c2001c154cfd08caf76a87"
+    },
+    {
+      "path": "scripts/package_delivery.py",
+      "status": "identical",
+      "snapshot_sha256": "661b3d5c63ce879fbc0e3b227ecab47a4f934115cb1ec1b764c87dad3980619d",
+      "worktree_sha256": "661b3d5c63ce879fbc0e3b227ecab47a4f934115cb1ec1b764c87dad3980619d"
+    },
+    {
+      "path": "scripts/run_validation.py",
+      "status": "different",
+      "snapshot_sha256": "b9b8cefcd38d2e3f054d86cacb3de9d2068f7080a7c4aa9356f0816709ef4693",
+      "worktree_sha256": "3fe5f49f26e1faa5b2909e92a27282fce7d395407dc504ec332924194363e35c"
+    },
+    {
+      "path": "tests/test_adversarial_complex.py",
+      "status": "identical",
+      "snapshot_sha256": "adc5d5085f84a404df3947da1209d2ab06a068d0aeeb45c4b4c9c7c55fe5a2fd",
+      "worktree_sha256": "adc5d5085f84a404df3947da1209d2ab06a068d0aeeb45c4b4c9c7c55fe5a2fd"
+    },
+    {
+      "path": "tests/test_project.py",
+      "status": "different",
+      "snapshot_sha256": "a7defdea93e4adaab9c74f5464009a2be4bd4784baf8a6a1f2f3635c731a2db0",
+      "worktree_sha256": "30b2a591357fc5344ccb86775c0b2c3163d5df044d38c48affdc9f14d94c83e0"
+    },
+    {
+      "path": "tools/dashboard_contract.py",
+      "status": "local_absent",
+      "snapshot_sha256": "ecdeedc98a967e9750b24383d17f5c3e55adcd8bedde3ce62720a8d26ed14794",
+      "worktree_sha256": null
+    },
+    {
+      "path": "tools/install_smoke.py",
+      "status": "different",
+      "snapshot_sha256": "4044e80c1ba94c7cab43d5dddb1b41226109589f035fa8da68c00ce5dba3fa21",
+      "worktree_sha256": "bceeec95813cef15a6c506835dd037dbd076801ec42edb4cf6351789125b1d74"
+    },
+    {
+      "path": "tools/markdown_links.py",
+      "status": "local_absent",
+      "snapshot_sha256": "b546e640b9208276e7494ade8e67f852e27e6072b0957655dfcd2f6dc036a04f",
+      "worktree_sha256": null
+    },
+    {
+      "path": "tools/package_delivery.py",
+      "status": "identical",
+      "snapshot_sha256": "03ec1b10e210d5d4289403fe83b0864932a31a8da47cb05f042d93e25233aec6",
+      "worktree_sha256": "03ec1b10e210d5d4289403fe83b0864932a31a8da47cb05f042d93e25233aec6"
+    },
+    {
+      "path": "tools/run_validation.py",
+      "status": "identical",
+      "snapshot_sha256": "96fb945d0e41b4914d5908125e69502abd0e85fa21d30b67a9b59f7171e6d6a6",
+      "worktree_sha256": "96fb945d0e41b4914d5908125e69502abd0e85fa21d30b67a9b59f7171e6d6a6"
+    },
+    {
+      "path": "tools/verify_history.py",
+      "status": "identical",
+      "snapshot_sha256": "f00a633d5d3e229aac96496df84efbfa140b781b417f9d3fb25639cf1dd9cd3b",
+      "worktree_sha256": "f00a633d5d3e229aac96496df84efbfa140b781b417f9d3fb25639cf1dd9cd3b"
+    }
+  ],
+  "scope": "Bytes on upstream-changed paths only; not semantic equivalence, review or a merge."
+}
