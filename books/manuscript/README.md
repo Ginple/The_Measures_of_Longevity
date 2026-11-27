@@ -36,3 +36,7 @@ CALERIE 停用两年的单中心随访仅分析依从性筛选的完成者，体
 VITAL 是与 DO-HEALTH 不同的随机试验，可补充 D 和 omega-3 主效应的信息，但缺随机运动因子且人群、配方、终点与对比不同，不能当三项组合独立复制；晚期癌复合是同一 VITAL 的后续分析而非另一试验，见 [X53 比较审计](../../knowledge_base/VITAL_DO_HEALTH_CANCER_COMPARISON_2026-11-27.md)。P2 的 [两类混合锐界](../../knowledge_base/experiments/P2_TWO_TYPE_SHARP_BOUNDS_2026-11-27.md)只是数学草案，不可套用非线性时钟或作真实患者估计。
 
 进一步检索 [FIND 与潜在复现研究](../../knowledge_base/FIND_AND_REPLICATION_SEARCH_AUDIT_2026-11-27.md)：FIND 是不同剂量的维生素 D 单因素试验，DO-HEALTH-C 是原试验观察性延续；FIND 的癌症亚组计数口径仍待澄清（X55），不能直接沿用。P2 [附加测量锐界](../../knowledge_base/experiments/P2_ADDITIONAL_MEASUREMENT_BOUNDS_2026-11-27.md)只有在有效权重及额外测量约束可靠时才适用。
+
+P2 的[双混合观测](../../knowledge_base/experiments/P2_TWO_MIXTURE_INVERSION_2026-11-27.md)说明两个已知不同权重只有在共用类型值和线性模型成立时才可反解；权重过近会放大误差（X56）。它不能把前后样本默认视为组分不变，也不是实际时钟或个体轨迹结果。
+
+DO-HEALTH 2026 年癌症与功能/钟轨迹是同一试验内的观察性比较，不是独立随机复制或验证中介；功能主结果汇总多个测量时点，正文敏感性数值标签与单位交叉，见 [X57–X58](../../knowledge_base/DO_HEALTH_CANCER_FUNCTION_2026_AUDIT_2026-11-27.md)。

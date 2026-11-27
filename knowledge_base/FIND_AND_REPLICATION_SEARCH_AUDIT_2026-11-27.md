@@ -25,3 +25,20 @@
 | [NCT05955248](https://clinicaltrials.gov/api/v2/studies/NCT05955248) 和 [NCT04610606](https://clinicaltrials.gov/api/v2/studies/NCT04610606) | 肺癌手术前后复健的多营养素/运动研究，目标为术后功能或可行性，含额外蛋白等；不是一般人群癌症发生预防复现。前者状态 UNKNOWN、后者因疫情终止；未核结局报告。 |
 
 后续需预设数据库、同义词与时间范围，逐条审查研究设计和终点，进一步检查 WHO ICTRP、欧洲登记及新发表报告，并核作者对 FIND 表3/退出删失的解释；当前没有联系作者或外部审稿人。
+
+## 4｜补充材料及扩展检索（续）
+
+阅读 [FIND 补充材料 DOCX 的可提取文本](https://pmc.ncbi.nlm.nih.gov/articles/instance/9071497/bin/nqab419_supplemental_file.docx)，其中有功效计算、血清测定和子队列特征，但本次读取的文字没有解释表2/表3的癌症计数差异或 412 人退出删失与“无失访”的关系；补充图中的图形内容未由文本提取完整，不等于检查了全部图像细节。补充方法说 52 月邀请 120、116 同意，其中 60 来自子队列、54 来自其余人；然而同一句括号列其余三组 18+18+20=56，补图2图注也写 56；`60+54=114`，`60+56=116`。这是**文字计数不一致**，不能据此判定哪项错误，且不能把它迁移成主癌症终点错误。亦未取得原始样本名单或联系作者。
+
+扩展 [ClinicalTrials.gov 查询](https://clinicaltrials.gov/api/v2/studies?query.term=%28vitamin%20D%20OR%20cholecalciferol%29%20AND%20%28fish%20oil%20OR%20DHA%20OR%20EPA%29%20AND%20%28exercise%20OR%20%22physical%20activity%22%29%20AND%20cancer&pageSize=100&countTotal=true&fields=NCTId%2CBriefTitle%2COverallStatus%2CStudyType)为 D/鱼油/运动同义词，返回 20 条简表。另看以下可能误命中的登记：
+
+- [NCT01178892 MsFLASH-02](https://clinicaltrials.gov/api/v2/studies/NCT01178892)：随机 omega-3 与瑜伽/运动/平常活动，研究更年期症状而非三项癌症预防，未有随机 D 因子。
+- [NCT03831841 EXERNET](https://clinicaltrials.gov/api/v2/studies/NCT03831841)：非随机运动、测量 25-OH D 与功能；不是补充 D 和 omega-3 的随机组合。
+- [NCT04574323](https://clinicaltrials.gov/api/v2/studies/NCT04574323)：乳癌放疗中的非随机生活方式可行性研究；登记称不允许补充剂，不是一般人群新发癌的随机预防。
+- [NCT04871412 POISE](https://clinicaltrials.gov/api/v2/studies/NCT04871412)：已患胸部肿瘤手术者的多组分综合照护，含个体化 D、鱼油和运动建议等额外措施；登记估计纳入 20，不能视为相同剂量、对照、目标人群和结局的验证。
+- [NCT07007169 MEDITERRACARE](https://clinicaltrials.gov/api/v2/studies/NCT07007169)：早期乳癌治疗期间的地中海饮食随机试验，主要为肠道微生物变化，不是相同预防试验。
+- [NCT03372109](https://clinicaltrials.gov/api/v2/studies/NCT03372109)：23 人随机改良禁食和多补充剂，主要体重；不是三项组合癌症预防试验。
+
+这些是选定记录的定向设计排除，不是对 20 条全部全文筛选，登记查询受术语、字段和覆盖范围限制；无关候选不证实三项复制不存在。
+
+原 DO-HEALTH [登记](https://clinicaltrials.gov/api/v2/studies/NCT01745263)当前版本 `otherOutcomes` 列 incident cancer（any、胃肠、乳腺、前列腺）及 36 个月；与癌症论文将其称为预定义探索性结局相符，但当前 2018 更新记录不能独自证明每个特定对比、模型、方案版本或分析时序均为事先确定，需核登记历史与完整预设分析计划。
