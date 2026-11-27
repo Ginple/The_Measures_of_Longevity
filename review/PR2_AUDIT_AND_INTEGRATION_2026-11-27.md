@@ -40,4 +40,40 @@
 
 ## 后续：CAPABLE 和CI依赖
 
-[CAPABLE续审](../knowledge_base/CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)重新核设计文、当前登记、结果文，按本分支新增X79/X80；2025出院后研究仅读摘要，暂不定量综合。用户修复账单后，PR1@375fe09的两条旧配置 Actions 均实际成功；本轮新增Python 3.11版本清单和干净环境安装验证，范围及PR2旧检查重跑受权限阻塞见 [CI回执](CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。新配置的远端结果须看本次提交的检查，不能提前称通过。
+[CAPABLE续审](../knowledge_base/CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)重新核设计文、当前登记、结果文，按本分支新增X79/X80；2025出院后研究仅读摘要，暂不定量综合。用户修复账单后，PR1@375fe09的两条旧配置 Actions 均实际成功；本轮新增Python 3.11版本清单和干净环境安装验证，范围及PR2旧检查重跑受权限阻塞见 [CI回执](CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。新配置在 PR1 `dd47ce68a5bad07d814c3685786e12d601327c49` 的 push 和 pull_request 两条远端检查均已成功；GitHub 对 Actions Node.js 20 发出弃用警告。之后用户报告 Actions 权限可能修复，再次尝试 PR2 两次旧检查仍无法重跑，API 再次返回 403，详见CI回执。
+
+## 后续：共同组分与七例开发回归
+
+按同一 PR2 固定头继续审查：择取[共同组分联合界](../knowledge_base/experiments/PR2_SHARED_COMPONENT_BOUNDS_2026-11-27.md)、精确算术脚本与有限网格测试，保留额外共同假设及不可行情况；测试另补两个边界。择取 P3 的七例[开发比较夹具](../knowledge_base/experiments/assurance_fixture_comparison.py)与测试，使用临时副本，修改 `assert` 为显式失败，避免 `-O` 静默跳过；范围与不同 oracle 下的解释见[P3 合同](../papers/P3_research_assurance/PR2_EVALUATION_PLAN_2026-11-27.md)。首次使用系统 Python 因未安装 jsonschema 报错，改用此前已安装固定清单的隔离环境复跑；隔离环境下根验证通过：项目110、实验98、pilot21，双种子及搬迁一致、0新增/29历史断链、快照普通与 `-O` 一致；夹具测试在普通和 `-O` 模式各4项通过，共同组分测试4项通过。这些是人工演示及开发回归，不是独立评估、真实数据分析或 P1/P2 论文结构的作者裁决。
+
+## 后续：HARP 原方案和登记
+
+沿固定头 HARP 备忘录重新定向核读[2014标记方案、2017方案、2021结果文和当前登记](../knowledge_base/HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)，补充已有X44，并在本分支新增X112/X113，记录人口及分层描述、量表题项与计分冲突；额外发现黑人分组的表格/登记对调和摘要/方法分层描述不同。不能将当前登记当历史记录，亦未获得个体数据或作者说明；不裁定违规、数值错误或偏倚方向。不改历史冻结稿。本地固定依赖环境根验证通过：项目110、实验98、pilot21，双种子与搬迁一致，0新增/29历史断链；这是软件及链接合同，不是对文献结论的独立认证。
+
+## 后续：FIND 骨折、跌倒及 VITAL
+
+沿 PR2 固定头的 FIND 线索重新定向核读[骨折、跌倒及VITAL原文](../knowledge_base/FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)；同一FIND多个结局不是独立试验，VITAL是独立母试验但剂量及骨折测量不同。记录 1600 IU附属骨折名义信号、共同对照、缺失和延长随访不同删失，不能将非显著当等效或将信号当普遍危害。沿 PR2 线索登记本分支X114（表1条件算术），另登记X115（两论文表列相同人年及风险时间定义待核）；均未裁定哪处错误或HR偏差。未核骨折补充表、代码、个体数据或独立审稿。定向算术复算及固定依赖环境根验证通过（项目110、实验98、pilot21；0新增/29历史断链、双种子及搬迁一致），工程验证不验证科学结论。
+
+## 后续：COLCOT 与 LoDoCo2
+
+沿固定头备忘录定向核读 [LoDoCo2作者稿和COLCOT 2024预印本v1](../knowledge_base/COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)；COLCOT最终版正文不可访问，不能把v1数值当作已核最终发表数或将两版当独立样本。择取[随机后选择人工例](../knowledge_base/experiments/post_randomization_selection_demo.py)及测试，移入实验套件；合成选择机制非真实偏差估计。登记X116（LoDoCo2导入期数值口径）和X117（COLCOT观察单位与阈值），澄清KERNEL的母试验/子样本并升至v0.9.8。未取得患者级数据、完整补表或独立外审，未修改冻结稿。
+
+## 后续：分选样本与总体比例
+
+复核固定头的[分选敏感性例](../knowledge_base/experiments/PR2_SORTED_SAMPLE_SENSITIVITY_2026-11-27.md)、uPAR原文Fig 1及两个GEO样本元数据；移植脚本与测试并补概率网格和边界测试。示例的假定纳入比、固定标签及精确总体分布不能当真实回收率、独立功能真值或有限样本校正；GEO目标捕获数不证明实际概率。相关问题沿用X66/X68/X71，未下载矩阵、运行作者R或校正真实约60%。
+
+## 后续：CALERIE S3 舍入与条件分母
+
+根据固定头的补表续核线索重新读取 [S3及论文样本](../knowledge_base/CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)，择取精确舍入候选脚本和测试，增加空观测显式失败、纯十进制格式、交集和不相容输入。57（29.8%）按指定最近舍入假设的整数分母唯一候选为191，但不能据此确定研究分母或患者身份；同母试验另一191人分析不证明样本相同。分别记录190/191下的条件完整例界，X60仍开放。未复算患者资料或自行修正论文。
+
+## 后续：CANTOS 亚组与临床交互
+
+沿固定头笔记定向复核 [CANTOS 2022基因子研究、2017母试验摘要、2023蛋白报告与TECTONIC登记](../knowledge_base/CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)，补充X118，保留X73单位差异；区分单剂量与合并剂量、层内名义检验与交互、同试验不同报告及不同药物。择取PR2人工独立多重检验脚本与测试，另加有限网格上的联合界测试；其概率不是研究实际错误率。未复算原始试验数据、完整补表或确定结果的全部检验家族。
+
+## 后续：CALERIE 脂质中介与公开同行评议
+
+沿固定头线索重新读 [脂质组正文、图6及公开评议/回应](../knowledge_base/CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，区分试验预设探索指标与该事后分析未预注册、随机治疗与未随机中介、单项区间与整体多重性；登记X119/X120，补充X60的同母试验S17计数线索，未判断样本身份或发表计算错误。公开评议表明论文自身经过审阅，不等于本项目独立外审。新增[人工随机中介等价世界](../knowledge_base/experiments/randomized_mediator_equivalent_worlds.py)及测试，展示即使两组中介都有正概率，未测中介—结局混杂可导致同一观测分布对应不同自然效应；它不是对真实试验偏差的估算。完整补充资料本次抓取HTTP 500，作者程序、患者数据与独立复算未取得。
+
+## 后续：健康寿命差的共享坐标及区间
+
+按固定头对PR1的增量审计线索核读 [2024论文的Methods、Fig 3及结果](../knowledge_base/HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)，记录X121（均值±1.96跨国SD标称95% CI）及X122（均值/差值共享变量）；保留X21/X61。新[人工精确代数脚本](../knowledge_base/experiments/mean_difference_shared_axes.py)和测试给正、负、零协方差及网格检查，不估计真实国家关系，也不说明实际相关全为伪影。未获取作者代码或WHO历史数据，未改冻结稿。

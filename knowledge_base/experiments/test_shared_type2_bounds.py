@@ -28,6 +28,14 @@ class SharedType2BoundsTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             shared_type2_change_bounds(0, 1, 1, 1, 1, 0)
 
+    def test_boundary_weights_and_singleton_feasible_set(self):
+        self.assertEqual(shared_type2_change_bounds(F(1, 3), F(2, 3), 1, 1, 0, 1),
+                         ((F(1, 3), F(1, 3)), (F(0), F(1))))
+        self.assertEqual(shared_type2_change_bounds(0, F(1, 2), F(1, 2), 1, 0, 1),
+                         ((F(1, 2), F(1, 2)), (F(0), F(0))))
+        with self.assertRaises(ValueError):
+            shared_type2_change_bounds(F(1, 2), F(1, 2), 0, 1, 0, 1)
+
     def test_exact_grid_feasibility_and_attainment(self):
         grid = [F(i, 4) for i in range(5)]
         positive = grid[1:]

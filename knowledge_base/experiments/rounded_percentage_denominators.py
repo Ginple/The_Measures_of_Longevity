@@ -5,6 +5,7 @@ allowed on both sides. This is arithmetic, not inference about actual cohorts.
 """
 from fractions import Fraction
 import json
+import re
 
 
 def candidate_denominators(observations, min_n, max_n, decimal_places=1):
@@ -20,8 +21,9 @@ def candidate_denominators(observations, min_n, max_n, decimal_places=1):
     pairs = []
     step = Fraction(1, 10 ** decimal_places)
     for count, pct_text in observations:
-        if type(count) is not int or count < 0 or not isinstance(pct_text, str):
-            raise ValueError('counts must be nonnegative integers; percentages decimal strings')
+        if (type(count) is not int or count < 0 or not isinstance(pct_text, str)
+                or re.fullmatch(r'[0-9]+(?:\.[0-9]+)?', pct_text) is None):
+            raise ValueError('counts must be nonnegative integers; percentages plain decimal strings')
         try:
             pct = Fraction(pct_text)
         except (ValueError, ZeroDivisionError) as exc:
@@ -29,6 +31,8 @@ def candidate_denominators(observations, min_n, max_n, decimal_places=1):
         if not 0 <= pct <= 100 or pct / step != int(pct / step):
             raise ValueError('percentage must be in range and at the stated precision')
         pairs.append((count, pct))
+    if not pairs:
+        raise ValueError('at least one count and percentage observation required')
     return [n for n in range(min_n, max_n + 1)
             if all(count <= n and abs(Fraction(100 * count, n) - pct) <= step / 2
                    for count, pct in pairs)]

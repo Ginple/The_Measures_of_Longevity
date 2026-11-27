@@ -1,9 +1,6 @@
 from fractions import Fraction
-from pathlib import Path
-import sys
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'knowledge_base' / 'experiments'))
 from rounded_percentage_denominators import candidate_denominators
 
 
@@ -27,8 +24,21 @@ class RoundedDenominatorTests(unittest.TestCase):
         self.assertEqual(candidate_denominators([(1, '13')], 8, 8, 0), [8])
         self.assertEqual(candidate_denominators([(0, '0.0')], 1, 3), [1, 2, 3])
 
+    def test_joint_candidates_are_intersection(self):
+        first = [(1, '25.0')]
+        second = [(2, '50.0')]
+        combined = candidate_denominators(first + second, 1, 30)
+        self.assertEqual(combined, sorted(set(candidate_denominators(first, 1, 30)) &
+                                          set(candidate_denominators(second, 1, 30))))
+        self.assertEqual(combined, [4])
+        self.assertEqual(candidate_denominators([(1, '25.0'), (2, '40.0')], 1, 30), [])
+
+    def test_reject_empty_observations(self):
+        with self.assertRaises(ValueError):
+            candidate_denominators([], 1, 10)
+
     def test_reject_invalid_inputs(self):
-        for rows in [[(-1, '1.0')], [(True, '1.0')], [(1, '1.00x')], [(1, '1.05')], [(1, '101')], [(1, 1.0)]]:
+        for rows in [[(-1, '1.0')], [(True, '1.0')], [(1, '1.00x')], [(1, '1.05')], [(1, '101')], [(1, 1.0)], [(1, '1/2')], [(1, '1e0')]]:
             with self.subTest(rows=rows), self.assertRaises(ValueError):
                 candidate_denominators(rows, 1, 10)
         with self.assertRaises(ValueError):

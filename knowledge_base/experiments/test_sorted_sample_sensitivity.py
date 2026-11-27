@@ -1,10 +1,7 @@
 """Synthetic selection sensitivity, not a tissue prevalence calculation."""
 from fractions import Fraction as F
-from pathlib import Path
-import sys
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'knowledge_base' / 'experiments'))
 from sorted_sample_sensitivity import sample_from_population, population_from_sample, population_bounds
 
 
@@ -29,6 +26,27 @@ class SortedSampleSensitivityTests(unittest.TestCase):
                 t = F(n, denominator)
                 for r in (F(1, 10), F(1, 2), F(1), F(3), F(10)):
                     self.assertEqual(population_from_sample(sample_from_population(t, r), r), t)
+
+    def test_selection_rates_exhaustive_rational_grid(self):
+        # Independently count expected selected masses for all feasible
+        # positive inclusion probabilities on a small rational grid.
+        for t_num in range(6):
+            t = F(t_num, 5)
+            for u in range(1, 6):
+                for v in range(1, 6):
+                    p_plus, p_minus = F(u, 5), F(v, 5)
+                    positive_mass = t * p_plus
+                    negative_mass = (1 - t) * p_minus
+                    direct = positive_mass / (positive_mass + negative_mass)
+                    self.assertEqual(sample_from_population(t, p_plus / p_minus), direct)
+                    self.assertEqual(population_from_sample(direct, p_plus / p_minus), t)
+
+    def test_zero_and_one_sample_bounds(self):
+        self.assertEqual(population_bounds(0, F(1, 2), 2), (0, 0))
+        self.assertEqual(population_bounds(1, F(1, 2), 2), (1, 1))
+        for q in (F(-1, 2), F(3, 2)):
+            with self.assertRaises(ValueError):
+                population_bounds(q, F(1, 2), 2)
 
     def test_invalid_input(self):
         for f, r in [(F(-1, 2), 1), (F(3, 2), 1), (F(1, 2), 0), (F(1, 2), -1)]:

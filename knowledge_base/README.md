@@ -104,3 +104,32 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 - 架构：[四向深研证据包](../books/ARCHITECTURE_DEEP_RESEARCH_2026-11-27.md)与[预注册审计协议](../review/ARCHITECTURE_AUDIT_PROTOCOL_2026-11-27.md)；尚未裁决。
 - 合成实验：[H-SR1 在已发表人类参数下的稳健性](experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md)（X94）。
 - 台账：X90 已裁决，X91 已更新，新增 X94–X101；前沿第 4 期及 U18–U20。
+
+## 2026-11-27 第 5 轮：PR #2 移植复核，并入 PR #1 增量
+
+- [PR #2 移植复核](../review/PR2_PORT_REVIEW_2026-11-27.md)：14 份审计中 10 份有新结论，记为 X102–X111。架构 L1 评分卷与 L2 隔离审计包见 `review/`。
+- 合并 PR #1 的 dd47ce6..1c7334a 增量。PR #1 原编号 X81–X91 顺延为 X112–X122，KERNEL 对应变更记为 v0.9.9。与 X102–X111 的重复对应表见 [台账](CLAIM_LEDGER.md)。合并记录见 [PR #1 增量审计](../review/PR1_INCREMENT_1C7334A_MERGE_2026-11-27.md)。
+
+## PR #1 增量（dd47ce6..1c7334a，编号已顺延 +31）
+
+### HARP 方案与登记续核
+
+[HARP续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)以 PR2 固定来源为线索，核标记2014的方案、2021结果和当前登记；X44补充且X112/X113开放。首次事件、重复事件和不同分母不能互换；登记当前版本不证明历史修订，也未取得个体数据或独立审阅。
+
+### FIND 跌倒与骨折续核
+
+[FIND/VITAL 骨折与跌倒定向核读](FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)区分同一母试验的多结局、骨折干预及延长随访与独立VITAL的不同剂量/结局；X114/X115为待澄清口径，未取得原始数据或独立审核，不是个人医疗建议。
+
+### 克隆造血、取样与测序续核
+
+[LoDoCo2/COLCOT比较](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)区分母试验、随机后DNA样本、检出规则及临床终点；登记X116/X117，保留COLCOT仅核2024预印本v1的限定。人工选择例不估计真实偏差；KERNEL更新至v0.9.8，冻结V7不改。
+
+[分选后比例的条件敏感性示例](experiments/PR2_SORTED_SAMPLE_SENSITIVITY_2026-11-27.md)择取 PR2 的精确算术与测试，补充uPAR分选后与总体的区别；假设的纳入比不代表真实回收率。
+
+[CALERIE补表条件舍入与缺失续核](CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)引入PR2的精确分数算术：在指定舍入规则下57（29.8%）对应的整数分母候选为191，不能据此判定实际样本或完整记录人数。
+
+[CANTOS TET2临床交互续审](CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)区分亚组内检验、组间交互、三剂量合并与母试验单剂量，以及同试验不同报告；人工多重性例不是论文实际假阳性率。
+
+[CALERIE脂质中介与公开评议续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)区分随机总效果、未随机中介和同试验报告，登记X119/X120并补充X60线索；[人工等价世界](experiments/randomized_mediator_equivalent_worlds.py)不是患者数据。
+
+[HALE共享坐标与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)根据PR2增量审计核图3A的均值/差值共享项及标称95%区间，人工例不拟合国家数据；X121/X122开放。

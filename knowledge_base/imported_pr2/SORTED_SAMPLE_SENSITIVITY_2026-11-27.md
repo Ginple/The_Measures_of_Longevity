@@ -28,4 +28,4 @@
 
 [作者公开 GEO `GSE233431`](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE233431) 列出四个分选样本 `GSM7913144–GSM7913147`（正/负 × 雌/雄），以及 105.2 MB 原始 H5 压缩包和多个处理后文件。GEO 的两个雄性样本元数据（[阳性](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7913144)、[阴性](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7913146)）均说每样本调整以目标捕获8000细胞；这支持分别制备样本，但不确定实际类内纳入概率。其 QC 描述与固定代码存在待澄清差异，见[增量审计](../../review/pr2_archive/PR1_INCREMENTAL_AUDIT_52DD494_2026-11-27.md)。这里只核元数据，**未下载矩阵、未运行 R、未核池内动物映射、分选比例或 60%**，也未取得流式分选前后全部计数。GEO 提供输入路径不等于作者运行版本和完整环境已确定。
 
-运行 `python knowledge_base/experiments/sorted_sample_sensitivity.py`；[4项测试](../../tests/test_sorted_sample_sensitivity.py)检验精确反演、端点、离散网格与无效输入，仅验证代数及代码。领域、统计及独立外审仍未完成；不作医疗建议。
+运行 `python knowledge_base/experiments/sorted_sample_sensitivity.py`；[6项测试](../experiments/test_sorted_sample_sensitivity.py)（合并 PR #1 后为其超集版本）检验精确反演、端点、离散网格与无效输入，仅验证代数及代码。领域、统计及独立外审仍未完成；不作医疗建议。

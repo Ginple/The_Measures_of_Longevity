@@ -47,7 +47,9 @@ def apply_case(root,project,case):
     elif case=='irrelevant_append':
         source.write_bytes(source.read_bytes()+b'Unrelated synthetic appendix.\n')
     elif case in ('source_number_changed','source_rewritten_and_rebound'):
-        text=source.read_text();assert '3 of 10' in text
+        text=source.read_text()
+        if '3 of 10' not in text:
+            raise ValueError('fixture source no longer contains the expected baseline text')
         source.write_text(text.replace('3 of 10','7 of 10'))
         if case=='source_rewritten_and_rebound':
             _artifact(project,'A-source')['sha256']=sha256(source.read_bytes())

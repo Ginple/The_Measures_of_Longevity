@@ -1,6 +1,6 @@
 """Tests the fixture mechanics, not general detector efficacy."""
 from pathlib import Path
-import hashlib, importlib.util, json, unittest
+import copy, hashlib, importlib.util, json, shutil, tempfile, unittest
 P=Path(__file__).resolve().parents[1]
 s=importlib.util.spec_from_file_location('fixture_comparison',P/'knowledge_base/experiments/assurance_fixture_comparison.py')
 m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
@@ -23,5 +23,14 @@ class ComparisonTests(unittest.TestCase):
   self.assertEqual(lookup('E','irrelevant_append'),'stale')
  def test_empty_or_unknown_is_not_silent_success(self):
   with self.assertRaises(ValueError):m.apply_case(P,{},'nonexistent')
+ def test_changed_fixture_fails_closed(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td)/'toy';shutil.copytree(P/'examples/toy',root)
+   project=copy.deepcopy(json.loads((root/'project.json').read_text()))
+   source=m.confined(root,m._artifact(project,'A-source')['path'])
+   source.write_text('baseline no longer matches\n')
+   for case in ('source_number_changed','source_rewritten_and_rebound'):
+    with self.assertRaisesRegex(ValueError,'expected baseline text'):
+     m.apply_case(root,project,case)
 
 if __name__=='__main__':unittest.main()

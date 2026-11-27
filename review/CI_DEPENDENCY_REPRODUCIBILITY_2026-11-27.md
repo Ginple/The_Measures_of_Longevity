@@ -10,4 +10,4 @@
 
 ## PR #2 的旧检查及重跑权限
 
-PR #2 固定头 `b8434e22` 的两次历史检查仍为因账单未启动的失败。修复账单不会自动重跑；本轮对旧的两个 run 各尝试 `gh run rerun --failed`，CLI 提示无法重跑。进一步查询 Actions rerun API 返回 HTTP 403 `Resource not accessible by integration`；这是集成权限限制，不等于账单仍坏，也不是测试失败。需要具备 Actions 重跑权限的用户从 GitHub UI 重跑，或在 Arena 重新连接并授权 GitHub Actions；此处未切换或推送 PR2 分支。不要将 PR #1 新检查成功当作 PR #2 的测试成功。
+PR #2 固定头 `b8434e22` 的两次历史检查仍为因账单未启动的失败。修复账单不会自动重跑；本轮对旧的两个 run 各尝试 `gh run rerun --failed`，CLI 提示无法重跑。进一步查询 Actions rerun API 返回 HTTP 403 `Resource not accessible by integration`；这是集成权限限制，不等于账单仍坏，也不是测试失败。需要具备 Actions 重跑权限的用户从 GitHub UI 重跑，或在 Arena 重新连接并授权 GitHub Actions；此处未切换或推送 PR2 分支。随后用户报告 Actions 权限可能已修复，2026-11-27 再次对两个 run 调用 `gh run rerun --failed` 均仍显示无法重跑；对 `46046945270` 的 rerun API 再查仍为 HTTP 403 `Resource not accessible by integration`。不能确定权限变更尚未生效还是当前集成缺少所需授权；结果依旧是未重跑。不要将 PR #1 新检查成功当作 PR #2 的测试成功。

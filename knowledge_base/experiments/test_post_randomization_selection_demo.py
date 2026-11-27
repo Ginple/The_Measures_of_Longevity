@@ -1,9 +1,6 @@
 """Regression for an intentionally constructed post-randomization selection example."""
-from pathlib import Path
-import sys
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'knowledge_base' / 'experiments'))
 from post_randomization_selection_demo import demo
 
 

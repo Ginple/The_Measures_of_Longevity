@@ -183,3 +183,38 @@ X74 后续：Fig 7 图注规定首次照射前一天开始抗体；正文相关�
 | X109 | 2026-11-27 | HARP 登记、方案与论文之间的另外三处口径差异 | 登记的主要结果字段为跌倒次数（201 对 316），方案与论文的主要分析为首次跌倒时间；FES-I 版本不同（论文为 10 项、每项 1–10 分，登记为 7 项、每项 1–4 分）；女性人数 229/243/244 三种写法；跌倒者 67+74=141，正文写 140。来源：[HARP 复核](imported_pr2/HARP_PROTOCOL_REGISTRY_RECHECK_2026-11-27.md) | 本轮未重读；可能都是口径问题 | 补充 X44；书中不引用 FES-I 数值与人口学计数 | open |
 | X110 | 2026-11-27 | FIND 维生素 D：1600 IU 组骨折增多是名义信号，不是已证实的伤害 | [Bone 2026，118081](https://www.sciencedirect.com/science/article/pii/S8756328226003078)，本轮已核摘要：干预期 49/73/52 例，1600 IU 组 HR 1.52（1.06–2.18），3200 IU 组 1.07（0.72–1.58）；延长随访 HR 1.40（1.08–1.80）。VITAL（2,000 IU）骨折 HR .98（.89–1.08）。来源：[FIND 审计](imported_pr2/FIND_CANCER_FALLS_FRACTURES_2026-11-27.md)，其中另指出表 1 中 309/829=37.3%，而印的是 33.1% | 附属分析、多剂量多结局；剂量不单调 | 写作：同一试验的癌症、跌倒、骨折不是三次复现；不写"维生素 D 有害"，也不写"无效" | open |
 | X111 | 2026-11-27 | WHO 年龄友好环境证据地图的范围 | [WHO 2026-11-10 发布](https://www.who.int/news/item/10-11-2026-who-releases-global-mega-map-on-age-friendly-environments)，本轮已核：1,542 篇系统综述加 3 张证据地图（2002–2025）；只有 2 篇综述评估整个年龄友好城市项目；交通、公民参与、尊重与包容的证据较少，公平与经济结局罕见；WHO 明说地图不表示哪种干预最好。来源：[年龄友好证据范围](imported_pr2/AGE_FRIENDLY_EVIDENCE_SCOPE_2026-11-27.md) | 综述之间有重叠，不能把综述数当作试验数 | 卷三环境章用作"证据分布"背景，不用作效果证据 | resolved（一手核对） |
+
+X44 后续：依据 PR2@b8434e22 线索，核登记当前结果及标注2014的方案：[HARP续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)记录首次事件/总数的口径、135/140与127/126分母的登记解释和不同起算点；当前登记不证明历史变更，未判违规或偏倚方向。
+
+X60 后续：按 PR2@b8434e22 的线索重新核 S3，若57（29.8%）由整数分母最近舍入至一位小数产生，分母只可能191；这不证明实际分母或样本身份，其他口径仍可能。[条件舍入与完整例界](CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)同时列190/191下不同假设界；X60仍开放。
+
+X60 又一线索：[脂质研究的公开评议回复](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf) S17临床缺失表中AUC insulin基线57、12月33、24月6，与轨迹文S3相同；基线29.8429%与191分母算术相容。两报告样本身份与表格生成过程未核，不能将相同摘要计数当同一个样本的证据。[续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)；X60仍开放。
+
+### PR #1 增量（合并 1c7334a；PR #1 原编号 X81–X91 → 本台账 X112–X122）
+
+PR #1 在 dd47ce6 之后与本分支并行，各自从 X81 起编号，两边同号不同义。合并时本分支 X81–X111 保持不变，PR #1 新增条目整体顺延 31 号（X81→X112 … X91→X122），其增量文件内的引用已同步改号。下列条目与本分支 X102–X111 是同一发现的两次独立核读，**不是两项独立证据**：
+
+| PR #1 条目 | 对应本分支条目 | 关系 |
+|---|---|---|
+| X116（原 X85）LoDoCo2 导入期 β | X102 | 同一原文数字，两次核读一致 |
+| X117（原 X86）COLCOT 抽样与单位 | X104 | 互补：X117 细化观察单位与检出阈值 |
+| X118（原 X87）CANTOS TET2 交互 | X103 | 同一发现 |
+| X119/X120（原 X88/X89）CALERIE 脂质中介 | X105 | X119/X120 更细：暴露定义与公开评议中"事后分析"表述 |
+| X112/X113（原 X81/X82）HARP 人口与 FES-I | X109 | 同一发现 |
+| X114（原 X83）FIND 表 1 309/829 | X110 | X110 只附带提及 |
+| X60 后续（舍入分母 191） | X106 | 同一算术，两次独立实现 |
+| X115、X121、X122 | 无 | 本分支未覆盖，直接保留 |
+
+| ID | 日期 | 事项 | 证据 | 不确定点 | 处置 | 状态 |
+|---|---|---|---|---|---|---|
+| X112 | 2026-11-27 | HARP 人口表、登记与分层随机描述冲突 | [论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/)摘要女性229、黑人161，正文243和170；[表1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/table/zoi210656t1/)黑人对照83/HARP87，HARP女性122+男性34=156；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT02392013)黑人对照87/HARP83，男女各122/33 | 摘要称按种族和性别分层，方法称年龄和性别；原始分层与表格、勘误及版本未核，不能选一处静默修正或判定偏倚 | [续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)；索取随机化日志、数据字典、作者说明 | open |
+| X113 | 2026-11-27 | HARP 跌倒效能量表题项和计分描述不一致 | [论文 Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/)称短版10项各1–10；表1脚注称每项1–4；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT02392013)称7项各1–4、总分7–28 | 表中均值与登记范围相容不确定真实问卷；未核问卷、计分代码及修订，不判计算错误 | [续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)；核实际问卷、计分、作者和勘误 | open |
+| X114 | 2026-11-27 | FIND骨折论文表1跌倒史人数与百分比条件算术 | [表1](https://www.sciencedirect.com/science/article/pii/S8756328226003078#t0005)1600 IU组过去一年至少一次跌倒 309（33.1%），分母829；309/829≈37.3% | 若分子、分母和百分比为同一口径则不符；表格转录、实际定义及数据未核，不能指定修改或推断骨折HR有误 | [专项续审](FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)，核原表、数据字典、勘误及作者 | open |
+| X115 | 2026-11-27 | FIND骨折及癌症表共用相同人年与风险集口径 | [2022表2](https://pmc.ncbi.nlm.nih.gov/articles/PMC9071497/table/tbl2/)与[2026表2](https://www.sciencedirect.com/science/article/pii/S8756328226003078#t0010)三组均列3480.0、3558.2、3538.4人年；骨折方法还列首骨折终止 | 可能为共用描述性人年、事件处理或不同口径；条件性比较依赖同一人群、其他删失和精度，未核模型实际风险人时，不能判结果错误 | [专项续审](FIND_FRACTURE_FALLS_VITAL_AUDIT_2026-11-27.md)，核原始人时计算、事件日期和模型代码 | open |
+| X116 | 2026-11-27 | LoDoCo2导入期估计、区间和P值的报告口径 | [作者稿 Results](https://pmc.ncbi.nlm.nih.gov/articles/PMC12557339/)报告 β=−.026，95% CI −.099至−.046，P=.48；点估计在报告区间外 | 如果各值指同一参数、通常同一双侧检验则需解释；开放标签导入非随机对照；补图、统计输出、勘误与作者未核，不指定修改 | [专项审计](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)，核完整模型及输出；原文报告冲突不是计算错误判决 | open |
+| X117 | 2026-11-27 | COLCOT预印本抽样、检测阈值与变异/观察单位 | [2024 v1](https://www.medrxiv.org/content/10.1101/2024.10.17.24315679v1.full) 848人两次DNA，Results列1954 unique variants、15919 longitudinal observations，摘要称15919 mutations；参照样品的检出与PPV随过滤阈值变化 | 选择取样、治疗后首样及有限参照性能限制解释；2026发表版正文未读，不能当最终版数字；阈值检验不是对真实疗效偏差的定量估计 | [专项审计](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)，取补表、最终文、代码与授权数据 | open |
+| X118 | 2026-11-27 | CANTOS TET2 分层临床事件信号与效应交互、同源报告 | [2022基因子研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC8988022/)合并三剂量，TET2 CHIP层HR .38（.15–.96），名义P=.04，对无CHIP交互P=.14；[2023报告](https://pmc.ncbi.nlm.nih.gov/articles/PMC10758744/)是同母试验蛋白与贫血分析 | 组内显著不证明层间差异；交互不显著不证明相同；合并剂量与单剂量、蛋白指标与MACE不同，重复使用母试验不是独立复制 | [续审](CANTOS_CHIP_INTERACTION_AND_INDEPENDENCE_AUDIT_2026-11-27.md)；核预设模型、事件、检验家族与独立前瞻性验证 | open |
+| X119 | 2026-11-27 | CALERIE脂质中介模型的治疗/时间暴露、样本与估计目标 | [2026 Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC13482398/)称中介模型treatment为暴露，又将ACME描述为time间接效应、按组分析；SEM亦定义time路径 | 可能为不同模型或报告省略；组内时间间接效应不自动是随机治疗组间中介效应；未取得执行代码及完整补表，不能认定实现错误 | [定向续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，核各表模型、时点、数据流及作者说明 | open |
+| X120 | 2026-11-27 | CALERIE脂质中介预注册与多重性校正的版本和家族 | [同行评议文件](https://pmc.ncbi.nlm.nih.gov/articles/instance/13482398/bin/41467_2026_74468_MOESM3_ESM.pdf)作者称此分析事后、未预注册及未做全代谢物全局FDR；回应中一段旧稿S16措辞称多重校正后仍显著，最终正文敏感性段未作同样声明 | 全局与局部校正、不同阶段/版本可能并存；未核S16及代码，不能断言没有任何局部校正、每一结果为假或所有试验终点未预设 | [定向续审](CALERIE_LIPID_MEDIATION_AND_PEER_REVIEW_2026-11-27.md)，核补表、代码、检验家族和版本 | open |
+| X121 | 2026-11-27 | 健康寿命差图3A标称95% CI与国家间SD | [2024原文 Methods及Fig 3A](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)描述跨国差值均值±1.96×差值SD并称95% CI，图注虚线亦称CI | 若代码按所述使用国家间SD，此量不同于通常均值标准误CI；实际推断对象、样本框、误差相关及代码未核，不简单替换公式或裁定全文趋势错误 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)；获取历史快照、代码与作者说明 | open |
+| X122 | 2026-11-27 | 健康寿命差图3A横轴和纵轴共享LE、HALE | [2024原文](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)定义横轴两者均值、纵轴差值，并叙述缺口与长寿正相关 | 同一国家与权重下 `Cov((LE+HALE)/2,LE−HALE)=[Var(LE)−Var(HALE)]/2`；共享构造影响解释，但不决定实际数值或证明关联全是伪影，不支持因果政策结论 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)及人工测试；核原始国家数据、权重、误差与独立审阅 | open |
