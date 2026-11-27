@@ -1,6 +1,8 @@
-# MASTER｜《长寿的尺度》总控 v1.0（审计后采纳稿）
+# MASTER｜《长寿的尺度》总控（历史方案暂停，研究重启）
 
-**地位**：书稿与论文的**唯一权威总控**。v1.0 依据 2026-11-27 结构化审计（[review/scaffold_audit_2026-11-27.md](../review/scaffold_audit_2026-11-27.md)）采纳方案 A/B；**该审计为同助手自查、非独立外审**，作者可随时推翻并触发映射表重排（THE-227 保留 open 直至作者确认）。取代 `books/BOOK_PROPOSAL.md` 中被覆盖的部分（旧文保留为历史提案）。
+**纠错警示（2026-11-27）**：DEC-003/004 的“审计后采纳”仅为历史记录，暂停作为已验证最优解；当前地图只供工作参考，须待独立审计及作者评阅。详见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
+
+**地位**：项目路径与研究治理总控。下方 v1.0 方案 A/B 和论文处置均为历史候选；其“采纳”结论已撤回，未完成真正独立审计或架构选择（THE-227 open）。研究按多轮四方向推进，独立审计后再决策；同助手 [自查](../review/scaffold_audit_2026-11-27.md)不构成独审。
 
 **边界**：继承 [HANDOFF.md](../HANDOFF.md) 全部未完成事项与禁写句；不宣称外审完成、不宣称疗效、不自动关闭旧债。
 
@@ -12,13 +14,13 @@
 |---|---|---|---|
 | 专著正文 V6 | `corpus/longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md` | 活跃工作稿 | 根级 `longevity_v6/` 为字节相同遗留副本（2026-11-27 diff 验证），待 THE-236 处置 |
 | 专著正文 V7 | `corpus/longevity_v7/长寿研究_V7_谁在变年轻.md` | 活跃工作稿 | 根级 `longevity_v7/` 同上 |
-| 书稿提案（历史） | `books/BOOK_PROPOSAL.md` | 已被本文件标记 | 八部结构与书名提案保留为历史；架构以本文件 §3 为准 |
-| 论文地图（历史） | `papers/PUBLICATION_MAP.md` | 已被本文件标记 | P1/P2/P3 协议本体仍权威；处置以本文件 §4 为准 |
+| 书稿提案（历史） | `books/BOOK_PROPOSAL.md` | 已被本文件标记 | 八部结构与书名提案保留为历史；§3 仅为候选，架构未定 |
+| 论文地图（历史） | `papers/PUBLICATION_MAP.md` | 已被本文件标记 | P1/P2/P3 为冻结历史协议；§4 为候选，三篇 companion papers 架构未定 |
 | 核心内核 | `knowledge_base/KERNEL.md` | 活跃 v0.9 | 不变式/锚点/范式转换/estimand |
 | 交叉验证台账 | `knowledge_base/CLAIM_LEDGER.md` | 活跃 | X-item 与旧债指针 |
 | 前沿扫描 | `knowledge_base/RESEARCH_FRONTIERS.md` | 活跃 2026-11-27 | 季度机制见 THE-233 |
 | 异常日志 | `knowledge_base/ANOMALY_LOG.csv` | 活跃 | Unknown unknowns 机制 |
-| 断言卡 | `knowledge_base/claims/`（待建） | 空 | LON-C/E/A 编号规范见 [README](README.md) |
+| 断言卡 | `knowledge_base/claims/` | 工作卡，未经独审 | 另有 pilot 卡；未接入保障引擎；规范见 [README](README.md) |
 | 六研究模块 | `longevity_new_territories/` 等 6 目录 | 冻结为证据 | 不重建、不重跑历史 builder |
 | 工具包 | `src/research_assurance/`、`tools/` | 0.1.1 候选 | P3 的软件基础 |
 
@@ -28,16 +30,18 @@
 
 1. 独立外审未发生（D05 open）；正式合成被阻塞。
 2. 旧科学债 D02–D10、M01/M06 保持原状态，不因新概念关闭。
-3. 不新建 HTML/仪表盘；不重跑历史 builder；不刷新历史信任基线。
+3. 用户本轮明确授权生成 `STATE_DASHBOARD.HTML`，为原不新建 HTML/仪表盘约束的单项例外；小写 `STATE_DASHBOARD.html` 同步为字节相同副本。仍不重跑历史 builder、不刷新历史信任基线。
 4. 不宣称"衰老普遍可逆""清除越多越好""记忆越少越年轻""先清除后 OSK"。
 5. 搜索没找到 ≠ 无人做过；不为新颖性提供"人类首次"认证（ER-100 的"首例"以药监公告为准，见台账 X01）。
 6. 全书 25–35 万字、约 30–38 章是编辑预算，不是已完成产量。
 
 ## 3｜书稿架构提案（三方案，待裁决 → THE-227）
 
+**研究顺序**：先多轮四向深研与知识库建设，再安排真正独立审计，然后决定并执行架构；不将下面候选视为定案。
+
 **书名与副题已由作者锁定**：《长寿的尺度》/ 维护身体、辨认年轻，扩展值得过的生活 / *The Measures of Longevity: Maintaining the Body, Identifying Rejuvenation, and Expanding the Possibilities of a Life Worth Living*。待裁决的只是**结构**。
 
-### 方案 A（推荐）：三卷 · 十一部（40 个章节 slot；预案 C 可压至 ≤36）
+### 方案 A（历史候选，未确定）：三卷 · 十一部（40 个章节 slot；压缩预案矛盾见 X17）
 
 把书从"学科的广度（V6）+ 机制的深度（V7）"重组为**一个问题的三次回答**：尺度是什么（认识论）→ 身体如何被测量与维护（本体论）→ 生活如何被衡量与扩展（价值论）。三个新范式转换（KERNEL §4 之七/八/九）成为卷二的脊柱；第Ⅵ部是本书原创研究贡献的主场。
 
@@ -80,7 +84,7 @@
 | C B + 衍生 P4 | 增加《Maintenance Capacity Accounting》（六模块 → 容量核算方法论：形式化 + 人工反例集 + 真实源表描述复算汇总 + 判别实验） | 六轮研究获得论文级出口；与书第Ⅵ部互为表里 | 工作量 +1；须防"方法文太薄"——外审不通过就退回书稿（裁定路径已写入 THE-230） |
 | D C + P5 | 再衍生《Recovery-phase randomization: testing whether post-repair intervention can reduce aberrant clone growth without sacrificing repair》（修复记忆实验合同的设计论文，注册报告式） | 最窄研究切口有注册出口 | P5 依赖实验获批与数据；先合同（THE-237）后决定 |
 
-**推荐路径**：B 先行（2027 Q1），C 视第Ⅵ部写作质量决定（2027 Q2），D 只出合同草案不预支论文号。P3 按原计划冻结协议（THE-231）。合稿后 PUBLICATION_MAP 由 MASTER §4 取代。
+**原提案（暂停以其为定论）**：B 先行（2027 Q1），C 视第Ⅵ部写作质量决定（2027 Q2），D 只出合同草案不预支论文号。P3 按原计划冻结协议（THE-231）。合稿后 PUBLICATION_MAP 由 MASTER §4 取代。
 
 ## 5｜里程碑与看板（与 Linear 同步）
 
