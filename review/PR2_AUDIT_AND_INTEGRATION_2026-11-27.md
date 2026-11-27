@@ -40,4 +40,8 @@
 
 ## 后续：CAPABLE 和CI依赖
 
-[CAPABLE续审](../knowledge_base/CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)重新核设计文、当前登记、结果文，按本分支新增X79/X80；2025出院后研究仅读摘要，暂不定量综合。用户修复账单后，PR1@375fe09的两条旧配置 Actions 均实际成功；本轮新增Python 3.11版本清单和干净环境安装验证，范围及PR2旧检查重跑受权限阻塞见 [CI回执](CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。新配置的远端结果须看本次提交的检查，不能提前称通过。
+[CAPABLE续审](../knowledge_base/CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)重新核设计文、当前登记、结果文，按本分支新增X79/X80；2025出院后研究仅读摘要，暂不定量综合。用户修复账单后，PR1@375fe09的两条旧配置 Actions 均实际成功；本轮新增Python 3.11版本清单和干净环境安装验证，范围及PR2旧检查重跑受权限阻塞见 [CI回执](CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。新配置在 PR1 `dd47ce68a5bad07d814c3685786e12d601327c49` 的 push 和 pull_request 两条远端检查均已成功；GitHub 对 Actions Node.js 20 发出弃用警告。之后用户报告 Actions 权限可能修复，再次尝试 PR2 两次旧检查仍无法重跑，API 再次返回 403，详见CI回执。
+
+## 后续：共同组分与七例开发回归
+
+按同一 PR2 固定头继续审查：择取[共同组分联合界](../knowledge_base/experiments/PR2_SHARED_COMPONENT_BOUNDS_2026-11-27.md)、精确算术脚本与有限网格测试，保留额外共同假设及不可行情况；测试另补两个边界。择取 P3 的七例[开发比较夹具](../knowledge_base/experiments/assurance_fixture_comparison.py)与测试，使用临时副本，修改 `assert` 为显式失败，避免 `-O` 静默跳过；范围与不同 oracle 下的解释见[P3 合同](../papers/P3_research_assurance/PR2_EVALUATION_PLAN_2026-11-27.md)。首次使用系统 Python 因未安装 jsonschema 报错，改用此前已安装固定清单的隔离环境复跑；隔离环境下根验证通过：项目110、实验98、pilot21，双种子及搬迁一致、0新增/29历史断链、快照普通与 `-O` 一致；夹具测试在普通和 `-O` 模式各4项通过，共同组分测试4项通过。这些是人工演示及开发回归，不是独立评估、真实数据分析或 P1/P2 论文结构的作者裁决。
