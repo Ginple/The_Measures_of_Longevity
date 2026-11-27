@@ -29,3 +29,7 @@
 - PR2 幸存者 oracle 在 `N=1…6` 三值、单调/非单调共19,390个边际/假设组合通过；同开发过程的有限穷举，不代表独立数学证明。真实 `python -O tools/install_smoke.py` 初次因虚拟环境缺 wheel 失败，安装 wheel 与符合构建要求的 setuptools 后通过；依赖预装、无干净联网安装，正式发布门仍 blocked。
 - PR2 checks `140668452951` 和 `140668361947` 的 annotations 均称账户付款失败或需提高额度，job 未启动；PR2 检查状态为 failure，不能称远程 CI 已通过。PR1 也有历史同类账单阻塞；新提交的远程结果需另查。
 - 两个 `STATE_DASHBOARD` 路径仅大小写不同，PR1 在大小写不敏感系统存在 checkout 风险；本轮不擅删历史路径。29历史断链、发布打包流程、依赖锁、作者澄清、真实数据复算和独立审阅仍开放。
+
+## 后续：修复记忆择要整合
+
+以同一固定头 `b8434e22ec62ba21814546560a33fc38f4939e9f` 的研究审计及候选稿为线索，另核指定原文，按本分支章节安排重写 [第24章](../books/manuscript/CH24_修好这一次还剩多少下一次_示范稿.md)，不导入对方冲突章号与X项；详细范围、竞争解释及残留问题见[时间窗审计](../knowledge_base/RECOVERY_MEMORY_CAUSAL_AUDIT_2026-11-27.md)和[自查](CHAPTER_24_SELF_REVIEW_2026-11-27.md)。COLON体外撤药与体内同时诱导不拼接；GUT Fig 7的前一日开始与正文后续给药措辞差异、药效仍待核。另添加自行构造的[恢复资格反例](../knowledge_base/experiments/RECOVERY_ELIGIBILITY_COUNTEREXAMPLE_2026-11-27.md)，不是PR2原文数据。登记 X75–X76，X74补充；均未关闭。未做独立外审、数据复算或系统综述。
