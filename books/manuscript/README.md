@@ -30,3 +30,5 @@
 ### 卷二·Ⅶ 证据继承待办（未改冻结稿）
 
 CALERIE 限食目标不等于两年实际暴露；撰写时并列骨密度风险、给补充剂及监测条件，并区分时钟与骨报告人群、避免推断个体联合结果。骨折未由 BMD 证明。数字和原文定位见 [骨与暴露审计](../../knowledge_base/CALERIE_BONE_AND_EXPOSURE_AUDIT_2026-11-27.md)（X29/X31/X49）；DO-HEALTH 不同钟的处理比较和换算脚注仍待澄清，见 [X38 审计](../../knowledge_base/DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md)。本段是写作条件，不是已完成章节。
+
+CALERIE 停用两年的单中心随访仅分析依从性筛选的完成者，体重部分回升不能推断骨骼恢复；Legacy 尚属登记计划，细节与 FFM 口径见 [X50–X51](../../knowledge_base/CALERIE_POST_INTERVENTION_FOLLOWUP_AUDIT_2026-11-27.md)。DO-HEALTH 癌症为母试验探索性结局，与时钟结果非独立重复；三项合用的 61% 为调整 HR 对应相对差，须披露病例数、比较和不确定性，见 [X52](../../knowledge_base/DO_HEALTH_CLINICAL_CANCER_AUDIT_2026-11-27.md)。

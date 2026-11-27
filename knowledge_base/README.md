@@ -69,3 +69,7 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 ## 同日续研：实际暴露、骨密度与因子对比
 
 [CALERIE 骨密度和暴露审计](CALERIE_BONE_AND_EXPOSURE_AUDIT_2026-11-27.md)区分处方目标、分期实现与次要结局（X49），不把同一试验的时钟样本和骨样本当独立或个人联合数据；[DO-HEALTH 审计](DO_HEALTH_UNIT_CONVERSION_AUDIT_2026-11-27.md)补充钟、比较组及同一脚注两种换算规则（X38）。合成因子反例只展示估计量、不是实际 trial 数据。
+
+## 同日续研：停用随访和临床终点
+
+[CALERIE 停用与登记审计](CALERIE_POST_INTERVENTION_FOLLOWUP_AUDIT_2026-11-27.md)核实单中心两年后随访，登记随访选择及 FFM 表述疑点 X50–X51；[DO-HEALTH 临床与癌症审计](DO_HEALTH_CLINICAL_CANCER_AUDIT_2026-11-27.md)区分原主要终点、探索性癌症与同一试验的钟子样本 X52。算术与合成缺失反例附测试，不是患者级复算。
