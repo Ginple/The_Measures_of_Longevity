@@ -108,3 +108,5 @@ X55 后续：已读 [补充材料](https://pmc.ncbi.nlm.nih.gov/articles/instanc
 
 | X57 | 2026-11-27 | DO-HEALTH 2026 癌症/功能/时钟观察性分析的选择与时间零点 | [2026 论文及补表审计](DO_HEALTH_CANCER_FUNCTION_2026_AUDIT_2026-11-27.md)：正文功能样本 2,125、80 例；777 瑞士时钟样本 30 例；癌症编码为距确诊最近的年度访视 | 是否发癌非随机，基线在诊断前不排除潜伏癌；癌症分组的后续功能差、随机干预主效应与中介是不同对象；多重性、错分和选择未解决 | 不能当独立复现或时钟中介；核样本流、时间、缺失、代码及授权数据 | open |
 | X58 | 2026-11-27 | DO-HEALTH 2026 癌症功能敏感性正文单位和标签交叉 | [正文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13396198/)将 −1.70 kPa 放在 STS、+0.75 秒放在握力后；[补表2](https://pmc.ncbi.nlm.nih.gov/articles/instance/13396198/bin/41514_2026_360_MOESM1_ESM.docx)分别列为握力和 STS | 摘要 2,152 vs 正文 2,125；正文 212 vs 方法 217 既往癌史也待核；未经代码、作者及勘误核实不能裁定计算错误 | [专项审计](DO_HEALTH_CANCER_FUNCTION_2026_AUDIT_2026-11-27.md)；使用补表数值须说明正文交叉 | open |
+
+| X59 | 2026-11-27 | CALERIE 2026 随机后体重轨迹、维持窗口与阈值分母 | [论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/)190人按第12–24月轨迹事后分组，回升20人中9限食、11对照；摘要说回升超过基线体重5%，结果段又称已减体重5% | 轨迹非随机，第二年仍属试验维持阶段；代码、阈值分母和等号、补充材料多重校正、权重分布及缺失未核；不判实际分组错误 | [专项审计](CALERIE_WITHIN_TRIAL_WEIGHT_TRAJECTORIES_2026_AUDIT_2026-11-27.md)与[合成因果反例](experiments/POST_RANDOMIZATION_TRAJECTORY_COUNTEREXAMPLE_2026-11-27.md)；核作者代码及授权数据，不能推断延寿或停用后的随机效应 | open |
