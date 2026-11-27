@@ -13,7 +13,7 @@
 | X01 | 2026-11-27 | ER-100 获许可与给药时间线 | 公司 2026-01-28 [公告 IND 已获 FDA 许可](https://www.lifebiosciences.com/life-biosciences-announces-fda-clearance-of-ind-application-for-er-100-in-optic-neuropathies/)；2026-06-09 [公告首位已给药](https://www.lifebiosciences.com/life-biosciences-announces-first-patient-dosed-in-phase-1-trial-of-er-100-for-optic-neuropathies/) | 两者是公告日期，未核 FDA 有效日期与实际给药日；历史二手 06-08 说法不可靠 | 以公告日期和公司自报明确表述；FDA 原始确认、首例认证仍待查 | open（公告时间核实） |
 | X02 | 2026-11-27 | RS5614 半决赛数据性质 | 公司自报 PDF：19 人、4 月、Horvath −3.4 年 / PC-Horvath −1.9 年 | 是否盲法/安慰剂对照；终点是否预注册；评审委员会是否已独立复核 | 引用时一律标注"公司自报、半决赛数据"；追踪 XPRIZE 官方发布 | open |
 | X03 | 2026-11-27 | GLP-1 与时钟 | [RCT 探索性分析 n=84](https://www.nature.com/articles/s41467-026-72861-3)：−0.09；[SLIM LIVER n=41](https://www.nature.com/articles/s41514-026-00383-9)是单臂，DunedinPACE 中位变化 +0.018 | 先前将后者误写为“无组间减速”；两研究人群/设计不同，均不能证明延寿；AD 阴性结果仍待核 | 撤销组间表述；原文相关段已读；协议、数据和 AD 试验待核 | open（设计/指标局部核实） |
-| X04 | 2026-11-27 | TRIIM "逆转 11/28 年" | 二手来源引用 Fahy 口径（naive CD8 +20%≈11 年、CD4 +13%≈28 年）；原始论文只报 GrimAge −2.5 年、持续 6 月 | T 细胞计数→"逆转年数"换算口径未核实 | 仅引原始数字；换算句禁入正文 | open |
+| X04 | 2026-11-27 | TRIIM "逆转 11/28 年" | 二手来源引用 Fahy 口径（naive CD8 +20%≈11 年、CD4 +13%≈28 年）；原始论文 12 月四钟平均 EA−A 相对基线约 −2.5 年；GrimAge 12/18 月为 −2.16/−2.12 年，18 月仅第一队列有血样（见 X10） | T 细胞计数→"逆转年数"换算口径未核实 | 仅引原始数字；换算句禁入正文 | open |
 | X05 | 2026-11-27 | Buck TPE 钟数与人数版本口径 | [2024 预印本 v1](https://www.medrxiv.org/content/10.1101/2024.08.02.24310303v1.full) 报 35 钟；[2025 发表版](https://onlinelibrary.wiley.com/doi/10.1111/acel.70103) 图 2 报 36 钟，结果 §2 报 44 入组随机、42 完成 | 版本不同，不是同一版本计数冲突；效应量的分母与统计解释仍需独立复核 | 发表版引用 36；人数明确入组与完成；不视为疗效认证 | resolved（仅钟数和人数口径） |
 | X06 | 2026-11-27 | 器官钟 UKB 样本量 | Nat Aging 正文 43,616（分析集）；一处二手报道 44,498（全集） | 两个口径都真实存在，引用需指明口径 | 以原文口径为准 | resolved（以 43,616 为准） |
 | X07 | 2026-11-27 | 14 项共识清单的误传 | Grokipedia 等二手页把 VO2max/HbA1c 列入共识；原文共识为 IGF-1/GDF-15/hsCRP/IL-6/肌肉量/肌力/握力/TUG/步速/平衡/衰弱指数/认知/血压/DNAm 钟 | 无 | 已按原文裁决；作为"来源卫生"示例保留在台账 | resolved |
@@ -69,7 +69,7 @@ X30 后续：已对照 SPRINTT 原试验事件判定、安全与事后潜类交�
 
 | X40 | 2026-11-27 | BASE-II 发表版预测比较的时间、选择与摘要差异 | [Vetter 2026](https://link.springer.com/article/10.1186/s40364-026-00909-z)：T0 1671/316、T1 1083/90，主单指标非统一时间或风险集；联合模型 T1 参与者、左截断，AICc 同数据选模 | 摘要列五项，正文 model 2 另列肌力（握力阈值派生）；model 3 肌力不显著；多重性、选择偏差与外部验证待核 | [审计](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；不把预测排序当干预替代终点；核补表、代码与外部验证 | open |
 | X41 | 2026-11-27 | 多癌检测模型与随机试验的分母、版本和净收益 | [Malagón 发表版](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740675/)的 1.1%/10.8% 是对应年龄段筛检癌中过诊断模型比例；[NHS-Galleri](https://pmc.ncbi.nlm.nih.gov/articles/PMC7619610/) 12 癌 III/IV 主要终点未达，IV 仅描述 | 发表/预印本同研究；模型不是试验数据；75–79 岁表与 50–75 岁筛查方案年龄口径待核；死亡与过诊断随访未完成 | [审计及合成反例](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；筛出癌分母不可改成所有受检者 | open |
-| X42 | 2026-11-27 | 多癌微模拟发表版 Table 3 特定行统计待复核 | [Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740675/table/cam472455-tbl-0003/) 78,183 TP、73,810 FP、PPV 53.4%、NNS 108；分项中位数之比约 51.44% | 中位数之比通常不等于比值中位数；数值异常不单凭这一点判错，逐次配对数据/定义/代码和作者解释未核；Fig.2 图注 III 期灵敏度 50% 而表1基础情景为 60%，差异未裁决 | 取 [Borealis V1](https://borealisdata.ca/dataset.xhtml?persistentId=doi%3A10.5683%2FSP3%2FKMWOYZ) 预测数组及分析代码并隔离复算；[人工反例](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)不是原模型数据 | open |
+| X42 | 2026-11-27 | 多癌微模拟发表版 Table 3 特定行统计待复核 | [Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740675/table/cam472455-tbl-0003/) 78,183 TP、73,810 FP、PPV 53.4%、NNS 108；分项中位数之比约 51.44% | 中位数之比通常不等于比值中位数；数值异常不单凭这一点判错，逐次配对数据/定义/代码和作者解释未核；Fig.2 图注 III 期灵敏度 50% 而表1基础情景为 60%，差异未裁决 | [V1 代码静态审读](MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md)表明 PPV 从独立指标取边际汇总；数组无年度逐次配对信息。取最终发表脚本、年度逐次数据及作者定义再复算；人工反例不是原模型数据 | open |
 
 ## 交叉验证规则（本轮起生效）
 
@@ -78,3 +78,7 @@ X30 后续：已对照 SPRINTT 原试验事件判定、安全与事后潜类交�
 3. 公司/竞赛自报数据（X02 类）永久带标注；不得以"已获奖"佐证科学结论。
 4. 预印本（X08 类）永久带标注；升级为"已核"须有同行评审版本。
 5. 台账与 KERNEL 冲突时：先修 KERNEL 并递增版本，再修改下游书稿/论文。
+
+| X43 | 2026-11-27 | MCED 模型作表边际极值与逐次比值口径 | [Borealis V1 代码审计](MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md)：表 2 比例极值使用过诊断边际极值/筛出癌中位数；表 3 不同列算法不同 | 最终发表脚本和年度逐次配对数组未核，发表表两年龄行与该算法相容不证明使用该版本；NNS min/max 代码命名亦需核 | 取最终版本和逐次数据复算；不把这些括号自动当逐次比例范围或 CI，不声称论文已错 | open |
+| X44 | 2026-11-27 | HARP 首次跌倒与重复跌倒的结局和时零 | [原文和 2017 方案审读](MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md)：主要 HR 0.90（0.66–1.27），次要事件率比 0.62；两组报告的时零不同，正文合计 140 vs 分组 141 | 非全随机人群的分析和干预前事件、删失处理待核；不知偏差方向；正文与表 2 的 CI 小幅不一 | 复核方案/登记及数据，不把事件率当无跌倒人数或主要终点成功；CAPABLE 为不同干预及结局 | open |
+| X45 | 2026-11-27 | Cochrane 综述的引用重叠和摘要表格不一致 | [Cochrane](https://pmc.ncbi.nlm.nih.gov/articles/PMC9998238/)含 HARP，摘要 vs 汇总表对质量生活研究数及骨折证据等级不同 | 文献检索截止在 HARP 结果发表前，纳入渠道及版本、表与摘要差异及勘误待核 | 不将单试验与其所在汇总算独立复制；核森林图、勘误和数据 | open |

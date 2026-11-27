@@ -8,7 +8,7 @@
 
 1. **[KERNEL.md](knowledge_base/KERNEL.md)** — 核心内核：不变式、定量锚点、范式转换候选
 2. **[MASTER.md](knowledge_base/MASTER.md)** — 总控：权威路径、书稿架构方案、论文处置方案、里程碑
-3. [CLAIM_LEDGER.md](knowledge_base/CLAIM_LEDGER.md) — 交叉验证台账 · [RESEARCH_FRONTIERS.md](knowledge_base/RESEARCH_FRONTIERS.md) — 前沿扫描
+3. [CLAIM_LEDGER.md](knowledge_base/CLAIM_LEDGER.md) — 交叉验证台账 · [RESEARCH_FRONTIERS.md](knowledge_base/RESEARCH_FRONTIERS.md) — 前沿扫描 · [模型作表与跌倒结局审计](knowledge_base/MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md) · [执行时长诊断及后续任务](review/EXECUTION_DURATION_REVIEW_2026-11-27.md)
 4. [本轮决策与附件比较](docs/DECISION_REPORT_ZH_EN.md)
 5. [书名与历史提案](books/BOOK_PROPOSAL.md)（架构以 MASTER §3 为准）
 6. [三篇论文及成果分工](papers/PUBLICATION_MAP.md)（处置以 MASTER §4 为准）
