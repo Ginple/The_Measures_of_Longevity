@@ -53,6 +53,14 @@
 
 | X35 | 2026-11-27 | p16-3MR 报告/清除功能争议 | [Hori 2026](https://link.springer.com/article/10.1038/s44319-026-00802-8)报告其条件下弱信号与清除失败；[Wang 等回应](https://link.springer.com/article/10.1038/s44319-026-00801-9)强调场景、灵敏度与对照差异并反对全面否定 | 两方与独立研究的模型批次、剂量、分析和原数据未逐项复核；不能将此争议直接套用 Cell 2024 的不同交叉遗传系统 | 核同窝对照、底物背景、遗传型×药物交互、正交指标及独立复制 | open |
 
+| X36 | 2026-11-27 | TranslAGE 多重检验与 90% 方差 PCA 阈值的依据 | [论文方法](https://www.nature.com/articles/s41591-026-04562-9)称经典 Bonferroni 假设独立、名义 .05 与有效检验数修正类似；[合成反例](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)说明 90% PCA 维数不能一般性保证 FWER | 有效单检验 P 下 Bonferroni 不要求独立；补表20、每个结论实际阈值、原数据与代码未核；合成 FWER 不是论文的 FWER | 分清论文原话、数学性质与尚未复算；获取补表及数据逐项核检验家族和阈值，不断言全部结果无效 | open |
+
+| X37 | 2026-11-27 | methylCIPHER 许可元数据不一致与 PoAm38 包装器待测 | [固定提交的 LICENSE](https://github.com/HigginsChenLab/methylCIPHER/blob/bfe5d02817e7dd5e923e8bf96528d5bfd52e1636/LICENSE)为 BSD 3-Clause，但 DESCRIPTION License 为占位；[PoAm38 源码](https://github.com/HigginsChenLab/methylCIPHER/blob/bfe5d02817e7dd5e923e8bf96528d5bfd52e1636/R/calcDunedinPoAm38.R)输入转置后缺失探针检查/填补方向存在待测疑点 | 尚无 R 运行、外部权重或试验版本对照；疑点不是已确认错误、也不证明影响任何论文 | 请维护者澄清许可证和依赖数据权利；用合成矩阵按固定依赖版本写回归测试，区分 PoAm38 与 DunedinPACE | open |
+
+X31 后续：作者[固定版本 Stata 脚本及筛选/模型](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)已静态查阅，公开仓库无患者数据；导出脚本标示按 ID/时点排序且发布不含 ID，提示隐私风险而非授权按行配对。分母矛盾、真实模型与身份保护仍待核。
+
+X30 后续：已对照 SPRINTT 原试验事件判定、安全与事后潜类交互；两报告同一试验、不算独立复制；事后交互 P=.870 不支持已证实亚组差异，亦不证明相同。详见[审计](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)。
+
 ## 交叉验证规则（本轮起生效）
 
 1. 任何进入 KERNEL §3.2 的数字，至少一个来源须为一手（原文/官方 PDF）；二手来源只能提供线索。
