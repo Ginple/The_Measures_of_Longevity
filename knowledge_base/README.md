@@ -95,3 +95,12 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 - [前沿第 3 期](RESEARCH_FRONTIERS.md)：SR 模型、排队死亡率（Ledberg）、临界减速、随机性时钟、器官蛋白组（Oh 2025）、热浪与医院拥堵、XPRIZE 与监管现状。台账为 [X81–X93](CLAIM_LEDGER.md)，异常为 ANOM-005–007。
 - [SR 快照可识别性（合成）](experiments/SR_SNAPSHOT_IDENTIFIABILITY_2026-11-27.md)：读数匹配而生存曲线交叉；提高阈值让存活者“读数变老”；脉冲带来的年轻化只是暂时的。只用标准库，有 9 项测试。
 - KERNEL 升至 v0.9.8：新增 I11（读数 ≠ 参数）、四个可测尺度、estimand 动力学层。MASTER 升至 v1.1：新增方案 A′（35 slot，DEC-009），修正仪表盘大小写碰撞（DEC-008）。均待作者裁决与独立审阅。
+
+
+## 2026-11-27 第 4 轮：PR #2 收尾与架构深研
+
+- PR #2 新增的 80 个文件中，76 个经命名空间隔离后移植，随后关闭 PR #2，见 [移植记录](../review/PR2_PORT_AND_CLOSE_2026-11-27.md)。移植来的审计材料在 [imported_pr2/](imported_pr2/README.md)，其中的 X 编号属于 PR #2，与本台账不同义。
+- 仪表盘 HTML 已全部删除（作者要求），验证合同恢复为禁止 HTML。
+- 架构：[四向深研证据包](../books/ARCHITECTURE_DEEP_RESEARCH_2026-11-27.md)与[预注册审计协议](../review/ARCHITECTURE_AUDIT_PROTOCOL_2026-11-27.md)；尚未裁决。
+- 合成实验：[H-SR1 在已发表人类参数下的稳健性](experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md)（X94）。
+- 台账：X90 已裁决，X91 已更新，新增 X94–X101；前沿第 4 期及 U18–U20。

@@ -40,6 +40,8 @@
 
 **研究顺序**：先多轮四向深研与知识库建设，再安排真正独立审计，然后决定并执行架构；不将下面候选视为定案。
 
+**2026-11-27 进展**：四向深研证据包已完成，见 [ARCHITECTURE_DEEP_RESEARCH](../books/ARCHITECTURE_DEEP_RESEARCH_2026-11-27.md)。该包把 PR #2 的 32 章地图作为候选 D 一并纳入比较，只汇集证据，不推荐。预注册审计协议见 [ARCHITECTURE_AUDIT_PROTOCOL](../review/ARCHITECTURE_AUDIT_PROTOCOL_2026-11-27.md)，其中分三个审计级别（L1/L2/L3）、8 项加权标准和否决项。审计执行之前不做裁决。
+
 **书名与副题已由作者锁定**：《长寿的尺度》/ 维护身体、辨认年轻，扩展值得过的生活 / *The Measures of Longevity: Maintaining the Body, Identifying Rejuvenation, and Expanding the Possibilities of a Life Worth Living*。待裁决的只是**结构**。
 
 ### 方案 A（历史候选，未确定）：三卷 · 十一部（40 个章节 slot；压缩预案矛盾见 X17）
