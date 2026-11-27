@@ -137,3 +137,10 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 [DO-HEALTH 癌症时间编码续审](DO_HEALTH_CANCER_TIME_REFERENCE_AUDIT_2026-11-27.md)区分功能模型的最近访视编码和时钟变化模型中病例确诊天数、无癌赋零；X57/X58/X123待核，人工参数例不复算论文。
 
 [NHS-Galleri分期计数与配对续审](NHS_GALLERI_STAGE_COUNTS_AND_PAIRING_AUDIT_2026-11-27.md)区分首合格事件和最高分期描述，人工有限总体展示相同边际下不同反事实配对；X41/X124仍开放。
+
+## 2026-11-27 第 6 轮：按 08_LINEAGE 工作流定架构与论文
+
+- 作者提供的 08_LINEAGE（统一架构与三条工作流）已纳入 `docs/`（DEC-014）。上一轮未推送的重构提交 2bb8edc 作废，本轮按 §6 重做。
+- 书稿架构：三卷·八部·33 章（DEC-011，工作草稿），见 [OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)。地图由脚本从冻结语料生成，并绑定语料 hash；第 7、9 章没有继承内容，第 9 章设为有条件章节。
+- 论文：P1+P2 合并为 [PI](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)（DEC-012）；三层各有先行工作（X125）；作者归属更正（X128）。
+- 留痕：[检索日志](search_logs/SEARCH_LOG_2026-11-27_RESTRUCTURE.csv)、[影响记录](../review/DEC011_DEC012_IMPACT_2026-11-27.json)、[符合性审计](../review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md)。

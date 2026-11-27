@@ -1,0 +1,867 @@
+{
+  "decision": "DEC-011",
+  "status": "working_draft_not_reviewed",
+  "mapping_scope": "chapter-title classification only; not a paragraph-level content audit",
+  "volumes": [
+    {
+      "id": "Ⅰ",
+      "title": "尺度"
+    },
+    {
+      "id": "Ⅱ",
+      "title": "身体"
+    },
+    {
+      "id": "Ⅲ",
+      "title": "生活"
+    }
+  ],
+  "budget_chars": {
+    "Ⅰ": 90000,
+    "Ⅱ": 135000,
+    "Ⅲ": 105000,
+    "frame": 20000
+  },
+  "sources": {
+    "V6": {
+      "path": "corpus/longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md",
+      "sha256": "81b5410839b32602f7bba6d078274d9695ba644541c28540875924c5c3c330f2",
+      "numbered_chapters": 33
+    },
+    "V7": {
+      "path": "corpus/longevity_v7/长寿研究_V7_谁在变年轻.md",
+      "sha256": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e",
+      "numbered_chapters": 39
+    }
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "volume": "Ⅰ",
+      "part": 1,
+      "part_title": "问题",
+      "title": "长寿到底在衡量什么",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "CH01",
+      "inherits": [
+        "V6-01"
+      ]
+    },
+    {
+      "n": 2,
+      "volume": "Ⅰ",
+      "part": 1,
+      "part_title": "问题",
+      "title": "年龄不是唯一的时钟",
+      "evidence": "S",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-04",
+        "V7-21"
+      ]
+    },
+    {
+      "n": 3,
+      "volume": "Ⅰ",
+      "part": 1,
+      "part_title": "问题",
+      "title": "解释、预测、控制与获益",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-02",
+        "V6-03",
+        "V7-02"
+      ]
+    },
+    {
+      "n": 4,
+      "volume": "Ⅰ",
+      "part": 1,
+      "part_title": "问题",
+      "title": "什么算证据：分母、来源家族与复制",
+      "evidence": "S",
+      "papers": "P3",
+      "demo_draft": "",
+      "inherits": [
+        "V7-01"
+      ]
+    },
+    {
+      "n": 5,
+      "volume": "Ⅰ",
+      "part": 2,
+      "part_title": "四个尺度",
+      "title": "测量合同：预测、响应、机制、替代",
+      "evidence": "M",
+      "papers": "PI",
+      "demo_draft": "CH15",
+      "inherits": [
+        "V6-15"
+      ]
+    },
+    {
+      "n": 6,
+      "volume": "Ⅰ",
+      "part": 2,
+      "part_title": "四个尺度",
+      "title": "水平：一次读数说明什么",
+      "evidence": "S",
+      "papers": "PI",
+      "demo_draft": "",
+      "inherits": [
+        "V7-06"
+      ]
+    },
+    {
+      "n": 7,
+      "volume": "Ⅰ",
+      "part": 2,
+      "part_title": "四个尺度",
+      "title": "速率：斜率不是状态",
+      "evidence": "S",
+      "papers": "PI",
+      "demo_draft": "",
+      "inherits": []
+    },
+    {
+      "n": 8,
+      "volume": "Ⅰ",
+      "part": 2,
+      "part_title": "四个尺度",
+      "title": "恢复：扰动之后才看得见的能力",
+      "evidence": "M",
+      "papers": "PI",
+      "demo_draft": "",
+      "inherits": [
+        "V6-16",
+        "V7-17"
+      ]
+    },
+    {
+      "n": 9,
+      "volume": "Ⅰ",
+      "part": 2,
+      "part_title": "四个尺度",
+      "title": "余量：离阈值还有多远",
+      "evidence": "M",
+      "papers": "PI",
+      "demo_draft": "",
+      "inherits": []
+    },
+    {
+      "n": 10,
+      "volume": "Ⅱ",
+      "part": 3,
+      "part_title": "维护身体",
+      "title": "维护、修复、替换与补偿",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-06",
+        "V6-07"
+      ]
+    },
+    {
+      "n": 11,
+      "volume": "Ⅱ",
+      "part": 3,
+      "part_title": "维护身体",
+      "title": "损伤与修复的代价",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-08",
+        "V7-12",
+        "V7-13",
+        "V7-25"
+      ]
+    },
+    {
+      "n": 12,
+      "volume": "Ⅱ",
+      "part": 3,
+      "part_title": "维护身体",
+      "title": "器官、界面与环境",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-05",
+        "V6-10",
+        "V7-11",
+        "V7-14",
+        "V7-15"
+      ]
+    },
+    {
+      "n": 13,
+      "volume": "Ⅱ",
+      "part": 3,
+      "part_title": "维护身体",
+      "title": "身体内部的竞争",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V7-07",
+        "V7-09",
+        "V7-28"
+      ]
+    },
+    {
+      "n": 14,
+      "volume": "Ⅱ",
+      "part": 4,
+      "part_title": "辨认年轻",
+      "title": "身份：谁在变年轻",
+      "evidence": "M",
+      "papers": "PI",
+      "demo_draft": "",
+      "inherits": [
+        "V7-19",
+        "V7-23"
+      ]
+    },
+    {
+      "n": 15,
+      "volume": "Ⅱ",
+      "part": 4,
+      "part_title": "辨认年轻",
+      "title": "样本年轻与实体年轻：状态周转",
+      "evidence": "M",
+      "papers": "PI",
+      "demo_draft": "CH23",
+      "inherits": [
+        "V7-05",
+        "V7-37"
+      ]
+    },
+    {
+      "n": 16,
+      "volume": "Ⅱ",
+      "part": 4,
+      "part_title": "辨认年轻",
+      "title": "汇总指标的权重",
+      "evidence": "M",
+      "papers": "PI",
+      "demo_draft": "",
+      "inherits": [
+        "V7-03",
+        "V7-04",
+        "V7-22",
+        "V7-24"
+      ]
+    },
+    {
+      "n": 17,
+      "volume": "Ⅱ",
+      "part": 4,
+      "part_title": "辨认年轻",
+      "title": "历史与记忆：修好这一次还剩多少下一次",
+      "evidence": "H",
+      "papers": "P5",
+      "demo_draft": "CH24",
+      "inherits": [
+        "V7-16",
+        "V7-18",
+        "V7-27",
+        "V7-38"
+      ]
+    },
+    {
+      "n": 18,
+      "volume": "Ⅱ",
+      "part": 5,
+      "part_title": "干预与代价",
+      "title": "标志物与结局分道扬镳",
+      "evidence": "S",
+      "papers": "PI",
+      "demo_draft": "",
+      "inherits": [
+        "V6-12",
+        "V7-08"
+      ]
+    },
+    {
+      "n": 19,
+      "volume": "Ⅱ",
+      "part": 5,
+      "part_title": "干预与代价",
+      "title": "重编程与衰老细胞：清除之后谁来接班",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "CH22",
+      "inherits": [
+        "V6-09",
+        "V6-11",
+        "V7-10",
+        "V7-36"
+      ]
+    },
+    {
+      "n": 20,
+      "volume": "Ⅱ",
+      "part": 5,
+      "part_title": "干预与代价",
+      "title": "营养、运动、预防与医疗的证据分层",
+      "evidence": "S",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-13",
+        "V6-14",
+        "V7-20",
+        "V7-26"
+      ]
+    },
+    {
+      "n": 21,
+      "volume": "Ⅱ",
+      "part": 5,
+      "part_title": "干预与代价",
+      "title": "容量核算 I：谁替谁维护、何时到位",
+      "evidence": "H",
+      "papers": "P4",
+      "demo_draft": "CH19+CH20",
+      "inherits": [
+        "V7-34"
+      ]
+    },
+    {
+      "n": 22,
+      "volume": "Ⅱ",
+      "part": 5,
+      "part_title": "干预与代价",
+      "title": "容量核算 II：有余量却用不上",
+      "evidence": "H",
+      "papers": "P4",
+      "demo_draft": "CH21",
+      "inherits": [
+        "V7-35"
+      ]
+    },
+    {
+      "n": 23,
+      "volume": "Ⅲ",
+      "part": 6,
+      "part_title": "生活的条件",
+      "title": "居住、环境与基础设施",
+      "evidence": "S",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-19",
+        "V6-20"
+      ]
+    },
+    {
+      "n": 24,
+      "volume": "Ⅲ",
+      "part": 6,
+      "part_title": "生活的条件",
+      "title": "照护、依赖与自主",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-25"
+      ]
+    },
+    {
+      "n": 25,
+      "volume": "Ⅲ",
+      "part": 6,
+      "part_title": "生活的条件",
+      "title": "身体体验与技术监控",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-22",
+        "V6-30"
+      ]
+    },
+    {
+      "n": 26,
+      "volume": "Ⅲ",
+      "part": 6,
+      "part_title": "生活的条件",
+      "title": "艺术、关系与意义",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-23",
+        "V6-24",
+        "V7-33"
+      ]
+    },
+    {
+      "n": 27,
+      "volume": "Ⅲ",
+      "part": 6,
+      "part_title": "生活的条件",
+      "title": "不平等与分配",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-21"
+      ]
+    },
+    {
+      "n": 28,
+      "volume": "Ⅲ",
+      "part": 7,
+      "part_title": "判断与行动",
+      "title": "不同人的不同权衡",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-27",
+        "V6-31"
+      ]
+    },
+    {
+      "n": 29,
+      "volume": "Ⅲ",
+      "part": 7,
+      "part_title": "判断与行动",
+      "title": "临床与个人决策",
+      "evidence": "S",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-17",
+        "V6-18",
+        "V6-32",
+        "V7-32"
+      ]
+    },
+    {
+      "n": 30,
+      "volume": "Ⅲ",
+      "part": 7,
+      "part_title": "判断与行动",
+      "title": "双账本与 LIFE OS 最小安全架构",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-26",
+        "V6-29"
+      ]
+    },
+    {
+      "n": 31,
+      "volume": "Ⅲ",
+      "part": 8,
+      "part_title": "可修订的知识",
+      "title": "如何读相互冲突的研究",
+      "evidence": "S",
+      "papers": "P3",
+      "demo_draft": "",
+      "inherits": [
+        "V7-31",
+        "V7-39"
+      ]
+    },
+    {
+      "n": 32,
+      "volume": "Ⅲ",
+      "part": 8,
+      "part_title": "可修订的知识",
+      "title": "未知与异常日志",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-28",
+        "V7-29",
+        "V7-30"
+      ]
+    },
+    {
+      "n": 33,
+      "volume": "Ⅲ",
+      "part": 8,
+      "part_title": "可修订的知识",
+      "title": "可撤回的知识",
+      "evidence": "M",
+      "papers": "",
+      "demo_draft": "",
+      "inherits": [
+        "V6-33"
+      ]
+    }
+  ],
+  "inherited": {
+    "V6-01": {
+      "line": 44,
+      "title": "衰老至少有五种不同的问题",
+      "to": 1
+    },
+    "V6-02": {
+      "line": 62,
+      "title": "三种前沿理论：可以对话，尚未统一",
+      "to": 3
+    },
+    "V6-03": {
+      "line": 99,
+      "title": "熵、信息与控制：三个不能互借单位的词",
+      "to": 3
+    },
+    "V6-04": {
+      "line": 109,
+      "title": "寿命、健康寿命与值得活的时间",
+      "to": 2
+    },
+    "V6-05": {
+      "line": 130,
+      "title": "从细胞到组织：为什么局部成功会在整体中消失",
+      "to": 12
+    },
+    "V6-06": {
+      "line": 144,
+      "title": "五条干预路线：维护、修复、重置、替换、补偿",
+      "to": 10
+    },
+    "V6-07": {
+      "line": 158,
+      "title": "让肝脏临时补位：免疫工程的新启示",
+      "to": 10
+    },
+    "V6-08": {
+      "line": 174,
+      "title": "弓头鲸的教训：更好地修复，不只是更强地清除",
+      "to": 11
+    },
+    "V6-09": {
+      "line": 188,
+      "title": "重编程与克隆：重置并不抹去一切历史",
+      "to": 19
+    },
+    "V6-10": {
+      "line": 208,
+      "title": "组织不是背景：基质、力学与晚年失配",
+      "to": 12
+    },
+    "V6-11": {
+      "line": 220,
+      "title": "衰老细胞清除：靶点选择比“清干净”更重要",
+      "to": 19
+    },
+    "V6-12": {
+      "line": 234,
+      "title": "有功能信号的治疗，不必被迫叫作“逆龄”",
+      "to": 18
+    },
+    "V6-13": {
+      "line": 249,
+      "title": "二甲双胍与 mTOR：不能只对喜欢的结果讲边界",
+      "to": 20
+    },
+    "V6-14": {
+      "line": 269,
+      "title": "限食、补充剂与换浆：把测得的改变放回它的尺度",
+      "to": 20
+    },
+    "V6-15": {
+      "line": 295,
+      "title": "生物年龄不是藏在血里等待读出的出生日期",
+      "to": 5
+    },
+    "V6-16": {
+      "line": 315,
+      "title": "器官年龄、跨干预时钟与恢复曲线",
+      "to": 8
+    },
+    "V6-17": {
+      "line": 329,
+      "title": "检测的价值取决于改变了什么行动",
+      "to": 29
+    },
+    "V6-18": {
+      "line": 352,
+      "title": "基层医疗不是“尚未找到根因”时的次等方案",
+      "to": 29
+    },
+    "V6-19": {
+      "line": 364,
+      "title": "扶手、住房与照护：功能不全在皮肤以内",
+      "to": 23
+    },
+    "V6-20": {
+      "line": 384,
+      "title": "从行为建议转向可执行支持",
+      "to": 23
+    },
+    "V6-21": {
+      "line": 394,
+      "title": "遗传与环境不是一张必须加到百分之百的饼图",
+      "to": 27
+    },
+    "V6-22": {
+      "line": 408,
+      "title": "身体体验：倾听不等于无限监控",
+      "to": 25
+    },
+    "V6-23": {
+      "line": 418,
+      "title": "艺术：不必为了获得正当性而承诺延寿",
+      "to": 26
+    },
+    "V6-24": {
+      "line": 448,
+      "title": "意义与目的：不要把所有人变成“项目经理”",
+      "to": 26
+    },
+    "V6-25": {
+      "line": 468,
+      "title": "依赖、自主与残障：帮助不等于剥夺",
+      "to": 24
+    },
+    "V6-26": {
+      "line": 484,
+      "title": "双账本：身体维护与生活机会",
+      "to": 30
+    },
+    "V6-27": {
+      "line": 516,
+      "title": "四个交叉点：本轮真正改变了哪些理解",
+      "to": 28
+    },
+    "V6-28": {
+      "line": 544,
+      "title": "让综合能被反驳：五项可执行的研究提案",
+      "to": 32
+    },
+    "V6-29": {
+      "line": 596,
+      "title": "LIFE OS 的最小安全架构",
+      "to": 30
+    },
+    "V6-30": {
+      "line": 632,
+      "title": "数字孪生与 AI：推演不等于经历了另一个人生",
+      "to": 25
+    },
+    "V6-31": {
+      "line": 642,
+      "title": "多状态时间：不用一个分数决定生命价值",
+      "to": 28
+    },
+    "V6-32": {
+      "line": 667,
+      "title": "当下的行动排序：先恢复生活，再决定是否增加技术",
+      "to": 29
+    },
+    "V6-33": {
+      "line": 687,
+      "title": "如何判断下一次更新是否真的更好",
+      "to": 33
+    },
+    "V7-01": {
+      "line": 38,
+      "title": "一张不允许把分母藏起来的证据地图",
+      "to": 4
+    },
+    "V7-02": {
+      "line": 59,
+      "title": "六个候选范式转换：不是宣布旧理论死亡",
+      "to": 3
+    },
+    "V7-03": {
+      "line": 79,
+      "title": "血液mtDNA：一个信号可能是另一个过程的影子",
+      "to": 16
+    },
+    "V7-04": {
+      "line": 89,
+      "title": "为何bulk与单细胞看上去互相矛盾",
+      "to": 16
+    },
+    "V7-05": {
+      "line": 101,
+      "title": "年轻了的是细胞，还是样本？",
+      "to": 15
+    },
+    "V7-06": {
+      "line": 113,
+      "title": "表观时钟的两个极端都错了",
+      "to": 6
+    },
+    "V7-07": {
+      "line": 132,
+      "title": "细胞更强，身体可能更弱",
+      "to": 13
+    },
+    "V7-08": {
+      "line": 142,
+      "title": "秋水仙碱：一个统计细节如何改变研究路线",
+      "to": 18
+    },
+    "V7-09": {
+      "line": 152,
+      "title": "TET2与阿尔茨海默病：反例不是处方",
+      "to": 13
+    },
+    "V7-10": {
+      "line": 164,
+      "title": "衰老细胞不是一个均质的敌人",
+      "to": 19
+    },
+    "V7-11": {
+      "line": 174,
+      "title": "物种差异不是给药量换算问题",
+      "to": 12
+    },
+    "V7-12": {
+      "line": 186,
+      "title": "CMLase：从间接关联到可以动手拆解的因果工具",
+      "to": 11
+    },
+    "V7-13": {
+      "line": 196,
+      "title": "去糖化不等于拆交联，也不等于全身去糖",
+      "to": 11
+    },
+    "V7-14": {
+      "line": 206,
+      "title": "糖萼：对大脑进行“边界条件修复”",
+      "to": 12
+    },
+    "V7-15": {
+      "line": 216,
+      "title": "网络不是玄学：生物电的可量化切口",
+      "to": 12
+    },
+    "V7-16": {
+      "line": 230,
+      "title": "老分子并不总是坏分子",
+      "to": 17
+    },
+    "V7-17": {
+      "line": 240,
+      "title": "刺激撤除以后，系统是否真的回来",
+      "to": 8
+    },
+    "V7-18": {
+      "line": 250,
+      "title": "炎症记忆可能不只住在免疫细胞里",
+      "to": 17
+    },
+    "V7-19": {
+      "line": 260,
+      "title": "涡虫：再生与返老之间，还差一个“谁”",
+      "to": 14
+    },
+    "V7-20": {
+      "line": 270,
+      "title": "疫苗与痴呆：把吸引人的结果当作研究机会，而不是信仰",
+      "to": 20
+    },
+    "V7-21": {
+      "line": 288,
+      "title": "“寿命上限”先问是哪一个统计量",
+      "to": 2
+    },
+    "V7-22": {
+      "line": 298,
+      "title": "跨器官的收益冲突，比一个综合年龄更真实",
+      "to": 16
+    },
+    "V7-23": {
+      "line": 314,
+      "title": "实验一：建立“年轻化归属账本”",
+      "to": 14
+    },
+    "V7-24": {
+      "line": 329,
+      "title": "实验二：同一份样本里的mtDNA尺度对账",
+      "to": 16
+    },
+    "V7-25": {
+      "line": 339,
+      "title": "实验三：把化学修复推进到功能修复",
+      "to": 11
+    },
+    "V7-26": {
+      "line": 349,
+      "title": "实验四：顺序是否比总剂量更重要",
+      "to": 20
+    },
+    "V7-27": {
+      "line": 359,
+      "title": "实验五：保留有益记忆，清除有害记忆",
+      "to": 17
+    },
+    "V7-28": {
+      "line": 369,
+      "title": "实验六：复制有益功能，而不是复制危险克隆",
+      "to": 13
+    },
+    "V7-29": {
+      "line": 383,
+      "title": "已知未知：把不确定性变成测量项目",
+      "to": 32
+    },
+    "V7-30": {
+      "line": 398,
+      "title": "Unknown Unknowns：不能列尽，但可以让它们更容易出现",
+      "to": 32
+    },
+    "V7-31": {
+      "line": 416,
+      "title": "研究资源如何排序，而不制造虚假的精确分数",
+      "to": 31
+    },
+    "V7-32": {
+      "line": 432,
+      "title": "个人层面，应该改变的是判断方式",
+      "to": 29
+    },
+    "V7-33": {
+      "line": 446,
+      "title": "长寿的哲学对象：不是最年轻的材料，而是持续可用的自己",
+      "to": 26
+    },
+    "V7-34": {
+      "line": 532,
+      "title": "源端改善，可以伴随接收端负荷增加",
+      "to": 21
+    },
+    "V7-35": {
+      "line": 542,
+      "title": "总余量之外，还有时间与空间的可达性",
+      "to": 22
+    },
+    "V7-36": {
+      "line": 552,
+      "title": "清除成功之前，先核算被清除者的维护功能",
+      "to": 19
+    },
+    "V7-37": {
+      "line": 560,
+      "title": "状态持续，不等于同一批细胞持续",
+      "to": 15
+    },
+    "V7-38": {
+      "line": 570,
+      "title": "修复经验：可能耗损，也可能训练，还可能改变致癌刺激的后果",
+      "to": 17
+    },
+    "V7-39": {
+      "line": 580,
+      "title": "把新视角变成可以失败的研究，而不是新总分",
+      "to": 31
+    }
+  }
+}

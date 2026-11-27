@@ -1,0 +1,297 @@
+{
+  "change_ids": [
+    "change:DEC-011_architecture",
+    "change:DEC-012_papers",
+    "change:X125-X128_prior_art_and_attribution"
+  ],
+  "tool": "research_assurance.core.impact (transitive, cycle-safe)",
+  "edges": [
+    [
+      "change:DEC-011_architecture",
+      "knowledge_base/MASTER.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/BOOK_PROPOSAL.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/README.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/CHAPTER_CROSSWALK_DRAFT.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/PART_VI_维护容量_写作骨架.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/pr2_candidates/"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH01_长寿的五个问题_示范稿.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH15_测量合同_示范稿.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH19_谁替谁维护_示范稿.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH20_平均不等于及时_示范稿.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH21_有余量却用不上_示范稿.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH22_清除之后谁来接班_示范稿.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH23_状态还在细胞换了吗_示范稿.md"
+    ],
+    [
+      "change:DEC-011_architecture",
+      "books/manuscript/CH24_修好这一次还剩多少下一次_示范稿.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "knowledge_base/MASTER.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "papers/PUBLICATION_MAP.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "books/manuscript/CH01_长寿的五个问题_示范稿.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "books/manuscript/CH15_测量合同_示范稿.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "papers/P1_identity_selection/SURVIVOR_IDENTIFICATION_NOTE_2026-11-27.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "knowledge_base/KERNEL.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "papers/P2_weighting_observability/BINARY_CAPTURE_IDENTIFICATION_NOTE_2026-11-27.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "papers/P2_weighting_observability/DECOMPOSITION_NOTE_2026-11-27.md"
+    ],
+    [
+      "change:DEC-012_papers",
+      "papers/P2_weighting_observability/SHARED_COMPONENT_CONSTRAINT_2026-11-27.md"
+    ],
+    [
+      "change:X125-X128_prior_art_and_attribution",
+      "knowledge_base/CLAIM_LEDGER.md#X94"
+    ],
+    [
+      "change:X125-X128_prior_art_and_attribution",
+      "knowledge_base/experiments/sr_published_params_robustness.py"
+    ],
+    [
+      "change:X125-X128_prior_art_and_attribution",
+      "knowledge_base/experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md"
+    ],
+    [
+      "change:X125-X128_prior_art_and_attribution",
+      "papers/PI_rejuvenation_identifiability/PROTOCOL.md"
+    ],
+    [
+      "knowledge_base/MASTER.md",
+      "README.md"
+    ],
+    [
+      "papers/PUBLICATION_MAP.md",
+      "README.md"
+    ],
+    [
+      "knowledge_base/MASTER.md",
+      "external:Linear THE-227/228/229/230/231"
+    ]
+  ],
+  "stale_queue": [
+    {
+      "node": "README.md",
+      "scope": "global",
+      "state_after_this_turn": "revised",
+      "note": "\"待作者裁决\"改为已定，并指向 OUTLINE_v1 与 PI"
+    },
+    {
+      "node": "books/BOOK_PROPOSAL.md",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "文件头指针：§3 被 OUTLINE_v1 取代，§4 证据契约继续有效"
+    },
+    {
+      "node": "books/CHAPTER_CROSSWALK_DRAFT.md",
+      "scope": "local",
+      "state_after_this_turn": "kept_valid",
+      "note": "主题桶本就声明不是终稿章号；章级落点改由 outline_v1.json 承担"
+    },
+    {
+      "node": "books/manuscript/CH01_长寿的五个问题_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "新第 1 章；\"论文关联\"仍写 P1/P2"
+    },
+    {
+      "node": "books/manuscript/CH15_测量合同_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "新第 5 章；\"关联论文\"仍写 P1/P2；建议作为 §7.2 单章试点"
+    },
+    {
+      "node": "books/manuscript/CH19_谁替谁维护_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "并入第 21 章"
+    },
+    {
+      "node": "books/manuscript/CH20_平均不等于及时_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "并入第 21 章"
+    },
+    {
+      "node": "books/manuscript/CH21_有余量却用不上_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "→第 22 章"
+    },
+    {
+      "node": "books/manuscript/CH22_清除之后谁来接班_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "→第 19 章"
+    },
+    {
+      "node": "books/manuscript/CH23_状态还在细胞换了吗_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "→第 15 章"
+    },
+    {
+      "node": "books/manuscript/CH24_修好这一次还剩多少下一次_示范稿.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "→第 17 章；标题行仍写\"第24章\""
+    },
+    {
+      "node": "books/manuscript/PART_VI_维护容量_写作骨架.md",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "六模块分到第 15/17/19/21/22 章；写作时重审"
+    },
+    {
+      "node": "books/manuscript/README.md",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "文件头指针：方案 A 地图是历史，现行见 OUTLINE_v1"
+    },
+    {
+      "node": "books/pr2_candidates/",
+      "scope": "local",
+      "state_after_this_turn": "stale_requires_review",
+      "note": "PR2 候选样章用自身章号；只作素材，不改"
+    },
+    {
+      "node": "external:Linear THE-227/228/229/230/231",
+      "scope": "global",
+      "state_after_this_turn": "revised",
+      "note": "评论更正：上一轮 2bb8edc 未推送已丢失，以本 PR 为准"
+    },
+    {
+      "node": "knowledge_base/CLAIM_LEDGER.md#X94",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "原文与数值不改；X128 追加作者归属更正"
+    },
+    {
+      "node": "knowledge_base/KERNEL.md",
+      "scope": "global",
+      "state_after_this_turn": "kept_valid",
+      "note": "不变式/定义不受影响；§4 表\"P1/P2\"标签留待下个 KERNEL 版本统一改为 PI"
+    },
+    {
+      "node": "knowledge_base/MASTER.md",
+      "scope": "global",
+      "state_after_this_turn": "revised",
+      "note": "§3/§4 改为已定，历史候选原文保留；DEC-011–014；v1.3"
+    },
+    {
+      "node": "knowledge_base/experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "文件头加更正注"
+    },
+    {
+      "node": "knowledge_base/experiments/sr_published_params_robustness.py",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "只改文档串的作者归属；数值、变量名不变"
+    },
+    {
+      "node": "papers/P1_identity_selection/SURVIVOR_IDENTIFICATION_NOTE_2026-11-27.md",
+      "scope": "local",
+      "state_after_this_turn": "kept_valid",
+      "note": "PI 第①层输入，内容不变"
+    },
+    {
+      "node": "papers/P2_weighting_observability/BINARY_CAPTURE_IDENTIFICATION_NOTE_2026-11-27.md",
+      "scope": "local",
+      "state_after_this_turn": "kept_valid",
+      "note": "PI 第②层输入，内容不变"
+    },
+    {
+      "node": "papers/P2_weighting_observability/DECOMPOSITION_NOTE_2026-11-27.md",
+      "scope": "local",
+      "state_after_this_turn": "kept_valid",
+      "note": "PI 第②层输入，内容不变"
+    },
+    {
+      "node": "papers/P2_weighting_observability/SHARED_COMPONENT_CONSTRAINT_2026-11-27.md",
+      "scope": "local",
+      "state_after_this_turn": "kept_valid",
+      "note": "PI 第②层输入，内容不变"
+    },
+    {
+      "node": "papers/PI_rejuvenation_identifiability/PROTOCOL.md",
+      "scope": "local",
+      "state_after_this_turn": "revised",
+      "note": "新建协议 v2，引用 X125–X128"
+    },
+    {
+      "node": "papers/PUBLICATION_MAP.md",
+      "scope": "global",
+      "state_after_this_turn": "revised",
+      "note": "文件头 DEC-012 指针；正文保留历史"
+    }
+  ],
+  "frozen_not_invalidated": {
+    "papers/P1_identity_selection/PROTOCOL.md": "冻结历史协议：被 PI 取代，但字节不改（上一轮在文件头插注不合规，本次撤回该做法）",
+    "papers/P2_weighting_observability/PROTOCOL.md": "同上",
+    "papers/P3_research_assurance/PROTOCOL.md": "冻结；P3 处置记录在 MASTER 与 PUBLICATION_MAP",
+    "review/ARCHITECTURE_AUDIT_PACKET_L2_2026-11-27.md": "L2 盲审包须对 L1 与本决定保持不可见：不失效、不修改",
+    "corpus/longevity_v6/": "冻结语料，只读；hash 由 tests/test_outline_source_binding.py 复核",
+    "corpus/longevity_v7/": "同上"
+  },
+  "warning": "stale_requires_review is not refutation; kept_valid/revised are recorded human judgements, not machine-verified truth."
+}
