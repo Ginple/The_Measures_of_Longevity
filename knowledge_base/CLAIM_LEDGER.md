@@ -147,3 +147,8 @@ X74 后续：Fig 7 图注规定首次照射前一天开始抗体；正文相关�
 
 | X79 | 2026-11-27 | CAPABLE 2014设计、登记与2019报告的主要终点描述 | [设计文](https://pmc.ncbi.nlm.nih.gov/articles/PMC4074085/)将ADL列主要、IADL列次要；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)仅列ADL，[2019结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)将两者都列主要 | 口径和正式修订日期未核；无全部方案及分析计划，不能判违规、错误或偏倚方向 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核登记历史、有日期方案、伦理修订和多重性 | open |
 | X80 | 2026-11-27 | CAPABLE 登记与结果文的收入阈值及住宅资格 | [当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)列收入低于贫困线175%，未列排除公寓；[结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)写低于200%且排除公寓 | 登记摘要不等于完整方案或实际筛选；资格可能随时间改变，未取得带日期历史和入选者数据 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核版本、筛选与外推，保留差异不裁决 | open |
+
+X44 后续：依据 PR2@b8434e22 线索，核登记当前结果及标注2014的方案：[HARP续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)记录首次事件/总数的口径、135/140与127/126分母的登记解释和不同起算点；当前登记不证明历史变更，未判违规或偏倚方向。
+
+| X81 | 2026-11-27 | HARP 人口表、登记与分层随机描述冲突 | [论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/)摘要女性229、黑人161，正文243和170；[表1](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/table/zoi210656t1/)黑人对照83/HARP87，HARP女性122+男性34=156；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT02392013)黑人对照87/HARP83，男女各122/33 | 摘要称按种族和性别分层，方法称年龄和性别；原始分层与表格、勘误及版本未核，不能选一处静默修正或判定偏倚 | [续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)；索取随机化日志、数据字典、作者说明 | open |
+| X82 | 2026-11-27 | HARP 跌倒效能量表题项和计分描述不一致 | [论文 Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC8408671/)称短版10项各1–10；表1脚注称每项1–4；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT02392013)称7项各1–4、总分7–28 | 表中均值与登记范围相容不确定真实问卷；未核问卷、计分代码及修订，不判计算错误 | [续审](HARP_PROTOCOL_REGISTRY_FOLLOWUP_2026-11-27.md)；核实际问卷、计分、作者和勘误 | open |
