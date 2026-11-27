@@ -103,3 +103,5 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 [LoDoCo2/COLCOT比较](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)区分母试验、随机后DNA样本、检出规则及临床终点；登记X85/X86，保留COLCOT仅核2024预印本v1的限定。人工选择例不估计真实偏差；KERNEL更新至v0.9.8，冻结V7不改。
 
 [分选后比例的条件敏感性示例](experiments/PR2_SORTED_SAMPLE_SENSITIVITY_2026-11-27.md)择取 PR2 的精确算术与测试，补充uPAR分选后与总体的区别；假设的纳入比不代表真实回收率。
+
+[CALERIE补表条件舍入与缺失续核](CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)引入PR2的精确分数算术：在指定舍入规则下57（29.8%）对应的整数分母候选为191，不能据此判定实际样本或完整记录人数。

@@ -158,3 +158,5 @@ X44 后续：依据 PR2@b8434e22 线索，核登记当前结果及标注2014的�
 
 | X85 | 2026-11-27 | LoDoCo2导入期估计、区间和P值的报告口径 | [作者稿 Results](https://pmc.ncbi.nlm.nih.gov/articles/PMC12557339/)报告 β=−.026，95% CI −.099至−.046，P=.48；点估计在报告区间外 | 如果各值指同一参数、通常同一双侧检验则需解释；开放标签导入非随机对照；补图、统计输出、勘误与作者未核，不指定修改 | [专项审计](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)，核完整模型及输出；原文报告冲突不是计算错误判决 | open |
 | X86 | 2026-11-27 | COLCOT预印本抽样、检测阈值与变异/观察单位 | [2024 v1](https://www.medrxiv.org/content/10.1101/2024.10.17.24315679v1.full) 848人两次DNA，Results列1954 unique variants、15919 longitudinal observations，摘要称15919 mutations；参照样品的检出与PPV随过滤阈值变化 | 选择取样、治疗后首样及有限参照性能限制解释；2026发表版正文未读，不能当最终版数字；阈值检验不是对真实疗效偏差的定量估计 | [专项审计](COLCOT_LODOCO2_SELECTION_AND_ASSAY_AUDIT_2026-11-27.md)，取补表、最终文、代码与授权数据 | open |
+
+X60 后续：按 PR2@b8434e22 的线索重新核 S3，若57（29.8%）由整数分母最近舍入至一位小数产生，分母只可能191；这不证明实际分母或样本身份，其他口径仍可能。[条件舍入与完整例界](CALERIE_S3_ROUNDING_AND_MISSINGNESS_2026-11-27.md)同时列190/191下不同假设界；X60仍开放。
