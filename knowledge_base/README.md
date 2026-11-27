@@ -46,6 +46,10 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 
 [四向续研：反例成对比较与分母一致性审查](COUNTEREXAMPLES_AND_DENOMINATORS_2026-11-27.md)包括 CETP 药物、D+Q 可行性、家庭环境反例及 CALERIE 报告人数的条件性集合冲突（X31）；[可运行边界计算](experiments/calerie_denominator_bounds.py)并非试验数据复算。
 
+## 同日续研：替代终点、组织修复与长期结局
+
+[定向审计与后续执行队列](LONGITUDINAL_SURROGATE_REPAIR_AUDIT_2026-11-27.md)：比较 TranslAGE 和生活方式 RCT 估计量，修正多数一致性误读（X32），核小鼠 p16 谱系、DPPOS 临床追踪、CAPABLE 5/12 月及 MTO 撤稿替换（X34）；[合成替代终点反例](experiments/surrogate_identifiability_demo.py)附测试，不是临床数据或验证。
+
 ## 同日续研：时间尺度与来源条件
 
 [CALERIE 时间尺度与分母复核](CALERIE_TEMPORAL_AUDIT_2026-11-27.md)：发表版补充表与图注 AL 12 月人数不同；两种条件算术均不闭合，X31 仍 open；端粒、EWAS 为同一试验不同测量，不是独立复制。发表版 Fig. 2 源表[离线审计脚本](experiments/calerie_fig2_audit.py)仅做合成数据测试，未取得原始字节或计算实际行数，不作模型复算。

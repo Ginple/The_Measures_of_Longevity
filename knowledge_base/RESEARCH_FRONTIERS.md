@@ -17,7 +17,7 @@
 - **来源**：[Renascience 结果 PDF](https://www.renascience.co.jp/wp-content/uploads/2026/05/xprize-healthspan-trial-results.pdf) · [AgelessRx](https://agelessrx.com/xprize-healthspan-update-inside-agelessrxs-longevity-clinical-trial/) · [Milestone-2 报道](https://stack-archive.com/blog/agelessrx-xprize-healthspan-1m-award-antiaging-trial-2026/)
 
 ### F2 TranslAGE：干预响应性的系统比较（Nat Med 2026-08-21）
-- **事实**：Yale 团队统一 51 项人类干预研究、3,128 样本；比较 16 钟 + 94 DNAm 标志物。DunedinPACE 效应量最大（均值 −0.0891，p=0.0012），PCGrimAge 最强显著性（−0.07843，p=0.0003）；DunedinPACE 从不与其他钟方向冲突；健康人群与疾病人群响应不同；**结论明示：尚无钟被监管机构接受为替代终点**，"响应性≠返老"。
+- **事实**：Yale 团队统一 51 项人类干预研究、3,128 样本；比较 16 钟 + 94 DNAm 标志物。DunedinPACE 效应量最大（均值 −0.0891，p=0.0012），PCGrimAge 最强显著性（−0.07843，p=0.0003）；DunedinPACE 未被作者定义的“与多数其他显著钟分歧”类别捕获，不能写成从不与任何钟方向冲突（X32）；健康人群与疾病人群响应不同；**结论明示：尚无钟被监管机构接受为替代终点**，"响应性≠返老"。
 - **关联**：CALERIE 中仅 DunedinPACE 显著移动；二甲双胍/戒烟/脐血输注等各自只动特定钟。GLP-1 线索：司美格鲁肽 post hoc n=84 报告 DunedinPACE −0.09（约 9% 慢，p=0.01），另一 n=41（HIV/MASLD）的 24 周研究是单臂，故没有组间比较；DunedinPACE 中位变化 +0.018（X03）；早期 AD 认知试验 2026-09 报告阴性。○（两项 GLP-1 研究相关原文已核，临床结局及 AD 结果仍待核，台账 X03）
 - **与 KERNEL**：**转换九的直接实证**；为 P2 增加最新基线：响应性排序已有系统证据，替代终点缺口是论文的卖点。◇（主文摘要+结果已读）[Nat Med 原文](https://www.nature.com/articles/s41591-026-04562-9)
 
