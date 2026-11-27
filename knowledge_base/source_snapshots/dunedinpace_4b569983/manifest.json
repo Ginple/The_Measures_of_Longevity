@@ -1,0 +1,28 @@
+{
+  "retrieved_utc": "2026-11-27T09:35:10.605375+00:00",
+  "repository": "https://github.com/danbelsky/DunedinPACE",
+  "license": "GPL-3.0; see LICENSE",
+  "scope": "Source code version present at retrieval; study did not identify its exact commit. Not a study data archive, execution, external independent verification or verification of scientific results.",
+  "records": [
+    {
+      "upstream_path": "R/PACEProjector.R",
+      "url": "https://github.com/danbelsky/DunedinPACE/blob/4b569983543e51d1022aecec9a25e694bb3a336a/R/PACEProjector.R",
+      "commit": "4b569983543e51d1022aecec9a25e694bb3a336a",
+      "git_blob_sha1": "1a52f1bf1a0ac4c379a295da8fdfb8aaa3754576",
+      "sha256": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e",
+      "bytes": 7706,
+      "local_path": "knowledge_base/source_snapshots/dunedinpace_4b569983/PACEProjector.R",
+      "verification": "content API == independently fetched blob API; Git blob SHA1 recomputed; SHA256 local"
+    },
+    {
+      "upstream_path": "LICENSE",
+      "url": "https://github.com/danbelsky/DunedinPACE/blob/4b569983543e51d1022aecec9a25e694bb3a336a/LICENSE",
+      "commit": "4b569983543e51d1022aecec9a25e694bb3a336a",
+      "git_blob_sha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "local_path": "knowledge_base/source_snapshots/dunedinpace_4b569983/LICENSE",
+      "verification": "content API == independently fetched blob API; Git blob SHA1 recomputed; SHA256 local"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 import copy,json,sys,shutil,tempfile,unittest
 from pathlib import Path
 P=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(P/'methods/research-assurance/src'))
+sys.path.insert(0,str(P/'src'))
 from research_assurance.core import inspect_project,sha256,claim_record_hash,reviewed_claim_hash,confined,read_span
 
 class ComplexInputs(unittest.TestCase):
  def setUp(self):
-  self.temp=tempfile.TemporaryDirectory();self.root=Path(self.temp.name)/'toy';shutil.copytree(P/'methods/research-assurance/examples/toy',self.root);self.data=json.loads((self.root/'project.json').read_text())
+  self.temp=tempfile.TemporaryDirectory();self.root=Path(self.temp.name)/'toy';shutil.copytree(P/'examples/toy',self.root);self.data=json.loads((self.root/'project.json').read_text())
  def tearDown(self):self.temp.cleanup()
  def inspect(self):return inspect_project(self.data,self.root)
  def test_large_500_claim_registry(self):

@@ -1,3 +1,7 @@
+# 遗留副本 / Legacy copy — 非编辑源
+
+当前唯一编辑源见 `../corpus/longevity_v7/`；本目录保留作历史参考，不再同步修改。
+
 # 谁在变年轻？｜LIFE OS V7
 
 ## 本SESSION收束状态（优先于下列原始发布说明）

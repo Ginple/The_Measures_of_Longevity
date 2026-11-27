@@ -1,6 +1,8 @@
 # HANDOFF｜LONGEVITY SESSION收束与下一会话接续
 ## Session Handoff — Existing Manuscripts Updated, Research Boundaries Preserved
 
+> **路径维护注（2026-11-27）**：本文保留上一会话的时间与历史状态。原工作台目录已迁移，以下七处链接目的地改指当前 `corpus/`、`papers/`、`books/`；历史原路径见 [续审记录](review/PR1_CONTINUATION_AUDIT_2026-11-27.md)。旧会话“不另建 HTML”限制已被用户随后明确要求创建 `STATE_DASHBOARD.HTML` 所覆盖；不能据旧状态推断当前进度。本文其余历史叙述未整体重写。
+
 **交接日期标签：2026-11-25（当前会话提供的America/Los_Angeles日期）。** 文件系统mtime可能显示11-26，不能拿mtime反向重写会话日期；日期记录冲突见[日期说明](RESEARCH_DATE_CLARIFICATION.md)。
 
 **用户本轮明确要求：本SESSION最后一轮；交付HANDOFF及必要文件；更新原有专著和论文，不另建新版稿件；下SESSION将连接GitHub。**
@@ -25,17 +27,17 @@
 |---|---|---|
 |V6原正文|[长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md](longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md)|保留原有广度；新增“维护的不只是今天的身体，还有下一次恢复的可能”，S6.1—S6.6专题|
 |V7原正文|[长寿研究_V7_谁在变年轻.md](longevity_v7/长寿研究_V7_谁在变年轻.md)|保留前33编号章；新增第十部34—39章，接入六轮机制与可证伪实验|
-|工作台既有V6副本|[同名V6](longevity_research_workbench/corpus/editions/v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md)|与V6原正文逐字节一致，角色改为同步工作稿|
-|工作台既有V7副本|[同名V7](longevity_research_workbench/corpus/editions/v7/长寿研究_V7_谁在变年轻.md)|与V7原正文逐字节一致，角色改为同步工作稿|
+|工作台既有V6副本|[同名V6](corpus/longevity_v6/长寿的科学艺术哲学与工程_V6_维护身体扩展生活.md)|与V6原正文逐字节一致，角色改为同步工作稿|
+|工作台既有V7副本|[同名V7](corpus/longevity_v7/长寿研究_V7_谁在变年轻.md)|与V7原正文逐字节一致，角色改为同步工作稿|
 
 两书开头均标明本次授权更新、尚待独立审阅及历史产物范围。新增引用在新增正文直接给出；没有假装旧机器索引已覆盖全部新增来源。未重写V4/V5或把两种透镜粗暴合并。
 
 ### B. 论文与书架构：更新现存协议，不虚构全文
 
-- [P1 身份与选择协议](longevity_research_workbench/papers/P1_identity_selection/PROTOCOL.md)：状态持续/同细胞持续、队列退出/成熟、细胞内记忆编辑/克隆选择；恢复后随机化的目标人群。
-- [P2 权重与可见性协议](longevity_research_workbench/papers/P2_weighting_observability/PROTOCOL.md)：静态存量、动态通量、时间窗口和空间覆盖的测量合同；仍不把线性混合推广为万能动力学模型。
-- [P3 研究保障协议](longevity_research_workbench/papers/P3_research_assurance/PROTOCOL.md)：来源层级、重复单位、人工参数、生效窗口与授权变更后的版本失效；新样例只能算已见回归集，非盲测。
-- [PUBLICATION_MAP](longevity_research_workbench/papers/PUBLICATION_MAP.md)、[BOOK_PROPOSAL](longevity_research_workbench/books/longevity/BOOK_PROPOSAL.md)：同步本次接入与投稿门槛，不新增P4/P5凑数。
+- [P1 身份与选择协议](papers/P1_identity_selection/PROTOCOL.md)：状态持续/同细胞持续、队列退出/成熟、细胞内记忆编辑/克隆选择；恢复后随机化的目标人群。
+- [P2 权重与可见性协议](papers/P2_weighting_observability/PROTOCOL.md)：静态存量、动态通量、时间窗口和空间覆盖的测量合同；仍不把线性混合推广为万能动力学模型。
+- [P3 研究保障协议](papers/P3_research_assurance/PROTOCOL.md)：来源层级、重复单位、人工参数、生效窗口与授权变更后的版本失效；新样例只能算已见回归集，非盲测。
+- [PUBLICATION_MAP](papers/PUBLICATION_MAP.md)、[BOOK_PROPOSAL](books/BOOK_PROPOSAL.md)：同步本次接入与投稿门槛，不新增P4/P5凑数。
 
 三篇正式题名保留：
 

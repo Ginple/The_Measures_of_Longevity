@@ -10,8 +10,8 @@ def include(path):
     return path.is_file() and not any(x in EXCLUDED or x.endswith('.egg-info') for x in path.relative_to(P).parts) and path.name!='FILE_MANIFEST.json'
 
 def main():
+    raise SystemExit('Historical packager disabled: it overwrites frozen manifests and predates the current repository layout. It is not a current release contract; create and review a new packaging workflow.')
     files=sorted(f for f in P.rglob('*') if include(f))
-    assert not any(f.suffix.lower()=='.html' for f in files),'new_dashboard_forbidden_by_user'
     sha=lambda b:hashlib.sha256(b).hexdigest()
     manifest={f.relative_to(P).as_posix():{'bytes':f.stat().st_size,'sha256':sha(f.read_bytes())} for f in files}
     (P/'FILE_MANIFEST.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

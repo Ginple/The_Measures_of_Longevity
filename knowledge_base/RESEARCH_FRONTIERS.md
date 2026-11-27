@@ -1,0 +1,147 @@
+# RESEARCH FRONTIERS｜前沿扫描 2026-11-27（第 1 期）
+
+**纠错警示**：本扫描的读深符号与使用不一致，旧标记不能作为已读或已核凭证；逐条复核见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
+
+**性质**：定向扫描（10 路检索），不是系统综述；搜索没找到 ≠ 无人做过。每条标注来源、读深、与 [KERNEL](KERNEL.md) 的关系、是否触发版本失效。季度机制见 Linear THE-233。
+
+**读深图例**：◆ 摘要/官方页 · ◇ 全文或方法已读 · ○ 仅二手来源（须核原文后才能进正文）
+
+---
+
+## 1｜十项核心更新（2025-11 → 2026-11）
+
+### F1 XPRIZE Healthspan 进入决赛前夜
+- **事实**：$101M 竞赛，600+ 团队，40 强半决赛；2026-08 公布 10 个 Milestone-2 获奖（各 $1M），决赛大奖最高 $81M 预计 2030。竞赛终点指标是**功能**：50–90 岁人群肌肉/认知/免疫功能恢复。
+- **关键数据点**：Renascience RS5614（PAI-1 抑制剂）半决赛：19 人、4 个月，Horvath 61.7→58.3（−3.4 年，p<0.001，15/19）、PC-Horvath −1.9 年（18/19）；结果 2026-04 提交评审委员会。AgelessRx 六成分方案（雷帕霉素+纳曲酮+二甲双胍+NAD+ 等 + 运动/冥想）：n=18 完成的 3 月试点 PhenoAge ≈−2 年，2026–2029 将做 n≈186 一年 RCT。Goda 实验室"超级外泌体"（预临床，小鼠）。
+- **与 KERNEL**：加强 I2/I9——竞赛级"时钟下降"读数大量涌现，而终点是功能；正是"速度归属"（转换九）的公共案例库。◆
+- **来源**：[Renascience 结果 PDF](https://www.renascience.co.jp/wp-content/uploads/2026/05/xprize-healthspan-trial-results.pdf) · [AgelessRx](https://agelessrx.com/xprize-healthspan-update-inside-agelessrxs-longevity-clinical-trial/) · [Milestone-2 报道](https://stack-archive.com/blog/agelessrx-xprize-healthspan-1m-award-antiaging-trial-2026/)
+
+### F2 TranslAGE：干预响应性的系统比较（Nat Med 2026-08-21）
+- **事实**：Yale 团队统一 51 项人类干预研究、3,128 样本；比较 16 钟 + 94 DNAm 标志物。DunedinPACE 效应量最大（均值 −0.0891，p=0.0012），PCGrimAge 最强显著性（−0.07843，p=0.0003）；DunedinPACE 在该文所定义的“少于半数其他显著钟同向”分歧类别中未出现，不等于它与每一个钟都从不冲突；17.6% 的分母是该钟显著结果而非全部研究；健康人群与疾病人群响应不同；**结论明示：尚无钟被监管机构接受为替代终点**，"响应性≠返老"。
+- **关联**：CALERIE 中仅 DunedinPACE 显著移动；二甲双胍/戒烟/脐血输注等各自只动特定钟。GLP-1 线索：司美格鲁肽 post hoc n=84 报告 DunedinPACE −0.09（约 9% 慢，p=0.01），另一 n=41（HIV/MASLD）的 24 周研究是单臂，故没有组间比较；DunedinPACE 中位变化 +0.018（X03）；早期 AD 认知试验 2026-09 报告阴性。○（两项 GLP-1 研究相关原文已核，临床结局及 AD 结果仍待核，台账 X03）
+- **与 KERNEL**：**转换九的直接实证**；为 P2 增加最新基线：响应性排序已有系统证据，替代终点缺口是论文的卖点。◇（主文摘要+结果已读）[Nat Med 原文](https://www.nature.com/articles/s41591-026-04562-9)
+
+### F3 器官蛋白质组钟：从横断到纵向
+- **事实**：Nat Aging 2025-11：UKB 43,616 分析集（训练/测试 7:3）+ 中国 CKB 3,977 + 美国 NHS 800 验证，个体钟 r=0.94，跨队列 r=0.98/0.93；10 个器官钟（蛋白数 5–76）；脑老化与死亡关联最强。**预印本**（bioRxiv 2026-02，n=1,250、10 年随访、6,402 蛋白）：横断面≈个体内轨迹；免疫与脂肪是枢纽；早期心肺老化预测下游代谢老化；器官钟年龄差 decade 内中等稳定。另：MRI 钟 n=313,645（7 器官）、蛋白/影像钟配对分析显示不同表型签名、基因组学 119 位点（均为二手来源）。○
+- **与 KERNEL**：器官年龄差弱相关提示读数异质性，不直接证明可达容量或因果机制；预印本部分进 Known Unknowns。◇（主文）[Nat Aging](https://www.nature.com/articles/s43587-025-01016-8) · [纵向预印本](https://www.biorxiv.org/content/10.64898/2026.02.17.706320v1.full)
+
+### F4 ER-100 人体部分重编程研究（“首例”未经监管公告核实）
+- **事实**：Life Biosciences 于 2026-01-28 公告 FDA 已许可其 ER-100 IND、06-09 公告第一位受试者已接受给药；公告日期不是确切许可或给药日期。10-08 公司自报 Phase 1 三名青光眼参与者 56 天安全观察及两人视野测试初步信号；开放标签、无对照且样本极小，非疗效或长期安全证据。原“27.8 倍肿瘤风险”混淆了来源报告的重编程效率和肿瘤风险，已撤回（X22）；研究发表状态与汇总方法待核。详见 X01/X23。
+- **与 KERNEL**：加强 I6（身份保持是重编程的测量前提）；V6 §09"ER-100：承认人体进展，也承认它仍小"需按台账 X01 核清日期后更新。公司公告一手自报（不是 FDA 原始文件或同行评审）。[系统综述](https://www.researchgate.net/publication/406907247_Cellular_Reprogramming_as_a_Strategy_for_Radical_Rejuvenation) · [报道](https://www.jerrycards.com/news/life-biosciences-er-100-first-human-cellular-reprogramming-trial-reverse-aging-eyes-2026)
+
+### F5 衰老细胞清除：首例纤维化终点 RCT + 持续的失败教训
+- **事实**：D+Q（达沙替尼+槲皮素）MASH 肝纤维化 RCT（Amsterdam UMC，Nat Metab 2026-10-01）：n=31（17/14）、21 周；纤维化改善 ≥1 期且 MASH 未恶化 47%（8/17）vs 7%（1/14），P=0.021；4 例缺失按未应答，保守缺失假设 P=0.068；不良事件者 14/17 vs 6/14；snRNA-seq 示衰老/纤维化基因下调、肝星状细胞群减少；作者自评 hypothesis-generating。对照：UBX0101 膝骨关节炎 Phase 2 失败停药；DKD 试点（3 天 D+Q，脂肪/皮肤活检衰老细胞↓）；AFFIRM（fisetin，衰弱老年女性）进行中；"衰老细胞并非均质敌人"（修复情境 p16⁺ 细胞）仍是共识性告诫。
+- **与 KERNEL**：加强 I3/I5——与"清除者也在靶标里"模块互证：靶点选择与部位决定收益符号；禁止句新增"47%≠疗效确立"。原文相关 Results 已核，未复算（X13、LON-C000004）。[RCT 原文](https://www.nature.com/articles/s42255-026-01643-4) · [RCT 报道](https://nero-drbeauty.com/en/news/senolytics-dasatinib-quercetin-mash-trial-2026/) · [证据综述](https://thelifespanlab.com/senolytics-longevity.html)
+
+### F6 TPE 的两个研究：方案差异与不可归因
+- **纠错后的来源描述**：Fuentealba 等 2025 §2 和图 2 用 36 钟，但同一发表版的引言与 §4.6 也写 35，不能仅解释为预印本与发表版差异；44 入组、42 完成，文中称随机分配，§4.2 同时称先到先填短周期组，再填长周期组，顺序生成与实施需澄清。第一次后续采血有若干钟的组间差；第二次未见显著组间差，不证明效应消失。−2.61 和 −1.32 是跨钟汇总的时钟差值，非临床年龄或寿命；汇总时钟推断单位待核。未评估短期功能结果，不可宣称临床疗效。另一献血者研究不是此试验对照，含延迟开始组、不同对象/程序/时钟及时间；有部分上升的指标和未作多重调整，不可把跨研究差异归因置换液或作直接疗效比较。见 [TPE 原文、登记和公开代码核读](TPE_ALLOCATIONS_AND_CLOCK_UNITS_2026-11-27.md)。
+- **与 KERNEL**：加强 I5/I7 与转换八（时间差异需直接比较，给药间隔属于干预合同）；跨研究差异只能用于提出假说，不能识别置换液的单独作用；也提示干预描述合同必须包含置换液/辅料字段（P2 干预描述合同；不能自动作为观测算子）。◇（两篇原文摘要+方法均读）[Sci Rep 原文](https://pmc.ncbi.nlm.nih.gov/articles/PMC12218284/) · [TPE 综述页](https://www.globalapheresis.com/conditions/longevity)
+
+### F7 CHIP 生长率：人体可测的选择动力学
+- **事实**：WHI-LLS 16 年（Pershad et al., Blood 2025）：6,976 女性、两时点相距 15.8±1.7 年；CHIP 患病 14.3%→32.6%；扩张率按驱动基因：JAK2 16.2%/SF3B1 14.4%/年 vs DNMT3A 6.9%/ZNF318 8.3%；micro-CH 3.6% vs CHIP 9.0%/年；种系修饰子 TERT/IL6R/TCL1A/MSI2；IL6R p.Asp358Ala 特异损害 TET2 扩张；生长率中介 CHRS 对白血病（34.4%）与全因死亡（43.7%）预测价值；每 +10%/年→白血病 HR 1.87 [1.25–2.80]。Vanderbilt BioVU n=3,000（Haematologica 2025）：秋水仙碱、甲泼尼龙暴露与生长减慢相关（CHIVE 外部验证 4/5、8/10 克隆不减反增未出现），羟氯喹与 +3.1%/年相关 [0.3–5]——**观察性**。另一队列：中位倍增 7.43 年，约半数克隆不生长；CHIP 一旦确立一般不丢失。
+- **与 KERNEL**：**转换九的原型数据**：V7 §08 秋水仙碱线索（总体交互 P=0.13、TET2 P=0.04）升级为"速度可测、归属未定"；P1 的选择过程有了纵向人体读数。◇（全文+两篇精读）[Blood](https://pmc.ncbi.nlm.nih.gov/articles/PMC12952779/) · [Haematologica](https://haematologica.org/article/view/11825)
+
+- **后续对照（2026-11-27）**：COLCOT 心梗后母试验与 LoDoCo2 不同；COLCOT 2024 预印本 v1 报告 TET2 VAF 交互，但自愿子研究、双时点样本及多数人的首个采血在治疗后，稀少的临床事件不足以证明 TET2 分层获益。2026 Circulation 发表版正文未取得，预印本不与发表版重复计数。LoDoCo2 数字冲突 X19/X40 仍未解决。TECTONIC 是 canakinumab、以冠脉影像为主要结局的招募中试验，不是秋水仙碱获益结果。来源与选择条件详见[比较核读](COLCOT_LODOCO2_TRIANGULATION_2026-11-27.md)。
+
+- **CANTOS 临床结局另核**：基线 DNA 的探索性 TET2 亚组，合并 canakinumab 剂量的 MACE HR .38（.15–.96）是组内估计；与无 CHIP 的交互 P=.14，不能根据一个亚组显著、另一组不显著断言差异已确立。母试验 150 mg 达多重性调整门槛，同时致命感染较多；[2023 蛋白/贫血分析](https://pmc.ncbi.nlm.nih.gov/articles/PMC10758744/)与之同源非独立临床复制。CANTOS hs-CRP 表头与正文差10倍待澄清，见[核读](CANTOS_TET2_CLINICAL_INTERACTION_2026-11-27.md)。
+
+### F8 胸腺再生与免疫年龄（TRIIM/TRIIM-X）
+- **事实**：TRIIM（2019，n=9）：GrimAge −2.5 年；停药后持久性存在口径冲突（X10，待核），不得据此下结论；MRI 示胸腺脂肪→腺体组织回填。TRIIM-X（含女性、优化方案）预期 2026 出全结果；二手来源称 naive CD8 +20%（"≈逆转 11 年"）、CD4 +13%（"≈28 年"）——**换算口径未核实**（台账 X04）。
+- **与 KERNEL**：转换八实例（停药后持久性）；免疫年龄作为"谁在变年轻"的对象。○ [TRIIM 报道](https://www.unbedsidemanners.com/articles/thymus-regeneration-fahy-triim)
+
+### F9 修复记忆的处置技术正在成型
+- **事实**：2026-11 三篇综述：肺损伤 trained immunity（AM 自更新 + HSPC 骨髓印记，IL-1β 依赖，髓系偏斜而不耗竭）；创面巨噬细胞记忆（succinate–HIF-1α–KDM5A 锁定促炎状态，HDACi/衣康酸可重编程）；子宫内膜异位症巨噬记忆与治疗重编程（HDAC 抑制剂、代谢调节、CD47-SIRPα、纳米递送，多数未在模型验证）。
+- **与 KERNEL**：与修复记忆模块（骨/肌/肠）汇流：记忆的**建立/调用/擦除**三段框架现在有了对应的药理学动作词（训练/维持/重编程）；为"保留有益记忆、清除有害记忆"（V7 §27 实验）提供候选工具与新的不可识别风险（重编程本身也有记忆）。◇ [肺](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1819744/full) · [创面](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1892931/full) · [内异症](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1932061/full)
+
+### F10 生物标志物共识与"14 项"的实证检验
+- **事实**：Perri et al.（J Gerontol A 2025;80:3758–3775，Delphi 三轮）：14 项达标（IGF-1、GDF-15、hsCRP、IL-6、肌肉量、肌力、握力、TUG、步速、平衡、衰弱指数、认知、血压、DNAm 钟）；葡萄糖/胆固醇被否（≤50%），TNF-α/HbA1c/端粒中等（51–69%）。BASE-II 头对头比较（medRxiv 2025-11）：14 项中仅握力、IL-6、平衡、认知、DunedinPACE 预测死亡，**DunedinPACE 最强**。中国 Aging Biomarker Consortium 器官共识系列：骨骼肌（2025）、皮肤（2025-12 定稿/2026-09 发表）、肾（2026-07）——三维度（功能/结构/体液）+ 证据分级框架。NIST 建立 DNAm 参考物质。
+- **与 KERNEL**：书第Ⅳ部与 KERNEL §5 estimand 骨架的锚点；"复合标志物是方向、单一标志物不存在"写入正文；注意二手页面流传的共识清单有错（把 VO2max/HbA1c 列入），以原文为准（台账 X07 已核）。◇ [共识原文](https://academic.oup.com/biomedgerontology/article/80/5/glae297/7930267) · [BASE-II](https://www.medrxiv.org/content/10.1101/2025.11.20.25340648v1.full)
+
+## 2｜Known Unknowns（已知未知，附测量计划）
+
+| # | 未知 | 测量/裁决计划 | 关联 |
+|---|---|---|---|
+| U1 | 干预-时钟响应能否区分"归属"？ | 任何报告时钟下降的试验按 KERNEL §5 七字段重读；建立归属清单 | P1/P2；THE-229 |
+| U2 | TPE 效应是否依赖置换液？ | 汇总 Fuentealba 与 Sci Rep 协议差异表；联系作者确认白蛋白/IVIG 成分 | 书 Ⅳ/Ⅶ；X05 |
+| U3 | 器官钟纵向级联是否因果 | 等预印本同行评审 + 干预性打断实验 | F3；X06 |
+| U4 | D+Q 纤维化信号能否复制 | 等独立重复或更大 RCT；同时核 MASH 星状细胞亚群是否"维护者" | F5；清除选择性模块 |
+| U5 | ER-100 时线与安全性 | 核 FDA 官方记录及长期随访；2026-10 公司已自报三人 56 日观察（X23） | X01；V6 §09 更新 |
+| U6 | TRIIM "逆转 N 年"换算 | 核 TRIIM/TRIIM-X 原文与口径 | X04 |
+| U7 | GLP-1 时钟效应 | 核 post hoc 原文与预注册；AD 阴性结果全文 | X03 |
+| U8 | XPRIZE 决赛读数口径 | 跟踪官方规则与最终指标（功能 vs 钟） | THE-233 |
+
+## 3｜Unknown Unknowns（发现机制，非清单）
+
+- 异常现象日志：[ANOMALY_LOG.csv](ANOMALY_LOG.csv)（已建，含首条记录）。入库标准：与 KERNEL 范式表方向冲突的读数、跨层级不一致（钟/功能/组织学）、复制失败、协议隐变量被漏报（如置换液）。
+- 季度跨域审读：发育生物学（身份维持）、生态学（种群竞争/密度依赖）、工程可靠性（预防性维护与老化管理）各选一章——目标不是类推，而是找 V6/V7 未编码的**维度**。
+- 原则（V7 §30 继承）：未知未知不能列成已知事实；"现有本体未连边 ≠ 科学空白"。
+
+## 4｜候选研究转向（pivots，供 MASTER §4 引用）
+
+1. **P-置换液**：把 TPE 两项研究写成"干预描述合同"最小案例：跨研究差异可提出干预描述假说；不同设计不能支持置换液单因素归因，需对照协议后再用。
+2. **P-速度归属**：以 CHIP 生长率 + TranslAGE 为基线，把《Identifiability of Rejuvenation》（P1+P2 合并）的 estimand 直接锚定在"速度变化的归属分解"上。
+3. **P-容量核算**：六模块 → P4《Maintenance Capacity Accounting》（见 MASTER §4 方案 C）。
+4. **P-重编程测量合同**：首例人体部分重编程时代，什么才是**有效**读数（身份保持、器官局部、复合终点）——书第Ⅳ部与 F4 合并成章。
+5. **P-记忆处置分类学**：训练/维持/重编程/擦除四动作 × 组织类型 × 致癌刺激后果——修复记忆模块的下一步综述骨架（书第Ⅵ.6 章）。
+
+## 5｜本期扫描元数据
+
+- 检索日期：2026-11-27 · 10 路定向检索（XPRIZE/共识/器官钟/重编程/衰老清除/时钟干预/换浆/CHIP/胸腺/修复记忆）· 深度 1–3。
+- 未覆盖（下季度补）：微生物组年龄钟、线粒体移植/囊泡介导的源—汇干预、生殖长寿、组织工程置换的免疫结局、GLP-1 类 geroprotector 证据全链。
+- 冲突与待核项全部登记于 [CLAIM_LEDGER.md](CLAIM_LEDGER.md)（X01–X08）。
+
+---
+
+# 第 2 期｜四方向深研（同日，21 路检索累计）
+
+**方法**：按 V6 的四个方向组织——向上（时间/理论/人口/资金）、向下（机制/细胞/生态位）、向外（环境/社会/政策）、向内（体验/意义/决策）。每方向 4–5 路并发检索；对抗性规则同第 1 期。已提炼为 KERNEL §3.3 的 13 个新锚点；此处保留来源导航与方向性判断。
+
+## 6.1 向上（时间、理论与资金）
+
+- **寿命上限**：110 岁后死亡率平台 ~50%/年（多国验证队列）；Calment 122；Pearce & Raftery：2100 年前破纪录 89%（≥126 岁）、达 132 岁仅 3%——"软上限"叙事。[The Conversation](https://theconversation.com/the-maximum-human-life-span-will-likely-increase-this-century-but-not-by-more-than-a-decade-164542) ◇
+- **健康跨度缺口**：JAMA Netw Open（Garmany & Terzic）：全球 2019 差值 9.6 年；183 会员国差值均值 9.2 年；美国 12.4、女性 +2.4；全球值从 2000 年 8.5 升至 2019 年 9.6（权重口径待核，X21）；Nat Commun 2025 复算：中位 9.1、非洲增速最快（0.07 年/年）、2100 预测 +22%。两文统计口径及时间预测不直接等同。◇ [Nat Commun](https://www.nature.com/articles/s43856-025-01111-2)
+- **哲学**：Wareham 2025（J Appl Philos）：非洲伦理视角下的超级长寿三重挑战（身份/意义/分配）+ 敬老传统提供的 pro-longevity 资源——第Ⅸ部非西方视角素材。◇；Glannon 2009（身份/审慎关切弱化）经典对照。○
+- **资金**：2024 geroscience 投资 ~$8.5B（325 单），治疗类开发商占比 57%→71%→91%（2024→2025→2026YTD）；适应证、监管评价与临床终点须按具体申请单独核实；不能将疾病治疗称为“伪装”。○ [Nelson Advisors](https://www.healthcare.digital/single-post/nelson-advisors-big-questions-in-healthtech-series-is-longevity-and-healthy-ageing-the-next-trillio)
+
+## 6.2 向下（机制与生态位）
+
+- **T 细胞**：2026-08 Int Immunol 综述：四条 rejuvenation 路线（代谢/胸腺输出/清除衰老细胞/线粒体转移）；**关键对抗点**：TRIIM-X 类干预停药 6 月后参数回落（→X10）。◇ [综述](https://academic.oup.com/intimm/advance-article/doi/10.1093/intimm/dxag042/8760825?login=false)
+- **胸腺因子 mRNA**：DFI（编码 FLT3L/IL-7 等）使老年小鼠 CLP↑、RTE↑、初始 T 池恢复、年龄相关 B 细胞逆转（Signal Transduct Target Ther 2026-06）。◇
+- **线粒体转移**：微囊泡递送线粒体至衰老细胞（JBM 2026 综述）；年轻 sEVs 的 miRNA→PGC-1α 多系统年轻化（2026 综述，机制限于单通路）；TNT/EV/GJC 三通道转移机制综述（2026-03）。与 XPRIZE Goda 外泌体线索呼应。◇
+- **蛋白稳态**：NAD⁺ 经 EVA1C 剪接切换恢复自噬性蛋白稳态（线虫/鼠/人，2025-12）；OSKM/NAD⁺/蛋白稳态三轴协同综述（2026-07）。◇ [NAD⁺-EVA1C](https://pmc.ncbi.nlm.nih.gov/articles/PMC12834158)
+- **骨髓生态位**：老年 HSC 入年轻生态位=转录组年轻化但功能缺陷保留；BM 基质细胞是 IL-1β 来源，阻断 IL-1 信号可 rejuvenate 造血老化；my-HSC 耗竭使血液年轻化；衰老细胞清除（753b，预印本）同时重编程 HSC 与生态位信号。相关跨层失配线索，不直接测量本项目的可达容量；综述其他机制与原始数据待核。◇ [Nat Bone Res](https://www.nature.com/articles/s41413-026-00543-3)
+
+## 6.3 向外（环境、社会与政策）
+
+- **暴露组**：NHANES 2,346 人 64 化学物×8 钟（Aging-US 2025-02）；出生社区暴露组→儿童 EAA 轨迹（JAMA Netw Open 2026-11）；青少年终身 NO₂ +84 天表观年龄（多队列 2026-11）。◇
+- **社会连接**：2025 元分析（86 研究）：隔离 HR 1.35 / 独居 1.21 / 孤独感 1.14；Holt-Lunstad 经典 148 研究 OR 1.50（整合度量 1.91）。◇
+- **长寿鸿沟**：丹麦 ML 队列：最低收入组 65 岁 vs 最高 89 岁（24 年差距）；JAMA（14 亿人年）：美国最富/最穷 1% 男性差 14.6 年，15 年间增幅 2.34 vs 0.32 年——**差距在扩大**；种族差距 ~5 年。第Ⅷ部+伦理章核心数字。○ [CEPR/丹麦](https://pursuitofwonder.substack.com/p/the-ethics-of-ai-designed-longevity)
+- **热与气候**：美国 3,135 县 25 年三重差分（SSRN 预印本，X12）：老年人热脆弱性随空调普及**下降**——适应跑赢人口老化；欧洲 Nat Commun 2025：89.4% 热死亡在 65+，复合昼夜热浪；UK 2026 夏季归因（16,500 超额死亡中 ~70% 归因人为变暖）。◇/○
+- **微生物组**：ARMOR RCT 协议（BMC Geriat 2025）：年轻活跃供体 FMT→老年人，双盲、终点=衰弱/握力/步速/韧性；百岁老人胆汁酸/Akkermansia 线索。◇（协议）
+
+## 6.4 向内（体验、意义与决策）
+
+- **主观福祉**：汇总 HR 0.920 [0.905–0.934]（62 研究、1,259,949 人，三成分均保护）；生态学面板：Cantril >2.7 国家中幸福感每 +1% ↔ NCD 死亡率 −0.429%（阈值非线性）。◇
+- **主观年龄**：INSPIRE-T：感觉年轻↔内在能力（情绪/行动/听力域），横断面+8 月纵向，**因果未知**；三美国队列 17,000+：感觉更老 HR 1.24；Levy 经典 +7.5 年。◇/○
+- **意义与目的（双刃）**：UKB 153,505：每 SD 意义→全因死亡 −15%（7/8 死因）；2026 大汇总：~24%→校正后 9–15%；Sias & Turtle 2026：仔细测基线健康后大部分消失；干预效应量 g≈0.37（癌症人群，29 RCT）。→X11 写法约束。◇ [证据页](https://pursuit-of-happiness.org/science-of-happiness/spiritual-engagement)
+- **过度诊断**：无症状成人预测性生物标志物伤害综述（假阳性级联/过度诊断/污名化，Diagnostics 2026-01）；**老年参考区间错配**：用年轻成人 RI 解读老年化验→误诊风险；MCED 微模拟：过度诊断概率 50–54 岁 1.1% → 75–79 岁 10.8%（预印本）。→ 第Ⅳ部/第Ⅹ部"检测的价值取决于改变了什么行动"的量化延伸。◇
+
+## 6.5 第 2 期新增 Known Unknowns
+
+| # | 未知 | 计划 |
+|---|---|---|
+| U9 | ARMOR FMT RCT 结果（预计 2027） | 结果出来后决定是否进第Ⅴ部锚点表 |
+| U10 | TRIIM-X 停药回落的原始数据（X10） | 核 Fahy 团队发表/预注册 |
+| U11 | BM 生态位 IL-1 阻断的人体证据 | 跟踪临床试验（当前为鼠模型） |
+| U12 | 热适应 SSRN 论文评审结果（X12） | 同行评审后升级引用等级 |
+
+## 6.6 第 2 期候选转向更新
+
+- **P-意义双刃**：第Ⅸ部意义章的写作模板——"强关联 + 校正敏感 + 因果未定 + 干预效应量存在但小"四段式，可推广到艺术/社会连接章（防止单边引用）。
+- **P-环境干预配额**：向外方向证据量（暴露组/热/社会连接/鸿沟）支持第Ⅷ部从 3 章保持 3 章但每章定量密度提高，对冲"机制章挤压价值章"风险（审计 C.4）。
+- **P-MCED 年龄分层**：过度诊断随年龄 1.1%→10.8% 是"同一检测、不同预期寿命、不同价值"的教科书案例 → 第Ⅳ部测量示范章补充案例。
+
+## CALERIE 同试验研究交叉口径（2026-11-27）
+
+- [轨迹补表](CALERIE_TRAJECTORY_MISSINGNESS_FIGSHARE_2026-11-27.md)：缺失比例条件下与191人分母相容，但该分母及与正文190人的关系不明；完整病例条件界不是混合模型有效样本。
+- [脂质组中介报告](CALERIE_LIPID_MEDIATION_2026_2026-11-27.md)：同一试验内机制假说，不是独立复制；估计目标、时间顺序、多重检验与代码待核。模型拟合和代理指标不能代替患者结局。
