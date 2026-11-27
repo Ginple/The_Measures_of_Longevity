@@ -62,3 +62,7 @@
 ### X04 定向追踪补记（2026-11-27）
 
 一条[二手网页的搜索摘要](https://www.unbedsidemanners.com/articles/thymus-regeneration-fahy-triim)把 naive CD8 +20%/CD4 +13% 与 11/28 年一起概括为“跨试验”数据，未给换算方程、参照队列、年龄斜率、人数、指标分母或置信区间。页面抓取仅返回站点壳，**未能验证该摘要的全文上下文或溯源**；不应把“跨试验”强归给单独 TRIIM，也不能据此验证 11/28 年。该摘要提及绝对 EA 相对基线的变化以及相对未治疗的参照计算，不能将两个数字当作同一口径；须回到 [Fahy 原文](https://gwern.net/doc/longevity/epigenetics/2019-fahy.pdf)区分：绝对 EA 平均约低基线 1.5 年，EA−A 相对基线约 −2.5 年；“未治疗”仅是随历年龄增长的参照计算，而非实际对照组。X04 换算仍 open，不用于正文。
+
+### NHS-Galleri 分期净变化后续
+
+[分期计数与配对续审](NHS_GALLERI_STAGE_COUNTS_AND_PAIRING_AUDIT_2026-11-27.md)对照事件终点与描述性最高分期的计数规则，说明III期净增、IV期净减不能直接识别个体反事实转移人数；不否定随机组间对比。X41保持开放，新增X93。

@@ -113,3 +113,5 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 [HALE共享坐标与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)根据PR2增量审计核图3A的均值/差值共享项及标称95%区间，人工例不拟合国家数据；X90/X91开放。
 
 [DO-HEALTH 癌症时间编码续审](DO_HEALTH_CANCER_TIME_REFERENCE_AUDIT_2026-11-27.md)区分功能模型的最近访视编码和时钟变化模型中病例确诊天数、无癌赋零；X57/X58/X92待核，人工参数例不复算论文。
+
+[NHS-Galleri分期计数与配对续审](NHS_GALLERI_STAGE_COUNTS_AND_PAIRING_AUDIT_2026-11-27.md)区分首合格事件和最高分期描述，人工有限总体展示相同边际下不同反事实配对；X41/X93仍开放。
