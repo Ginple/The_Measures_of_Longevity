@@ -170,3 +170,5 @@ X60 又一线索：[脂质研究的公开评议回复](https://pmc.ncbi.nlm.nih.
 
 | X90 | 2026-11-27 | 健康寿命差图3A标称95% CI与国家间SD | [2024原文 Methods及Fig 3A](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)描述跨国差值均值±1.96×差值SD并称95% CI，图注虚线亦称CI | 若代码按所述使用国家间SD，此量不同于通常均值标准误CI；实际推断对象、样本框、误差相关及代码未核，不简单替换公式或裁定全文趋势错误 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)；获取历史快照、代码与作者说明 | open |
 | X91 | 2026-11-27 | 健康寿命差图3A横轴和纵轴共享LE、HALE | [2024原文](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)定义横轴两者均值、纵轴差值，并叙述缺口与长寿正相关 | 同一国家与权重下 `Cov((LE+HALE)/2,LE−HALE)=[Var(LE)−Var(HALE)]/2`；共享构造影响解释，但不决定实际数值或证明关联全是伪影，不支持因果政策结论 | [图形与区间续审](HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)及人工测试；核原始国家数据、权重、误差与独立审阅 | open |
+
+| X92 | 2026-11-27 | DO-HEALTH 2026 时钟变化模型病例确诊天数、无癌赋零与对比参照 | [原文 Methods 和 Fig 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC13396198/)称三年变化模型为病例调整到癌症的天数，无癌者赋0；图注称 time without cancer | 零是无癌者编码不是诊断时间；简化加性模型中病例指标系数随病例时间参照变动而拟合不变。实际模型、日期起点、边际均值定义未知，不能认定实际表值为零天对比或推断偏倚方向 | [续审与人工代数](DO_HEALTH_CANCER_TIME_REFERENCE_AUDIT_2026-11-27.md)；核模型程序、参照、支持范围和作者说明 | open |

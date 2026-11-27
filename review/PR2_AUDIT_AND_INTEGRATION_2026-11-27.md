@@ -77,3 +77,7 @@
 ## 后续：健康寿命差的共享坐标及区间
 
 按固定头对PR1的增量审计线索核读 [2024论文的Methods、Fig 3及结果](../knowledge_base/HALE_SHARED_AXES_AND_INTERVALS_AUDIT_2026-11-27.md)，记录X90（均值±1.96跨国SD标称95% CI）及X91（均值/差值共享变量）；保留X21/X61。新[人工精确代数脚本](../knowledge_base/experiments/mean_difference_shared_axes.py)和测试给正、负、零协方差及网格检查，不估计真实国家关系，也不说明实际相关全为伪影。未获取作者代码或WHO历史数据，未改冻结稿。
+
+## 后续：DO-HEALTH 癌症时间编码
+
+根据固定头增量审计的时间线索，重新定向读 [2026原文方法与图注](../knowledge_base/DO_HEALTH_CANCER_TIME_REFERENCE_AUDIT_2026-11-27.md)：区分功能轨迹最近访视赋值、时钟三年变化模型对病例确诊天数及无癌赋0。新增X92追踪后者的模型参照、支持和实际边际化，保留X57/X58。合成参数重写展示相同拟合下病例系数随参照点变化，不是论文结果复算；本次补表抓取HTTP 500、未取得作者模型代码和个体数据，不判偏倚大小或方向。
