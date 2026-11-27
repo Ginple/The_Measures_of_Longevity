@@ -1,6 +1,7 @@
 import unittest
 from fractions import Fraction as F
-from two_type_sharp_bounds import type1_bounds, change_bounds
+from two_type_sharp_bounds import (type1_bounds, change_bounds,
+                                   type1_bounds_with_type2, constrained_change_bounds)
 
 
 class TwoTypeBoundsTests(unittest.TestCase):
@@ -32,6 +33,45 @@ class TwoTypeBoundsTests(unittest.TestCase):
                         for endpoint in (lo, hi):
                             witness = (y-p*endpoint)/(1-p)
                             self.assertTrue(0 <= witness <= 1)
+
+    def test_extra_measurement_narrows_and_identifies_sign(self):
+        h, a, b = F(1, 2), F(2, 5), F(3, 5)
+        self.assertEqual(type1_bounds_with_type2(F(3, 5), h, a, b), (F(3, 5), F(4, 5)))
+        self.assertEqual(type1_bounds_with_type2(F(2, 5), h, a, b), (F(1, 5), F(2, 5)))
+        self.assertEqual(constrained_change_bounds(F(3, 5), F(2, 5), h, h, (a, b), (a, b)),
+                         (F(-3, 5), F(-1, 5)))
+        for x10, x20, x11, x21 in [(F(4, 5), a, F(1, 5), b),
+                                      (F(3, 5), b, F(2, 5), a)]:
+            self.assertEqual(h*x10 + h*x20, F(3, 5))
+            self.assertEqual(h*x11 + h*x21, F(2, 5))
+            self.assertTrue(a <= x20 <= b and a <= x21 <= b)
+
+    def test_extra_measurement_corner_cases(self):
+        h = F(1, 2)
+        self.assertEqual(type1_bounds_with_type2(h, 0, F(2, 5), F(3, 5)), (0, 1))
+        self.assertEqual(type1_bounds_with_type2(h, 1, 0, 0), (h, h))
+        self.assertEqual(type1_bounds_with_type2(h, h, h, h), (h, h))
+        for args in [(h, 0, 0, F(2, 5)), (1, h, 0, F(2, 5)),
+                     (h, h, F(3, 5), F(2, 5)), (h, 2, 0, 1)]:
+            with self.subTest(args=args), self.assertRaises(ValueError):
+                type1_bounds_with_type2(*args)
+
+    def test_extra_measurement_grid_and_witnesses(self):
+        grid = [F(i, 5) for i in range(6)]
+        for p in grid:
+            for x1 in grid:
+                for x2 in grid:
+                    for a in grid:
+                        for b in grid:
+                            if not a <= x2 <= b:
+                                continue
+                            y = p*x1 + (1-p)*x2
+                            lo, hi = type1_bounds_with_type2(y, p, a, b)
+                            self.assertTrue(lo <= x1 <= hi)
+                            if 0 < p < 1:
+                                for endpoint in (lo, hi):
+                                    x2_witness = (y-p*endpoint)/(1-p)
+                                    self.assertTrue(a <= x2_witness <= b)
 
     def test_uncertain_weight_and_invalid(self):
         self.assertEqual(type1_bounds(F(2, 5), F(1, 2), F(4, 5)), (0, F(4, 5)))
