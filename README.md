@@ -23,6 +23,20 @@ python -m pip install -e . 'beautifulsoup4>=4.12,<5'
 python scripts/run_validation.py  # tools/run_validation.py 是等价入口
 ```
 
+CI 的 CPython 3.11 Linux 固定版本环境（与宽依赖的开发安装不同）：
+
+```bash
+python -m pip install -r requirements-ci-py311.txt
+python -m pip install --no-build-isolation --no-deps -e .
+python -m pip check
+python scripts/run_validation.py
+python knowledge_base/pilots/real_claims_001/scripts/validate.py
+python tools/install_smoke.py
+python -O tools/install_smoke.py
+```
+
+`requirements-ci-py311.txt` 钉住直接及当次解析出的传递/构建依赖版本，不含包哈希，不锁定 pip、操作系统、Python 补丁版或 Actions 本身，因此不是供应链字节锁；其他Python版本及平台未验证。原 `requirements-tested.txt` 是历史记录，其 networkx 3.7 不能安装到 Python 3.11，不用作该CI环境。宽依赖的 `pyproject.toml` 依旧支持从 Python 3.10 起安装，并非所有支持版本均由本CI覆盖。详见[依赖验证回执](review/CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。
+
 安装依赖需要联网或本地wheel；工具运行本身不请求网络。已经安装依赖时直接运行第二条即可；脚本设置子进程导入路径，不要求修改环境变量。
 验证输出当前回执到标准输出，不覆盖历史 `artifacts/`、`results/` 或信任基线。它运行根目录、合成实验和真实断言试点的测试；检查所请求看板基本结构、两个大小写副本的一致性及精确 HTML 允许列表（排除本地缓存/构建目录）；检查 Markdown 相对链接并逐项报告 `governance/legacy_broken_links.json` 所列已知历史断链，新增断链仍失败；比较两种 hash seed 及移目录后的测试与 CLI 输出。测试不认证科学结论或独立评审。两个仅大小写不同的看板在不区分大小写的文件系统存在 checkout 风险，尚需决定可移植的发布策略。上游原包的对照复现及附件钩子实验是**可选的本地来源重放**，不属于公开仓库必需CI：
 

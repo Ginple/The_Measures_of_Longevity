@@ -37,3 +37,7 @@
 ## 后续：TPE 时间与推断单位
 
 依据PR2固定头的TPE审计线索，本分支由同一助手重新定向核对指定原文、当前登记与作者固定代码，[记录范围和未决事项](../knowledge_base/TPE_TIMING_ALLOCATION_CLOCK_UNIT_AUDIT_2026-11-27.md)；撤回X05将发表版35/36差异视作仅跨版本且已解决的判断，新增X77/X78并升级KERNEL v0.9.7、纠正前沿F6。新合成重复时钟示例受PR2启发、不使用真实试验数据，不证明发表数值错误；历史冻结文件及pilot语料未改，外部独审与复算仍未进行。
+
+## 后续：CAPABLE 和CI依赖
+
+[CAPABLE续审](../knowledge_base/CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)重新核设计文、当前登记、结果文，按本分支新增X79/X80；2025出院后研究仅读摘要，暂不定量综合。用户修复账单后，PR1@375fe09的两条旧配置 Actions 均实际成功；本轮新增Python 3.11版本清单和干净环境安装验证，范围及PR2旧检查重跑受权限阻塞见 [CI回执](CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。新配置的远端结果须看本次提交的检查，不能提前称通过。

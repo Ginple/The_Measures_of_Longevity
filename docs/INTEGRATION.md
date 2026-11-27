@@ -33,6 +33,6 @@ Agent Skill加载器的自动发现路径因宿主而异。本包`SKILL.md`和�
 
 - 决定许可证与维护者，核第三方权利；当前未替用户决定。
 - 修改示例Project Charter并创建新项目账本，不把toy supported判断当真实研究结论。
-- 需要CI可重现安装时锁定依赖并记录环境。`requirements-tested.txt`是本轮实际测试环境，不保证全部平台。
+- `requirements-tested.txt` 为历史记录，不兼容当前Python 3.11 CI；新 [CI 依赖清单](../requirements-ci-py311.txt)只固定Linux/CPython 3.11的软件版本，未锁哈希或所有支持平台，详见[验证回执](../review/CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。
 - 保留session历史回执作为来源，不把缺旧目录时的“未复验”改成通过。
 - 真实独立方法审阅／跨域试点仍欠；README必须继续暴露这一点。

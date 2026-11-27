@@ -10,6 +10,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install -e . 'beautifulsoup4>=4.12,<5'
+      - name: Install pinned Python 3.11 dependencies
+        run: python -m pip install -r requirements-ci-py311.txt
+      - name: Install project using the pinned build environment
+        run: |
+          python -m pip install --no-build-isolation --no-deps -e .
+          python -m pip check
+          python -m pip freeze --all
       - run: python scripts/run_validation.py
       - run: python knowledge_base/pilots/real_claims_001/scripts/validate.py
+      - name: Smoke-test installed package in normal and optimized modes
+        run: |
+          python tools/install_smoke.py
+          python -O tools/install_smoke.py
