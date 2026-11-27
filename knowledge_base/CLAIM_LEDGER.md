@@ -19,7 +19,7 @@
 | X07 | 2026-11-27 | 14 项共识清单的误传 | Grokipedia 等二手页把 VO2max/HbA1c 列入共识；原文共识为 IGF-1/GDF-15/hsCRP/IL-6/肌肉量/肌力/握力/TUG/步速/平衡/衰弱指数/认知/血压/DNAm 钟 | 无 | 已按原文裁决；作为"来源卫生"示例保留在台账 | resolved |
 | X08 | 2026-11-27 | 器官钟纵向研究状态 | bioRxiv 预印本（2026-02，n=1,250） | 未同行评审 | 只作 Known Unknown（U3），不作定论 | open |
 | X09 | 2026-11-27 | 旧债关联确认 | 本台账不复制 OWED_DEBTS.json 内容 | — | D03/D04/D08/D10 的推进在 THE-232；D05 在 THE-234 | resolved（机制确立） |
-| X10 | 2026-11-27 | TRIIM/TRIIM-X 持久性两说 | 原始叙事：GrimAge 逆转停药后持续 6 个月（多篇二手）；2026-08 Int Immunol 综述：TRIIM 类治疗停药 6 个月后胸腺脂肪、初始 T 细胞、表观年龄**回落至基线**（引其 ref 131） | 两者可能描述不同随访终点或不同指标；需核 TRIIM-X 原始数据 | KERNEL §3.2 TRIIM 行加冲突标记；转换八表述降级为"持久性必须在停药后测量（结果可能为回落）"；核原文前正文不引"持续" | open |
+| X10 | 2026-11-27 | TRIIM 停药后各指标的持久性两说 | [Fahy 2019 原文](https://gwern.net/doc/longevity/epigenetics/2019-fahy.pdf) Table 1：GrimAge 的 EA−A 变化 12/18 月 −2.16/−2.12 年，Horvath −2.50/−0.94 年；[2026 综述](https://academic.oup.com/intimm/advance-article-pdf/doi/10.1093/intimm/dxag042/70632311/dxag042.pdf)概括诸参数回基线，ref 131 指向同一原研究而非 TRIIM-X | 原图 naive T 比例回近基线，与 GrimAge 保留可并存；综述总体表述与原文 GrimAge 结果冲突。18 月指标各自人数、胸腺 MRI 随访与更正待核；单臂不能确立因果 | [逐指标审读](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；只报告来源与期限，不能将时钟读数作寿命获益或已证长期持久 | open（原文及综述部分核实） |
 | X11 | 2026-11-27 | 目的/意义与死亡率的再分析缩水 | UK Biobank 153,505 人 6 年：每 SD 意义 → 全因死亡 −15%；2026 汇总（~50 万人、32 年随访）：~24% → 校正健康习惯/抑郁后 9–15%；Sias & Turtle 2026：仔细测基线健康后大部分关联消失 | 观察性；反向因果（健康→有意义感）未排除 | 书第Ⅸ部意义章用双刃证据写法（15% 与 9–15% 同段给出）；不把目的写成"处方" | resolved（写法约束确立） |
 | X12 | 2026-11-27 | 美国热适应研究证据等级 | SSRN 工作论文（3,135 县、25 年、三重差分）：老年人热脆弱性随空调普及**下降**，LIHEAP=气候适应政策 | 未同行评审 | 只作机制线索；欧洲部分（Nat Commun 2025 同行评审：89.4% 热死亡在 65+）可正常引用 | open |
 | X13 | 2026-11-27 | D+Q MASH RCT 来源与缺失口径 | [原文 Results/Fig. 2 与敏感性分析](https://www.nature.com/articles/s42255-026-01643-4)：8/17 vs 1/14，复合终点含 MASH 未恶化；4 例缺失活检按未应答；不同缺失假设影响精度 | 原文相关段已读；注册、附录协议和源表未核、未复算；见 LON-C000004 | 改正 KERNEL/FRONTIERS，引用结果与不良事件/缺失分析并列 | open（主终点文本已核，协议/源表待核） |
@@ -66,6 +66,10 @@ X33 后续：已读取 [Sanchez 综述全文方法、主要结果及偏离协议
 X31 后续：作者[固定版本 Stata 脚本及筛选/模型](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)已静态查阅，公开仓库无患者数据；导出脚本标示按 ID/时点排序且发布不含 ID，提示隐私风险而非授权按行配对。分母矛盾、真实模型与身份保护仍待核。
 
 X30 后续：已对照 SPRINTT 原试验事件判定、安全与事后潜类交互；两报告同一试验、不算独立复制；事后交互 P=.870 不支持已证实亚组差异，亦不证明相同。详见[审计](MODEL_MULTIPLICITY_FUNCTION_AUDIT_2026-11-27.md)。
+
+| X40 | 2026-11-27 | BASE-II 发表版预测比较的时间、选择与摘要差异 | [Vetter 2026](https://link.springer.com/article/10.1186/s40364-026-00909-z)：T0 1671/316、T1 1083/90，主单指标非统一时间或风险集；联合模型 T1 参与者、左截断，AICc 同数据选模 | 摘要列五项，正文 model 2 另列肌力（握力阈值派生）；model 3 肌力不显著；多重性、选择偏差与外部验证待核 | [审计](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；不把预测排序当干预替代终点；核补表、代码与外部验证 | open |
+| X41 | 2026-11-27 | 多癌检测模型与随机试验的分母、版本和净收益 | [Malagón 发表版](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740675/)的 1.1%/10.8% 是对应年龄段筛检癌中过诊断模型比例；[NHS-Galleri](https://pmc.ncbi.nlm.nih.gov/articles/PMC7619610/) 12 癌 III/IV 主要终点未达，IV 仅描述 | 发表/预印本同研究；模型不是试验数据；75–79 岁表与 50–75 岁筛查方案年龄口径待核；死亡与过诊断随访未完成 | [审计及合成反例](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；筛出癌分母不可改成所有受检者 | open |
+| X42 | 2026-11-27 | 多癌微模拟发表版 Table 3 特定行统计待复核 | [Table 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740675/table/cam472455-tbl-0003/) 78,183 TP、73,810 FP、PPV 53.4%、NNS 108；分项中位数之比约 51.44% | 中位数之比通常不等于比值中位数；数值异常不单凭这一点判错，逐次配对数据/定义/代码和作者解释未核；Fig.2 图注 III 期灵敏度 50% 而表1基础情景为 60%，差异未裁决 | 取 [Borealis V1](https://borealisdata.ca/dataset.xhtml?persistentId=doi%3A10.5683%2FSP3%2FKMWOYZ) 预测数组及分析代码并隔离复算；[人工反例](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)不是原模型数据 | open |
 
 ## 交叉验证规则（本轮起生效）
 
