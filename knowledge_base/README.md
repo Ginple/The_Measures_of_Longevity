@@ -144,3 +144,8 @@ toolkit当前用schema作机械合同，不自动理解医学或规范伦理。�
 - 书稿架构：三卷·八部·33 章（DEC-011，工作草稿），见 [OUTLINE_v1](../books/manuscript/OUTLINE_v1.md)。地图由脚本从冻结语料生成，并绑定语料 hash；第 6、7、9 章没有继承内容（第 6 章源于 §7.2 试点的改归），第 9 章设为有条件章节。§7.2 第 5 章试点见 [pilots/ch05_measurement_contract](pilots/ch05_measurement_contract/README.md)。
 - 论文：P1+P2 合并为 [PI](../papers/PI_rejuvenation_identifiability/PROTOCOL.md)（DEC-012）；三层各有先行工作（X125）；作者归属更正（X128）；近邻检索后收窄主张，协议 v3（X133–X137）。
 - 留痕：[检索日志](search_logs/SEARCH_LOG_2026-11-27_RESTRUCTURE.csv)、[影响记录](../review/DEC011_DEC012_IMPACT_2026-11-27.json)、[符合性审计](../review/RESTRUCTURE_WORKFLOW_CONFORMANCE_2026-11-27.md)。
+
+## 2026-11-27 第 7 轮：V4.0 EN 收录评估与市场定位
+
+- [V4.0 EN 收录评估](intake/V4_0_EN_INTEGRATION_ASSESSMENT.md)：结论是 V4.0 只能当线索清单，不能当证据来源用；约 20 处引用中有多处期刊、DOI、作者错误。可收的线索映射到第 2、5、6、7、11、12、18、19 章；PI 新增一篇必引近邻（Tanigawa & Iwaki 2026，不构成 A 类命中）。台账 X139–X146，[检索日志](search_logs/SEARCH_LOG_2026-11-27_V4_INTAKE.csv)。
+- [市场与读者定位第一轮](../books/market/MARKET_POSITIONING_2026-11.md)：美加优先，定位为"测量素养 + 生活判断"；英文版篇幅与 33 章全本冲突，待作者裁决（X147）。
