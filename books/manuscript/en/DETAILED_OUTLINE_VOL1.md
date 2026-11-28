@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1.1, 2026-11-28. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
+*Working draft v0.1.2, 2026-11-28. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -121,7 +121,7 @@
 | Strongest counterexample | "A well-validated single reading does predict mortality." True; the chapter grants prediction and denies identification |
 | Not answered here | Whether the person's aging slowed (7) |
 | To appendix or paper | Composition algebra → B3 |
-| Gaps | **New writing; no inherited chapter.** A human example of test–retest reliability for a widely sold clock is needed. Search before drafting |
+| Gaps | **New writing; no inherited chapter.** A human example of test–retest reliability for a widely sold clock is needed. Search before drafting. **Drafted v0.1 (2026-11-28):** searched; replicate studies found (X163), but none of a consumer-marketed clock by a group without a stake in it (debt CH6-EN-DEPTH). The composition anchor was traced to the full text (X162). The draft adds a reliability section before the reference population, and a closing list of five questions |
 
 ## Chapter 7 · Rate: A Slope Is Not a State
 
@@ -136,7 +136,7 @@
 | Strongest counterexample | "A responsive pace clock is exactly what trials need." Response is not surrogacy (5) |
 | Not answered here | Distance to failure (9) |
 | To appendix or paper | Repeated-measures models → B3 |
-| Gaps | **New writing; no inherited chapter.** X96 and X126 share a laboratory family, so an independent second source on within-person repeated clock measures is needed |
+| Gaps | **New writing; no inherited chapter.** X96 and X126 share a laboratory family, so an independent second source on within-person repeated clock measures is needed. **Drafted v0.1 (2026-11-28):** the second family found (Dunedin/Duke/Columbia, X164) carries its own inventor interest, so the gap stays open (debt CH7-EN-DEPTH). Section 5 uses the pinned DunedinPACE code (X27) |
 
 ## Chapter 8 · Recovery: The Capacity You See Only After a Perturbation
 

@@ -99,7 +99,7 @@ CLAIMS = [
                       estimand='declared competing interests and data provenance; not an assessment of bias',
                       unit='publication', design='competing-interests statement', domain='research integrity disclosure'),
          evidence=['E-HC-COI', 'E-HC-DATA', 'E-SUG-UNREL'], state='supported',
-         rationale='Two authors built metrics using the described technology, licensed to Elysium Health through Yale; Elysium supplied paired replicate datasets. The text says the disclosure does not make the result wrong and that an independent study points the same way (Sugden). It does not characterise the company\'s products.',
+         rationale='Two authors built metrics using the described technology, licensed to Elysium Health through Yale; Elysium supplied paired replicate datasets. The text says the disclosure does not make the result wrong and that a study from a different group with no declared competing interests points the same way (Sugden; that group later built DunedinPACE, which chapter 7 discloses). It does not characterise the company\'s products.',
          dimensions=dims(source_support='supported', extraction='supported')),
     dict(id='CH6-EN-C003', anchor='The most obvious difference between groups of people', kind='reported', role='asserted', critical=True,
          context=dict(population='MULTI Consortium cohorts (not restated in the abstract)', time='longitudinal survival analyses; follow-up length not read',
