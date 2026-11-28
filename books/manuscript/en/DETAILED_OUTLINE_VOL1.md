@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1.2, 2026-11-28. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
+*Working draft v0.1.3, 2026-11-28. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -151,7 +151,7 @@
 | Strongest counterexample | "Consumer recovery scores are proprietary noise." Grant the uncertainty; the chapter is about the construct, not a product |
 | Not answered here | Distance to threshold (9) |
 | To appendix or paper | Dynamical model (stochastic-resilience form) → B3 or the PI companion |
-| Source state | Inherits V6-16 and V7-17 |
+| Gaps | Inherits V6-16 and V7-17. **Drafted v0.1 (2026-11-28):** written in English first with these as source material. Hospital recovery (Boyd 2008) and the STEP 1 withdrawal extension were added as sources (X165). Pyrkov is described as "the extrapolated divergence point in one model", with the authors' own "limit" wording and their conflicts stated. Still missing: the age-adjusted heart-rate recovery estimates at full-text depth, and any human study that measures level, rate and recovery before and after an intervention (debt CH8-EN-DEPTH) |
 
 ## Chapter 9 · Reserve: How Far from the Threshold?
 

@@ -30,6 +30,9 @@ These four are measurement categories, not parameters, unless a stated model mak
 | biological age | — | A model's estimate of age from biological data, compared with a reference population | 6 | a measured property of the body; "real age" | X149, X162 |
 | age acceleration | 年龄加速 | The gap between a clock's estimate and calendar age | 6 | rate of aging (a gap at one time is a level) | KERNEL §3.2; X162 |
 | pace of aging | — | A reading trained to estimate a rate of change from one sample | 7 | an observed within-person change | X96, X126, X27 |
+| challenge test | 负荷试验 | A defined, safe push (standing up, a glucose drink) followed by repeated readings of how the system responds and returns | 8 | a single reading taken after the push; a push created on purpose outside clinical care | X165; X132 |
+| resilience | — | Used in the literature for recovery after a disturbance, with no agreed definition; the book says "recovery" and names the push, the start and the time to return | 8 | robustness; adaptation; a consumer "recovery score" | X165 |
+| extrapolated divergence point | — | The age at which a fitted trend, projected beyond the data, reaches infinity or zero | 8 | a lifespan limit; an observed age at death | X86, X165 |
 
 ## 3. The measurement contract (chapter 5)
 

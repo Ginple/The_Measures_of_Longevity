@@ -1,4 +1,4 @@
-# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.6：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
+# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.7：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
 
 **纠错警示（2026-11-27）**：DEC-003/004 的“审计后采纳”仅为历史记录，暂停作为已验证最优解；当前地图只供工作参考，须待独立审计及作者评阅。详见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
 
@@ -175,6 +175,7 @@ Linear 项目：**The Measures of Longevity｜长寿的尺度**（id `c6be975d-3
 
 ## 7｜变更日志
 
+- v1.3.7 · 2026-11-28：英文先写第 8 章（恢复）v0.1（绑定试点 8 个断言单元，正式发布 blocked）；台账 X165（Manning、Boyd、Pyrkov 原文与利益冲突、STEP 1 停药延伸）；术语表加 challenge test、resilience、extrapolated divergence point；VOL1 细纲 v0.1.3；无新决策。
 - v1.3.6 · 2026-11-28：英文先写第 6、7 章 v0.1（各自绑定试点：8 + 10 个断言单元，正式发布 blocked）；英文术语表 B1 工作版 `books/manuscript/en/GLOSSARY_EN.md`（测试对照 KERNEL 与台账）；台账 X162（Jonkman 全文核对 KERNEL §3.2 的 44–53%/4–21%/1–6%，成立）、X163（重复测量可靠性与 Elysium 利益冲突）、X164（第 7 章来源）；VOL1 细纲 v0.1.2；无新决策。
 - v1.3.5 · 2026-11-28：DEC-019——审计 agent（V1，26 项检查，发现 AG-01/AG-02 并修复）；验证分级 V1–V5 对照、`docs/TOOL_STATUS.tsv`（8 tested / 4 implemented / 0 verified）、AI 披露与 `AI-Assisted` 尾注、贡献日志、`review/UNGROUNDED_RESIDUE.md`、`tools/prose_repetition.py`；根目录加入 playbook 英文版（X160、X161）。
 - v1.3.4 · 2026-11-27：DEC-017——篇幅由内容决定，英文全本约 20 万词或以上均可，E-2 作废，E-3 暂不立项（X157）；DEC-018——市场定位后的重构审计（L1），不做架构重构，加前后置槽位与细纲层，KERNEL v0.9.11（X158、X159）；§2 第 6 条改为现行篇幅规则。
