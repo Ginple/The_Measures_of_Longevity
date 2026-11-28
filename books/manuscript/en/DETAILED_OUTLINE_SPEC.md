@@ -87,6 +87,6 @@ This table only assigns concepts to chapters. It is not a content audit. When a 
 | Volume | Detailed outline |
 |---|---|
 | Ⅰ (chapters 1–9) | [v0.1](DETAILED_OUTLINE_VOL1.md) |
-| Ⅱ (10–22) | Not yet written. Each chapter's outline is written before that chapter is drafted |
+| Ⅱ (10–22) | [v0.1](DETAILED_OUTLINE_VOL2.md) (2026-11-28); checked by `tests/test_detailed_outline_vol2.py` |
 | Ⅲ (23–33) | Not yet written |
 | Front and back matter (F1, B1–B4) | F1 sketched in the Volume Ⅰ file. B1–B4 accumulate as chapters are drafted |

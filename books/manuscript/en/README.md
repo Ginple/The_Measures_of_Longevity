@@ -82,4 +82,6 @@ Both were created after the [post-positioning restructure audit](../../../review
 - [x] Chapter 2 (which clock) in English first (v0.1, ledger X168). Glossary section 1b added. Chapters 3–4 remain.
 - [x] Chapter 3 (four steps) in English first (v0.1, ledger X169). Glossary section 1c added. Chapter 4 remains.
 - [x] Chapter 4 (counting) in English first (v0.1, ledger X170). Glossary section 1d added. Volume Ⅰ chapters 1–9 now all exist in English.
+- [x] Detailed outline for Volume Ⅱ, chapters 10–22 ([v0.1](DETAILED_OUTLINE_VOL2.md)). Most V6 and V7 sources it names are leads, not yet ledger entries.
+- [ ] Volume Ⅱ chapters in English, starting with chapter 10.
 - [ ] Fold each demonstration draft into English when its chapter is drafted, working through the "left for the English rewrite" list in the re-review record.
