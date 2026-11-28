@@ -1,0 +1,13 @@
+# Verbatim quotes from PubMed abstracts, one sentence per line. Fetched 2026-11-28 (eutils efetch). No conflict statements in the PubMed records.
+# [1] Paterson DH, Cunningham DA, Koval JJ, St Croix CM. Aerobic fitness in a population of independently living men and women aged 55-86 years. Med Sci Sports Exerc 1999;31(12):1813-20. PMID 10613433.
+METHODS: A "ramp-like" treadmill protocol was designed to measure VO2max and T(VE) on a total of 298 subjects (152 men and 146 women), aged 55-86 yr.
+Age-related declines in VO2max and T(VE) were fit by a linear model; however, age explained at most 37% of the variance across ages 55-86 yr.
+Thus, the decline in VO2max expressed relative to body mass was similar in men (0.31 mL x kg(-1) x min(-1) x yr(-1)) and women (0.25); however, across this older age the decline is slower than noted for younger groups.
+The minimum level of aerobic power compatible with an independent life at age 85 yr was approximately 18 mL x kg(-1) x min(-1) in men and 15 mL x kg(-1) x min(-1) in women.
+CONCLUSION: The study provides "normative" cardiorespiratory function data of a random sample of independently living men and women aged 55-86 yr.
+# [2] Shephard RJ. Maximal oxygen intake and independence in old age. Br J Sports Med 2009;43(5):342-6. PMID 18403414 (brief review).
+This brief review examines the likelihood that a deterioration of aerobic fitness will lead to a loss of independence in old age.
+The rate of deterioration of maximal aerobic power observed in middle-aged adults continues unabated during the retirement years.
+Loss of independence seems likely if maximal oxygen intake falls below a threshold of 18 ml/[kg x min] in men and 15 ml/[kg x min] in women, reached at 80-85 years.
+A regular programme of aerobic exercise can slow or reverse the functional deterioration, reducing the individual's biological age by 10 or more years, and potentially prolonging independence by a similar amount.
+There remains a need to clarify the importance of decreasing aerobic fitness relative to other potential causes of dependency but, from the practical viewpoint, regular aerobic activity should be commended to elderly people since it can address many of the issues of both functional loss and chronic disease.

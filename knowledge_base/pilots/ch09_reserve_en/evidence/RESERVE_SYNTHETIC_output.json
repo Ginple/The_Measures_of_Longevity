@@ -1,0 +1,41 @@
+{
+  "nature": "synthetic algebra with published parameters; not an individual prediction",
+  "r_proportional_per_year": 0.0223,
+  "grid_men": [
+    {
+      "V0": 20.0,
+      "years_linear_cross_sectional": 6.5,
+      "years_proportional_longitudinal_upper": 4.7,
+      "gain_level_plus10pct": 4.3,
+      "gain_rate_minus10pct": 0.5
+    },
+    {
+      "V0": 25.0,
+      "years_linear_cross_sectional": 22.6,
+      "years_proportional_longitudinal_upper": 14.7,
+      "gain_level_plus10pct": 4.3,
+      "gain_rate_minus10pct": 1.6
+    },
+    {
+      "V0": 30.0,
+      "years_linear_cross_sectional": 38.7,
+      "years_proportional_longitudinal_upper": 22.9,
+      "gain_level_plus10pct": 4.3,
+      "gain_rate_minus10pct": 2.5
+    },
+    {
+      "V0": 35.0,
+      "years_linear_cross_sectional": 54.8,
+      "years_proportional_longitudinal_upper": 29.8,
+      "gain_level_plus10pct": 4.3,
+      "gain_rate_minus10pct": 3.3
+    }
+  ],
+  "crossover_years_g1.1_c0.1": 38.4,
+  "shephard_plus10_check": {
+    "claim": "Shephard 类表述：训练使 VO2max 提高约 10 mL/kg/min，可推迟失去独立最多约 20 年",
+    "from_V0": 25.0,
+    "years_linear": 32.3,
+    "years_proportional_upper": 15.1
+  }
+}

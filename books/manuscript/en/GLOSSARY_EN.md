@@ -33,6 +33,8 @@ These four are measurement categories, not parameters, unless a stated model mak
 | challenge test | 负荷试验 | A defined, safe push (standing up, a glucose drink) followed by repeated readings of how the system responds and returns | 8 | a single reading taken after the push; a push created on purpose outside clinical care | X165; X132 |
 | resilience | — | Used in the literature for recovery after a disturbance, with no agreed definition; the book says "recovery" and names the push, the start and the time to return | 8 | robustness; adaptation; a consumer "recovery score" | X165 |
 | extrapolated divergence point | — | The age at which a fitted trend, projected beyond the data, reaches infinity or zero | 8 | a lifespan limit; an observed age at death | X86, X165 |
+| threshold | 阈值 | The level below which a system can no longer do what is asked of it; reserve is measured from it | 9 | a reference-range limit; a single line (most thresholds are bands) | X129, X166 |
+| lower envelope | — | The lowest values seen among people who are still coping; an estimate of a threshold, biased in a known direction | 9 | an observed point of failure | X129 |
 
 ## 3. The measurement contract (chapter 5)
 

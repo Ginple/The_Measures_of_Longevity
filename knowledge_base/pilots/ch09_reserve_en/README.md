@@ -1,0 +1,23 @@
+# Ch9 English pilot (DEC-016) / 第 9 章英文试点
+
+- **What it binds**: eleven paragraph units of the English draft [CH09_reserve_draft_en.md](../../../books/manuscript/en/CH09_reserve_draft_en.md). The chapter is new writing; no earlier chapter is inherited.
+- **Evidence**:
+  - Verbatim abstract sentences in `evidence/`, with competing-interests statements where declared:
+    - Anderson, Li and Sharrow 2017, used only as a secondary description of Strehler–Mildvan 1960;
+    - Fliser 1993 (renal functional reserve; the indexed abstract is truncated);
+    - Paterson 1999 and Shephard 2009 (aerobic threshold for independent living);
+    - Fleg 2005 (longitudinal aerobic decline; the same excerpt as the ch7 pilot);
+    - Egbujie 2026 (intrinsic-capacity trajectories in home care).
+  - Two project synthetic sources, both bound as formal claims:
+    - `knowledge_base/experiments/margin_time_to_threshold.py`, with its stdout saved as `evidence/RESERVE_SYNTHETIC_output.json`. The test recomputes this output.
+    - The saturating-removal robustness memo (X94).
+- **How**:
+  - `build_project.py` reuses the ch5 builder's span-location and hashing helpers.
+  - An edit to the chapter, an excerpt, the script, the saved output or the memo makes the affected claims stale.
+- **Re-binding**: run `python knowledge_base/pilots/ch09_reserve_en/build_project.py` deliberately, after a reviewed change. `--check` exits 1 if `project.json` is out of date. Tests never re-bind.
+- **Not covered**:
+  - full texts, including the Fliser conclusions;
+  - Strehler–Mildvan 1960 itself (X136);
+  - an observed failure threshold for independent living;
+  - independent review. Formal release stays **blocked**.
+- **Checks**: `tests/test_ch09_en_pilot.py`. These are bookkeeping checks only, not scientific validation.

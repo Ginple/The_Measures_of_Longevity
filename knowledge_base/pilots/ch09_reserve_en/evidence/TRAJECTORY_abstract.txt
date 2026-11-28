@@ -1,0 +1,8 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Egbujie BA, van Hout H, Heckman G, Geffen L, Morris JN, Hirdes JP. Intrinsic capacity trajectories and health outcomes in home care settings: a Canadian population-based cohort study. Age Ageing 2026;55(8):afag255. PMID 42632919, PMC13499700, doi 10.1093/ageing/afag255.
+METHODS: This population-based retrospective cohort study used routinely collected interRAI Home Care data in Canada.
+RESULTS: The study included 302 467 home care recipients; 62.2% were female, with a median age of 81 years (IQR 14).
+Five distinct IC trajectories were identified, demonstrating substantial heterogeneity in functional ageing.
+Importantly, baseline IC level alone did not fully capture subsequent outcome heterogeneity.
+For example, individuals with moderate baseline IC had higher LTC admission than those with low IC who improved (48.4% vs 38.1%), underscoring the importance of longitudinal assessment.
+Conflict of interest statement: None declared.

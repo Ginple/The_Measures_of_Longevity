@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1.3, 2026-11-28. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
+*Working draft v0.1.4, 2026-11-28. v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -166,4 +166,4 @@
 | Strongest counterexample | "Reserve is just level under another name." Show that level and reserve diverge under load |
 | Not answered here | Why measured reserve may not be usable (22) |
 | To appendix or paper | Formula: remaining years = ln(level/threshold)/rate under proportional decline → B3. The running text states it in words |
-| Gaps | **New writing; no inherited chapter.** Classic sources need citing (Strehler–Mildvan, unread; organ reserve tests). Chapter 9 remains conditional under DEC-011 (merge trigger in the architecture decision §6) |
+| Gaps | **New writing; no inherited chapter.** Classic sources need citing (Strehler–Mildvan, unread; organ reserve tests). Chapter 9 remains conditional under DEC-011 (merge trigger in the architecture decision §6). **Drafted v0.1 (2026-11-28):** Strehler–Mildvan is cited through a secondary description (X166); the text remains unread. The renal reserve abstract is truncated, so the chapter uses only the weak form (resting values normal; the older group's loaded median below the younger group's resting median). The year conversions are labelled synthetic (X131). Still missing: an observed failure threshold for independent living (debt CH9-EN-DEPTH) |
