@@ -73,4 +73,5 @@ Both were created after the [post-positioning restructure audit](../../../review
 - [x] English terminology list (B1 working list), checked against KERNEL.
 - [x] Chapter 8 (recovery) in English first (v0.1, ledger X165).
 - [x] Chapter 9 (reserve) in English first (v0.1, ledger X166). Volume Ⅰ chapters 5–9 now exist in English; chapters 1–4 remain.
-- [ ] Re-review the 7 stale Chinese demonstration drafts. Fold each one into English when its chapter is drafted.
+- [x] Re-review the 7 stale Chinese demonstration drafts (2026-11-28, [record](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md); internal, not independent). Cross-references renumbered; the bodies stay as source material.
+- [ ] Fold each demonstration draft into English when its chapter is drafted, working through the "left for the English rewrite" list in the re-review record.

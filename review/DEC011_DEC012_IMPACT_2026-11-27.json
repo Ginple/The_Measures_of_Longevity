@@ -316,8 +316,8 @@
     {
       "node": "books/manuscript/CH01_长寿的五个问题_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "新第 1 章；\"论文关联\"仍写 P1/P2；论文标签与新章号已在稿内标注，正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "新第 1 章；\"论文关联\"仍写 P1/P2；论文标签与新章号已在稿内标注。2026-11-28 重审完成，见 review/DEMO_DRAFTS_REREVIEW_2026-11-28.md：交叉引用第15章改为第5章，文件头加重审结论；其余问题（尺度三义、双账本只作预告、\"五个问题\"同名）留到英文改写时处理"
     },
     {
       "node": "books/manuscript/CH15_测量合同_示范稿.md",
@@ -328,38 +328,38 @@
     {
       "node": "books/manuscript/CH19_谁替谁维护_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "并入第 21 章；论文标签与新章号已在稿内标注，正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "并入第 21 章；论文标签与新章号已在稿内标注；2026-11-27 时正文未重审。2026-11-28 重审完成，见 review/DEMO_DRAFTS_REREVIEW_2026-11-28.md：与旧第 20 章合并；\"第22章回到选择性\"改为\"第19章讨论过\"，\"下一章\"改为\"下一节\"；正文其余部分作为英文来源材料不改"
     },
     {
       "node": "books/manuscript/CH20_平均不等于及时_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "并入第 21 章；论文标签与新章号已在稿内标注，正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "并入第 21 章；论文标签与新章号已在稿内标注；2026-11-27 时正文未重审。2026-11-28 重审完成，见 review/DEMO_DRAFTS_REREVIEW_2026-11-28.md：合并入新第 21 章；变更影响行章号更新；X64 预印本状态待复查；正文其余部分作为英文来源材料不改"
     },
     {
       "node": "books/manuscript/CH21_有余量却用不上_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "→第 22 章；论文标签与新章号已在稿内标注，正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "→第 22 章；论文标签与新章号已在稿内标注；2026-11-27 时正文未重审。2026-11-28 重审完成，见 review/DEMO_DRAFTS_REREVIEW_2026-11-28.md：\"下一章\"改指第 19 章；\"余量\"须与第 9 章 reserve 衔接；正文其余部分作为英文来源材料不改"
     },
     {
       "node": "books/manuscript/CH22_清除之后谁来接班_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "→第 19 章；论文标签与新章号已在稿内标注，正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "→第 19 章；论文标签与新章号已在稿内标注；2026-11-27 时正文未重审。2026-11-28 重审完成，见 review/DEMO_DRAFTS_REREVIEW_2026-11-28.md：\"下一章\"改指第 15 章；缺重编程部分；正文其余部分作为英文来源材料不改"
     },
     {
       "node": "books/manuscript/CH23_状态还在细胞换了吗_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "→第 15 章；论文标签与新章号已在稿内标注，正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "→第 15 章；论文标签与新章号已在稿内标注；2026-11-27 时正文未重审。2026-11-28 重审完成，见 review/DEMO_DRAFTS_REREVIEW_2026-11-28.md：\"下一章\"改指第 17 章；缺细胞构成部分（X162）；正文其余部分作为英文来源材料不改"
     },
     {
       "node": "books/manuscript/CH24_修好这一次还剩多少下一次_示范稿.md",
       "scope": "local",
-      "state_after_this_turn": "stale_requires_review",
-      "note": "→第 17 章；标题已改为新章号（本稿原无论文关联行），正文未重审"
+      "state_after_this_turn": "revised",
+      "note": "→第 17 章；标题已改为新章号（本稿原无论文关联行）；2026-11-27 时正文未重审。2026-11-28 重审完成，见 review/DEMO_DRAFTS_REREVIEW_2026-11-28.md：\"第23章\"改为第 15 章；补外审状态与论文关联行（P5）；正文其余部分作为英文来源材料不改"
     },
     {
       "node": "books/manuscript/OUTLINE_v1.md",
