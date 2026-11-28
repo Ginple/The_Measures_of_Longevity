@@ -1,0 +1,7 @@
+# Verbatim quotes from the PMC full text (Results, Fig. 6 legend, Table 2 note), one sentence per line. Fetched 2026-11-28.
+# Jonkman TH et al. Genome Med 2026;18:142, PMC13632308. Confirms the KERNEL §3.2 ranges (44–53%, 4–21%, 1–6%) that the abstract gives only as maxima.
+Cell composition explained 44% of the variance in calendar age (Fig. 5A, panel "Age") and likewise 44–53% of the variance for all DNAmAges except DunedinPACE, for which 26% was explained (Fig. 5A, panel "DNAmAge").
+For example, cell composition explained just 4% of the variance in Zhang's AgeAccel, but 21% in Hannum's AgeAccel.
+To validate these findings in an independent dataset, we downloaded an external dataset of sorted blood cell types (GSE167998), and generated in silico artificial cell mixtures (Fig. 6B).
+Across all health outcomes, adjustment for cell composition significantly attenuated the association of AgeAccels for 4 out of 6 clocks but at 4%, 6%, 7% and 2% for Hannum, Horvath, PhenoAge, and DunedinPACE, respectively, the effect was relatively minor (Fig. 7C).
+For mortality, the attenuation ranged from 1% for Horvath to 6% for PhenoAge (Table 2).

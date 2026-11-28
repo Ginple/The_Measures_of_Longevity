@@ -1,0 +1,9 @@
+# Verbatim quotes from the Europe PMC abstract, one sentence per line. Fetched 2026-11-28.
+# Jonkman TH, Richmond A, BIOS Consortium, Marioni RE, van Zwet EW, Heijmans BT. Genome Med 2026;18(1):142, PMID 42823742, PMC13632308, doi 10.1186/s13073-026-01751-6. Leiden / Edinburgh; not the Higgins-Chen laboratory family.
+Next, we quantify the contribution of cell composition to DNA methylation age and age acceleration estimated by six 1st - or 2nd -generation epigenetic clocks in an analysis of 4,058 samples.
+Finally, we test the influence of cell composition on the association between age acceleration and 176 incident health outcomes using a study of 18,859 individuals.
+We find that up to 53% of the variation in DNA methylation age can be attributed to cell counts, with a particularly strong contribution of the balance between naïve and memory T cells.
+Associations between age acceleration and cell counts are weaker (up to 21% variance explained) and, for 2nd -generation clocks, primarily involve neutrophils.
+We validate the contribution of cell counts to epigenetic clocks using artificial cell mixtures.
+Interestingly, cell composition significantly attenuates the association of age acceleration investigated with 176 incident health outcomes, although this effect remains modest.
+Surprisingly, the variation in age acceleration that can be attributed to blood cell composition only has a minor contribution to its association with mortality and incident disease outcomes.

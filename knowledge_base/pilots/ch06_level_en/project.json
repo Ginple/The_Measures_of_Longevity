@@ -1,0 +1,819 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch06-level-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Eight paragraph units of the English chapter 6 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 9,
+    "registered_claims": 8,
+    "note": "Unregistered: the bookkeeping paragraph on the two 2025 organ-age studies (rests on ledger X81). Reasoning paragraphs (non-independence of organ readings; what a level can carry) make no source claim. Abstract depth except the Borrus introduction and the Jonkman Results passages."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH6-EN",
+      "path": "books/manuscript/en/CH06_level_draft_en.md",
+      "sha256": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016), written English-first; working copy"
+    },
+    {
+      "id": "A-RELIAB",
+      "path": "knowledge_base/pilots/ch06_level_en/evidence/RELIABILITY_excerpts.txt",
+      "sha256": "718be96cc1a15ed2d98746166fa0bb3c2cc1ce1ce8ce05de07fcea6afee3732f",
+      "role": "source",
+      "family": "clock-reliability-literature",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36277076/",
+      "version": "PubMed abstracts (Higgins-Chen 2022 incl. COI; Sugden 2020) and PMC introduction (Borrus 2026), 2026-11-28"
+    },
+    {
+      "id": "A-SEX",
+      "path": "knowledge_base/pilots/ch06_level_en/evidence/SEX_SPECIFIC_abstract.txt",
+      "sha256": "7e3989ceaf6ad0e92a66eb060405cb63b9811458c7e6fa121a8199fbeffc1ba1",
+      "role": "source",
+      "family": "study-MULTI-sex-specific-clocks",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42749890/",
+      "version": "PubMed abstract 2026-11-28; erratum not read"
+    },
+    {
+      "id": "A-COMP",
+      "path": "knowledge_base/pilots/ch06_level_en/evidence/COMPOSITION_abstract.txt",
+      "sha256": "8fbce5d4ead7c2ab0a9016e08d78792009d09d4453b91ceb07d31e231bae1cfb",
+      "role": "source",
+      "family": "study-Jonkman-blood-composition",
+      "access_depth": "abstract",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13632308/",
+      "version": "Europe PMC abstract 2026-11-28"
+    },
+    {
+      "id": "A-ORGAN",
+      "path": "knowledge_base/pilots/ch06_level_en/evidence/ORGAN_CLOCKS_abstract.txt",
+      "sha256": "626beb65cf2971868d054f5f7f17b9e5676012503d48d12f27a24cc7674c198d",
+      "role": "source",
+      "family": "study-Oh-plasma-organ-age",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40634782/",
+      "version": "Europe PMC abstract 2026-11-28"
+    },
+    {
+      "id": "A-COMP-FT",
+      "path": "knowledge_base/pilots/ch06_level_en/evidence/COMPOSITION_fulltext_results.txt",
+      "sha256": "53c48f43a89270a9cc39d3088ee626d0248e4f8a80bf823e35cf913096f0e8c0",
+      "role": "source",
+      "family": "study-Jonkman-blood-composition",
+      "access_depth": "fulltext",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13632308/",
+      "version": "PMC full text, Results passages, 2026-11-28"
+    },
+    {
+      "id": "A-TELO",
+      "path": "knowledge_base/pilots/ch06_level_en/evidence/TELOMERE_abstract.txt",
+      "sha256": "348d4e5029d7d95ffa921eb49a367b60047a0ad5a8eb546a2acf4f92d54ecff8",
+      "role": "source",
+      "family": "study-Ye-telomere-meta-analysis",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37567392/",
+      "version": "PubMed abstract 2026-11-28"
+    },
+    {
+      "id": "A-SR",
+      "path": "knowledge_base/experiments/SR_SNAPSHOT_IDENTIFIABILITY_2026-11-27.md",
+      "sha256": "307672e875a29c6d8f0735f86dde89e0dfa21250e17e9f0c0a5adee6b0deffaf",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "project synthetic-model memo; script and tests alongside"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-HC-9Y",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Here we show technical noise produces deviations up to 9 years between replicates for six prominent epigenetic clocks, limiting their utility.\n"
+    },
+    {
+      "id": "E-HC-PC",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Our retrained principal-component versions of six clocks show agreement between most replicates within 1.5 years, improved detection of clock associations and intervention effects, and reliable longitudinal trajectories in vivo and in vitro.\n"
+    },
+    {
+      "id": "E-HC-COI",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Competing Interests Statement MEL and AHC have built epigenetic aging metrics involving the technology described in the present manuscript, and these metrics are licensed by Elysium Health through Yale University.\n"
+    },
+    {
+      "id": "E-HC-DATA",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Elysium provided paired blood and saliva replicate datasets reported in this study, but otherwise did not fund the study and did not play a role in conceptualization, design, decision to publish, or preparation of the manuscript.\n"
+    },
+    {
+      "id": "E-BOR-RETEST",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "We previously demonstrated that re‐testing the same individual can lead to fluctuations between 0.9 and 2.4 years, owing to technical noise and other confounders (Higgins‐Chen et al. 2022).\n"
+    },
+    {
+      "id": "E-BOR-PC",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "This concern led us to develop PC clocks, re‐trained versions of the canonical clocks that use principal component analysis to reduce the effect of noise from individual CpGs, decreasing the median deviation of technical replicates to 0.3–0.8 years (Higgins‐Chen et al. 2022).\n"
+    },
+    {
+      "id": "E-SUG-350",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "We correlated repeat measurements of the same DNA samples using the Illumina HumanMethylation450K and the Infinium MethylationEPIC BeadChips in 350 blood DNA samples.\n"
+    },
+    {
+      "id": "E-SUG-UNREL",
+      "artifact_id": "A-RELIAB",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "Unreliable probes were less replicable and generated an unknown volume of false negatives.\n"
+    },
+    {
+      "id": "E-SEX-POOLED",
+      "artifact_id": "A-SEX",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "However, most biological aging clocks (artificial intelligence-predicted age minus chronological age) were trained on sex-pooled samples and implicitly assume sex invariance.\n"
+    },
+    {
+      "id": "E-SEX-38",
+      "artifact_id": "A-SEX",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Here we developed 38 sex-specific biological aging clocks across 15 organ systems.\n"
+    },
+    {
+      "id": "E-SEX-REF",
+      "artifact_id": "A-SEX",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "We first demonstrate the importance of sex-stratified training for constructing sex-specific healthy normative references and then reveal marked divergence between female and male clocks.\n"
+    },
+    {
+      "id": "E-SEX-PRED",
+      "artifact_id": "A-SEX",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "In longitudinal survival analyses, sex-specific clocks predict whole-body systemic diseases and all-cause mortality in a sex-dependent and organ-dependent manner.\n"
+    },
+    {
+      "id": "E-SEX-POOLOK",
+      "artifact_id": "A-SEX",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Meanwhile, sex-pooled and sex-interaction approaches remain valuable, as human aging and disease also share fundamental biological similarities between females and males.\n"
+    },
+    {
+      "id": "E-COMP-4058",
+      "artifact_id": "A-COMP",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Next, we quantify the contribution of cell composition to DNA methylation age and age acceleration estimated by six 1st - or 2nd -generation epigenetic clocks in an analysis of 4,058 samples.\n"
+    },
+    {
+      "id": "E-COMP-18859",
+      "artifact_id": "A-COMP",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Finally, we test the influence of cell composition on the association between age acceleration and 176 incident health outcomes using a study of 18,859 individuals.\n"
+    },
+    {
+      "id": "E-COMP-53",
+      "artifact_id": "A-COMP",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "We find that up to 53% of the variation in DNA methylation age can be attributed to cell counts, with a particularly strong contribution of the balance between naïve and memory T cells.\n"
+    },
+    {
+      "id": "E-COMP-21",
+      "artifact_id": "A-COMP",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Associations between age acceleration and cell counts are weaker (up to 21% variance explained) and, for 2nd -generation clocks, primarily involve neutrophils.\n"
+    },
+    {
+      "id": "E-COMP-MIX",
+      "artifact_id": "A-COMP",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "We validate the contribution of cell counts to epigenetic clocks using artificial cell mixtures.\n"
+    },
+    {
+      "id": "E-COMP-ATT",
+      "artifact_id": "A-COMP",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Interestingly, cell composition significantly attenuates the association of age acceleration investigated with 176 incident health outcomes, although this effect remains modest.\n"
+    },
+    {
+      "id": "E-COMP-MINOR",
+      "artifact_id": "A-COMP",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Surprisingly, the variation in age acceleration that can be attributed to blood cell composition only has a minor contribution to its association with mortality and incident disease outcomes.\n"
+    },
+    {
+      "id": "E-COMP-RANGE",
+      "artifact_id": "A-COMP-FT",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Cell composition explained 44% of the variance in calendar age (Fig. 5A, panel \"Age\") and likewise 44–53% of the variance for all DNAmAges except DunedinPACE, for which 26% was explained (Fig. 5A, panel \"DNAmAge\").\n"
+    },
+    {
+      "id": "E-COMP-INSILICO",
+      "artifact_id": "A-COMP-FT",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "To validate these findings in an independent dataset, we downloaded an external dataset of sorted blood cell types (GSE167998), and generated in silico artificial cell mixtures (Fig. 6B).\n"
+    },
+    {
+      "id": "E-COMP-MORT",
+      "artifact_id": "A-COMP-FT",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "For mortality, the attenuation ranged from 1% for Horvath to 6% for PhenoAge (Table 2).\n"
+    },
+    {
+      "id": "E-ORG-N",
+      "artifact_id": "A-ORGAN",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "To address this gap, we estimate the biological age of 11 organs using plasma proteomics data (2,916 proteins) from 44,498 individuals in the UK Biobank.\n"
+    },
+    {
+      "id": "E-ORG-DIS",
+      "artifact_id": "A-ORGAN",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Organ age estimates were sensitive to lifestyle factors and medications and were associated with future onset (within 17 years' follow-up) of a range of diseases, including heart failure, chronic obstructive pulmonary disease, type 2 diabetes and Alzheimer's disease.\n"
+    },
+    {
+      "id": "E-ORG-HR",
+      "artifact_id": "A-ORGAN",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Accrual of aged organs progressively increased mortality risk (2-4 aged organs, HR = 2.3; 5-7 aged organs, HR = 4.5; 8+ aged organs, HR = 8.3), whereas youthful brains and immune systems were uniquely associated with longevity (youthful brain, HR = 0.60 for mortality risk; youthful immune system, HR = 0.58; youthful both, HR = 0.44).\n"
+    },
+    {
+      "id": "E-TEL-N",
+      "artifact_id": "A-TELO",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "To evaluate the association of telomere length (TL) with chronological age across the human lifespan, we conducted a systematic review and meta-analysis of 414 study samples comprising 743,019 individuals aged 0-112 years.\n"
+    },
+    {
+      "id": "E-TEL-R",
+      "artifact_id": "A-TELO",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "The pooled corrected correlation between TL and age from cross-sectional samples was -0.19 (95%CI: -0.22 to -0.15), which weakened with increased chronological age (β = 0.003, p < 0.001).\n"
+    },
+    {
+      "id": "E-TEL-METH",
+      "artifact_id": "A-TELO",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Methodological factors including TL measurement methods and tissue types impacted the TL-age correlation, while sex or disease status did not.\n"
+    },
+    {
+      "id": "E-SR-SCOPE",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "**仅为合成教学模型。** 参数为示意性取值，仅校准到“类人”的中位死亡年龄与 Gompertz 斜率，**未拟合任何队列**，不是临床估计，不评价任何真实干预。属于 KERNEL 三层中的“人工反例”层；与真实源表描述复算、待验假说分开。\n"
+    },
+    {
+      "id": "E-SR-A",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        41,
+        42
+      ],
+      "text": "**发现 A：读数匹配，生存曲线却交叉。** 用二分法调整清除增幅，使 70 岁存活者平均损伤与“产生 −20%”完全相同（4.1816；所需清除增幅 d_b=0.167）。在这个条件下比较两组：\n"
+    },
+    {
+      "id": "E-SR-S90",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        44,
+        45
+      ],
+      "text": "- 到 90 岁反转，产生组更高：S90 0.572 对 0.605。\n"
+    },
+    {
+      "id": "E-SR-LE",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        45,
+        46
+      ],
+      "text": "- 预期寿命：清除组 89.75 岁，产生组 91.66 岁。\n"
+    },
+    {
+      "id": "E-SR-B",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        53,
+        54
+      ],
+      "text": "**发现 B：符号反转。** 提高死亡阈值后，预期寿命增加 1.46 年。但 70 岁存活者的平均损伤**更高**，换算成损伤年龄是 71.5 岁，读数“老了 1.5 岁”。原因是阈值提高后，更多带着高损伤的人活了下来（存活者选择）。读数变老，结局反而更好。\n"
+    },
+    {
+      "id": "E-SR-C",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        55,
+        56
+      ],
+      "text": "**发现 C：只是暂时变年轻。** 一次性清除脉冲在 61 岁时让读数年轻 4.1 年。到 70 岁读数已回到 69.9 岁，预期寿命只多 0.33 年。读数回落的快慢由回复率决定。\n"
+    },
+    {
+      "id": "E-SR-ID",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        29,
+        30
+      ],
+      "text": "- **可识别条件**：在两个不同水平上同时测“水平＋回复率”，就能反解出 β 和 κ（`identify_beta_kappa`，测试中做了往返验证）。这只在模型设定正确时成立，不是普适结论。\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH6-EN-C001",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        25,
+        26
+      ],
+      "text": "Return to the split tube. The thought experiment is not far from what researchers actually do when they test a measurement's reliability: they measure the same material more than once and see how much the answer moves. For epigenetic clocks, which estimate age from chemical marks on DNA, the answer turned out to be uncomfortable. A 2022 study reported that technical noise alone produced deviations of up to 9 years between replicate measurements for six prominent epigenetic clocks; retrained versions of the same six clocks, built from principal components of the data rather than from individual sites on the genome, brought most replicates within 1.5 years of each other; a later paper from the same laboratory summarized the earlier work as showing that re-testing the same individual could move a clock by between 0.9 and 2.4 years, and that the retrained clocks reduced the median gap between technical replicates to between 0.3 and 0.8 years; an independent group that measured 350 blood DNA samples twice found that unreliable sites on the genome were less replicable and generated an unknown volume of false negatives.[^2]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "Higgins-Chen 2022: replicate DNA samples from several cohorts; Sugden 2020: 350 blood DNA samples measured on two Illumina arrays",
+        "time": "technical replicates and repeat measurement of the same DNA; no biological change implied",
+        "estimand": "between-replicate deviation of clock estimates; probe-level reliability",
+        "unit": "DNA sample (replicate pair)",
+        "design": "methods studies; Borrus 2026 is a later summary by the Higgins-Chen laboratory family",
+        "domain": "six prominent epigenetic clocks and their principal-component retrainings; Illumina 450K/EPIC probes"
+      },
+      "evidence_ids": [
+        "E-HC-9Y",
+        "E-HC-PC",
+        "E-BOR-RETEST",
+        "E-BOR-PC",
+        "E-SUG-350",
+        "E-SUG-UNREL"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Up to 9 years for six clocks; most replicates within 1.5 years for PC versions; 0.9-2.4 years retest fluctuation and 0.3-0.8 years median PC deviation are quoted from Borrus (same family, stated as such in the text); 350 samples, unreliable probes less replicable and unknown volume of false negatives match Sugden. Abstract/introduction depth; which six clocks and which cohorts not restated.",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-RELIAB": "718be96cc1a15ed2d98746166fa0bb3c2cc1ce1ce8ce05de07fcea6afee3732f"
+        },
+        "record_sha256": "58d4969792ef8794f1dd06acf9013bd98ccd1f17b598bedb47038ecc49dc7e46",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH6-EN-C002",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        33,
+        34
+      ],
+      "text": "Third, it matters who reports a reliability problem and who solves it. The authors of the 2022 study disclosed that two of them had built epigenetic aging metrics using the method the paper describes, and that those metrics are licensed to a company, Elysium Health, through their university; the company also supplied some of the replicate data. That disclosure does not make the result wrong. The independent replicate study points in the same direction. But it is the kind of fact a careful reader should know, and it is why this book reports conflicts of interest wherever they are declared.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "authors of Higgins-Chen 2022",
+        "time": "declaration at publication (2022)",
+        "estimand": "declared competing interests and data provenance; not an assessment of bias",
+        "unit": "publication",
+        "design": "competing-interests statement",
+        "domain": "research integrity disclosure"
+      },
+      "evidence_ids": [
+        "E-HC-COI",
+        "E-HC-DATA",
+        "E-SUG-UNREL"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Two authors built metrics using the described technology, licensed to Elysium Health through Yale; Elysium supplied paired replicate datasets. The text says the disclosure does not make the result wrong and that an independent study points the same way (Sugden). It does not characterise the company's products.",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-RELIAB": "718be96cc1a15ed2d98746166fa0bb3c2cc1ce1ce8ce05de07fcea6afee3732f"
+        },
+        "record_sha256": "18f8222114b18e1c8bb3844e5f71fa5022b92acb0246d17e7b31348ba82731c4",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH6-EN-C003",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        39,
+        40
+      ],
+      "text": "The most obvious difference between groups of people is the one most clocks have ignored. A 2026 study noted that most biological aging clocks were trained on samples that pooled women and men, implicitly assuming that aging looks the same in both; the authors built 38 sex-specific clocks across 15 organ systems, showed that training them separately mattered for constructing sex-appropriate healthy reference values, and found that the clocks predicted disease and death in a way that depended both on sex and on the organ; they also wrote that pooled and sex-interaction models remain valuable, because women and men share fundamental features of aging and disease.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "MULTI Consortium cohorts (not restated in the abstract)",
+        "time": "longitudinal survival analyses; follow-up length not read",
+        "estimand": "value of sex-stratified training for normative references; sex- and organ-dependent prediction of disease and mortality",
+        "unit": "participant",
+        "design": "model development and survival analysis",
+        "domain": "38 sex-specific clocks across 15 organ systems and several omics"
+      },
+      "evidence_ids": [
+        "E-SEX-POOLED",
+        "E-SEX-38",
+        "E-SEX-REF",
+        "E-SEX-PRED",
+        "E-SEX-POOLOK"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Pooled training assumption, 38 clocks / 15 organ systems, importance of sex-stratified training for normative references, sex- and organ-dependent prediction, and the authors' caveat that pooled and interaction models remain valuable all match. No hazard ratios are used (X149: V7.0 HRs unverified).",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-SEX": "7e3989ceaf6ad0e92a66eb060405cb63b9811458c7e6fa121a8199fbeffc1ba1"
+        },
+        "record_sha256": "9f96964088c6db88a6667f2ac47f6a64cac53e877ae3634c9dc45cfb305b29cd",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH6-EN-C004",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        49,
+        50
+      ],
+      "text": "How large is the second source? A 2026 study of 4,058 samples estimated the contribution of blood cell composition to six first- and second-generation epigenetic clocks: up to 53 percent of the variation in clock-estimated age could be attributed to cell counts, with a particularly strong role for the balance between naive and memory T cells; the link between cell counts and \"age acceleration\" (the gap between clock age and calendar age) was weaker, up to 21 percent of its variation; the authors checked the result with computer-simulated mixtures built from data on sorted blood cells, not with real blood; and, across 176 health outcomes in a separate study of 18,859 people, accounting for composition significantly weakened the association between age acceleration and later disease, although the effect remained modest.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "4,058 samples (composition analysis); 18,859 individuals (outcome analysis)",
+        "time": "incident outcomes over the study follow-up (length not read)",
+        "estimand": "variance in DNAmAge and AgeAccel attributable to estimated cell counts; attenuation of AgeAccel-outcome associations after composition adjustment",
+        "unit": "sample / participant",
+        "design": "observational analysis with PCA of cell counts; validation with in silico artificial cell mixtures",
+        "domain": "six first- and second-generation blood epigenetic clocks"
+      },
+      "evidence_ids": [
+        "E-COMP-4058",
+        "E-COMP-18859",
+        "E-COMP-53",
+        "E-COMP-21",
+        "E-COMP-MIX",
+        "E-COMP-INSILICO",
+        "E-COMP-ATT"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "4,058; up to 53% (naive/memory T-cell balance); up to 21% for age acceleration; 176 outcomes in 18,859; significant but modest attenuation all match the abstract. The full text shows the artificial mixtures were generated in silico from sorted-cell data, which the text now states.",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-COMP": "8fbce5d4ead7c2ab0a9016e08d78792009d09d4453b91ceb07d31e231bae1cfb",
+          "A-COMP-FT": "53c48f43a89270a9cc39d3088ee626d0248e4f8a80bf823e35cf913096f0e8c0"
+        },
+        "record_sha256": "670b54ef312ca53b0a911552339a8c04b0f2601eb969e323d77794dee7515244",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH6-EN-C008",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        51,
+        52
+      ],
+      "text": "Read that carefully, because it cuts both ways. It does not say that half of every \"rejuvenation\" is an illusion. The 53 percent is the top of a range: for five of the six clocks, cell counts explained between 44 and 53 percent of the variation in estimated age across the 4,058 people, and for the pace-of-aging clock 26 percent. It describes differences between people, not the share of any one person's change after an intervention. Composition is also not noise: a shift from naive toward memory T cells is itself part of how the immune system ages. And the predictive value of age acceleration for disease and death survived the adjustment largely intact: for mortality, the weakening ranged from 1 percent for one clock to 6 percent for another. What the study does show is that a blood clock reading is partly a reading of the cell mix, and that a change in the reading can come from a change in the mix. Whether that matters depends on the question. If you want to predict risk, composition may be useful information. If you want to claim that the cells themselves became younger, composition is a rival explanation you have to rule out.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "4,058 samples (variance); 18,859 individuals (mortality attenuation)",
+        "time": "incident outcomes over the study follow-up (length not read)",
+        "estimand": "range across clocks of DNAmAge variance explained by cell counts; attenuation of AgeAccel-mortality hazard ratios after composition adjustment",
+        "unit": "sample / participant",
+        "design": "observational analysis with PCA of cell counts",
+        "domain": "six blood epigenetic clocks; DunedinPACE reported separately"
+      },
+      "evidence_ids": [
+        "E-COMP-RANGE",
+        "E-COMP-MORT",
+        "E-COMP-ATT",
+        "E-COMP-MINOR"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "44-53% for five clocks and 26% for DunedinPACE, and mortality attenuation from 1% (Horvath) to 6% (PhenoAge), match the Results passages; these also confirm the KERNEL §3.2 ranges, which the abstract gives only as maxima. The statements that the figure describes differences between people rather than one person and that composition is not noise are interpretive limits, not source claims; the T-cell sentence restates the abstract.",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-COMP-FT": "53c48f43a89270a9cc39d3088ee626d0248e4f8a80bf823e35cf913096f0e8c0",
+          "A-COMP": "8fbce5d4ead7c2ab0a9016e08d78792009d09d4453b91ceb07d31e231bae1cfb"
+        },
+        "record_sha256": "90b62dba1ba85701c19f19dea0b2b0fe046a6eff5a18f7ddbd1639184edd8298",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH6-EN-C005",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        59,
+        60
+      ],
+      "text": "These readings can predict. That should be said plainly, because it is the strongest case against the caution of this chapter. A 2025 study estimated the biological age of 11 organs from 2,916 plasma proteins in 44,498 people in the UK Biobank; the organ ages were sensitive to lifestyle factors and medications and were associated with the later onset of diseases including heart failure, chronic lung disease, type 2 diabetes and Alzheimer's disease over up to 17 years of follow-up; and the more organs that looked aged, the higher the risk of death, rising to a hazard ratio of 8.3 for people with eight or more aged organs.[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "44,498 UK Biobank participants",
+        "time": "up to 17 years' follow-up",
+        "estimand": "association of plasma-proteomic organ age with incident disease and mortality (hazard ratios)",
+        "unit": "participant",
+        "design": "prospective cohort analysis",
+        "domain": "11 organs from 2,916 plasma proteins"
+      },
+      "evidence_ids": [
+        "E-ORG-N",
+        "E-ORG-DIS",
+        "E-ORG-HR"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "11 organs, 2,916 proteins, 44,498 participants, sensitivity to lifestyle and medications, diseases listed, 17-year follow-up, HR 8.3 for 8+ aged organs all match. \"Chronic lung disease\" renders COPD. The following paragraph on non-independence of organ readings is explicitly labelled as reasoning about measurement, not a study result, and is not part of this claim.",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-ORGAN": "626beb65cf2971868d054f5f7f17b9e5676012503d48d12f27a24cc7674c198d"
+        },
+        "record_sha256": "fe67db5a59f43e62380be72ea454f229b1f651094ac586dc3bb222291d13326f",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH6-EN-C006",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "A level also carries less information than its precision suggests. A number printed to one decimal place feels exact. Whether it is informative depends on how tightly it tracks the thing we care about across real people, and the answer is often \"loosely.\" Telomere length is a useful example, because telomere shortening is a proposed hallmark of aging. A meta-analysis of 414 study samples, covering 743,019 people aged from birth to 112 years, found that the pooled corrected correlation between telomere length and age in cross-sectional samples was about minus 0.19, with a 95 percent confidence interval from minus 0.22 to minus 0.15, and that the correlation weakened in older age groups; how telomeres were measured, and in which tissue, changed the strength of the correlation.[^1] A correlation of that size is real at the level of populations, and it is weak at the level of a person. Two people of the same age can differ widely in telomere length, and one measurement will not place either of them reliably on the aging curve.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "414 study samples, 743,019 individuals aged 0-112",
+        "time": "cross-sectional samples for the correlation",
+        "estimand": "pooled corrected correlation between telomere length and age",
+        "unit": "study sample (meta-analysis)",
+        "design": "systematic review and meta-analysis",
+        "domain": "telomere length across tissues and measurement methods"
+      },
+      "evidence_ids": [
+        "E-TEL-N",
+        "E-TEL-R",
+        "E-TEL-METH"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "414 samples, 743,019 people, 0-112 years, r = -0.19 (-0.22 to -0.15), weakening with age, method and tissue effects match. \"Weak at the level of a person\" is an interpretation of r of this size, not a source statement.",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-TELO": "348d4e5029d7d95ffa921eb49a367b60047a0ad5a8eb546a2acf4f92d54ecff8"
+        },
+        "record_sha256": "db3bfb1040ec8e32e36dc631c733a00cc35847d3579c936c5268bebf79ffcfff",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH6-EN-C007",
+      "artifact_id": "A-CH6-EN",
+      "lines_1based_halfopen": [
+        71,
+        72
+      ],
+      "text": "The clearest way to see this is in a model where we know the truth because we wrote it. The project built a deliberately simple synthetic model of damage accumulating and being cleared, based on a published model of aging, with illustrative values chosen to give human-like survival curves; it is not fitted to any real population and does not evaluate any real treatment; in it, two interventions were tuned so that the average damage of survivors at age 70 was identical, yet at 90 the group whose damage production had been reduced had more survivors (about 61 in 100 against about 57 in 100) and a longer life expectancy (about 91.7 against 89.8 years) than the group whose clearance had been boosted; raising the danger threshold instead made the reading look about one and a half years older at 70 while life expectancy rose by about one and a half years, because more people survived with higher damage; and a one-time clearing pulse made the reading about four years younger at 61, but by 70 the reading was back to about where it would have been, with less than half a year gained in life expectancy.[^6]\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: synthetic one-dimensional saturating-removal model with illustrative parameters, not fitted to any cohort",
+        "time": "interventions from age 60; readings at 61 and 70; survival to 90",
+        "estimand": "existence of interventions with matched survivor mean damage but different survival and life expectancy; sign reversal; transient change",
+        "unit": "simulated survivor population",
+        "design": "constructive counterexample (Fokker-Planck numerics; script and tests)",
+        "domain": "saturating-removal dynamics only"
+      },
+      "evidence_ids": [
+        "E-SR-SCOPE",
+        "E-SR-A",
+        "E-SR-S90",
+        "E-SR-LE",
+        "E-SR-B",
+        "E-SR-C",
+        "E-SR-ID"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Matched reading at 70; S90 0.605 vs 0.572 rendered as about 61 vs 57 in 100; life expectancy 91.66 vs 89.75 rendered as about 91.7 vs 89.8; threshold +1 gives damage age 71.5 and +1.46 years; pulse 4.1 years younger at 61, 69.9 at 70, +0.33 years. The text states the model shows possibility only and is not fitted or evaluative, matching the memo scope line. Formal claim: support means the construction is valid as reported, not that biology behaves this way.",
+        "bound_hashes": {
+          "A-CH6-EN": "3d81de8488b26b539c448af7a98da468affbf7f99442745dba693af0cd3b462a",
+          "A-SR": "307672e875a29c6d8f0735f86dde89e0dfa21250e17e9f0c0a5adee6b0deffaf"
+        },
+        "record_sha256": "a4cf963e9a412f7f5bb1e06c69df4833d35aca6e0cdd062c72c2e7c11b5d60f1",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH6-EN-INDEPENDENT-REVIEW",
+      "status": "blocked",
+      "blocks_formal_release": true,
+      "question": "No independent domain or statistical review of these claims (D05)",
+      "next_action": "Real external review; never fabricate receipts",
+      "closure_evidence": "Object-bound review record with declared independence and responses"
+    },
+    {
+      "id": "CH6-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "Sources read at abstract depth except Jonkman 2026 (Results passages read) and Borrus (introduction); Song 2026 erratum unread; no independent test-retest study of a consumer-marketed clock found",
+      "next_action": "Read full texts and erratum; search again for an unconflicted consumer-clock reliability study",
+      "closure_evidence": "Full-text reading notes bound as excerpts; search log"
+    }
+  ]
+}
