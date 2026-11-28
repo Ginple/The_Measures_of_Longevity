@@ -1,0 +1,13 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Garmany A, Terzic A. Global Healthspan-Lifespan Gaps Among 183 World Health Organization Member States. JAMA Netw Open 2024;7(12):e2450241. PMID 39661386, PMC11635540, doi 10.1001/jamanetworkopen.2024.50241. Mayo Clinic, Rochester, Minnesota.
+IMPORTANCE: Health-adjusted life expectancy, a measure of healthy longevity, lags longevity gains, resulting in a healthspan-lifespan gap.
+OBJECTIVE: To quantify the healthspan-lifespan gap across the globe, investigate for sex disparities, and analyze morbidity and mortality associations.
+DESIGN, SETTING, AND PARTICIPANTS: This retrospective cross-sectional study used the World Health Organization (WHO) Global Health Observatory as the global data source and acquired national-level data covering all continents.
+The 183 WHO member states were investigated.
+EXPOSURES: Data represent 2 decades of longitudinal follow-up.
+RESULTS: The healthspan-lifespan gap has widened globally over the last 2 decades among 183 WHO member states, extending to 9.6 years.
+A sex difference was observed with women presenting a mean (SD) healthspan-lifespan gap of 2.4 (0.5) years wider than men (P < .001).
+Healthspan-lifespan gaps were positively associated with the burden of noncommunicable diseases and total morbidity, and negatively with mortality.
+The US presented the largest healthspan-lifespan gap, amounting to 12.4 years, underpinned by a rise in noncommunicable diseases.
+CONCLUSIONS AND RELEVANCE: This study identifies growing healthspan-lifespan gaps around the globe, threatening healthy longevity across worldwide populations.
+Conflict of interest statement: Conflict of Interest Disclosures: None reported.

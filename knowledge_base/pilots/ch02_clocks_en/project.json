@@ -1,0 +1,928 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch02-clocks-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Eight paragraph units of the English chapter 2 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 8,
+    "registered_claims": 8,
+    "note": "Reasoning and value paragraphs (the newspaper page, period table definition, what a weight is, the strongest counterexample, two ledgers, reading the gap association, matching each limit paper to its statistic, the consumer clock) make no source claim. Abstract depth throughout; two synthetic claims are formal; one claim rests on project records."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH2-EN",
+      "path": "books/manuscript/en/CH02_clocks_draft_en.md",
+      "sha256": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016); new writing using V6 section 04 and V7 section 21 as leads; working copy"
+    },
+    {
+      "id": "A-WEIGHTS",
+      "path": "knowledge_base/pilots/ch02_clocks_en/evidence/DISABILITY_WEIGHTS_abstract.txt",
+      "sha256": "e3afce65a6b22c7936384bac347f9b704d9254fbf2e555c14307a9afc6ca6e2f",
+      "role": "source",
+      "family": "study-Salomon-GBD2013-disability-weights",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26475018/",
+      "version": "PubMed abstract 2026-11-28"
+    },
+    {
+      "id": "A-MICE",
+      "path": "knowledge_base/pilots/ch02_clocks_en/evidence/DR_MICE_abstract.txt",
+      "sha256": "03ada7ef5ca4e248843dd29af84201e1f79711b010c364c4d4c660e0edafe76b",
+      "role": "source",
+      "family": "study-DiFrancesco-DR-mice",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39385029/",
+      "version": "PubMed abstract and COI 2026-11-28"
+    },
+    {
+      "id": "A-GAP",
+      "path": "knowledge_base/pilots/ch02_clocks_en/evidence/HEALTHSPAN_GAP_abstract.txt",
+      "sha256": "0d07e463090c27dc0da6d2cad906f014d2134af481e58ce4e714c345af8d806a",
+      "role": "source",
+      "family": "study-Garmany-healthspan-gap",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661386/",
+      "version": "PubMed abstract and COI 2026-11-28 (fuller excerpt than the ch1 pilot)"
+    },
+    {
+      "id": "A-LIMIT",
+      "path": "knowledge_base/pilots/ch02_clocks_en/evidence/LIFESPAN_LIMIT_abstracts.txt",
+      "sha256": "4837dfefe818fbaeb67a2925de5d214c00ddd0365027983beff721ceea8003fc",
+      "role": "source",
+      "family": "studies-lifespan-limit",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29954979/",
+      "version": "PubMed abstracts (Dong 2016; Barbi 2018; Efimov 2026) 2026-11-28; three independent groups"
+    },
+    {
+      "id": "A-PC-CODE",
+      "path": "knowledge_base/pilots/ch02_clocks_en/period_cohort.py",
+      "sha256": "da3f4ec851009c657580e6ce55d650d30542aeb2873409f369cb2e794781f3de",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "code",
+      "url": "",
+      "version": "project synthetic period/cohort and tail calculation; tests/test_ch02_en_pilot.py recomputes it"
+    },
+    {
+      "id": "A-PC-OUT",
+      "path": "knowledge_base/pilots/ch02_clocks_en/evidence/PERIOD_COHORT_SYNTHETIC_output.json",
+      "sha256": "21ceb0a683d07d85034111fab406b793876e836655d0a9f095b219cb0bb62860",
+      "role": "dataset",
+      "family": "longevity-project-derivation",
+      "access_depth": "data",
+      "url": "",
+      "version": "saved stdout of period_cohort.py"
+    },
+    {
+      "id": "A-LEDGER",
+      "path": "knowledge_base/pilots/ch02_clocks_en/evidence/LEDGER_X21_X61_excerpt.txt",
+      "sha256": "448ff695f297cf20ead280408c43cb8035a510a2d1c5f8f1e3d2b690d552e620",
+      "role": "source",
+      "family": "longevity-project-record",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "verbatim copy of ledger rows X21 and X61 (2026-11-28): records of earlier full-text reading by the same assistant; not a primary source"
+    },
+    {
+      "id": "A-HALE",
+      "path": "knowledge_base/HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md",
+      "sha256": "caa0414a03f3c084c745e0a60ce44cb9603322458eb3e00dbc947367b862522f",
+      "role": "source",
+      "family": "longevity-project-record",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "project HALE methods audit (2026-11-27), same assistant, from the paper and WHO method documents; not a primary source"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-PC-MODEL",
+      "artifact_id": "A-PC-CODE",
+      "lines_1based_halfopen": [
+        7,
+        11
+      ],
+      "text": "Model: a Gompertz hazard mu(age, year) = A * exp(B * age) * exp(-R * year), with A = 5e-5, B = 0.095\nper year of age and R = 0.01 (all death rates fall by 1 percent per calendar year, for ever).\n- Period life expectancy in year 0: every age is exposed to the year-0 rates.\n- Cohort life expectancy for people born in year 0: at age x they meet the rates of year x.\n"
+    },
+    {
+      "id": "E-PC-PERIOD",
+      "artifact_id": "A-PC-OUT",
+      "lines_1based_halfopen": [
+        11,
+        17
+      ],
+      "text": "  \"period_year0\": {\n    \"life_expectancy\": 73.4,\n    \"share_dying_before_life_expectancy\": 0.43,\n    \"age_by_which_25pct_died\": 66.4,\n    \"age_by_which_75pct_died\": 82.9\n  },\n"
+    },
+    {
+      "id": "E-PC-COHORT",
+      "artifact_id": "A-PC-OUT",
+      "lines_1based_halfopen": [
+        17,
+        19
+      ],
+      "text": "  \"cohort_born_year0\": {\n    \"life_expectancy\": 80.8,\n"
+    },
+    {
+      "id": "E-PC-DIFF",
+      "artifact_id": "A-PC-OUT",
+      "lines_1based_halfopen": [
+        23,
+        24
+      ],
+      "text": "  \"cohort_minus_period_years\": 7.4,\n"
+    },
+    {
+      "id": "E-PC-TAILDESIGN",
+      "artifact_id": "A-PC-CODE",
+      "lines_1based_halfopen": [
+        13,
+        16
+      ],
+      "text": "Tail comparison (chapter 2, section 4), using year-0 rates only: among people alive at 105, the chance of\nreaching 110, 115 and 122 if the hazard keeps rising exponentially, versus if it stops rising at 105 and stays\nat its age-105 value (a plateau). The two tails share everything up to 105; only the assumption differs.\n"
+    },
+    {
+      "id": "E-PC-Q105",
+      "artifact_id": "A-PC-OUT",
+      "lines_1based_halfopen": [
+        25,
+        26
+      ],
+      "text": "  \"annual_death_probability_at_105\": 0.66,\n"
+    },
+    {
+      "id": "E-PC-TAIL",
+      "artifact_id": "A-PC-OUT",
+      "lines_1based_halfopen": [
+        26,
+        38
+      ],
+      "text": "  \"tail_given_alive_at_105\": {\n    \"hazard_keeps_rising\": {\n      \"reach_110\": 0.001,\n      \"reach_115\": 1.6e-08,\n      \"reach_122\": 1.7e-20\n    },\n    \"hazard_flat_after_105\": {\n      \"reach_110\": 0.0047,\n      \"reach_115\": 2.2e-05,\n      \"reach_122\": 1.2e-08\n    }\n  },\n"
+    },
+    {
+      "id": "E-PC-RATIO",
+      "artifact_id": "A-PC-OUT",
+      "lines_1based_halfopen": [
+        38,
+        43
+      ],
+      "text": "  \"flat_over_rising_ratio\": {\n    \"reach_110\": 4.7,\n    \"reach_115\": 1400.0,\n    \"reach_122\": 710000000000.0\n  }\n"
+    },
+    {
+      "id": "E-W-DALY",
+      "artifact_id": "A-WEIGHTS",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "BACKGROUND: The Global Burden of Disease (GBD) study assesses health losses from diseases, injuries, and risk factors using disability-adjusted life-years, which need a set of disability weights to quantify health levels associated with non-fatal outcomes.\n"
+    },
+    {
+      "id": "E-W-SURVEY",
+      "artifact_id": "A-WEIGHTS",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "METHODS: We analysed data from new web-based surveys of participants aged 18-65 years, completed in four European countries (Hungary, Italy, the Netherlands, and Sweden) between Sept 23, 2013, and Nov 11, 2013, combined with data previously collected in the GBD 2010 disability weights measurement study.\n"
+    },
+    {
+      "id": "E-W-PAIRED",
+      "artifact_id": "A-WEIGHTS",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Surveys used paired comparison questions for which respondents considered two hypothetical individuals with different health states and specified which person they deemed healthier than the other.\n"
+    },
+    {
+      "id": "E-W-SCALE",
+      "artifact_id": "A-WEIGHTS",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "We analysed paired comparison data using probit regression analysis and rescaled results to disability weight units between 0 (no loss of health) and 1 (loss equivalent to death).\n"
+    },
+    {
+      "id": "E-W-REVISED",
+      "artifact_id": "A-WEIGHTS",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "For health state descriptions that were revised for this study, resulting disability weights were substantially different for a subset of these weights, including those related to hearing loss (eg, complete hearing loss: GBD 2010 0·033 [0·020-0·052]; GBD 2013 0·215 [0·144-0·307]) and treated spinal cord lesions (below the neck: GBD 2010 0·047 [0·028-0·072]; GBD 2013 0·296 [0·198-0·414]; neck level: GBD 2010 0·369 [0·243-0·513]; GBD 2013 0·589 [0·415-0·748]).\n"
+    },
+    {
+      "id": "E-W-INTERP",
+      "artifact_id": "A-WEIGHTS",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "Findings from this study substantiate the notion that disability weights are sensitive to particular details in descriptions of health states, but robust to duration of outcomes.\n"
+    },
+    {
+      "id": "E-M-DESIGN",
+      "artifact_id": "A-MICE",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Here we performed an extensive assessment of graded levels of caloric restriction (20% and 40%) and intermittent fasting (1 and 2 days fasting per week) on the health and survival of 960 genetically diverse female mice.\n"
+    },
+    {
+      "id": "E-M-LS",
+      "artifact_id": "A-MICE",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "We show that caloric restriction and intermittent fasting both resulted in lifespan extension in proportion to the degree of restriction.\n"
+    },
+    {
+      "id": "E-M-INCONS",
+      "artifact_id": "A-MICE",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Health effects differed between interventions and exhibited inconsistent relationships with lifespan extension.\n"
+    },
+    {
+      "id": "E-M-40",
+      "artifact_id": "A-MICE",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "40% caloric restriction had the strongest lifespan extension effect but led to a loss of lean mass and changes in the immune repertoire that could confer susceptibility to infections.\n"
+    },
+    {
+      "id": "E-M-METAB",
+      "artifact_id": "A-MICE",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Metabolic responses to dietary restriction, including reduced adiposity and lower fasting glucose, were not associated with increased lifespan, suggesting that dietary restriction does more than just counteract the negative effects of obesity.\n"
+    },
+    {
+      "id": "E-M-SYN",
+      "artifact_id": "A-MICE",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Our findings indicate that improving health and extending lifespan are not synonymous and raise questions about which end points are the most relevant for evaluating aging interventions in preclinical models and clinical trials.\n"
+    },
+    {
+      "id": "E-M-COI",
+      "artifact_id": "A-MICE",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Conflict of interest statement: A.D.F., Z.C., K.M.W., A.R., G.V.P., M.M., F.H., D.B. and A.F. are employees of Calico Life Sciences. The other authors declare no competing interests.\n"
+    },
+    {
+      "id": "E-G-DEF",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "IMPORTANCE: Health-adjusted life expectancy, a measure of healthy longevity, lags longevity gains, resulting in a healthspan-lifespan gap.\n"
+    },
+    {
+      "id": "E-G-WHO",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "DESIGN, SETTING, AND PARTICIPANTS: This retrospective cross-sectional study used the World Health Organization (WHO) Global Health Observatory as the global data source and acquired national-level data covering all continents.\n"
+    },
+    {
+      "id": "E-G-183",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "The 183 WHO member states were investigated.\n"
+    },
+    {
+      "id": "E-G-2DEC",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "EXPOSURES: Data represent 2 decades of longitudinal follow-up.\n"
+    },
+    {
+      "id": "E-G-96",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "RESULTS: The healthspan-lifespan gap has widened globally over the last 2 decades among 183 WHO member states, extending to 9.6 years.\n"
+    },
+    {
+      "id": "E-G-SEX",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "A sex difference was observed with women presenting a mean (SD) healthspan-lifespan gap of 2.4 (0.5) years wider than men (P < .001).\n"
+    },
+    {
+      "id": "E-G-ASSOC",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "Healthspan-lifespan gaps were positively associated with the burden of noncommunicable diseases and total morbidity, and negatively with mortality.\n"
+    },
+    {
+      "id": "E-G-COI",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "Conflict of interest statement: Conflict of Interest Disclosures: None reported.\n"
+    },
+    {
+      "id": "E-LED-X21",
+      "artifact_id": "A-LEDGER",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "| X21 | 2026-11-27 | 健康预期寿命差 9.6 与 9.2 混同 | [原文 Results Fig.1/Fig.2](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)：2019 全球差值 9.6 年；183 会员国差值均值 9.2 年 | 原文未在已读段落明确两个统计口径的权重来源，不能猜测 | 修正全球值/会员国均值；核 WHO 原始数据与权重；不将差值解释为个人必然疾病年数 | open（统计来源待核） |\n"
+    },
+    {
+      "id": "E-LED-X61",
+      "artifact_id": "A-LEDGER",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "| X61 | 2026-11-27 | HALE 研究年度变化率的端点间隔与年份计数 | [论文统计方法](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)写 `(Estimate2019−Estimate2000)/20`；若为同日期年度端点，2019−2000 为19个一年间隔，20是含两端的年份计数 | 论文原始数据、时间定义与代码未取，可能存在未说明的期间口径；全球6.5年增量不能直接拿来复算183国均值0.29；不判趋势结论或检验无效 | [口径审计与条件算术](HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md)；核历史数据、年份定义及作者解释，不静默替换结果 | open |\n"
+    },
+    {
+      "id": "E-HALE-AGG",
+      "artifact_id": "A-HALE",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "研究在 2024 年初查询 WHO GHO，分析2000、2019间指标；原文报告 2019 **全球差9.6年**与 **183个会员国差值均值9.2年**，分别对应不同汇总对象，不能将前者作为各国简单平均，也不能将后者叫全球人口平均。论文的方法段未在已读内容明确各国均值与全球值的完整聚合代码。[WHO GHE2019 技术文件 §7](https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_life-table-methods.pdf)称覆盖 2019 年人口至少90,000 的183个会员国；其 HALE 使用 WHO 生命表与主要基于 GBD2019 并作部分调整的 YLD 估计。\n"
+    },
+    {
+      "id": "E-HALE-VERS",
+      "artifact_id": "A-HALE",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "[当前 WHO 元数据](https://www.who.int/data/gho/indicator-metadata-registry/imr-details/7752)说明全球/区域 HALE **输入**按人口加权汇总，并明确该新估计使用 GBD2021 等新数据，2000–2021 序列与旧发布版本不可直接比较。这并未证明作者2024年所用版本全球聚合的每一算法细节，更不能将当年全球差直接解释成各国差值的人口加权平均；对生命表这样的非线性指标，先汇总输入再算，与直接平均国家指标未必相同。X21 因数据快照和实际汇总代码未核继续开放。\n"
+    },
+    {
+      "id": "E-L-DONG",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "[1] Here, by analysing global demographic data, we show that improvements in survival with age tend to decline after age 100, and that the age at death of the world's oldest person has not increased since the 1990s.\n"
+    },
+    {
+      "id": "E-L-DONG2",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "[1] Our results strongly suggest that the maximum lifespan of humans is fixed and subject to natural constraints.\n"
+    },
+    {
+      "id": "E-L-BARBI-N",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "[2] In this study, we estimated hazard rates from data on all inhabitants of Italy aged 105 and older between 2009 and 2015 (born 1896-1910), a total of 3836 documented cases.\n"
+    },
+    {
+      "id": "E-L-BARBI-FLAT",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "[2] We observed level hazard curves, which were essentially constant beyond age 105.\n"
+    },
+    {
+      "id": "E-L-EF-SOM",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "[3] Somatic mutations accumulate with age and can cause cell death, but their quantitative contribution to limiting human lifespan remains unclear.\n"
+    },
+    {
+      "id": "E-L-EF-MODEL",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "[3] We developed an incremental modeling framework that progressively incorporates factors contributing to aging into a model of population survival dynamics, which we used to estimate lifespan limits if all aging hallmarks were eliminated except somatic mutations.\n"
+    },
+    {
+      "id": "E-L-EF-156",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "[3] Our analysis reveals fundamental asymmetry across organs: post-mitotic cells such as neurons and cardiomyocytes act as critical longevity bottlenecks, with somatic mutations reducing median lifespan from a theoretical non-aging baseline of 1759 years to 156 years.\n"
+    },
+    {
+      "id": "E-L-EF-146",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        14,
+        15
+      ],
+      "text": "[3] Multi-organ integration predicts median lifespans of 146-194 years-approximately twice current human longevity.\n"
+    },
+    {
+      "id": "E-L-EF-READ",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        15,
+        16
+      ],
+      "text": "[3] This substantial yet incomplete reduction indicates that somatic mutations significantly drive aging but cannot alone account for observed mortality, implying comparable contributions from other hallmarks.\n"
+    },
+    {
+      "id": "E-L-EF-COI",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        16,
+        17
+      ],
+      "text": "[3] Conflict of interest statement: Competing interests: The authors declare no competing interests.\n"
+    },
+    {
+      "id": "E-L-HDR",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# [1] Dong X, Milholland B, Vijg J. Evidence for a limit to human lifespan. Nature 2016;538(7624):257-259. PMID 27706136, PMC11673931, doi 10.1038/nature19793. Albert Einstein College of Medicine. No conflict statement in the PubMed record.\n"
+    },
+    {
+      "id": "E-L-HDR2",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "# [2] Barbi E, Lagona F, Marsili M, Vaupel JW, Wachter KW. The plateau of human mortality: Demography of longevity pioneers. Science 2018;360(6396):1459-1461. PMID 29954979, PMC6457902, doi 10.1126/science.aat3119. No conflict statement in the PubMed record.\n"
+    },
+    {
+      "id": "E-L-HDR3",
+      "artifact_id": "A-LIMIT",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "# [3] Efimov E, Fedotov V, Malaev L, Khrameeva EE, Kriukov D. Somatic mutations impose an entropic upper bound on human lifespan. NPJ Aging 2026;12(1):116. PMID 42350444, PMC13493869, doi 10.1038/s41514-026-00421-6. Skolkovo Institute of Science and Technology.\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH2-EN-C001",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "A small synthetic calculation, built by this project with no real data, shows the size of the difference. Give a population death rates that rise steeply with age, in the pattern called Gompertz, and let every death rate fall by 1 percent each calendar year. Life expectancy computed from the rates of year 0 alone is 73.4 years. People actually born in year 0 meet lower rates as they age, and their average lifetime is 80.8 years, 7.4 years longer. Neither number is an appointment. In the year-0 table, 43 percent of people die before reaching the average, a quarter have died by 66.4, and a quarter are still alive at 82.9.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: one synthetic population with a Gompertz hazard",
+        "time": "synthetic calendar years and ages up to 130",
+        "estimand": "period and cohort life expectancy; spread of ages at death; tail survival from 105 under two hazard assumptions",
+        "unit": "synthetic person",
+        "design": "numerical integration (script and tests)",
+        "domain": "life-table arithmetic only"
+      },
+      "evidence_ids": [
+        "E-PC-MODEL",
+        "E-PC-PERIOD",
+        "E-PC-COHORT",
+        "E-PC-DIFF"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Gompertz hazard falling 1 percent per calendar year; period LE 73.4, cohort LE 80.8, difference 7.4; 0.43 of the period table die before LE; quartile ages 66.4 and 82.9. All match the saved output and the script docstring. Formal claim.",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-PC-CODE": "da3f4ec851009c657580e6ce55d650d30542aeb2873409f369cb2e794781f3de",
+          "A-PC-OUT": "21ceb0a683d07d85034111fab406b793876e836655d0a9f095b219cb0bb62860"
+        },
+        "record_sha256": "1693e4a2419e64f207daf8a9083bf0e3b7f9ee0f8433834281e41b02b8331345",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH2-EN-C002",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        29,
+        30
+      ],
+      "text": "Where do the weights come from? The Global Burden of Disease study uses disability-adjusted life-years, which need a set of disability weights to put a health level on non-fatal outcomes. For its 2013 round, web-based surveys of participants aged 18 to 65 in Hungary, Italy, the Netherlands and Sweden were combined with earlier survey data. Respondents considered two hypothetical people in different health states and said which one they thought was healthier. The answers were rescaled to run from 0, no loss of health, to 1, a loss equivalent to death. When the descriptions of some states were revised, their weights moved a great deal: complete hearing loss went from 0.033 to 0.215, and a treated spinal cord lesion below the neck from 0.047 to 0.296. The authors conclude that the weights are sensitive to particular details in the descriptions of health states, but robust to how long the states last.[^1]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "web-survey respondents aged 18-65 in four European countries plus GBD 2010 survey respondents",
+        "time": "2013 (with earlier GBD 2010 data)",
+        "estimand": "disability weights from paired comparisons; changes after description revisions",
+        "unit": "health state",
+        "design": "survey with probit analysis",
+        "domain": "Global Burden of Disease disability weights"
+      },
+      "evidence_ids": [
+        "E-W-DALY",
+        "E-W-SURVEY",
+        "E-W-PAIRED",
+        "E-W-SCALE",
+        "E-W-REVISED",
+        "E-W-INTERP"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "DALYs need disability weights for non-fatal outcomes; web surveys of 18-65-year-olds in Hungary, Italy, the Netherlands and Sweden combined with GBD 2010 data; paired comparison of two hypothetical individuals; rescaled 0 (no loss) to 1 (equivalent to death); hearing loss 0.033 to 0.215 and treated spinal cord lesion below the neck 0.047 to 0.296 after revised descriptions; sensitive to description details, robust to duration. All match; the source uses a middle-dot decimal mark.",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-WEIGHTS": "e3afce65a6b22c7936384bac347f9b704d9254fbf2e555c14307a9afc6ca6e2f"
+        },
+        "record_sha256": "95e8b7ad3e1dabafbaadc97334a75236e0349dedd9a614ccd3f47911465b0d7f",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH2-EN-C003",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        37,
+        38
+      ],
+      "text": "Even where whole lives can be watched, health and length do not simply move together. In a 2024 study of 960 genetically diverse female mice, calorie restriction and intermittent fasting both extended lifespan, in proportion to the degree of restriction. But the health effects differed between the regimes and had inconsistent relationships with the extra life. The strictest regime, 40 percent calorie restriction, extended life the most and also led to a loss of lean mass and immune changes that could make infections more likely. Lower body fat and lower fasting glucose were not associated with longer life. The authors' own summary is that improving health and extending lifespan are not synonymous. Several authors were employees of Calico Life Sciences.[^2]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "960 genetically diverse female mice",
+        "time": "whole lifespan",
+        "estimand": "lifespan and health traits under graded caloric restriction and intermittent fasting",
+        "unit": "animal",
+        "design": "controlled animal experiment",
+        "domain": "dietary restriction in mice"
+      },
+      "evidence_ids": [
+        "E-M-DESIGN",
+        "E-M-LS",
+        "E-M-INCONS",
+        "E-M-40",
+        "E-M-METAB",
+        "E-M-SYN",
+        "E-M-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "960 genetically diverse female mice; CR and IF extended lifespan in proportion to restriction; health effects differed and related inconsistently to lifespan extension; 40% CR strongest extension with lean-mass loss and immune changes that could confer infection susceptibility; reduced adiposity and lower fasting glucose not associated with longer lifespan; \"not synonymous\"; Calico employees. All match.",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-MICE": "03ada7ef5ca4e248843dd29af84201e1f79711b010c364c4d4c660e0edafe76b"
+        },
+        "record_sha256": "41ed0a1e5f4a0cebd1573515750bb6c4ad1113e6890f3e4be85f8cfa3209f507",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH2-EN-C004",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        43,
+        44
+      ],
+      "text": "The difference between life expectancy and health-adjusted life expectancy is often called the healthspan–lifespan gap. A 2024 study used World Health Organization data for 183 member states over two decades. It reported that the gap had widened globally to 9.6 years and was wider for women than for men. It also reported that gaps were positively associated with the burden of noncommunicable diseases and total morbidity, and negatively with mortality.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "183 WHO member states (national-level WHO estimates)",
+        "time": "two decades",
+        "estimand": "healthspan-lifespan gap; sex difference; association with morbidity and mortality",
+        "unit": "country / global aggregate",
+        "design": "retrospective cross-sectional analysis of WHO estimates",
+        "domain": "population health statistics"
+      },
+      "evidence_ids": [
+        "E-G-DEF",
+        "E-G-WHO",
+        "E-G-183",
+        "E-G-2DEC",
+        "E-G-96",
+        "E-G-SEX",
+        "E-G-ASSOC",
+        "E-G-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "WHO data, 183 member states, two decades, widened globally to 9.6 years, wider for women, positively associated with NCD burden and total morbidity and negatively with mortality. All match the abstract.",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-GAP": "0d07e463090c27dc0da6d2cad906f014d2134af481e58ce4e714c345af8d806a"
+        },
+        "record_sha256": "14df87ab79b97fe9019382418e55aa32d52e0463bdde21fc60aebe55dc2fa303",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH2-EN-C005",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        47,
+        48
+      ],
+      "text": "Two further cautions come from this project's reading of the full paper and of WHO's method documents. First, the 9.6 years is a global figure; the paper also reports a mean across the 183 member states of 9.2 years. The two summarise different things, and neither should be passed off as the other (ledger X21). Second, WHO's health-adjusted estimates combine its life tables with estimates of years lived with disability that rest mainly on the Global Burden of Disease, and WHO states that its newer series cannot be compared directly with earlier releases. A trend built by splicing figures from different releases is not a trend. The paper's annual rate of change also divides the change between 2000 and 2019 by 20, although those years are 19 apart if both are annual end points; the project has recorded the point but cannot resolve it without the authors' data (ledger X61).[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "Garmany and Terzic 2024; WHO HALE series",
+        "time": "2000-2019 analysis; later WHO releases",
+        "estimand": "aggregate definitions, version comparability, annualisation divisor",
+        "unit": "report / data release",
+        "design": "project's reading of the paper's methods and results and of WHO method documents",
+        "domain": "population health statistics"
+      },
+      "evidence_ids": [
+        "E-LED-X21",
+        "E-LED-X61",
+        "E-HALE-AGG",
+        "E-HALE-VERS"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Global 9.6 versus 183-country mean 9.2 as different aggregates (X21, audit section 1); WHO HALE uses WHO life tables and YLD mainly based on GBD (audit section 1); the current WHO series is not directly comparable with older releases (audit section 1); (Estimate2019-Estimate2000)/20 versus 19 intervals if annual end points, unresolved without data (X61). All from project records by the same assistant, cited as such; not primary sources and not independent.",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-LEDGER": "448ff695f297cf20ead280408c43cb8035a510a2d1c5f8f1e3d2b690d552e620",
+          "A-HALE": "caa0414a03f3c084c745e0a60ce44cb9603322458eb3e00dbc947367b862522f"
+        },
+        "record_sha256": "10e744f78e78e97176855d5ea2836ddffcc1d48dbf1ad76ac8f54b1be17a28d3",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH2-EN-C006",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        55,
+        56
+      ],
+      "text": "Two well-known papers seem to answer in opposite directions. In 2016 Dong, Milholland and Vijg analysed global demographic data and reported that improvements in survival with age tend to decline after age 100, and that the age at death of the world's oldest person had not increased since the 1990s; they concluded that the maximum lifespan of humans is fixed and subject to natural constraints. In 2018 Barbi and colleagues estimated death rates for all inhabitants of Italy aged 105 and older between 2009 and 2015, a total of 3,836 documented cases, and observed hazard curves that were essentially constant beyond age 105: a plateau, not an ever-steeper climb.[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "global demographic data (Dong); all documented Italians aged 105+ in 2009-2015 (Barbi)",
+        "time": "Dong: to 2016; Barbi: 2009-2015",
+        "estimand": "trend in survival improvement and record age at death; hazard at extreme ages",
+        "unit": "population / person",
+        "design": "demographic analyses",
+        "domain": "human mortality at extreme ages"
+      },
+      "evidence_ids": [
+        "E-L-HDR",
+        "E-L-DONG",
+        "E-L-DONG2",
+        "E-L-HDR2",
+        "E-L-BARBI-N",
+        "E-L-BARBI-FLAT"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Dong, Milholland and Vijg 2016: improvements in survival decline after 100; oldest-person age at death not increased since the 1990s; maximum lifespan fixed and subject to natural constraints. Barbi 2018: all Italians aged 105+ in 2009-2015, 3836 documented cases; hazard essentially constant beyond 105. All match; \"and colleagues\" stands for the four co-authors in the header.",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-LIMIT": "4837dfefe818fbaeb67a2925de5d214c00ddd0365027983beff721ceea8003fc"
+        },
+        "record_sha256": "16c0a7e99a88d1f593115101adfa82d88b97777bf47a193b4c400c52847b8983",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH2-EN-C007",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        59,
+        60
+      ],
+      "text": "The same synthetic population from section 1 shows how much rides on an assumption about the tail. Up to age 105 nothing changes; at 105 the yearly probability of death in this made-up table is 0.66. Then compare two tails. If the hazard keeps rising, the chance that someone alive at 105 reaches 115 is about 1.6 in a hundred million. If the hazard stays flat from 105 onward, the chance is about 2.2 in a hundred thousand, some 1,400 times larger. For reaching 122, the two assumptions differ by a factor of about 710 billion. The table up to 105 is identical in both cases; only the assumption about the rarely observed tail differs, and it decides almost everything a headline would report.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: one synthetic population with a Gompertz hazard",
+        "time": "synthetic calendar years and ages up to 130",
+        "estimand": "period and cohort life expectancy; spread of ages at death; tail survival from 105 under two hazard assumptions",
+        "unit": "synthetic person",
+        "design": "numerical integration (script and tests)",
+        "domain": "life-table arithmetic only"
+      },
+      "evidence_ids": [
+        "E-PC-TAILDESIGN",
+        "E-PC-Q105",
+        "E-PC-TAIL",
+        "E-PC-RATIO"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Year-0 rates; death probability at 105 0.66; reach 115 given 105: 1.6e-08 rising versus 2.2e-05 flat, ratio 1400; reach 122 ratio 7.1e11 (710 billion). All match the saved output. Formal claim.",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-PC-CODE": "da3f4ec851009c657580e6ce55d650d30542aeb2873409f369cb2e794781f3de",
+          "A-PC-OUT": "21ceb0a683d07d85034111fab406b793876e836655d0a9f095b219cb0bb62860"
+        },
+        "record_sha256": "3978b8b258c729a45477291e26934893428537bbb69315ce8af138cb54ce7711",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH2-EN-C008",
+      "artifact_id": "A-CH2-EN",
+      "lines_1based_halfopen": [
+        61,
+        62
+      ],
+      "text": "A third kind of answer comes from models of mechanism. A 2026 paper in npj Aging built a model of population survival in which every cause of aging is removed except somatic mutations, which accumulate with age and can cause cell death. In the model, cells that no longer divide, such as neurons and heart muscle cells, are the bottlenecks: mutations alone bring median lifespan down from a theoretical non-aging baseline of 1759 years to 156. Combining organs gives median lifespans of 146 to 194 years. The authors read this as showing that somatic mutations matter but cannot alone account for observed mortality, which implies comparable contributions from other causes. The paper's title speaks of an upper bound; its numbers are medians under stated assumptions, not an age that no individual can exceed.[^6]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: a population survival model",
+        "time": "model time",
+        "estimand": "median lifespan with all hallmarks removed except somatic mutations",
+        "unit": "model population",
+        "design": "mathematical model",
+        "domain": "somatic mutations and lifespan"
+      },
+      "evidence_ids": [
+        "E-L-HDR3",
+        "E-L-EF-SOM",
+        "E-L-EF-MODEL",
+        "E-L-EF-156",
+        "E-L-EF-146",
+        "E-L-EF-READ",
+        "E-L-EF-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "NPJ Aging 2026; model removes all hallmarks except somatic mutations; mutations accumulate with age and can cause cell death; post-mitotic neurons and cardiomyocytes are bottlenecks, 1759 to 156 years median; multi-organ 146-194 median; cannot alone account for observed mortality, comparable contributions from other hallmarks; title says upper bound. All match. \"Cells that no longer divide\" renders \"post-mitotic\"; \"heart muscle cells\" renders \"cardiomyocytes\".",
+        "bound_hashes": {
+          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-LIMIT": "4837dfefe818fbaeb67a2925de5d214c00ddd0365027983beff721ceea8003fc"
+        },
+        "record_sha256": "bb582ccaa3ba15dc2ac44f90e8c018011c182dd4d35f4694ff7a859da8131b33",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH2-EN-INDEPENDENT-REVIEW",
+      "status": "blocked",
+      "blocks_formal_release": true,
+      "question": "No independent demographic, health-economic or disability-studies review of these claims (D05)",
+      "next_action": "Real external review; never fabricate receipts",
+      "closure_evidence": "Object-bound review record with declared independence and responses"
+    },
+    {
+      "id": "CH2-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "All five studies read at abstract depth; healthspan paper aggregation (X21) and divisor (X61) open; comments on Dong and Barbi unread; V7 tail figures for the mutation model unchecked",
+      "next_action": "Read the full texts and comments; bind the relevant tables as excerpts",
+      "closure_evidence": "Full-text reading notes bound as excerpts"
+    }
+  ]
+}

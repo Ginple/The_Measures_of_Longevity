@@ -1,0 +1,43 @@
+{
+  "nature": "SYNTHETIC illustration; no real data",
+  "script": "knowledge_base/pilots/ch02_clocks_en/period_cohort.py",
+  "parameters": {
+    "A": 5e-05,
+    "B": 0.095,
+    "R": 0.01,
+    "step": 0.01,
+    "max_age": 130
+  },
+  "period_year0": {
+    "life_expectancy": 73.4,
+    "share_dying_before_life_expectancy": 0.43,
+    "age_by_which_25pct_died": 66.4,
+    "age_by_which_75pct_died": 82.9
+  },
+  "cohort_born_year0": {
+    "life_expectancy": 80.8,
+    "share_dying_before_life_expectancy": 0.43,
+    "age_by_which_25pct_died": 72.9,
+    "age_by_which_75pct_died": 91.4
+  },
+  "cohort_minus_period_years": 7.4,
+  "annual_hazard_at_105": 1.07,
+  "annual_death_probability_at_105": 0.66,
+  "tail_given_alive_at_105": {
+    "hazard_keeps_rising": {
+      "reach_110": 0.001,
+      "reach_115": 1.6e-08,
+      "reach_122": 1.7e-20
+    },
+    "hazard_flat_after_105": {
+      "reach_110": 0.0047,
+      "reach_115": 2.2e-05,
+      "reach_122": 1.2e-08
+    }
+  },
+  "flat_over_rising_ratio": {
+    "reach_110": 4.7,
+    "reach_115": 1400.0,
+    "reach_122": 710000000000.0
+  }
+}

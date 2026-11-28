@@ -4,7 +4,7 @@ Why: the span check confirms that a claim's anchor is in the chapter and that it
 It does not check that every word of the claim is supported. On 2026-11-28 this let through "German",
 "overnight", "Canadian", "New Zealand", authors' first names and "4,058 people" (source: samples).
 
-What it does: for every claim in the English-first pilots (chapters 1 and 6-9), list
+What it does: for every claim in the English-first pilots (chapters 1, 2 and 6-9), list
 - numbers in the claim that do not occur in its bound evidence text;
 - capitalised words of 4+ letters that do not occur in its bound evidence text,
 and compare the result with REVIEWED, a per-claim record of tokens a person (here: the drafting assistant)
@@ -18,7 +18,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PILOTS = ['ch01_measure_en', 'ch06_level_en', 'ch07_rate_en', 'ch08_recovery_en', 'ch09_reserve_en']
+PILOTS = ['ch01_measure_en', 'ch02_clocks_en', 'ch06_level_en', 'ch07_rate_en', 'ch08_recovery_en', 'ch09_reserve_en']
 NUM = re.compile(r'(?<![\w.])\d+(?:[.,]\d+)*')
 CAP = re.compile(r'\b[A-Z][a-z]{3,}\b')
 
@@ -27,8 +27,17 @@ CAP = re.compile(r'\b[A-Z][a-z]{3,}\b')
 # H = from the evidence-file header (bibliographic metadata recorded at fetch time, not a quote);
 # M = synthetic-model input or output written differently in the text (25 vs 25.0, 0.572 as "57 in 100");
 # W = number spelled out in the evidence ("Sixty-nine"); E = abbreviation in the evidence written out ("US");
-# P = number repeated from an earlier bound claim in the same chapter (it is checked there).
+# P = number repeated from an earlier bound claim in the same chapter (it is checked there);
+# D = decimal written with a point where the evidence uses a middle dot ("0·033");
+# C = present in Chinese-language evidence, but joined to CJK characters so the regex cannot match it ("19个").
 REVIEWED = {
+    'CH2-EN-C001': {'43': 'M', 'Give': 'S', 'Life': 'S', 'Neither': 'S', 'People': 'S'},
+    'CH2-EN-C002': {'0.033': 'D', '0.047': 'D', '0.215': 'D', '0.296': 'D', 'Respondents': 'S', 'When': 'S', 'Where': 'S'},
+    'CH2-EN-C003': {'2024': 'Y', 'Even': 'S', 'Lower': 'S', 'Several': 'S'},
+    'CH2-EN-C004': {'2024': 'Y'},
+    'CH2-EN-C005': {'19': 'C', 'Global': 'E', 'Burden': 'E', 'Disease': 'E', 'First': 'S', 'Second': 'S'},
+    'CH2-EN-C007': {'1': 'X', '1,400': 'M', '710': 'M', 'Then': 'S'},
+    'CH2-EN-C008': {'Combining': 'S'},
     'CH1-EN-C001': {'2024': 'Y', 'Chapter': 'S', 'Granting': 'S', 'Life': 'S', 'United': 'E', 'States': 'E'},
     'CH1-EN-C002': {'3.5': 'M', '9.6': 'P', 'Imagine': 'S', 'Less': 'S', 'Three': 'S', 'What': 'S'},
     'CH1-EN-C004': {'Reports': 'S', 'These': 'S', 'They': 'S', 'This': 'S', 'Whether': 'S'},

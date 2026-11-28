@@ -19,6 +19,17 @@
 
 These four are measurement categories, not parameters, unless a stated model makes them parameters (KERNEL §2, I11). None is original to this project.
 
+## 1b. Statistics of time in populations (chapter 2)
+
+| Term | 中文 | Meaning in this book | Owner | Not to be confused with | Anchor |
+|---|---|---|---|---|---|
+| period life expectancy | 时期预期寿命 | The average lifetime of an imaginary group that meets one period's age-specific death rates all its life | 2 | a forecast for anyone born in that period; cohort life expectancy | X168 |
+| cohort life expectancy | 队列预期寿命 | The average lifetime of people actually born in a given period; known only after most have died, otherwise estimated by assumption | 2 | period life expectancy | X168 |
+| health-adjusted life expectancy | 健康调整预期寿命 | Life expectancy with each year weighted by an estimate of health in the population; a population statistic for a period | 2 | the years any one person will spend in good health; the value of a life | X21, X168 |
+| healthspan–lifespan gap | — | Life expectancy minus health-adjusted life expectancy: a population's equivalent lost years | 2 | any person's years of illness; a single-cause measure of health-care failure | X21, X61 |
+| disability weight | 失能权重 | A number from 0 (no loss of health) to 1 (loss equivalent to death) given to a health state, derived from survey judgements of described states | 2 | the worth of a year lived in that state (two ledgers, chapter 30) | X168 |
+| mortality plateau | 死亡率平台 | A yearly risk of death that stops rising at extreme ages | 2 | a lifespan limit; evidence that there is no limit | X168 |
+
 ## 2. Readings and what they can carry
 
 | Term | 中文 | Meaning in this book | Owner | Not to be confused with | Anchor |

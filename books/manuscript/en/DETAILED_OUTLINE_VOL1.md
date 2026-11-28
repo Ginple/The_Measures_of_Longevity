@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1.6, 2026-11-28. v0.1.6 records the outcome of drafting chapter 1. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
+*Working draft v0.1.7, 2026-11-28. v0.1.7 records the outcome of drafting chapter 2. v0.1.6 records the outcome of drafting chapter 1. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -62,6 +62,7 @@
 | Not answered here | Whether individual interventions change any of these statistics (20) |
 | To appendix or paper | Life-table construction → B3 |
 | Source state | Inherits V6-04 and V7-21 |
+| Gaps (after v0.1 draft) | Drafted 2026-11-28 (X168). The KERNEL §3.3 limit-debate anchor was not used: it is secondhand, and the plateau level and record probabilities it gives are not in the primary abstracts read. Dong 2016, Barbi 2018 and Efimov 2026 were used instead, at abstract depth. The V7 tail figures for the mutation model are unchecked. Health definitions (no disease, no disability, intrinsic capacity, self-rated health) were mentioned in V6 §04 but not developed; they may belong in chapter 6 or 9. The published comments on Dong and Barbi are unread |
 
 ## Chapter 3 · Explanation, Prediction, Control, and Benefit
 

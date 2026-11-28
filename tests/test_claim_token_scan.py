@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('claim_token_scan', ROOT / 'tools/claim_token_scan.py')
 cts = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(cts)
-CODES = {'Y', 'X', 'S', 'A', 'H', 'M', 'W', 'E', 'P'}
+CODES = {'Y', 'X', 'S', 'A', 'H', 'M', 'W', 'E', 'P', 'D', 'C'}
 
 
 class ClaimTokenScanTest(unittest.TestCase):
