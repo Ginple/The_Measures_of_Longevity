@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1.8, 2026-11-28. v0.1.8 records the outcome of drafting chapter 3. v0.1.7 records the outcome of drafting chapter 2. v0.1.6 records the outcome of drafting chapter 1. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
+*Working draft v0.1.9, 2026-11-28. v0.1.9 records the outcome of drafting chapter 4. v0.1.8 records the outcome of drafting chapter 3. v0.1.7 records the outcome of drafting chapter 2. v0.1.6 records the outcome of drafting chapter 1. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -94,6 +94,7 @@
 | Not answered here | How to weigh conflicting studies (31) |
 | To appendix or paper | Formal denominator audits → B3 or the P3 companion (conditional, DEC-012) |
 | Source state | Inherits V7-01 |
+| Gaps (after v0.1 draft) | Drafted 2026-11-28 (X170). Eleven studies at abstract depth. X96 was replaced by its paired paper (TranslAGE) and X126 (Borrus), cited together as one source family. X41 is used for denominators only, because chapter 5 already binds NHS-Galleri and the Malagón model for screening. The strongest counterexample is answered with a synthetic reversal and with Bickel 1975 (Berkeley admissions), which is not a health study; a health example of a pooled reversal stated in an abstract was not found. The CALERIE (X31) and BASE-II counts rest on earlier project audits and were not re-read |
 
 ## Chapter 5 · Measurement Contracts: Prediction, Responsiveness, Mechanism, Surrogacy
 

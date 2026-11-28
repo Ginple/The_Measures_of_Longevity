@@ -39,6 +39,15 @@ These four are measurement categories, not parameters, unless a stated model mak
 | control | 控制 | Being able to change a quantity on purpose, with limited observation and authority | 3 | benefit; omniscience | KERNEL I1, X169 |
 | benefit | 获益 | A measured improvement in outcomes that matter, in the people studied, counting everything the intervention does | 3 | moving the marker it targets; deciding for others what a good life is (chapter 30) | KERNEL I1, X169 |
 
+## 1d. Counting the people behind a number (chapter 4)
+
+| Term | 中文 | Meaning in this book | Owner | Not to be confused with | Anchor |
+|---|---|---|---|---|---|
+| denominator | 分母 | The group a percentage is taken out of: everyone screened, everyone who tested positive, the cancers found, the people analysed at a given time | 4 | the numerator; the number randomised | X106, X170 |
+| randomised set | 随机化集合 | Everyone assigned by chance at randomisation, in the groups they were assigned to | 4 | a later subset (those with samples, those who returned, those with a mutation) | X31, X170 |
+| source family | 来源家族 | Studies that share people, methods, data or funding, so that their agreement is not independent | 4 | independent replication | X126, X170 |
+| replication | 重复 | Someone else, with other data, asks the same question and gets an answer of compatible direction and size | 4 | two significant P values; several readouts in one study | X170 |
+
 ## 2. Readings and what they can carry
 
 | Term | 中文 | Meaning in this book | Owner | Not to be confused with | Anchor |

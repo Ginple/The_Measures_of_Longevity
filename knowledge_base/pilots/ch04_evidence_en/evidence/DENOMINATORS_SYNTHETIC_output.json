@@ -1,0 +1,69 @@
+{
+  "nature": "SYNTHETIC illustration; no real data; exact fractions",
+  "script": "knowledge_base/pilots/ch04_evidence_en/denominators.py",
+  "reversal": {
+    "mild": {
+      "new": {
+        "treated": 200,
+        "recovered": 180,
+        "percent": "90.0"
+      },
+      "old": {
+        "treated": 600,
+        "recovered": 520,
+        "percent": "86.7"
+      }
+    },
+    "severe": {
+      "new": {
+        "treated": 600,
+        "recovered": 300,
+        "percent": "50.0"
+      },
+      "old": {
+        "treated": 200,
+        "recovered": 80,
+        "percent": "40.0"
+      }
+    },
+    "overall": {
+      "new": {
+        "treated": 800,
+        "recovered": 480,
+        "percent": "60.0"
+      },
+      "old": {
+        "treated": 800,
+        "recovered": 600,
+        "percent": "75.0"
+      }
+    },
+    "new_better_in_each_group": true,
+    "new_better_overall": false
+  },
+  "many_readouts": {
+    "readouts": 16,
+    "level": "0.05",
+    "chance_at_least_one_false_positive": "0.56"
+  },
+  "rounded_percentages": {
+    "observations": [
+      [
+        7,
+        "3.7"
+      ],
+      [
+        12,
+        "6.3"
+      ],
+      [
+        19,
+        "9.9"
+      ]
+    ],
+    "search": "100-400",
+    "denominators_consistent": [
+      191
+    ]
+  }
+}

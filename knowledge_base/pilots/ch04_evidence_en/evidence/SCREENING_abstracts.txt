@@ -1,0 +1,13 @@
+# Verbatim quotes from two PubMed abstracts, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# [1] Malagón T, Russell WA, Burnier JV, Dickinson K, Brenner D. Assessing Potential Harms From Screening Overdiagnosis and False Positives With Multicancer Early Detection Tests. Cancer Med 2026;15(11):e72455. PMID 42989814, PMC13740675, doi 10.1002/cam4.72455. A microsimulation model, not trial data.
+[1] METHODS: We used a microsimulation model to assess potential population-level impacts of screening at ages 50-75 years with a multicancer early detection test in Canada.
+[1] RESULTS: An estimated 2.1%-6.0% of all yearly screen-detected cancers with a multicancer screening test were predicted to be overdiagnoses across scenarios.
+[1] The proportion of overdiagnosis varied by site and strongly increased with age, going from 1% at age 50 to over 10% of screen-detected cancers by age 75.
+[1] The test positive predictive value ranged from 15.9% to 77.6%, meaning that there could be 0.3-5.3 false positives with no underlying cancer for every true cancer case detected by the test.
+[1] Conflict of interest statement: The authors declare no conflicts of interest.
+# [2] Sasieni P, Johnson P, Round T, et al. Effect of Screening with Multicancer Early-Detection Test on Late-Stage Cancer Diagnosis. N Engl J Med 2026;395(14):1374-1386. PMID 42776074, PMC7619610, doi 10.1056/NEJMoa2505723. NHS-Galleri, NCT05611632. Author affiliations include GRAIL Bio UK, London. No conflict statement in the PubMed record.
+[2] The primary end point was stage III or IV cancer among 12 prespecified types of cancer, and a key secondary end point was stage IV cancer among the 12 prespecified types.
+[2] RESULTS: Overall, 71,122 participants were randomly assigned to the intervention group and 71,128 to the control group.
+[2] The incidence rate of stage III or IV cancer (primary end point) did not differ significantly between the groups (incidence rate ratio [intervention vs. control], 1.03; 95% confidence interval [CI], 0.92 to 1.14, P = 0.63).
+[2] The incidence rate ratio for stage IV cancer (a key secondary end point) after 3 screening rounds was 0.86 (95% CI, 0.74 to 1.00).
+[2] Further follow-up is warranted to assess the way in which findings for stage III or IV cancers and the between-group difference in stage IV cancers evolve over time. (Funded by Grail; NHS-Galleri ClinicalTrials.gov number, NCT05611632; ISRCTN number, ISRCTN91431511.).

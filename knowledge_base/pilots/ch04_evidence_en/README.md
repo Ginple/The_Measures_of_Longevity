@@ -1,0 +1,21 @@
+# Ch4 English pilot (DEC-016) / 第 4 章英文试点
+
+- **What it binds**: twelve paragraph units of the English draft [CH04_evidence_draft_en.md](../../../books/manuscript/en/CH04_evidence_draft_en.md). The chapter is new writing that uses V7 §01 (in `corpus/`) and the project's audits as leads; nothing is translated from them.
+- **Evidence**:
+  - Verbatim abstract sentences in `evidence/`, with competing-interests statements where declared:
+    - `SCREENING_abstracts.txt`: Malagón 2026 (multicancer screening microsimulation, not trial data) and NHS-Galleri (Sasieni 2026; funded by Grail);
+    - `COUNTED_abstracts.txt`: Bickel 1975 (Berkeley admissions; not a health study), Waziry 2023 (CALERIE methylation, post hoc), Mohammadnia 2025 (LoDoCo2 clonal haematopoiesis, exploratory) and Vetter 2026 (BASE-II biomarkers);
+    - `CLOCKS_FAMILY_abstracts.txt`: Sehgal 2026 (TranslAGE) and Borrus 2026. One source family with six shared authors.
+  - Project records, cited as such and not as primary sources: `evidence/PROJECT_RECORDS_excerpt.txt`, a verbatim copy of ledger rows X31, X40, X106 and X126 and of the count table in the CALERIE temporal audit and one line of the screening audit (BASE-II counts).
+  - One project synthetic source, bound as three formal claims: `denominators.py` (a reversal on pooling; the chance of a false positive among 16 null readouts; denominators consistent with rounded percentages), with its output saved as `evidence/DENOMINATORS_SYNTHETIC_output.json`. The test recomputes this output.
+- **How**:
+  - `build_project.py` reuses the ch5 builder's span-location and hashing helpers.
+  - An edit to the chapter, an excerpt, the script, the saved output or the records excerpt makes the affected claims stale.
+  - `tools/claim_token_scan.py` covers this pilot.
+- **Re-binding**: run `python knowledge_base/pilots/ch04_evidence_en/build_project.py` deliberately, after a reviewed change. `--check` exits 1 if `project.json` is out of date. Tests never re-bind.
+- **Not covered**:
+  - full texts. The CALERIE and BASE-II counts by time point come from earlier project audits and were not re-read;
+  - the open questions X31 (CALERIE counts) and X106 (denominator 191), which need the authors;
+  - independent review. Formal release stays **blocked**.
+- **Overlap**: chapter 5 also uses NHS-Galleri and the Malagón model, with its own bound excerpts. Chapter 4 uses them for denominators and company-reported numbers only.
+- **Checks**: `tests/test_ch04_en_pilot.py`. These are bookkeeping checks only, not scientific validation.
