@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1.7, 2026-11-28. v0.1.7 records the outcome of drafting chapter 2. v0.1.6 records the outcome of drafting chapter 1. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
+*Working draft v0.1.8, 2026-11-28. v0.1.8 records the outcome of drafting chapter 3. v0.1.7 records the outcome of drafting chapter 2. v0.1.6 records the outcome of drafting chapter 1. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -78,6 +78,7 @@
 | Not answered here | Which theory is correct |
 | To appendix or paper | None |
 | Source state | Inherits V6-02, V6-03 and V7-02 |
+| Gaps (after v0.1 draft) | Drafted 2026-11-28 (X169). Seven studies at abstract depth: three frameworks (two share an author; no framework from outside these groups) and four marker-outcome studies (CAST, ILLUMINATE, ACCORD, Voight 2012), used briefly because chapter 18 owns them. Two V6 attributions are full-text only and were not used: that "Simply aging" separates the deleteriome from entropy and calls the burden not yet quantifiable, and Lemaître's "age-specific optimum". V6's four-row table of discriminating studies was not carried over, because its rows are V6's own proposals and not source statements. The ILLUMINATE protocol amendment (X28) is disclosed, not resolved. The six candidate shifts are mentioned only as examples, without listing them |
 
 ## Chapter 4 · What Counts as Evidence: Denominators, Source Families, and Replication
 

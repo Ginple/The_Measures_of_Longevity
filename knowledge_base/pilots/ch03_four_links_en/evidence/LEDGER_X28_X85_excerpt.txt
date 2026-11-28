@@ -1,0 +1,5 @@
+# Verbatim copy of rows X28 and X85 of knowledge_base/CLAIM_LEDGER.md, taken 2026-11-28.
+# Project record of earlier reading by the same assistant; not a primary source.
+# Copied so that later ledger rows do not make chapter 3 claims stale; if X28 or X85 is revised, re-copy and re-bind.
+| X28 | 2026-11-27 | ILLUMINATE 主要复合结局的协议修订与批准 | [NEJM Study Design](https://www.nejm.org/doi/full/10.1056/NEJMoa0706628)称 2006-11-28 修订加入不稳定心绞痛住院，停试时尚未经 IRB 批准 | 原始协议、预先主要终点与敏感性分析尚未核，尚不能断定调整对结果的影响 | 摘录时同步披露修订与批准状态，核原协议及各结局 | open |
+| X85 | 2026-11-27 | “容量 / 排队”框架的原创性 | [Ledberg 2020](https://doi.org/10.1371/journal.pone.0233384) 用排队论推出 Gompertz；Karin/Alon 的 SR 模型；临界减速与动态韧性文献 | 检索并不穷尽；本项目的六模块与 SR 反例可能与更多既有工作重叠 | 第Ⅵ部、P4、转换七/九的相关工作必须引用；原创表述降级为“重组与可识别性” | open |

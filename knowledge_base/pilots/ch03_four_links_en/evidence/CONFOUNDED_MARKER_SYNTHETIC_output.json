@@ -1,0 +1,13 @@
+{
+  "nature": "SYNTHETIC illustration; no real data; exact fractions",
+  "script": "knowledge_base/pilots/ch03_four_links_en/confounded_marker.py",
+  "people_marker_high": 380,
+  "events_marker_high": 110,
+  "people_marker_low": 620,
+  "events_marker_low": 80,
+  "risk_marker_high": "0.289",
+  "risk_marker_low": "0.129",
+  "risk_ratio_high_vs_low": "2.24",
+  "events_without_treatment": 190,
+  "events_with_marker_set_low": 190
+}

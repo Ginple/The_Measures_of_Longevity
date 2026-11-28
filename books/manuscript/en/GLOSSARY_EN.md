@@ -30,6 +30,15 @@ These four are measurement categories, not parameters, unless a stated model mak
 | disability weight | 失能权重 | A number from 0 (no loss of health) to 1 (loss equivalent to death) given to a health state, derived from survey judgements of described states | 2 | the worth of a year lived in that state (two ledgers, chapter 30) | X168 |
 | mortality plateau | 死亡率平台 | A yearly risk of death that stops rising at extreme ages | 2 | a lifespan limit; evidence that there is no limit | X168 |
 
+## 1c. Four steps that do not substitute for one another (chapter 3)
+
+| Term | 中文 | Meaning in this book | Owner | Not to be confused with | Anchor |
+|---|---|---|---|---|---|
+| explanation | 解释 | An account of why something happens, which earns trust by saying in advance which result would count against it | 3 | prediction; a framework broad enough to absorb any outcome after the fact | KERNEL I1, X169 |
+| prediction | 预测 | A marker or model tells apart people with different risks | 3 | control: changing the marker need not change the risk | X169 |
+| control | 控制 | Being able to change a quantity on purpose, with limited observation and authority | 3 | benefit; omniscience | KERNEL I1, X169 |
+| benefit | 获益 | A measured improvement in outcomes that matter, in the people studied, counting everything the intervention does | 3 | moving the marker it targets; deciding for others what a good life is (chapter 30) | KERNEL I1, X169 |
+
 ## 2. Readings and what they can carry
 
 | Term | 中文 | Meaning in this book | Owner | Not to be confused with | Anchor |

@@ -1,4 +1,4 @@
-# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.12：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
+# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.13：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
 
 **纠错警示（2026-11-27）**：DEC-003/004 的“审计后采纳”仅为历史记录，暂停作为已验证最优解；当前地图只供工作参考，须待独立审计及作者评阅。详见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
 
@@ -175,6 +175,7 @@ Linear 项目：**The Measures of Longevity｜长寿的尺度**（id `c6be975d-3
 
 ## 7｜变更日志
 
+- v1.3.13 · 2026-11-28：英文第 3 章 v0.1（`books/manuscript/en/CH03_four_links_draft_en.md`，新写，V6 §02–03、V7 §02 作线索；10 段主张绑定，试点 `knowledge_base/pilots/ch03_four_links_en/`；台账 X169）。I1 写明：解释、预测、控制、获益四步不能互换。三个理论框架（Gladyshev 2026、Yücel 2026、Lemaître 2024）只说各自主张与可检验性，不判对错；项目合成计算说明标志物可以预测而不可控制；Voight 2012、ILLUMINATE、CAST、ACCORD 作为"预测不等于控制、控制不等于获益"的简例（第 18 章展开）；X85 先行工作照录，不称"首次"。术语表新增 1c 节；`claim_token_scan` 扩到第 3 章。VOL1 升 v0.1.8。无新决策。
 - v1.3.12 · 2026-11-28：英文第 2 章 v0.1（`books/manuscript/en/CH02_clocks_draft_en.md`，新写，V6 §04、V7 §21 作线索；8 段主张绑定，试点 `knowledge_base/pilots/ch02_clocks_en/`；台账 X168）。时期与队列预期寿命（项目合成计算）；失能权重来自对描述状态的调查判断（Salomon 2015）；小鼠中健康与寿命不同步（Di Francesco 2024）；健康寿命差与死亡率负相关；"上限"按统计量拆成纪录、高龄死亡风险平台、模型中位数三种（Dong 2016、Barbi 2018、Efimov 2026）。KERNEL §3.3 上限锚点仍为二手，未用。术语表新增 1b 节；`claim_token_scan` 扩到第 2 章，新增理由码 D、C。VOL1 升 v0.1.7。无新决策。
 - v1.3.11 · 2026-11-28：英文第 1 章 v0.1（`books/manuscript/en/CH01_measure_draft_en.md`，并入中文示范稿 CH01 v0.2；6 段主张绑定，试点 `knowledge_base/pilots/ch01_measure_en/`；台账 X167）。尺度三义写明；Garmany 2024、CALERIE 三份报告、CAPABLE 试验均为摘要级；项目合成寿命表说明"差距 3 年"不是任何个人的患病年数。第 6、7、9 章章末清单改称"five checks"，与本书"五个问题"区分（只改称呼，重新绑定）。`claim_token_scan` 扩到第 1 章，新增理由码 E、P。VOL1 升 v0.1.6。无新决策。
 - v1.3.10 · 2026-11-28：自查发现英文第 6、7、9 章有不受已存来源支持的词，通过了跨度检查（[记录](../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md)）：第 6 章“4,058 人”（来源是 4,058 份样本）、第 7 章“新西兰”、第 9 章“德国”“通宵”“加拿大”×3、“运动生理学家”、Strehler 与 Mildvan 的名和论文标题；已删改并重新绑定（三章升 v0.1.1）。新增 `tools/claim_token_scan.py`：绑定断言中不在证据里的数字和大写词须逐个审过；无新决策，无新台账行。
