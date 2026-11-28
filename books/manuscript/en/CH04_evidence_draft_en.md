@@ -87,7 +87,7 @@ These five habits do not decide between conflicting studies; chapter 31 takes th
 - formal denominator audits, which belong in B3 or a companion paper (conditional, DEC-012).
 
 **Unresolved:**
-- all eleven studies were read at abstract depth; the CALERIE and BASE-II counts by time point come from the project's own audits of the full texts, not re-read for this chapter;
+- all eight studies were read at abstract depth; the CALERIE and BASE-II counts by time point come from the project's own audits of the full texts, not re-read for this chapter;
 - the CALERIE count inconsistency (X31) and the 191 denominator (X106) are open questions for the authors, not findings;
 - the Berkeley study is not about health; it is used because its abstract states a reversal plainly;
 - independent review by a statistician and a trialist has not taken place.

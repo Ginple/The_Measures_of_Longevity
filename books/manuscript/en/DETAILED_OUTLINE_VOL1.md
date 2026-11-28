@@ -94,7 +94,7 @@
 | Not answered here | How to weigh conflicting studies (31) |
 | To appendix or paper | Formal denominator audits → B3 or the P3 companion (conditional, DEC-012) |
 | Source state | Inherits V7-01 |
-| Gaps (after v0.1 draft) | Drafted 2026-11-28 (X170). Eleven studies at abstract depth. X96 was replaced by its paired paper (TranslAGE) and X126 (Borrus), cited together as one source family. X41 is used for denominators only, because chapter 5 already binds NHS-Galleri and the Malagón model for screening. The strongest counterexample is answered with a synthetic reversal and with Bickel 1975 (Berkeley admissions), which is not a health study; a health example of a pooled reversal stated in an abstract was not found. The CALERIE (X31) and BASE-II counts rest on earlier project audits and were not re-read |
+| Gaps (after v0.1 draft) | Drafted 2026-11-28 (X170). Eight studies at abstract depth. X96 was replaced by its paired paper (TranslAGE) and X126 (Borrus), cited together as one source family. X41 is used for denominators only, because chapter 5 already binds NHS-Galleri and the Malagón model for screening. The strongest counterexample is answered with a synthetic reversal and with Bickel 1975 (Berkeley admissions), which is not a health study; a health example of a pooled reversal stated in an abstract was not found. The CALERIE (X31) and BASE-II counts rest on earlier project audits and were not re-read |
 
 ## Chapter 5 · Measurement Contracts: Prediction, Responsiveness, Mechanism, Surrogacy
 

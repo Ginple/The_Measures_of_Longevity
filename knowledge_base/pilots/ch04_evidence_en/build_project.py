@@ -200,7 +200,7 @@ def build():
                  next_action='Real external review; never fabricate receipts',
                  closure_evidence='Object-bound review record with declared independence and responses'),
             dict(id='CH4-EN-DEPTH', status='open', blocks_formal_release=True,
-                 question='Eleven studies at abstract depth; CALERIE (X31) and BASE-II counts from project audits not re-read; X106 is a question for the authors',
+                 question='Eight studies at abstract depth; CALERIE (X31) and BASE-II counts from project audits not re-read; X106 is a question for the authors',
                  next_action='Re-read full texts; seek author clarification for X31 and X106',
                  closure_evidence='Full-text reading notes bound as excerpts; author replies if obtained'),
         ],
