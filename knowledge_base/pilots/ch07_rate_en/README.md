@@ -25,3 +25,4 @@
   - the achieved-restriction paragraph, which rests on ledger X31 and X49;
   - independent review. Formal release stays **blocked**.
 - **Checks**: `tests/test_ch07_en_pilot.py`. These are bookkeeping checks only, not scientific validation.
+- **Correction, 2026-11-28**: claim CH7-EN-C001 placed the Dunedin cohort "in New Zealand", which is not in the stored excerpt. Removed and re-bound. An unbound sentence later in the chapter ("New Zealanders born in 1972–73") was changed to "one birth cohort, born in 1972–73", which the DunedinPACE abstract supports. See [the correction record](../../../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md) and `tools/claim_token_scan.py`.

@@ -15,7 +15,7 @@
     {
       "id": "A-CH7-EN",
       "path": "books/manuscript/en/CH07_rate_draft_en.md",
-      "sha256": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+      "sha256": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -445,7 +445,7 @@
         19,
         20
       ],
-      "text": "One of the clearest demonstrations of within-person rates comes from a birth cohort in New Zealand. Researchers followed 954 members of the Dunedin Study, tracking multiple biomarkers at three time points across their twenties and thirties, and built a longitudinal measure of the pace of coordinated decline across organ systems, including lung, gum, heart and blood vessels, kidney, liver and immune function; young people of the same calendar age differed in how fast they were aging, and, before midlife, those aging faster were less physically able, showed cognitive decline and brain aging, rated their own health as worse, and looked older.[^1]\n",
+      "text": "One of the clearest demonstrations of within-person rates comes from a birth cohort. Researchers followed 954 members of the Dunedin Study, tracking multiple biomarkers at three time points across their twenties and thirties, and built a longitudinal measure of the pace of coordinated decline across organ systems, including lung, gum, heart and blood vessels, kidney, liver and immune function; young people of the same calendar age differed in how fast they were aging, and, before midlife, those aging faster were less physically able, showed cognitive decline and brain aging, rated their own health as worse, and looked older.[^1]\n",
       "kind": "reported",
       "role": "asserted",
       "critical": true,
@@ -466,12 +466,12 @@
       "assessment": {
         "state": "supported",
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
-        "rationale": "954; three time points in the third and fourth decades; organ systems listed (pulmonary, periodontal, cardiovascular, renal, hepatic, immune) rendered in plain words; same-age variation; faster agers less physically able, cognitive decline and brain aging, worse self-rated health, looked older. All match the abstract.",
+        "rationale": "954; three time points in the third and fourth decades; organ systems listed (pulmonary, periodontal, cardiovascular, renal, hepatic, immune) rendered in plain words; same-age variation; faster agers less physically able, cognitive decline and brain aging, worse self-rated health, looked older. All match the abstract. Corrected 2026-11-28: v0.1 placed the cohort \"in New Zealand\", which is not in the stored excerpt; removed.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-DUN15": "16d3993fec2e76f124aac669423928ea269b4eeb9d6cdf28b82c358ed1c7130f"
         },
-        "record_sha256": "3920b48a0c98c9c6d2b460f92fcd7439c39cb2d1d811f4c36354f6bf00e6da90",
+        "record_sha256": "b567529fe714325f4bc185ef3c504e98595dda2e8ac895719890a265d56363bc",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -513,7 +513,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "414 samples; median -23 bp/year cross-sectional versus -38 bp/year longitudinal (rendered as rates of shortening of about 23 and 38 base pairs per year); shortening rate decreasing until about 50 then relatively stable. All in the abstract.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-TELR": "423cf5d12f2a4c177b515fe4a7221f746091f76245c3834cc3ed08a42cc9f649"
         },
         "record_sha256": "9620f5496cf86d0accd8d96de470abbe61d7e1239778b566905487f8214184df",
@@ -558,7 +558,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Sample sizes, ages, cohort description, 7.9-year median follow-up, decline in every decade in both sexes, acceleration from 3-6% to >20% per 10 years, and the authors' warning about misleading, overly optimistic cross-sectional estimates all match.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-VO2": "790931660f3bebbba27e241a25e47a17a78b9965f870e3635df157e4c6528c0c"
         },
         "record_sha256": "740ca1c024bc80ec1c03fd03f6bb0597e35dd12c83759500ca95f22519dd5e1b",
@@ -603,7 +603,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "108; 25-75; California; median 1.7 and maximum 6.8 years; consistent nonlinear patterns with dysregulation at about 44 and 60. The text's later caveat (short follow-up means the age pattern is mainly between-person) is the chapter's own reasoning, not a source claim.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-NONLIN": "c167f33781f1cfa515c0d4f152881df5ff9e48d9b94c258d92693c79ec65867d"
         },
         "record_sha256": "aeaf722097ecdd3bb7543f81c79d6f65d6a9fc10611eaba8a5e458fffe468669",
@@ -648,7 +648,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "3.8 million PBMCs; 1,828 people aged 19-97; 35% Asian (\"of Asian ancestry\"); peaks around 40 (mainly CD4) and after 60 (mainly CD8); sex-dependent kinetics; sex-stratified clocks outperform combined. Matches abstract and ledger X153.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-NONLIN": "c167f33781f1cfa515c0d4f152881df5ff9e48d9b94c258d92693c79ec65867d"
         },
         "record_sha256": "f4e8d67b4d2c3fe782b84f0bf964ff46658e0b9199ad332994a19b28e7324f97",
@@ -694,7 +694,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "19 indicators, four time points over two decades, single-time-point blood test, reliability-filtered probes, high test-retest reliability, association with morbidity, disability and mortality, faster aging with childhood adversity, and inventor/licence disclosure all match.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-PACE": "c4851f29bffd02d0c02dc1ce389f427b164380ded03e5aded9e4075ee73eedfa"
         },
         "record_sha256": "788fc16d91d4b27729878fea1f25bd6feb1f5c844603e16342f68b7de3920f1d",
@@ -740,7 +740,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "220 randomized to 25% CR or ad libitum for 2 years; DunedinPACE slowed; no significant change in other clocks including PhenoAge and GrimAge; small effect sizes; post hoc; two authors are DunedinPACE inventors. \"Not part of the original plan\" renders \"post hoc\".",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-PACE": "c4851f29bffd02d0c02dc1ce389f427b164380ded03e5aded9e4075ee73eedfa"
         },
         "record_sha256": "fef84122741461ceee72ce177e7caf3dbea4a17702e618690f65cfdfceb498ca",
@@ -786,7 +786,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "51 studies, 16 clocks, 94 other biomarkers; mortality and pace clocks strongest and mutually consistent; population and duration key; eventual surrogate aim; COI (three TruDiagnostic employees who developed OMICmAge; two SystemsAge co-inventors with US patent; consulting fees from TruDiagnostic for two) all match. \"Yale-led\" is from author affiliations.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-YALE": "8afa2fa220240364faaa12759f0e0eecf54266d88c3d0ae46f7b2ced46694772"
         },
         "record_sha256": "5ec700ff7656e5dbe623a1a76a568e59afe260d92855382f43100917f1214af2",
@@ -834,7 +834,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "18 biomarkers; excellent technical reproducibility for most; sensitivity to slide position and DNA extraction; biological reliability substantially lower under meals, stress and environmental exposures; low to moderate stability, lower after immune adjustment; technical does not predict biological. All match.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-YALE": "8afa2fa220240364faaa12759f0e0eecf54266d88c3d0ae46f7b2ced46694772"
         },
         "record_sha256": "856bf662fddbef5b57935fbae1dbd26ff9c53ebe246022787871cd48be6ae583",
@@ -880,7 +880,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Default threshold 0.8; within-threshold missing values set to the mean of the supplied betas matrix; beyond-threshold probes replaced with the training-data mean; EPICv2 detection sets the threshold to 0.7; documentation recommends running entire cohorts at once. The implication that a score can depend on batch composition follows from the documented imputation and is stated as a possibility (\"slightly\"), not measured.",
         "bound_hashes": {
-          "A-CH7-EN": "30110339d7ddcff133eb1b619157a8d1491071af2f53e4ad5f8f025fd91b6961",
+          "A-CH7-EN": "27d88c078b1cea84d03178edb6fe475c390d0506462fc7d7656bf948310770dd",
           "A-PACECODE": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e"
         },
         "record_sha256": "a98746f88958d9fc09f117c950d88d314c347d94a80a52cf607346b84d49e092",

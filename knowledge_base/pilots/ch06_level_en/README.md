@@ -16,3 +16,4 @@
   - the bookkeeping paragraph on the two 2025 organ-age studies, which rests on ledger X81;
   - independent review. Formal release stays **blocked**.
 - **Checks**: `tests/test_ch06_en_pilot.py`. These are bookkeeping checks only, not scientific validation.
+- **Correction, 2026-11-28**: claim CH6-EN-C008 said "4,058 people"; the source says 4,058 samples, and the number was not bound to the claim. Text corrected; E-COMP-4058 bound. See [the correction record](../../../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md) and `tools/claim_token_scan.py`.

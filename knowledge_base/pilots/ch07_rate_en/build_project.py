@@ -96,7 +96,7 @@ CLAIMS = [
                      'within-person pace of multi-system biomarker decline; cross-sectional associations of pace with function and appearance',
                      'person', 'prospective birth-cohort study', 'multi-organ clinical biomarkers in young adults'),
          evidence=['E-DUN-954', 'E-DUN-ORG', 'E-DUN-VAR', 'E-DUN-FAST'], state='supported',
-         rationale='954; three time points in the third and fourth decades; organ systems listed (pulmonary, periodontal, cardiovascular, renal, hepatic, immune) rendered in plain words; same-age variation; faster agers less physically able, cognitive decline and brain aging, worse self-rated health, looked older. All match the abstract.',
+         rationale='954; three time points in the third and fourth decades; organ systems listed (pulmonary, periodontal, cardiovascular, renal, hepatic, immune) rendered in plain words; same-age variation; faster agers less physically able, cognitive decline and brain aging, worse self-rated health, looked older. All match the abstract. Corrected 2026-11-28: v0.1 placed the cohort "in New Zealand", which is not in the stored excerpt; removed.',
          dimensions=dims(source_support='supported', extraction='supported')),
     dict(id='CH7-EN-C002', anchor='Telomeres again provide a simple example.', kind='reported', role='asserted', critical=True,
          context=ctx('414 study samples, 743,019 individuals aged 0-112', 'cross-sectional and longitudinal samples pooled in a meta-analysis',
