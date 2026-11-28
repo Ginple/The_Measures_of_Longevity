@@ -1,0 +1,7 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28.
+# MULTI Consortium; Song Z ... Wen J. Nat Med 2026;32(11):4268-4279, PMID 42749890, PMC13681238, doi 10.1038/s41591-026-04662-6. Erratum Nat Med 2026;32(11):4350 (not read). Authors declare no competing interests.
+However, most biological aging clocks (artificial intelligence-predicted age minus chronological age) were trained on sex-pooled samples and implicitly assume sex invariance.
+Here we developed 38 sex-specific biological aging clocks across 15 organ systems.
+We first demonstrate the importance of sex-stratified training for constructing sex-specific healthy normative references and then reveal marked divergence between female and male clocks.
+In longitudinal survival analyses, sex-specific clocks predict whole-body systemic diseases and all-cause mortality in a sex-dependent and organ-dependent manner.
+Meanwhile, sex-pooled and sex-interaction approaches remain valuable, as human aging and disease also share fundamental biological similarities between females and males.

@@ -2,8 +2,9 @@
 
 Synthetic re-run of the SR_SNAPSHOT_IDENTIFIABILITY comparison (lower damage
 production vs. raise removal, matched so 70-year survivors carry the same mean
-damage) using the human parameter set printed in Karin et al., Nat Commun 2025
-(s41467-025-57807-5, Methods): eta = 1.4e-3 /(day*year), beta = 0.15 /day,
+damage) using the human parameter set printed in Yang ... Alon, Nat Commun 2025
+(s41467-025-57807-5, Methods; parameters attributed there to Karin et al. 2019;
+attribution corrected 2026-11-27, ledger X128 -- values unchanged): eta = 1.4e-3 /(day*year), beta = 0.15 /day,
 kappa = 0.5, eps = 0.16 /day, Xc = 17 (converted to years below). No Makeham
 term, no heterogeneity: this is a model stress test, not a population estimate.
 """

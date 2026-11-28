@@ -1,0 +1,1002 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch03-four-links-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Ten paragraph units of the English chapter 3 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 10,
+    "registered_claims": 10,
+    "note": "Reasoning and value paragraphs (I1 statement, frameworks compared, breadth has a cost, entropy, information, identity, control, prediction defined, answer to the objection, benefit is not deciding, map of the book, candidate shifts) make no source claim. Abstract depth throughout; one synthetic claim is formal; one claim rests on a project record."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH3-EN",
+      "path": "books/manuscript/en/CH03_four_links_draft_en.md",
+      "sha256": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016); new writing using V6 sections 02-03 and V7 section 02 as leads; working copy"
+    },
+    {
+      "id": "A-THEORY",
+      "path": "knowledge_base/pilots/ch03_four_links_en/evidence/THEORIES_abstracts.txt",
+      "sha256": "9fc67bd103e9d95eed22a0290c3893936c59b09b1ac4ad06bce83f4ae3b9990d",
+      "role": "source",
+      "family": "frameworks-aging-theory",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993579/",
+      "version": "PubMed abstracts (Gladyshev 2026; Yucel 2026; Lemaitre 2024) 2026-11-28; the first two share an author"
+    },
+    {
+      "id": "A-TRIALS",
+      "path": "knowledge_base/pilots/ch03_four_links_en/evidence/TRIALS_abstracts.txt",
+      "sha256": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b",
+      "role": "source",
+      "family": "trials-marker-outcome",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1900101/",
+      "version": "PubMed abstracts (CAST 1991; ILLUMINATE 2007; ACCORD 2008; Voight 2012) 2026-11-28; four independent studies"
+    },
+    {
+      "id": "A-CM-CODE",
+      "path": "knowledge_base/pilots/ch03_four_links_en/confounded_marker.py",
+      "sha256": "5730b771655bb56fa65a5540245ead5e4a389f5211cea1088814745073babf98",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "code",
+      "url": "",
+      "version": "project synthetic confounded-marker calculation; tests/test_ch03_en_pilot.py recomputes it"
+    },
+    {
+      "id": "A-CM-OUT",
+      "path": "knowledge_base/pilots/ch03_four_links_en/evidence/CONFOUNDED_MARKER_SYNTHETIC_output.json",
+      "sha256": "b5cc5137a34dfc5ec818bfa10f97d594f29803aa5c3c20b48efa8d58854ea149",
+      "role": "dataset",
+      "family": "longevity-project-derivation",
+      "access_depth": "data",
+      "url": "",
+      "version": "saved stdout of confounded_marker.py"
+    },
+    {
+      "id": "A-LEDGER",
+      "path": "knowledge_base/pilots/ch03_four_links_en/evidence/LEDGER_X28_X85_excerpt.txt",
+      "sha256": "67868da95bef2397501d012665ed0aa922903ef5d86fd71c40b44fb008bd61fa",
+      "role": "source",
+      "family": "longevity-project-record",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "verbatim copy of ledger rows X28 and X85 (2026-11-28): records of earlier reading by the same assistant; not a primary source"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-G-HDR",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# [1] Gladyshev VN. Simply aging. Proc Natl Acad Sci U S A 2026;123(46):e2605454123. PMID 42993579, PMC13778651, doi 10.1073/pnas.2605454123. Brigham and Women's Hospital, Harvard Medical School.\n"
+    },
+    {
+      "id": "E-G-DEFAULT",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "[1] The organizing principle is that aging is a default outcome of living: because biological processes are inherently imperfect, deleterious changes (the deleteriome) accumulate over time and progressively erode functional reserve.\n"
+    },
+    {
+      "id": "E-G-UNIFY",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "[1] The deleteriome provides a unifying framework for molecular damage, regulatory drift, maladaptive remodeling, and system-level failure, without reducing aging to individual genes, pathways, compartments, hallmarks, or pathologies.\n"
+    },
+    {
+      "id": "E-G-MEASURE",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "[1] Modern biomarkers make biological age imperfectly but increasingly measurable.\n"
+    },
+    {
+      "id": "E-G-REVERS",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "[1] Biological age is heterogeneous across cells, organs, and systems, modifiable by interventions and environment, and in some contexts partially reversible or resettable, although aging itself is irreversible.\n"
+    },
+    {
+      "id": "E-G-COI",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "[1] Conflict of interest statement: Competing interests statement:The author and reviewer A.A.C. were co-authors on reviews and perspectives within the last 4 y but have had no research collaborations in that time.\n"
+    },
+    {
+      "id": "E-Y-HDR",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "# [2] Yücel AD, Molière A, Gladyshev VN. Written in development and lost in ageing: the grammar of cellular identity. Nature 2026;658(8134):45-54. PMID 42816559, doi 10.1038/s41586-026-10955-0. A review/perspective (no new primary experiment is described in the abstract).\n"
+    },
+    {
+      "id": "E-Y-PROPOSE",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "[2] Here we propose that ageing reflects progressive decanalization of mammalian cell identity, driven by erosion of a regulatory grammar written during development.\n"
+    },
+    {
+      "id": "E-Y-LOCAL",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "[2] Subsequently, these constraints can only be maintained through local mechanisms with limited fidelity.\n"
+    },
+    {
+      "id": "E-Y-ASYM",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        14,
+        15
+      ],
+      "text": "[2] The asymmetry between high-fidelity writing and imperfect maintenance generates predictable drift that accumulates with biological time.\n"
+    },
+    {
+      "id": "E-Y-PRC2",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        15,
+        16
+      ],
+      "text": "[2] Consistent with this framework, the vast majority of age-associated DNA methylation gain in somatic mitotic tissues occurs at PRC2-bound low-methylated regions, indicating that these domains function as conserved coordinates of slow-layer drift.\n"
+    },
+    {
+      "id": "E-Y-TEST",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        16,
+        17
+      ],
+      "text": "[2] It provides testable predictions for interventions that stabilize architecture to preserve cellular identity and function.\n"
+    },
+    {
+      "id": "E-Y-COI",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        17,
+        18
+      ],
+      "text": "[2] Conflict of interest statement: Competing interests: A.M. is employed by Novartis. The other authors declare no competing interests.\n"
+    },
+    {
+      "id": "E-L-HDR",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        18,
+        19
+      ],
+      "text": "# [3] Lemaître JF, Moorad J, Gaillard JM, Maklakov AA, Nussey DH. A unified framework for evolutionary genetic and physiological theories of aging. PLoS Biol 2024;22(2):e3002513. PMID 38412150, PMC10898761, doi 10.1371/journal.pbio.3002513. An Essay.\n"
+    },
+    {
+      "id": "E-L-WHY",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "[3] Why and how we age are 2 intertwined questions that have fascinated scientists for many decades.\n"
+    },
+    {
+      "id": "E-L-COMPART",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        20,
+        21
+      ],
+      "text": "[3] However, attempts to answer these questions remain compartmentalized, preventing a comprehensive understanding of the aging process.\n"
+    },
+    {
+      "id": "E-L-DST",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        21,
+        22
+      ],
+      "text": "[3] We argue that the current lack of knowledge about the evolution of aging mechanisms is due to a lack of clarity regarding evolutionary theories of aging that explicitly involve physiological processes: the disposable soma theory (DST) and the developmental theory of aging (DTA).\n"
+    },
+    {
+      "id": "E-L-MODEL",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        22,
+        23
+      ],
+      "text": "[3] In this Essay, we propose a new hierarchical model linking genes to vital rates, enabling us to critically reevaluate the DST and DTA in terms of their relationship to evolutionary genetic theories of aging (mutation accumulation (MA) and antagonistic pleiotropy (AP)).\n"
+    },
+    {
+      "id": "E-L-HYP",
+      "artifact_id": "A-THEORY",
+      "lines_1based_halfopen": [
+        23,
+        24
+      ],
+      "text": "[3] The new framework will help to generate testable hypotheses of how the hallmarks of aging are shaped by natural selection.\n"
+    },
+    {
+      "id": "E-CM-DESIGN",
+      "artifact_id": "A-CM-CODE",
+      "lines_1based_halfopen": [
+        7,
+        13
+      ],
+      "text": "Population of 1000 people. A hidden condition Z is present in 300 of them.\n- The marker is high in 80 percent of people with Z and in 20 percent of people without Z.\n- The event happens to 40 percent of people with Z and to 10 percent of people without Z,\n  whatever their marker (the marker has no effect of its own).\nIntervention: a perfectly safe treatment sets everyone's marker to low. Because the marker has no effect,\nthe expected number of events is unchanged.\n"
+    },
+    {
+      "id": "E-CM-OUT",
+      "artifact_id": "A-CM-OUT",
+      "lines_1based_halfopen": [
+        4,
+        13
+      ],
+      "text": "  \"people_marker_high\": 380,\n  \"events_marker_high\": 110,\n  \"people_marker_low\": 620,\n  \"events_marker_low\": 80,\n  \"risk_marker_high\": \"0.289\",\n  \"risk_marker_low\": \"0.129\",\n  \"risk_ratio_high_vs_low\": \"2.24\",\n  \"events_without_treatment\": 190,\n  \"events_with_marker_set_low\": 190\n"
+    },
+    {
+      "id": "E-V-HDR",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        22,
+        23
+      ],
+      "text": "# [4] Voight BF, Peloso GM, Orho-Melander M, et al. Plasma HDL cholesterol and risk of myocardial infarction: a mendelian randomisation study. Lancet 2012;380(9841):572-80. PMID 22607825, PMC3419820, doi 10.1016/S0140-6736(12)60312-2. Funding listed in the abstract: US National Institutes of Health, The Wellcome Trust, European Union, British Heart Foundation, German Federal Ministry of Education and Research.\n"
+    },
+    {
+      "id": "E-V-BG",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        23,
+        24
+      ],
+      "text": "[4] BACKGROUND: High plasma HDL cholesterol is associated with reduced risk of myocardial infarction, but whether this association is causal is unclear.\n"
+    },
+    {
+      "id": "E-V-MR",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        24,
+        25
+      ],
+      "text": "[4] Exploiting the fact that genotypes are randomly assigned at meiosis, are independent of non-genetic confounding, and are unmodified by disease processes, mendelian randomisation can be used to test the hypothesis that the association of a plasma biomarker with disease is causal.\n"
+    },
+    {
+      "id": "E-V-OBS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        25,
+        26
+      ],
+      "text": "[4] From observational epidemiology, an increase of 1 SD in HDL cholesterol was associated with reduced risk of myocardial infarction (OR 0·62, 95% CI 0·58-0·66).\n"
+    },
+    {
+      "id": "E-V-GEN",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        26,
+        27
+      ],
+      "text": "[4] However, a 1 SD increase in HDL cholesterol due to genetic score was not associated with risk of myocardial infarction (OR 0·93, 95% CI 0·68-1·26, p=0·63).\n"
+    },
+    {
+      "id": "E-V-LDL",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        27,
+        28
+      ],
+      "text": "[4] For LDL cholesterol, the estimate from observational epidemiology (a 1 SD increase in LDL cholesterol associated with OR 1·54, 95% CI 1·45-1·63) was concordant with that from genetic score (OR 2·13, 95% CI 1·69-2·69, p=2×10(-10)).\n"
+    },
+    {
+      "id": "E-V-INT",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        28,
+        29
+      ],
+      "text": "[4] INTERPRETATION: Some genetic mechanisms that raise plasma HDL cholesterol do not seem to lower risk of myocardial infarction.\n"
+    },
+    {
+      "id": "E-V-INT2",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        29,
+        30
+      ],
+      "text": "[4] These data challenge the concept that raising of plasma HDL cholesterol will uniformly translate into reductions in risk of myocardial infarction.\n"
+    },
+    {
+      "id": "E-T-AIM",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "[2] We investigated whether torcetrapib, a potent CETP inhibitor, might reduce major cardiovascular events.\n"
+    },
+    {
+      "id": "E-T-STOP",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "[2] The trial was terminated prematurely because of an increased risk of death and cardiac events in patients receiving torcetrapib.\n"
+    },
+    {
+      "id": "E-T-N",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "[2] METHODS: We conducted a randomized, double-blind study involving 15,067 patients at high cardiovascular risk.\n"
+    },
+    {
+      "id": "E-T-LIPIDS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "[2] RESULTS: At 12 months in patients who received torcetrapib, there was an increase of 72.1% in high-density lipoprotein cholesterol and a decrease of 24.9% in low-density lipoprotein cholesterol, as compared with baseline (P<0.001 for both comparisons), in addition to an increase of 5.4 mm Hg in systolic blood pressure, a decrease in serum potassium, and increases in serum sodium, bicarbonate, and aldosterone (P<0.001 for all comparisons).\n"
+    },
+    {
+      "id": "E-T-HR",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "[2] There was also an increased risk of cardiovascular events (hazard ratio, 1.25; 95% confidence interval [CI], 1.09 to 1.44; P=0.001) and death from any cause (hazard ratio, 1.58; 95% CI, 1.14 to 2.19; P=0.006).\n"
+    },
+    {
+      "id": "E-T-MECH",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        14,
+        15
+      ],
+      "text": "[2] CONCLUSIONS: Torcetrapib therapy resulted in an increased risk of mortality and morbidity of unknown mechanism.\n"
+    },
+    {
+      "id": "E-T-OFF",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        15,
+        16
+      ],
+      "text": "[2] Although there was evidence of an off-target effect of torcetrapib, we cannot rule out adverse effects related to CETP inhibition.\n"
+    },
+    {
+      "id": "E-C-DESIGN",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "[1] BACKGROUND AND METHODS: In the Cardiac Arrhythmia Suppression Trial, designed to test the hypothesis that suppression of ventricular ectopy after a myocardial infarction reduces the incidence of sudden death, patients in whom ventricular ectopy could be suppressed with encainide, flecainide, or moricizine were randomly assigned to receive either active drug or placebo.\n"
+    },
+    {
+      "id": "E-C-STOP",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "[1] The use of encainide and flecainide was discontinued because of excess mortality.\n"
+    },
+    {
+      "id": "E-C-N",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "[1] RESULTS: Of 1498 patients, 857 were assigned to receive encainide or its placebo (432 to active drug and 425 to placebo) and 641 were assigned to receive flecainide or its placebo (323 to active drug and 318 to placebo).\n"
+    },
+    {
+      "id": "E-C-DEATHS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "[1] After a mean follow-up of 10 months, 89 patients had died: 59 of arrhythmia (43 receiving drug vs. 16 receiving placebo; P = 0.0004), 22 of nonarrhythmic cardiac causes (17 receiving drug vs. 5 receiving placebo; P = 0.01), and 8 of noncardiac causes (3 receiving drug vs. 5 receiving placebo).\n"
+    },
+    {
+      "id": "E-C-MECH",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "[1] The mechanisms underlying the excess mortality during treatment with encainide or flecainide remain unknown.\n"
+    },
+    {
+      "id": "E-A-HDR",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        16,
+        17
+      ],
+      "text": "# [3] Action to Control Cardiovascular Risk in Diabetes Study Group; Gerstein HC, Miller ME, Byington RP, et al. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358(24):2545-59. PMID 18539917, PMC4551392, doi 10.1056/NEJMoa0802743. ClinicalTrials.gov NCT00000620. No conflict statement in the PubMed record.\n"
+    },
+    {
+      "id": "E-A-BG",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        17,
+        18
+      ],
+      "text": "[3] BACKGROUND: Epidemiologic studies have shown a relationship between glycated hemoglobin levels and cardiovascular events in patients with type 2 diabetes.\n"
+    },
+    {
+      "id": "E-A-N",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        18,
+        19
+      ],
+      "text": "[3] METHODS: In this randomized study, 10,251 patients (mean age, 62.2 years) with a median glycated hemoglobin level of 8.1% were assigned to receive intensive therapy (targeting a glycated hemoglobin level below 6.0%) or standard therapy (targeting a level from 7.0 to 7.9%).\n"
+    },
+    {
+      "id": "E-A-ACHIEVED",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "[3] RESULTS: At 1 year, stable median glycated hemoglobin levels of 6.4% and 7.5% were achieved in the intensive-therapy group and the standard-therapy group, respectively.\n"
+    },
+    {
+      "id": "E-A-DEATHS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        20,
+        21
+      ],
+      "text": "[3] At the same time, 257 patients in the intensive-therapy group died, as compared with 203 patients in the standard-therapy group (hazard ratio, 1.22; 95% CI, 1.01 to 1.46; P=0.04).\n"
+    },
+    {
+      "id": "E-A-CONC",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        21,
+        22
+      ],
+      "text": "[3] CONCLUSIONS: As compared with standard therapy, the use of intensive therapy to target normal glycated hemoglobin levels for 3.5 years increased mortality and did not significantly reduce major cardiovascular events.\n"
+    },
+    {
+      "id": "E-LED-X85",
+      "artifact_id": "A-LEDGER",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "| X85 | 2026-11-27 | “容量 / 排队”框架的原创性 | [Ledberg 2020](https://doi.org/10.1371/journal.pone.0233384) 用排队论推出 Gompertz；Karin/Alon 的 SR 模型；临界减速与动态韧性文献 | 检索并不穷尽；本项目的六模块与 SR 反例可能与更多既有工作重叠 | 第Ⅵ部、P4、转换七/九的相关工作必须引用；原创表述降级为“重组与可识别性” | open |\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH3-EN-C001",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        17,
+        18
+      ],
+      "text": "Consider two recent frameworks from one laboratory. In \"Simply aging\" (2026), Gladyshev argues that aging is a default outcome of living: because biological processes are inherently imperfect, deleterious changes, which he calls the deleteriome, accumulate over time and erode functional reserve. The deleteriome is meant to cover molecular damage, regulatory drift, maladaptive remodelling and system-level failure without reducing aging to any one gene, pathway, hallmark or pathology. A review in Nature the same year, by Yücel, Molière and Gladyshev, proposes something narrower: that aging reflects a progressive loosening of cell identity, because a regulatory grammar written during development with high fidelity can afterwards be maintained only by local mechanisms with limited fidelity. As support, it points out that the vast majority of age-associated gains in DNA methylation in dividing tissues occur at regions bound by PRC2, and it offers testable predictions for interventions that stabilise this architecture.[^1]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: conceptual frameworks",
+        "time": "not applicable",
+        "estimand": "what each framework proposes and how it would be tested",
+        "unit": "framework",
+        "design": "perspective, review and essay (no new primary data described in the abstracts)",
+        "domain": "theories of aging"
+      },
+      "evidence_ids": [
+        "E-G-HDR",
+        "E-G-DEFAULT",
+        "E-G-UNIFY",
+        "E-G-COI",
+        "E-Y-HDR",
+        "E-Y-PROPOSE",
+        "E-Y-LOCAL",
+        "E-Y-ASYM",
+        "E-Y-PRC2",
+        "E-Y-TEST",
+        "E-Y-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Gladyshev 2026: aging as default outcome, imperfect processes, deleteriome accumulates and erodes functional reserve; covers damage, drift, remodeling, system failure without reducing to genes, pathways, hallmarks, pathologies. Yucel, Moliere and Gladyshev 2026 (Nature review per header): decanalization of cell identity; grammar written in development; local mechanisms with limited fidelity; most age-associated methylation gain in somatic mitotic tissues at PRC2-bound regions; testable predictions for stabilising architecture. All match. \"One laboratory\" rests on the shared author and affiliation in the headers. \"Loosening\" renders \"decanalization\"; \"dividing tissues\" renders \"somatic mitotic tissues\".",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-THEORY": "9fc67bd103e9d95eed22a0290c3893936c59b09b1ac4ad06bce83f4ae3b9990d"
+        },
+        "record_sha256": "2c595448020f8eef6a9741a115285277f80ef373f52d30fb0ae868a7b694b55e",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C002",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "A third framework comes from evolutionary biology. In a 2024 essay, Lemaître and colleagues note that why and how we age are intertwined questions, and that attempts to answer them remain compartmentalised. They argue that two evolutionary theories involving physiology, the disposable soma theory and the developmental theory of aging, lack clarity about how they relate to the evolutionary genetic theories of mutation accumulation and antagonistic pleiotropy. They propose a hierarchical model linking genes to vital rates, meant to generate testable hypotheses about how natural selection shapes the hallmarks of aging.[^2]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: conceptual frameworks",
+        "time": "not applicable",
+        "estimand": "what each framework proposes and how it would be tested",
+        "unit": "framework",
+        "design": "perspective, review and essay (no new primary data described in the abstracts)",
+        "domain": "theories of aging"
+      },
+      "evidence_ids": [
+        "E-L-HDR",
+        "E-L-WHY",
+        "E-L-COMPART",
+        "E-L-DST",
+        "E-L-MODEL",
+        "E-L-HYP"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Lemaitre 2024 Essay: why and how we age intertwined; attempts compartmentalized; lack of clarity on DST and DTA relative to MA and AP; hierarchical model linking genes to vital rates; testable hypotheses on how selection shapes hallmarks. All match.",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-THEORY": "9fc67bd103e9d95eed22a0290c3893936c59b09b1ac4ad06bce83f4ae3b9990d"
+        },
+        "record_sha256": "8343176ccc67771e077e4ae43e0307e90742dd6dca74c3964d945d686085d1da",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C003",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        35,
+        36
+      ],
+      "text": "The words matter even inside one paper. The same 2026 essay says that biological age is, in some contexts, partially reversible or resettable, although aging itself is irreversible. Both halves can be true only if \"biological age\" and \"aging\" name different things: the first an estimate that, as the essay puts it, modern biomarkers make imperfectly but increasingly measurable; the second the process. A headline that reads \"aging reversed\" off a reading that moved has swapped one for the other.[^1]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: conceptual frameworks",
+        "time": "not applicable",
+        "estimand": "what each framework proposes and how it would be tested",
+        "unit": "framework",
+        "design": "perspective, review and essay (no new primary data described in the abstracts)",
+        "domain": "theories of aging"
+      },
+      "evidence_ids": [
+        "E-G-HDR",
+        "E-G-MEASURE",
+        "E-G-REVERS"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Biological age partially reversible or resettable in some contexts, aging itself irreversible; biomarkers make biological age imperfectly but increasingly measurable. Both quoted from the abstract; the reading that the two terms name different things is the chapter's inference, stated as such (\"can be true only if\").",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-THEORY": "9fc67bd103e9d95eed22a0290c3893936c59b09b1ac4ad06bce83f4ae3b9990d"
+        },
+        "record_sha256": "f9da17c77e8101b30b3342bf6a1737317c93c0fd4b87f267bbbf7fc2aebc8543",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C004",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        43,
+        44
+      ],
+      "text": "A small synthetic calculation, built by this project with no real data, shows how this can happen. Take 1000 people, 300 of whom have a hidden condition. The marker is high in 80 percent of those with the condition and in 20 percent of those without; the event happens to 40 percent of those with the condition and 10 percent of those without, whatever their marker. Among the 380 people with a high marker, 110 have the event, a risk of 0.289; among the 620 with a low marker, 80 do, a risk of 0.129. People with a high marker have more than twice the risk, a risk ratio of 2.24. Now give everyone a perfectly safe treatment that sets the marker low. The number of events stays at 190.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: 1000 synthetic people",
+        "time": "single period",
+        "estimand": "risk by marker level; events before and after setting the marker low",
+        "unit": "synthetic person",
+        "design": "exact arithmetic (script and tests)",
+        "domain": "confounding arithmetic only"
+      },
+      "evidence_ids": [
+        "E-CM-DESIGN",
+        "E-CM-OUT"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "1000 people, 300 with Z; marker high 80%/20%; event 40%/10% regardless of marker; 380 high with 110 events (0.289); 620 low with 80 events (0.129); ratio 2.24; events 190 before and after. All match. Formal claim.",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-CM-CODE": "5730b771655bb56fa65a5540245ead5e4a389f5211cea1088814745073babf98",
+          "A-CM-OUT": "b5cc5137a34dfc5ec818bfa10f97d594f29803aa5c3c20b48efa8d58854ea149"
+        },
+        "record_sha256": "8524920e26cb46914c51e6cde41a318f3d9663254cf8719f0bf2d8b46b660327",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C005",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        45,
+        46
+      ],
+      "text": "The marker in that calculation is an excellent predictor and a useless target, because it has no effect of its own. Real cases are rarely so clean, but the pattern is real. In a 2012 study of HDL cholesterol, observational data showed that each standard deviation higher was associated with fewer heart attacks, an odds ratio of 0.62. The same study then used mendelian randomisation, which relies on the fact that genotypes are assigned at random at meiosis and are not changed by disease, to treat genetic variants that raise HDL cholesterol as a natural experiment. A 1 standard deviation increase due to a genetic score was not associated with risk of heart attack (odds ratio 0.93, 95 percent interval 0.68 to 1.26). The authors concluded that some genetic mechanisms that raise HDL cholesterol do not seem to lower risk of myocardial infarction, which challenges the idea that raising it will uniformly translate into lower risk.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "myocardial infarction cases and controls in up to 20 studies",
+        "time": "not stated in the excerpt",
+        "estimand": "association of HDL cholesterol with MI, observational and genetic",
+        "unit": "person",
+        "design": "mendelian randomisation",
+        "domain": "HDL cholesterol and myocardial infarction"
+      },
+      "evidence_ids": [
+        "E-V-HDR",
+        "E-V-BG",
+        "E-V-MR",
+        "E-V-OBS",
+        "E-V-GEN",
+        "E-V-INT",
+        "E-V-INT2"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Observational OR 0.62 per SD; genotypes assigned at meiosis and unmodified by disease; genetic-score OR 0.93 (0.68-1.26); some genetic mechanisms that raise HDL do not seem to lower MI risk; challenges uniform translation. All match; source uses middle-dot decimals. \"Heart attack\" renders myocardial infarction; \"natural experiment\" glosses mendelian randomisation.",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
+        },
+        "record_sha256": "81e379b87c2429f2f0a22135d5f254995c7b664070e0a7d74612a8b397e2142a",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C006",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        47,
+        48
+      ],
+      "text": "Control without benefit is the next gap. Torcetrapib, a potent CETP inhibitor, was tested in 15,067 patients at high cardiovascular risk to see whether it would reduce major cardiovascular events. At 12 months it had raised HDL cholesterol by 72.1 percent and lowered LDL cholesterol by 24.9 percent; it had also raised systolic blood pressure by 5.4 mm Hg. The risk of cardiovascular events was higher (hazard ratio 1.25), and so was death from any cause (hazard ratio 1.58, 95 percent confidence interval 1.14 to 2.19). The trial was stopped early. The authors called the mechanism of harm unknown: there was evidence of an off-target effect, but they could not rule out harm from CETP inhibition itself.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "15,067 patients at high cardiovascular risk",
+        "time": "12-month lipid change; trial stopped early",
+        "estimand": "lipids, blood pressure, cardiovascular events and all-cause death",
+        "unit": "patient",
+        "design": "randomized double-blind trial",
+        "domain": "CETP inhibition"
+      },
+      "evidence_ids": [
+        "E-T-AIM",
+        "E-T-STOP",
+        "E-T-N",
+        "E-T-LIPIDS",
+        "E-T-HR",
+        "E-T-MECH",
+        "E-T-OFF"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Potent CETP inhibitor; 15,067 patients; HDL +72.1%, LDL -24.9%, SBP +5.4 mm Hg at 12 months; CV events HR 1.25; death HR 1.58 (1.14-2.19); terminated prematurely; unknown mechanism; off-target evidence but CETP-related harm not ruled out. All match. The protocol amendment (X28) is disclosed in the chapter footnote and the unresolved list.",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
+        },
+        "record_sha256": "cf272988a322df32cf7bec21f2317d6bcac4a6d5f2388ddc6652a2e12da14bb6",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C007",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        49,
+        50
+      ],
+      "text": "The Cardiac Arrhythmia Suppression Trial shows the same gap with a mechanism that seemed close to the outcome. It was designed to test the hypothesis that suppressing extra beats from the ventricles after a heart attack would reduce sudden death. Only patients whose extra beats could be suppressed by encainide, flecainide or moricizine were randomly assigned to active drug or placebo, so control of the marker was achieved before randomisation. Of 1498 patients in the encainide and flecainide comparisons, after a mean of 10 months, 43 on these drugs had died of arrhythmia against 16 on placebo, and the two drugs were discontinued because of excess mortality. The authors wrote that the mechanisms behind the excess deaths remained unknown.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "post-myocardial-infarction patients whose ventricular ectopy could be suppressed",
+        "time": "mean 10 months",
+        "estimand": "deaths by cause, active drug versus placebo",
+        "unit": "patient",
+        "design": "randomized placebo-controlled trial",
+        "domain": "antiarrhythmic suppression of ventricular ectopy"
+      },
+      "evidence_ids": [
+        "E-C-DESIGN",
+        "E-C-STOP",
+        "E-C-N",
+        "E-C-DEATHS",
+        "E-C-MECH"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Hypothesis: suppression of ventricular ectopy after MI reduces sudden death; only suppressible patients randomized; 1498 patients in the encainide/flecainide comparisons; mean 10 months; arrhythmic deaths 43 drug vs 16 placebo; discontinued for excess mortality; mechanisms unknown. All match. \"Extra beats from the ventricles\" renders ventricular ectopy; \"control of the marker was achieved before randomisation\" follows from the eligibility rule.",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
+        },
+        "record_sha256": "fc5e364edd25c28463600a4e8e24160c88feffc59532a935728fad65a8ccecbe",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C008",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        51,
+        52
+      ],
+      "text": "The ACCORD trial moved a marker with a documented link to the outcome. Epidemiological studies had shown a relationship between glycated haemoglobin and cardiovascular events in type 2 diabetes. The trial assigned 10,251 patients either to intensive therapy targeting a level below 6.0 percent or to standard therapy targeting 7.0 to 7.9 percent. The control worked: at one year the median levels were 6.4 and 7.5 percent. But 257 people died in the intensive group, against 203 in the standard group (hazard ratio 1.22, 95 percent interval 1.01 to 1.46). Over 3.5 years, intensive therapy increased mortality and did not significantly reduce major cardiovascular events.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "10,251 patients with type 2 diabetes and CVD or additional risk factors",
+        "time": "mean 3.5 years",
+        "estimand": "glycated haemoglobin achieved; all-cause death; major CV events",
+        "unit": "patient",
+        "design": "randomized trial",
+        "domain": "intensive glucose lowering"
+      },
+      "evidence_ids": [
+        "E-A-HDR",
+        "E-A-BG",
+        "E-A-N",
+        "E-A-ACHIEVED",
+        "E-A-DEATHS",
+        "E-A-CONC"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Epidemiologic relationship between HbA1c and CV events; 10,251 patients; targets below 6.0% versus 7.0-7.9%; achieved 6.4% and 7.5% at 1 year; deaths 257 vs 203, HR 1.22 (1.01-1.46); over 3.5 years increased mortality without significant reduction in major CV events. All match.",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
+        },
+        "record_sha256": "e9c660edce647fb9963173e49bb9de847f62dbcda781e499b266f93ae8d5c00b",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C009",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        53,
+        54
+      ],
+      "text": "Here is the strongest objection to this chapter, and it deserves a full answer: a good enough mechanistic theory would collapse the four steps. If we really understood how a disease works, prediction, control and benefit would follow together. Sometimes they do line up. The same 2012 study included a positive control: for LDL cholesterol, the observational estimate (an odds ratio of 1.54 per standard deviation) agreed with the genetic one (2.13). Here prediction and causal evidence point the same way.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "myocardial infarction cases and controls",
+        "time": "not stated in the excerpt",
+        "estimand": "observational versus genetic association of LDL cholesterol with MI",
+        "unit": "person",
+        "design": "mendelian randomisation (positive control)",
+        "domain": "LDL cholesterol and myocardial infarction"
+      },
+      "evidence_ids": [
+        "E-V-HDR",
+        "E-V-LDL"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "LDL observational OR 1.54 per SD concordant with genetic-score OR 2.13. Matches. The objection itself is the outline's strongest counterexample, stated in the chapter's words; no source claim beyond the LDL figures.",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
+        },
+        "record_sha256": "9df51685c1c7fd60bbae4776794d4f489bfb3ff3165096adea5bcf6d680da344",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH3-EN-C010",
+      "artifact_id": "A-CH3-EN",
+      "lines_1based_halfopen": [
+        73,
+        74
+      ],
+      "text": "This book is not exempt from prior work either. Its later chapters lean on ideas about capacity and queues, and those ideas have predecessors: Ledberg derived the Gompertz law from queueing theory, and the ledger also lists a model by Karin and Alon and work on critical slowing and dynamic resilience. The project's own ledger records this and asks the book to describe its contribution as recombination and identifiability, not as a first (ledger X85).[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: project record about prior literature",
+        "time": "as of 2026-11-27",
+        "estimand": "prior work on queueing and capacity models of aging mortality",
+        "unit": "publication",
+        "design": "project ledger row (same assistant's earlier search)",
+        "domain": "originality of the book's framework"
+      },
+      "evidence_ids": [
+        "E-LED-X85"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "X85: Ledberg 2020 derives Gompertz from queueing theory; Karin/Alon SR model; critical slowing and dynamic resilience literature; originality to be downgraded to recombination and identifiability. Matches the ledger excerpt; the underlying papers were not re-read (footnote says so).",
+        "bound_hashes": {
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
+          "A-LEDGER": "67868da95bef2397501d012665ed0aa922903ef5d86fd71c40b44fb008bd61fa"
+        },
+        "record_sha256": "c1f64eb1697aa71c5f7b8ae7565b65f4664bc16685021b261ff15b78d893a334",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH3-EN-INDEPENDENT-REVIEW",
+      "status": "closed",
+      "blocks_formal_release": false,
+      "question": "No independent review by an aging biologist, a trialist or a philosopher (D05)",
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
+    },
+    {
+      "id": "CH3-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "All seven studies read at abstract depth; ILLUMINATE protocol amendment (X28) and the X85 prior-work search unresolved; two of three theory papers share an author",
+      "next_action": "Read full texts; add a framework from outside these groups if the author wants balance",
+      "closure_evidence": "Full-text reading notes bound as excerpts"
+    }
+  ]
+}

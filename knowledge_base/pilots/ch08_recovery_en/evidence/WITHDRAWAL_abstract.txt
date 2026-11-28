@@ -1,0 +1,9 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Wilding JPH, Batterham RL, Davies M, ... Kushner RF; STEP 1 Study Group. Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension. Diabetes Obes Metab 2022;24(8):1553-1564. PMID 35441470, PMC9542252, doi 10.1111/dom.14725. COI (excerpt): KKa reports being employed by and owning stock in Novo Nordisk; KKo and TKO report being employed by Novo Nordisk; most other authors report fees or grants from Novo Nordisk and other companies.
+MATERIALS AND METHODS: STEP 1 (NCT03548935) randomized 1961 adults with a body mass index ≥ 30 kg/m2 (or ≥ 27 kg/m2 with ≥ 1 weight-related co-morbidity) without diabetes to 68 weeks of once-weekly subcutaneous semaglutide 2.4 mg (including 16 weeks of dose escalation) or placebo, as an adjunct to lifestyle intervention.
+At week 68, treatments (including lifestyle intervention) were discontinued.
+All analyses in the extension were exploratory.
+RESULTS: Extension analyses included 327 participants.
+From week 0 to week 68, mean weight loss was 17.3% (SD: 9.3%) with semaglutide and 2.0% (SD: 6.1%) with placebo.
+Following treatment withdrawal, semaglutide and placebo participants regained 11.6 (SD: 7.7) and 1.9 (SD: 4.8) percentage points of lost weight, respectively, by week 120, resulting in net losses of 5.6% (SD: 8.9%) and 0.1% (SD: 5.8%), respectively, from week 0 to week 120.
+Cardiometabolic improvements seen from week 0 to week 68 with semaglutide reverted towards baseline at week 120 for most variables.

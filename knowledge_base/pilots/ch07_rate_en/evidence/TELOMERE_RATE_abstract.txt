@@ -1,0 +1,6 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Ye Q, Apsley AT, Etzel L, Hastings WJ, Kozlosky JT, Walker C, Wolf SE, Shalev I. Ageing Res Rev 2023;90:102031, PMID 37567392, PMC10529491, doi 10.1016/j.arr.2023.102031. COI: corresponding author (I.S.) is a Steering Committee member of the Telomere Research Network. Chapter 6 binds other sentences of the same abstract.
+To evaluate the association of telomere length (TL) with chronological age across the human lifespan, we conducted a systematic review and meta-analysis of 414 study samples comprising 743,019 individuals aged 0-112 years.
+Z-score change rates of TL across the lifespan showed a gradual decrease in shortening rate until around age 50 and remained at a relatively stable rate towards the elderly period.
+A greater attrition rate was observed in longitudinal than cross-sectional evaluations.
+For TL measured in base pairs, the median change rate of TL was -23 bp/year in cross-sectional samples and -38 bp/year in longitudinal samples.

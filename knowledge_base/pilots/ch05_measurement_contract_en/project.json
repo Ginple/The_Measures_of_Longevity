@@ -1,0 +1,595 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch05-measurement-contract-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "The five English claim units that correspond to the five registered zh v0.3 paragraphs of OUTLINE_v1 ch5; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 5,
+    "registered_claims": 5,
+    "note": "Same gaps as the zh pilot: CALERIE methylation/bone, DO-HEALTH and Malagón microsimulation paragraphs are not registered. Translation accuracy beyond the bound numbers and qualifiers is not machine-checked."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH5-EN",
+      "path": "books/manuscript/en/CH05_measurement_contracts_draft_en.md",
+      "sha256": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016), rewritten from zh v0.3; working copy"
+    },
+    {
+      "id": "A-CH5",
+      "path": "books/manuscript/CH15_测量合同_示范稿.md",
+      "sha256": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "demo draft v0.3 (OUTLINE_v1 ch5), working copy"
+    },
+    {
+      "id": "A-V7",
+      "path": "corpus/longevity_v7/长寿研究_V7_谁在变年轻.md",
+      "sha256": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "V7 frozen corpus (DEC-005)"
+    },
+    {
+      "id": "A-P2",
+      "path": "knowledge_base/experiments/P2_TWO_TYPE_SHARP_BOUNDS_2026-11-27.md",
+      "sha256": "8f898fb90ae1b4f4f04722619e1da1b803bccb72fa49595c633de24c5cd9f63e",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "project technical memo; exact-rational script and tests alongside"
+    },
+    {
+      "id": "A-GALLERI",
+      "path": "knowledge_base/pilots/ch05_measurement_contract/evidence/NHS_GALLERI_excerpts.txt",
+      "sha256": "59576e3e98b9379388516bb82357320d36370a725b5cca08073c4663d245e873",
+      "role": "source",
+      "family": "study-NHS-Galleri",
+      "access_depth": "excerpt",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7619610/",
+      "version": "Europe PMC fullTextXML snapshot 2026-11-27; selected quotes"
+    },
+    {
+      "id": "A-WARM",
+      "path": "knowledge_base/pilots/ch05_measurement_contract/evidence/WARMBRUNN_excerpts.txt",
+      "sha256": "0f16c9a134febea6a8eb2635d9aa179a9cc94852245e41e344791335adc42824",
+      "role": "source",
+      "family": "study-CALERIE-2",
+      "access_depth": "excerpt",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13094879/",
+      "version": "PMC page + figshare S3 snapshot 2026-11-27; selected quotes"
+    },
+    {
+      "id": "A-CLOCK",
+      "path": "knowledge_base/pilots/ch05_measurement_contract/evidence/CLOCK_SURROGATE_abstracts.txt",
+      "sha256": "d73e328258faa20a4cc6cbc6c3b939322bcd00cb7002188e5e84eb4953505364",
+      "role": "source",
+      "family": "clock-surrogate-literature",
+      "access_depth": "abstract",
+      "url": "https://doi.org/10.1016/j.exger.2026.113367",
+      "version": "Europe PMC abstracts 2026-11-27 (Yi 2026; Borrus 2026)"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-GAL-N",
+      "artifact_id": "A-GALLERI",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "1,496,311 individuals were invited, and 142,826 participants consented to the trial over 10.5 months13; 142,250 (99.6%) had their first blood draw and were randomized to intervention (71,122) or control (71,128) arms (Figure 1).\n"
+    },
+    {
+      "id": "E-GAL-FU",
+      "artifact_id": "A-GALLERI",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Participants had 12 months follow-up after each of the first two MCED screening rounds, and a median of 17 (range: 12-22) months follow-up after the third round.\n"
+    },
+    {
+      "id": "E-GAL-COUNTS",
+      "artifact_id": "A-GALLERI",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "There were 706 and 688 participants diagnosed with stage III/IV cancer of the 12 prespecified types in the intervention vs control arm after 3 screening rounds, yielding an incidence rate of 300.5 (95% CI: 278.7-323.5) and 292.5 (271.0-315.1) per 100,000 person-years, respectively (Figure 2, Table 2).\n"
+    },
+    {
+      "id": "E-GAL-IRR",
+      "artifact_id": "A-GALLERI",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Stage III/IV cancer incidence rate did not differ significantly between intervention and control arms (IRR: 1.03 [0.92-1.14], p=0.63).\n"
+    },
+    {
+      "id": "E-GAL-SEQ",
+      "artifact_id": "A-GALLERI",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Testing stopped at the first non-significant step to control type I error. Secondary endpoints (Supplemental Methods section 6), including stage IV cancer incidence reduction, were interpreted descriptively with 95% CIs.\n"
+    },
+    {
+      "id": "E-GAL-MORT",
+      "artifact_id": "A-GALLERI",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Cancer-specific and nested mortality will be analyzed at 3 and 6 years after final trial visit as secondary endpoints; the trial was not powered for mortality endpoints.\n"
+    },
+    {
+      "id": "E-WARM-DESIGN",
+      "artifact_id": "A-WARM",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "In the 2-year Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy 2 (CALERIE-2) trial (n = 220), participants were randomized to 25% CR or control diet. The intervention targeted weight loss over the first 6–12 months, followed by a 12-month maintenance phase.\n"
+    },
+    {
+      "id": "E-WARM-STRATA",
+      "artifact_id": "A-WARM",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "To assess weight-regain consequences, participants were stratified by weight trajectory regardless of randomization, and group differences were balanced by propensity score weighting.\n"
+    },
+    {
+      "id": "E-WARM-20",
+      "artifact_id": "A-WARM",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Between months 12 and 24, most participants either maintained weight (n = 112) or continued to lose weight (n = 58), whereas a smaller group regained >5% of baseline weight (n = 20).\n"
+    },
+    {
+      "id": "E-WARM-190",
+      "artifact_id": "A-WARM",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "For this secondary analysis, 190 participants (n = 120 in CR group; n = 70 in control group) with available oral glucose tolerance test (OGTT) data were included.\n"
+    },
+    {
+      "id": "E-WARM-S3",
+      "artifact_id": "A-WARM",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Table S3 row | AUC insulin | n_miss_12_months 33 | n_miss_24_months 6 | n_miss_BL 57 | pct 17.3 | 3.1 | 29.8\n"
+    },
+    {
+      "id": "E-YI-SCOPE",
+      "artifact_id": "A-CLOCK",
+      "lines_1based_halfopen": [
+        3,
+        5
+      ],
+      "text": "We systematically reviewed studies reporting pre-post changes in at least one DNA-methylation clock and one clinical outcome.\nTwenty-six independent studies were included: 13 comparative and 13 single-arm pre-post studies.\n"
+    },
+    {
+      "id": "E-YI-CONC",
+      "artifact_id": "A-CLOCK",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Fifteen were mixed, six indeterminate, four jointly inconclusive, and one uncontrolled study uniformly concordant for intermediate outcomes; no comparative study or study of patient-important outcomes was uniformly concordant.\n"
+    },
+    {
+      "id": "E-YI-SURR",
+      "artifact_id": "A-CLOCK",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "No intervention-clock-clinical outcome combination met the criteria for meta-analysis, and no trial-level surrogate-endpoint validation was identified. Certainty was very low across all assessed evidence bodies.\n"
+    },
+    {
+      "id": "E-YI-CONCL",
+      "artifact_id": "A-CLOCK",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Epigenetic clocks should currently be considered exploratory or adjunctive biomarkers of intervention response rather than validated clinical surrogate endpoints.\n"
+    },
+    {
+      "id": "E-BORRUS-NONE",
+      "artifact_id": "A-CLOCK",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "In this study, we find that when extending previously published single-clock intervention studies to include additional clock models, no additional clocks reach statistical significance.\n"
+    },
+    {
+      "id": "E-BORRUS-CRIT",
+      "artifact_id": "A-CLOCK",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "We then analyze clock behavior across positive control datasets (age-accelerating events) to propose three criteria that increase confidence in a result: (1) reliable PC-based clocks respond, (2) mortality-trained or pace-of-aging clocks respond, and (3) multiple clocks respond in the same direction.\n"
+    },
+    {
+      "id": "E-P2-SETUP",
+      "artifact_id": "A-P2",
+      "lines_1based_halfopen": [
+        18,
+        19
+      ],
+      "text": "假设两时点 `p=0.5`，汇总 `y: 0.6→0.4`。类型 1 的基线允许 `[0.2,1]`，随访 `[0,0.8]`，故变化锐界 `[-1,+0.6]`。两套完全相容的构造：\n"
+    },
+    {
+      "id": "E-P2-WORLDS",
+      "artifact_id": "A-P2",
+      "lines_1based_halfopen": [
+        22,
+        24
+      ],
+      "text": "| A | (0.2,1) | (0.8,0) | +0.6 | 0.6→0.4 |\n| B | (1,0.2) | (0,0.8) | −1 | 0.6→0.4 |\n"
+    },
+    {
+      "id": "E-P2-SCOPE",
+      "artifact_id": "A-P2",
+      "lines_1based_halfopen": [
+        25,
+        26
+      ],
+      "text": "这不是说每种生物体系都存在这两个世界，而是说明**在本例有限约束下**总读数下降、权重不变仍不足以判断类型 1 的方向；类型内部平均变化也不能直接称同一个细胞变化。若独立测量揭示 `x2` 或更窄的类型值、配对身份或受限动态，可收窄界限，必须检验这些额外条件及误差。\n"
+    },
+    {
+      "id": "E-V7-FOUR",
+      "artifact_id": "A-V7",
+      "lines_1based_halfopen": [
+        122,
+        123
+      ],
+      "text": "预测能力、机制特异性、干预响应性、替代终点资格是四种不同属性。一个钟可以预测死亡，却对某种新治疗只读到旁路变化；也可以反映真实免疫重塑，但不能换算成多活几年。\n"
+    },
+    {
+      "id": "E-V7-RULES",
+      "artifact_id": "A-V7",
+      "lines_1based_halfopen": [
+        126,
+        127
+      ],
+      "text": "**本稿的使用规则**：预先指定主钟和临床/功能终点；同时报告组成与批次；设置重复采样估计测量误差；多钟分析校正多重比较。多钟一致是一道筛网，不是临床认证。尤其不能把一个饮食试验的两个臂，重新计作两项独立复现。\n"
+    },
+    {
+      "id": "E-ZH-C001",
+      "artifact_id": "A-CH5",
+      "lines_1based_halfopen": [
+        15,
+        16
+      ],
+      "text": "这种区分并不只是理论上的谨慎。2026 年的一篇系统综述纳入了 26 项同时报告甲基化时钟变化和临床结局变化的人体干预研究：没有一项有对照的比较性研究在时钟和临床结局上表现出全面一致，没有任何\"干预—时钟—结局\"组合达到合并分析的条件，也没有找到试验层面的替代终点验证。证据确定性被评为很低。作者的结论是，时钟目前只能算探索性或辅助性的读数，还不是经过验证的临床替代终点。[^7] 另一项研究把此前只用一种时钟报告阳性的干预数据扩展到更多时钟上，结果没有一个新增时钟达到统计显著。[^8] 这不说明那些干预无效，只说明一个时钟的变化，还不能单独承担\"变年轻了\"这句话。\n"
+    },
+    {
+      "id": "E-ZH-C002",
+      "artifact_id": "A-CH5",
+      "lines_1based_halfopen": [
+        25,
+        26
+      ],
+      "text": "CALERIE 的一项 2026 年分析正提供了这样的例子。作者在原试验的 190 名可分析参与者中，按第12至24个月的体重轨迹分组；回升较大的一组只有20人，而且既包括原限食组，也包括原对照组。190人不意味着每个指标在每个时点都有190个结果：补表所列基线胰岛素曲线下面积有57个缺失，具体分组与配对情况仍待核实。研究者观察到不同轨迹伴随某些代谢指标的差异，但第二年仍处在原试验的干预与维持窗口，不能把结果讲成“停掉干预后随机比较证明了什么”。研究也没有测量个人将来多活或少活多少年。[^2]\n"
+    },
+    {
+      "id": "E-ZH-C003",
+      "artifact_id": "A-CH5",
+      "lines_1based_halfopen": [
+        31,
+        32
+      ],
+      "text": "血样包含多种细胞。读数变化可能反映某类细胞内部发生变化，也可能反映不同细胞所占权重变化，还可能是两者共同作用。甚至在一个极简的两类线性模型里，假设每一类的有效权重完全已知而且没有变化，总读数下降，仍可能同时兼容某一类内部上升或下降。这个反例不是对真实人体的估计，只说明有限信息不足以唯一选择故事。[^4]\n"
+    },
+    {
+      "id": "E-ZH-C004",
+      "artifact_id": "A-CH5",
+      "lines_1based_halfopen": [
+        43,
+        44
+      ],
+      "text": "NHS-Galleri 是一项在英格兰开展的大型随机试验，约14.2万人自愿参与随机分配，比较常规医疗加多癌早检血液检测与对照。最后一轮筛查后中位随访17个月；这并不是对所有人一生的观察。其主要分析针对预先指定的12类癌症，比较三轮筛查后的Ⅲ/Ⅳ期发病率：试验组706例，对照组688例，发生率比1.03，95%置信区间0.92至1.14。该主要比较没有显示晚期诊断减少；这既不能证明所有可能的筛查收益都不存在，也不能写成已经证明减少了癌症死亡。作者报告Ⅳ期结果有值得继续研究的方向，但主要检验未通过时，相关次要结果是描述性的，不能当作已确立结论。[^5]\n"
+    },
+    {
+      "id": "E-ZH-C005",
+      "artifact_id": "A-CH5",
+      "lines_1based_halfopen": [
+        37,
+        38
+      ],
+      "text": "所以，一项负责任的时钟研究至少应当：事先指定主要时钟和临床或功能终点；同时报告细胞组成与批次；用重复采样估计测量误差；同时使用多种时钟时校正多重比较。多种时钟方向一致是一道筛网，不是临床认证；同一试验的两个干预臂，也不能重新算作两次独立复现。\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH5-EN-C001",
+      "artifact_id": "A-CH5-EN",
+      "lines_1based_halfopen": [
+        30,
+        31
+      ],
+      "text": "This distinction is not just theoretical caution. A 2026 systematic review included 26 human intervention studies that reported changes in both methylation clocks and clinical outcomes. No controlled comparative study showed full agreement between clock and clinical outcome. No intervention–clock–outcome combination met the conditions for pooled analysis, and the review found no trial-level surrogate validation. The certainty of evidence was rated very low. The authors concluded that clocks can currently count only as exploratory or supportive readings, not as validated clinical surrogate endpoints.[^7] Another study took intervention data previously reported as positive on a single clock and extended them to more clocks: none of the added clocks reached statistical significance.[^8] This does not show that those interventions failed. It shows that a change in one clock cannot, on its own, carry the sentence \"you became younger.\"\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "Yi 2026: 26 human geroscience intervention studies reporting a DNAm clock and a clinical outcome; Borrus 2026: re-analysed published single-clock intervention datasets",
+        "time": "pre-post intervention windows of the included studies; no long-term outcome follow-up implied",
+        "estimand": "study-level concordance between clock change and clinical-outcome change; significance of additional clocks; not intervention efficacy",
+        "unit": "study (Yi); dataset x clock (Borrus)",
+        "design": "systematic review (abstract only) and secondary re-analysis; different lab families",
+        "domain": "DNA-methylation clocks as intervention endpoints"
+      },
+      "evidence_ids": [
+        "E-YI-SCOPE",
+        "E-YI-CONC",
+        "E-YI-SURR",
+        "E-YI-CONCL",
+        "E-BORRUS-NONE",
+        "E-ZH-C001"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "English rendering of CH5-C001 (zh v0.3), same evidence and state. Rendering check: 26 studies, no full concordance in controlled comparative studies, no pooled combination, no trial-level surrogate validation, very low certainty, exploratory or supportive only, no added clock significant: all carried over unchanged. Original CH5-C001 rationale: Every number and qualifier in the paragraph matches the quoted abstracts (26 studies, comparative-only scope, no trial-level surrogate validation, very low certainty, no additional clock significant). Abstract depth only: inclusion criteria, concordance definitions and Borrus dataset list not checked. Paragraph also says \"this does not show the interventions failed\", which is an interpretive limit, not a source claim.",
+        "bound_hashes": {
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
+          "A-CLOCK": "d73e328258faa20a4cc6cbc6c3b939322bcd00cb7002188e5e84eb4953505364",
+          "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
+        },
+        "record_sha256": "861688e48311e70d7ba54147e97b1b983bb9b7371d0992f72e65516df185c2b9",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH5-EN-C002",
+      "artifact_id": "A-CH5-EN",
+      "lines_1based_halfopen": [
+        40,
+        41
+      ],
+      "text": "A 2026 analysis of CALERIE provides exactly this kind of example. Among the original trial's 190 analyzable participants, the authors grouped people by their weight trajectory from month 12 to month 24. The group with the largest rebound had only 20 people, and it included members of both the original restriction arm and the original control arm. Having 190 participants does not mean every measure has 190 results at every time point: the supplementary table lists 57 missing values for baseline insulin area under the curve, and the exact grouping and pairing remain to be verified. The investigators observed metabolic differences accompanying the different trajectories. But the second year still fell within the original trial's intervention and maintenance window, so the result cannot be told as \"a randomized comparison after stopping the intervention proved something.\" Nor did the study measure how many more or fewer years any individual would live.[^2]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "CALERIE-2 non-obese adults 21–50 y; 190 of 220 randomized with available OGTT data (120 CR, 70 control)",
+        "time": "trajectory defined on months 12–24, inside the 2-year trial (maintenance phase), not after the intervention stopped",
+        "estimand": "post-hoc trajectory-group comparison balanced by propensity weighting; not a randomized contrast and not life-years",
+        "unit": "participant; per-variable analysable counts differ from 190",
+        "design": "secondary analysis of an RCT, groups formed after randomization regardless of arm",
+        "domain": "insulin-IGF-1 markers and a biomarker biological-age estimate"
+      },
+      "evidence_ids": [
+        "E-WARM-DESIGN",
+        "E-WARM-STRATA",
+        "E-WARM-20",
+        "E-WARM-190",
+        "E-WARM-S3",
+        "E-ZH-C002"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "English rendering of CH5-C002 (zh v0.3), same evidence and state. Rendering check: 190 analyzable, months 12-24, largest-rebound group of 20 from both arms, 57 missing baseline insulin AUC, second year inside the intervention and maintenance window, no life-years: all carried over unchanged. Original CH5-C002 rationale: 190/20/12-24-month window/maintenance phase/regardless-of-randomization all match; \"57 missing baseline insulin AUC\" matches Table S3. Arm composition of the 20 (9 CR, 11 control) is in the project audit, not re-checked here, and the chapter does not state it. Denominator of 29.8% remains unresolved (X60).",
+        "bound_hashes": {
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
+          "A-WARM": "0f16c9a134febea6a8eb2635d9aa179a9cc94852245e41e344791335adc42824",
+          "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
+        },
+        "record_sha256": "8a166caf894f5d455f00e6cd70ea263516da96ff67bedab9e66ed2786f07079a",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH5-EN-C003",
+      "artifact_id": "A-CH5-EN",
+      "lines_1based_halfopen": [
+        46,
+        47
+      ],
+      "text": "A blood sample contains many kinds of cells. A change in its reading may reflect a change inside one cell type, a change in how much each cell type weighs in the mixture, or both. Even in a minimal linear model with two cell types, where each type's effective weight is assumed to be exactly known and unchanging, a fall in the total reading can be compatible with the value inside one type either rising or falling. This counterexample is not an estimate of a real human body. It shows only that limited information is not enough to select a single story.[^4]\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: constructed two-type noiseless linear mixture, not human data",
+        "time": "two time points with fixed known weight p=0.5",
+        "estimand": "set of within-type changes compatible with an observed aggregate change",
+        "unit": "abstract operational type, not a tracked cell",
+        "design": "constructive counterexample with exact rationals (script + tests)",
+        "domain": "linear aggregate readouts only; nonlinear clocks excluded"
+      },
+      "evidence_ids": [
+        "E-P2-SETUP",
+        "E-P2-WORLDS",
+        "E-P2-SCOPE",
+        "E-ZH-C003"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "English rendering of CH5-C003 (zh v0.3), same evidence and state. Rendering check: Two-type linear model with known, unchanging weights; aggregate fall compatible with a within-type rise or fall; explicitly not an estimate of a real body: carried over unchanged. Original CH5-C003 rationale: Worlds A and B give the same aggregate 0.6->0.4 with type-1 change +0.6 vs -1; the chapter states the model is not an estimate of real bodies, matching the memo scope line. Formal claim: support means the construction is valid, not that the biology behaves this way.",
+        "bound_hashes": {
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
+          "A-P2": "8f898fb90ae1b4f4f04722619e1da1b803bccb72fa49595c633de24c5cd9f63e",
+          "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
+        },
+        "record_sha256": "567ea6c407577d609b2b0bb9e569efded77f0fb6df72725452f2caee54e12f1e",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH5-EN-C004",
+      "artifact_id": "A-CH5-EN",
+      "lines_1based_halfopen": [
+        66,
+        71
+      ],
+      "text": "NHS-Galleri is a large randomized trial in England. About 142,000 people volunteered to be randomized between usual care plus a multi-cancer early-detection blood test and usual care alone (control).\n- Median follow-up after the last screening round was 17 months. This is not an observation of anyone's whole life.\n- The primary analysis compared the incidence of stage III/IV cancer after three screening rounds, for 12 prespecified cancer types: 706 cases in the intervention group versus 688 in the control group, a rate ratio of 1.03 (95% confidence interval 0.92 to 1.14).\n- That primary comparison did not show a reduction in late-stage diagnosis. It neither proves that every possible screening benefit is absent, nor can it be described as having shown a reduction in cancer deaths.\n- The authors reported that stage IV results point in a direction worth further study. But once the primary test has not been passed, the related secondary results are descriptive and cannot be treated as established conclusions.[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "England, volunteers aged 50–77 invited by NHS; 142,250 randomized",
+        "time": "3 annual screening rounds, median 17 months after the third round; mortality analyses pending at 3 and 6 years",
+        "estimand": "ITT incidence rate ratio of stage III/IV cancer among 12 prespecified types; secondary outcomes descriptive",
+        "unit": "randomized participant",
+        "design": "randomized controlled trial, fixed-sequence testing",
+        "domain": "multi-cancer early detection blood test added to standard care"
+      },
+      "evidence_ids": [
+        "E-GAL-N",
+        "E-GAL-FU",
+        "E-GAL-COUNTS",
+        "E-GAL-IRR",
+        "E-GAL-SEQ",
+        "E-GAL-MORT",
+        "E-ZH-C004"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "English rendering of CH5-C004 (zh v0.3), same evidence and state. Rendering check: About 142,000 (zh: about 142 thousand) for 142,250 randomized; 17-month median; 12 prespecified types; 706 vs 688; rate ratio 1.03 (0.92 to 1.14); secondary results descriptive after the primary test failed. The English splits the paragraph into an intro line and four bullets; the unit spans all five lines. Original CH5-C004 rationale: 约14.2万 = 142,250 randomized; 17-month median; 706 vs 688; IRR 1.03 (0.92–1.14); secondary endpoints descriptive after the primary step failed; mortality not yet reported. Supplement tables not read.",
+        "bound_hashes": {
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
+          "A-GALLERI": "59576e3e98b9379388516bb82357320d36370a725b5cca08073c4663d245e873",
+          "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
+        },
+        "record_sha256": "3d52d62e992a8b497228fff8ead4f5daa9744fe2cf577ed8734650e743b2f4c3",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH5-EN-C005",
+      "artifact_id": "A-CH5-EN",
+      "lines_1based_halfopen": [
+        52,
+        59
+      ],
+      "text": "So a responsible clock study should at least do four things:\n- prespecify the primary clock and the clinical or functional endpoint;\n- report cell composition and batch alongside the clock;\n- estimate measurement error with repeated sampling;\n- correct for multiple comparisons when several clocks are used.\n\nSeveral clocks pointing the same way is a sieve, not a clinical certification. Two intervention arms of the same trial cannot be recounted as two independent replications.\n",
+      "kind": "normative",
+      "role": "proposal",
+      "critical": false,
+      "context": {
+        "population": "authors and readers of clock-based intervention studies",
+        "time": "current reporting practice",
+        "estimand": "minimum reporting rules; not an evidence claim",
+        "unit": "study report",
+        "design": "editorial rule inherited from V7-06, informed by Borrus 2026 criteria",
+        "domain": "DNA-methylation clock studies"
+      },
+      "evidence_ids": [
+        "E-V7-RULES",
+        "E-V7-FOUR",
+        "E-BORRUS-CRIT",
+        "E-ZH-C005"
+      ],
+      "assessment": {
+        "state": "unknown",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "English rendering of CH5-C005 (zh v0.3), same evidence and state. Rendering check: Four reporting rules plus the sieve sentence and the two-arms-are-not-two-replications sentence; the unit spans the intro line, four bullets, a blank line and the closing sentence. Original CH5-C005 rationale: Lineage record: rule text carried from V7-06 (frozen corpus) into ch5. A normative proposal is not supported or refuted by a source; kept unknown on purpose.",
+        "bound_hashes": {
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
+          "A-V7": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e",
+          "A-CLOCK": "d73e328258faa20a4cc6cbc6c3b939322bcd00cb7002188e5e84eb4953505364",
+          "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
+        },
+        "record_sha256": "",
+        "dimensions": {
+          "source_support": "unknown",
+          "extraction": "unknown",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH5-EN-INDEPENDENT-REVIEW",
+      "status": "closed",
+      "blocks_formal_release": false,
+      "question": "No independent domain, statistical or translation review of the English text (D05)",
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
+    },
+    {
+      "id": "CH5-EN-INVENTORY",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "3 of 7 footnoted evidence paragraphs unregistered, as in the zh pilot",
+      "next_action": "Register remaining paragraphs in both languages",
+      "closure_evidence": "Declared complete inventory with human acceptance"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Verbatim quotes, one sentence per line (PubMed line wraps joined; characters otherwise unchanged). Fetched 2026-11-28.
+# Higgins-Chen AT et al. Nat Aging 2022;2(7):644-661, PMID 36277076, PMC9586209, doi 10.1038/s43587-022-00248-2 (PubMed abstract and COI statement).
+Here we show technical noise produces deviations up to 9 years between replicates for six prominent epigenetic clocks, limiting their utility.
+Our retrained principal-component versions of six clocks show agreement between most replicates within 1.5 years, improved detection of clock associations and intervention effects, and reliable longitudinal trajectories in vivo and in vitro.
+Competing Interests Statement MEL and AHC have built epigenetic aging metrics involving the technology described in the present manuscript, and these metrics are licensed by Elysium Health through Yale University.
+Elysium provided paired blood and saliva replicate datasets reported in this study, but otherwise did not fund the study and did not play a role in conceptualization, design, decision to publish, or preparation of the manuscript.
+# Borrus DS et al. Aging Cell 2026;25(10):e70756, PMC13650178, Introduction (PMC HTML, chunk 1). Same laboratory family as Higgins-Chen 2022.
+We previously demonstrated that re‐testing the same individual can lead to fluctuations between 0.9 and 2.4 years, owing to technical noise and other confounders (Higgins‐Chen et al. 2022).
+This concern led us to develop PC clocks, re‐trained versions of the canonical clocks that use principal component analysis to reduce the effect of noise from individual CpGs, decreasing the median deviation of technical replicates to 0.3–0.8 years (Higgins‐Chen et al. 2022).
+# Sugden K et al. Patterns 2020;1(2):100014, PMID 32885222, PMC7467214 (PubMed abstract). Different laboratory family (Duke / King's College London / Exeter); authors declare no competing interests.
+We correlated repeat measurements of the same DNA samples using the Illumina HumanMethylation450K and the Infinium MethylationEPIC BeadChips in 350 blood DNA samples.
+Unreliable probes were less replicable and generated an unknown volume of false negatives.

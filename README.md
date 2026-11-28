@@ -2,7 +2,7 @@
 
 **定位 / Positioning**：长篇跨学科专著《长寿的尺度》与伴生论文的研究仓库；内含可测试的研究保障子组件，而不是“用一组提示词生成一本书”。
 
-**当前版本**：scaffold v0.9（2026-11-27）：knowledge_base 四件套 + Linear 看板已建；书稿架构与论文处置待作者裁决。人工独立外审 **未发生**；科学债未关闭。
+**当前版本**：scaffold v0.9（2026-11-27）：knowledge_base 四件套 + Linear 看板已建；书稿架构定为三卷·八部·33 章（[OUTLINE_v1](books/manuscript/OUTLINE_v1.md)，工作草稿），论文定为 [PI 合并稿](papers/PI_rejuvenation_identifiability/PROTOCOL.md) + P3 有条件保留（MASTER DEC-011/012）。人工独立外审 **未发生**；科学债未关闭。
 
 ## 从这里读 / Start here
 
@@ -10,11 +10,13 @@
 2. **[MASTER.md](knowledge_base/MASTER.md)** — 总控：权威路径、书稿架构方案、论文处置方案、里程碑
 3. [CLAIM_LEDGER.md](knowledge_base/CLAIM_LEDGER.md) — 交叉验证台账 · [RESEARCH_FRONTIERS.md](knowledge_base/RESEARCH_FRONTIERS.md) — 前沿扫描 · [模型作表与跌倒结局审计](knowledge_base/MCED_CODE_AND_HOME_FALLS_AUDIT_2026-11-27.md) · [执行时长诊断及后续任务](review/EXECUTION_DURATION_REVIEW_2026-11-27.md)
 4. [本轮决策与附件比较](docs/DECISION_REPORT_ZH_EN.md)
-5. [书名与历史提案](books/BOOK_PROPOSAL.md)（架构以 MASTER §3 为准）
+5. [章节地图 OUTLINE_v1](books/manuscript/OUTLINE_v1.md)（DEC-016：英文为第一语言，[英文书稿](books/manuscript/en/README.md)：第 5–9 章 v0.1 与术语表 [GLOSSARY_EN](books/manuscript/en/GLOSSARY_EN.md)） · [架构决定](books/ARCHITECTURE_DECISION_2026-11-27.md) · [书名与历史提案](books/BOOK_PROPOSAL.md) · [市场与读者定位](books/market/MARKET_POSITIONING_2026-11.md)
 6. [三篇论文及成果分工](papers/PUBLICATION_MAP.md)（处置以 MASTER §4 为准）
 7. [敌对测试报告](evaluation/ADVERSARIAL_REVIEW.md)
 8. [手动建库、运行、许可与公开边界](docs/GITHUB_HANDOFF.md)
 9. [架构决策记录](governance/ADR_001.md) · [实际目录树](REPOSITORY_TREE.md)
+10. **[验证分级、工具状态与 AI 披露 / Verification levels, tool status and AI disclosure](docs/VERIFICATION_AND_DISCLOSURE.md)**：任何“通过/审计/核验”说法按 V1–V5 读；[工具状态登记](docs/TOOL_STATUS.tsv)（0 个 verified）· [重构审计 agent 报告](review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md)（V1，非同行评审）· [无据残余清单](review/UNGROUNDED_RESIDUE.md)
+11. 参考文件（不是项目规则；与 MASTER 冲突时以 MASTER 为准）：Playbook R3.8 [English](ARENA_AGENT_UNIVERSAL_P0_P8_PLAYBOOK_EN_2026-11-10_R3.8.md) · [中文](ARENA_AGENT_UNIVERSAL_P0_P8_PLAYBOOK_ZH_2026-11-10_R3.8.md) · [CGEE R5.5](CGEE_R5.5.md)
 
 ## 本地验证 / Local verification
 
@@ -33,6 +35,14 @@ python scripts/run_validation.py
 python knowledge_base/pilots/real_claims_001/scripts/validate.py
 python tools/install_smoke.py
 python -O tools/install_smoke.py
+```
+
+重构审计 agent（V1；含 git 历史检查 G01–G02，需完整历史）与文风重复诊断（只报告，不阻断）：
+
+```bash
+python tools/restructure_audit_agent.py --self-test
+python tools/restructure_audit_agent.py --write   # 写 review/RESTRUCTURE_AUDIT_AGENT_RECEIPT.json
+python tools/prose_repetition.py
 ```
 
 `requirements-ci-py311.txt` 钉住直接及当次解析出的传递/构建依赖版本，不含包哈希，不锁定 pip、操作系统、Python 补丁版或 Actions 本身，因此不是供应链字节锁；其他Python版本及平台未验证。原 `requirements-tested.txt` 是历史记录，其 networkx 3.7 不能安装到 Python 3.11，不用作该CI环境。宽依赖的 `pyproject.toml` 依旧支持从 Python 3.10 起安装，并非所有支持版本均由本CI覆盖。详见[依赖验证回执](review/CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。

@@ -1,0 +1,8 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Friedrich MJ, Pham J, Tian J, et al. Transient hepatic reconstitution of trophic factors enhances aged immunity. Nature 2026;650(8101):481-489 (Epub 2025 Dec 17). PMID 41407851, PMC12893904, doi 10.1038/s41586-025-09873-4. A mouse study.
+Here we show that the liver can be transiently repurposed to restore age-diminished immune cues and improve T cell function in aged mice.
+These immune cues were found by performing multi-omic mapping across central and peripheral niches in young and aged animals, leading to the identification of Notch and Fms-like tyrosine kinase 3 ligand (FLT3L) pathways, together with interleukin-7 (IL-7) signalling, as declining with age.
+Delivery of mRNAs encoding Delta-like ligand 1 (DLL1), FLT3L and IL-7 to hepatocytes expanded common lymphoid progenitors, boosted de novo thymopoiesis without affecting haematopoietic stem cell (HSC) composition, and replenished T cells while enhancing dendritic cell abundance and function.
+Treatment with these mRNAs improved peptide vaccine responses and restored antitumour immunity in aged mice by increasing tumour-specific CD8+ infiltration and clonal diversity and synergizing with immune checkpoint blockade.
+These effects were reversible after dosing ceased and did not breach self-tolerance, in contrast to the inflammatory and autoimmune liabilities of recombinant cytokine treatments6,7.
+Conflict of interest statement: Competing interests: M.J.F. and F.Z. are co-inventors on US provisional patent application no. 63/530,465 filed by the Broad Institute and MIT relating to this work.

@@ -1,0 +1,10 @@
+# Abstract-level quotes via Europe PMC REST (resultType=core), fetched 2026-11-27.
+# Yi M et al. Exp Gerontol 2026;226:113367, PMID 42926120, doi 10.1016/j.exger.2026.113367 (full text not read).
+We systematically reviewed studies reporting pre-post changes in at least one DNA-methylation clock and one clinical outcome.
+Twenty-six independent studies were included: 13 comparative and 13 single-arm pre-post studies.
+Fifteen were mixed, six indeterminate, four jointly inconclusive, and one uncontrolled study uniformly concordant for intermediate outcomes; no comparative study or study of patient-important outcomes was uniformly concordant.
+No intervention-clock-clinical outcome combination met the criteria for meta-analysis, and no trial-level surrogate-endpoint validation was identified. Certainty was very low across all assessed evidence bodies.
+Epigenetic clocks should currently be considered exploratory or adjunctive biomarkers of intervention response rather than validated clinical surrogate endpoints.
+# Borrus DS et al. Aging Cell 2026;25(10):e70756, PMID 42850743, PMC13650178.
+In this study, we find that when extending previously published single-clock intervention studies to include additional clock models, no additional clocks reach statistical significance.
+We then analyze clock behavior across positive control datasets (age-accelerating events) to propose three criteria that increase confidence in a result: (1) reliable PC-based clocks respond, (2) mortality-trained or pace-of-aging clocks respond, and (3) multiple clocks respond in the same direction.

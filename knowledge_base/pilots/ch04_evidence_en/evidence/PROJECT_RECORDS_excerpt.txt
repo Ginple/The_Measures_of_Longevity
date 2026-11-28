@@ -1,0 +1,18 @@
+# Verbatim copies from project records, taken 2026-11-28. Records of earlier reading and arithmetic by the same assistant; not primary sources.
+# Copied so that later edits elsewhere do not make chapter 4 claims stale; if a source row is revised, re-copy and re-bind.
+# [L] knowledge_base/CLAIM_LEDGER.md rows X31, X40, X106, X126:
+| X31 | 2026-11-27 | CALERIE 甲基化分析时点人数的集合边界冲突 | [Main 与 Fig. 1](https://www.nature.com/articles/s43587-022-00357-y/figures/1)：分析 128/69，12 月变化 125/66、24 月变化 117/68；Main 三时点 105/59。[补充表 S1](https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-022-00357-y/MediaObjects/43587_2022_357_MOESM1_ESM.pdf)称 AL 12 月随访 65 | 在共同人群、个人唯一与共同筛选假设下，图注给出交集下界 114/65；换 S1 的 65 后为 114/64，均与 Main 不相容。随访数据与变化数据的定义、筛选可能不同；作者澄清、数据和模型未取得 | 不判哪个数字错误或效应方向；核数据字典、样本 QC 和作者解释；[本轮溯源与两种条件算术](CALERIE_TEMPORAL_AUDIT_2026-11-27.md) | open |
+| X40 | 2026-11-27 | BASE-II 发表版预测比较的时间、选择与摘要差异 | [Vetter 2026](https://link.springer.com/article/10.1186/s40364-026-00909-z)：T0 1671/316、T1 1083/90，主单指标非统一时间或风险集；联合模型 T1 参与者、左截断，AICc 同数据选模 | 摘要列五项，正文 model 2 另列肌力（握力阈值派生）；model 3 肌力不显著；多重性、选择偏差与外部验证待核 | [审计](SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md)；不把预测排序当干预替代终点；核补表、代码与外部验证 | open |
+| X106 | 2026-11-27 | CALERIE 2026 轨迹报告补表 S3 的百分比只与分母 191 相容 | 本轮独立重算：按四舍五入到一位小数，10 组"缺失数/百分比"在 N∈[100,400] 范围内只与 N=191 相容；正文写 190 人。另一份同试验报告（X105）恰为 191 人。来源：[轨迹缺失审计](imported_pr2/CALERIE_TRAJECTORY_MISSINGNESS_FIGSHARE_2026-11-27.md)，脚本 `rounded_percentage_denominators.py` | 不证明补表实际用了 191 人；百分比的生成方式未知 | 扩展 X60；作为向作者提问的线索，不改数字 | open（描述性重算） |
+| X126 | 2026-11-27 | 单钟"逆龄"在扩展到多钟后不成立；组成校正显著削弱部分事件效应 | [Borrus…Higgins-Chen, *Aging Cell* 2026;25(10):e70756](https://pmc.ncbi.nlm.nih.gov/articles/PMC13650178/)：既往单钟阳性的干预数据扩展到其他钟后无一显著；用 EpiDISH 12 类细胞校正后，手术和放化疗效应的跨钟中位衰减分别为 77% 和 73%；两种地中海饮食组保留大部分效应 | 读到 PMC 正文的讨论与方法片段，未读补充表；衰减量来自"老化加速事件"数据，不是返老干预；EpiDISH 是参考分解估计，非实测计数；与 TranslAGE（X96）同属 Higgins-Chen 实验室家族，**不计独立复制** | 作为第 5–6、16 章和 PI 第②层的实证量级引用；写作时同时写明参照、方法与来源家族 | supported（片段级核读） |
+# [C] knowledge_base/CALERIE_TEMPORAL_AUDIT_2026-11-27.md lines 15-22:
+| 报告位置与定义 | CR | AL | 合计 |
+|---|---:|---:|---:|
+| Main：基线且至少一个随访的分析人群 | 128 | 69 | 197 |
+| Fig. 1 图注：基线至 12 月变化 | 125 | 66 | 191 |
+| Fig. 1 图注：基线至 24 月变化 | 117 | 68 | 185 |
+| Supplementary Table S1 说明：12 月**随访数据** | 125 | 65 | 190 |
+| Supplementary Table S1 说明：24 月随访数据 | 117 | 68 | 185 |
+| Main：三个时点均有数据 | 105 | 59 | 164 |
+# [B] knowledge_base/SCREENING_PREDICTION_DURABILITY_AUDIT_2026-11-27.md line 9:
+- T0 为 1,671 名 60 岁及以上参与者、随访记录 316 人死亡；平均 7.4 年后的 T1 共有 1,083 人，T1 后该组 90 人死亡。**单指标主图**对大多数指标用 T0，对 DNAm 指标及 IGF-1 用 T1：分别有不同年龄、风险集和随访窗。T0 DNAm 只在后来参加 T1 者中有；**联合模型**使用这些人的 T0 测量并使用左截断。左截断处理风险时间，不自动证明 T1 选择与失访无偏。

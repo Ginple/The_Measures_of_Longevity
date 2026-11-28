@@ -1,0 +1,13 @@
+# Verbatim quotes from two PubMed abstracts, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# (1) McCrory C, Berkman LF, Nolan H, O'Leary N, Foley M, Kenny RA. Speed of Heart Rate Recovery in Response to Orthostatic Challenge. Circ Res 2016;119(5):666-75. PMID 27330018, doi 10.1161/CIRCRESAHA.116.308577. The Irish Longitudinal Study on Ageing (TILDA), Trinity College Dublin. No conflict statement in the PubMed record.
+METHODS AND RESULTS: A longitudinal cohort study involving a nationally representative sample of community-dwelling older individuals aged ≥50 years. A total of 4475 participants completed an active stand at baseline as part of a detailed clinic-based cardiovascular assessment.
+Beat-to-beat heart rate and blood pressure responses to standing were measured during a 2-minute window using a finometer and binned in 10-s intervals.
+Mortality status during a mean follow-up duration of 4.3 years served as the primary end point (n=138). Speed of HRR in the immediate 20 s after standing was a strong predictor of mortality.
+A 1-bpm slower HRR between 10 and 20 s after standing increased the hazard of mortality by 6% controlling for established risk factors.
+Sixty-nine participants in the slowest HRR quartile died during the observation period compared with 14 participants in the fastest HRR quartile. Participants in the slowest recovery quartile were 2.3× more likely to die compared with those in the fastest recovery quartile.
+# (2) Schumock G, Bandeen-Roche K, Chia CW, Kalyani RR, Ferrucci L, Varadhan R. Nonlinear modeling of oral glucose tolerance test response to evaluate associations with aging outcomes. PLoS One 2024;19(5):e0302381. PMID 38753665, PMC11098391, doi 10.1371/journal.pone.0302381. COI: The authors have declared that no competing interests exist.
+In this study, we analyze data obtained during 75-gram oral-glucose tolerance tests (OGTT) on 1,120 adults older than 50 years of age from the Baltimore Longitudinal Study on Aging.
+First, we fit OGTT curves with the Ackerman model-a nonlinear, parametric model of the glucose-insulin system-and with functional principal components analysis.
+The Ackerman model was unable to adequately fit 36% of the OGTT curves.
+The stage-two regression analyses found no associations between Ackerman model summaries and usual gait speed, nor with survival.
+The second functional principal component score was associated with faster gait speed (p<0.01) and improved survival (p<0.01).

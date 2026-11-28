@@ -1,0 +1,855 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch08-recovery-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Eight paragraph units of the English chapter 8 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 8,
+    "registered_claims": 8,
+    "note": "Reasoning paragraphs (what a resting reading hides; association versus effect for heart-rate recovery; curve shape versus model parameters; extrapolation is not a limit; week 68 versus week 120; consumer recovery scores) make no source claim. Abstract depth throughout."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH8-EN",
+      "path": "books/manuscript/en/CH08_recovery_draft_en.md",
+      "sha256": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016), written English-first from V6-16/V7-17 source material; working copy"
+    },
+    {
+      "id": "A-CONCEPT",
+      "path": "knowledge_base/pilots/ch08_recovery_en/evidence/RESILIENCE_CONCEPT_abstracts.txt",
+      "sha256": "f29215c29021208e91f4846c31d6f5c476e52826a6c28f08af0cd3ac8a584108",
+      "role": "source",
+      "family": "resilience-concept-literature",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18938195/",
+      "version": "PubMed abstracts (Varadhan 2008; Manning 2026) 2026-11-28"
+    },
+    {
+      "id": "A-CHALL",
+      "path": "knowledge_base/pilots/ch08_recovery_en/evidence/CHALLENGE_TESTS_abstracts.txt",
+      "sha256": "62c4b780b2126a5d048cdfa2859f1582a813927b15f86a95e6e9e363f93be00f",
+      "role": "source",
+      "family": "challenge-test-cohorts-TILDA-BLSA",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27330018/",
+      "version": "PubMed abstracts (McCrory 2016; Schumock 2024) 2026-11-28"
+    },
+    {
+      "id": "A-HOSP",
+      "path": "knowledge_base/pilots/ch08_recovery_en/evidence/HOSPITAL_RECOVERY_abstract.txt",
+      "sha256": "a7f72b2588cc41653d0350ec60019ffdbed9f18c5d236fb684bebab0176b7fd0",
+      "role": "source",
+      "family": "study-Boyd-hospital-ADL-recovery",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19093915/",
+      "version": "PubMed abstract 2026-11-28"
+    },
+    {
+      "id": "A-EXTRAP",
+      "path": "knowledge_base/pilots/ch08_recovery_en/evidence/EXTRAPOLATION_abstract.txt",
+      "sha256": "dfb971572fc10dda79754db415b2785b4b1f62b347c01357e864c4a31c8bd7e1",
+      "role": "source",
+      "family": "study-Pyrkov-Gero-DOSI",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34035236/",
+      "version": "PubMed abstract and COI 2026-11-28"
+    },
+    {
+      "id": "A-WITHDRAW",
+      "path": "knowledge_base/pilots/ch08_recovery_en/evidence/WITHDRAWAL_abstract.txt",
+      "sha256": "f0e64474f2db4fc89ec9a58be740ced95ba6cf6c7ce30ee67dff49de39958adb",
+      "role": "source",
+      "family": "trial-STEP1-extension",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35441470/",
+      "version": "PubMed abstract and COI 2026-11-28"
+    },
+    {
+      "id": "A-SR",
+      "path": "knowledge_base/experiments/SR_SNAPSHOT_IDENTIFIABILITY_2026-11-27.md",
+      "sha256": "307672e875a29c6d8f0735f86dde89e0dfa21250e17e9f0c0a5adee6b0deffaf",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "project synthetic-model memo; script and tests alongside"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-VAR-PROP",
+      "artifact_id": "A-CONCEPT",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "In this paper, we propose a dynamical systems modeling approach, based on the stimulus-response experimental paradigm, to propel future advances in the study of frailty.\n"
+    },
+    {
+      "id": "E-VAR-CORE",
+      "artifact_id": "A-CONCEPT",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Our proposal is novel in that it provides a quantitative framework to operationalize and test the core notion underlying frailty that it signifies a loss of resilience in homeostatic regulation.\n"
+    },
+    {
+      "id": "E-VAR-BEN",
+      "artifact_id": "A-CONCEPT",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "The proposed framework offers many important benefits, including (a) insights into whether and how homeostatic regulation differs between frail and non-frail older adults, (b) identification of critical regulatory systems, if they exist, that could function as sentinel systems for screening and early detection of frailty, (c) establishment of the value of provocative tests that can provide maximal information on the integrity of systems identified in (b), and (d) evaluation and unification of diverse empirical descriptions of frailty by providing a mathematical framework anchored in quantifying the loss of resilience, an essential property of frailty.\n"
+    },
+    {
+      "id": "E-MAN-RANGE",
+      "artifact_id": "A-CONCEPT",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "These ranged from general notions of recovery or adaptation to specific models of post-perturbation performance trajectories.\n"
+    },
+    {
+      "id": "E-MAN-PHYS",
+      "artifact_id": "A-CONCEPT",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "However, the term physical was rarely explicitly defined, making it unclear how it modifies the term resilience.\n"
+    },
+    {
+      "id": "E-MAN-TWO",
+      "artifact_id": "A-CONCEPT",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Only two studies referenced formal models of resilience, and few distinguished resilience from related constructs like adaptation or robustness.\n"
+    },
+    {
+      "id": "E-HRR-N",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "METHODS AND RESULTS: A longitudinal cohort study involving a nationally representative sample of community-dwelling older individuals aged ≥50 years. A total of 4475 participants completed an active stand at baseline as part of a detailed clinic-based cardiovascular assessment.\n"
+    },
+    {
+      "id": "E-HRR-BEAT",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Beat-to-beat heart rate and blood pressure responses to standing were measured during a 2-minute window using a finometer and binned in 10-s intervals.\n"
+    },
+    {
+      "id": "E-HRR-FU",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Mortality status during a mean follow-up duration of 4.3 years served as the primary end point (n=138). Speed of HRR in the immediate 20 s after standing was a strong predictor of mortality.\n"
+    },
+    {
+      "id": "E-HRR-6",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "A 1-bpm slower HRR between 10 and 20 s after standing increased the hazard of mortality by 6% controlling for established risk factors.\n"
+    },
+    {
+      "id": "E-HRR-Q",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Sixty-nine participants in the slowest HRR quartile died during the observation period compared with 14 participants in the fastest HRR quartile. Participants in the slowest recovery quartile were 2.3× more likely to die compared with those in the fastest recovery quartile.\n"
+    },
+    {
+      "id": "E-OGTT-N",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "In this study, we analyze data obtained during 75-gram oral-glucose tolerance tests (OGTT) on 1,120 adults older than 50 years of age from the Baltimore Longitudinal Study on Aging.\n"
+    },
+    {
+      "id": "E-OGTT-MODEL",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "First, we fit OGTT curves with the Ackerman model-a nonlinear, parametric model of the glucose-insulin system-and with functional principal components analysis.\n"
+    },
+    {
+      "id": "E-OGTT-36",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "The Ackerman model was unable to adequately fit 36% of the OGTT curves.\n"
+    },
+    {
+      "id": "E-OGTT-NULL",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "The stage-two regression analyses found no associations between Ackerman model summaries and usual gait speed, nor with survival.\n"
+    },
+    {
+      "id": "E-OGTT-FPC",
+      "artifact_id": "A-CHALL",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "The second functional principal component score was associated with faster gait speed (p<0.01) and improved survival (p<0.01).\n"
+    },
+    {
+      "id": "E-HOSP-SET",
+      "artifact_id": "A-HOSP",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "SETTING: Tertiary care hospital, community teaching hospital.\n"
+    },
+    {
+      "id": "E-HOSP-POP",
+      "artifact_id": "A-HOSP",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "PARTICIPANTS: Older (aged >or=70) patients nonelectively admitted to general medical services (1993-1998).\n"
+    },
+    {
+      "id": "E-HOSP-TIME",
+      "artifact_id": "A-HOSP",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "MEASUREMENTS: Number of ADL disabilities at preadmission baseline and 1, 3, 6, and 12 months after discharge.\n"
+    },
+    {
+      "id": "E-HOSP-NEW",
+      "artifact_id": "A-HOSP",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "RESULTS: By 12 months after discharge, of those discharged with new or additional ADL disability, 41.3% died, 28.6% were alive but had not recovered to baseline function, and 30.1% were at baseline function.\n"
+    },
+    {
+      "id": "E-HOSP-BASE",
+      "artifact_id": "A-HOSP",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Of those discharged at baseline function, 17.8% died, 15.2% were alive but with worse than baseline function, and 67% were at their baseline function (P<.001).\n"
+    },
+    {
+      "id": "E-HOSP-1M",
+      "artifact_id": "A-HOSP",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Of those discharged with new or additional ADL disability, the presence or absence of recovery by 1 month was associated with long-term outcomes.\n"
+    },
+    {
+      "id": "E-PYR-DATA",
+      "artifact_id": "A-EXTRAP",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "We investigated the dynamic properties of the organism state fluctuations along individual aging trajectories in a large longitudinal database of CBC measurements from a consumer diagnostics laboratory.\n"
+    },
+    {
+      "id": "E-PYR-LOSS",
+      "artifact_id": "A-EXTRAP",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "We observed, that the age-dependent population DOSI distribution broadening could be explained by a progressive loss of physiological resilience measured by the DOSI auto-correlation time.\n"
+    },
+    {
+      "id": "E-PYR-EXTRAP",
+      "artifact_id": "A-EXTRAP",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Extrapolation of this trend suggested that DOSI recovery time and variance would simultaneously diverge at a critical point of 120 - 150 years of age corresponding to a complete loss of resilience.\n"
+    },
+    {
+      "id": "E-PYR-LIMIT",
+      "artifact_id": "A-EXTRAP",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "We conclude that the criticality resulting in the end of life is an intrinsic biological property of an organism that is independent of stress factors and signifies a fundamental or absolute limit of human lifespan.\n"
+    },
+    {
+      "id": "E-PYR-COI",
+      "artifact_id": "A-EXTRAP",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Conflict of interest statement: P.O.F. is a shareholder of Gero PTE. A.G. is a member of Gero PTE Advisory Board. T.V.P., A.E.T., K.A., L.I.M., and P.O.F. are employees of Gero PTE. The study was funded by Gero PTE.\n"
+    },
+    {
+      "id": "E-STEP-DESIGN",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "MATERIALS AND METHODS: STEP 1 (NCT03548935) randomized 1961 adults with a body mass index ≥ 30 kg/m2 (or ≥ 27 kg/m2 with ≥ 1 weight-related co-morbidity) without diabetes to 68 weeks of once-weekly subcutaneous semaglutide 2.4 mg (including 16 weeks of dose escalation) or placebo, as an adjunct to lifestyle intervention.\n"
+    },
+    {
+      "id": "E-STEP-STOP",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "At week 68, treatments (including lifestyle intervention) were discontinued.\n"
+    },
+    {
+      "id": "E-STEP-EXPL",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "All analyses in the extension were exploratory.\n"
+    },
+    {
+      "id": "E-STEP-327",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "RESULTS: Extension analyses included 327 participants.\n"
+    },
+    {
+      "id": "E-STEP-LOSS",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "From week 0 to week 68, mean weight loss was 17.3% (SD: 9.3%) with semaglutide and 2.0% (SD: 6.1%) with placebo.\n"
+    },
+    {
+      "id": "E-STEP-REGAIN",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Following treatment withdrawal, semaglutide and placebo participants regained 11.6 (SD: 7.7) and 1.9 (SD: 4.8) percentage points of lost weight, respectively, by week 120, resulting in net losses of 5.6% (SD: 8.9%) and 0.1% (SD: 5.8%), respectively, from week 0 to week 120.\n"
+    },
+    {
+      "id": "E-STEP-CM",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Cardiometabolic improvements seen from week 0 to week 68 with semaglutide reverted towards baseline at week 120 for most variables.\n"
+    },
+    {
+      "id": "E-STEP-COI",
+      "artifact_id": "A-WITHDRAW",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# Wilding JPH, Batterham RL, Davies M, ... Kushner RF; STEP 1 Study Group. Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension. Diabetes Obes Metab 2022;24(8):1553-1564. PMID 35441470, PMC9542252, doi 10.1111/dom.14725. COI (excerpt): KKa reports being employed by and owning stock in Novo Nordisk; KKo and TKO report being employed by Novo Nordisk; most other authors report fees or grants from Novo Nordisk and other companies.\n"
+    },
+    {
+      "id": "E-SR-SCOPE",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "**仅为合成教学模型。** 参数为示意性取值，仅校准到“类人”的中位死亡年龄与 Gompertz 斜率，**未拟合任何队列**，不是临床估计，不评价任何真实干预。属于 KERNEL 三层中的“人工反例”层；与真实源表描述复算、待验假说分开。\n"
+    },
+    {
+      "id": "E-SR-A",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        41,
+        42
+      ],
+      "text": "**发现 A：读数匹配，生存曲线却交叉。** 用二分法调整清除增幅，使 70 岁存活者平均损伤与“产生 −20%”完全相同（4.1816；所需清除增幅 d_b=0.167）。在这个条件下比较两组：\n"
+    },
+    {
+      "id": "E-SR-LAMBDA",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        49,
+        50
+      ],
+      "text": "- 局部回复率（按存活者平均水平近似计算）：清除组 0.137/年，产生组 0.114/年，相差约 20%。也就是说，动态测量能把两组分开。\n"
+    },
+    {
+      "id": "E-SR-C",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        55,
+        56
+      ],
+      "text": "**发现 C：只是暂时变年轻。** 一次性清除脉冲在 61 岁时让读数年轻 4.1 年。到 70 岁读数已回到 69.9 岁，预期寿命只多 0.33 年。读数回落的快慢由回复率决定。\n"
+    },
+    {
+      "id": "E-SR-ID",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        29,
+        30
+      ],
+      "text": "- **可识别条件**：在两个不同水平上同时测“水平＋回复率”，就能反解出 β 和 κ（`identify_beta_kappa`，测试中做了往返验证）。这只在模型设定正确时成立，不是普适结论。\n"
+    },
+    {
+      "id": "E-SR-LIMIT",
+      "artifact_id": "A-SR",
+      "lines_1based_halfopen": [
+        67,
+        68
+      ],
+      "text": "- “回复率”取在存活者平均水平上，是线性化近似，不是真实测得的自相关时间。没有模拟测量噪声，也没有模拟有限样本。\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH8-EN-C001",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "Geriatricians have argued for this view for some time. In 2008, a Johns Hopkins group proposed studying frailty with a stimulus-response approach: frailty signifies a loss of resilience in how the body regulates itself, and the way to see that loss is to apply a defined challenge and model the response over time; they argued that such provocative tests could reveal which regulatory systems are failing and could serve to screen for frailty early.[^1]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none (conceptual proposal)",
+        "time": "2008",
+        "estimand": "proposed framework for measuring loss of resilience in frailty",
+        "unit": "publication",
+        "design": "conceptual and methods proposal",
+        "domain": "homeostatic regulation in older adults"
+      },
+      "evidence_ids": [
+        "E-VAR-PROP",
+        "E-VAR-CORE",
+        "E-VAR-BEN"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Stimulus-response dynamical modelling, frailty as loss of resilience in homeostatic regulation, provocative tests and sentinel systems for screening all match. \"Johns Hopkins group\" is from the affiliation.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-CONCEPT": "f29215c29021208e91f4846c31d6f5c476e52826a6c28f08af0cd3ac8a584108"
+        },
+        "record_sha256": "f26d3ca5b37f5d6f5f718cf4be843fd4ade3cf7e4f0864d1f7b36ef879b0e177",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH8-EN-C002",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        21,
+        22
+      ],
+      "text": "The idea is old enough that one might expect a settled definition. There is not one yet. A 2026 scoping review of the physical-resilience literature found that definitions ranged from general notions of recovery or adaptation to specific models of performance after a disturbance; the word \"physical\" was rarely defined; only two studies referred to formal models of resilience; and few distinguished resilience from related ideas such as adaptation or robustness.[^2]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "peer-reviewed physical-resilience literature (PubMed, Web of Science)",
+        "time": "review published 2026",
+        "estimand": "how definitions of physical resilience vary",
+        "unit": "publication",
+        "design": "scoping review",
+        "domain": "gerontology and rehabilitation"
+      },
+      "evidence_ids": [
+        "E-MAN-RANGE",
+        "E-MAN-PHYS",
+        "E-MAN-TWO"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Range from general recovery/adaptation to post-perturbation trajectory models; \"physical\" rarely defined; only two studies referenced formal models; few distinguished resilience from adaptation or robustness. All match.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-CONCEPT": "f29215c29021208e91f4846c31d6f5c476e52826a6c28f08af0cd3ac8a584108"
+        },
+        "record_sha256": "3846483b9ecda123d79eea0839baf1e6de8699ca60d5ed33f7b4a05d3112dcba",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH8-EN-C003",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        29,
+        30
+      ],
+      "text": "The first is as simple as standing up. In a nationally representative Irish study of people aged 50 and over, 4,475 participants lay down and then stood up while their heart rate was recorded beat by beat for two minutes; over a mean follow-up of 4.3 years, 138 died, and the speed of heart-rate recovery in the first 20 seconds after standing was a strong predictor: each beat per minute of slower recovery between 10 and 20 seconds raised the hazard of death by 6 percent, after controlling for established risk factors; 69 people in the slowest quarter died, against 14 in the fastest, and the slowest quarter were 2.3 times as likely to die.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "4,475 community-dwelling adults aged 50+ (TILDA, nationally representative)",
+        "time": "mean follow-up 4.3 years; 138 deaths",
+        "estimand": "association of orthostatic heart-rate recovery speed with all-cause mortality",
+        "unit": "participant",
+        "design": "prospective cohort with clinic-based active-stand test",
+        "domain": "beat-to-beat heart rate over 2 minutes after standing"
+      },
+      "evidence_ids": [
+        "E-HRR-N",
+        "E-HRR-BEAT",
+        "E-HRR-FU",
+        "E-HRR-6",
+        "E-HRR-Q"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "4,475; aged 50+; supine to stand; beat-to-beat over 2 minutes; 4.3 years; 138 deaths; strong predictor in first 20 s; 6% per 1 bpm between 10 and 20 s adjusted for established risk factors; 69 vs 14 deaths; 2.3 times. \"Irish\" from the TILDA affiliation. All match.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-CHALL": "62c4b780b2126a5d048cdfa2859f1582a813927b15f86a95e6e9e363f93be00f"
+        },
+        "record_sha256": "27006b662029087e8d9f29157f92a295a6db870067510f0e4d2fe810551db970",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH8-EN-C004",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        33,
+        34
+      ],
+      "text": "The second example is the oral glucose tolerance test, in which a person drinks a fixed dose of sugar and blood glucose is measured over the next two hours. Researchers analyzed these curves for 1,120 adults over 50 in a long-running Baltimore study, fitting each curve with a mechanistic model of the glucose-insulin system and, separately, with a purely descriptive summary of curve shapes; the mechanistic model could not adequately fit 36 percent of the curves, and its parameters were not associated with walking speed or survival, whereas one of the descriptive shape scores was associated with both faster walking and better survival.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "1,120 adults over 50, Baltimore Longitudinal Study of Aging",
+        "time": "single OGTT per analysis; survival follow-up (length not read)",
+        "estimand": "association of mechanistic-model and descriptive OGTT curve summaries with gait speed and survival",
+        "unit": "participant",
+        "design": "two-stage modelling in a cohort",
+        "domain": "75 g oral glucose tolerance test"
+      },
+      "evidence_ids": [
+        "E-OGTT-N",
+        "E-OGTT-MODEL",
+        "E-OGTT-36",
+        "E-OGTT-NULL",
+        "E-OGTT-FPC"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "1,120 over 50 in BLSA; Ackerman parametric model and fPCA; 36% inadequate fits; no association of Ackerman summaries with gait speed or survival; second fPC associated with faster gait and better survival. \"Two hours\" is the standard OGTT duration and not quoted; acceptable explanatory gloss.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-CHALL": "62c4b780b2126a5d048cdfa2859f1582a813927b15f86a95e6e9e363f93be00f"
+        },
+        "record_sha256": "8fbdcbebb2d2c55e9d03b54715c2db4a29a93f991885864c1fc682203ad9ae89",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH8-EN-C005",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        41,
+        42
+      ],
+      "text": "A study of patients aged 70 and over, admitted for acute medical illness to two hospitals, one a tertiary care center and one a community teaching hospital, between 1993 and 1998, followed their ability to manage basic self-care, such as bathing, dressing and eating, at 1, 3, 6 and 12 months after discharge; among those who left the hospital with a new or additional disability, by twelve months 41.3 percent had died, 28.6 percent were alive but had not returned to their previous level, and 30.1 percent had returned to it; among those who left at their previous level, 17.8 percent had died and 67 percent were at their previous level; and, for those discharged with a new disability, whether they had recovered by one month was associated with how they fared in the long run.[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "patients aged 70+ nonelectively admitted to general medical services in two hospitals",
+        "time": "1993-1998 admissions; 12 months after discharge",
+        "estimand": "death, sustained ADL decline or recovery to baseline ADL function after discharge",
+        "unit": "patient",
+        "design": "observational cohort",
+        "domain": "basic activities of daily living"
+      },
+      "evidence_ids": [
+        "E-HOSP-SET",
+        "E-HOSP-POP",
+        "E-HOSP-TIME",
+        "E-HOSP-NEW",
+        "E-HOSP-BASE",
+        "E-HOSP-1M"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Two hospital types; aged 70+; 1993-1998; 1/3/6/12 months; 41.3/28.6/30.1% versus 17.8% and 67%; recovery by 1 month associated with long-term outcomes. ADL examples (bathing, dressing, eating) are a standard gloss, not quoted.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-HOSP": "a7f72b2588cc41653d0350ec60019ffdbed9f18c5d236fb684bebab0176b7fd0"
+        },
+        "record_sha256": "bb6fdcc8123da508bcdfe7b0757dc80376376be2650e2c5910636b89ae5c4df8",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH8-EN-C006",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        49,
+        50
+      ],
+      "text": "Using a large longitudinal database of complete blood counts from a consumer diagnostics laboratory, a research team combined the blood variables into a single indicator of organism state and found that its spread across the population widened with age in a way that could be explained by a progressive loss of resilience, measured as the time the indicator took to return after fluctuations; extrapolating this trend, they estimated that recovery time and variance would diverge at a critical point between 120 and 150 years of age, and concluded that this signifies a fundamental or absolute limit of human lifespan. Five of the six authors are employees of the company that funded the study, one of them also a shareholder, and the sixth sits on its advisory board.[^6]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "customers of a consumer diagnostics laboratory with repeated blood counts",
+        "time": "ages observed in the database; extrapolated beyond",
+        "estimand": "age trend of autocorrelation (recovery) time of a blood-count mortality indicator; extrapolated divergence point",
+        "unit": "person-trajectory",
+        "design": "longitudinal observational analysis with extrapolation",
+        "domain": "complete blood count"
+      },
+      "evidence_ids": [
+        "E-PYR-DATA",
+        "E-PYR-LOSS",
+        "E-PYR-EXTRAP",
+        "E-PYR-LIMIT",
+        "E-PYR-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Consumer lab CBC database; single indicator; broadening explained by loss of resilience measured as autocorrelation time; extrapolated divergence at 120-150; authors conclude a fundamental or absolute limit; five employees, one also shareholder, one advisory-board member; funded by the company. All match. The following paragraph (extrapolation is not an observation) is the chapter's reasoning, consistent with KERNEL §6 and ledger X86.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-EXTRAP": "dfb971572fc10dda79754db415b2785b4b1f62b347c01357e864c4a31c8bd7e1"
+        },
+        "record_sha256": "c2101f788ebf02b6f6fbd316f29b27f4bb52345ec86a9a57c4bc06885f093e64",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH8-EN-C007",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        57,
+        58
+      ],
+      "text": "A clear example comes from a large weight-loss trial. In it, 1,961 adults with obesity or overweight were randomized to a weekly injection of semaglutide or to placebo, both alongside lifestyle support, for 68 weeks, after which all treatment, including the lifestyle program, stopped; in an off-treatment extension of 327 participants, those on semaglutide had lost 17.3 percent of their body weight by week 68 and regained 11.6 percentage points by week 120, leaving a net loss of 5.6 percent, and most cardiometabolic improvements moved back toward baseline; the extension analyses were exploratory, and several authors are employees of the drug's manufacturer.[^7]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "STEP 1: 1,961 randomized adults with BMI >=30 (or >=27 with comorbidity) without diabetes; extension subset of 327",
+        "time": "treatment weeks 0-68; off-treatment follow-up to week 120",
+        "estimand": "body-weight and cardiometabolic change after withdrawal",
+        "unit": "participant",
+        "design": "off-treatment extension of a randomized trial (exploratory)",
+        "domain": "semaglutide 2.4 mg weekly plus lifestyle intervention"
+      },
+      "evidence_ids": [
+        "E-STEP-DESIGN",
+        "E-STEP-STOP",
+        "E-STEP-EXPL",
+        "E-STEP-327",
+        "E-STEP-LOSS",
+        "E-STEP-REGAIN",
+        "E-STEP-CM",
+        "E-STEP-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "1,961 randomized; 68 weeks; all treatment including lifestyle stopped; 327 in extension; 17.3% loss; regained 11.6 points by week 120; net 5.6%; most cardiometabolic improvements reverted toward baseline; exploratory; manufacturer employees among authors. All match.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-WITHDRAW": "f0e64474f2db4fc89ec9a58be740ced95ba6cf6c7ce30ee67dff49de39958adb"
+        },
+        "record_sha256": "f05ec279ed5b6550fd5485f34468220c93f1800424b869e8ae933a278aa66bcf",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH8-EN-C008",
+      "artifact_id": "A-CH8-EN",
+      "lines_1based_halfopen": [
+        61,
+        62
+      ],
+      "text": "The project's synthetic model, introduced in chapter 6, makes the same point in a setting where the truth is known. In that model, the two interventions that left survivors with identical average damage at age 70 differed in how quickly the system returned after a small disturbance, by about 20 percent (about 0.137 against 0.114 per year, computed at the survivors' average level, a simplification), so a dynamic measurement separates the cases that a single reading cannot; a one-time clearing pulse made the reading younger, but the reading drifted back at a speed set by the recovery rate; and, if the model is correct, measuring both the level and the recovery rate at two different levels is enough to recover the model's underlying production and clearance parameters. It is a teaching model, not fitted to any population, without measurement noise or finite samples.[^8]\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: synthetic one-dimensional saturating-removal model with illustrative parameters, not fitted to any cohort",
+        "time": "interventions from age 60; readings at 61 and 70",
+        "estimand": "local recovery rate at matched readings; transient pulse; identifiability of production and clearance parameters",
+        "unit": "simulated survivor population",
+        "design": "constructive counterexample (Fokker-Planck numerics; script and tests)",
+        "domain": "saturating-removal dynamics only"
+      },
+      "evidence_ids": [
+        "E-SR-SCOPE",
+        "E-SR-A",
+        "E-SR-LAMBDA",
+        "E-SR-C",
+        "E-SR-ID",
+        "E-SR-LIMIT"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Matched mean damage at 70; local recovery rates 0.137 vs 0.114 per year (about 20%), computed at the survivor mean as a linearised approximation; pulse reading returns at a speed set by the recovery rate; level plus recovery rate at two levels identifies beta and kappa only if the model is correctly specified; no measurement noise or finite samples. Formal claim: support means the construction is valid as reported.",
+        "bound_hashes": {
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
+          "A-SR": "307672e875a29c6d8f0735f86dde89e0dfa21250e17e9f0c0a5adee6b0deffaf"
+        },
+        "record_sha256": "f1447649c91b864511bf422c802c6d0cd1b7cb3a141f75eb0d3e45c6e2d4e86c",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH8-EN-INDEPENDENT-REVIEW",
+      "status": "closed",
+      "blocks_formal_release": false,
+      "question": "No independent domain or statistical review of these claims (D05)",
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
+    },
+    {
+      "id": "CH8-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "All sources read at abstract depth; age-adjusted heart-rate recovery estimates (X132) not restated; no human study measuring level, rate and recovery in the same people before and after an intervention found",
+      "next_action": "Read full texts; search for repeated challenge-test studies around interventions",
+      "closure_evidence": "Full-text reading notes bound as excerpts; search log"
+    }
+  ]
+}

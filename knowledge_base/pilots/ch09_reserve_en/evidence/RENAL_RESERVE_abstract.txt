@@ -1,0 +1,8 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch; Europe PMC core record identical).
+# Fliser D, Zeier M, Nowack R, Ritz E. Renal functional reserve in healthy elderly subjects. J Am Soc Nephrol 1993;3(7):1371-7. PMID 8439649, doi 10.1681/ASN.V371371.
+# The PubMed record is marked "ABSTRACT TRUNCATED AT 250 WORDS"; the authors' conclusion is not in the record. No conflict statement in the record.
+The increase in GFR after an amino acid (AA) load, the so-called renal functional reserve, is impaired in the aged rat.
+We compared renal hemodynamics before and after an AA infusion in 15 healthy normotensive subjects of young age (seven women, eight men; median age, 26 yr; range, 23 to 32) and in 10 subjects of old age (six women, four men; median age, 70 yr; range, 61 to 82) on normal dietary protein intake.
+Median basal Cin and Cpah were significantly lower (P < 0.01) in the elderly (102 and 339 mL/min per 1.73 m2) than in the young subjects (122 and 647 mL/min per 1.73 m2), but virtually all GFR values of the elderly were still within the normal range.
+Median Cin upon infusion of AA was 118 mL/min per 1.73 m2 (range, 98 to 137) in the elderly and 146 (range, 120 to 171) in the young, respectively.
+Cin increased significantly (P < 0.01) after the AA load in both young and elderly subjects.(ABSTRACT TRUNCATED AT 250 WORDS)

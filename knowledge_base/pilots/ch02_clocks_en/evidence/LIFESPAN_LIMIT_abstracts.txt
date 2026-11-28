@@ -1,0 +1,16 @@
+# Verbatim quotes from three PubMed abstracts, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# [1] Dong X, Milholland B, Vijg J. Evidence for a limit to human lifespan. Nature 2016;538(7624):257-259. PMID 27706136, PMC11673931, doi 10.1038/nature19793. Albert Einstein College of Medicine. No conflict statement in the PubMed record.
+[1] Here, by analysing global demographic data, we show that improvements in survival with age tend to decline after age 100, and that the age at death of the world's oldest person has not increased since the 1990s.
+[1] Our results strongly suggest that the maximum lifespan of humans is fixed and subject to natural constraints.
+# [2] Barbi E, Lagona F, Marsili M, Vaupel JW, Wachter KW. The plateau of human mortality: Demography of longevity pioneers. Science 2018;360(6396):1459-1461. PMID 29954979, PMC6457902, doi 10.1126/science.aat3119. No conflict statement in the PubMed record.
+[2] Do hazard curves typically level out into high plateaus eventually, as seen in other species, or do exponential increases persist?
+[2] In this study, we estimated hazard rates from data on all inhabitants of Italy aged 105 and older between 2009 and 2015 (born 1896-1910), a total of 3836 documented cases.
+[2] We observed level hazard curves, which were essentially constant beyond age 105.
+[2] Our estimates are free from artifacts of aggregation that limited earlier studies and provide the best evidence to date for the existence of extreme-age mortality plateaus in humans.
+# [3] Efimov E, Fedotov V, Malaev L, Khrameeva EE, Kriukov D. Somatic mutations impose an entropic upper bound on human lifespan. NPJ Aging 2026;12(1):116. PMID 42350444, PMC13493869, doi 10.1038/s41514-026-00421-6. Skolkovo Institute of Science and Technology.
+[3] Somatic mutations accumulate with age and can cause cell death, but their quantitative contribution to limiting human lifespan remains unclear.
+[3] We developed an incremental modeling framework that progressively incorporates factors contributing to aging into a model of population survival dynamics, which we used to estimate lifespan limits if all aging hallmarks were eliminated except somatic mutations.
+[3] Our analysis reveals fundamental asymmetry across organs: post-mitotic cells such as neurons and cardiomyocytes act as critical longevity bottlenecks, with somatic mutations reducing median lifespan from a theoretical non-aging baseline of 1759 years to 156 years.
+[3] Multi-organ integration predicts median lifespans of 146-194 years-approximately twice current human longevity.
+[3] This substantial yet incomplete reduction indicates that somatic mutations significantly drive aging but cannot alone account for observed mortality, implying comparable contributions from other hallmarks.
+[3] Conflict of interest statement: Competing interests: The authors declare no competing interests.

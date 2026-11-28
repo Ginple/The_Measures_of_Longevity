@@ -1,0 +1,5 @@
+# Verbatim copy of rows X21 and X29 of knowledge_base/CLAIM_LEDGER.md, taken 2026-11-28.
+# Project record of earlier full-text reading by the same assistant; not a primary source.
+# Copied so that later ledger rows do not make chapter 1 claims stale; if X21 or X29 is revised, re-copy and re-bind.
+| X21 | 2026-11-27 | 健康预期寿命差 9.6 与 9.2 混同 | [原文 Results Fig.1/Fig.2](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)：2019 全球差值 9.6 年；183 会员国差值均值 9.2 年 | 原文未在已读段落明确两个统计口径的权重来源，不能猜测 | 修正全球值/会员国均值；核 WHO 原始数据与权重；不将差值解释为个人必然疾病年数 | open（统计来源待核） |
+| X29 | 2026-11-27 | CALERIE 时钟与安全论文不同样本不能推断个体联合效应 | [DNAm 事后分析](https://www.nature.com/articles/s43587-022-00357-y)197；[安全报告](https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=6013&context=open_access_pubs)218；220 原随机 | 参与者样本、时间点及缺失交集未取得；两个研究是同一试验 | 报告随机、分析人群及不同终点；仅取得可连接数据后评价个体联合画像 | open |

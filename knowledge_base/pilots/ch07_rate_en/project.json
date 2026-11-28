@@ -1,0 +1,919 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch07-rate-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Ten paragraph units of the English chapter 7 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 12,
+    "registered_claims": 10,
+    "note": "Unregistered: the CALERIE achieved-restriction and analysis-sample paragraph (rests on ledger X31/X49) and the sentence on the unidentified software version of a published trial (ledger X27). Reasoning paragraphs (who remains in a cross-sectional sample; limits of the nonlinear studies; illustrative noise arithmetic) make no source claim. Abstract depth throughout."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH7-EN",
+      "path": "books/manuscript/en/CH07_rate_draft_en.md",
+      "sha256": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016), written English-first; working copy"
+    },
+    {
+      "id": "A-DUN15",
+      "path": "knowledge_base/pilots/ch07_rate_en/evidence/DUNEDIN_PACE_OF_AGING_abstract.txt",
+      "sha256": "16d3993fec2e76f124aac669423928ea269b4eeb9d6cdf28b82c358ed1c7130f",
+      "role": "source",
+      "family": "study-Dunedin-pace-of-aging",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26150497/",
+      "version": "PubMed abstract 2026-11-28"
+    },
+    {
+      "id": "A-TELR",
+      "path": "knowledge_base/pilots/ch07_rate_en/evidence/TELOMERE_RATE_abstract.txt",
+      "sha256": "423cf5d12f2a4c177b515fe4a7221f746091f76245c3834cc3ed08a42cc9f649",
+      "role": "source",
+      "family": "study-Ye-telomere-meta-analysis",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37567392/",
+      "version": "PubMed abstract 2026-11-28"
+    },
+    {
+      "id": "A-VO2",
+      "path": "knowledge_base/pilots/ch07_rate_en/evidence/AEROBIC_CAPACITY_abstract.txt",
+      "sha256": "790931660f3bebbba27e241a25e47a17a78b9965f870e3635df157e4c6528c0c",
+      "role": "source",
+      "family": "study-BLSA-aerobic-capacity",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16043637/",
+      "version": "PubMed abstract 2026-11-28"
+    },
+    {
+      "id": "A-NONLIN",
+      "path": "knowledge_base/pilots/ch07_rate_en/evidence/NONLINEAR_abstracts.txt",
+      "sha256": "c167f33781f1cfa515c0d4f152881df5ff9e48d9b94c258d92693c79ec65867d",
+      "role": "source",
+      "family": "studies-nonlinear-aging-Stanford-and-Singapore",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39143318/",
+      "version": "PubMed abstracts (Shen 2024; Park 2026) 2026-11-28"
+    },
+    {
+      "id": "A-PACE",
+      "path": "knowledge_base/pilots/ch07_rate_en/evidence/PACE_CLOCK_abstracts.txt",
+      "sha256": "c4851f29bffd02d0c02dc1ce389f427b164380ded03e5aded9e4075ee73eedfa",
+      "role": "source",
+      "family": "Dunedin-Duke-Columbia-pace-clock-family",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35029144/",
+      "version": "PubMed abstracts and COI (Belsky 2022; Waziry 2023) 2026-11-28; erratum not read"
+    },
+    {
+      "id": "A-YALE",
+      "path": "knowledge_base/pilots/ch07_rate_en/evidence/RESPONSIVENESS_RELIABILITY_abstracts.txt",
+      "sha256": "8afa2fa220240364faaa12759f0e0eecf54266d88c3d0ae46f7b2ced46694772",
+      "role": "source",
+      "family": "clock-reliability-literature",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42629466/",
+      "version": "PubMed abstracts and COI (Sehgal Nat Med 2026; Sehgal Aging Cell 2026) 2026-11-28"
+    },
+    {
+      "id": "A-PACECODE",
+      "path": "knowledge_base/source_snapshots/dunedinpace_4b569983/PACEProjector.R",
+      "sha256": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e",
+      "role": "code",
+      "family": "Dunedin-Duke-Columbia-pace-clock-family",
+      "access_depth": "code",
+      "url": "https://github.com/danbelsky/DunedinPACE/blob/4b569983543e51d1022aecec9a25e694bb3a336a/R/PACEProjector.R",
+      "version": "commit 4b569983 pinned 2026-11-27 (manifest with SHA-256); documentation and code read, not executed"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-DUN-954",
+      "artifact_id": "A-DUN15",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "We studied aging in 954 young humans, the Dunedin Study birth cohort, tracking multiple biomarkers across three time points spanning their third and fourth decades of life.\n"
+    },
+    {
+      "id": "E-DUN-ORG",
+      "artifact_id": "A-DUN15",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Our longitudinal measure allows quantification of the pace of coordinated physiological deterioration across multiple organ systems (e.g., pulmonary, periodontal, cardiovascular, renal, hepatic, and immune function).\n"
+    },
+    {
+      "id": "E-DUN-VAR",
+      "artifact_id": "A-DUN15",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Young individuals of the same chronological age varied in their \"biological aging\" (declining integrity of multiple organ systems).\n"
+    },
+    {
+      "id": "E-DUN-FAST",
+      "artifact_id": "A-DUN15",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Already, before midlife, individuals who were aging more rapidly were less physically able, showed cognitive decline and brain aging, self-reported worse health, and looked older.\n"
+    },
+    {
+      "id": "E-TEL-SAMPLES",
+      "artifact_id": "A-TELR",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "To evaluate the association of telomere length (TL) with chronological age across the human lifespan, we conducted a systematic review and meta-analysis of 414 study samples comprising 743,019 individuals aged 0-112 years.\n"
+    },
+    {
+      "id": "E-TEL-BP",
+      "artifact_id": "A-TELR",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "For TL measured in base pairs, the median change rate of TL was -23 bp/year in cross-sectional samples and -38 bp/year in longitudinal samples.\n"
+    },
+    {
+      "id": "E-TEL-NONLIN",
+      "artifact_id": "A-TELR",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Z-score change rates of TL across the lifespan showed a gradual decrease in shortening rate until around age 50 and remained at a relatively stable rate towards the elderly period.\n"
+    },
+    {
+      "id": "E-VO2-XS",
+      "artifact_id": "A-VO2",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Although peak aerobic capacity is widely recognized to decline with age, its rate of decline has been estimated primarily from cross-sectional studies that may provide misleading, overly optimistic estimates of aging changes.\n"
+    },
+    {
+      "id": "E-VO2-N",
+      "artifact_id": "A-VO2",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "To determine longitudinal rate of change in aerobic capacity and the influence of age, gender, and physical activity on these changes, we performed serial measurements of peak treadmill oxygen consumption (peak VO2) in 375 women and 435 men ages 21 to 87 years from the Baltimore Longitudinal Study of Aging, a community-dwelling cohort free of clinical heart disease, over a median follow-up period of 7.9 years.\n"
+    },
+    {
+      "id": "E-VO2-RATE",
+      "artifact_id": "A-VO2",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "A longitudinal decline in peak VO2 was observed in each of the 6 age decades in both sexes; however, the rate of decline accelerated from 3% to 6% per 10 years in the 20s and 30s to >20% per 10 years in the 70s and beyond.\n"
+    },
+    {
+      "id": "E-SHEN-N",
+      "artifact_id": "A-NONLIN",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "In this study, we performed comprehensive multi-omics profiling on a longitudinal human cohort of 108 participants, aged between 25 years and 75 years.\n"
+    },
+    {
+      "id": "E-SHEN-FU",
+      "artifact_id": "A-NONLIN",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "The participants resided in California, United States, and were tracked for a median period of 1.7 years, with a maximum follow-up duration of 6.8 years.\n"
+    },
+    {
+      "id": "E-SHEN-44",
+      "artifact_id": "A-NONLIN",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "The analysis revealed consistent nonlinear patterns in molecular markers of aging, with substantial dysregulation occurring at two major periods occurring at approximately 44 years and 60 years of chronological age.\n"
+    },
+    {
+      "id": "E-PARK-N",
+      "artifact_id": "A-NONLIN",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Here, we analyze a multi-ethnic single-cell transcriptome of healthy human immune aging (35% Asian), comprising 3.8 million peripheral blood mononuclear cells (PBMCs) from 1,828 individuals aged 19-97 years.\n"
+    },
+    {
+      "id": "E-PARK-PEAKS",
+      "artifact_id": "A-NONLIN",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Prominent peaks of differential gene expression around 40 (mainly CD4 T cells) and after 60 (mainly CD8 T cells) years of age were accompanied by an age-dependent decline in RNA/protein homeostasis and inflammatory PBMC polarization with sex-dependent kinetics.\n"
+    },
+    {
+      "id": "E-PARK-SEX",
+      "artifact_id": "A-NONLIN",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Deep learning-based biological age clocks stratified for sex outperformed sex-combined models, learning from transcriptional immune trajectories.\n"
+    },
+    {
+      "id": "E-PACE-19",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "METHODS: We used data from the Dunedin Study 1972-1973 birth cohort tracking within-individual decline in 19 indicators of organ-system integrity across four time points spanning two decades to model Pace of Aging.\n"
+    },
+    {
+      "id": "E-PACE-RELPROBE",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "We distilled this two-decade Pace of Aging into a single-time-point DNA-methylation blood-test using elastic-net regression and a DNA-methylation dataset restricted to exclude probes with low test-retest reliability.\n"
+    },
+    {
+      "id": "E-PACE-RES",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "RESULTS: DunedinPACE showed high test-retest reliability, was associated with morbidity, disability, and mortality, and indicated faster aging in young adults with childhood adversity.\n"
+    },
+    {
+      "id": "E-PACE-COI",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Conflict of interest statement: DB, AC, DC, KS, RP, TM is listed as an inventor on a Duke University and University of Otago invention that was licensed to a commercial entity\n"
+    },
+    {
+      "id": "E-CAL-220",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Here we report the results of a post hoc analysis of the influence of CR on DNAm measures of aging in blood samples from the Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy (CALERIE) trial, a randomized controlled trial in which n = 220 adults without obesity were randomized to 25% CR or ad libitum control diet for 2 yr (ref. 10).\n"
+    },
+    {
+      "id": "E-CAL-RES",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "We found that CALERIE intervention slowed the pace of aging, as measured by the DunedinPACE DNAm algorithm, but did not lead to significant changes in biological age estimates measured by various DNAm clocks including PhenoAge and GrimAge.\n"
+    },
+    {
+      "id": "E-CAL-SMALL",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "Treatment effect sizes were small.\n"
+    },
+    {
+      "id": "E-CAL-COI",
+      "artifact_id": "A-PACE",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "Conflict of interest statement: D.L.C. and D.W.B. are listed as inventors on a Duke University and University of Otago invention, DunedinPACE, that was licensed to a commercial entity.\n"
+    },
+    {
+      "id": "E-TA-51",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Here we curate TranslAGE, a harmonized database of 51 public and private longitudinal interventional studies, and calculate a consistent set of 16 prominent epigenetic clocks for each study, along with 94 other DNA methylation (DNAm) biomarkers that can help explain the changes observed for each clock.\n"
+    },
+    {
+      "id": "E-TA-PATTERN",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "For example, clocks trained to predict mortality or pace of aging show the strongest responses across all interventions and show consistent results with one another; pharmacological and lifestyle interventions drive the strongest responses from DNAm biomarkers; and the characteristics of the study population and study duration are key factors in determining the responsiveness of DNAm biomarkers to an intervention.\n"
+    },
+    {
+      "id": "E-TA-SURR",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "These findings can help to design future clinical trials by guiding the choice of interventions and of specific subsets of DNAm biomarkers to minimize multiple testing, study duration, study population and sample size, with the eventual aim of uncovering DNAm biomarkers that can be used as surrogate aging endpoints.\n"
+    },
+    {
+      "id": "E-TA-COI",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Competing interests: R. Sehgal and A.H.-C. are named as co-inventors of SystemsAge, which has been patented in the USA. A.H.-C. has received consulting fees from TruDiagnostic and FOXO Biosciences. R. Sehgal has received consulting fees from TruDiagnostic, LongevityTech.fund and Cambrian BioPharma. V.B.D., R. Smith and N.C.-G. are employees of TruDiagnostic and developed OMICmAge.\n"
+    },
+    {
+      "id": "E-REL-18",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Using the TranslAGE platform, we evaluated both technical and biological reliability across 18 DNA methylation-based aging biomarkers, including chronological, mortality, and pace-of-aging clocks.\n"
+    },
+    {
+      "id": "E-REL-TECH",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Most clocks demonstrated excellent technical reproducibility across replicate assays on EPIC and 450 K arrays.\n"
+    },
+    {
+      "id": "E-REL-SLIDE",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "However, several showed sensitivity to experimental factors such as slide position and DNA extraction protocols.\n"
+    },
+    {
+      "id": "E-REL-BIO",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "Biological reliability, assessed across repeated measures collected within short intervals under varying conditions such as meals, stress, and environmental exposures, was substantially lower.\n"
+    },
+    {
+      "id": "E-REL-LOW",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "Most clocks showed only low to moderate stability which further decreased when adjusting for immune composition.\n"
+    },
+    {
+      "id": "E-REL-NOPRED",
+      "artifact_id": "A-YALE",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "Notably, technical reproducibility did not predict biological reliability.\n"
+    },
+    {
+      "id": "E-CODE-PARAM",
+      "artifact_id": "A-PACECODE",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "#' @param proportionOfProbesRequired (default: 0.8).  This value specificies the threshold for missing data (see description for more details on how missing data is handled). Note: that if the function detects EPICv2 data based on rownames that contain the replicate suffix, the proportion of probes required will automatically be lowered to 0.7.\n"
+    },
+    {
+      "id": "E-CODE-MISSING",
+      "artifact_id": "A-PACECODE",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "#' Missing data handled in two different ways (and the threshold for both is set by the 'proportionOfProbesRequired' parameter).  First, if a sample is missing data for more probes than the threshold, the sample will get an NA back for a score.  If a particular probe is missing fewer samples than the threshold, then missing data is set to the mean in the provided 'betas' matrix.  If a probe is missing more samples than the threshold, then all samples in the 'betas' matrix have their value replaced with the mean of the training data for that particular model.\n"
+    },
+    {
+      "id": "E-CODE-COHORT",
+      "artifact_id": "A-PACECODE",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "#' Because of how we handle missing data, it is recommended that entire cohorts be run at once as a large 'betas' matrix.\n"
+    },
+    {
+      "id": "E-CODE-V2",
+      "artifact_id": "A-PACECODE",
+      "lines_1based_halfopen": [
+        36,
+        37
+      ],
+      "text": "    proportionOfProbesRequired <- 0.7\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH7-EN-C001",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "One of the clearest demonstrations of within-person rates comes from a birth cohort. Researchers followed 954 members of the Dunedin Study, tracking multiple biomarkers at three time points across their twenties and thirties, and built a longitudinal measure of the pace of coordinated decline across organ systems, including lung, gum, heart and blood vessels, kidney, liver and immune function; young people of the same calendar age differed in how fast they were aging, and, before midlife, those aging faster were less physically able, showed cognitive decline and brain aging, rated their own health as worse, and looked older.[^1]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "954 members of the Dunedin Study birth cohort",
+        "time": "three assessments across the third and fourth decades of life",
+        "estimand": "within-person pace of multi-system biomarker decline; cross-sectional associations of pace with function and appearance",
+        "unit": "person",
+        "design": "prospective birth-cohort study",
+        "domain": "multi-organ clinical biomarkers in young adults"
+      },
+      "evidence_ids": [
+        "E-DUN-954",
+        "E-DUN-ORG",
+        "E-DUN-VAR",
+        "E-DUN-FAST"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "954; three time points in the third and fourth decades; organ systems listed (pulmonary, periodontal, cardiovascular, renal, hepatic, immune) rendered in plain words; same-age variation; faster agers less physically able, cognitive decline and brain aging, worse self-rated health, looked older. All match the abstract. Corrected 2026-11-28: v0.1 placed the cohort \"in New Zealand\", which is not in the stored excerpt; removed.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-DUN15": "16d3993fec2e76f124aac669423928ea269b4eeb9d6cdf28b82c358ed1c7130f"
+        },
+        "record_sha256": "b567529fe714325f4bc185ef3c504e98595dda2e8ac895719890a265d56363bc",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C002",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        27,
+        28
+      ],
+      "text": "Telomeres again provide a simple example. In the meta-analysis met in chapter 6, which pooled 414 study samples, the median rate of telomere change estimated from cross-sectional comparisons was about 23 base pairs per year, while the median rate measured longitudinally, by following the same people, was about 38 base pairs per year.[^2] The two designs answer different questions, and here the cross-sectional one made shortening look slower. The same analysis found that the rate itself was not constant across life: shortening slowed gradually until around age 50 and then stayed relatively stable.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "414 study samples, 743,019 individuals aged 0-112",
+        "time": "cross-sectional and longitudinal samples pooled in a meta-analysis",
+        "estimand": "median telomere change rate in base pairs per year by design; z-score change rate across age",
+        "unit": "study sample",
+        "design": "systematic review and meta-analysis",
+        "domain": "telomere length, various tissues and methods"
+      },
+      "evidence_ids": [
+        "E-TEL-SAMPLES",
+        "E-TEL-BP",
+        "E-TEL-NONLIN"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "414 samples; median -23 bp/year cross-sectional versus -38 bp/year longitudinal (rendered as rates of shortening of about 23 and 38 base pairs per year); shortening rate decreasing until about 50 then relatively stable. All in the abstract.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-TELR": "423cf5d12f2a4c177b515fe4a7221f746091f76245c3834cc3ed08a42cc9f649"
+        },
+        "record_sha256": "9620f5496cf86d0accd8d96de470abbe61d7e1239778b566905487f8214184df",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C003",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        29,
+        30
+      ],
+      "text": "The same pattern appears for a quantity that matters directly for daily life: peak aerobic capacity, the most oxygen a person can use during hard exercise. Researchers measured it repeatedly in 375 women and 435 men aged 21 to 87, from a community cohort without clinical heart disease, over a median of 7.9 years; capacity fell in every age decade in both sexes, but the rate of decline accelerated from 3 to 6 percent per ten years in the twenties and thirties to more than 20 percent per ten years in the seventies and beyond, and the authors warned that rates estimated mainly from cross-sectional studies may be misleading and overly optimistic.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "375 women and 435 men aged 21-87, Baltimore Longitudinal Study of Aging, free of clinical heart disease",
+        "time": "median follow-up 7.9 years",
+        "estimand": "longitudinal 10-year rate of change in peak VO2 by age decade",
+        "unit": "person",
+        "design": "longitudinal cohort with serial treadmill tests",
+        "domain": "peak aerobic capacity in community-dwelling volunteers"
+      },
+      "evidence_ids": [
+        "E-VO2-XS",
+        "E-VO2-N",
+        "E-VO2-RATE"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Sample sizes, ages, cohort description, 7.9-year median follow-up, decline in every decade in both sexes, acceleration from 3-6% to >20% per 10 years, and the authors' warning about misleading, overly optimistic cross-sectional estimates all match.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-VO2": "790931660f3bebbba27e241a25e47a17a78b9965f870e3635df157e4c6528c0c"
+        },
+        "record_sha256": "740ca1c024bc80ec1c03fd03f6bb0597e35dd12c83759500ca95f22519dd5e1b",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C004",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        37,
+        38
+      ],
+      "text": "A Stanford group profiled many kinds of molecules in a longitudinal cohort of 108 Californians aged 25 to 75, followed for a median of 1.7 years and at most 6.8 years, and reported consistent nonlinear patterns, with substantial dysregulation clustered around two periods, at roughly 44 and 60 years of age.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "108 participants aged 25-75 in California",
+        "time": "median follow-up 1.7 years, maximum 6.8 years",
+        "estimand": "age points of concentrated molecular dysregulation",
+        "unit": "participant",
+        "design": "longitudinal multi-omics cohort, largely cross-age comparison",
+        "domain": "blood and other multi-omic profiles"
+      },
+      "evidence_ids": [
+        "E-SHEN-N",
+        "E-SHEN-FU",
+        "E-SHEN-44"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "108; 25-75; California; median 1.7 and maximum 6.8 years; consistent nonlinear patterns with dysregulation at about 44 and 60. The text's later caveat (short follow-up means the age pattern is mainly between-person) is the chapter's own reasoning, not a source claim.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-NONLIN": "c167f33781f1cfa515c0d4f152881df5ff9e48d9b94c258d92693c79ec65867d"
+        },
+        "record_sha256": "aeaf722097ecdd3bb7543f81c79d6f65d6a9fc10611eaba8a5e458fffe468669",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C005",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        39,
+        40
+      ],
+      "text": "A separate group in Singapore analyzed 3.8 million blood immune cells, one cell at a time, from 1,828 people aged 19 to 97, of whom 35 percent were of Asian ancestry; differences in gene activity peaked around age 40, mainly in one type of T cell (CD4), and after 60, mainly in another (CD8), with a timing that differed between women and men; aging clocks trained separately for each sex performed better than combined models.[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "1,828 individuals aged 19-97, 35% Asian",
+        "time": "single sampling per person as far as the abstract states",
+        "estimand": "age peaks of differential gene expression by cell type; performance of sex-stratified clocks",
+        "unit": "cell / individual",
+        "design": "single-cell transcriptomic cross-age analysis",
+        "domain": "peripheral blood mononuclear cells"
+      },
+      "evidence_ids": [
+        "E-PARK-N",
+        "E-PARK-PEAKS",
+        "E-PARK-SEX"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "3.8 million PBMCs; 1,828 people aged 19-97; 35% Asian (\"of Asian ancestry\"); peaks around 40 (mainly CD4) and after 60 (mainly CD8); sex-dependent kinetics; sex-stratified clocks outperform combined. Matches abstract and ledger X153.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-NONLIN": "c167f33781f1cfa515c0d4f152881df5ff9e48d9b94c258d92693c79ec65867d"
+        },
+        "record_sha256": "f4e8d67b4d2c3fe782b84f0bf964ff46658e0b9199ad332994a19b28e7324f97",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C006",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        47,
+        48
+      ],
+      "text": "The best-known example was built from the Dunedin cohort itself. Its developers modeled each person's decline in 19 indicators of organ-system integrity across four visits spanning two decades, then trained a single-time-point blood test of DNA methylation to predict that two-decade pace, using only probes that had passed a test-retest reliability filter; they reported that the resulting measure, DunedinPACE, showed high test-retest reliability, was associated with illness, disability and death, and indicated faster aging in young adults who had experienced adversity in childhood. Several of the developers are named inventors on a university invention that was licensed to a commercial company.[^6]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "Dunedin Study 1972-73 birth cohort (training); five additional datasets (evaluation)",
+        "time": "four time points spanning two decades",
+        "estimand": "single-time-point DNAm prediction of two-decade within-person Pace of Aging; reliability and outcome associations",
+        "unit": "person / blood sample",
+        "design": "biomarker development and validation",
+        "domain": "blood DNA methylation"
+      },
+      "evidence_ids": [
+        "E-PACE-19",
+        "E-PACE-RELPROBE",
+        "E-PACE-RES",
+        "E-PACE-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "19 indicators, four time points over two decades, single-time-point blood test, reliability-filtered probes, high test-retest reliability, association with morbidity, disability and mortality, faster aging with childhood adversity, and inventor/licence disclosure all match.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-PACE": "c4851f29bffd02d0c02dc1ce389f427b164380ded03e5aded9e4075ee73eedfa"
+        },
+        "record_sha256": "788fc16d91d4b27729878fea1f25bd6feb1f5c844603e16342f68b7de3920f1d",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C007",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        51,
+        52
+      ],
+      "text": "Can a pace clock respond to an intervention? In a randomized trial in which 220 adults without obesity were assigned to a 25 percent reduction in calorie intake or to their usual diet for two years, a post hoc analysis of blood samples found that the intervention slowed the pace of aging as measured by DunedinPACE, but did not significantly change several other DNA methylation clocks, including PhenoAge and GrimAge; the authors described the treatment effects as small. The analysis was not part of the trial's original plan, and two of its authors are inventors of DunedinPACE.[^7]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "CALERIE: 220 randomized adults without obesity (methylation analysis sample smaller; ledger X31)",
+        "time": "2-year intervention",
+        "estimand": "treatment effect on DNAm measures of aging",
+        "unit": "participant",
+        "design": "post hoc analysis of a randomized controlled trial",
+        "domain": "blood DNA methylation clocks"
+      },
+      "evidence_ids": [
+        "E-CAL-220",
+        "E-CAL-RES",
+        "E-CAL-SMALL",
+        "E-CAL-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "220 randomized to 25% CR or ad libitum for 2 years; DunedinPACE slowed; no significant change in other clocks including PhenoAge and GrimAge; small effect sizes; post hoc; two authors are DunedinPACE inventors. \"Not part of the original plan\" renders \"post hoc\".",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-PACE": "c4851f29bffd02d0c02dc1ce389f427b164380ded03e5aded9e4075ee73eedfa"
+        },
+        "record_sha256": "fef84122741461ceee72ce177e7caf3dbea4a17702e618690f65cfdfceb498ca",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C008",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        55,
+        56
+      ],
+      "text": "Is responsiveness common? A Yale-led group assembled 51 public and private longitudinal intervention studies into one database, computed 16 prominent epigenetic clocks and 94 other DNA methylation measures consistently across them, and found that clocks trained to predict mortality or pace of aging showed the strongest responses across interventions and agreed with one another, and that the study population and the length of the study were key factors in whether a measure responded; the authors frame the work as a step toward finding methylation measures that could one day serve as surrogate endpoints. Three of the authors are employees of TruDiagnostic and developed one of the measures studied; two are co-inventors of another, which has been patented in the United States; and two have received consulting fees from TruDiagnostic.[^9]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "51 public and private longitudinal interventional studies (TranslAGE)",
+        "time": "pre-post windows of included studies",
+        "estimand": "responsiveness patterns of 16 clocks and 94 other DNAm biomarkers",
+        "unit": "study / sample",
+        "design": "harmonized re-analysis database",
+        "domain": "blood DNA methylation biomarkers"
+      },
+      "evidence_ids": [
+        "E-TA-51",
+        "E-TA-PATTERN",
+        "E-TA-SURR",
+        "E-TA-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "51 studies, 16 clocks, 94 other biomarkers; mortality and pace clocks strongest and mutually consistent; population and duration key; eventual surrogate aim; COI (three TruDiagnostic employees who developed OMICmAge; two SystemsAge co-inventors with US patent; consulting fees from TruDiagnostic for two) all match. \"Yale-led\" is from author affiliations.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-YALE": "8afa2fa220240364faaa12759f0e0eecf54266d88c3d0ae46f7b2ced46694772"
+        },
+        "record_sha256": "5ec700ff7656e5dbe623a1a76a568e59afe260d92855382f43100917f1214af2",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C009",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        57,
+        58
+      ],
+      "text": "The same group also asked how stable these readings are when nothing deliberate has changed. Across 18 methylation-based aging measures, most showed excellent technical reproducibility when the same material was run again, though some were sensitive to laboratory details such as the position of a sample on the slide and the DNA extraction method; but when blood was collected repeatedly over short intervals, under ordinary variation such as meals, stress and environmental exposures, stability was substantially lower, low to moderate for most clocks, and lower still after adjusting for immune-cell composition; technical reproducibility did not predict this biological reliability.[^10]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "TranslAGE datasets including ADNI",
+        "time": "technical replicates; repeated biological samples over short intervals",
+        "estimand": "technical versus biological reliability of 18 DNAm aging biomarkers",
+        "unit": "sample",
+        "design": "methods study",
+        "domain": "blood DNA methylation clocks"
+      },
+      "evidence_ids": [
+        "E-REL-18",
+        "E-REL-TECH",
+        "E-REL-SLIDE",
+        "E-REL-BIO",
+        "E-REL-LOW",
+        "E-REL-NOPRED"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "18 biomarkers; excellent technical reproducibility for most; sensitivity to slide position and DNA extraction; biological reliability substantially lower under meals, stress and environmental exposures; low to moderate stability, lower after immune adjustment; technical does not predict biological. All match.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-YALE": "8afa2fa220240364faaa12759f0e0eecf54266d88c3d0ae46f7b2ced46694772"
+        },
+        "record_sha256": "856bf662fddbef5b57935fbae1dbd26ff9c53ebe246022787871cd48be6ae583",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH7-EN-C010",
+      "artifact_id": "A-CH7-EN",
+      "lines_1based_halfopen": [
+        67,
+        68
+      ],
+      "text": "Clocks are software as well as chemistry. The publicly released code that computes DunedinPACE, in the version this project pinned, documents how it handles missing data: if a probe's values are missing for some samples but present for enough of them (by default, 80 percent), the gaps are filled with the average of the samples submitted together; if too many are missing, every sample's value for that probe is replaced with the average from the training data; data from a newer array version are detected automatically and the missing-data threshold is lowered from 80 to 70 percent; and, because of how missing data are handled, the code's own documentation recommends running entire cohorts at once.[^11]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: software behaviour as documented",
+        "time": "commit 4b569983 retrieved 2026-11-27",
+        "estimand": "documented missing-data handling and EPICv2 threshold of the DunedinPACE projector",
+        "unit": "code version",
+        "design": "reading of pinned source code and its documentation; not executed",
+        "domain": "DunedinPACE R package, PACEProjector.R"
+      },
+      "evidence_ids": [
+        "E-CODE-PARAM",
+        "E-CODE-MISSING",
+        "E-CODE-COHORT",
+        "E-CODE-V2"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Default threshold 0.8; within-threshold missing values set to the mean of the supplied betas matrix; beyond-threshold probes replaced with the training-data mean; EPICv2 detection sets the threshold to 0.7; documentation recommends running entire cohorts at once. The implication that a score can depend on batch composition follows from the documented imputation and is stated as a possibility (\"slightly\"), not measured.",
+        "bound_hashes": {
+          "A-CH7-EN": "b4c04a3555d36876ac5a8532ec6c586adc46bb2a3353018faef0e9bdce824723",
+          "A-PACECODE": "e64aa80b4dca5b90d4b2afb4365c2f483f3091822100ad665be59faa176c9a9e"
+        },
+        "record_sha256": "a98746f88958d9fc09f117c950d88d314c347d94a80a52cf607346b84d49e092",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH7-EN-INDEPENDENT-REVIEW",
+      "status": "closed",
+      "blocks_formal_release": false,
+      "question": "No independent domain or statistical review of these claims (D05)",
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
+    },
+    {
+      "id": "CH7-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "All sources read at abstract depth; CALERIE erratum unread; no independent multi-year within-person repeated-clock study from a group without a stake in the clocks found; DunedinPACE code version used in published trials unknown (X27)",
+      "next_action": "Read full texts and erratum; search again for unconflicted longitudinal repeated-clock studies; request trial software versions",
+      "closure_evidence": "Full-text reading notes bound as excerpts; search log; version statements"
+    }
+  ]
+}

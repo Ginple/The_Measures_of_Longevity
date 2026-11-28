@@ -1,0 +1,5 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Anderson JJ, Li T, Sharrow DJ. Insights into mortality patterns and causes of death through a process point of view model. Biogerontology 2017;18(1):149-170. PMID 27885527, PMC5290203.
+# Used only as a secondary description of Strehler and Mildvan 1960 (Science 132:14-21), whose text the project has not read (ledger X136).
+Process point of view (POV) models of mortality, such as the Strehler-Mildvan and stochastic vitality models, represent death in terms of the loss of survival capacity through challenges and dissipation.
+Drawing on hallmarks of aging, we link these concepts to candidate biological mechanisms through a framework that defines death as challenges to vitality where distal factors defined the age-evolution of vitality and proximal factors define the probability distribution of challenges.

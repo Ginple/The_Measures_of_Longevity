@@ -9,5 +9,7 @@
 7. 为所有“通过”说明scope；不把测试数、词频、图指标写成科学可信度。
 8. 许可由权利人决定；不要把第三方全文／代码／Skill粘贴进仓库再统一套许可证。
 9. 独立审阅必须真实，不把角色扮演或CI当审稿人。方法通用性需要独立跨域评价。
+10. 按 [验证分级](docs/VERIFICATION_AND_DISCLOSURE.md) V1–V5 标注每个“通过”或“已审”说法；V5（自评）永不关闭门禁。新增或修改 `tools/` 脚本须同步更新 `docs/TOOL_STATUS.tsv`。
+11. 改动正文或证据的提交加尾注：`AI-Assisted: Arena.ai Agent Mode (model not disclosed by the platform); human review: none`（有人工审阅时写明角色）。不使用 AI 检测器分数，也不为降低重复率而改写句式。
 
 建议PR结构：问题→影响范围→复现→修改→测试→剩余债务→兼容性／迁移。CI通过只表示特定软件性质满足，不表示论文结论通过。

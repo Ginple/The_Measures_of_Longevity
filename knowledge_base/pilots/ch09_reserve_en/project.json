@@ -1,0 +1,1022 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch09-reserve-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Eleven paragraph units of the English chapter 9 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 11,
+    "registered_claims": 11,
+    "note": "Reasoning paragraphs (lower envelope is not an observed threshold; level versus rate near the threshold; reserve is not just level; the five questions; the four measures together) make no source claim. Abstract depth throughout; synthetic claims are formal."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH9-EN",
+      "path": "books/manuscript/en/CH09_reserve_draft_en.md",
+      "sha256": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016), written English-first; no inherited chapter; working copy"
+    },
+    {
+      "id": "A-VITAL",
+      "path": "knowledge_base/pilots/ch09_reserve_en/evidence/VITALITY_MODELS_abstract.txt",
+      "sha256": "79914d621cbdcc5bfe80a4706ee84bfa85ba0941ddb5681b781982a88317635d",
+      "role": "source",
+      "family": "study-Anderson-process-POV",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27885527/",
+      "version": "PubMed abstract 2026-11-28; secondary description of Strehler-Mildvan 1960"
+    },
+    {
+      "id": "A-RENAL",
+      "path": "knowledge_base/pilots/ch09_reserve_en/evidence/RENAL_RESERVE_abstract.txt",
+      "sha256": "4a99c6f00f579c09d6fd3b6a8f9bd5932b2b65ff57dddff9a35263824e4b148e",
+      "role": "source",
+      "family": "study-Fliser-renal-reserve",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8439649/",
+      "version": "PubMed abstract (truncated at 250 words) 2026-11-28"
+    },
+    {
+      "id": "A-AERO-T",
+      "path": "knowledge_base/pilots/ch09_reserve_en/evidence/AEROBIC_THRESHOLD_abstracts.txt",
+      "sha256": "31c06f57196a654438f774b61f8d38cea34ab876721920866d4e803a2049092a",
+      "role": "source",
+      "family": "aerobic-threshold-Paterson-Shephard",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10613433/",
+      "version": "PubMed abstracts (Paterson 1999; Shephard 2009) 2026-11-28"
+    },
+    {
+      "id": "A-AERO-D",
+      "path": "knowledge_base/pilots/ch09_reserve_en/evidence/AEROBIC_DECLINE_abstract.txt",
+      "sha256": "790931660f3bebbba27e241a25e47a17a78b9965f870e3635df157e4c6528c0c",
+      "role": "source",
+      "family": "cohort-BLSA-Fleg",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16043637/",
+      "version": "PubMed abstract 2026-11-28 (same excerpt as the ch7 pilot)"
+    },
+    {
+      "id": "A-TRAJ",
+      "path": "knowledge_base/pilots/ch09_reserve_en/evidence/TRAJECTORY_abstract.txt",
+      "sha256": "061a3dd7cd7070f3c127cb17d025aaf4c0041f03904209430e5154bb361cca07",
+      "role": "source",
+      "family": "cohort-interRAI-Egbujie",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42632919/",
+      "version": "PubMed abstract and COI 2026-11-28"
+    },
+    {
+      "id": "A-RES-CODE",
+      "path": "knowledge_base/experiments/margin_time_to_threshold.py",
+      "sha256": "a1a205643656d892f9e1d1b26681859a9cbf8216e30964d1487b75620957fb80",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "code",
+      "url": "",
+      "version": "project synthetic reserve calculation (X131); tests alongside"
+    },
+    {
+      "id": "A-RES-OUT",
+      "path": "knowledge_base/pilots/ch09_reserve_en/evidence/RESERVE_SYNTHETIC_output.json",
+      "sha256": "f95008bb867df9733a356bb6617d7fd540af5c5b4b882e87d25de3d2a26460dc",
+      "role": "dataset",
+      "family": "longevity-project-derivation",
+      "access_depth": "data",
+      "url": "",
+      "version": "saved stdout of margin_time_to_threshold.py; tests/test_ch09_en_pilot.py recomputes it"
+    },
+    {
+      "id": "A-SR2",
+      "path": "knowledge_base/experiments/SR_PUBLISHED_PARAMS_ROBUSTNESS_2026-11-27.md",
+      "sha256": "bc5b31004a880ead70fc082d7bd5e817b0e433500435758b4e20f3c91d5ffe3f",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "project synthetic-model memo (X94); script and tests alongside"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-VIT-POV",
+      "artifact_id": "A-VITAL",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Process point of view (POV) models of mortality, such as the Strehler-Mildvan and stochastic vitality models, represent death in terms of the loss of survival capacity through challenges and dissipation.\n"
+    },
+    {
+      "id": "E-VIT-CHAL",
+      "artifact_id": "A-VITAL",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Drawing on hallmarks of aging, we link these concepts to candidate biological mechanisms through a framework that defines death as challenges to vitality where distal factors defined the age-evolution of vitality and proximal factors define the probability distribution of challenges.\n"
+    },
+    {
+      "id": "E-VIT-SECOND",
+      "artifact_id": "A-VITAL",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "# Used only as a secondary description of Strehler and Mildvan 1960 (Science 132:14-21), whose text the project has not read (ledger X136).\n"
+    },
+    {
+      "id": "E-REN-RAT",
+      "artifact_id": "A-RENAL",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "The increase in GFR after an amino acid (AA) load, the so-called renal functional reserve, is impaired in the aged rat.\n"
+    },
+    {
+      "id": "E-REN-N",
+      "artifact_id": "A-RENAL",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "We compared renal hemodynamics before and after an AA infusion in 15 healthy normotensive subjects of young age (seven women, eight men; median age, 26 yr; range, 23 to 32) and in 10 subjects of old age (six women, four men; median age, 70 yr; range, 61 to 82) on normal dietary protein intake.\n"
+    },
+    {
+      "id": "E-REN-REST",
+      "artifact_id": "A-RENAL",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Median basal Cin and Cpah were significantly lower (P < 0.01) in the elderly (102 and 339 mL/min per 1.73 m2) than in the young subjects (122 and 647 mL/min per 1.73 m2), but virtually all GFR values of the elderly were still within the normal range.\n"
+    },
+    {
+      "id": "E-REN-LOAD",
+      "artifact_id": "A-RENAL",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "Median Cin upon infusion of AA was 118 mL/min per 1.73 m2 (range, 98 to 137) in the elderly and 146 (range, 120 to 171) in the young, respectively.\n"
+    },
+    {
+      "id": "E-REN-SIG",
+      "artifact_id": "A-RENAL",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Cin increased significantly (P < 0.01) after the AA load in both young and elderly subjects.(ABSTRACT TRUNCATED AT 250 WORDS)\n"
+    },
+    {
+      "id": "E-REN-TRUNC",
+      "artifact_id": "A-RENAL",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "# The PubMed record is marked \"ABSTRACT TRUNCATED AT 250 WORDS\"; the authors' conclusion is not in the record. No conflict statement in the record.\n"
+    },
+    {
+      "id": "E-PAT-N",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "METHODS: A \"ramp-like\" treadmill protocol was designed to measure VO2max and T(VE) on a total of 298 subjects (152 men and 146 women), aged 55-86 yr.\n"
+    },
+    {
+      "id": "E-PAT-37",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "Age-related declines in VO2max and T(VE) were fit by a linear model; however, age explained at most 37% of the variance across ages 55-86 yr.\n"
+    },
+    {
+      "id": "E-PAT-SLOPE",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Thus, the decline in VO2max expressed relative to body mass was similar in men (0.31 mL x kg(-1) x min(-1) x yr(-1)) and women (0.25); however, across this older age the decline is slower than noted for younger groups.\n"
+    },
+    {
+      "id": "E-PAT-THRESH",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "The minimum level of aerobic power compatible with an independent life at age 85 yr was approximately 18 mL x kg(-1) x min(-1) in men and 15 mL x kg(-1) x min(-1) in women.\n"
+    },
+    {
+      "id": "E-PAT-SAMPLE",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "CONCLUSION: The study provides \"normative\" cardiorespiratory function data of a random sample of independently living men and women aged 55-86 yr.\n"
+    },
+    {
+      "id": "E-SHE-UNABATED",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "The rate of deterioration of maximal aerobic power observed in middle-aged adults continues unabated during the retirement years.\n"
+    },
+    {
+      "id": "E-SHE-THRESH",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "Loss of independence seems likely if maximal oxygen intake falls below a threshold of 18 ml/[kg x min] in men and 15 ml/[kg x min] in women, reached at 80-85 years.\n"
+    },
+    {
+      "id": "E-SHE-10",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "A regular programme of aerobic exercise can slow or reverse the functional deterioration, reducing the individual's biological age by 10 or more years, and potentially prolonging independence by a similar amount.\n"
+    },
+    {
+      "id": "E-SHE-CLARIFY",
+      "artifact_id": "A-AERO-T",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "There remains a need to clarify the importance of decreasing aerobic fitness relative to other potential causes of dependency but, from the practical viewpoint, regular aerobic activity should be commended to elderly people since it can address many of the issues of both functional loss and chronic disease.\n"
+    },
+    {
+      "id": "E-FLEG-N",
+      "artifact_id": "A-AERO-D",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "To determine longitudinal rate of change in aerobic capacity and the influence of age, gender, and physical activity on these changes, we performed serial measurements of peak treadmill oxygen consumption (peak VO2) in 375 women and 435 men ages 21 to 87 years from the Baltimore Longitudinal Study of Aging, a community-dwelling cohort free of clinical heart disease, over a median follow-up period of 7.9 years.\n"
+    },
+    {
+      "id": "E-FLEG-ACC",
+      "artifact_id": "A-AERO-D",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "A longitudinal decline in peak VO2 was observed in each of the 6 age decades in both sexes; however, the rate of decline accelerated from 3% to 6% per 10 years in the 20s and 30s to >20% per 10 years in the 70s and beyond.\n"
+    },
+    {
+      "id": "E-FLEG-XS",
+      "artifact_id": "A-AERO-D",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Although peak aerobic capacity is widely recognized to decline with age, its rate of decline has been estimated primarily from cross-sectional studies that may provide misleading, overly optimistic estimates of aging changes.\n"
+    },
+    {
+      "id": "E-TRAJ-DATA",
+      "artifact_id": "A-TRAJ",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "METHODS: This population-based retrospective cohort study used routinely collected interRAI Home Care data in Canada.\n"
+    },
+    {
+      "id": "E-TRAJ-N",
+      "artifact_id": "A-TRAJ",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "RESULTS: The study included 302 467 home care recipients; 62.2% were female, with a median age of 81 years (IQR 14).\n"
+    },
+    {
+      "id": "E-TRAJ-5",
+      "artifact_id": "A-TRAJ",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Five distinct IC trajectories were identified, demonstrating substantial heterogeneity in functional ageing.\n"
+    },
+    {
+      "id": "E-TRAJ-BASE",
+      "artifact_id": "A-TRAJ",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Importantly, baseline IC level alone did not fully capture subsequent outcome heterogeneity.\n"
+    },
+    {
+      "id": "E-TRAJ-LTC",
+      "artifact_id": "A-TRAJ",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "For example, individuals with moderate baseline IC had higher LTC admission than those with low IC who improved (48.4% vs 38.1%), underscoring the importance of longitudinal assessment.\n"
+    },
+    {
+      "id": "E-TRAJ-COI",
+      "artifact_id": "A-TRAJ",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Conflict of interest statement: None declared.\n"
+    },
+    {
+      "id": "E-RC-R",
+      "artifact_id": "A-RES-CODE",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "  且各身体活动四分位的速率相近。取 r = -ln(0.8)/10 ≈ 0.0223/年；因为原文是 \">20%\"，所以这是 r 的下界，\n"
+    },
+    {
+      "id": "E-RC-MODEL",
+      "artifact_id": "A-RES-CODE",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "比例模型 V(t) = V0·exp(-r t)：剩余年数 = ln(V0/T)/r。由此可得：\n"
+    },
+    {
+      "id": "E-RC-LEVEL",
+      "artifact_id": "A-RES-CODE",
+      "lines_1based_halfopen": [
+        14,
+        15
+      ],
+      "text": "- 水平提高到 g 倍，增加 ln(g)/r 年，与当前离阈值多远无关；\n"
+    },
+    {
+      "id": "E-RC-RATE",
+      "artifact_id": "A-RES-CODE",
+      "lines_1based_halfopen": [
+        15,
+        16
+      ],
+      "text": "- 速率降低比例 c，增加 t·c/(1-c) 年，与剩余年数 t 成正比；\n"
+    },
+    {
+      "id": "E-RC-T",
+      "artifact_id": "A-RES-CODE",
+      "lines_1based_halfopen": [
+        23,
+        25
+      ],
+      "text": "T_MEN = 18.0\nB_LINEAR_MEN = 0.31\n"
+    },
+    {
+      "id": "E-RO-NATURE",
+      "artifact_id": "A-RES-OUT",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "  \"nature\": \"synthetic algebra with published parameters; not an individual prediction\",\n"
+    },
+    {
+      "id": "E-RO-20",
+      "artifact_id": "A-RES-OUT",
+      "lines_1based_halfopen": [
+        6,
+        11
+      ],
+      "text": "      \"V0\": 20.0,\n      \"years_linear_cross_sectional\": 6.5,\n      \"years_proportional_longitudinal_upper\": 4.7,\n      \"gain_level_plus10pct\": 4.3,\n      \"gain_rate_minus10pct\": 0.5\n"
+    },
+    {
+      "id": "E-RO-25",
+      "artifact_id": "A-RES-OUT",
+      "lines_1based_halfopen": [
+        13,
+        18
+      ],
+      "text": "      \"V0\": 25.0,\n      \"years_linear_cross_sectional\": 22.6,\n      \"years_proportional_longitudinal_upper\": 14.7,\n      \"gain_level_plus10pct\": 4.3,\n      \"gain_rate_minus10pct\": 1.6\n"
+    },
+    {
+      "id": "E-RO-CROSS",
+      "artifact_id": "A-RES-OUT",
+      "lines_1based_halfopen": [
+        34,
+        35
+      ],
+      "text": "  \"crossover_years_g1.1_c0.1\": 38.4,\n"
+    },
+    {
+      "id": "E-RO-PLUS10",
+      "artifact_id": "A-RES-OUT",
+      "lines_1based_halfopen": [
+        37,
+        40
+      ],
+      "text": "    \"from_V0\": 25.0,\n    \"years_linear\": 32.3,\n    \"years_proportional_upper\": 15.1\n"
+    },
+    {
+      "id": "E-SR2-SCOPE",
+      "artifact_id": "A-SR2",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "2026-11-27｜**合成压力测试**。不拟合真实数据，不代表人群效应，也不是临床结论。台账 X94。\n"
+    },
+    {
+      "id": "E-SR2-ROW",
+      "artifact_id": "A-SR2",
+      "lines_1based_halfopen": [
+        21,
+        22
+      ],
+      "text": "| 0.1 | 0.05/0.1 | 0.0699 | 0.657 / 0.667 | 0.155 / 0.144 | **74.43 / 74.42** | 0.069 / 0.074 | 是 |\n"
+    },
+    {
+      "id": "E-SR2-DIR",
+      "artifact_id": "A-SR2",
+      "lines_1based_halfopen": [
+        26,
+        27
+      ],
+      "text": "1. **交叉不是教学参数的产物**：换用已发表的人类参数、三种干预强度和两种网格，方向都一致。清除型干预让 70 岁时活着的人更多，产生型干预让 90 岁时活着的人更多。网格加密使绝对生存率移动约 0.014，但两方案之差几乎不变（S70 差 0.0136 → 0.0133）。\n"
+    },
+    {
+      "id": "E-SR2-D01",
+      "artifact_id": "A-SR2",
+      "lines_1based_halfopen": [
+        27,
+        28
+      ],
+      "text": "2. **新的、更强的反例（d = 0.1）**：70 岁存活者的平均损伤相同，预期寿命也相同（74.43 对 74.42），生存曲线仍然交叉，晚年死亡率斜率也不同。也就是说，\"一个时点的读数 + 预期寿命\"两项都对上，仍区分不了两种机制；必须看曲线形状、晚年斜率或回复速率。\n"
+    },
+    {
+      "id": "E-SR2-LIMIT",
+      "artifact_id": "A-SR2",
+      "lines_1based_halfopen": [
+        32,
+        33
+      ],
+      "text": "- 仍是一维 SR 模型；个体异质性会让晚年死亡率变平（bioRxiv 2025.12.22.695887），可能削弱或放大交叉，尚未测试（U18）。\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH9-EN-C001",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        17,
+        18
+      ],
+      "text": "The idea is not new. In 1960, Strehler and Mildvan published a theory of mortality in *Science*. Later authors describe it as one of a family of models that represent death as the loss of survival capacity through challenges and dissipation: capacity wears down with age, and death comes when a challenge exceeds what is left.[^1] We have not read the 1960 paper itself; this description is secondhand. The modern contribution of this chapter is narrower: to show how reserve can be measured in people, and why converting it into years depends on choices that are easy to hide.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none (description of a theoretical model family)",
+        "time": "1960 theory; 2017 description",
+        "estimand": "how process models of mortality represent death",
+        "unit": "publication",
+        "design": "secondary description in a modelling paper",
+        "domain": "mortality theory"
+      },
+      "evidence_ids": [
+        "E-VIT-POV",
+        "E-VIT-CHAL",
+        "E-VIT-SECOND"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "\"Loss of survival capacity through challenges and dissipation\" and \"death as challenges to vitality\" match the secondary abstract. The text says the 1960 paper is unread and the description secondhand, as ledger X136 requires. Corrected 2026-11-28: v0.1 gave the authors' first names and the paper title, which are not in the stored excerpt; now only surnames, year and journal (Science, from the evidence header).",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-VITAL": "79914d621cbdcc5bfe80a4706ee84bfa85ba0941ddb5681b781982a88317635d"
+        },
+        "record_sha256": "112a62adce340e5286f8afe23e4c21de7a379e0136a37ef779b76112325f780a",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C002",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        21,
+        22
+      ],
+      "text": "In a small study, researchers measured filtration before and after an amino acid infusion in 15 healthy young adults with a median age of 26 and in 10 healthy older adults with a median age of 70. At rest, the older group's median was lower, 102 against 122 mL/min per 1.73 m², but virtually all of the older people's values were still within the normal range. After the infusion, filtration rose significantly in both groups: the median reached 118 in the older group and 146 in the younger one.[^2]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "15 healthy young (median 26) and 10 healthy older (median 70) normotensive volunteers",
+        "time": "single study; before and after amino acid infusion",
+        "estimand": "GFR (inulin clearance) at rest and after amino acid load",
+        "unit": "participant",
+        "design": "small physiological comparison",
+        "domain": "renal functional reserve"
+      },
+      "evidence_ids": [
+        "E-REN-N",
+        "E-REN-REST",
+        "E-REN-LOAD",
+        "E-REN-SIG"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "15 and 10; medians 26 and 70; AA infusion; resting medians 102 vs 122; virtually all elderly GFR within normal range; after load 118 vs 146; significant increase in both. All match. Corrected 2026-11-28: v0.1 also said \"overnight\" and \"German\", neither of which is in the stored abstract; both words removed.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-RENAL": "4a99c6f00f579c09d6fd3b6a8f9bd5932b2b65ff57dddff9a35263824e4b148e"
+        },
+        "record_sha256": "90dec2f7bd900a93d80416e735eed1bd5a61a0ce480772e8f6fe6825a404245d",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C003",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        23,
+        24
+      ],
+      "text": "Two things stand out. First, a resting test would have called the older kidneys normal. Second, after the push, the older group's median was still below the younger group's median at rest. The median rise was about 16 units in the older group against about 24 in the younger (a difference of medians, not a median of differences), so in this small sample the extra capacity on demand was smaller as well as starting lower. The abstract available to us is cut off before the authors' conclusions; as background, it notes that this reserve is impaired in aged rats. Ten older volunteers cannot carry a general claim. But the shape of the finding is the shape of this chapter: a normal resting reading and a reduced distance to the limit can sit side by side.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "same 25 volunteers",
+        "time": "same study",
+        "estimand": "comparison of group medians at rest and after load (derived differences of medians)",
+        "unit": "group median",
+        "design": "small physiological comparison; abstract truncated",
+        "domain": "renal functional reserve"
+      },
+      "evidence_ids": [
+        "E-REN-REST",
+        "E-REN-LOAD",
+        "E-REN-RAT",
+        "E-REN-TRUNC"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "118 < 122 and the rises 118-102=16 and 146-122=24 are arithmetic on the quoted medians, labelled as differences of medians. The rat statement is background in the abstract and is described as such. Truncation disclosed; the text declines a general claim.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-RENAL": "4a99c6f00f579c09d6fd3b6a8f9bd5932b2b65ff57dddff9a35263824e4b148e"
+        },
+        "record_sha256": "df25c4b98204df32a7eeb1040cc9cdf5c55ad13ed204ceab381bcd1f0f521976",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C004",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        29,
+        30
+      ],
+      "text": "One research group measured it in 298 people aged 55 to 86, 152 men and 146 women, drawn as a random sample of people living independently. They fitted a straight-line decline with age, though age explained at most 37 percent of the differences between people. The decline relative to body weight was 0.31 units per year in men and 0.25 in women, slower than reported for younger groups. And they estimated the minimum aerobic power compatible with an independent life at age 85: approximately 18 mL/kg/min in men and 15 in women.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "random sample of 298 independently living adults aged 55-86 (152 men, 146 women)",
+        "time": "single cross-sectional assessment",
+        "estimand": "age-related VO2max decline (linear fit) and minimum VO2max compatible with independent living at 85",
+        "unit": "participant",
+        "design": "cross-sectional treadmill testing",
+        "domain": "maximal aerobic capacity"
+      },
+      "evidence_ids": [
+        "E-PAT-N",
+        "E-PAT-37",
+        "E-PAT-SLOPE",
+        "E-PAT-THRESH",
+        "E-PAT-SAMPLE"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "298 (152/146), 55-86, random sample of independently living people; linear fit; at most 37% of variance; 0.31 and 0.25 per year; slower than younger groups; 18 and 15 at age 85. All match. Corrected 2026-11-28: v0.1 said \"A Canadian group\"; the affiliation is not in the stored excerpt, so the word was removed. The next paragraph (lower envelope, not observed failure) is the chapter's reasoning, consistent with ledger X129.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-AERO-T": "31c06f57196a654438f774b61f8d38cea34ab876721920866d4e803a2049092a"
+        },
+        "record_sha256": "fa9f9bf44423f67d7ab2170832b9cc1ee2e7a10443fb1a093227c9952c47c0a2",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C005",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        33,
+        34
+      ],
+      "text": "A brief review takes the same threshold values, says they are reached at around 80 to 85 years, and argues that regular aerobic exercise can slow or reverse the decline, reducing biological age by 10 or more years and potentially prolonging independence by a similar amount. The same review notes that the importance of falling aerobic fitness, relative to other causes of dependency, still needs to be clarified.[^4] The threshold, in other words, is useful and real, but it is not the only way to lose independence.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none (narrative review)",
+        "time": "published 2009",
+        "estimand": "claimed link between aerobic fitness and loss of independence",
+        "unit": "publication",
+        "design": "brief narrative review",
+        "domain": "maximal aerobic capacity"
+      },
+      "evidence_ids": [
+        "E-SHE-THRESH",
+        "E-SHE-10",
+        "E-SHE-CLARIFY"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Same 18/15 thresholds reached at 80-85; exercise can slow or reverse, reducing biological age by 10+ years and potentially prolonging independence by a similar amount; need to clarify importance relative to other causes. All match. Corrected 2026-11-28: v0.1 said \"a Canadian exercise physiologist\"; neither the affiliation nor the profession is in the stored excerpt, so both were removed.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-AERO-T": "31c06f57196a654438f774b61f8d38cea34ab876721920866d4e803a2049092a"
+        },
+        "record_sha256": "d2bbd79bdb38ad0bfc722b11c30da7ad97a2d9bbba9c5870cbe7b99c20238008",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C006",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        39,
+        40
+      ],
+      "text": "The sources disagree in an instructive way. The study of 298 people, which compared people of different ages at one time, found the decline was slower in old age than in younger groups. The review just cited says the rate seen in middle age continues unabated after retirement. And the longitudinal study used in chapter 7, which measured the same 810 people repeatedly over a median of 7.9 years, found that the rate accelerated from 3 to 6 percent per ten years in the twenties and thirties to more than 20 percent per ten years in the seventies and beyond, and warned that cross-sectional estimates may be misleading and overly optimistic.[^5] Three sources, three shapes: slowing, steady and accelerating. The first comes from comparing different people, and the last from following the same people, which is the stronger design for measuring a rate.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "Paterson (cross-sectional, 55-86); Shephard (review); BLSA 810 adults 21-87 free of clinical heart disease",
+        "time": "BLSA median follow-up 7.9 years",
+        "estimand": "shape of aerobic-capacity decline with age",
+        "unit": "participant / publication",
+        "design": "cross-sectional study, narrative review, longitudinal cohort",
+        "domain": "maximal aerobic capacity"
+      },
+      "evidence_ids": [
+        "E-PAT-N",
+        "E-PAT-SLOPE",
+        "E-SHE-UNABATED",
+        "E-FLEG-N",
+        "E-FLEG-ACC",
+        "E-FLEG-XS"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Slower in old age (Paterson); continues unabated (Shephard); 810 = 375 + 435 followed 7.9 years, 3-6% to >20% per decade, cross-sectional misleading and overly optimistic (Fleg). All match. Corrected 2026-11-28: v0.1 said \"The Canadian study\"; now \"the study of 298 people\". \"Stronger design for measuring a rate\" is the chapter 7 argument, not a source claim.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-AERO-T": "31c06f57196a654438f774b61f8d38cea34ab876721920866d4e803a2049092a",
+          "A-AERO-D": "790931660f3bebbba27e241a25e47a17a78b9965f870e3635df157e4c6528c0c"
+        },
+        "record_sha256": "151f08812736346c940db703d1687610d64b63678e664b067b8490da0d1282fc",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C007",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        41,
+        42
+      ],
+      "text": "To see what this does to an answer, the project wrote a short synthetic calculation, using the published values above as illustrative inputs. It is arithmetic, not an observation or a prediction for anyone. Take a man with an aerobic capacity of 25 and a threshold of 18. If decline is a straight line of 0.31 units per year, as in the cross-sectional study, he has 22.6 years before reaching the threshold. If instead decline is proportional, at the rate implied by \"more than 20 percent per ten years\", he has at most 14.7 years. (\"At most\", because \"more than 20 percent\" sets only a lower limit on the rate.) For a man starting at 20, the two answers are 6.5 and 4.7 years.[^6]\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: synthetic algebra with published values as illustrative inputs (threshold 18, linear 0.31/yr, proportional r=0.0223/yr), men only, not fitted to any cohort",
+        "time": "starting capacity 25 or 20 mL/kg/min",
+        "estimand": "years to threshold under linear vs proportional decline",
+        "unit": "hypothetical individual",
+        "design": "deterministic algebra (script, saved output, tests)",
+        "domain": "aerobic-capacity reserve"
+      },
+      "evidence_ids": [
+        "E-RC-R",
+        "E-RC-MODEL",
+        "E-RC-T",
+        "E-RO-NATURE",
+        "E-RO-20",
+        "E-RO-25"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Threshold 18, linear 0.31/yr, r from >20% per decade as a lower bound so proportional years are an upper bound; V0=25: 22.6 vs 14.7; V0=20: 6.5 vs 4.7. All match the saved output. Formal claim: support means the arithmetic is reproduced as reported.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-RES-CODE": "a1a205643656d892f9e1d1b26681859a9cbf8216e30964d1487b75620957fb80",
+          "A-RES-OUT": "f95008bb867df9733a356bb6617d7fd540af5c5b4b882e87d25de3d2a26460dc"
+        },
+        "record_sha256": "ae12c0a74f7d55645ee62a0f461fde58f77a50336966ca6c0ae4524009c22743",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C008",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        43,
+        44
+      ],
+      "text": "The same choice governs claims about what a gain is worth. In the same arithmetic, raising this man's capacity from 25 to 35 adds 32.3 years before the threshold under the straight-line model, and at most 15.1 years under the proportional one.[^6] Neither number should be read as the effect of training: the calculation assumes a fixed threshold, a smooth decline with no illness, and a gain that lasts. The point is that a statement such as \"this could keep you independent for ten more years\" cannot be checked until the decline model behind it is stated.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: synthetic algebra with published values as illustrative inputs (threshold 18, linear 0.31/yr, proportional r=0.0223/yr), men only, not fitted to any cohort",
+        "time": "gain from 25 to 35 mL/kg/min, assumed persistent",
+        "estimand": "added years to threshold under each decline model",
+        "unit": "hypothetical individual",
+        "design": "deterministic algebra (script, saved output, tests)",
+        "domain": "aerobic-capacity reserve"
+      },
+      "evidence_ids": [
+        "E-RO-PLUS10",
+        "E-RC-MODEL"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "32.3 (linear) vs 15.1 (proportional, upper) years for 25 to 35. Assumptions (fixed threshold, smooth decline, lasting gain) stated; explicitly not a training effect.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-RES-OUT": "f95008bb867df9733a356bb6617d7fd540af5c5b4b882e87d25de3d2a26460dc",
+          "A-RES-CODE": "a1a205643656d892f9e1d1b26681859a9cbf8216e30964d1487b75620957fb80"
+        },
+        "record_sha256": "ef5b192feda43f00a0dbe5f645580234918dbe3414c302a13cc2717505df95a1",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C009",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        49,
+        50
+      ],
+      "text": "In the synthetic calculation, raising the level by 10 percent adds the same 4.3 years whatever the starting distance from the threshold. Slowing the rate by 10 percent adds one ninth of the remaining years: about half a year for the man starting at 20, and 1.6 years for the man starting at 25. The two are worth the same only when the threshold is about 38 years away, far more room than any older adult in these examples has.[^6] For someone close to the threshold, the arithmetic favours raising the level.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: synthetic algebra with published values as illustrative inputs (threshold 18, linear 0.31/yr, proportional r=0.0223/yr), men only, not fitted to any cohort",
+        "time": "distance to threshold as in the V0 grid",
+        "estimand": "years gained from +10% level vs -10% rate; crossover distance",
+        "unit": "hypothetical individual",
+        "design": "deterministic algebra (script, saved output, tests)",
+        "domain": "aerobic-capacity reserve"
+      },
+      "evidence_ids": [
+        "E-RC-LEVEL",
+        "E-RC-RATE",
+        "E-RO-20",
+        "E-RO-25",
+        "E-RO-CROSS"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "+10% level: ln(1.1)/r = 4.3 years at every V0; -10% rate: t/9, 0.5 at V0=20 and 1.6 at V0=25; crossover 38.4 years (\"about 38\"). All match.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-RES-CODE": "a1a205643656d892f9e1d1b26681859a9cbf8216e30964d1487b75620957fb80",
+          "A-RES-OUT": "f95008bb867df9733a356bb6617d7fd540af5c5b4b882e87d25de3d2a26460dc"
+        },
+        "record_sha256": "daf4d9f9f24da8a24acc12bb47f4e263d00f3e271ebdf4202efa75b82b34c7d6",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C010",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        57,
+        58
+      ],
+      "text": "The four measures of chapters 6 to 9 belong together. A large Canadian study of 302,467 people receiving home care, with a median age of 81, found five distinct trajectories of intrinsic capacity and reported that the starting level alone did not fully capture what happened next: people who started at a moderate level were admitted to long-term care more often than people who started low and improved, 48.4 percent against 38.1 percent.[^7] That is an observational comparison of groups defined by a statistical model, and it does not show that improving capacity would prevent admission. But it illustrates the general point: where someone starts and which way they are heading are separate pieces of information.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "302,467 Canadian home-care recipients (interRAI Home Care), median age 81",
+        "time": "retrospective; follow-up length not read",
+        "estimand": "association of intrinsic-capacity trajectory group with long-term-care admission",
+        "unit": "person",
+        "design": "retrospective cohort; group-based trajectory modelling",
+        "domain": "intrinsic capacity, five domains"
+      },
+      "evidence_ids": [
+        "E-TRAJ-DATA",
+        "E-TRAJ-N",
+        "E-TRAJ-5",
+        "E-TRAJ-BASE",
+        "E-TRAJ-LTC",
+        "E-TRAJ-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "302,467; median 81; five trajectories; baseline level alone did not fully capture outcomes; moderate baseline vs low-improving LTC 48.4% vs 38.1%. All match; no conflicts declared. Observational and model-dependent caveats stated in the paragraph.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-TRAJ": "061a3dd7cd7070f3c127cb17d025aaf4c0041f03904209430e5154bb361cca07"
+        },
+        "record_sha256": "a3d81a36b9024f3129077b7beadd276950f2ac2c7f380793524d17c7c5e560f4",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH9-EN-C011",
+      "artifact_id": "A-CH9-EN",
+      "lines_1based_halfopen": [
+        59,
+        60
+      ],
+      "text": "The project's synthetic model, used in chapters 6 and 8, shows how far this can go. With published human parameter values, two hypothetical interventions were matched so that the average reading among 70-year-old survivors was the same. At one setting, life expectancy also came out the same, 74.43 against 74.42 years. Their survival curves still crossed: one left more people alive at 70, the other more at 90. Only the shape of the curve, the late-life slope or the speed of recovery could tell them apart.[^8] Which intervention is better depends on whether the goal is survival to 70 or to 90, and that is exactly the kind of choice a measure has to state before it can be used.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: synthetic one-dimensional saturating-removal model with published human parameter values; no heterogeneity or Makeham term",
+        "time": "interventions from age 60; survival to 70 and 90",
+        "estimand": "survival curves of production- vs clearance-type interventions matched on mean damage at 70",
+        "unit": "simulated cohort",
+        "design": "constructive counterexample (numerics; script and tests)",
+        "domain": "saturating-removal dynamics only"
+      },
+      "evidence_ids": [
+        "E-SR2-SCOPE",
+        "E-SR2-ROW",
+        "E-SR2-DIR",
+        "E-SR2-D01",
+        "E-SR2-LIMIT"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Matched mean damage at 70; at d=0.1 life expectancy 74.43 vs 74.42; curves cross; clearance more alive at 70, production more at 90; only curve shape, late slope or recovery rate distinguish them; one-dimensional limits. All match. Formal claim.",
+        "bound_hashes": {
+          "A-CH9-EN": "34ca8db1cdff1de346253833b08c5109de8f55d25aa70339ce1804e0942d77f7",
+          "A-SR2": "bc5b31004a880ead70fc082d7bd5e817b0e433500435758b4e20f3c91d5ffe3f"
+        },
+        "record_sha256": "f87f6b90b181135ee9d122217b1ad317a0bf91bdbd34f3363cdb94926205cfe1",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH9-EN-INDEPENDENT-REVIEW",
+      "status": "closed",
+      "blocks_formal_release": false,
+      "question": "No independent domain or statistical review of these claims (D05)",
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
+    },
+    {
+      "id": "CH9-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "All sources read at abstract depth; the renal-reserve abstract is truncated before its conclusions; Strehler-Mildvan 1960 read only secondhand (X136); no observed failure threshold for independent living",
+      "next_action": "Read the Fliser and Paterson full texts and Strehler-Mildvan 1960; search for prospective thresholds of capacity at loss of independence",
+      "closure_evidence": "Full-text reading notes bound as excerpts; search log"
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch01-measure-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Six paragraph units of the English chapter 1 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 6,
+    "registered_claims": 6,
+    "note": "Reasoning and value paragraphs (the scene, three senses of measure, the strongest objection, disability is not a verdict, cells as who, seen and missed, caution, two accounts, the five questions) make no source claim. Abstract depth throughout; the synthetic claim is formal."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH1-EN",
+      "path": "books/manuscript/en/CH01_measure_draft_en.md",
+      "sha256": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016); rewrite of the Chinese demonstration draft CH01 v0.2 (V6-01); working copy"
+    },
+    {
+      "id": "A-GAP",
+      "path": "knowledge_base/pilots/ch01_measure_en/evidence/HEALTHSPAN_GAP_abstract.txt",
+      "sha256": "f2f59331add03dd83cd86b3f79c1f1c4fa0bcdbc57c54c7056cd2a779fbc06ab",
+      "role": "source",
+      "family": "study-Garmany-healthspan-gap",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39661386/",
+      "version": "PubMed abstract and COI 2026-11-28"
+    },
+    {
+      "id": "A-CAL",
+      "path": "knowledge_base/pilots/ch01_measure_en/evidence/CALERIE_abstracts.txt",
+      "sha256": "11907dfea419ed95ef1ffa24954a62f3277c99568c28899f408cd69bf17fd219",
+      "role": "source",
+      "family": "trial-CALERIE-phase2",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37118425/",
+      "version": "PubMed abstracts (Waziry 2023; Villareal 2016; Romashkan 2016) 2026-11-28; one trial"
+    },
+    {
+      "id": "A-CAP",
+      "path": "knowledge_base/pilots/ch01_measure_en/evidence/CAPABLE_abstract.txt",
+      "sha256": "eb31936ece5e16f222ff0c13d7834e0c62f97cc3aad95079bc7fbf6acbf61b34",
+      "role": "source",
+      "family": "trial-CAPABLE-Szanton",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30615024/",
+      "version": "PubMed abstract and COI 2026-11-28"
+    },
+    {
+      "id": "A-LT-CODE",
+      "path": "knowledge_base/pilots/ch01_measure_en/synthetic_life_table.py",
+      "sha256": "2739d759e2f735550e2950e7ddc18c1a6d4ffd860f67beb36c6d70c876e17df8",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "code",
+      "url": "",
+      "version": "project synthetic life-table calculation; tests/test_ch01_en_pilot.py recomputes it"
+    },
+    {
+      "id": "A-LT-OUT",
+      "path": "knowledge_base/pilots/ch01_measure_en/evidence/LIFE_TABLE_SYNTHETIC_output.json",
+      "sha256": "1b5ad6e498efc12519d0a02096a1e63be869f99e5621627a62f8f530578dd885",
+      "role": "dataset",
+      "family": "longevity-project-derivation",
+      "access_depth": "data",
+      "url": "",
+      "version": "saved stdout of synthetic_life_table.py"
+    },
+    {
+      "id": "A-LEDGER",
+      "path": "knowledge_base/pilots/ch01_measure_en/evidence/LEDGER_X21_X29_excerpt.txt",
+      "sha256": "ac7458d9c8e07c92eff604877b9272b1353529ab9e0b589f16fabd127dae9c25",
+      "role": "source",
+      "family": "longevity-project-record",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "verbatim copy of ledger rows X21 and X29 (2026-11-28): records of earlier full-text reading by the same assistant; not a primary source"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-GAP-DEF",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "IMPORTANCE: Health-adjusted life expectancy, a measure of healthy longevity, lags longevity gains, resulting in a healthspan-lifespan gap.\n"
+    },
+    {
+      "id": "E-GAP-WHO",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "DESIGN, SETTING, AND PARTICIPANTS: This retrospective cross-sectional study used the World Health Organization (WHO) Global Health Observatory as the global data source and acquired national-level data covering all continents.\n"
+    },
+    {
+      "id": "E-GAP-183",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "The 183 WHO member states were investigated.\n"
+    },
+    {
+      "id": "E-GAP-96",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "RESULTS: The healthspan-lifespan gap has widened globally over the last 2 decades among 183 WHO member states, extending to 9.6 years.\n"
+    },
+    {
+      "id": "E-GAP-SEX",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "A sex difference was observed with women presenting a mean (SD) healthspan-lifespan gap of 2.4 (0.5) years wider than men (P < .001).\n"
+    },
+    {
+      "id": "E-GAP-US",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "The US presented the largest healthspan-lifespan gap, amounting to 12.4 years, underpinned by a rise in noncommunicable diseases.\n"
+    },
+    {
+      "id": "E-GAP-COI",
+      "artifact_id": "A-GAP",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Conflict of interest statement: Conflict of Interest Disclosures: None reported.\n"
+    },
+    {
+      "id": "E-LED-X21",
+      "artifact_id": "A-LEDGER",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "| X21 | 2026-11-27 | 健康预期寿命差 9.6 与 9.2 混同 | [原文 Results Fig.1/Fig.2](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2827753)：2019 全球差值 9.6 年；183 会员国差值均值 9.2 年 | 原文未在已读段落明确两个统计口径的权重来源，不能猜测 | 修正全球值/会员国均值；核 WHO 原始数据与权重；不将差值解释为个人必然疾病年数 | open（统计来源待核） |\n"
+    },
+    {
+      "id": "E-LED-X29",
+      "artifact_id": "A-LEDGER",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "| X29 | 2026-11-27 | CALERIE 时钟与安全论文不同样本不能推断个体联合效应 | [DNAm 事后分析](https://www.nature.com/articles/s43587-022-00357-y)197；[安全报告](https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=6013&context=open_access_pubs)218；220 原随机 | 参与者样本、时间点及缺失交集未取得；两个研究是同一试验 | 报告随机、分析人群及不同终点；仅取得可连接数据后评价个体联合画像 | open |\n"
+    },
+    {
+      "id": "E-LT-NATURE",
+      "artifact_id": "A-LT-OUT",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "  \"nature\": \"SYNTHETIC illustration; no real data; exact fractions\",\n"
+    },
+    {
+      "id": "E-LT-A",
+      "artifact_id": "A-LT-OUT",
+      "lines_1based_halfopen": [
+        5,
+        21
+      ],
+      "text": "    \"A\": {\n      \"n\": 100,\n      \"life_expectancy\": \"18\",\n      \"health_adjusted_life_expectancy\": \"15\",\n      \"gap_equivalent_lost_years\": \"3\",\n      \"ages_at_death\": {\n        \"10\": 20,\n        \"20\": 80\n      },\n      \"equivalent_lost_years_per_person\": {\n        \"1\": 20,\n        \"7/2\": 80\n      },\n      \"people_dying_at_life_expectancy\": 0,\n      \"people_whose_loss_equals_gap\": 0\n    },\n"
+    },
+    {
+      "id": "E-LT-B",
+      "artifact_id": "A-LT-OUT",
+      "lines_1based_halfopen": [
+        21,
+        35
+      ],
+      "text": "    \"B\": {\n      \"n\": 100,\n      \"life_expectancy\": \"18\",\n      \"health_adjusted_life_expectancy\": \"15\",\n      \"gap_equivalent_lost_years\": \"3\",\n      \"ages_at_death\": {\n        \"18\": 100\n      },\n      \"equivalent_lost_years_per_person\": {\n        \"3\": 100\n      },\n      \"people_dying_at_life_expectancy\": 100,\n      \"people_whose_loss_equals_gap\": 100\n    },\n"
+    },
+    {
+      "id": "E-LT-C",
+      "artifact_id": "A-LT-OUT",
+      "lines_1based_halfopen": [
+        35,
+        51
+      ],
+      "text": "    \"C\": {\n      \"n\": 100,\n      \"life_expectancy\": \"18\",\n      \"health_adjusted_life_expectancy\": \"15\",\n      \"gap_equivalent_lost_years\": \"3\",\n      \"ages_at_death\": {\n        \"10\": 20,\n        \"20\": 80\n      },\n      \"equivalent_lost_years_per_person\": {\n        \"1\": 80,\n        \"11\": 20\n      },\n      \"people_dying_at_life_expectancy\": 0,\n      \"people_whose_loss_equals_gap\": 0\n    }\n"
+    },
+    {
+      "id": "E-LT-DESIGN",
+      "artifact_id": "A-LT-CODE",
+      "lines_1based_halfopen": [
+        12,
+        16
+      ],
+      "text": "- A: 20 people die at 10 and 80 die at 20; everyone alive carries weight 0.10 in years 0-10 and 0.25 in 10-20.\n- B: all 100 die at 18; weight 0.10 in years 0-10 and 0.25 in years 10-18.\n- C: as A for deaths, but in years 10-20 20 of the 80 survivors carry weight 1 and 60 carry weight 0\n  (the interval's average weight is still 20/80 = 0.25).\n"
+    },
+    {
+      "id": "E-CAL-220",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Here we report the results of a post hoc analysis of the influence of CR on DNAm measures of aging in blood samples from the Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy (CALERIE) trial, a randomized controlled trial in which n = 220 adults without obesity were randomized to 25% CR or ad libitum control diet for 2 yr (ref. 10).\n"
+    },
+    {
+      "id": "E-CAL-PACE",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "We found that CALERIE intervention slowed the pace of aging, as measured by the DunedinPACE DNAm algorithm, but did not lead to significant changes in biological age estimates measured by various DNAm clocks including PhenoAge and GrimAge.\n"
+    },
+    {
+      "id": "E-CAL-SMALL",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Treatment effect sizes were small.\n"
+    },
+    {
+      "id": "E-CAL-COI",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Conflict of interest statement: D.L.C. and D.W.B. are listed as inventors on a Duke University and University of Otago invention, DunedinPACE, that was licensed to a commercial entity.\n"
+    },
+    {
+      "id": "E-CAL-218",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Two-hundred eighteen non-obese (body mass index [BMI] 25.1 ± 1.7 kg/m(2) ), younger (age 37.9 ± 7.2 years) adults were randomly assigned to 25% CR (CR group, n = 143) or ad libitum (AL group, n = 75) for 2 years.\n"
+    },
+    {
+      "id": "E-CAL-BMD",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "Compared with AL, the CR group had greater changes in BMD at 24 months: lumbar spine (-0.013 ± 0.003 versus 0.007 ± 0.004 g/cm(2) ; p < 0.001), total hip (-0.017 ± 0.002 versus 0.001 ± 0.003 g/cm(2) ; p < 0.001), and femoral neck (-0.015 ± 0.003 versus -0.005 ± 0.004 g/cm(2) ; p = 0.03).\n"
+    },
+    {
+      "id": "E-CAL-LIMIT",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "Therefore, bone loss at clinically important sites of osteoporotic fractures represents a potential limitation of prolonged CR for extending life span.\n"
+    },
+    {
+      "id": "E-CAL-FRAC",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "Further long-term studies are needed to determine if CR-induced bone loss in healthy adults contributes to fracture risk and if bone loss can be prevented with exercise.\n"
+    },
+    {
+      "id": "E-CAL-SAFE",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        15,
+        16
+      ],
+      "text": "CONCLUSIONS: Two-years of CR at levels achieved in CALERIE was safe and well tolerated.\n"
+    },
+    {
+      "id": "E-CAL-MON",
+      "artifact_id": "A-CAL",
+      "lines_1based_halfopen": [
+        16,
+        17
+      ],
+      "text": "Close monitoring for excessive bone loss and anemia is important.\n"
+    },
+    {
+      "id": "E-CAP-DESIGN",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "DESIGN, SETTING, AND PARTICIPANTS: In this randomized clinical trial of 300 low-income community-dwelling adults with a disability in Baltimore, Maryland, between March 18, 2012, and April 29, 2016, 65 years or older, cognitively intact, and with self-reported difficulty with 1 or more activities of daily living (ADLs) or 2 or more instrumental ADLs (IADLs), participants were interviewed in their home at baseline, 5 months (end point), and 12 months (follow-up) by trained research assistants who were masked to the group allocation.\n"
+    },
+    {
+      "id": "E-CAP-INT",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "INTERVENTIONS: The CAPABLE group received up to 10 home visits over 5 months by occupational therapists, registered nurses, and home modifiers to address self-identified functional goals by enhancing individual capacity and the home environment.\n"
+    },
+    {
+      "id": "E-CAP-CTRL",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "The control group received 10 social home visits by a research assistant.\n"
+    },
+    {
+      "id": "E-CAP-SCORE",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Each ADL and IADL task was self-scored from 0 to 2 according to whether in the previous month the person did not have difficulty and did not need help (0), did not need help but had difficulty (1), or needed help regardless of difficulty (2).\n"
+    },
+    {
+      "id": "E-CAP-RANGE",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "The overall score ranged from 0 to 16 points.\n"
+    },
+    {
+      "id": "E-CAP-ADL",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "CAPABLE participation resulted in 30% reduction in ADL disability scores at 5 months (relative risk [RR], 0.70; 95% CI, 0.54-0.93; P = .01) vs control participation.\n"
+    },
+    {
+      "id": "E-CAP-IADL",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "CAPABLE participation resulted in a statistically nonsignificant 17% reduction in IADL disability scores (RR, 0.83; 95% CI, 0.65-1.06; P = .13) vs control participation.\n"
+    },
+    {
+      "id": "E-CAP-COI",
+      "artifact_id": "A-CAP",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "Conflict of interest statement: Conflict of Interest Disclosures: Drs Szanton and Gitlin reported being inventors of the CAPABLE training program, for which the Johns Hopkins University is entitled to fees.\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH1-EN-C001",
+      "artifact_id": "A-CH1-EN",
+      "lines_1based_halfopen": [
+        28,
+        29
+      ],
+      "text": "Granting that does not settle what a statistic about time means. Life expectancy is built from the death rates of a particular population in a particular period. Health-adjusted life expectancy goes further and weights each year of life by an estimate of health. A 2024 study used World Health Organization data for its 183 member states. It reported that the gap between the two, which the authors call the healthspan–lifespan gap, had widened over the previous two decades to 9.6 years, that women's gap was on average 2.4 years wider than men's, and that the United States had the largest gap, at 12.4 years.[^1] This project's reading of the full text found that the paper reports both a global figure and an average across countries, and that the two are not interchangeable (ledger X21). Chapter 2, which owns these statistics, takes up the difference.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "183 WHO member states (national-level WHO Global Health Observatory estimates)",
+        "time": "two decades to 2019 (period estimates)",
+        "estimand": "gap between life expectancy and health-adjusted life expectancy; sex difference; largest national gap",
+        "unit": "country / global aggregate",
+        "design": "retrospective cross-sectional analysis of WHO estimates",
+        "domain": "population health statistics"
+      },
+      "evidence_ids": [
+        "E-GAP-DEF",
+        "E-GAP-WHO",
+        "E-GAP-183",
+        "E-GAP-96",
+        "E-GAP-SEX",
+        "E-GAP-US",
+        "E-GAP-COI",
+        "E-LED-X21"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "WHO data, 183 member states, gap widened over two decades to 9.6 years, women 2.4 years wider, US largest at 12.4: all in the abstract. The global-versus-country-average distinction comes from the project ledger X21 (earlier full-text reading by the same assistant), cited as such, not from the abstract. The definitions of the two statistics restate the abstract's importance statement and general demographic usage.",
+        "bound_hashes": {
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
+          "A-GAP": "f2f59331add03dd83cd86b3f79c1f1c4fa0bcdbc57c54c7056cd2a779fbc06ab",
+          "A-LEDGER": "ac7458d9c8e07c92eff604877b9272b1353529ab9e0b589f16fabd127dae9c25"
+        },
+        "record_sha256": "7f1382c85e6cad114b66177cc9e6159b7029c5ad86648873f10d627b2ac5c31d",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH1-EN-C002",
+      "artifact_id": "A-CH1-EN",
+      "lines_1based_halfopen": [
+        30,
+        31
+      ],
+      "text": "What does a gap of 9.6 years mean for one person? Less than it seems. A small synthetic calculation, built by this project with no real data, makes the point. Imagine three populations of 100 people. In all three, life expectancy is 18 years, health-adjusted life expectancy is 15 years, and the gap is 3 years. In the first, 20 people die at 10 and 80 at 20: nobody dies at 18, and nobody has exactly 3 lost years; people have either 1 or 3.5. In the second, all 100 die at 18 and every one of them has exactly 3 lost years. In the third, deaths are as in the first, but in the second decade 20 of the survivors are in the worst health state throughout while 60 are in full health: 80 people have 1 lost year and 20 have 11. Three very different sets of lives share the same three summary numbers.[^2]\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: three synthetic populations of 100 people",
+        "time": "synthetic lifetimes up to 20 years",
+        "estimand": "life expectancy, health-adjusted life expectancy, gap, and their person-level distributions",
+        "unit": "synthetic person",
+        "design": "exact arithmetic (script and tests)",
+        "domain": "life-table arithmetic only"
+      },
+      "evidence_ids": [
+        "E-LT-NATURE",
+        "E-LT-A",
+        "E-LT-B",
+        "E-LT-C",
+        "E-LT-DESIGN"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "All three populations: LE 18, HALE 15, gap 3. A: deaths 20 at 10, 80 at 20; losses 1 (20) and 7/2 (80); nobody at 18 or at 3. B: all die at 18, all lose 3. C: deaths as A; losses 1 (80) and 11 (20). All match the saved output. Formal claim.",
+        "bound_hashes": {
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
+          "A-LT-OUT": "1b5ad6e498efc12519d0a02096a1e63be869f99e5621627a62f8f530578dd885",
+          "A-LT-CODE": "2739d759e2f735550e2950e7ddc18c1a6d4ffd860f67beb36c6d70c876e17df8"
+        },
+        "record_sha256": "f0d9bbd955d4570e5193dfa31fbdf35ca10a80d3230a13f47c8272cfac40cd19",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH1-EN-C003",
+      "artifact_id": "A-CH1-EN",
+      "lines_1based_halfopen": [
+        40,
+        41
+      ],
+      "text": "One trial shows why \"did it work?\" can have more than one answer. In the CALERIE trial, adults without obesity were randomly assigned either to a target of 25 percent calorie restriction or to their usual diet for two years. A later post hoc analysis of DNA methylation in blood found that the intervention slowed the pace of aging as measured by one algorithm, DunedinPACE, but did not significantly change biological-age estimates from other clocks, including PhenoAge and GrimAge, and that the treatment effects were small; two of its authors are listed as inventors of DunedinPACE, which was licensed to a commercial company. A report on bone found that, compared with the usual-diet group, the restriction group had greater losses of bone mineral density at 24 months at the lumbar spine, the total hip and the femoral neck; its authors called bone loss at these sites of osteoporotic fractures a potential limitation of prolonged restriction, and wrote that longer studies are needed to find out whether it contributes to fracture risk. A safety report concluded that two years of restriction at the levels achieved in the trial was safe and well tolerated, and that close monitoring for excessive bone loss and anemia is important.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "CALERIE phase 2: adults without obesity (bone report: non-obese younger adults, mean age 37.9)",
+        "time": "two years",
+        "estimand": "DNAm pace and clock changes; BMD change at 24 months; safety and tolerability",
+        "unit": "participant",
+        "design": "randomized trial; methylation analysis post hoc",
+        "domain": "calorie restriction versus ad libitum diet"
+      },
+      "evidence_ids": [
+        "E-CAL-220",
+        "E-CAL-PACE",
+        "E-CAL-SMALL",
+        "E-CAL-COI",
+        "E-CAL-BMD",
+        "E-CAL-LIMIT",
+        "E-CAL-FRAC",
+        "E-CAL-SAFE",
+        "E-CAL-MON"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Target 25% CR vs ad libitum for 2 years; DunedinPACE slowed, PhenoAge/GrimAge not significantly changed, small effects; inventor COI; greater BMD loss at 24 months at three sites, potential limitation, fracture risk needs longer studies; safe and well tolerated at levels achieved, monitor bone loss and anemia. All match. \"Later analysis\" renders \"post hoc\"; \"usual diet\" renders \"ad libitum\"; \"commercial company\" renders \"commercial entity\".",
+        "bound_hashes": {
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
+          "A-CAL": "11907dfea419ed95ef1ffa24954a62f3277c99568c28899f408cd69bf17fd219"
+        },
+        "record_sha256": "585b6719fc983018d7d9cf9f4be9547a03303feff905b5f1d4e02111722a28c7",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH1-EN-C004",
+      "artifact_id": "A-CH1-EN",
+      "lines_1based_halfopen": [
+        42,
+        43
+      ],
+      "text": "These are three reports from one trial, not three confirmations. They do not even count the same people: the post hoc methylation report describes 220 randomized adults, the bone report 218. This chapter cannot say why. Reports from one study often differ in who is counted. But it means the reports cannot be combined into a portrait of any one participant. Whether the people whose clock readings slowed are the people whose bones thinned is not something the published averages can tell us (ledger X29). And 25 percent was a target. The safety report's own phrase, \"at levels achieved in CALERIE\", is a reminder that what people were asked to do and what they did are different quantities.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "CALERIE phase 2 reports",
+        "time": "two years",
+        "estimand": "number randomized as described in each report; target versus achieved restriction",
+        "unit": "report",
+        "design": "comparison of published descriptions",
+        "domain": "reporting of one trial"
+      },
+      "evidence_ids": [
+        "E-CAL-220",
+        "E-CAL-218",
+        "E-CAL-SAFE",
+        "E-LED-X29"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "220 (methylation report) and 218 (bone report, spelled out) match; \"at levels achieved in CALERIE\" quoted exactly; the participant-overlap point cites ledger X29. The chapter does not say which count is right or why they differ.",
+        "bound_hashes": {
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
+          "A-CAL": "11907dfea419ed95ef1ffa24954a62f3277c99568c28899f408cd69bf17fd219",
+          "A-LEDGER": "ac7458d9c8e07c92eff604877b9272b1353529ab9e0b589f16fabd127dae9c25"
+        },
+        "record_sha256": "2b5f6521e0ef1623c96a6ffe9cada5eceb5e93cf823268bb382996b3edb9ff5f",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH1-EN-C005",
+      "artifact_id": "A-CH1-EN",
+      "lines_1based_halfopen": [
+        60,
+        61
+      ],
+      "text": "A randomized trial in Baltimore, Maryland, shows a change that happens outside the cell. It enrolled 300 low-income adults aged 65 or older, living in the community and reporting difficulty with daily activities. Participants were assigned either to up to ten home visits over five months by occupational therapists, registered nurses and home modifiers, working on functional goals the participants chose themselves, or to ten social visits by a research assistant. At five months, the trial reported a 30 percent reduction in scores for difficulty with basic activities of daily living (relative risk 0.70, 95 percent confidence interval 0.54 to 0.93), and a smaller reduction for instrumental activities of daily living that was not statistically significant (0.83, 0.65 to 1.06). Two of the authors are inventors of the programme's training, for which their university is entitled to fees.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "300 low-income community-dwelling adults aged 65+ with self-reported ADL/IADL difficulty, Baltimore",
+        "time": "5-month end point (12-month follow-up not read)",
+        "estimand": "ADL and IADL disability scores, intervention versus attention control",
+        "unit": "participant",
+        "design": "randomized clinical trial, intention to treat",
+        "domain": "home-based multidisciplinary programme"
+      },
+      "evidence_ids": [
+        "E-CAP-DESIGN",
+        "E-CAP-INT",
+        "E-CAP-CTRL",
+        "E-CAP-ADL",
+        "E-CAP-IADL",
+        "E-CAP-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "300, low-income, 65+, community-dwelling, difficulty with daily activities; up to 10 visits over 5 months by OTs, RNs and home modifiers on self-identified goals vs 10 social visits; ADL RR 0.70 (0.54-0.93), 30% reduction; IADL 0.83 (0.65-1.06) nonsignificant; inventor COI with university fees. All match.",
+        "bound_hashes": {
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
+          "A-CAP": "eb31936ece5e16f222ff0c13d7834e0c62f97cc3aad95079bc7fbf6acbf61b34"
+        },
+        "record_sha256": "2862db3b9defb8c5dcd774d9c882a3675d4c2b51069fda5f11d52e61849c27ee",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH1-EN-C006",
+      "artifact_id": "A-CH1-EN",
+      "lines_1based_halfopen": [
+        62,
+        63
+      ],
+      "text": "That result is worth taking seriously, and it is easy to over-read. Each task was self-scored from 0 to 2 and the total ran from 0 to 16, so the 0.70 compares disability scores between the groups; it is not a 30 percent lower risk of any event for each person. The programme combined several things, so the result cannot be divided between the home modification, the nurse and the therapist. Participants were interviewed again at twelve months, but this chapter relied on the trial's abstract, which reports the five-month end point; the later result is listed below as unread. And a five-month change in difficulty with daily tasks is not evidence of a longer life, which the trial did not claim. What it does show is that if the question is whether someone can do the things they value, an intervention need not happen inside a cell. Chapter 23 owns housing and environment as interventions.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "CAPABLE participants",
+        "time": "5 months; 12-month interviews existed",
+        "estimand": "interpretation limits of the ADL score ratio",
+        "unit": "participant",
+        "design": "randomized clinical trial",
+        "domain": "home-based multidisciplinary programme"
+      },
+      "evidence_ids": [
+        "E-CAP-SCORE",
+        "E-CAP-RANGE",
+        "E-CAP-DESIGN",
+        "E-CAP-INT"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Self-scored 0-2 per task, total 0-16; interviews at 12 months; programme combined OTs, RNs and home modifiers. The reading of 0.70 as a comparison of scores, not an event risk, follows from the outcome definition; the abstract itself labels it \"relative risk\" and \"30% reduction\", which the chapter reports in the previous paragraph. No claim of longer life is made by the trial abstract.",
+        "bound_hashes": {
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
+          "A-CAP": "eb31936ece5e16f222ff0c13d7834e0c62f97cc3aad95079bc7fbf6acbf61b34"
+        },
+        "record_sha256": "ed5baa9d41495770c8ec4903ba15d2e65eb3bf03c3addcdbf6001c93acb09908",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH1-EN-INDEPENDENT-REVIEW",
+      "status": "closed",
+      "blocks_formal_release": false,
+      "question": "No independent domain, statistical or disability-studies review of these claims (D05)",
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
+    },
+    {
+      "id": "CH1-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "All four studies read at abstract depth here; CAPABLE 12-month results, the healthspan paper aggregates (X21, X61) and CALERIE participant overlap (X29, X31, X49) unresolved",
+      "next_action": "Read the full texts; bind the relevant tables as excerpts",
+      "closure_evidence": "Full-text reading notes bound as excerpts"
+    }
+  ]
+}

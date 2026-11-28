@@ -1,0 +1,11 @@
+# Verbatim quotes from PubMed abstracts and competing-interest statements, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# (1) Belsky DW, Caspi A, Corcoran DL, Sugden K, Poulton R, ... Moffitt TE. DunedinPACE, a DNA methylation biomarker of the pace of aging. eLife 2022;11:e73420. PMID 35029144, PMC8853656, doi 10.7554/eLife.73420.
+METHODS: We used data from the Dunedin Study 1972-1973 birth cohort tracking within-individual decline in 19 indicators of organ-system integrity across four time points spanning two decades to model Pace of Aging.
+We distilled this two-decade Pace of Aging into a single-time-point DNA-methylation blood-test using elastic-net regression and a DNA-methylation dataset restricted to exclude probes with low test-retest reliability.
+RESULTS: DunedinPACE showed high test-retest reliability, was associated with morbidity, disability, and mortality, and indicated faster aging in young adults with childhood adversity.
+Conflict of interest statement: DB, AC, DC, KS, RP, TM is listed as an inventor on a Duke University and University of Otago invention that was licensed to a commercial entity
+# (2) Waziry R, Ryan CP, Corcoran DL, ... Belsky DW. Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial. Nat Aging 2023;3(3):248-257. PMID 37118425, PMC10148951, doi 10.1038/s43587-022-00357-y. Erratum Nat Aging 2023;3(6):753 (not read).
+Here we report the results of a post hoc analysis of the influence of CR on DNAm measures of aging in blood samples from the Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy (CALERIE) trial, a randomized controlled trial in which n = 220 adults without obesity were randomized to 25% CR or ad libitum control diet for 2 yr (ref. 10).
+We found that CALERIE intervention slowed the pace of aging, as measured by the DunedinPACE DNAm algorithm, but did not lead to significant changes in biological age estimates measured by various DNAm clocks including PhenoAge and GrimAge.
+Treatment effect sizes were small.
+Conflict of interest statement: D.L.C. and D.W.B. are listed as inventors on a Duke University and University of Otago invention, DunedinPACE, that was licensed to a commercial entity.

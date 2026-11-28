@@ -1,0 +1,1054 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch04-evidence-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Twelve paragraph units of the English chapter 4 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 12,
+    "registered_claims": 12,
+    "note": "Method and habit paragraphs (denominator questions, randomisation promise, source-family grouping, reading the primary end point, what counts as the same result) make no source claim. Abstract depth throughout; three synthetic claims are formal; CALERIE and BASE-II counts and X106 rest on project records."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH4-EN",
+      "path": "books/manuscript/en/CH04_evidence_draft_en.md",
+      "sha256": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016); new writing using V7 section 01 and project audits as leads; working copy"
+    },
+    {
+      "id": "A-SCREEN",
+      "path": "knowledge_base/pilots/ch04_evidence_en/evidence/SCREENING_abstracts.txt",
+      "sha256": "691daab14bc7af6123b42c1e3c9ed5d51260fe7c00b7389c9dffb5a21db5c2b5",
+      "role": "source",
+      "family": "screening-mced",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42776074/",
+      "version": "PubMed abstracts (Malagon 2026 model; NHS-Galleri 2026 trial, funded by Grail) 2026-11-28"
+    },
+    {
+      "id": "A-COUNTED",
+      "path": "knowledge_base/pilots/ch04_evidence_en/evidence/COUNTED_abstracts.txt",
+      "sha256": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e",
+      "role": "source",
+      "family": "counting-denominators",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17835295/",
+      "version": "PubMed abstracts (Bickel 1975; Waziry 2023; Mohammadnia 2025; Vetter 2026) 2026-11-28; four independent groups"
+    },
+    {
+      "id": "A-CLOCKS",
+      "path": "knowledge_base/pilots/ch04_evidence_en/evidence/CLOCKS_FAMILY_abstracts.txt",
+      "sha256": "c2a12867aaeb3985f9d764babf8d8a2074e64aace6def68f88986b308ed73062",
+      "role": "source",
+      "family": "higgins-chen-clock-family",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42629466/",
+      "version": "PubMed abstracts (Sehgal 2026; Borrus 2026) 2026-11-28; one source family, six shared authors"
+    },
+    {
+      "id": "A-DEN-CODE",
+      "path": "knowledge_base/pilots/ch04_evidence_en/denominators.py",
+      "sha256": "73c78e9c67c9d9414977ab4fd60c7875ecf6065a83b982715606f646b029b1c0",
+      "role": "code",
+      "family": "longevity-project-derivation",
+      "access_depth": "code",
+      "url": "",
+      "version": "project synthetic calculations (reversal, many readouts, rounded percentages); tests/test_ch04_en_pilot.py recomputes them"
+    },
+    {
+      "id": "A-DEN-OUT",
+      "path": "knowledge_base/pilots/ch04_evidence_en/evidence/DENOMINATORS_SYNTHETIC_output.json",
+      "sha256": "91cf01a580081cb7950d4051b98916e0c0d95644294fa0855e0b5db7dd698944",
+      "role": "dataset",
+      "family": "longevity-project-derivation",
+      "access_depth": "data",
+      "url": "",
+      "version": "saved stdout of denominators.py"
+    },
+    {
+      "id": "A-RECORDS",
+      "path": "knowledge_base/pilots/ch04_evidence_en/evidence/PROJECT_RECORDS_excerpt.txt",
+      "sha256": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f",
+      "role": "source",
+      "family": "longevity-project-record",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "verbatim copy of ledger rows X31, X40, X106, X126 and audit lines (2026-11-28): records of earlier reading by the same assistant; not a primary source"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-M-HDR",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# [1] Malagón T, Russell WA, Burnier JV, Dickinson K, Brenner D. Assessing Potential Harms From Screening Overdiagnosis and False Positives With Multicancer Early Detection Tests. Cancer Med 2026;15(11):e72455. PMID 42989814, PMC13740675, doi 10.1002/cam4.72455. A microsimulation model, not trial data.\n"
+    },
+    {
+      "id": "E-M-MODEL",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "[1] METHODS: We used a microsimulation model to assess potential population-level impacts of screening at ages 50-75 years with a multicancer early detection test in Canada.\n"
+    },
+    {
+      "id": "E-M-RANGE",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "[1] RESULTS: An estimated 2.1%-6.0% of all yearly screen-detected cancers with a multicancer screening test were predicted to be overdiagnoses across scenarios.\n"
+    },
+    {
+      "id": "E-M-AGE",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "[1] The proportion of overdiagnosis varied by site and strongly increased with age, going from 1% at age 50 to over 10% of screen-detected cancers by age 75.\n"
+    },
+    {
+      "id": "E-M-PPV",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "[1] The test positive predictive value ranged from 15.9% to 77.6%, meaning that there could be 0.3-5.3 false positives with no underlying cancer for every true cancer case detected by the test.\n"
+    },
+    {
+      "id": "E-GAL-HDR",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "# [2] Sasieni P, Johnson P, Round T, et al. Effect of Screening with Multicancer Early-Detection Test on Late-Stage Cancer Diagnosis. N Engl J Med 2026;395(14):1374-1386. PMID 42776074, PMC7619610, doi 10.1056/NEJMoa2505723. NHS-Galleri, NCT05611632. Author affiliations include GRAIL Bio UK, London. No conflict statement in the PubMed record.\n"
+    },
+    {
+      "id": "E-GAL-END",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "[2] The primary end point was stage III or IV cancer among 12 prespecified types of cancer, and a key secondary end point was stage IV cancer among the 12 prespecified types.\n"
+    },
+    {
+      "id": "E-GAL-N",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "[2] RESULTS: Overall, 71,122 participants were randomly assigned to the intervention group and 71,128 to the control group.\n"
+    },
+    {
+      "id": "E-GAL-PRIM",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "[2] The incidence rate of stage III or IV cancer (primary end point) did not differ significantly between the groups (incidence rate ratio [intervention vs. control], 1.03; 95% confidence interval [CI], 0.92 to 1.14, P = 0.63).\n"
+    },
+    {
+      "id": "E-GAL-IV",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "[2] The incidence rate ratio for stage IV cancer (a key secondary end point) after 3 screening rounds was 0.86 (95% CI, 0.74 to 1.00).\n"
+    },
+    {
+      "id": "E-GAL-FU",
+      "artifact_id": "A-SCREEN",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "[2] Further follow-up is warranted to assess the way in which findings for stage III or IV cancers and the between-group difference in stage IV cancers evolve over time. (Funded by Grail; NHS-Galleri ClinicalTrials.gov number, NCT05611632; ISRCTN number, ISRCTN91431511.).\n"
+    },
+    {
+      "id": "E-SYN-REV",
+      "artifact_id": "A-DEN-OUT",
+      "lines_1based_halfopen": [
+        4,
+        44
+      ],
+      "text": "  \"reversal\": {\n    \"mild\": {\n      \"new\": {\n        \"treated\": 200,\n        \"recovered\": 180,\n        \"percent\": \"90.0\"\n      },\n      \"old\": {\n        \"treated\": 600,\n        \"recovered\": 520,\n        \"percent\": \"86.7\"\n      }\n    },\n    \"severe\": {\n      \"new\": {\n        \"treated\": 600,\n        \"recovered\": 300,\n        \"percent\": \"50.0\"\n      },\n      \"old\": {\n        \"treated\": 200,\n        \"recovered\": 80,\n        \"percent\": \"40.0\"\n      }\n    },\n    \"overall\": {\n      \"new\": {\n        \"treated\": 800,\n        \"recovered\": 480,\n        \"percent\": \"60.0\"\n      },\n      \"old\": {\n        \"treated\": 800,\n        \"recovered\": 600,\n        \"percent\": \"75.0\"\n      }\n    },\n    \"new_better_in_each_group\": true,\n    \"new_better_overall\": false\n  },\n"
+    },
+    {
+      "id": "E-SYN-READ",
+      "artifact_id": "A-DEN-OUT",
+      "lines_1based_halfopen": [
+        44,
+        49
+      ],
+      "text": "  \"many_readouts\": {\n    \"readouts\": 16,\n    \"level\": \"0.05\",\n    \"chance_at_least_one_false_positive\": \"0.56\"\n  },\n"
+    },
+    {
+      "id": "E-SYN-ROUND",
+      "artifact_id": "A-DEN-OUT",
+      "lines_1based_halfopen": [
+        49,
+        69
+      ],
+      "text": "  \"rounded_percentages\": {\n    \"observations\": [\n      [\n        7,\n        \"3.7\"\n      ],\n      [\n        12,\n        \"6.3\"\n      ],\n      [\n        19,\n        \"9.9\"\n      ]\n    ],\n    \"search\": \"100-400\",\n    \"denominators_consistent\": [\n      191\n    ]\n  }\n"
+    },
+    {
+      "id": "E-SYN-DESIGN",
+      "artifact_id": "A-DEN-CODE",
+      "lines_1based_halfopen": [
+        3,
+        15
+      ],
+      "text": "Part A, reversal. Two treatments, new and old, given to 800 patients each.\n- Mild patients: new 200 treated, 180 recover; old 600 treated, 520 recover.\n- Severe patients: new 600 treated, 300 recover; old 200 treated, 80 recover.\nThe new treatment does better within each group but worse overall, because it was\ngiven mostly to severe patients.\n\nPart B, many readouts. If an intervention has no effect and each of 16 independent\nreadouts is tested at the 5 percent level, the chance that at least one is \"significant\"\nis 1 - 0.95^16. Real clocks are correlated, so this is an upper-end illustration.\n\nPart C, rounded percentages. Three counts reported with percentages rounded to one decimal\nplace: 7 (3.7%), 12 (6.3%), 19 (9.9%). Search every denominator from 100 to 400.\n"
+    },
+    {
+      "id": "E-B-HDR",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# [1] Bickel PJ, Hammel EA, O'connell JW. Sex bias in graduate admissions: data from berkeley. Science 1975;187(4175):398-404. PMID 17835295, doi 10.1126/science.187.4175.398.\n"
+    },
+    {
+      "id": "E-B-AGG",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "[1] Examination of aggregate data on graduate admissions to the University of California, Berkeley, for fall 1973 shows a clear but misleading pattern of bias against female applicants.\n"
+    },
+    {
+      "id": "E-B-DIS",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "[1] Examination of the disaggregated data reveals few decision-making units that show statistically significant departures from expected frequencies of female admissions, and about as many units appear to favor women as to favor men.\n"
+    },
+    {
+      "id": "E-B-POOL",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "[1] If the data are properly pooled, taking into account the autonomy of departmental decision making, thus correcting for the tendency of women to apply to graduate departments that are more difficult for applicants of either sex to enter, there is a small but statistically significant bias in favor of women.\n"
+    },
+    {
+      "id": "E-W-RAND",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "[2] Here we report the results of a post hoc analysis of the influence of CR on DNAm measures of aging in blood samples from the Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy (CALERIE) trial, a randomized controlled trial in which n = 220 adults without obesity were randomized to 25% CR or ad libitum control diet for 2 yr (ref. 10).\n"
+    },
+    {
+      "id": "E-W-COI",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "[2] Conflict of interest statement: D.L.C. and D.W.B. are listed as inventors on a Duke University and University of Otago invention, DunedinPACE, that was licensed to a commercial entity. The other authors declare no competing interests.\n"
+    },
+    {
+      "id": "E-L-METH",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "[3] METHODS: In this exploratory substudy of the LoDoCo2 (Low-Dose Colchicine 2) trial, high-coverage targeted sequencing was used to detect CH driver mutations and to quantify variant allele frequency at 4 timepoints: baseline, after a 30-day open-label colchicine run-in phase (0.5 mg daily), 1 year postrandomization to colchicine or placebo, and at end of study (median follow-up of 25.0 months).\n"
+    },
+    {
+      "id": "E-L-N",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "[3] RESULTS: In total, 854 participants contributed 2,047 observations across 4 timepoints, including before and after the prerandomization colchicine run-in period.\n"
+    },
+    {
+      "id": "E-L-RATE",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "[3] Randomization to placebo was associated with a 14.9% annual increase in CH clone size (βtime = 0.14; 95% CI: 0.08 to 0.21) vs a nonsignificant 6.3% increase with colchicine (βtime on colchicine: 0.06; 95% CI: -0.01 to 0.14), although this difference between treatment arms was not statistically significant (Pinteraction = 0.13).\n"
+    },
+    {
+      "id": "E-L-TET2",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "[3] Compared with placebo, colchicine was associated with attenuated clonal growth in TET2 CH (βtime on colchicine: 0.09 [95% CI: -0.04 to 0.22]; βtime placebo: 0.27 [95% CI: 0.16 to 0.37]; Pinteraction= 0.04).\n"
+    },
+    {
+      "id": "E-L-VALID",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        14,
+        15
+      ],
+      "text": "[3] Further validation in prospective studies is warranted.\n"
+    },
+    {
+      "id": "E-V-METH",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        16,
+        17
+      ],
+      "text": "[4] METHODS: We used data from the Berlin Aging Study II (BASE-II, 60-80 years of age at baseline, average follow-up 7.4 ± 1.5 years, range 3.9-10.4, n = 1,083) to compare 14 biomarkers of aging recently consented by an expert panel for the use as outcome measures in intervention studies: physiological (insulin-like growth factor 1 (IGF-1), growth-differentiating factor-15 (DNA methylation derived, DNAmGDF15)), inflammatory (high sensitivity C-reactive protein (CRP), interleukin-6 (IL-6)), functional (muscle mass, muscle strength, hand grip strength (HGS), Timed-Up-and-Go (TUG), gait speed, standing balance test, frailty phenotype (FP), cognitive health, blood pressure), and epigenetic (epigenetic clock, DunedinPACE).\n"
+    },
+    {
+      "id": "E-V-CONC",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        17,
+        18
+      ],
+      "text": "[4] CONCLUSION: Among the fourteen investigated biomarkers of aging, DunedinPACE emerged with the strongest and most consistent association with mortality.\n"
+    },
+    {
+      "id": "E-V-COI",
+      "artifact_id": "A-COUNTED",
+      "lines_1based_halfopen": [
+        18,
+        19
+      ],
+      "text": "[4] Competing interests: CAD is cofounder, stockowner, board member and consultant in Vitas Ltd. TEG is CEO and stockowner in Vitas Ltd.\n"
+    },
+    {
+      "id": "E-S-AUTH",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# Both papers come from the Higgins-Chen group (Yale); Sehgal R, Borrus D(S), Armstrong JF, Gonzalez J, Kasamoto J and Higgins-Chen A are authors of both.\n"
+    },
+    {
+      "id": "E-S-HDR",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "# [1] Sehgal R, Borrus D, Armstrong JF, Gonzalez J, Kasamoto J, Markov Y, Priyanka A, Smith R, Carreras-Gallo N, Lasky-Su J, Dwaraka VB, Corley MJ, Higgins-Chen A. Responsiveness of epigenetic aging biomarkers to longevity interventions in humans. Nat Med 2026;32(9):3477-3490. PMID 42629466, PMC13577923, doi 10.1038/s41591-026-04562-9.\n"
+    },
+    {
+      "id": "E-S-DB",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "[1] Here we curate TranslAGE, a harmonized database of 51 public and private longitudinal interventional studies, and calculate a consistent set of 16 prominent epigenetic clocks for each study, along with 94 other DNA methylation (DNAm) biomarkers that can help explain the changes observed for each clock.\n"
+    },
+    {
+      "id": "E-S-RESP",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "[1] For example, clocks trained to predict mortality or pace of aging show the strongest responses across all interventions and show consistent results with one another; pharmacological and lifestyle interventions drive the strongest responses from DNAm biomarkers; and the characteristics of the study population and study duration are key factors in determining the responsiveness of DNAm biomarkers to an intervention.\n"
+    },
+    {
+      "id": "E-S-COI",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "[1] Conflict of interest statement: Competing interests: R. Sehgal and A.H.-C. are named as co-inventors of SystemsAge, which has been patented in the USA. A.H.-C. has received consulting fees from TruDiagnostic and FOXO Biosciences. R. Sehgal has received consulting fees from TruDiagnostic, LongevityTech.fund and Cambrian BioPharma. V.B.D., R. Smith and N.C.-G. are employees of TruDiagnostic and developed OMICmAge. The other authors declare no competing interests.\n"
+    },
+    {
+      "id": "E-BO-HDR",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "# [2] Borrus DS, Sehgal R, Armstrong JF, Kasamoto J, Gonzalez J, Higgins-Chen A. When to Trust Epigenetic Clocks: Avoiding False Positives in Aging Interventions. Aging Cell 2026;25(10):e70756. PMID 42850743, PMC13650178, doi 10.1111/acel.70756.\n"
+    },
+    {
+      "id": "E-BO-EXT",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "[2] In this study, we find that when extending previously published single-clock intervention studies to include additional clock models, no additional clocks reach statistical significance.\n"
+    },
+    {
+      "id": "E-BO-CRIT",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "[2] We then analyze clock behavior across positive control datasets (age-accelerating events) to propose three criteria that increase confidence in a result: (1) reliable PC-based clocks respond, (2) mortality-trained or pace-of-aging clocks respond, and (3) multiple clocks respond in the same direction.\n"
+    },
+    {
+      "id": "E-BO-REEX",
+      "artifact_id": "A-CLOCKS",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "[2] These findings provide a framework for interpreting epigenetic clock results in anti-aging intervention studies, and suggest that some previously published single-clock findings may warrant reexamination.\n"
+    },
+    {
+      "id": "E-R-X31",
+      "artifact_id": "A-RECORDS",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "| X31 | 2026-11-27 | CALERIE 甲基化分析时点人数的集合边界冲突 | [Main 与 Fig. 1](https://www.nature.com/articles/s43587-022-00357-y/figures/1)：分析 128/69，12 月变化 125/66、24 月变化 117/68；Main 三时点 105/59。[补充表 S1](https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-022-00357-y/MediaObjects/43587_2022_357_MOESM1_ESM.pdf)称 AL 12 月随访 65 | 在共同人群、个人唯一与共同筛选假设下，图注给出交集下界 114/65；换 S1 的 65 后为 114/64，均与 Main 不相容。随访数据与变化数据的定义、筛选可能不同；作者澄清、数据和模型未取得 | 不判哪个数字错误或效应方向；核数据字典、样本 QC 和作者解释；[本轮溯源与两种条件算术](CALERIE_TEMPORAL_AUDIT_2026-11-27.md) | open |\n"
+    },
+    {
+      "id": "E-R-X106",
+      "artifact_id": "A-RECORDS",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "| X106 | 2026-11-27 | CALERIE 2026 轨迹报告补表 S3 的百分比只与分母 191 相容 | 本轮独立重算：按四舍五入到一位小数，10 组\"缺失数/百分比\"在 N∈[100,400] 范围内只与 N=191 相容；正文写 190 人。另一份同试验报告（X105）恰为 191 人。来源：[轨迹缺失审计](imported_pr2/CALERIE_TRAJECTORY_MISSINGNESS_FIGSHARE_2026-11-27.md)，脚本 `rounded_percentage_denominators.py` | 不证明补表实际用了 191 人；百分比的生成方式未知 | 扩展 X60；作为向作者提问的线索，不改数字 | open（描述性重算） |\n"
+    },
+    {
+      "id": "E-R-X126",
+      "artifact_id": "A-RECORDS",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "| X126 | 2026-11-27 | 单钟\"逆龄\"在扩展到多钟后不成立；组成校正显著削弱部分事件效应 | [Borrus…Higgins-Chen, *Aging Cell* 2026;25(10):e70756](https://pmc.ncbi.nlm.nih.gov/articles/PMC13650178/)：既往单钟阳性的干预数据扩展到其他钟后无一显著；用 EpiDISH 12 类细胞校正后，手术和放化疗效应的跨钟中位衰减分别为 77% 和 73%；两种地中海饮食组保留大部分效应 | 读到 PMC 正文的讨论与方法片段，未读补充表；衰减量来自\"老化加速事件\"数据，不是返老干预；EpiDISH 是参考分解估计，非实测计数；与 TranslAGE（X96）同属 Higgins-Chen 实验室家族，**不计独立复制** | 作为第 5–6、16 章和 PI 第②层的实证量级引用；写作时同时写明参照、方法与来源家族 | supported（片段级核读） |\n"
+    },
+    {
+      "id": "E-R-CAL",
+      "artifact_id": "A-RECORDS",
+      "lines_1based_halfopen": [
+        9,
+        17
+      ],
+      "text": "| 报告位置与定义 | CR | AL | 合计 |\n|---|---:|---:|---:|\n| Main：基线且至少一个随访的分析人群 | 128 | 69 | 197 |\n| Fig. 1 图注：基线至 12 月变化 | 125 | 66 | 191 |\n| Fig. 1 图注：基线至 24 月变化 | 117 | 68 | 185 |\n| Supplementary Table S1 说明：12 月**随访数据** | 125 | 65 | 190 |\n| Supplementary Table S1 说明：24 月随访数据 | 117 | 68 | 185 |\n| Main：三个时点均有数据 | 105 | 59 | 164 |\n"
+    },
+    {
+      "id": "E-R-BASE",
+      "artifact_id": "A-RECORDS",
+      "lines_1based_halfopen": [
+        18,
+        19
+      ],
+      "text": "- T0 为 1,671 名 60 岁及以上参与者、随访记录 316 人死亡；平均 7.4 年后的 T1 共有 1,083 人，T1 后该组 90 人死亡。**单指标主图**对大多数指标用 T0，对 DNAm 指标及 IGF-1 用 T1：分别有不同年龄、风险集和随访窗。T0 DNAm 只在后来参加 T1 者中有；**联合模型**使用这些人的 T0 测量并使用左截断。左截断处理风险时间，不自动证明 T1 选择与失访无偏。\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH4-EN-C001",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        17,
+        18
+      ],
+      "text": "A modelling study of multicancer blood tests shows how much the choice matters. Its authors used a microsimulation model, not a trial, to estimate what would happen if people aged 50 to 75 in Canada were screened. They estimated that 2.1 to 6.0 percent of yearly screen-detected cancers would be overdiagnoses, rising with age from 1 percent at 50 to over 10 percent of screen-detected cancers by 75. The denominator is cancers found by screening, not people screened, so these figures cannot be read as one person in ten being harmed. The same model gives the test a positive predictive value of 15.9 to 77.6 percent: for every true cancer it detects, there could be 0.3 to 5.3 false positives with no cancer.[^1]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "simulated Canadian population screened at ages 50-75",
+        "time": "yearly and lifetime",
+        "estimand": "share of screen-detected cancers that are overdiagnoses; positive predictive value",
+        "unit": "screen-detected cancer",
+        "design": "microsimulation model (not trial data)",
+        "domain": "multicancer early detection"
+      },
+      "evidence_ids": [
+        "E-M-HDR",
+        "E-M-MODEL",
+        "E-M-RANGE",
+        "E-M-AGE",
+        "E-M-PPV"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Microsimulation; ages 50-75 in Canada; 2.1-6.0% of yearly screen-detected cancers predicted overdiagnoses; 1% at 50 to over 10% of screen-detected cancers by 75; PPV 15.9-77.6%; 0.3-5.3 false positives per true cancer. All match. The denominator remark is the chapter's reading of \"of screen-detected cancers\".",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-SCREEN": "691daab14bc7af6123b42c1e3c9ed5d51260fe7c00b7389c9dffb5a21db5c2b5"
+        },
+        "record_sha256": "030cba48b9b0941ff0ea10222b8553a4abafeba756a4e8d938ef500c832a7a67",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C002",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        23,
+        24
+      ],
+      "text": "A synthetic example, built by this project with no real data, shows how. Two treatments are each given to 800 patients. Among mild patients, the new treatment helps 180 of 200, 90.0 percent, and the old one 520 of 600, 86.7 percent. Among severe patients, the new treatment helps 300 of 600, 50.0 percent, and the old one 80 of 200, 40.0 percent. The new treatment does better in both groups. Pool the groups and it does worse: 480 of 800, 60.0 percent, against 600 of 800, 75.0 percent. Nothing is miscounted. The new treatment was simply given mostly to severe patients, so its overall denominator is full of people who were less likely to recover anyway.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "none: 1600 synthetic patients",
+        "time": "single period",
+        "estimand": "recovery percentage by treatment, within and across severity groups",
+        "unit": "synthetic patient",
+        "design": "exact arithmetic (script and tests)",
+        "domain": "aggregation arithmetic only"
+      },
+      "evidence_ids": [
+        "E-SYN-DESIGN",
+        "E-SYN-REV"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Mild 180/200 (90.0) vs 520/600 (86.7); severe 300/600 (50.0) vs 80/200 (40.0); overall 480/800 (60.0) vs 600/800 (75.0); new better in each group, worse overall. All match. Formal claim.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-DEN-CODE": "73c78e9c67c9d9414977ab4fd60c7875ecf6065a83b982715606f646b029b1c0",
+          "A-DEN-OUT": "91cf01a580081cb7950d4051b98916e0c0d95644294fa0855e0b5db7dd698944"
+        },
+        "record_sha256": "9920a943cb881d8439b66c6dd893c0aabee83c1a12633778232ed20034d7847e",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C003",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        25,
+        26
+      ],
+      "text": "This is not only a textbook trap. A 1975 study of graduate admissions at the University of California, Berkeley, found that the aggregate data for fall 1973 showed \"a clear but misleading pattern\" of bias against women. Department by department, few units departed significantly from the expected admissions of women, and about as many appeared to favour women as men. Once the data were pooled in a way that took account of each department deciding for itself, and of women tending to apply to departments that were harder for anyone to enter, there was a small but statistically significant bias in favour of women.[^2] The direction of the pooled number came from where people applied, not from how they were treated.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "graduate applicants, University of California, Berkeley",
+        "time": "fall 1973",
+        "estimand": "admission by sex, aggregate and by department",
+        "unit": "applicant",
+        "design": "observational analysis of admissions records",
+        "domain": "graduate admissions (not health)"
+      },
+      "evidence_ids": [
+        "E-B-HDR",
+        "E-B-AGG",
+        "E-B-DIS",
+        "E-B-POOL"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Aggregate data show a clear but misleading pattern of bias against women; few departments depart significantly, about as many favour women as men; proper pooling, accounting for departmental autonomy and for women applying to harder departments, gives a small significant bias in favour of women. All match; \"a clear but misleading pattern\" quoted.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e"
+        },
+        "record_sha256": "bb3868208299180ffb659360d2c6b047bb321e021bd444e2b94f2e4b8a00037d",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C004",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        33,
+        34
+      ],
+      "text": "The CALERIE trial of calorie restriction is a careful study, and it shows how many denominators one trial can hold. In it, 220 adults without obesity were randomised to 25 percent calorie restriction or to their usual diet for two years. A later analysis of DNA methylation in their blood, described by its authors as post hoc, did not analyse 220 people at each step. The project's audit of the published paper lists 128 people in the restriction group and 69 in the control group with a baseline and at least one follow-up sample; 117 and 68 for the change to 24 months; and 105 and 59 with data at all three time points. The audit also found that the counts given in different parts of the paper cannot all describe the same people under simple assumptions, and it does not decide which number is wrong; the authors' clarification has not been obtained.[^3]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "CALERIE participants (adults without obesity)",
+        "time": "2 years; baseline, 12 and 24 months",
+        "estimand": "number analysed at each step of a post hoc methylation analysis",
+        "unit": "participant",
+        "design": "randomized trial; post hoc analysis",
+        "domain": "calorie restriction and DNA methylation"
+      },
+      "evidence_ids": [
+        "E-W-RAND",
+        "E-R-CAL",
+        "E-R-X31"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "220 randomized to 25% CR or ad libitum for 2 yr; post hoc (abstract). Audit table: 128/69 baseline and at least one follow-up; 117/68 change to 24 months; 105/59 all three time points. X31: under common-population assumptions the counts are incompatible; author clarification not obtained; does not judge which number is wrong. All match. The judgement \"careful study\" is the author's, not a source claim.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e",
+          "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
+        },
+        "record_sha256": "35764c730b00ff0d3f5cf017afeb98c8577fe1752634e84a14e775e957cca716",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C005",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        37,
+        38
+      ],
+      "text": "Observational cohorts have their own version. The Berlin Aging Study II compared 14 candidate biomarkers of aging as predictors of death, and its abstract reports 1,083 people aged 60 to 80 at baseline, followed for an average of 7.4 years. It concluded that DunedinPACE, a methylation measure of the pace of aging, had the strongest and most consistent association with mortality. The project's audit of the full text records that the study began with 1,671 participants aged 60 and over; the 1,083 are those who also took part in a later wave of measurements, and the methylation measures were available only for people who took part in that later wave.[^4] A prediction made among people who returned describes people who returned. That can still be useful, but it is a different denominator from everyone who enrolled.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "BASE-II participants aged 60-80",
+        "time": "average follow-up 7.4 years",
+        "estimand": "association of 14 biomarkers with mortality; who entered the analysis",
+        "unit": "participant",
+        "design": "prospective cohort; Cox regression",
+        "domain": "biomarkers of aging"
+      },
+      "evidence_ids": [
+        "E-V-METH",
+        "E-V-CONC",
+        "E-R-BASE"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Abstract: 60-80 at baseline, average follow-up 7.4 years, n = 1,083; 14 biomarkers; DunedinPACE strongest and most consistent association. Audit: T0 1,671 aged 60 and over; T1 1,083; T0 DNAm available only in those who later took part in T1. Match. \"Pace of aging\" glosses DunedinPACE.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e",
+          "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
+        },
+        "record_sha256": "62c8258d71f9e0b437aaf4ed2930268b03170016d1f15899699fd885000bde8f",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C006",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        39,
+        40
+      ],
+      "text": "Time matters inside randomised comparisons too. In an exploratory substudy of the LoDoCo2 trial of colchicine in coronary disease, researchers followed the growth of clonal haematopoiesis, an aging-related condition in which clones of blood cells carrying driver mutations expand. In total, 854 participants contributed 2,047 observations across four time points, including before and after a run-in period in which everyone took colchicine before randomisation. In the placebo group, clone size grew by 14.9 percent a year; in the colchicine group, a nonsignificant 6.3 percent. It is tempting to conclude that colchicine stopped the growth. But the difference between the two groups was not statistically significant (P for interaction 0.13). One group changing significantly and the other not is two separate tests, not a comparison of the groups. Among people with mutations in one gene, TET2, the difference between groups did reach P=0.04, in an exploratory analysis. The authors themselves wrote that further validation in prospective studies is warranted.[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "LoDoCo2 participants with chronic coronary artery disease",
+        "time": "4 time points; median 25.0 months",
+        "estimand": "clone growth by arm; between-arm interaction",
+        "unit": "participant",
+        "design": "exploratory substudy of a randomized trial",
+        "domain": "colchicine and clonal haematopoiesis"
+      },
+      "evidence_ids": [
+        "E-L-METH",
+        "E-L-N",
+        "E-L-RATE",
+        "E-L-TET2",
+        "E-L-VALID"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Exploratory substudy; open-label run-in before randomization; 854 participants, 2,047 observations across 4 timepoints including before and after run-in; placebo 14.9% annual increase vs nonsignificant 6.3% with colchicine; between-arm difference not significant (P interaction 0.13); TET2 P interaction 0.04; validation warranted. All match. Coronary disease from the trial context; \"aging-related condition\" from the abstract background (not excerpted; the title and methods carry CH).",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e"
+        },
+        "record_sha256": "16378921ab259f14272209818d7a0ca0a57fc3ee37f517d49ed33593b36af471",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C007",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        47,
+        48
+      ],
+      "text": "In 2026 one laboratory group published two related studies of epigenetic clocks. The first assembled TranslAGE, a harmonised database of 51 public and private longitudinal intervention studies, and calculated 16 prominent clocks for each. It found that clocks trained to predict mortality or pace of aging show the strongest responses across all interventions, and agree with one another. The second, from the same group, proposed three criteria for trusting a clock result, one of which is that mortality-trained or pace-of-aging clocks respond. Six authors appear on both papers.[^6]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: published intervention datasets",
+        "time": "as published",
+        "estimand": "clock responsiveness; criteria for trusting clock results",
+        "unit": "study",
+        "design": "database curation and reanalysis",
+        "domain": "epigenetic clocks"
+      },
+      "evidence_ids": [
+        "E-S-AUTH",
+        "E-S-HDR",
+        "E-S-DB",
+        "E-S-RESP",
+        "E-BO-HDR",
+        "E-BO-CRIT",
+        "E-R-X126"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "TranslAGE: 51 public and private longitudinal interventional studies; 16 prominent clocks; mortality and pace clocks respond most and agree. Borrus: three criteria including mortality-trained or pace-of-aging clocks respond. Six shared authors (header). X126 records the pair as one family, not independent replication. All match.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-CLOCKS": "c2a12867aaeb3985f9d764babf8d8a2074e64aace6def68f88986b308ed73062",
+          "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
+        },
+        "record_sha256": "bb5fb20d14d0e2aec0573149810fd734d96ed4561472fe79707dd94aef0017fb",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C008",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        57,
+        58
+      ],
+      "text": "The NHS-Galleri trial of a multicancer blood test was funded by Grail, and some of its authors work for Grail Bio UK. It randomised 71,122 people to have their blood tested and 71,128 to have it stored. The primary end point was the rate of stage III or IV cancer among 12 prespecified types. It did not differ significantly between the groups (incidence rate ratio 1.03, 95 percent confidence interval 0.92 to 1.14). A key secondary end point, stage IV cancer alone, had a ratio of 0.86 (0.74 to 1.00). The authors called for further follow-up of both.[^1]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "people aged 50-77 in the NHS-Galleri trial",
+        "time": "three screening rounds plus at least 12 months",
+        "estimand": "incidence rate ratio of stage III-IV and stage IV cancer",
+        "unit": "participant",
+        "design": "randomized controlled trial",
+        "domain": "multicancer early detection"
+      },
+      "evidence_ids": [
+        "E-GAL-HDR",
+        "E-GAL-END",
+        "E-GAL-N",
+        "E-GAL-PRIM",
+        "E-GAL-IV",
+        "E-GAL-FU"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Funded by Grail; GRAIL Bio UK affiliation (header); 71,122 vs 71,128; primary stage III-IV among 12 prespecified types, IRR 1.03 (0.92-1.14); key secondary stage IV 0.86 (0.74-1.00); further follow-up warranted. All match. \"Blood tested\" versus \"stored\" is from the methods sentence not excerpted; the excerpt header and end points carry the design.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-SCREEN": "691daab14bc7af6123b42c1e3c9ed5d51260fe7c00b7389c9dffb5a21db5c2b5"
+        },
+        "record_sha256": "41319ddaf7b86f317602eedf86c5904c9810c5c55b9627eda0645760e5b118eb",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C009",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        61,
+        62
+      ],
+      "text": "Financial interests also run through academic work. Two authors of the CALERIE methylation analysis are listed as inventors on DunedinPACE, which was licensed to a commercial entity. Two authors of the BASE-II comparison own stock in a company called Vitas, one as a cofounder and one as its chief executive. Two authors of the TranslAGE paper are named co-inventors of a patented clock, and three are employees of TruDiagnostic who developed a biomarker called OMICmAge.[^7] Each of these interests was declared, as it should be. None shows that a result is wrong. Together they show why declared interests belong next to the number, so that a reader can ask whether the measure that came out best is one that someone sells.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: declared interests of authors",
+        "time": "as published",
+        "estimand": "declared competing interests",
+        "unit": "author",
+        "design": "competing-interests statements",
+        "domain": "research integrity"
+      },
+      "evidence_ids": [
+        "E-W-COI",
+        "E-V-COI",
+        "E-S-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Waziry: two authors inventors on DunedinPACE, licensed to a commercial entity. Vetter: CAD cofounder and stockowner, TEG CEO and stockowner in Vitas Ltd. Sehgal: two co-inventors of patented SystemsAge; three TruDiagnostic employees developed OMICmAge. All match.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e",
+          "A-CLOCKS": "c2a12867aaeb3985f9d764babf8d8a2074e64aace6def68f88986b308ed73062"
+        },
+        "record_sha256": "1cb8f2627f4cee400ab5de26d9058fc92c03e64f6ace0b8c20411583290a1e79",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C010",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        63,
+        64
+      ],
+      "text": "Some checks need no access to the data. Percentages that have been rounded carry a trace of their denominator. In a second synthetic example, three counts are reported as 7 (3.7 percent), 12 (6.3 percent) and 19 (9.9 percent). Of every denominator from 100 to 400, only 191 is consistent with all three. The project ran this check on a real supplementary table from a 2026 CALERIE report: its 10 pairs of counts and rounded percentages were compatible, within that range, only with a denominator of 191, while the main text describes 190 people. Another report from the same trial has exactly 191. The check does not prove which denominator the table used, and the ledger records it as a question to ask the authors, not a correction (X106).[^3]\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: synthetic counts; one project recalculation on a published table",
+        "time": "not applicable",
+        "estimand": "denominators consistent with rounded percentages",
+        "unit": "denominator",
+        "design": "exact arithmetic (script and tests); project ledger row",
+        "domain": "reporting arithmetic"
+      },
+      "evidence_ids": [
+        "E-SYN-DESIGN",
+        "E-SYN-ROUND",
+        "E-R-X106"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Synthetic: 7 (3.7), 12 (6.3), 19 (9.9); only 191 in 100-400. X106: 10 count/percentage pairs compatible only with N=191 in [100,400]; text says 190; another report (X105) has 191; does not prove; a question to authors. All match. Formal for the synthetic part; the X106 part is a project record, labelled so.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-DEN-CODE": "73c78e9c67c9d9414977ab4fd60c7875ecf6065a83b982715606f646b029b1c0",
+          "A-DEN-OUT": "91cf01a580081cb7950d4051b98916e0c0d95644294fa0855e0b5db7dd698944",
+          "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
+        },
+        "record_sha256": "5790cda7bab758f3999253dbcc7e51e3f9d747a86cfde8f231fcf53699818c29",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C011",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        73,
+        74
+      ],
+      "text": "\"Someone else, with other data\" is where source families matter, and also where many readouts matter. In the second clock paper, the authors took intervention studies that had reported a positive result with a single clock and recalculated the effect with other clocks. No additional clocks reached statistical significance. They suggested that some single-clock findings may need to be re-examined.[^6]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: previously published single-clock intervention studies",
+        "time": "as published",
+        "estimand": "significance of additional clocks on reanalysis",
+        "unit": "study",
+        "design": "reanalysis",
+        "domain": "epigenetic clocks"
+      },
+      "evidence_ids": [
+        "E-BO-HDR",
+        "E-BO-EXT",
+        "E-BO-REEX"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Extending single-clock intervention studies to more clocks: no additional clocks reach significance; some single-clock findings may warrant reexamination. Match.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-CLOCKS": "c2a12867aaeb3985f9d764babf8d8a2074e64aace6def68f88986b308ed73062"
+        },
+        "record_sha256": "b1129cf1fb97914b763d89ac66f8ae78d72f7ae3425407fca76747ccd2718836",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH4-EN-C012",
+      "artifact_id": "A-CH4-EN",
+      "lines_1based_halfopen": [
+        75,
+        76
+      ],
+      "text": "A third synthetic calculation shows why one positive readout among many is weak evidence. If an intervention has no effect at all, and 16 independent readouts are each tested at the 5 percent level, the chance that at least one comes out \"significant\" is 0.56. Real clocks are correlated, so the true chance is lower, but the lesson holds: the more readouts a study reports, the less one positive among them should move a reader.\n",
+      "kind": "formal",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: 16 independent null readouts",
+        "time": "not applicable",
+        "estimand": "chance of at least one result below 0.05",
+        "unit": "readout",
+        "design": "exact arithmetic (script and tests)",
+        "domain": "multiple testing arithmetic only"
+      },
+      "evidence_ids": [
+        "E-SYN-DESIGN",
+        "E-SYN-READ"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "1 - 0.95^16 = 0.56 under independence; script docstring notes correlated clocks give a lower figure. Match. Formal claim.",
+        "bound_hashes": {
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
+          "A-DEN-CODE": "73c78e9c67c9d9414977ab4fd60c7875ecf6065a83b982715606f646b029b1c0",
+          "A-DEN-OUT": "91cf01a580081cb7950d4051b98916e0c0d95644294fa0855e0b5db7dd698944"
+        },
+        "record_sha256": "01fba7bd058c0cf6ee0f4a5bcc84b78004462abadb13a2075ed82c48d368a0f5",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "not_applicable",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH4-EN-INDEPENDENT-REVIEW",
+      "status": "closed",
+      "blocks_formal_release": false,
+      "question": "No independent review by a statistician or a trialist (D05)",
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
+    },
+    {
+      "id": "CH4-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "Eight studies at abstract depth; CALERIE (X31) and BASE-II counts from project audits not re-read; X106 is a question for the authors",
+      "next_action": "Re-read full texts; seek author clarification for X31 and X106",
+      "closure_evidence": "Full-text reading notes bound as excerpts; author replies if obtained"
+    }
+  ]
+}

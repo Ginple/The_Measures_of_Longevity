@@ -1,0 +1,52 @@
+{
+  "nature": "SYNTHETIC illustration; no real data; exact fractions",
+  "script": "knowledge_base/pilots/ch01_measure_en/synthetic_life_table.py",
+  "populations": {
+    "A": {
+      "n": 100,
+      "life_expectancy": "18",
+      "health_adjusted_life_expectancy": "15",
+      "gap_equivalent_lost_years": "3",
+      "ages_at_death": {
+        "10": 20,
+        "20": 80
+      },
+      "equivalent_lost_years_per_person": {
+        "1": 20,
+        "7/2": 80
+      },
+      "people_dying_at_life_expectancy": 0,
+      "people_whose_loss_equals_gap": 0
+    },
+    "B": {
+      "n": 100,
+      "life_expectancy": "18",
+      "health_adjusted_life_expectancy": "15",
+      "gap_equivalent_lost_years": "3",
+      "ages_at_death": {
+        "18": 100
+      },
+      "equivalent_lost_years_per_person": {
+        "3": 100
+      },
+      "people_dying_at_life_expectancy": 100,
+      "people_whose_loss_equals_gap": 100
+    },
+    "C": {
+      "n": 100,
+      "life_expectancy": "18",
+      "health_adjusted_life_expectancy": "15",
+      "gap_equivalent_lost_years": "3",
+      "ages_at_death": {
+        "10": 20,
+        "20": 80
+      },
+      "equivalent_lost_years_per_person": {
+        "1": 80,
+        "11": 20
+      },
+      "people_dying_at_life_expectancy": 0,
+      "people_whose_loss_equals_gap": 0
+    }
+  }
+}

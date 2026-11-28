@@ -1,0 +1,7 @@
+# Sasieni et al. NEJM 2026;395(14):1374-1386, PMC7619610. Europe PMC fullTextXML rendered to text, fetched 2026-11-27. Short quotes only; markdown escape backslashes removed.
+1,496,311 individuals were invited, and 142,826 participants consented to the trial over 10.5 months13; 142,250 (99.6%) had their first blood draw and were randomized to intervention (71,122) or control (71,128) arms (Figure 1).
+Participants had 12 months follow-up after each of the first two MCED screening rounds, and a median of 17 (range: 12-22) months follow-up after the third round.
+There were 706 and 688 participants diagnosed with stage III/IV cancer of the 12 prespecified types in the intervention vs control arm after 3 screening rounds, yielding an incidence rate of 300.5 (95% CI: 278.7-323.5) and 292.5 (271.0-315.1) per 100,000 person-years, respectively (Figure 2, Table 2).
+Stage III/IV cancer incidence rate did not differ significantly between intervention and control arms (IRR: 1.03 [0.92-1.14], p=0.63).
+Testing stopped at the first non-significant step to control type I error. Secondary endpoints (Supplemental Methods section 6), including stage IV cancer incidence reduction, were interpreted descriptively with 95% CIs.
+Cancer-specific and nested mortality will be analyzed at 3 and 6 years after final trial visit as secondary endpoints; the trial was not powered for mortality endpoints.

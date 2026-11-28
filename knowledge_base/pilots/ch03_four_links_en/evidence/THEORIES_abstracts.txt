@@ -1,0 +1,24 @@
+# Verbatim quotes from three PubMed abstracts, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# [1] Gladyshev VN. Simply aging. Proc Natl Acad Sci U S A 2026;123(46):e2605454123. PMID 42993579, PMC13778651, doi 10.1073/pnas.2605454123. Brigham and Women's Hospital, Harvard Medical School.
+[1] Biological aging is complex and resists any single mechanistic narrative.
+[1] The organizing principle is that aging is a default outcome of living: because biological processes are inherently imperfect, deleterious changes (the deleteriome) accumulate over time and progressively erode functional reserve.
+[1] The deleteriome provides a unifying framework for molecular damage, regulatory drift, maladaptive remodeling, and system-level failure, without reducing aging to individual genes, pathways, compartments, hallmarks, or pathologies.
+[1] Evolution does not program aging; it shapes maintenance and renewal systems that oppose this trajectory with limited fidelity and unavoidable trade-offs.
+[1] Modern biomarkers make biological age imperfectly but increasingly measurable.
+[1] Biological age is heterogeneous across cells, organs, and systems, modifiable by interventions and environment, and in some contexts partially reversible or resettable, although aging itself is irreversible.
+[1] Conflict of interest statement: Competing interests statement:The author and reviewer A.A.C. were co-authors on reviews and perspectives within the last 4 y but have had no research collaborations in that time.
+# [2] Yücel AD, Molière A, Gladyshev VN. Written in development and lost in ageing: the grammar of cellular identity. Nature 2026;658(8134):45-54. PMID 42816559, doi 10.1038/s41586-026-10955-0. A review/perspective (no new primary experiment is described in the abstract).
+[2] Ageing has been described through many theoretical frameworks, yet its mechanistic basis remains unresolved.
+[2] Here we propose that ageing reflects progressive decanalization of mammalian cell identity, driven by erosion of a regulatory grammar written during development.
+[2] Subsequently, these constraints can only be maintained through local mechanisms with limited fidelity.
+[2] The asymmetry between high-fidelity writing and imperfect maintenance generates predictable drift that accumulates with biological time.
+[2] Consistent with this framework, the vast majority of age-associated DNA methylation gain in somatic mitotic tissues occurs at PRC2-bound low-methylated regions, indicating that these domains function as conserved coordinates of slow-layer drift.
+[2] It provides testable predictions for interventions that stabilize architecture to preserve cellular identity and function.
+[2] Conflict of interest statement: Competing interests: A.M. is employed by Novartis. The other authors declare no competing interests.
+# [3] Lemaître JF, Moorad J, Gaillard JM, Maklakov AA, Nussey DH. A unified framework for evolutionary genetic and physiological theories of aging. PLoS Biol 2024;22(2):e3002513. PMID 38412150, PMC10898761, doi 10.1371/journal.pbio.3002513. An Essay.
+[3] Why and how we age are 2 intertwined questions that have fascinated scientists for many decades.
+[3] However, attempts to answer these questions remain compartmentalized, preventing a comprehensive understanding of the aging process.
+[3] We argue that the current lack of knowledge about the evolution of aging mechanisms is due to a lack of clarity regarding evolutionary theories of aging that explicitly involve physiological processes: the disposable soma theory (DST) and the developmental theory of aging (DTA).
+[3] In this Essay, we propose a new hierarchical model linking genes to vital rates, enabling us to critically reevaluate the DST and DTA in terms of their relationship to evolutionary genetic theories of aging (mutation accumulation (MA) and antagonistic pleiotropy (AP)).
+[3] The new framework will help to generate testable hypotheses of how the hallmarks of aging are shaped by natural selection.
+[3] Conflict of interest statement: J.-M.G. is an academic editor at PLOS Biology. The other authors have declared that no competing interests exist.

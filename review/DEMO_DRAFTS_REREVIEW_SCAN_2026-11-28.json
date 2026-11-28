@@ -1,0 +1,295 @@
+{
+  "scope": "seven stale Chinese demo drafts (DEC-011 impact record)",
+  "drafts": [
+    {
+      "file": "books/manuscript/CH01_长寿的五个问题_示范稿.md",
+      "scheme_a_chapter": 1,
+      "outline_v1_chapter": 1,
+      "heading": "# 第一章｜长寿的五个问题",
+      "chapter_refs": [
+        {
+          "line": 3,
+          "n": 1,
+          "marked_old": false
+        },
+        {
+          "line": 39,
+          "n": 5,
+          "marked_old": false
+        },
+        {
+          "line": 77,
+          "n": 5,
+          "marked_old": true
+        },
+        {
+          "line": 77,
+          "n": 15,
+          "marked_old": true
+        },
+        {
+          "line": 77,
+          "n": 1,
+          "marked_old": false
+        }
+      ],
+      "relative_refs": [],
+      "paper_labels": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "ledger_ids": {
+        "X20": "open",
+        "X21": "open（统计来源待核）",
+        "X29": "open",
+        "X31": "open",
+        "X49": "open",
+        "X59": "open",
+        "X61": "open"
+      },
+      "watch_terms": [],
+      "has_rereview_note": true,
+      "has_external_review_status": true
+    },
+    {
+      "file": "books/manuscript/CH19_谁替谁维护_示范稿.md",
+      "scheme_a_chapter": 19,
+      "outline_v1_chapter": 21,
+      "heading": "# 第21章（旧稿第19章）｜谁替谁维护",
+      "chapter_refs": [
+        {
+          "line": 35,
+          "n": 19,
+          "marked_old": false
+        },
+        {
+          "line": 69,
+          "n": 21,
+          "marked_old": false
+        }
+      ],
+      "relative_refs": [],
+      "paper_labels": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "ledger_ids": {
+        "X62": "open（证据边界，非声称原论文错误）",
+        "X63": "open（计量边界，无计算错误裁定）"
+      },
+      "watch_terms": [
+        {
+          "line": 15,
+          "term": "延寿",
+          "context": "节造成。它们也不是对人类延寿方法的临床验证。"
+        },
+        {
+          "line": 33,
+          "term": "首次",
+          "context": "粒。研究者发现，巨噬细胞首次摄取凋亡细胞可引起线粒体"
+        },
+        {
+          "line": 63,
+          "term": "首创",
+          "context": "。源—接收不是本书的概念首创，也不是已验证的六模块总"
+        }
+      ],
+      "has_rereview_note": true,
+      "has_external_review_status": true
+    },
+    {
+      "file": "books/manuscript/CH20_平均不等于及时_示范稿.md",
+      "scheme_a_chapter": 20,
+      "outline_v1_chapter": 21,
+      "heading": "# 第21章（旧稿第20章）｜平均不等于及时",
+      "chapter_refs": [
+        {
+          "line": 65,
+          "n": 22,
+          "marked_old": true
+        },
+        {
+          "line": 65,
+          "n": 21,
+          "marked_old": false
+        }
+      ],
+      "relative_refs": [
+        {
+          "line": 49,
+          "term": "下一章"
+        }
+      ],
+      "paper_labels": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "ledger_ids": {
+        "X64": "open"
+      },
+      "watch_terms": [
+        {
+          "line": 61,
+          "term": "抗衰",
+          "context": " 试验；不能据此判断某种抗衰组合的人体获益、长期安全"
+        }
+      ],
+      "has_rereview_note": true,
+      "has_external_review_status": true
+    },
+    {
+      "file": "books/manuscript/CH21_有余量却用不上_示范稿.md",
+      "scheme_a_chapter": 21,
+      "outline_v1_chapter": 22,
+      "heading": "# 第22章（旧稿第21章）｜有余量却用不上",
+      "chapter_refs": [
+        {
+          "line": 51,
+          "n": 19,
+          "marked_old": false
+        },
+        {
+          "line": 64,
+          "n": 22,
+          "marked_old": false
+        }
+      ],
+      "relative_refs": [],
+      "paper_labels": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "ledger_ids": {
+        "X65": "open（证据边界）"
+      },
+      "watch_terms": [],
+      "has_rereview_note": true,
+      "has_external_review_status": true
+    },
+    {
+      "file": "books/manuscript/CH22_清除之后谁来接班_示范稿.md",
+      "scheme_a_chapter": 22,
+      "outline_v1_chapter": 19,
+      "heading": "# 第19章（旧稿第22章）｜清除之后，谁来接班",
+      "chapter_refs": [
+        {
+          "line": 57,
+          "n": 15,
+          "marked_old": false
+        },
+        {
+          "line": 70,
+          "n": 19,
+          "marked_old": false
+        }
+      ],
+      "relative_refs": [],
+      "paper_labels": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "ledger_ids": {
+        "X66": "open（范围和设计限定）",
+        "X67": "open",
+        "X68": "open（待复现）"
+      },
+      "watch_terms": [
+        {
+          "line": 68,
+          "term": "延寿",
+          "context": "害；不由动物结果推断人类延寿。"
+        }
+      ],
+      "has_rereview_note": true,
+      "has_external_review_status": true
+    },
+    {
+      "file": "books/manuscript/CH23_状态还在细胞换了吗_示范稿.md",
+      "scheme_a_chapter": 23,
+      "outline_v1_chapter": 15,
+      "heading": "# 第15章（旧稿第23章）｜状态还在，细胞换了吗？",
+      "chapter_refs": [
+        {
+          "line": 57,
+          "n": 17,
+          "marked_old": false
+        },
+        {
+          "line": 70,
+          "n": 15,
+          "marked_old": false
+        }
+      ],
+      "relative_refs": [],
+      "paper_labels": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "ledger_ids": {
+        "X39": "open（术语纠正，人工依赖复审及独立外审待完成）",
+        "X69": "open（证据和识别边界）",
+        "X70": "open（报告冲突待核）",
+        "X162": "resolved（全文核对；未复算）"
+      },
+      "watch_terms": [],
+      "has_rereview_note": true,
+      "has_external_review_status": true
+    },
+    {
+      "file": "books/manuscript/CH24_修好这一次还剩多少下一次_示范稿.md",
+      "scheme_a_chapter": 24,
+      "outline_v1_chapter": 17,
+      "heading": "# 第17章（旧稿第24章）｜修好这一次，还剩多少下一次",
+      "chapter_refs": [
+        {
+          "line": 11,
+          "n": 15,
+          "marked_old": false
+        },
+        {
+          "line": 48,
+          "n": 15,
+          "marked_old": false
+        }
+      ],
+      "relative_refs": [],
+      "paper_labels": [
+        "P5"
+      ],
+      "ledger_ids": {
+        "X74": "open",
+        "X76": "open"
+      },
+      "watch_terms": [
+        {
+          "line": 3,
+          "term": "首创",
+          "context": "张发现修复记忆或其利弊的首创权。下述主要是动物和类器"
+        },
+        {
+          "line": 15,
+          "term": "首次",
+          "context": "的上皮增殖和组织学恢复；首次照射21天后取得的细胞，"
+        },
+        {
+          "line": 19,
+          "term": "首创",
+          "context": "潜在风险的双面性不是本书首创。[SKIN23](ht"
+        }
+      ],
+      "has_rereview_note": true,
+      "has_external_review_status": true
+    }
+  ],
+  "warning": "Mechanical listing for a human reviewer; a hit is not an error and a clean scan is not a scientific review."
+}

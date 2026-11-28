@@ -1,0 +1,7 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Belsky DW, Caspi A, Houts R, ... Poulton R, Moffitt TE. Quantification of biological aging in young adults. Proc Natl Acad Sci U S A 2015;112(30):E4104-10. PMID 26150497, PMC4522793, doi 10.1073/pnas.1506264112. Conflict of interest statement: The authors declare no conflict of interest.
+We studied aging in 954 young humans, the Dunedin Study birth cohort, tracking multiple biomarkers across three time points spanning their third and fourth decades of life.
+We developed and validated two methods by which aging can be measured in young adults, one cross-sectional and one longitudinal.
+Our longitudinal measure allows quantification of the pace of coordinated physiological deterioration across multiple organ systems (e.g., pulmonary, periodontal, cardiovascular, renal, hepatic, and immune function).
+Young individuals of the same chronological age varied in their "biological aging" (declining integrity of multiple organ systems).
+Already, before midlife, individuals who were aging more rapidly were less physically able, showed cognitive decline and brain aging, self-reported worse health, and looked older.

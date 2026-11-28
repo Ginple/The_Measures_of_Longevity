@@ -1,0 +1,24 @@
+# Ch9 English pilot (DEC-016) / 第 9 章英文试点
+
+- **What it binds**: eleven paragraph units of the English draft [CH09_reserve_draft_en.md](../../../books/manuscript/en/CH09_reserve_draft_en.md). The chapter is new writing; no earlier chapter is inherited.
+- **Evidence**:
+  - Verbatim abstract sentences in `evidence/`, with competing-interests statements where declared:
+    - Anderson, Li and Sharrow 2017, used only as a secondary description of Strehler–Mildvan 1960;
+    - Fliser 1993 (renal functional reserve; the indexed abstract is truncated);
+    - Paterson 1999 and Shephard 2009 (aerobic threshold for independent living);
+    - Fleg 2005 (longitudinal aerobic decline; the same excerpt as the ch7 pilot);
+    - Egbujie 2026 (intrinsic-capacity trajectories in home care).
+  - Two project synthetic sources, both bound as formal claims:
+    - `knowledge_base/experiments/margin_time_to_threshold.py`, with its stdout saved as `evidence/RESERVE_SYNTHETIC_output.json`. The test recomputes this output.
+    - The saturating-removal robustness memo (X94).
+- **How**:
+  - `build_project.py` reuses the ch5 builder's span-location and hashing helpers.
+  - An edit to the chapter, an excerpt, the script, the saved output or the memo makes the affected claims stale.
+- **Re-binding**: run `python knowledge_base/pilots/ch09_reserve_en/build_project.py` deliberately, after a reviewed change. `--check` exits 1 if `project.json` is out of date. Tests never re-bind.
+- **Not covered**:
+  - full texts, including the Fliser conclusions;
+  - Strehler–Mildvan 1960 itself (X136);
+  - an observed failure threshold for independent living;
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
+- **Checks**: `tests/test_ch09_en_pilot.py`. These are bookkeeping checks only, not scientific validation.
+- **Correction, 2026-11-28 (after commit 139334f)**: claim CH9-EN-C002 described the Fliser study as "German" and the infusion as "overnight". Neither word is in the stored abstract (`evidence/RENAL_RESERVE_abstract.txt`), but the v0.1 rationale still said "All match". Both words were removed from the chapter and the claim was re-bound. The span check could not catch this, because it checks that the anchor is present, not that every word in the sentence is supported. The same review found further unsupported words in C001 (first names and paper title), C004, C005 and C006 ("Canadian", "exercise physiologist"); all removed and re-bound, and C006 now also binds E-PAT-N. See [the correction record](../../../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md). `tools/claim_token_scan.py` now flags numbers and capitalised words missing from the bound evidence; paraphrased words still need reading.

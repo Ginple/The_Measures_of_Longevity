@@ -1,0 +1,28 @@
+# Ch7 English pilot (DEC-016) / 第 7 章英文试点
+
+- **What it binds**: ten paragraph units of the English draft [CH07_rate_draft_en.md](../../../books/manuscript/en/CH07_rate_draft_en.md). Chapter 7 inherits no earlier chapter, so it was written in English first and has no Chinese lineage link.
+- **Evidence**:
+  - Verbatim abstract sentences in `evidence/`, including the competing-interests statements where they are declared:
+    - Belsky 2015 (Dunedin Pace of Aging);
+    - Ye 2023 (telomere rates);
+    - Fleg 2005 (aerobic capacity);
+    - Shen 2024 and Park 2026 (nonlinear aging);
+    - Belsky 2022 (DunedinPACE) and Waziry 2023 (CALERIE);
+    - Sehgal 2026 *Nat Med* (TranslAGE responsiveness) and Sehgal 2026 *Aging Cell* (technical versus biological reliability).
+  - The pinned DunedinPACE code snapshot `knowledge_base/source_snapshots/dunedinpace_4b569983/PACEProjector.R`, for its documented missing-data handling.
+- **How**:
+  - `build_project.py` reuses the ch5 builder's span-location and hashing helpers.
+  - An edit to the chapter, an excerpt or the code snapshot makes the affected claims stale.
+- **Re-binding**: run `python knowledge_base/pilots/ch07_rate_en/build_project.py` deliberately, after a reviewed change. `--check` exits 1 if `project.json` is out of date. Tests never re-bind.
+- **Source families** (the text states these):
+  - The two Sehgal papers and Borrus 2026 (X126) come from one laboratory family.
+  - Belsky 2015, Belsky 2022 and Waziry 2023 come from another. The DunedinPACE inventors are among its authors.
+  - Neither family is an independent check on its own clock.
+- **Not covered**:
+  - full texts, and the CALERIE erratum;
+  - a multi-year within-person repeated-clock study from a group with no stake in the clocks (searched for, not found);
+  - the software version used in published trials (X27);
+  - the achieved-restriction paragraph, which rests on ledger X31 and X49;
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
+- **Checks**: `tests/test_ch07_en_pilot.py`. These are bookkeeping checks only, not scientific validation.
+- **Correction, 2026-11-28**: claim CH7-EN-C001 placed the Dunedin cohort "in New Zealand", which is not in the stored excerpt. Removed and re-bound. An unbound sentence later in the chapter ("New Zealanders born in 1972–73") was changed to "one birth cohort, born in 1972–73", which the DunedinPACE abstract supports. See [the correction record](../../../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md) and `tools/claim_token_scan.py`.

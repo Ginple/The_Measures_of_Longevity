@@ -1,0 +1,8 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Boyd CM, Landefeld CS, Counsell SR, Palmer RM, Fortinsky RH, Kresevic D, Burant C, Covinsky KE. Recovery of activities of daily living in older adults after hospitalization for acute medical illness. J Am Geriatr Soc 2008;56(12):2171-9. PMID 19093915, PMC2717728, doi 10.1111/j.1532-5415.2008.02023.x. No conflict statement in the PubMed record.
+SETTING: Tertiary care hospital, community teaching hospital.
+PARTICIPANTS: Older (aged >or=70) patients nonelectively admitted to general medical services (1993-1998).
+MEASUREMENTS: Number of ADL disabilities at preadmission baseline and 1, 3, 6, and 12 months after discharge.
+RESULTS: By 12 months after discharge, of those discharged with new or additional ADL disability, 41.3% died, 28.6% were alive but had not recovered to baseline function, and 30.1% were at baseline function.
+Of those discharged at baseline function, 17.8% died, 15.2% were alive but with worse than baseline function, and 67% were at their baseline function (P<.001).
+Of those discharged with new or additional ADL disability, the presence or absence of recovery by 1 month was associated with long-term outcomes.

@@ -1,0 +1,12 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Salomon JA, Haagsma JA, Davis A, ... Murray CJ, Vos T. Disability weights for the Global Burden of Disease 2013 study. Lancet Glob Health 2015;3(11):e712-23. PMID 26475018, doi 10.1016/S2214-109X(15)00069-8.
+# Funding as stated in the abstract: European Centre for Disease Prevention and Control, Bill and Melinda Gates Foundation. No conflict statement in the PubMed record.
+BACKGROUND: The Global Burden of Disease (GBD) study assesses health losses from diseases, injuries, and risk factors using disability-adjusted life-years, which need a set of disability weights to quantify health levels associated with non-fatal outcomes.
+METHODS: We analysed data from new web-based surveys of participants aged 18-65 years, completed in four European countries (Hungary, Italy, the Netherlands, and Sweden) between Sept 23, 2013, and Nov 11, 2013, combined with data previously collected in the GBD 2010 disability weights measurement study.
+Surveys used paired comparison questions for which respondents considered two hypothetical individuals with different health states and specified which person they deemed healthier than the other.
+These surveys covered 183 health states pertinent to GBD 2013; of these states, 30 were presented with descriptions revised from previous versions and 18 were new to GBD 2013.
+We analysed paired comparison data using probit regression analysis and rescaled results to disability weight units between 0 (no loss of health) and 1 (loss equivalent to death).
+FINDINGS: The total analysis sample consisted of 30 230 respondents from the GBD 2010 surveys and 30 660 from the new European surveys.
+For health state descriptions that were revised for this study, resulting disability weights were substantially different for a subset of these weights, including those related to hearing loss (eg, complete hearing loss: GBD 2010 0·033 [0·020-0·052]; GBD 2013 0·215 [0·144-0·307]) and treated spinal cord lesions (below the neck: GBD 2010 0·047 [0·028-0·072]; GBD 2013 0·296 [0·198-0·414]; neck level: GBD 2010 0·369 [0·243-0·513]; GBD 2013 0·589 [0·415-0·748]).
+INTERPRETATION: This study substantially expands the empirical basis for assessment of non-fatal outcomes in the GBD study.
+Findings from this study substantiate the notion that disability weights are sensitive to particular details in descriptions of health states, but robust to duration of outcomes.

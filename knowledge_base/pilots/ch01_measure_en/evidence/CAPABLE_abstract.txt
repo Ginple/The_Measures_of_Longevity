@@ -1,0 +1,10 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Szanton SL, Xue QL, Leff B, Guralnik J, Wolff JL, Tanner EK, Boyd C, Thorpe RJ Jr, Bishai D, Gitlin LN. Effect of a Biobehavioral Environmental Approach on Disability Among Low-Income Older Adults: A Randomized Clinical Trial. JAMA Intern Med 2019;179(2):204-211. PMID 30615024, PMC6439640, doi 10.1001/jamainternmed.2018.6026. Trial NCT01576133.
+DESIGN, SETTING, AND PARTICIPANTS: In this randomized clinical trial of 300 low-income community-dwelling adults with a disability in Baltimore, Maryland, between March 18, 2012, and April 29, 2016, 65 years or older, cognitively intact, and with self-reported difficulty with 1 or more activities of daily living (ADLs) or 2 or more instrumental ADLs (IADLs), participants were interviewed in their home at baseline, 5 months (end point), and 12 months (follow-up) by trained research assistants who were masked to the group allocation.
+INTERVENTIONS: The CAPABLE group received up to 10 home visits over 5 months by occupational therapists, registered nurses, and home modifiers to address self-identified functional goals by enhancing individual capacity and the home environment.
+The control group received 10 social home visits by a research assistant.
+Each ADL and IADL task was self-scored from 0 to 2 according to whether in the previous month the person did not have difficulty and did not need help (0), did not need help but had difficulty (1), or needed help regardless of difficulty (2).
+The overall score ranged from 0 to 16 points.
+CAPABLE participation resulted in 30% reduction in ADL disability scores at 5 months (relative risk [RR], 0.70; 95% CI, 0.54-0.93; P = .01) vs control participation.
+CAPABLE participation resulted in a statistically nonsignificant 17% reduction in IADL disability scores (RR, 0.83; 95% CI, 0.65-1.06; P = .13) vs control participation.
+Conflict of interest statement: Conflict of Interest Disclosures: Drs Szanton and Gitlin reported being inventors of the CAPABLE training program, for which the Johns Hopkins University is entitled to fees.

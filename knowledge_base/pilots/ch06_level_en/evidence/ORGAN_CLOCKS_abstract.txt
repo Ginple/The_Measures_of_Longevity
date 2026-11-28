@@ -1,0 +1,5 @@
+# Verbatim quotes from the Europe PMC abstract, one sentence per line. Fetched 2026-11-28.
+# Oh HS ... Wyss-Coray T. Nat Med 2025;31(8):2703-2711, PMID 40634782, PMC12353788, doi 10.1038/s41591-025-03798-1. This is the 44,498-person study; the 43,616-person Nat Aging 2025 study is a different study (ledger X81).
+To address this gap, we estimate the biological age of 11 organs using plasma proteomics data (2,916 proteins) from 44,498 individuals in the UK Biobank.
+Organ age estimates were sensitive to lifestyle factors and medications and were associated with future onset (within 17 years' follow-up) of a range of diseases, including heart failure, chronic obstructive pulmonary disease, type 2 diabetes and Alzheimer's disease.
+Accrual of aged organs progressively increased mortality risk (2-4 aged organs, HR = 2.3; 5-7 aged organs, HR = 4.5; 8+ aged organs, HR = 8.3), whereas youthful brains and immune systems were uniquely associated with longevity (youthful brain, HR = 0.60 for mortality risk; youthful immune system, HR = 0.58; youthful both, HR = 0.44).

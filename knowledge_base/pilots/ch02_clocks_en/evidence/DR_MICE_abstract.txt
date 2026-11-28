@@ -1,0 +1,9 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Di Francesco A, ... Freund A, Churchill GA. Dietary restriction impacts health and lifespan of genetically diverse mice. Nature 2024;634(8034):684-692. PMID 39385029, PMC11485257, doi 10.1038/s41586-024-08026-3.
+Here we performed an extensive assessment of graded levels of caloric restriction (20% and 40%) and intermittent fasting (1 and 2 days fasting per week) on the health and survival of 960 genetically diverse female mice.
+We show that caloric restriction and intermittent fasting both resulted in lifespan extension in proportion to the degree of restriction.
+Health effects differed between interventions and exhibited inconsistent relationships with lifespan extension.
+40% caloric restriction had the strongest lifespan extension effect but led to a loss of lean mass and changes in the immune repertoire that could confer susceptibility to infections.
+Metabolic responses to dietary restriction, including reduced adiposity and lower fasting glucose, were not associated with increased lifespan, suggesting that dietary restriction does more than just counteract the negative effects of obesity.
+Our findings indicate that improving health and extending lifespan are not synonymous and raise questions about which end points are the most relevant for evaluating aging interventions in preclinical models and clinical trials.
+Conflict of interest statement: A.D.F., Z.C., K.M.W., A.R., G.V.P., M.M., F.H., D.B. and A.F. are employees of Calico Life Sciences. The other authors declare no competing interests.

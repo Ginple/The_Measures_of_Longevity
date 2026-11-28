@@ -1,0 +1,229 @@
+{
+  "agent": "tools/restructure_audit_agent.py",
+  "verifier_level": "V1 (deterministic; encoded properties only)",
+  "not": [
+    "peer review",
+    "independent model judgement (V4)",
+    "human review",
+    "closure of D05"
+  ],
+  "inputs_sha256": {
+    "books/manuscript/outline_v1.json": "195cce3d6502902a014660cc0b2bc5f310618fedc9454b8dd61de4bcd81fad83",
+    "books/manuscript/OUTLINE_v1.md": "fb7014b6fd9d909501439bdebfad07ee4056ecd8ee31d8cf3c945e51cc854acb",
+    "books/manuscript/outline_build.py": "8abd1cdc029b7e1ea738f5ad7246705dfaf4e89d89a505d67c27dc1dfa56d0a7",
+    "books/manuscript/CH01_长寿的五个问题_示范稿.md": "6369b2bdf60c376642a3904ad6c5deaff15e69891ee0137fb3afbb09a29d4864",
+    "books/manuscript/en/CH05_measurement_contracts_draft_en.md": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
+    "books/manuscript/en/README.md": "2872295a128d96cf6ce9ca3a8aadb7af34e2d79301b2427642a061adfc343294",
+    "books/manuscript/en/DETAILED_OUTLINE_SPEC.md": "fd3444683c480a5bcbaeaf1c4fcf9b1bdf48da6ef1ff705a86857e2e49fa4e99",
+    "books/manuscript/en/DETAILED_OUTLINE_VOL1.md": "6af879ced882416436b238ad492cde4489a77670a1044eb4a11b18c98e7947be",
+    "knowledge_base/KERNEL.md": "4f9b99502a2a20d0773a694f2c9ad29a889d42bd2d7434ff0d6b47aca1122cb4",
+    "knowledge_base/MASTER.md": "be0eabec776de6d63458e9b11f1d27cb34ff7d6dfd31870a512a09449330ac70",
+    "knowledge_base/CLAIM_LEDGER.md": "7bfde2630e6a7cc6e7e955e4654727d59d26e45aa222d41df5a682af23123d13",
+    "books/BOOK_PROPOSAL.md": "c3819e0f20c8ca4a80d13ba9b4720fdc7ae275755fb86d75dbbd9f4b3746c2de",
+    "books/market/MARKET_POSITIONING_2026-11.md": "a3428f38876bc716ede0fa9af7918a40f5fbf6760f80452a44d9d0fa4f548e24",
+    "review/MARKET_RESTRUCTURE_AUDIT_PROTOCOL_2026-11-27.md": "9743acf4f0481bf061e8f47204c37db461a83a76a5a9450ab8c33f473512c28c",
+    "review/MARKET_RESTRUCTURE_AUDIT_PACKET_L2_2026-11-27.md": "040373314c12070024940627f71e4adacf6b3dca395cd0208844b7c65122d181"
+  },
+  "checks": [
+    {
+      "id": "A01",
+      "receipt_claim": "O2: 33 chapters, 8 parts, 3 volumes, order unchanged",
+      "result": "PASS",
+      "detail": "chapters=33"
+    },
+    {
+      "id": "A02",
+      "receipt_claim": "V2: Volume III chapter share >= 28%",
+      "result": "PASS",
+      "detail": "0.333"
+    },
+    {
+      "id": "A03",
+      "receipt_claim": "O2/F-01/F-12: slots F1 (front) and B1-B4 (back), not numbered chapters",
+      "result": "PASS",
+      "detail": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "F1"
+      ]
+    },
+    {
+      "id": "A04",
+      "receipt_claim": "V3: B2 is questions only, never thresholds",
+      "result": "PASS",
+      "detail": "questions only, never thresholds or pass marks; each question points to the chap"
+    },
+    {
+      "id": "A05",
+      "receipt_claim": "O7 RT-E: F1 scene must differ from the chapter 5 opening",
+      "result": "PASS",
+      "detail": "Opens with the reader's own question (for example a biological-age report; the scene must differ from the chapter 5 open"
+    },
+    {
+      "id": "A06",
+      "receipt_claim": "F-01: DEC-011 budget has a 'frame' entry",
+      "result": "PASS",
+      "detail": "BUDGET frame"
+    },
+    {
+      "id": "A07",
+      "receipt_claim": "F-01: chapter 1 demo declares it is not the book introduction",
+      "result": "PASS",
+      "detail": "CH01 header"
+    },
+    {
+      "id": "A08",
+      "receipt_claim": "F-01: the reader-report scene opens chapter 5",
+      "result": "PASS",
+      "detail": "One report says your biological age is two years younger than your actual age. A"
+    },
+    {
+      "id": "A09",
+      "receipt_claim": "F-04/F-10: no stale length targets or authority banners",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "id": "A10",
+      "receipt_claim": "F-06: no banned novelty words in KERNEL allowed-interpretation/relation cells",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "id": "A11",
+      "receipt_claim": "F-05: every Scheme-A part numeral used in KERNEL is in the mapping table",
+      "result": "PASS",
+      "detail": {
+        "used": [
+          "Ⅰ",
+          "Ⅲ",
+          "Ⅳ",
+          "Ⅴ",
+          "Ⅵ",
+          "Ⅷ",
+          "Ⅸ"
+        ],
+        "unmapped": []
+      }
+    },
+    {
+      "id": "A12",
+      "receipt_claim": "F-07: reserve is the English term in KERNEL and in chapter 9/22 titles",
+      "result": "PASS",
+      "detail": [
+        "Reserve: How Far from the Threshold?",
+        "Capacity Accounting II: Reserve You Cannot Use"
+      ]
+    },
+    {
+      "id": "A13",
+      "receipt_claim": "F-03: concept-ownership table names only chapters 1-33 or F1",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "id": "A14",
+      "receipt_claim": "F-02 (diagnostic): every chapter owns at least one concept",
+      "result": "PASS",
+      "detail": {
+        "chapters_owning_nothing": []
+      }
+    },
+    {
+      "id": "A15",
+      "receipt_claim": "O4: detailed outline covers F1 and chapters 1-9",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "id": "A16",
+      "receipt_claim": "Spec section 2: every chapter entry has the required fields",
+      "result": "PASS",
+      "detail": {}
+    },
+    {
+      "id": "A17",
+      "receipt_claim": "Candidate evidence: every cited ledger ID exists",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "id": "A18",
+      "receipt_claim": "F-03: invariants owned in Vol I outline match the ownership table",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "id": "A19",
+      "receipt_claim": "O6: English writing rules 7-10 present",
+      "result": "PASS",
+      "detail": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "A20",
+      "receipt_claim": "Market section 4 / X137: no banned novelty words in the new planning files",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "id": "A21",
+      "receipt_claim": "DEC-017/018 recorded; X157-X159 exist; X147 superseded",
+      "result": "PASS",
+      "detail": {
+        "dec": true,
+        "x": true,
+        "x147": true
+      }
+    },
+    {
+      "id": "A22",
+      "receipt_claim": "F-14: 200k words at 150-155 wpm is about 21-22 hours",
+      "result": "PASS",
+      "detail": [
+        21.51,
+        22.22
+      ]
+    },
+    {
+      "id": "A23",
+      "receipt_claim": "Protocol section 3 rule 1: B/C market evidence caps at K2",
+      "result": "PASS",
+      "detail": "rule 1"
+    },
+    {
+      "id": "D01",
+      "receipt_claim": "F-09 (diagnostic): F1 reading routes cover the packet persona-to-chapter map",
+      "result": "PASS",
+      "detail": {
+        "packet_chapters_not_on_route": {},
+        "note": "DIFF is not a failure; each difference needs a recorded disposition"
+      }
+    },
+    {
+      "id": "G01",
+      "receipt_claim": "Pre-registration: protocol committed before the receipt",
+      "result": "PASS",
+      "detail": {
+        "protocol": "e20d915",
+        "receipt": "5dfea16"
+      }
+    },
+    {
+      "id": "G02",
+      "receipt_claim": "L2 packet bytes unchanged since pre-registration",
+      "result": "PASS",
+      "detail": "e20d915"
+    }
+  ],
+  "failed": [],
+  "diagnostic_differences": [],
+  "passed": 26,
+  "total": 26
+}
