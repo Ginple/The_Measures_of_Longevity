@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1, 2026-11-27.*
+*Working draft v0.1.1, 2026-11-28. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -25,10 +25,10 @@
 
 | Route | For | Chapters |
 |---|---|---|
-| "My number" | R1 | 1 → 5–9 → 18 → 20 → 25 → 29, then 15–16 for "who got younger?" |
+| "My number" | R1 | 1 → 5–9 → 18 → 20 → 25 → 29, then 15–16 for "who got younger?"; 2–4 optional, for readers who want the evidence background first |
 | "My patient's number" | R2 | 4 → 5 → 18 → 20 → 29 → 31; back matter B2 |
-| "What science knows" | R3 | 1–3 → 10–17 → 32–33 |
-| "A life, not a reading" | R4 | 1 → 23–24 → 25 → 28 → 30, then 9 and 22 for "reserve you cannot use" |
+| "What science knows" | R3 | 1–3 → 10–22 → 32–33 (18–22 carry the marker–outcome cases, the evidence tiers and both capacity-accounting chapters) |
+| "A life, not a reading" | R4 | 1 → 23–30 (26 meaning, 27 distribution and 29 decisions included), then 9 and 22 for "reserve you cannot use" |
 
 ---
 
@@ -104,6 +104,7 @@
 | Candidate evidence | Bound in the [English pilot](../../../knowledge_base/pilots/ch05_measurement_contract_en/README.md): five claim units. Also X135, X126, X59 and X41 |
 | Possible content-driven expansion | R2's "how to explain this to a patient" currently has one sentence. Expand only if a bound source supports it |
 | Strongest counterexample | "Responsive clocks are good enough as trial endpoints." X135: no trial-level surrogate validation |
+| Not answered here | What one reading means for this person (6); whether this person's aging slowed (7); distance to a threshold (9); whether to buy or repeat a test (29) |
 | To appendix or paper | The two-type model's algebra → B3; the PI companion paper |
 | Source state | English v0.1 bound; Chinese v0.3 bound; canonical language undecided |
 

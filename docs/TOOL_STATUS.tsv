@@ -1,0 +1,13 @@
+path	stage	tier	status	blocks_ci	last_receipt	note
+tools/run_validation.py	P6 validation	core	tested	yes	stdout of scripts/run_validation.py in CI run log; tests/test_snapshot_root_contract.py	Same entry as scripts/run_validation.py. Runs all unit suites, dashboard, links, hash-seed and relocation checks. Software properties only.
+tools/install_smoke.py	P6 validation	core	tested	yes	CI step 'Smoke-test installed package'; tests/test_install_smoke_fail_closed.py	Installed-package smoke test in normal and -O modes.
+tools/dashboard_contract.py	P8 continuity	core	tested	yes (via run_validation)	tests/test_project.py	Structure of the requested status dashboard and HTML allow-list.
+tools/markdown_links.py	P6 validation	core	tested	yes (via run_validation)	tests/test_project.py	Relative Markdown links; known historical breaks listed in governance/legacy_broken_links.json.
+tools/numeric_contracts.py	P4 evidence	core	tested	yes (via run_validation)	tests/test_project.py	Integer k/N check only for crude unweighted binary proportions; other estimators return not_a_pass.
+tools/dec011_impact.py	P2 architecture	core	tested	yes (via run_validation)	tests/test_dec011_impact.py; knowledge_base/DEC011_IMPACT.json	Impact queue for DEC-011 changes C1-C8. Raises if the stale queue and ACTIONS disagree.
+tools/restructure_audit_agent.py	P6 audit	core	tested	yes (via run_validation; git checks G01-G02 local only)	review/RESTRUCTURE_AUDIT_AGENT_RECEIPT.json; tests/test_restructure_audit_agent.py	V1 deterministic audit agent for DEC-018 (2026-11-28). Self-test mutations must be detected. Not peer review.
+tools/prose_repetition.py	P5 drafting	core	tested	no (diagnostic)	tests/test_prose_repetition.py	Playbook R3.8 section 7G item 1: share of sentences repeated verbatim in >=3 other chapters. Never blocks; not an AI detector.
+tools/audit_attachment_hook.py	P0 intake	experimental	implemented	no	manual run 2026-11-28 against CGEE_R5.5.md: expected_observations_confirmed true	Replays the CGEE hook template on simulated tool JSON. Pinned SHA256; does not test any real sandbox.
+tools/audit_prior_toolkit.py	P0 intake	experimental	implemented	no	none in this repo	Needs the frozen 0.1.0 toolkit, which is outside the repository.
+tools/verify_history.py	P0 intake	experimental	implemented	no	none in this repo	Needs the local history directory outside the repository; never refreshes governance/history_before.json.
+tools/package_delivery.py	P8 release	experimental	implemented	no	none	Disabled by design: raises SystemExit because it trusted a stale receipt. Needs a new packaging workflow (planned).

@@ -1,4 +1,4 @@
-# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.4：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017）
+# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.5：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
 
 **纠错警示（2026-11-27）**：DEC-003/004 的“审计后采纳”仅为历史记录，暂停作为已验证最优解；当前地图只供工作参考，须待独立审计及作者评阅。详见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
 
@@ -17,6 +17,7 @@
 | **书稿章节地图** | `books/manuscript/OUTLINE_v1.md`（由 `outline_build.py` 生成，`outline_v1.json` 绑定语料 hash） | **现行工作草稿（DEC-011）** | 只按标题归类，不是逐段核对；DEC-016 起英文章名为工作标题 |
 | **英文书稿（第一语言）** | `books/manuscript/en/` | **现行（DEC-016）**，目前只有第 5 章 v0.1 | 由中文示范稿改写；第 5 章 5 个主张单元已逐字绑定（`knowledge_base/pilots/ch05_measurement_contract_en/`） |
 | 细纲与概念归属 | `books/manuscript/en/DETAILED_OUTLINE_SPEC.md`、`DETAILED_OUTLINE_VOL1.md` | 工作草稿 v0.1（DEC-018） | 卷Ⅰ与导读已写；卷Ⅱ/Ⅲ在各章起草前补写；未经独立审阅 |
+| 验证分级、工具状态与 AI 披露 | `docs/VERIFICATION_AND_DISCLOSURE.md`、`docs/TOOL_STATUS.tsv`、`governance/AGENT_CONTRIBUTION_LOG.tsv`、`review/UNGROUNDED_RESIDUE.md` | 现行 v0.1（DEC-019） | 参考根目录 playbook R3.8（EN/ZH）与 CGEE R5.5；两者是参考文件，与 MASTER 裁决冲突时以 MASTER 为准 |
 | 书稿提案（历史） | `books/BOOK_PROPOSAL.md` | 历史 | 八部结构被 OUTLINE_v1 取代；§4 章节证据契约仍然有效 |
 | **论文 PI** | `papers/PI_rejuvenation_identifiability/PROTOCOL.md` | **现行（DEC-012）** | 协议 v3：P1+P2 合并，加入动力学层；近邻检索后收窄主张（X133–X137）；新颖性仍未认证，不写"首次" |
 | 论文地图（历史） | `papers/PUBLICATION_MAP.md` | 历史 | P1/P2/P3 协议冻结不改；P1/P2 被 PI 取代，P3 协议仍然有效 |
@@ -169,10 +170,12 @@ Linear 项目：**The Measures of Longevity｜长寿的尺度**（id `c6be975d-3
 | DEC-015 | 2026-11-27 | 08_LINEAGE §7.2 单章试点选第 5 章（测量合同）；按试点结果把 V7-06 由第 6 章改归第 5 章（ASSIGN 改一处，重新生成地图）；第 6 章变为无继承、需新写；章数与部结构不变 | 已执行（按作者"连续执行"指示；可逆，改 ASSIGN 一处即可） |
 | DEC-016 | 2026-11-27 | **语言**：书稿（专著）与论文以**英文为第一语言**，简体中文为第二语言（作者指示）。33 章结构不变；新写与修订以英文为准，中文版由英文定稿派生；现有中文示范稿是英文稿的来源材料；内部工作文档（台账、评估、治理）可继续用中文。英文全本篇幅见 DEC-017 | 已执行（作者指示） |
 | DEC-017 | 2026-11-27 | **篇幅**：由内容决定，不为字数框定内容；英文全本约 20 万词或以上均可（作者指示）。E-2 每章目标作废，E-3 大众删节版暂不立项；DEC-011 分卷预算只作平衡参考；卷Ⅲ不低于实际字数 28% 的规则继续有效（X157） | 已执行（作者指示） |
-| DEC-018 | 2026-11-27 | **市场定位后的重构审计**（预注册协议 e20d915；L1，同一助手，非独立）：不做架构重构（K3）；三卷·八部·33 章、章序不变；地图增加前后置槽位 F1、B1–B4（K2，不移动正文）；新建细纲层与概念归属表（卷Ⅰ v0.1）；KERNEL v0.9.11 等 K1 修订；英文写作规则第 7–10 条。回执：`review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md`（X159） | 已执行（可逆；作者可推翻；L2 包待外送，D05 open） |
+| DEC-018 | 2026-11-27 | **市场定位后的重构审计**（预注册协议 e20d915；L1，同一助手，非独立）：不做架构重构（K3）；三卷·八部·33 章、章序不变；地图增加前后置槽位 F1、B1–B4（K2，不移动正文）；新建细纲层与概念归属表（卷Ⅰ v0.1）；KERNEL v0.9.11 等 K1 修订；英文写作规则第 7–10 条。回执：`review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md`（X159） | 已执行（可逆；作者可推翻；L2 外审由作者取消（2026-11-28），代以审计 agent，见 DEC-019；D05 open） |
+| DEC-019 | 2026-11-28 | **审计 agent 与验证分级**（作者指示：不安排 L2，改由独立审计 agent 评阅）：新建 V1 确定性审计 agent `tools/restructure_audit_agent.py`（隔离暂存目录、不读 L1 回执、7 项变异自测）；首轮 24/26，发现 2 项（AG-01 第 5 章缺"Not answered here"；AG-02 阅读路线漏掉预注册读者地图中的章节），已修，复跑 26/26；干净会话盲评（§10，V4）因沙箱无隔离模型未运行，提示词已备；参照 playbook R3.8 与 CGEE R5.5 新增验证分级对照、工具状态登记、AI 协助披露与提交尾注、贡献日志、无据残余清单、文风重复诊断 | 已执行（可逆；agent 是 V1+V5，不是同行评审；D05 open） |
 
 ## 7｜变更日志
 
+- v1.3.5 · 2026-11-28：DEC-019——审计 agent（V1，26 项检查，发现 AG-01/AG-02 并修复）；验证分级 V1–V5 对照、`docs/TOOL_STATUS.tsv`（8 tested / 4 implemented / 0 verified）、AI 披露与 `AI-Assisted` 尾注、贡献日志、`review/UNGROUNDED_RESIDUE.md`、`tools/prose_repetition.py`；根目录加入 playbook 英文版（X160、X161）。
 - v1.3.4 · 2026-11-27：DEC-017——篇幅由内容决定，英文全本约 20 万词或以上均可，E-2 作废，E-3 暂不立项（X157）；DEC-018——市场定位后的重构审计（L1），不做架构重构，加前后置槽位与细纲层，KERNEL v0.9.11（X158、X159）；§2 第 6 条改为现行篇幅规则。
 - v1.3.3 · 2026-11-27：DEC-016——书稿与论文以英文为第一语言、简体中文为第二语言；第 5 章英文稿 v0.1（`books/manuscript/en/`，5 个主张单元已绑定）；章节地图生成器加英文章名；V7.0 EN 收录评估（X148–X155）。
 - v1.3.2 · 2026-11-27：PI 近邻检索完成门槛 1–2，协议升至 v3（X133–X137，主张收窄、必引清单与禁用词）；08_LINEAGE §7.2 单章试点在第 5 章执行：5 条主张逐字绑定来源（`knowledge_base/pilots/ch05_measurement_contract/`），试点暴露一处映射错误，V7-06 由第 6 章改归第 5 章；影响记录追加 C5、C6。

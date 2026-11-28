@@ -15,6 +15,8 @@
 7. [敌对测试报告](evaluation/ADVERSARIAL_REVIEW.md)
 8. [手动建库、运行、许可与公开边界](docs/GITHUB_HANDOFF.md)
 9. [架构决策记录](governance/ADR_001.md) · [实际目录树](REPOSITORY_TREE.md)
+10. **[验证分级、工具状态与 AI 披露 / Verification levels, tool status and AI disclosure](docs/VERIFICATION_AND_DISCLOSURE.md)**：任何“通过/审计/核验”说法按 V1–V5 读；[工具状态登记](docs/TOOL_STATUS.tsv)（0 个 verified）· [重构审计 agent 报告](review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md)（V1，非同行评审）· [无据残余清单](review/UNGROUNDED_RESIDUE.md)
+11. 参考文件（不是项目规则；与 MASTER 冲突时以 MASTER 为准）：Playbook R3.8 [English](ARENA_AGENT_UNIVERSAL_P0_P8_PLAYBOOK_EN_2026-11-10_R3.8.md) · [中文](ARENA_AGENT_UNIVERSAL_P0_P8_PLAYBOOK_ZH_2026-11-10_R3.8.md) · [CGEE R5.5](CGEE_R5.5.md)
 
 ## 本地验证 / Local verification
 
@@ -33,6 +35,14 @@ python scripts/run_validation.py
 python knowledge_base/pilots/real_claims_001/scripts/validate.py
 python tools/install_smoke.py
 python -O tools/install_smoke.py
+```
+
+重构审计 agent（V1；含 git 历史检查 G01–G02，需完整历史）与文风重复诊断（只报告，不阻断）：
+
+```bash
+python tools/restructure_audit_agent.py --self-test
+python tools/restructure_audit_agent.py --write   # 写 review/RESTRUCTURE_AUDIT_AGENT_RECEIPT.json
+python tools/prose_repetition.py
 ```
 
 `requirements-ci-py311.txt` 钉住直接及当次解析出的传递/构建依赖版本，不含包哈希，不锁定 pip、操作系统、Python 补丁版或 Actions 本身，因此不是供应链字节锁；其他Python版本及平台未验证。原 `requirements-tested.txt` 是历史记录，其 networkx 3.7 不能安装到 Python 3.11，不用作该CI环境。宽依赖的 `pyproject.toml` 依旧支持从 Python 3.10 起安装，并非所有支持版本均由本CI覆盖。详见[依赖验证回执](review/CI_DEPENDENCY_REPRODUCIBILITY_2026-11-27.md)。
