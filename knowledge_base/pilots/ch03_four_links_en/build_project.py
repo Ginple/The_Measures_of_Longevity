@@ -182,10 +182,10 @@ def build():
                          note='Reasoning and value paragraphs (I1 statement, frameworks compared, breadth has a cost, entropy, information, identity, control, prediction defined, answer to the objection, benefit is not deciding, map of the book, candidate shifts) make no source claim. Abstract depth throughout; one synthetic claim is formal; one claim rests on a project record.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH3-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH3-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent review by an aging biologist, a trialist or a philosopher (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH3-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='All seven studies read at abstract depth; ILLUMINATE protocol amendment (X28) and the X85 prior-work search unresolved; two of three theory papers share an author',
                  next_action='Read full texts; add a framework from outside these groups if the author wants balance',

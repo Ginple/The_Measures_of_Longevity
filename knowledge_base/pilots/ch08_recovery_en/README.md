@@ -16,5 +16,5 @@
 - **Not covered**:
   - full texts, including the age-adjusted heart-rate recovery estimates (ledger X132);
   - a human study that measures level, rate and recovery before and after an intervention;
-  - independent review. Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
 - **Checks**: `tests/test_ch08_en_pilot.py`. These are bookkeeping checks only, not scientific validation.

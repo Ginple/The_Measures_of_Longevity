@@ -4,7 +4,8 @@
 >
 > **Status:**
 > - For author and domain review only; not a frozen text.
-> - Self-checked by the same assistant against v0.3; independent external review has not taken place.
+> - Self-checked by the same assistant against v0.3. Independent human review was waived by the owner on 2026-11-28 (DEC-020). The [claim audit agent](../../../review/CLAIM_AUDIT_AGENT_RECEIPT.json) runs mechanical checks in its place; it does not certify that any claim is scientifically correct.
+> - Sources were read at the depth recorded in the pilot: abstracts or short excerpts, not full texts.
 > - Five claim units of this English text are bound to the same source spans as the Chinese v0.3 pilot, and to the Chinese paragraphs they were rewritten from ([English pilot](../../../knowledge_base/pilots/ch05_measurement_contract_en/README.md)). Any edit to this file, to v0.3, or to a quoted excerpt makes the affected claims stale until they are re-bound. Which language version is canonical for chapter 5 is still to be decided after review.
 > - The chapter is about judging measurements. It does not give personal screening, medication, or diet advice.
 

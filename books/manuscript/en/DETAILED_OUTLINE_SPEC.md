@@ -3,7 +3,7 @@
 *Working draft v0.1, 2026-11-27.*
 
 - **Origin.** Created on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (findings F-02 and F-03, level K2: a new layer; no text is moved).
-- **Review status.** Written by the same assistant that wrote most of the plan it describes. Not independently reviewed (D05 open). The author may overrule any part of it.
+- **Review status.** Written by the same assistant that wrote most of the plan it describes. Not independently reviewed; the owner waived independent human review (DEC-020) and the audit agents check encoded properties only. The author may overrule any part of it.
 
 ## 1. Why this layer exists
 

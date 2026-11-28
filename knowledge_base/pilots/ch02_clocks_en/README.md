@@ -7,7 +7,7 @@
     - Di Francesco 2024 (dietary restriction in 960 genetically diverse mice; Calico employees among the authors);
     - Garmany and Terzic 2024 (healthspan–lifespan gap; a fuller excerpt than the ch1 pilot, including the morbidity and mortality associations);
     - Dong 2016, Barbi 2018 and Efimov 2026 (three different meanings of a lifespan "limit").
-  - Project records, cited as such and not as primary sources: a verbatim copy of ledger rows X21 and X61 (`evidence/LEDGER_X21_X61_excerpt.txt`, so that new ledger rows do not make claims stale) and the [HALE methods audit](../../HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md) §1.
+  - Project records, cited as such and not as primary sources: a verbatim copy of ledger rows X21 and X61 (`evidence/LEDGER_X21_X61_excerpt.txt`, so that new ledger rows do not make claims stale) and a verbatim copy of §1 of the [HALE methods audit](../../HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md) (`evidence/HALE_AUDIT_excerpt.txt`, since 2026-11-28; before that the whole audit file was bound, which the claim audit agent flagged).
   - One project synthetic source, bound as two formal claims: `period_cohort.py` (period versus cohort life expectancy under falling Gompertz death rates; and tail survival from 105 with and without a plateau), with its output saved as `evidence/PERIOD_COHORT_SYNTHETIC_output.json`. The test recomputes this output.
 - **How**:
   - `build_project.py` reuses the ch5 builder's span-location and hashing helpers.
@@ -18,5 +18,5 @@
   - full texts, and the published comments on Dong 2016 and Barbi 2018;
   - the further tail figures and preprint range for the mutation model given in the V7 corpus (unchecked, not used);
   - the KERNEL §3.3 limit-debate anchor (plateau level, record probabilities), which is still secondhand;
-  - independent review. Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
 - **Checks**: `tests/test_ch02_en_pilot.py`. These are bookkeeping checks only, not scientific validation.

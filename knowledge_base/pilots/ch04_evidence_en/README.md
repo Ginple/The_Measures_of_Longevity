@@ -16,6 +16,6 @@
 - **Not covered**:
   - full texts. The CALERIE and BASE-II counts by time point come from earlier project audits and were not re-read;
   - the open questions X31 (CALERIE counts) and X106 (denominator 191), which need the authors;
-  - independent review. Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
 - **Overlap**: chapter 5 also uses NHS-Galleri and the Malagón model, with its own bound excerpts. Chapter 4 uses them for denominators and company-reported numbers only.
 - **Checks**: `tests/test_ch04_en_pilot.py`. These are bookkeeping checks only, not scientific validation.

@@ -16,5 +16,5 @@
   - full texts. Two points the V6 corpus attributes to these papers are not in the abstracts and are not used: that "Simply aging" distinguishes the deleteriome from entropy and says the burden cannot yet be quantified, and the Lemaître "age-specific optimum" idea;
   - the ILLUMINATE protocol amendment (X28), disclosed in the chapter but unresolved;
   - the X85 prior-work search, which the ledger calls not exhaustive; the underlying papers were not re-read;
-  - independent review. Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
 - **Checks**: `tests/test_ch03_en_pilot.py`. These are bookkeeping checks only, not scientific validation.

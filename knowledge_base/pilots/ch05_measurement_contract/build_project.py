@@ -158,10 +158,10 @@ def build():
                          note='Paragraph units may hold several propositions. CALERIE methylation/bone paragraph, DO-HEALTH paragraph and Malagón microsimulation paragraph are not registered.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH5-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH5-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent domain or statistical review of these claims (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH5-INVENTORY', status='open', blocks_formal_release=True,
                  question='3 of 7 footnoted evidence paragraphs unregistered; Yi 2026 read at abstract depth only',
                  next_action='Register remaining paragraphs; read Yi full text if access allows',

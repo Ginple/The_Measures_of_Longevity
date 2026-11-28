@@ -15,7 +15,7 @@
     {
       "id": "A-CH4-EN",
       "path": "books/manuscript/en/CH04_evidence_draft_en.md",
-      "sha256": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+      "sha256": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -504,7 +504,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Microsimulation; ages 50-75 in Canada; 2.1-6.0% of yearly screen-detected cancers predicted overdiagnoses; 1% at 50 to over 10% of screen-detected cancers by 75; PPV 15.9-77.6%; 0.3-5.3 false positives per true cancer. All match. The denominator remark is the chapter's reading of \"of screen-detected cancers\".",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-SCREEN": "691daab14bc7af6123b42c1e3c9ed5d51260fe7c00b7389c9dffb5a21db5c2b5"
         },
         "record_sha256": "030cba48b9b0941ff0ea10222b8553a4abafeba756a4e8d938ef500c832a7a67",
@@ -548,7 +548,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Mild 180/200 (90.0) vs 520/600 (86.7); severe 300/600 (50.0) vs 80/200 (40.0); overall 480/800 (60.0) vs 600/800 (75.0); new better in each group, worse overall. All match. Formal claim.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-DEN-CODE": "73c78e9c67c9d9414977ab4fd60c7875ecf6065a83b982715606f646b029b1c0",
           "A-DEN-OUT": "91cf01a580081cb7950d4051b98916e0c0d95644294fa0855e0b5db7dd698944"
         },
@@ -595,7 +595,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Aggregate data show a clear but misleading pattern of bias against women; few departments depart significantly, about as many favour women as men; proper pooling, accounting for departmental autonomy and for women applying to harder departments, gives a small significant bias in favour of women. All match; \"a clear but misleading pattern\" quoted.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e"
         },
         "record_sha256": "bb3868208299180ffb659360d2c6b047bb321e021bd444e2b94f2e4b8a00037d",
@@ -640,7 +640,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "220 randomized to 25% CR or ad libitum for 2 yr; post hoc (abstract). Audit table: 128/69 baseline and at least one follow-up; 117/68 change to 24 months; 105/59 all three time points. X31: under common-population assumptions the counts are incompatible; author clarification not obtained; does not judge which number is wrong. All match. The judgement \"careful study\" is the author's, not a source claim.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e",
           "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
         },
@@ -686,7 +686,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Abstract: 60-80 at baseline, average follow-up 7.4 years, n = 1,083; 14 biomarkers; DunedinPACE strongest and most consistent association. Audit: T0 1,671 aged 60 and over; T1 1,083; T0 DNAm available only in those who later took part in T1. Match. \"Pace of aging\" glosses DunedinPACE.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e",
           "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
         },
@@ -734,7 +734,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Exploratory substudy; open-label run-in before randomization; 854 participants, 2,047 observations across 4 timepoints including before and after run-in; placebo 14.9% annual increase vs nonsignificant 6.3% with colchicine; between-arm difference not significant (P interaction 0.13); TET2 P interaction 0.04; validation warranted. All match. Coronary disease from the trial context; \"aging-related condition\" from the abstract background (not excerpted; the title and methods carry CH).",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e"
         },
         "record_sha256": "16378921ab259f14272209818d7a0ca0a57fc3ee37f517d49ed33593b36af471",
@@ -783,7 +783,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "TranslAGE: 51 public and private longitudinal interventional studies; 16 prominent clocks; mortality and pace clocks respond most and agree. Borrus: three criteria including mortality-trained or pace-of-aging clocks respond. Six shared authors (header). X126 records the pair as one family, not independent replication. All match.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-CLOCKS": "c2a12867aaeb3985f9d764babf8d8a2074e64aace6def68f88986b308ed73062",
           "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
         },
@@ -832,7 +832,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Funded by Grail; GRAIL Bio UK affiliation (header); 71,122 vs 71,128; primary stage III-IV among 12 prespecified types, IRR 1.03 (0.92-1.14); key secondary stage IV 0.86 (0.74-1.00); further follow-up warranted. All match. \"Blood tested\" versus \"stored\" is from the methods sentence not excerpted; the excerpt header and end points carry the design.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-SCREEN": "691daab14bc7af6123b42c1e3c9ed5d51260fe7c00b7389c9dffb5a21db5c2b5"
         },
         "record_sha256": "41319ddaf7b86f317602eedf86c5904c9810c5c55b9627eda0645760e5b118eb",
@@ -877,7 +877,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Waziry: two authors inventors on DunedinPACE, licensed to a commercial entity. Vetter: CAD cofounder and stockowner, TEG CEO and stockowner in Vitas Ltd. Sehgal: two co-inventors of patented SystemsAge; three TruDiagnostic employees developed OMICmAge. All match.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-COUNTED": "fac6584edca4e3175b8a00cd0fe635517ad8292cf710d32b57768079afdfa15e",
           "A-CLOCKS": "c2a12867aaeb3985f9d764babf8d8a2074e64aace6def68f88986b308ed73062"
         },
@@ -923,7 +923,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Synthetic: 7 (3.7), 12 (6.3), 19 (9.9); only 191 in 100-400. X106: 10 count/percentage pairs compatible only with N=191 in [100,400]; text says 190; another report (X105) has 191; does not prove; a question to authors. All match. Formal for the synthetic part; the X106 part is a project record, labelled so.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-DEN-CODE": "73c78e9c67c9d9414977ab4fd60c7875ecf6065a83b982715606f646b029b1c0",
           "A-DEN-OUT": "91cf01a580081cb7950d4051b98916e0c0d95644294fa0855e0b5db7dd698944",
           "A-RECORDS": "b05a1eef6a8be5926a7466d3db7fdf4ed22ba9a6f020d940a5058fc34f4a1a4f"
@@ -970,7 +970,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Extending single-clock intervention studies to more clocks: no additional clocks reach significance; some single-clock findings may warrant reexamination. Match.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-CLOCKS": "c2a12867aaeb3985f9d764babf8d8a2074e64aace6def68f88986b308ed73062"
         },
         "record_sha256": "b1129cf1fb97914b763d89ac66f8ae78d72f7ae3425407fca76747ccd2718836",
@@ -1014,7 +1014,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "1 - 0.95^16 = 0.56 under independence; script docstring notes correlated clocks give a lower figure. Match. Formal claim.",
         "bound_hashes": {
-          "A-CH4-EN": "d982f894f88bc2650abd06acd6ca60b3cb7073b96288abc5232dec11ae19fb65",
+          "A-CH4-EN": "090226c50257b36d448ef445d2795db090407dc6d5e40bc007cf7d823cba2c48",
           "A-DEN-CODE": "73c78e9c67c9d9414977ab4fd60c7875ecf6065a83b982715606f646b029b1c0",
           "A-DEN-OUT": "91cf01a580081cb7950d4051b98916e0c0d95644294fa0855e0b5db7dd698944"
         },
@@ -1036,11 +1036,11 @@
   "debts": [
     {
       "id": "CH4-EN-INDEPENDENT-REVIEW",
-      "status": "blocked",
-      "blocks_formal_release": true,
+      "status": "closed",
+      "blocks_formal_release": false,
       "question": "No independent review by a statistician or a trialist (D05)",
-      "next_action": "Real external review; never fabricate receipts",
-      "closure_evidence": "Object-bound review record with declared independence and responses"
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
     },
     {
       "id": "CH4-EN-DEPTH",

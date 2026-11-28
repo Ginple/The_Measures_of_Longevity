@@ -5,7 +5,7 @@
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table; no ownership move is proposed here.
 - **Origin.** Volume Ⅰ (chapters 1–9) now exists in English. Writing rule 9 in the [English README](README.md) requires a chapter's detailed outline before it is drafted.
 - **Inputs.** The chapter map ([OUTLINE_v1](../OUTLINE_v1.md)); the inherited V6 and V7 chapters in `corpus/`; the claim ledger; the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md), which lists what each draft still needs.
-- **Review status.** Written by the same assistant that wrote most of the plan. Not independently reviewed (D05 open). The author may overrule any part of it.
+- **Review status.** Written by the same assistant that wrote most of the plan. Not independently reviewed; the owner waived independent human review (DEC-020) and the audit agents check encoded properties only. The author may overrule any part of it.
 - **Evidence.** All evidence listed is *candidate*. A number enters the text only after it is traced to a ledger entry or a bound excerpt. Many V6 and V7 sources named here are **not yet ledger entries**; they are marked "V6/V7 lead" and must be fetched and bound before use, as was done for Volume Ⅰ.
 - **Balance rule.** The chapter map's structural check still applies: if Volume Ⅲ falls below 28 percent of actual English words, stop expanding Volume Ⅱ and write Volume Ⅲ first.
 - **Length.** No word targets (DEC-017).

@@ -1,0 +1,5 @@
+# Verbatim copy of lines 7-9 of knowledge_base/HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md (section 1), taken 2026-11-28.
+# Project record of earlier reading by the same assistant; not a primary source. Re-copy and re-bind if the audit is revised.
+研究在 2024 年初查询 WHO GHO，分析2000、2019间指标；原文报告 2019 **全球差9.6年**与 **183个会员国差值均值9.2年**，分别对应不同汇总对象，不能将前者作为各国简单平均，也不能将后者叫全球人口平均。论文的方法段未在已读内容明确各国均值与全球值的完整聚合代码。[WHO GHE2019 技术文件 §7](https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_life-table-methods.pdf)称覆盖 2019 年人口至少90,000 的183个会员国；其 HALE 使用 WHO 生命表与主要基于 GBD2019 并作部分调整的 YLD 估计。
+
+[当前 WHO 元数据](https://www.who.int/data/gho/indicator-metadata-registry/imr-details/7752)说明全球/区域 HALE **输入**按人口加权汇总，并明确该新估计使用 GBD2021 等新数据，2000–2021 序列与旧发布版本不可直接比较。这并未证明作者2024年所用版本全球聚合的每一算法细节，更不能将当年全球差直接解释成各国差值的人口加权平均；对生命表这样的非线性指标，先汇总输入再算，与直接平均国家指标未必相同。X21 因数据快照和实际汇总代码未核继续开放。

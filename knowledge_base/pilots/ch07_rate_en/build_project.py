@@ -191,10 +191,10 @@ def build():
                          note='Unregistered: the CALERIE achieved-restriction and analysis-sample paragraph (rests on ledger X31/X49) and the sentence on the unidentified software version of a published trial (ledger X27). Reasoning paragraphs (who remains in a cross-sectional sample; limits of the nonlinear studies; illustrative noise arithmetic) make no source claim. Abstract depth throughout.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH7-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH7-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent domain or statistical review of these claims (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH7-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='All sources read at abstract depth; CALERIE erratum unread; no independent multi-year within-person repeated-clock study from a group without a stake in the clocks found; DunedinPACE code version used in published trials unknown (X27)',
                  next_action='Read full texts and erratum; search again for unconflicted longitudinal repeated-clock studies; request trial software versions',

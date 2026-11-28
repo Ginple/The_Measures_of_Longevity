@@ -4,7 +4,7 @@
 >
 > **Status:**
 > - For author and domain review only; not a frozen text.
-> - Self-checked by the same assistant that wrote it. Independent external review has not taken place (D05 open).
+> - Self-checked by the same assistant that wrote it. Independent human review was waived by the owner on 2026-11-28 (DEC-020). The [claim audit agent](../../../review/CLAIM_AUDIT_AGENT_RECEIPT.json) runs mechanical checks in its place; it does not certify that any claim is scientifically correct.
 > - Eight claim units are bound to verbatim source excerpts or to project records ([chapter 10 pilot](../../../knowledge_base/pilots/ch10_routes_en/README.md)). Sources were read at abstract depth. Any edit to this file or to an excerpt makes the affected claims stale until they are re-bound.
 > - The five routes are this book's way of sorting interventions, not a finding. The trials in this chapter illustrate the routes; none of them is a trial of an aging treatment, and the chapter gives no medical advice.
 

@@ -16,5 +16,5 @@
 - **Not covered**:
   - full texts (the healthspan paper's aggregates, X21 and X61; CAPABLE's 12-month results; why CALERIE reports give 220 and 218);
   - the value paragraphs (two accounts, who decides), which make no source claim;
-  - independent review. Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
 - **Checks**: `tests/test_ch01_en_pilot.py`. These are bookkeeping checks only, not scientific validation.

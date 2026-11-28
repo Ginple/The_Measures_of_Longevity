@@ -4,7 +4,7 @@
 >
 > **Status:**
 > - For author and domain review only; not a frozen text.
-> - Self-checked by the same assistant that wrote it. Independent external review has not taken place (D05 open).
+> - Self-checked by the same assistant that wrote it. Independent human review was waived by the owner on 2026-11-28 (DEC-020). The [claim audit agent](../../../review/CLAIM_AUDIT_AGENT_RECEIPT.json) runs mechanical checks in its place; it does not certify that any claim is scientifically correct.
 > - Eight claim units are bound to verbatim source excerpts or to the project's own synthetic model ([chapter 6 pilot](../../../knowledge_base/pilots/ch06_level_en/README.md)). Sources were read at abstract depth, with two exceptions noted in the pilot. Any edit to this file or to an excerpt makes the affected claims stale until they are re-bound.
 > - The chapter is about reading measurements. It does not recommend, rank or discourage any test, product or treatment, and it gives no personal medical advice.
 
@@ -90,7 +90,7 @@ So, before acting on a single reading, it helps to run five checks. They serve t
   - The synthetic model is a teaching construction, not an estimate.
   - The chapter does not evaluate any commercial test.
 - **Unresolved:**
-  - external review (D05);
+  - independent human review, waived by the owner (DEC-020); the claim audit agent's checks are mechanical and do not replace a domain expert's reading;
   - full-text reading of the cited studies, including the erratum to the sex-specific clocks paper;
   - a test–retest study of a consumer-marketed clock as sold, by a group with no stake in it (searched for, not yet found);
   - the hazard ratios for individual sex-specific organ clocks (not used here, ledger X149);

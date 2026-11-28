@@ -77,10 +77,10 @@ def build():
                          note='Same gaps as the zh pilot: CALERIE methylation/bone, DO-HEALTH and Malagón microsimulation paragraphs are not registered. Translation accuracy beyond the bound numbers and qualifiers is not machine-checked.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH5-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH5-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent domain, statistical or translation review of the English text (D05)',
-                 next_action='Real external review, including a bilingual check; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH5-EN-INVENTORY', status='open', blocks_formal_release=True,
                  question='3 of 7 footnoted evidence paragraphs unregistered, as in the zh pilot',
                  next_action='Register remaining paragraphs in both languages',

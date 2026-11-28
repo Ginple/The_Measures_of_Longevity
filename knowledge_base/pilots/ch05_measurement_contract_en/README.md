@@ -8,6 +8,6 @@
 - **Not covered**:
   - translation accuracy beyond the bound numbers and qualifiers;
   - the three unregistered evidence paragraphs (CALERIE methylation/bone, DO-HEALTH, Malagón microsimulation);
-  - independent review.
-  - Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only.
+  - Formal release stays **blocked** by the open debts and the incomplete claim inventory.
 - **Checks**: `tests/test_ch05_en_pilot.py`. Bookkeeping only, not scientific validation.

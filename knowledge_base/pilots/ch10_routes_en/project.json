@@ -15,7 +15,7 @@
     {
       "id": "A-CH10-EN",
       "path": "books/manuscript/en/CH10_routes_draft_en.md",
-      "sha256": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+      "sha256": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -477,7 +477,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "9361; SBP >=130, increased CV risk, no diabetes; <120 vs <140; 121.4 vs 136.2 at 1 year; stopped early at median 3.26 years; composite (MI, other ACS, stroke, HF, CV death) 1.65% vs 2.19% per year, HR 0.75; all-cause HR 0.73; more serious AEs of hypotension, syncope, electrolyte abnormalities, AKI, not injurious falls. All match. \"Heart attack\", \"low blood pressure\", \"fainting\" gloss MI, hypotension, syncope. The remark that the trial did not measure arterial age is the chapter's reading of the end points.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-TRIALS": "f3c3cb3a91b8f11c1b0e470bd52f51f3497bc068c9e246ebd7e578232475c0b6"
         },
         "record_sha256": "df0e4361abe2212e98c331a08f7af1882ce4047d1ad8b26701e124ccc5044d6c",
@@ -526,7 +526,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "100 patients; TKR plus 12 weeks nonsurgical vs 12 weeks nonsurgical (exercise, education, dietary advice, insoles, pain medication); KOOS4 pain, symptoms, ADL, QoL, 0 worst to 100 best; 32.5 vs 16.0, adjusted difference 15.8; serious AEs 24 vs 6; 13 (26%) of nonsurgical group had TKR before 12 months. All match. The remark about the comparison being the best alternative is the chapter's reading.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-TRIALS": "f3c3cb3a91b8f11c1b0e470bd52f51f3497bc068c9e246ebd7e578232475c0b6"
         },
         "record_sha256": "de179e5b85264627e64dd907f900042dd0b8f3422f6fecd9e4760cdc97c7beb3",
@@ -580,7 +580,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Background association; 70-84, untreated hearing loss, no substantial impairment; hearing aids plus counselling 490 vs health education 487; difference 0.002 SD, p=0.96; prespecified sensitivity analysis: effect differed between ARIC (older, more risk factors) and de novo volunteers, p interaction 0.010; authors suggest possible benefit at higher risk. COI: Sonova/Phonak in-kind donation of hearing technologies; FRL directs a centre funded in part by a philanthropic donation from Cochlear. All match. The lead-not-result framing is the chapter's.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-TRIALS": "f3c3cb3a91b8f11c1b0e470bd52f51f3497bc068c9e246ebd7e578232475c0b6"
         },
         "record_sha256": "0b5638a8a886933b85b37da498eeee5e4d8f1fafd4231d19c82a551b0fff9fde",
@@ -627,7 +627,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Epub 2025 Dec 17 (header). Multi-omic mapping of central and peripheral niches in young and aged animals; Notch and FLT3L pathways plus IL-7 decline; mRNAs for DLL1, FLT3L, IL-7 to hepatocytes; liver transiently repurposed to restore age-diminished cues; expanded common lymphoid progenitors, boosted de novo thymopoiesis without affecting HSC composition, replenished T cells; improved peptide vaccine responses and restored antitumour immunity in aged mice. All match. \"Early cells from which lymphocytes develop\" glosses common lymphoid progenitors.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-IMMUNE": "cdc6d7d2949d696a56d8e49f08452a83b38a48d6ad3d4f88a5ae027a329a12ef"
         },
         "record_sha256": "7708be564cdd8bcae92060ab50afdba5eab16fe583977fec26585be743887b75",
@@ -673,7 +673,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Thymopoiesis boosted (so not bypassed); reversible after dosing ceased; did not breach self-tolerance, contrasted with inflammatory and autoimmune liabilities of recombinant cytokines; two authors co-inventors on a provisional patent application relating to the work. All match. The limits (repeated dosing over years, full pathogen range, lifespan) are the chapter's statements of what was not shown.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-IMMUNE": "cdc6d7d2949d696a56d8e49f08452a83b38a48d6ad3d4f88a5ae027a329a12ef"
         },
         "record_sha256": "caec2ba2fdf882c68da6842a974eb6e2af548d72e1130f30e15ec31bda1b01a5",
@@ -721,7 +721,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "300; low-income, community-dwelling, 65+, disability, Baltimore; up to 10 visits over 5 months by OTs, RNs and home modifiers on self-identified goals via capacity and home environment; control 10 social visits by a research assistant; ADL score RR 0.70 (30% reduction); IADL nonsignificant 17%. All match. \"Living in their own homes\" glosses community-dwelling and in their home.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-CAPABLE": "8f7ae0cebb5967857e3ae427f0e8c9eae53b937e975220762dbeae0ad8a6c9db"
         },
         "record_sha256": "45cc8e28ccb387ef38f1b9565c1134598ba4b917d03db95fbd72f7964dc18597",
@@ -765,7 +765,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "COI: Szanton and Gitlin inventors of the CAPABLE training program; Johns Hopkins entitled to fees. X79: design paper ADL primary, IADL secondary; current registration ADL only; 2019 results both primary; without full protocol and analysis plan, cannot judge violation, error or bias direction. Match; the university is not named in the text.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-CAPABLE": "8f7ae0cebb5967857e3ae427f0e8c9eae53b937e975220762dbeae0ad8a6c9db",
           "A-RECORDS": "a3e6177fd797fd27670eb74a6cc91e5649a18c2ded82e3bcd586ec3ef292bf83"
         },
@@ -809,7 +809,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "X15: the multiply-subtract maintenance-capacity formula is undefined; variables, units, interactions and the meaning of the operations not given; cannot be computed; equality withdrawn, kept as a research concept. Match. Chapter 21 ownership is from the glossary, a cross-reference.",
         "bound_hashes": {
-          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CH10-EN": "470ee87a960dad85064304a188d58ff4d2b82137e9c60c50c6b628bf7598ac0e",
           "A-RECORDS": "a3e6177fd797fd27670eb74a6cc91e5649a18c2ded82e3bcd586ec3ef292bf83"
         },
         "record_sha256": "b3f7ee53890f637d3bf5997af977f6ab30721bd0455dcb294570aa573b50cbdc",
@@ -830,11 +830,11 @@
   "debts": [
     {
       "id": "CH10-EN-INDEPENDENT-REVIEW",
-      "status": "blocked",
-      "blocks_formal_release": true,
+      "status": "closed",
+      "blocks_formal_release": false,
       "question": "No independent review by a geriatrician, a trialist or an immunologist (D05)",
-      "next_action": "Real external review; never fabricate receipts",
-      "closure_evidence": "Object-bound review record with declared independence and responses"
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
     },
     {
       "id": "CH10-EN-DEPTH",

@@ -15,7 +15,7 @@
     {
       "id": "A-CH5-EN",
       "path": "books/manuscript/en/CH05_measurement_contracts_draft_en.md",
-      "sha256": "f4455ec08904ca7832d8c16470b2dd68f41d03c94a75cc519fbdd8d96abb0522",
+      "sha256": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -333,8 +333,8 @@
       "id": "CH5-EN-C001",
       "artifact_id": "A-CH5-EN",
       "lines_1based_halfopen": [
-        29,
-        30
+        30,
+        31
       ],
       "text": "This distinction is not just theoretical caution. A 2026 systematic review included 26 human intervention studies that reported changes in both methylation clocks and clinical outcomes. No controlled comparative study showed full agreement between clock and clinical outcome. No intervention–clock–outcome combination met the conditions for pooled analysis, and the review found no trial-level surrogate validation. The certainty of evidence was rated very low. The authors concluded that clocks can currently count only as exploratory or supportive readings, not as validated clinical surrogate endpoints.[^7] Another study took intervention data previously reported as positive on a single clock and extended them to more clocks: none of the added clocks reached statistical significance.[^8] This does not show that those interventions failed. It shows that a change in one clock cannot, on its own, carry the sentence \"you became younger.\"\n",
       "kind": "reported",
@@ -361,11 +361,11 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "English rendering of CH5-C001 (zh v0.3), same evidence and state. Rendering check: 26 studies, no full concordance in controlled comparative studies, no pooled combination, no trial-level surrogate validation, very low certainty, exploratory or supportive only, no added clock significant: all carried over unchanged. Original CH5-C001 rationale: Every number and qualifier in the paragraph matches the quoted abstracts (26 studies, comparative-only scope, no trial-level surrogate validation, very low certainty, no additional clock significant). Abstract depth only: inclusion criteria, concordance definitions and Borrus dataset list not checked. Paragraph also says \"this does not show the interventions failed\", which is an interpretive limit, not a source claim.",
         "bound_hashes": {
-          "A-CH5-EN": "f4455ec08904ca7832d8c16470b2dd68f41d03c94a75cc519fbdd8d96abb0522",
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
           "A-CLOCK": "d73e328258faa20a4cc6cbc6c3b939322bcd00cb7002188e5e84eb4953505364",
           "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
         },
-        "record_sha256": "11d0c3067db9ca6fa18d49219f810986ea2cc460c45610f108323aafe6032865",
+        "record_sha256": "861688e48311e70d7ba54147e97b1b983bb9b7371d0992f72e65516df185c2b9",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -382,8 +382,8 @@
       "id": "CH5-EN-C002",
       "artifact_id": "A-CH5-EN",
       "lines_1based_halfopen": [
-        39,
-        40
+        40,
+        41
       ],
       "text": "A 2026 analysis of CALERIE provides exactly this kind of example. Among the original trial's 190 analyzable participants, the authors grouped people by their weight trajectory from month 12 to month 24. The group with the largest rebound had only 20 people, and it included members of both the original restriction arm and the original control arm. Having 190 participants does not mean every measure has 190 results at every time point: the supplementary table lists 57 missing values for baseline insulin area under the curve, and the exact grouping and pairing remain to be verified. The investigators observed metabolic differences accompanying the different trajectories. But the second year still fell within the original trial's intervention and maintenance window, so the result cannot be told as \"a randomized comparison after stopping the intervention proved something.\" Nor did the study measure how many more or fewer years any individual would live.[^2]\n",
       "kind": "reported",
@@ -410,11 +410,11 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "English rendering of CH5-C002 (zh v0.3), same evidence and state. Rendering check: 190 analyzable, months 12-24, largest-rebound group of 20 from both arms, 57 missing baseline insulin AUC, second year inside the intervention and maintenance window, no life-years: all carried over unchanged. Original CH5-C002 rationale: 190/20/12-24-month window/maintenance phase/regardless-of-randomization all match; \"57 missing baseline insulin AUC\" matches Table S3. Arm composition of the 20 (9 CR, 11 control) is in the project audit, not re-checked here, and the chapter does not state it. Denominator of 29.8% remains unresolved (X60).",
         "bound_hashes": {
-          "A-CH5-EN": "f4455ec08904ca7832d8c16470b2dd68f41d03c94a75cc519fbdd8d96abb0522",
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
           "A-WARM": "0f16c9a134febea6a8eb2635d9aa179a9cc94852245e41e344791335adc42824",
           "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
         },
-        "record_sha256": "2720215e10747288af6155a26a4a561e7754dbec0b5539f0b3980339d9ec358b",
+        "record_sha256": "8a166caf894f5d455f00e6cd70ea263516da96ff67bedab9e66ed2786f07079a",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -431,8 +431,8 @@
       "id": "CH5-EN-C003",
       "artifact_id": "A-CH5-EN",
       "lines_1based_halfopen": [
-        45,
-        46
+        46,
+        47
       ],
       "text": "A blood sample contains many kinds of cells. A change in its reading may reflect a change inside one cell type, a change in how much each cell type weighs in the mixture, or both. Even in a minimal linear model with two cell types, where each type's effective weight is assumed to be exactly known and unchanging, a fall in the total reading can be compatible with the value inside one type either rising or falling. This counterexample is not an estimate of a real human body. It shows only that limited information is not enough to select a single story.[^4]\n",
       "kind": "formal",
@@ -457,11 +457,11 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "English rendering of CH5-C003 (zh v0.3), same evidence and state. Rendering check: Two-type linear model with known, unchanging weights; aggregate fall compatible with a within-type rise or fall; explicitly not an estimate of a real body: carried over unchanged. Original CH5-C003 rationale: Worlds A and B give the same aggregate 0.6->0.4 with type-1 change +0.6 vs -1; the chapter states the model is not an estimate of real bodies, matching the memo scope line. Formal claim: support means the construction is valid, not that the biology behaves this way.",
         "bound_hashes": {
-          "A-CH5-EN": "f4455ec08904ca7832d8c16470b2dd68f41d03c94a75cc519fbdd8d96abb0522",
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
           "A-P2": "8f898fb90ae1b4f4f04722619e1da1b803bccb72fa49595c633de24c5cd9f63e",
           "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
         },
-        "record_sha256": "235a2bf4a6d5fc948edc44b7b24f6c195ea1f20ef24b0e9f4c3ea5b2ca36e61a",
+        "record_sha256": "567ea6c407577d609b2b0bb9e569efded77f0fb6df72725452f2caee54e12f1e",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -478,8 +478,8 @@
       "id": "CH5-EN-C004",
       "artifact_id": "A-CH5-EN",
       "lines_1based_halfopen": [
-        65,
-        70
+        66,
+        71
       ],
       "text": "NHS-Galleri is a large randomized trial in England. About 142,000 people volunteered to be randomized between usual care plus a multi-cancer early-detection blood test and usual care alone (control).\n- Median follow-up after the last screening round was 17 months. This is not an observation of anyone's whole life.\n- The primary analysis compared the incidence of stage III/IV cancer after three screening rounds, for 12 prespecified cancer types: 706 cases in the intervention group versus 688 in the control group, a rate ratio of 1.03 (95% confidence interval 0.92 to 1.14).\n- That primary comparison did not show a reduction in late-stage diagnosis. It neither proves that every possible screening benefit is absent, nor can it be described as having shown a reduction in cancer deaths.\n- The authors reported that stage IV results point in a direction worth further study. But once the primary test has not been passed, the related secondary results are descriptive and cannot be treated as established conclusions.[^5]\n",
       "kind": "reported",
@@ -507,11 +507,11 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "English rendering of CH5-C004 (zh v0.3), same evidence and state. Rendering check: About 142,000 (zh: about 142 thousand) for 142,250 randomized; 17-month median; 12 prespecified types; 706 vs 688; rate ratio 1.03 (0.92 to 1.14); secondary results descriptive after the primary test failed. The English splits the paragraph into an intro line and four bullets; the unit spans all five lines. Original CH5-C004 rationale: 约14.2万 = 142,250 randomized; 17-month median; 706 vs 688; IRR 1.03 (0.92–1.14); secondary endpoints descriptive after the primary step failed; mortality not yet reported. Supplement tables not read.",
         "bound_hashes": {
-          "A-CH5-EN": "f4455ec08904ca7832d8c16470b2dd68f41d03c94a75cc519fbdd8d96abb0522",
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
           "A-GALLERI": "59576e3e98b9379388516bb82357320d36370a725b5cca08073c4663d245e873",
           "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
         },
-        "record_sha256": "02ca6ad88e53f656d8e30ea6c6b9c00ae7afc71531c78e446d702c723619744c",
+        "record_sha256": "3d52d62e992a8b497228fff8ead4f5daa9744fe2cf577ed8734650e743b2f4c3",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -528,8 +528,8 @@
       "id": "CH5-EN-C005",
       "artifact_id": "A-CH5-EN",
       "lines_1based_halfopen": [
-        51,
-        58
+        52,
+        59
       ],
       "text": "So a responsible clock study should at least do four things:\n- prespecify the primary clock and the clinical or functional endpoint;\n- report cell composition and batch alongside the clock;\n- estimate measurement error with repeated sampling;\n- correct for multiple comparisons when several clocks are used.\n\nSeveral clocks pointing the same way is a sieve, not a clinical certification. Two intervention arms of the same trial cannot be recounted as two independent replications.\n",
       "kind": "normative",
@@ -554,7 +554,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "English rendering of CH5-C005 (zh v0.3), same evidence and state. Rendering check: Four reporting rules plus the sieve sentence and the two-arms-are-not-two-replications sentence; the unit spans the intro line, four bullets, a blank line and the closing sentence. Original CH5-C005 rationale: Lineage record: rule text carried from V7-06 (frozen corpus) into ch5. A normative proposal is not supported or refuted by a source; kept unknown on purpose.",
         "bound_hashes": {
-          "A-CH5-EN": "f4455ec08904ca7832d8c16470b2dd68f41d03c94a75cc519fbdd8d96abb0522",
+          "A-CH5-EN": "5cbcc8d8fce9e539fb69011267d1aeba34c71b2f92934a3eb5334a5a3cb75118",
           "A-V7": "a388a8fb91203f00739cae93a21c8d30c0a35ec4403745ed30c37fe29009b85e",
           "A-CLOCK": "d73e328258faa20a4cc6cbc6c3b939322bcd00cb7002188e5e84eb4953505364",
           "A-CH5": "f989c7ef089876412a14ccab9b678e7e21d2a950a96be1405a7226cc9c6b7e38"
@@ -577,11 +577,11 @@
   "debts": [
     {
       "id": "CH5-EN-INDEPENDENT-REVIEW",
-      "status": "blocked",
-      "blocks_formal_release": true,
+      "status": "closed",
+      "blocks_formal_release": false,
       "question": "No independent domain, statistical or translation review of the English text (D05)",
-      "next_action": "Real external review, including a bilingual check; never fabricate receipts",
-      "closure_evidence": "Object-bound review record with declared independence and responses"
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
     },
     {
       "id": "CH5-EN-INVENTORY",

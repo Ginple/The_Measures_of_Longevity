@@ -4,7 +4,7 @@
 >
 > **Status:**
 > - For author and domain review only; not a frozen text.
-> - Self-checked by the same assistant that wrote it. Independent external review has not taken place (D05 open).
+> - Self-checked by the same assistant that wrote it. Independent human review was waived by the owner on 2026-11-28 (DEC-020). The [claim audit agent](../../../review/CLAIM_AUDIT_AGENT_RECEIPT.json) runs mechanical checks in its place; it does not certify that any claim is scientifically correct.
 > - Twelve claim units are bound to verbatim source excerpts, to project records, or to the project's own synthetic calculation ([chapter 4 pilot](../../../knowledge_base/pilots/ch04_evidence_en/README.md)). Sources were read at abstract depth; the counts by time point for CALERIE and BASE-II come from project audits of the full texts. Any edit to this file or to an excerpt makes the affected claims stale until they are re-bound.
 > - This chapter teaches reading habits. It does not settle any real conflict between studies (chapter 31) and gives no medical advice.
 

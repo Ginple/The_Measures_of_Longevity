@@ -197,10 +197,10 @@ def build():
                          note='Reasoning paragraphs (lower envelope is not an observed threshold; level versus rate near the threshold; reserve is not just level; the five questions; the four measures together) make no source claim. Abstract depth throughout; synthetic claims are formal.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH9-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH9-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent domain or statistical review of these claims (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH9-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='All sources read at abstract depth; the renal-reserve abstract is truncated before its conclusions; Strehler-Mildvan 1960 read only secondhand (X136); no observed failure threshold for independent living',
                  next_action='Read the Fliser and Paterson full texts and Strehler-Mildvan 1960; search for prospective thresholds of capacity at loss of independence',

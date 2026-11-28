@@ -195,10 +195,10 @@ def build():
                          note='Method and habit paragraphs (denominator questions, randomisation promise, source-family grouping, reading the primary end point, what counts as the same result) make no source claim. Abstract depth throughout; three synthetic claims are formal; CALERIE and BASE-II counts and X106 rest on project records.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH4-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH4-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent review by a statistician or a trialist (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH4-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='Eight studies at abstract depth; CALERIE (X31) and BASE-II counts from project audits not re-read; X106 is a question for the authors',
                  next_action='Re-read full texts; seek author clarification for X31 and X106',

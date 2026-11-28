@@ -24,7 +24,7 @@ _spec.loader.exec_module(base)
 HERE = 'knowledge_base/pilots/ch02_clocks_en'
 EN_PATH = 'books/manuscript/en/CH02_clocks_draft_en.md'
 EV = f'{HERE}/evidence'
-HALE_AUDIT = 'knowledge_base/HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md'
+HALE_AUDIT = 'knowledge_base/pilots/ch02_clocks_en/evidence/HALE_AUDIT_excerpt.txt'
 ARTIFACTS = [
     ('A-CH2-EN', EN_PATH, 'manuscript', 'longevity-manuscript', 'fulltext', '',
      'English draft v0.1 (DEC-016); new writing using V6 section 04 and V7 section 21 as leads; working copy'),
@@ -43,7 +43,7 @@ ARTIFACTS = [
     ('A-LEDGER', f'{EV}/LEDGER_X21_X61_excerpt.txt', 'source', 'longevity-project-record', 'fulltext', '',
      'verbatim copy of ledger rows X21 and X61 (2026-11-28): records of earlier full-text reading by the same assistant; not a primary source'),
     ('A-HALE', HALE_AUDIT, 'source', 'longevity-project-record', 'fulltext', '',
-     'project HALE methods audit (2026-11-27), same assistant, from the paper and WHO method documents; not a primary source'),
+     'verbatim copy of section 1 of the project HALE methods audit (2026-11-27; copied 2026-11-28), same assistant, from the paper and WHO method documents; not a primary source'),
 ]
 EVIDENCE = {
     'E-PC-MODEL': ('A-PC-CODE', 'Model: a Gompertz hazard', 4),
@@ -181,10 +181,10 @@ def build():
                          note='Reasoning and value paragraphs (the newspaper page, period table definition, what a weight is, the strongest counterexample, two ledgers, reading the gap association, matching each limit paper to its statistic, the consumer clock) make no source claim. Abstract depth throughout; two synthetic claims are formal; one claim rests on project records.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH2-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH2-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent demographic, health-economic or disability-studies review of these claims (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH2-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='All five studies read at abstract depth; healthspan paper aggregation (X21) and divisor (X61) open; comments on Dong and Barbi unread; V7 tail figures for the mutation model unchecked',
                  next_action='Read the full texts and comments; bind the relevant tables as excerpts',

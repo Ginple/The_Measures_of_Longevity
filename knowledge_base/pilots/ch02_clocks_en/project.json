@@ -15,7 +15,7 @@
     {
       "id": "A-CH2-EN",
       "path": "books/manuscript/en/CH02_clocks_draft_en.md",
-      "sha256": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+      "sha256": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -94,13 +94,13 @@
     },
     {
       "id": "A-HALE",
-      "path": "knowledge_base/HALE_METHODS_VERSIONS_AND_TIME_AUDIT_2026-11-27.md",
-      "sha256": "caa0414a03f3c084c745e0a60ce44cb9603322458eb3e00dbc947367b862522f",
+      "path": "knowledge_base/pilots/ch02_clocks_en/evidence/HALE_AUDIT_excerpt.txt",
+      "sha256": "d85f319ad99e9ce153241958f9df629b3594b35a034fa696b9b6afaa90dfb066",
       "role": "source",
       "family": "longevity-project-record",
       "access_depth": "fulltext",
       "url": "",
-      "version": "project HALE methods audit (2026-11-27), same assistant, from the paper and WHO method documents; not a primary source"
+      "version": "verbatim copy of section 1 of the project HALE methods audit (2026-11-27; copied 2026-11-28), same assistant, from the paper and WHO method documents; not a primary source"
     }
   ],
   "evidence": [
@@ -387,8 +387,8 @@
       "id": "E-HALE-AGG",
       "artifact_id": "A-HALE",
       "lines_1based_halfopen": [
-        7,
-        8
+        3,
+        4
       ],
       "text": "研究在 2024 年初查询 WHO GHO，分析2000、2019间指标；原文报告 2019 **全球差9.6年**与 **183个会员国差值均值9.2年**，分别对应不同汇总对象，不能将前者作为各国简单平均，也不能将后者叫全球人口平均。论文的方法段未在已读内容明确各国均值与全球值的完整聚合代码。[WHO GHE2019 技术文件 §7](https://www.who.int/docs/default-source/gho-documents/global-health-estimates/ghe2019_life-table-methods.pdf)称覆盖 2019 年人口至少90,000 的183个会员国；其 HALE 使用 WHO 生命表与主要基于 GBD2019 并作部分调整的 YLD 估计。\n"
     },
@@ -396,8 +396,8 @@
       "id": "E-HALE-VERS",
       "artifact_id": "A-HALE",
       "lines_1based_halfopen": [
-        9,
-        10
+        5,
+        6
       ],
       "text": "[当前 WHO 元数据](https://www.who.int/data/gho/indicator-metadata-registry/imr-details/7752)说明全球/区域 HALE **输入**按人口加权汇总，并明确该新估计使用 GBD2021 等新数据，2000–2021 序列与旧发布版本不可直接比较。这并未证明作者2024年所用版本全球聚合的每一算法细节，更不能将当年全球差直接解释成各国差值的人口加权平均；对生命表这样的非线性指标，先汇总输入再算，与直接平均国家指标未必相同。X21 因数据快照和实际汇总代码未核继续开放。\n"
     },
@@ -550,7 +550,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Gompertz hazard falling 1 percent per calendar year; period LE 73.4, cohort LE 80.8, difference 7.4; 0.43 of the period table die before LE; quartile ages 66.4 and 82.9. All match the saved output and the script docstring. Formal claim.",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-PC-CODE": "da3f4ec851009c657580e6ce55d650d30542aeb2873409f369cb2e794781f3de",
           "A-PC-OUT": "21ceb0a683d07d85034111fab406b793876e836655d0a9f095b219cb0bb62860"
         },
@@ -599,7 +599,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "DALYs need disability weights for non-fatal outcomes; web surveys of 18-65-year-olds in Hungary, Italy, the Netherlands and Sweden combined with GBD 2010 data; paired comparison of two hypothetical individuals; rescaled 0 (no loss) to 1 (equivalent to death); hearing loss 0.033 to 0.215 and treated spinal cord lesion below the neck 0.047 to 0.296 after revised descriptions; sensitive to description details, robust to duration. All match; the source uses a middle-dot decimal mark.",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-WEIGHTS": "e3afce65a6b22c7936384bac347f9b704d9254fbf2e555c14307a9afc6ca6e2f"
         },
         "record_sha256": "95e8b7ad3e1dabafbaadc97334a75236e0349dedd9a614ccd3f47911465b0d7f",
@@ -648,7 +648,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "960 genetically diverse female mice; CR and IF extended lifespan in proportion to restriction; health effects differed and related inconsistently to lifespan extension; 40% CR strongest extension with lean-mass loss and immune changes that could confer infection susceptibility; reduced adiposity and lower fasting glucose not associated with longer lifespan; \"not synonymous\"; Calico employees. All match.",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-MICE": "03ada7ef5ca4e248843dd29af84201e1f79711b010c364c4d4c660e0edafe76b"
         },
         "record_sha256": "41ed0a1e5f4a0cebd1573515750bb6c4ad1113e6890f3e4be85f8cfa3209f507",
@@ -698,7 +698,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "WHO data, 183 member states, two decades, widened globally to 9.6 years, wider for women, positively associated with NCD burden and total morbidity and negatively with mortality. All match the abstract.",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-GAP": "0d07e463090c27dc0da6d2cad906f014d2134af481e58ce4e714c345af8d806a"
         },
         "record_sha256": "14df87ab79b97fe9019382418e55aa32d52e0463bdde21fc60aebe55dc2fa303",
@@ -744,11 +744,11 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Global 9.6 versus 183-country mean 9.2 as different aggregates (X21, audit section 1); WHO HALE uses WHO life tables and YLD mainly based on GBD (audit section 1); the current WHO series is not directly comparable with older releases (audit section 1); (Estimate2019-Estimate2000)/20 versus 19 intervals if annual end points, unresolved without data (X61). All from project records by the same assistant, cited as such; not primary sources and not independent.",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-LEDGER": "448ff695f297cf20ead280408c43cb8035a510a2d1c5f8f1e3d2b690d552e620",
-          "A-HALE": "caa0414a03f3c084c745e0a60ce44cb9603322458eb3e00dbc947367b862522f"
+          "A-HALE": "d85f319ad99e9ce153241958f9df629b3594b35a034fa696b9b6afaa90dfb066"
         },
-        "record_sha256": "10e744f78e78e97176855d5ea2836ddffcc1d48dbf1ad76ac8f54b1be17a28d3",
+        "record_sha256": "a5aa212eff25c94211dcdbb88db41a11d6f8d601373939fac0cdbad5e9becadd",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -793,7 +793,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Dong, Milholland and Vijg 2016: improvements in survival decline after 100; oldest-person age at death not increased since the 1990s; maximum lifespan fixed and subject to natural constraints. Barbi 2018: all Italians aged 105+ in 2009-2015, 3836 documented cases; hazard essentially constant beyond 105. All match; \"and colleagues\" stands for the four co-authors in the header.",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-LIMIT": "4837dfefe818fbaeb67a2925de5d214c00ddd0365027983beff721ceea8003fc"
         },
         "record_sha256": "16c0a7e99a88d1f593115101adfa82d88b97777bf47a193b4c400c52847b8983",
@@ -839,7 +839,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Year-0 rates; death probability at 105 0.66; reach 115 given 105: 1.6e-08 rising versus 2.2e-05 flat, ratio 1400; reach 122 ratio 7.1e11 (710 billion). All match the saved output. Formal claim.",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-PC-CODE": "da3f4ec851009c657580e6ce55d650d30542aeb2873409f369cb2e794781f3de",
           "A-PC-OUT": "21ceb0a683d07d85034111fab406b793876e836655d0a9f095b219cb0bb62860"
         },
@@ -889,7 +889,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "NPJ Aging 2026; model removes all hallmarks except somatic mutations; mutations accumulate with age and can cause cell death; post-mitotic neurons and cardiomyocytes are bottlenecks, 1759 to 156 years median; multi-organ 146-194 median; cannot alone account for observed mortality, comparable contributions from other hallmarks; title says upper bound. All match. \"Cells that no longer divide\" renders \"post-mitotic\"; \"heart muscle cells\" renders \"cardiomyocytes\".",
         "bound_hashes": {
-          "A-CH2-EN": "525a7ce5f3762a275ae2e1fd35d06bcabf2f36a2fc06c66c8ed0c7195592aa5a",
+          "A-CH2-EN": "1f9d9c99719cabfeb88699d38d41560ad28972fe7310187e6cc44190b80d3cac",
           "A-LIMIT": "4837dfefe818fbaeb67a2925de5d214c00ddd0365027983beff721ceea8003fc"
         },
         "record_sha256": "bb582ccaa3ba15dc2ac44f90e8c018011c182dd4d35f4694ff7a859da8131b33",
@@ -910,11 +910,11 @@
   "debts": [
     {
       "id": "CH2-EN-INDEPENDENT-REVIEW",
-      "status": "blocked",
-      "blocks_formal_release": true,
+      "status": "closed",
+      "blocks_formal_release": false,
       "question": "No independent demographic, health-economic or disability-studies review of these claims (D05)",
-      "next_action": "Real external review; never fabricate receipts",
-      "closure_evidence": "Object-bound review record with declared independence and responses"
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
     },
     {
       "id": "CH2-EN-DEPTH",

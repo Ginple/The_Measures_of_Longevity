@@ -16,5 +16,5 @@
   - full texts, including how long the mice were followed after dosing and the ACHIEVE sensitivity analysis;
   - the CAPABLE registration history and dated protocol (X79);
   - the senolytic, social-prescribing and home-modification evidence listed in the outline (X99), left to chapters 19 and 23;
-  - independent review. Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
 - **Checks**: `tests/test_ch10_en_pilot.py`. These are bookkeeping checks only, not scientific validation.

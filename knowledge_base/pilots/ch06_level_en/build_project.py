@@ -178,10 +178,10 @@ def build():
                          note='Unregistered: the bookkeeping paragraph on the two 2025 organ-age studies (rests on ledger X81). Reasoning paragraphs (non-independence of organ readings; what a level can carry) make no source claim. Abstract depth except the Borrus introduction and the Jonkman Results passages.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH6-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH6-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent domain or statistical review of these claims (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH6-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='Sources read at abstract depth except Jonkman 2026 (Results passages read) and Borrus (introduction); Song 2026 erratum unread; no independent test-retest study of a consumer-marketed clock found',
                  next_action='Read full texts and erratum; search again for an unconflicted consumer-clock reliability study',

@@ -17,7 +17,7 @@ A statement cannot be stronger than the strongest verifier actually run (playboo
 
 | Level | Verifier | Examples in this repository | May close a gate? |
 |---|---|---|---|
-| V1 | Formal or deterministic | Unit tests; `scripts/run_validation.py`; ch5 binding `--check`; [`tools/restructure_audit_agent.py`](../tools/restructure_audit_agent.py); outline-to-corpus hash binding | Supports closing the encoded property; the owner closes |
+| V1 | Formal or deterministic | Unit tests; `scripts/run_validation.py`; ch5 binding `--check`; [`tools/restructure_audit_agent.py`](../tools/restructure_audit_agent.py); [`tools/claim_audit_agent.py`](../tools/claim_audit_agent.py); outline-to-corpus hash binding | Supports closing the encoded property; the owner closes |
 | V2 | Executable check against an external record | PubMed and DOI lookups logged in `knowledge_base/search_logs/SEARCH_LOG_*.csv` | Supports closing that record match; the owner closes |
 | V3 | Validated model judge | None exists | — |
 | V4 | Unvalidated model judgement or role-play | RT-C reader walk-through; any clean-session blind review ([prepared prompt](../review/blind/BLIND_REVIEW_PROMPT_2026-11-28.md)) | Diagnostic only |
@@ -32,7 +32,8 @@ A statement cannot be stronger than the strongest verifier actually run (playboo
 | Audit L3 | same | Human; outside V1–V5 | Qualified editor, agent or domain expert. **Not done** |
 | Audit agent (2026-11-28) | [report](../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md) | V1 for 26 encoded properties | Choice of properties is V5 |
 | K0–K3 | restructure protocol | — | Size of change, not strength of evidence |
-| D05 | [MASTER](../knowledge_base/MASTER.md) | — | Independent human external review. **Open.** Nothing on this scale closes it |
+| Claim audit agent (2026-11-28) | [report](../review/CLAIM_AUDIT_AGENT_REPORT_2026-11-28.md) | V1 for 7 encoded properties per English pilot | Choice of properties is V5. Cannot see paraphrase that changes meaning |
+| D05 | [MASTER](../knowledge_base/MASTER.md) | — | Independent human external review. **Waived by the owner on 2026-11-28 (DEC-020)** in favour of the two audit agents. The waiver removes a requirement; it does not mean a human review took place, and nothing on this scale is a scientific verdict |
 | CI green | `.github/workflows/ci.yml` | V1 | Software properties only. Not a scientific or editorial verdict |
 
 ## 2. Tool status

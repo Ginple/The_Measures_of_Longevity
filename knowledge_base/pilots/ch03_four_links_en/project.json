@@ -15,7 +15,7 @@
     {
       "id": "A-CH3-EN",
       "path": "books/manuscript/en/CH03_four_links_draft_en.md",
-      "sha256": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+      "sha256": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -545,7 +545,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Gladyshev 2026: aging as default outcome, imperfect processes, deleteriome accumulates and erodes functional reserve; covers damage, drift, remodeling, system failure without reducing to genes, pathways, hallmarks, pathologies. Yucel, Moliere and Gladyshev 2026 (Nature review per header): decanalization of cell identity; grammar written in development; local mechanisms with limited fidelity; most age-associated methylation gain in somatic mitotic tissues at PRC2-bound regions; testable predictions for stabilising architecture. All match. \"One laboratory\" rests on the shared author and affiliation in the headers. \"Loosening\" renders \"decanalization\"; \"dividing tissues\" renders \"somatic mitotic tissues\".",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-THEORY": "9fc67bd103e9d95eed22a0290c3893936c59b09b1ac4ad06bce83f4ae3b9990d"
         },
         "record_sha256": "2c595448020f8eef6a9741a115285277f80ef373f52d30fb0ae868a7b694b55e",
@@ -593,7 +593,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Lemaitre 2024 Essay: why and how we age intertwined; attempts compartmentalized; lack of clarity on DST and DTA relative to MA and AP; hierarchical model linking genes to vital rates; testable hypotheses on how selection shapes hallmarks. All match.",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-THEORY": "9fc67bd103e9d95eed22a0290c3893936c59b09b1ac4ad06bce83f4ae3b9990d"
         },
         "record_sha256": "8343176ccc67771e077e4ae43e0307e90742dd6dca74c3964d945d686085d1da",
@@ -638,7 +638,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Biological age partially reversible or resettable in some contexts, aging itself irreversible; biomarkers make biological age imperfectly but increasingly measurable. Both quoted from the abstract; the reading that the two terms name different things is the chapter's inference, stated as such (\"can be true only if\").",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-THEORY": "9fc67bd103e9d95eed22a0290c3893936c59b09b1ac4ad06bce83f4ae3b9990d"
         },
         "record_sha256": "f9da17c77e8101b30b3342bf6a1737317c93c0fd4b87f267bbbf7fc2aebc8543",
@@ -682,7 +682,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "1000 people, 300 with Z; marker high 80%/20%; event 40%/10% regardless of marker; 380 high with 110 events (0.289); 620 low with 80 events (0.129); ratio 2.24; events 190 before and after. All match. Formal claim.",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-CM-CODE": "5730b771655bb56fa65a5540245ead5e4a389f5211cea1088814745073babf98",
           "A-CM-OUT": "b5cc5137a34dfc5ec818bfa10f97d594f29803aa5c3c20b48efa8d58854ea149"
         },
@@ -732,7 +732,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Observational OR 0.62 per SD; genotypes assigned at meiosis and unmodified by disease; genetic-score OR 0.93 (0.68-1.26); some genetic mechanisms that raise HDL do not seem to lower MI risk; challenges uniform translation. All match; source uses middle-dot decimals. \"Heart attack\" renders myocardial infarction; \"natural experiment\" glosses mendelian randomisation.",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
         },
         "record_sha256": "81e379b87c2429f2f0a22135d5f254995c7b664070e0a7d74612a8b397e2142a",
@@ -781,7 +781,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Potent CETP inhibitor; 15,067 patients; HDL +72.1%, LDL -24.9%, SBP +5.4 mm Hg at 12 months; CV events HR 1.25; death HR 1.58 (1.14-2.19); terminated prematurely; unknown mechanism; off-target evidence but CETP-related harm not ruled out. All match. The protocol amendment (X28) is disclosed in the chapter footnote and the unresolved list.",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
         },
         "record_sha256": "cf272988a322df32cf7bec21f2317d6bcac4a6d5f2388ddc6652a2e12da14bb6",
@@ -828,7 +828,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Hypothesis: suppression of ventricular ectopy after MI reduces sudden death; only suppressible patients randomized; 1498 patients in the encainide/flecainide comparisons; mean 10 months; arrhythmic deaths 43 drug vs 16 placebo; discontinued for excess mortality; mechanisms unknown. All match. \"Extra beats from the ventricles\" renders ventricular ectopy; \"control of the marker was achieved before randomisation\" follows from the eligibility rule.",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
         },
         "record_sha256": "fc5e364edd25c28463600a4e8e24160c88feffc59532a935728fad65a8ccecbe",
@@ -876,7 +876,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Epidemiologic relationship between HbA1c and CV events; 10,251 patients; targets below 6.0% versus 7.0-7.9%; achieved 6.4% and 7.5% at 1 year; deaths 257 vs 203, HR 1.22 (1.01-1.46); over 3.5 years increased mortality without significant reduction in major CV events. All match.",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
         },
         "record_sha256": "e9c660edce647fb9963173e49bb9de847f62dbcda781e499b266f93ae8d5c00b",
@@ -920,7 +920,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "LDL observational OR 1.54 per SD concordant with genetic-score OR 2.13. Matches. The objection itself is the outline's strongest counterexample, stated in the chapter's words; no source claim beyond the LDL figures.",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-TRIALS": "d2279b028182d7d1505efc2e13530a5417b019837690aec22630ed3b0c4cc62b"
         },
         "record_sha256": "9df51685c1c7fd60bbae4776794d4f489bfb3ff3165096adea5bcf6d680da344",
@@ -963,7 +963,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "X85: Ledberg 2020 derives Gompertz from queueing theory; Karin/Alon SR model; critical slowing and dynamic resilience literature; originality to be downgraded to recombination and identifiability. Matches the ledger excerpt; the underlying papers were not re-read (footnote says so).",
         "bound_hashes": {
-          "A-CH3-EN": "9f565bc898e330e28a012c44adcaddaea3743bdbb16ad038a6f88a710e5992c3",
+          "A-CH3-EN": "1250a1b2663c953cd0becfe5daaf1ce4474dffb9319dc170490c598b0ba82a0a",
           "A-LEDGER": "67868da95bef2397501d012665ed0aa922903ef5d86fd71c40b44fb008bd61fa"
         },
         "record_sha256": "c1f64eb1697aa71c5f7b8ae7565b65f4664bc16685021b261ff15b78d893a334",
@@ -984,11 +984,11 @@
   "debts": [
     {
       "id": "CH3-EN-INDEPENDENT-REVIEW",
-      "status": "blocked",
-      "blocks_formal_release": true,
+      "status": "closed",
+      "blocks_formal_release": false,
       "question": "No independent review by an aging biologist, a trialist or a philosopher (D05)",
-      "next_action": "Real external review; never fabricate receipts",
-      "closure_evidence": "Object-bound review record with declared independence and responses"
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
     },
     {
       "id": "CH3-EN-DEPTH",

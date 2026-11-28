@@ -4,7 +4,7 @@
 >
 > **Status:**
 > - For author and domain review only; not a frozen text.
-> - Self-checked by the same assistant that wrote it. Independent external review has not taken place (D05 open).
+> - Self-checked by the same assistant that wrote it. Independent human review was waived by the owner on 2026-11-28 (DEC-020). The [claim audit agent](../../../review/CLAIM_AUDIT_AGENT_RECEIPT.json) runs mechanical checks in its place; it does not certify that any claim is scientifically correct.
 > - Ten claim units are bound to verbatim source excerpts or to a pinned copy of published software ([chapter 7 pilot](../../../knowledge_base/pilots/ch07_rate_en/README.md)). Sources were read at abstract depth. Any edit to this file or to an excerpt makes the affected claims stale until they are re-bound.
 > - The chapter is about reading measurements. It does not recommend, rank or discourage any test, product or treatment, and it gives no personal medical advice.
 
@@ -87,7 +87,7 @@ Even a well-measured slope describes the past interval. It says how fast a readi
   - The software observation concerns one pinned version of one clock's public code and is not a test of any study's results.
   - The chapter does not evaluate any commercial test.
 - **Unresolved:**
-  - external review (D05);
+  - independent human review, waived by the owner (DEC-020); the claim audit agent's checks are mechanical and do not replace a domain expert's reading;
   - full-text reading of the cited studies;
   - an independent second source on repeated within-person clock measures over years, from a group with no stake in the clocks (searched for, not yet found);
   - the software version used in published trials (ledger X27);

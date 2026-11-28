@@ -167,10 +167,10 @@ def build():
                          note='The route table, the durability argument, the reply to the objection and the reporting rule are the book\'s framework and make no source claim. Abstract depth throughout; X15 and X79 rest on project records.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH10-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH10-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent review by a geriatrician, a trialist or an immunologist (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH10-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='Four trials and one mouse study at abstract depth; the mouse study\'s follow-up after stopping and safety window not read; X79 needs dated protocol and registration history',
                  next_action='Read full texts (Friedrich methods and extended data; ACHIEVE sensitivity analysis); retrieve the CAPABLE registration history',

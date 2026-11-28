@@ -152,10 +152,10 @@ def build():
                          note='Reasoning and value paragraphs (the scene, three senses of measure, the strongest objection, disability is not a verdict, cells as who, seen and missed, caution, two accounts, the five questions) make no source claim. Abstract depth throughout; the synthetic claim is formal.'),
         'artifacts': list(arts.values()), 'evidence': evidence, 'claims': claims, 'reviews': [],
         'debts': [
-            dict(id='CH1-EN-INDEPENDENT-REVIEW', status='blocked', blocks_formal_release=True,
+            dict(id='CH1-EN-INDEPENDENT-REVIEW', status='closed', blocks_formal_release=False,
                  question='No independent domain, statistical or disability-studies review of these claims (D05)',
-                 next_action='Real external review; never fabricate receipts',
-                 closure_evidence='Object-bound review record with declared independence and responses'),
+                 next_action='None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place',
+                 closure_evidence='DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)'),
             dict(id='CH1-EN-DEPTH', status='open', blocks_formal_release=True,
                  question='All four studies read at abstract depth here; CAPABLE 12-month results, the healthspan paper aggregates (X21, X61) and CALERIE participant overlap (X29, X31, X49) unresolved',
                  next_action='Read the full texts; bind the relevant tables as excerpts',

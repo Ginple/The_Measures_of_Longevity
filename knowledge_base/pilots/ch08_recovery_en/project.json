@@ -15,7 +15,7 @@
     {
       "id": "A-CH8-EN",
       "path": "books/manuscript/en/CH08_recovery_draft_en.md",
-      "sha256": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+      "sha256": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -484,7 +484,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Stimulus-response dynamical modelling, frailty as loss of resilience in homeostatic regulation, provocative tests and sentinel systems for screening all match. \"Johns Hopkins group\" is from the affiliation.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-CONCEPT": "f29215c29021208e91f4846c31d6f5c476e52826a6c28f08af0cd3ac8a584108"
         },
         "record_sha256": "f26d3ca5b37f5d6f5f718cf4be843fd4ade3cf7e4f0864d1f7b36ef879b0e177",
@@ -529,7 +529,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Range from general recovery/adaptation to post-perturbation trajectory models; \"physical\" rarely defined; only two studies referenced formal models; few distinguished resilience from adaptation or robustness. All match.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-CONCEPT": "f29215c29021208e91f4846c31d6f5c476e52826a6c28f08af0cd3ac8a584108"
         },
         "record_sha256": "3846483b9ecda123d79eea0839baf1e6de8699ca60d5ed33f7b4a05d3112dcba",
@@ -576,7 +576,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "4,475; aged 50+; supine to stand; beat-to-beat over 2 minutes; 4.3 years; 138 deaths; strong predictor in first 20 s; 6% per 1 bpm between 10 and 20 s adjusted for established risk factors; 69 vs 14 deaths; 2.3 times. \"Irish\" from the TILDA affiliation. All match.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-CHALL": "62c4b780b2126a5d048cdfa2859f1582a813927b15f86a95e6e9e363f93be00f"
         },
         "record_sha256": "27006b662029087e8d9f29157f92a295a6db870067510f0e4d2fe810551db970",
@@ -623,7 +623,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "1,120 over 50 in BLSA; Ackerman parametric model and fPCA; 36% inadequate fits; no association of Ackerman summaries with gait speed or survival; second fPC associated with faster gait and better survival. \"Two hours\" is the standard OGTT duration and not quoted; acceptable explanatory gloss.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-CHALL": "62c4b780b2126a5d048cdfa2859f1582a813927b15f86a95e6e9e363f93be00f"
         },
         "record_sha256": "8fbdcbebb2d2c55e9d03b54715c2db4a29a93f991885864c1fc682203ad9ae89",
@@ -671,7 +671,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Two hospital types; aged 70+; 1993-1998; 1/3/6/12 months; 41.3/28.6/30.1% versus 17.8% and 67%; recovery by 1 month associated with long-term outcomes. ADL examples (bathing, dressing, eating) are a standard gloss, not quoted.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-HOSP": "a7f72b2588cc41653d0350ec60019ffdbed9f18c5d236fb684bebab0176b7fd0"
         },
         "record_sha256": "bb6fdcc8123da508bcdfe7b0757dc80376376be2650e2c5910636b89ae5c4df8",
@@ -718,7 +718,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Consumer lab CBC database; single indicator; broadening explained by loss of resilience measured as autocorrelation time; extrapolated divergence at 120-150; authors conclude a fundamental or absolute limit; five employees, one also shareholder, one advisory-board member; funded by the company. All match. The following paragraph (extrapolation is not an observation) is the chapter's reasoning, consistent with KERNEL §6 and ledger X86.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-EXTRAP": "dfb971572fc10dda79754db415b2785b4b1f62b347c01357e864c4a31c8bd7e1"
         },
         "record_sha256": "c2101f788ebf02b6f6fbd316f29b27f4bb52345ec86a9a57c4bc06885f093e64",
@@ -768,7 +768,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "1,961 randomized; 68 weeks; all treatment including lifestyle stopped; 327 in extension; 17.3% loss; regained 11.6 points by week 120; net 5.6%; most cardiometabolic improvements reverted toward baseline; exploratory; manufacturer employees among authors. All match.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-WITHDRAW": "f0e64474f2db4fc89ec9a58be740ced95ba6cf6c7ce30ee67dff49de39958adb"
         },
         "record_sha256": "f05ec279ed5b6550fd5485f34468220c93f1800424b869e8ae933a278aa66bcf",
@@ -816,7 +816,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Matched mean damage at 70; local recovery rates 0.137 vs 0.114 per year (about 20%), computed at the survivor mean as a linearised approximation; pulse reading returns at a speed set by the recovery rate; level plus recovery rate at two levels identifies beta and kappa only if the model is correctly specified; no measurement noise or finite samples. Formal claim: support means the construction is valid as reported.",
         "bound_hashes": {
-          "A-CH8-EN": "01368d9bec08444cbf8ef6132c7ee0864a48c29a79bd2ef9b14831bf0ba69f62",
+          "A-CH8-EN": "bbf9ab021ddd453b25f69896274fb7cd03c4278aaf6849f3f26a7deb79fba5ab",
           "A-SR": "307672e875a29c6d8f0735f86dde89e0dfa21250e17e9f0c0a5adee6b0deffaf"
         },
         "record_sha256": "f1447649c91b864511bf422c802c6d0cd1b7cb3a141f75eb0d3e45c6e2d4e86c",
@@ -837,11 +837,11 @@
   "debts": [
     {
       "id": "CH8-EN-INDEPENDENT-REVIEW",
-      "status": "blocked",
-      "blocks_formal_release": true,
+      "status": "closed",
+      "blocks_formal_release": false,
       "question": "No independent domain or statistical review of these claims (D05)",
-      "next_action": "Real external review; never fabricate receipts",
-      "closure_evidence": "Object-bound review record with declared independence and responses"
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
     },
     {
       "id": "CH8-EN-DEPTH",

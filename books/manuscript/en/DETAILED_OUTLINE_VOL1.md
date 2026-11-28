@@ -4,7 +4,7 @@
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
-- **Review status.** Written by the same assistant that wrote most of the plan. Not independently reviewed (D05 open).
+- **Review status.** Written by the same assistant that wrote most of the plan. Not independently reviewed; the owner waived independent human review (DEC-020) and the audit agents check encoded properties only.
 - **Evidence.** All evidence listed is *candidate*: a number enters the text only after it is traced to a ledger entry or a bound excerpt. Rows marked "KERNEL anchor" are not yet ledger entries and must be traced before use.
 - **Length.** No word targets (DEC-017). Length follows from the sections.
 

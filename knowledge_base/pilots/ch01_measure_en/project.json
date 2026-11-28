@@ -15,7 +15,7 @@
     {
       "id": "A-CH1-EN",
       "path": "books/manuscript/en/CH01_measure_draft_en.md",
-      "sha256": "a397a99293e2af0b63fc14a7a2d3d5ab5a6005b7e48ef4bec542acde4afeb3fa",
+      "sha256": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -408,7 +408,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "WHO data, 183 member states, gap widened over two decades to 9.6 years, women 2.4 years wider, US largest at 12.4: all in the abstract. The global-versus-country-average distinction comes from the project ledger X21 (earlier full-text reading by the same assistant), cited as such, not from the abstract. The definitions of the two statistics restate the abstract's importance statement and general demographic usage.",
         "bound_hashes": {
-          "A-CH1-EN": "a397a99293e2af0b63fc14a7a2d3d5ab5a6005b7e48ef4bec542acde4afeb3fa",
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
           "A-GAP": "f2f59331add03dd83cd86b3f79c1f1c4fa0bcdbc57c54c7056cd2a779fbc06ab",
           "A-LEDGER": "ac7458d9c8e07c92eff604877b9272b1353529ab9e0b589f16fabd127dae9c25"
         },
@@ -456,7 +456,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "All three populations: LE 18, HALE 15, gap 3. A: deaths 20 at 10, 80 at 20; losses 1 (20) and 7/2 (80); nobody at 18 or at 3. B: all die at 18, all lose 3. C: deaths as A; losses 1 (80) and 11 (20). All match the saved output. Formal claim.",
         "bound_hashes": {
-          "A-CH1-EN": "a397a99293e2af0b63fc14a7a2d3d5ab5a6005b7e48ef4bec542acde4afeb3fa",
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
           "A-LT-OUT": "1b5ad6e498efc12519d0a02096a1e63be869f99e5621627a62f8f530578dd885",
           "A-LT-CODE": "2739d759e2f735550e2950e7ddc18c1a6d4ffd860f67beb36c6d70c876e17df8"
         },
@@ -480,7 +480,7 @@
         40,
         41
       ],
-      "text": "One trial shows why \"did it work?\" can have more than one answer. In the CALERIE trial, adults without obesity were randomly assigned either to a target of 25 percent calorie restriction or to their usual diet for two years. A later analysis of DNA methylation in blood found that the intervention slowed the pace of aging as measured by one algorithm, DunedinPACE, but did not significantly change biological-age estimates from other clocks, including PhenoAge and GrimAge, and that the treatment effects were small; two of its authors are listed as inventors of DunedinPACE, which was licensed to a commercial company. A report on bone found that, compared with the usual-diet group, the restriction group had greater losses of bone mineral density at 24 months at the lumbar spine, the total hip and the femoral neck; its authors called bone loss at these sites of osteoporotic fractures a potential limitation of prolonged restriction, and wrote that longer studies are needed to find out whether it contributes to fracture risk. A safety report concluded that two years of restriction at the levels achieved in the trial was safe and well tolerated, and that close monitoring for excessive bone loss and anemia is important.[^3]\n",
+      "text": "One trial shows why \"did it work?\" can have more than one answer. In the CALERIE trial, adults without obesity were randomly assigned either to a target of 25 percent calorie restriction or to their usual diet for two years. A later post hoc analysis of DNA methylation in blood found that the intervention slowed the pace of aging as measured by one algorithm, DunedinPACE, but did not significantly change biological-age estimates from other clocks, including PhenoAge and GrimAge, and that the treatment effects were small; two of its authors are listed as inventors of DunedinPACE, which was licensed to a commercial company. A report on bone found that, compared with the usual-diet group, the restriction group had greater losses of bone mineral density at 24 months at the lumbar spine, the total hip and the femoral neck; its authors called bone loss at these sites of osteoporotic fractures a potential limitation of prolonged restriction, and wrote that longer studies are needed to find out whether it contributes to fracture risk. A safety report concluded that two years of restriction at the levels achieved in the trial was safe and well tolerated, and that close monitoring for excessive bone loss and anemia is important.[^3]\n",
       "kind": "reported",
       "role": "asserted",
       "critical": true,
@@ -508,10 +508,10 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Target 25% CR vs ad libitum for 2 years; DunedinPACE slowed, PhenoAge/GrimAge not significantly changed, small effects; inventor COI; greater BMD loss at 24 months at three sites, potential limitation, fracture risk needs longer studies; safe and well tolerated at levels achieved, monitor bone loss and anemia. All match. \"Later analysis\" renders \"post hoc\"; \"usual diet\" renders \"ad libitum\"; \"commercial company\" renders \"commercial entity\".",
         "bound_hashes": {
-          "A-CH1-EN": "a397a99293e2af0b63fc14a7a2d3d5ab5a6005b7e48ef4bec542acde4afeb3fa",
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
           "A-CAL": "11907dfea419ed95ef1ffa24954a62f3277c99568c28899f408cd69bf17fd219"
         },
-        "record_sha256": "39fe03cf7d387dcd4189454f31b1810ae8f4700e2fdfe2da87b9bf57b202a2d1",
+        "record_sha256": "585b6719fc983018d7d9cf9f4be9547a03303feff905b5f1d4e02111722a28c7",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -531,7 +531,7 @@
         42,
         43
       ],
-      "text": "These are three reports from one trial, not three confirmations. They do not even count the same people: the methylation report describes 220 randomized adults, the bone report 218. This chapter cannot say why. Reports from one study often differ in who is counted. But it means the reports cannot be combined into a portrait of any one participant. Whether the people whose clock readings slowed are the people whose bones thinned is not something the published averages can tell us (ledger X29). And 25 percent was a target. The safety report's own phrase, \"at levels achieved in CALERIE\", is a reminder that what people were asked to do and what they did are different quantities.\n",
+      "text": "These are three reports from one trial, not three confirmations. They do not even count the same people: the post hoc methylation report describes 220 randomized adults, the bone report 218. This chapter cannot say why. Reports from one study often differ in who is counted. But it means the reports cannot be combined into a portrait of any one participant. Whether the people whose clock readings slowed are the people whose bones thinned is not something the published averages can tell us (ledger X29). And 25 percent was a target. The safety report's own phrase, \"at levels achieved in CALERIE\", is a reminder that what people were asked to do and what they did are different quantities.\n",
       "kind": "reported",
       "role": "asserted",
       "critical": true,
@@ -554,11 +554,11 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "220 (methylation report) and 218 (bone report, spelled out) match; \"at levels achieved in CALERIE\" quoted exactly; the participant-overlap point cites ledger X29. The chapter does not say which count is right or why they differ.",
         "bound_hashes": {
-          "A-CH1-EN": "a397a99293e2af0b63fc14a7a2d3d5ab5a6005b7e48ef4bec542acde4afeb3fa",
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
           "A-CAL": "11907dfea419ed95ef1ffa24954a62f3277c99568c28899f408cd69bf17fd219",
           "A-LEDGER": "ac7458d9c8e07c92eff604877b9272b1353529ab9e0b589f16fabd127dae9c25"
         },
-        "record_sha256": "2f6fb3e16df6791a6808115527be919b196eb20a69af4987dbc25139a79e724a",
+        "record_sha256": "2b5f6521e0ef1623c96a6ffe9cada5eceb5e93cf823268bb382996b3edb9ff5f",
         "dimensions": {
           "source_support": "supported",
           "extraction": "supported",
@@ -603,7 +603,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "300, low-income, 65+, community-dwelling, difficulty with daily activities; up to 10 visits over 5 months by OTs, RNs and home modifiers on self-identified goals vs 10 social visits; ADL RR 0.70 (0.54-0.93), 30% reduction; IADL 0.83 (0.65-1.06) nonsignificant; inventor COI with university fees. All match.",
         "bound_hashes": {
-          "A-CH1-EN": "a397a99293e2af0b63fc14a7a2d3d5ab5a6005b7e48ef4bec542acde4afeb3fa",
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
           "A-CAP": "eb31936ece5e16f222ff0c13d7834e0c62f97cc3aad95079bc7fbf6acbf61b34"
         },
         "record_sha256": "2862db3b9defb8c5dcd774d9c882a3675d4c2b51069fda5f11d52e61849c27ee",
@@ -649,7 +649,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Self-scored 0-2 per task, total 0-16; interviews at 12 months; programme combined OTs, RNs and home modifiers. The reading of 0.70 as a comparison of scores, not an event risk, follows from the outcome definition; the abstract itself labels it \"relative risk\" and \"30% reduction\", which the chapter reports in the previous paragraph. No claim of longer life is made by the trial abstract.",
         "bound_hashes": {
-          "A-CH1-EN": "a397a99293e2af0b63fc14a7a2d3d5ab5a6005b7e48ef4bec542acde4afeb3fa",
+          "A-CH1-EN": "9c9443d61c98142f21648b0bed75f4ba803f71edb0213726df700da2f9960537",
           "A-CAP": "eb31936ece5e16f222ff0c13d7834e0c62f97cc3aad95079bc7fbf6acbf61b34"
         },
         "record_sha256": "ed5baa9d41495770c8ec4903ba15d2e65eb3bf03c3addcdbf6001c93acb09908",
@@ -670,11 +670,11 @@
   "debts": [
     {
       "id": "CH1-EN-INDEPENDENT-REVIEW",
-      "status": "blocked",
-      "blocks_formal_release": true,
+      "status": "closed",
+      "blocks_formal_release": false,
       "question": "No independent domain, statistical or disability-studies review of these claims (D05)",
-      "next_action": "Real external review; never fabricate receipts",
-      "closure_evidence": "Object-bound review record with declared independence and responses"
+      "next_action": "None: the owner waived independent human review (DEC-020, 2026-11-28); tools/claim_audit_agent.py runs mechanical checks in its place",
+      "closure_evidence": "DEC-020 owner waiver plus review/CLAIM_AUDIT_AGENT_RECEIPT.json (V1, encoded properties only; not a review record and not scientific verification)"
     },
     {
       "id": "CH1-EN-DEPTH",

@@ -4,7 +4,7 @@
 >
 > **Status:**
 > - For author and domain review only; not a frozen text.
-> - Self-checked by the same assistant that wrote it. Independent external review has not taken place (D05 open).
+> - Self-checked by the same assistant that wrote it. Independent human review was waived by the owner on 2026-11-28 (DEC-020). The [claim audit agent](../../../review/CLAIM_AUDIT_AGENT_RECEIPT.json) runs mechanical checks in its place; it does not certify that any claim is scientifically correct.
 > - Eleven claim units are bound to verbatim source excerpts or to the project's own synthetic calculations ([chapter 9 pilot](../../../knowledge_base/pilots/ch09_reserve_en/README.md)). Sources were read at abstract depth. Any edit to this file, to an excerpt or to a synthetic output makes the affected claims stale until they are re-bound.
 > - The chapter is about reading measurements. It does not recommend, rank or discourage any test, product or treatment, and it gives no personal medical advice.
 
@@ -73,7 +73,7 @@ A single reading at one time cannot answer these questions on its own. Level say
   - The year counts and the comparison of level against rate are synthetic arithmetic with illustrative inputs, not estimates of any treatment's effect.
   - The crossing survival curves come from a one-dimensional teaching model without individual heterogeneity.
 - **Unresolved:**
-  - external review (D05);
+  - independent human review, waived by the owner (DEC-020); the claim audit agent's checks are mechanical and do not replace a domain expert's reading;
   - full-text reading of the kidney study, including its conclusions, and of the threshold study;
   - Strehler and Mildvan 1960 is cited secondhand only (ledger X136);
   - an observed failure threshold for independent living, as opposed to a lower envelope;

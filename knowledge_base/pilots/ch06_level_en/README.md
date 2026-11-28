@@ -14,6 +14,6 @@
   - full-text reading, and the erratum to Song 2026;
   - an unconflicted test–retest study of a consumer-marketed clock (searched for, not found);
   - the bookkeeping paragraph on the two 2025 organ-age studies, which rests on ledger X81;
-  - independent review. Formal release stays **blocked**.
+  - independent human review, waived by the owner (DEC-020); `tools/claim_audit_agent.py` checks encoded properties only. Formal release stays **blocked** by the depth debt and the incomplete claim inventory.
 - **Checks**: `tests/test_ch06_en_pilot.py`. These are bookkeeping checks only, not scientific validation.
 - **Correction, 2026-11-28**: claim CH6-EN-C008 said "4,058 people"; the source says 4,058 samples, and the number was not bound to the claim. Text corrected; E-COMP-4058 bound. See [the correction record](../../../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md) and `tools/claim_token_scan.py`.

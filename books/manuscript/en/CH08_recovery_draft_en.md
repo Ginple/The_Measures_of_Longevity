@@ -4,7 +4,7 @@
 >
 > **Status:**
 > - For author and domain review only; not a frozen text.
-> - Self-checked by the same assistant that wrote it. Independent external review has not taken place (D05 open).
+> - Self-checked by the same assistant that wrote it. Independent human review was waived by the owner on 2026-11-28 (DEC-020). The [claim audit agent](../../../review/CLAIM_AUDIT_AGENT_RECEIPT.json) runs mechanical checks in its place; it does not certify that any claim is scientifically correct.
 > - Eight claim units are bound to verbatim source excerpts or to the project's own synthetic model ([chapter 8 pilot](../../../knowledge_base/pilots/ch08_recovery_en/README.md)). Sources were read at abstract depth. Any edit to this file or to an excerpt makes the affected claims stale until they are re-bound.
 > - The chapter is about reading measurements. It does not recommend, rank or discourage any test, product or treatment, and it gives no personal medical advice.
 
@@ -81,7 +81,7 @@ Even a full picture of level, rate and recovery leaves one question open: how mu
   - The synthetic model is a teaching construction, not an estimate.
   - The chapter does not evaluate any commercial device or score.
 - **Unresolved:**
-  - external review (D05);
+  - independent human review, waived by the owner (DEC-020); the claim audit agent's checks are mechanical and do not replace a domain expert's reading;
   - full-text reading of the cited studies, including the age-adjusted heart-rate recovery estimates (ledger X132);
   - a human study that measures level, rate and recovery in the same people before and after an intervention;
   - a bilingual derivation once the English is frozen (DEC-016).
