@@ -1,4 +1,4 @@
-# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.15：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
+# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.16：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
 
 **纠错警示（2026-11-27）**：DEC-003/004 的“审计后采纳”仅为历史记录，暂停作为已验证最优解；当前地图只供工作参考，须待独立审计及作者评阅。详见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
 
@@ -175,6 +175,7 @@ Linear 项目：**The Measures of Longevity｜长寿的尺度**（id `c6be975d-3
 
 ## 7｜变更日志
 
+- v1.3.16 · 2026-11-28：英文第 10 章（维护、修复、替换与补偿）v0.1，卷Ⅱ首章：五种操作不是成熟度阶梯；持久性有两种来源（系统残留改变或持续供给的支持）；补偿不是次等路线但同样须查证；任何路线须报告治疗期、停用后与维持负担。8 段以摘要原句与项目记录绑定（试点 `knowledge_base/pilots/ch10_routes_en/`；SPRINT、膝关节置换 RCT、ACHIEVE、Friedrich 小鼠研究、CAPABLE；X15、X79），新增台账 X171；claim_token_scan 覆盖第 10 章。
 - v1.3.15 · 2026-11-28：卷Ⅱ（第 10–22 章）细纲 v0.1（`books/manuscript/en/DETAILED_OUTLINE_VOL2.md`）：每章含读者问题、拥有/使用、分节、候选证据、最强反例、不在本章回答、附录去向与缺口；不变式归属与规范 §3 一致（I3→13、I10→14、I2/I6→15、I7→16、I4→17、I5→21），不提议移动归属。多数 V6/V7 来源标为线索，尚未入台账，写作前须取原文并绑定。新增 `tests/test_detailed_outline_vol2.py`，把审计代理对卷Ⅰ细纲的检查（必填字段、台账 ID 存在、不变式归属、禁用新颖词）用于卷Ⅱ。无新决策，无新台账行。
 - v1.3.14 · 2026-11-28：英文第 4 章 v0.1（`books/manuscript/en/CH04_evidence_draft_en.md`，新写，V7 §01 与项目审计作线索；12 段主张绑定，试点 `knowledge_base/pilots/ch04_evidence_en/`；台账 X170）。五个阅读习惯：找分母、看谁在何时被计入、按来源家族分组、企业数字先读主要终点、重复须同一问题与可比大小。最强反例"坚持分母是迂腐"用项目合成反转与 Bickel 1975 回应。秋水仙碱子研究说明"组内显著"不等于"组间不同"。英文第一卷 1–9 章至此全部有稿。术语表新增 1d 节；`claim_token_scan` 扩到第 4 章。VOL1 升 v0.1.9。无新决策。
 - v1.3.13 · 2026-11-28：英文第 3 章 v0.1（`books/manuscript/en/CH03_four_links_draft_en.md`，新写，V6 §02–03、V7 §02 作线索；10 段主张绑定，试点 `knowledge_base/pilots/ch03_four_links_en/`；台账 X169）。I1 写明：解释、预测、控制、获益四步不能互换。三个理论框架（Gladyshev 2026、Yücel 2026、Lemaître 2024）只说各自主张与可检验性，不判对错；项目合成计算说明标志物可以预测而不可控制；Voight 2012、ILLUMINATE、CAST、ACCORD 作为"预测不等于控制、控制不等于获益"的简例（第 18 章展开）；X85 先行工作照录，不称"首次"。术语表新增 1c 节；`claim_token_scan` 扩到第 3 章。VOL1 升 v0.1.8。无新决策。

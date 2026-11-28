@@ -4,7 +4,7 @@ Why: the span check confirms that a claim's anchor is in the chapter and that it
 It does not check that every word of the claim is supported. On 2026-11-28 this let through "German",
 "overnight", "Canadian", "New Zealand", authors' first names and "4,058 people" (source: samples).
 
-What it does: for every claim in the English-first pilots (chapters 1-4 and 6-9), list
+What it does: for every claim in the English-first pilots (chapters 1-4 and 6-10), list
 - numbers in the claim that do not occur in its bound evidence text;
 - capitalised words of 4+ letters that do not occur in its bound evidence text,
 and compare the result with REVIEWED, a per-claim record of tokens a person (here: the drafting assistant)
@@ -18,7 +18,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PILOTS = ['ch01_measure_en', 'ch02_clocks_en', 'ch03_four_links_en', 'ch04_evidence_en', 'ch06_level_en', 'ch07_rate_en', 'ch08_recovery_en', 'ch09_reserve_en']
+PILOTS = ['ch01_measure_en', 'ch02_clocks_en', 'ch03_four_links_en', 'ch04_evidence_en', 'ch06_level_en', 'ch07_rate_en', 'ch08_recovery_en', 'ch09_reserve_en', 'ch10_routes_en']
 NUM = re.compile(r'(?<![\w.])\d+(?:[.,]\d+)*')
 CAP = re.compile(r'\b[A-Z][a-z]{3,}\b')
 
@@ -31,6 +31,14 @@ CAP = re.compile(r'\b[A-Z][a-z]{3,}\b')
 # D = decimal written with a point where the evidence uses a middle dot ("0·033");
 # C = present in Chinese-language evidence, but joined to CJK characters so the regex cannot match it ("19个").
 REVIEWED = {
+    'CH10-EN-C001': {'After': 'S', 'Deaths': 'S', 'Lowering': 'S', 'Serious': 'S'},
+    'CH10-EN-C002': {'After': 'S'},
+    'CH10-EN-C003': {'0.002': 'D', '0.96': 'D', '4': 'X', 'Adults': 'S', 'Chapter': 'S', 'Compensation': 'S', 'That': 'S', 'Whether': 'S'},
+    'CH10-EN-C004': {'They': 'S'},
+    'CH10-EN-C005': {'First': 'S', 'Reversibility': 'S', 'Second': 'S'},
+    'CH10-EN-C006': {'Difficulty': 'S', 'Nothing': 'S'},
+    'CH10-EN-C007': {'1': 'X', 'Chapter': 'S', 'Without': 'S'},
+    'CH10-EN-C008': {'21': 'X', 'Maintenance': 'S', 'None': 'S'},
     'CH4-EN-C001': {'They': 'S'},
     'CH4-EN-C002': {'Among': 'S', 'Nothing': 'S', 'Pool': 'S'},
     'CH4-EN-C003': {'Department': 'S', 'Once': 'S', 'This': 'S'},

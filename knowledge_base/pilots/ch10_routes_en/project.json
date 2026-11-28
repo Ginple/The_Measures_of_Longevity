@@ -1,0 +1,848 @@
+{
+  "schema_version": "0.1",
+  "project_id": "longevity-ch10-routes-pilot-en",
+  "authors": [
+    "project-author-unassigned"
+  ],
+  "coverage": {
+    "scope": "Eight paragraph units of the English chapter 10 draft v0.1 that carry numbers or source statements; not an exhaustive claim inventory",
+    "human_inventory_complete": false,
+    "candidate_units": 8,
+    "registered_claims": 8,
+    "note": "The route table, the durability argument, the reply to the objection and the reporting rule are the book's framework and make no source claim. Abstract depth throughout; X15 and X79 rest on project records."
+  },
+  "artifacts": [
+    {
+      "id": "A-CH10-EN",
+      "path": "books/manuscript/en/CH10_routes_draft_en.md",
+      "sha256": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+      "role": "manuscript",
+      "family": "longevity-manuscript",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "English draft v0.1 (DEC-016); new writing using V6 sections 06-07 as leads; working copy"
+    },
+    {
+      "id": "A-TRIALS",
+      "path": "knowledge_base/pilots/ch10_routes_en/evidence/ROUTES_TRIALS_abstracts.txt",
+      "sha256": "f3c3cb3a91b8f11c1b0e470bd52f51f3497bc068c9e246ebd7e578232475c0b6",
+      "role": "source",
+      "family": "routes-illustrative-trials",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26551272/",
+      "version": "PubMed abstracts (SPRINT 2015; Skou 2015 knee replacement; ACHIEVE 2023) 2026-11-28; three independent groups"
+    },
+    {
+      "id": "A-IMMUNE",
+      "path": "knowledge_base/pilots/ch10_routes_en/evidence/IMMUNE_SUPPORT_abstract.txt",
+      "sha256": "cdc6d7d2949d696a56d8e49f08452a83b38a48d6ad3d4f88a5ae027a329a12ef",
+      "role": "source",
+      "family": "friedrich-hepatic-immune",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41407851/",
+      "version": "PubMed abstract (Friedrich 2026 Nature, mouse study) 2026-11-28"
+    },
+    {
+      "id": "A-CAPABLE",
+      "path": "knowledge_base/pilots/ch10_routes_en/evidence/CAPABLE_abstract.txt",
+      "sha256": "8f7ae0cebb5967857e3ae427f0e8c9eae53b937e975220762dbeae0ad8a6c9db",
+      "role": "source",
+      "family": "capable-trial",
+      "access_depth": "abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30615024/",
+      "version": "copy of the chapter 1 excerpt (Szanton 2019) 2026-11-28"
+    },
+    {
+      "id": "A-RECORDS",
+      "path": "knowledge_base/pilots/ch10_routes_en/evidence/LEDGER_X15_X79_excerpt.txt",
+      "sha256": "a3e6177fd797fd27670eb74a6cc91e5649a18c2ded82e3bcd586ec3ef292bf83",
+      "role": "source",
+      "family": "longevity-project-record",
+      "access_depth": "fulltext",
+      "url": "",
+      "version": "verbatim copy of ledger rows X15 and X79 (2026-11-28): records of earlier reading by the same assistant; not a primary source"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-SP-HDR",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# [1] SPRINT Research Group; Wright JT Jr, Williamson JD, Whelton PK, et al. A Randomized Trial of Intensive versus Standard Blood-Pressure Control. N Engl J Med 2015;373(22):2103-16. PMID 26551272, PMC4689591, doi 10.1056/NEJMoa1511939. Erratum in N Engl J Med 2017;377(25):2506. No conflict statement in the PubMed record.\n"
+    },
+    {
+      "id": "E-SP-METH",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "[1] METHODS: We randomly assigned 9361 persons with a systolic blood pressure of 130 mm Hg or higher and an increased cardiovascular risk, but without diabetes, to a systolic blood-pressure target of less than 120 mm Hg (intensive treatment) or a target of less than 140 mm Hg (standard treatment).\n"
+    },
+    {
+      "id": "E-SP-PRIM",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "[1] The primary composite outcome was myocardial infarction, other acute coronary syndromes, stroke, heart failure, or death from cardiovascular causes.\n"
+    },
+    {
+      "id": "E-SP-BP",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "[1] RESULTS: At 1 year, the mean systolic blood pressure was 121.4 mm Hg in the intensive-treatment group and 136.2 mm Hg in the standard-treatment group.\n"
+    },
+    {
+      "id": "E-SP-STOP",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "[1] The intervention was stopped early after a median follow-up of 3.26 years owing to a significantly lower rate of the primary composite outcome in the intensive-treatment group than in the standard-treatment group (1.65% per year vs. 2.19% per year; hazard ratio with intensive treatment, 0.75; 95% confidence interval [CI], 0.64 to 0.89; P<0.001).\n"
+    },
+    {
+      "id": "E-SP-MORT",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "[1] All-cause mortality was also significantly lower in the intensive-treatment group (hazard ratio, 0.73; 95% CI, 0.60 to 0.90; P=0.003).\n"
+    },
+    {
+      "id": "E-SP-AE",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "[1] Rates of serious adverse events of hypotension, syncope, electrolyte abnormalities, and acute kidney injury or failure, but not of injurious falls, were higher in the intensive-treatment group than in the standard-treatment group.\n"
+    },
+    {
+      "id": "E-KN-HDR",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "# [2] Skou ST, Roos EM, Laursen MB, Rathleff MS, Arendt-Nielsen L, Simonsen O, Rasmussen S. A Randomized, Controlled Trial of Total Knee Replacement. N Engl J Med 2015;373(17):1597-606. PMID 26488691, doi 10.1056/NEJMoa1505467. Funded by the Obel Family Foundation and others. No conflict statement in the PubMed record.\n"
+    },
+    {
+      "id": "E-KN-METH",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "[2] METHODS: In this randomized, controlled trial, we enrolled 100 patients with moderate-to-severe knee osteoarthritis who were eligible for unilateral total knee replacement.\n"
+    },
+    {
+      "id": "E-KN-ARMS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "[2] Patients were randomly assigned to undergo total knee replacement followed by 12 weeks of nonsurgical treatment (total-knee-replacement group) or to receive only the 12 weeks of nonsurgical treatment (nonsurgical-treatment group), which was delivered by physiotherapists and dietitians and consisted of exercise, education, dietary advice, use of insoles, and pain medication.\n"
+    },
+    {
+      "id": "E-KN-OUT",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        12,
+        13
+      ],
+      "text": "[2] The primary outcome was the change from baseline to 12 months in the mean score on four Knee Injury and Osteoarthritis Outcome Score subscales, covering pain, symptoms, activities of daily living, and quality of life (KOOS4); scores range from 0 (worst) to 100 (best).\n"
+    },
+    {
+      "id": "E-KN-CROSS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        13,
+        14
+      ],
+      "text": "[2] In the nonsurgical-treatment group, 13 patients (26%) underwent total knee replacement before the 12-month follow-up; in the total-knee-replacement group, 1 patient (2%) received only nonsurgical treatment.\n"
+    },
+    {
+      "id": "E-KN-RES",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        14,
+        15
+      ],
+      "text": "[2] In the intention-to-treat analysis, the total-knee-replacement group had greater improvement in the KOOS4 score than did the nonsurgical-treatment group (32.5 vs. 16.0; adjusted mean difference, 15.8 [95% confidence interval, 10.0 to 21.5]).\n"
+    },
+    {
+      "id": "E-KN-AE",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        15,
+        16
+      ],
+      "text": "[2] The total-knee-replacement group had a higher number of serious adverse events than did the nonsurgical-treatment group (24 vs. 6, P=0.005).\n"
+    },
+    {
+      "id": "E-AC-HDR",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        16,
+        17
+      ],
+      "text": "# [3] Lin FR, Pike JR, Albert MS, et al.; ACHIEVE Collaborative Research Group. Hearing intervention versus health education control to reduce cognitive decline in older adults with hearing loss in the USA (ACHIEVE): a multicentre, randomised controlled trial. Lancet 2023;402(10404):786-797. PMID 37478886, PMC10529382, doi 10.1016/S0140-6736(23)01406-X. Funding: US National Institutes of Health. Middle-dot decimals in the source.\n"
+    },
+    {
+      "id": "E-AC-BG",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        17,
+        18
+      ],
+      "text": "[3] BACKGROUND: Hearing loss is associated with increased cognitive decline and incident dementia in older adults.\n"
+    },
+    {
+      "id": "E-AC-METH",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        18,
+        19
+      ],
+      "text": "[3] METHODS: The ACHIEVE study is a multicentre, parallel-group, unmasked, randomised controlled trial of adults aged 70-84 years with untreated hearing loss and without substantial cognitive impairment that took place at four community study sites across the USA.\n"
+    },
+    {
+      "id": "E-AC-END",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        19,
+        20
+      ],
+      "text": "[3] The primary endpoint was 3-year change in a global cognition standardised factor score from a comprehensive neurocognitive battery.\n"
+    },
+    {
+      "id": "E-AC-POP",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        20,
+        21
+      ],
+      "text": "[3] Participants were recruited from two study populations at each site: (1) older adults participating in a long-standing observational study of cardiovascular health (Atherosclerosis Risk in Communities [ARIC] study), and (2) healthy de novo community volunteers.\n"
+    },
+    {
+      "id": "E-AC-ARMS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        21,
+        22
+      ],
+      "text": "[3] Participants were randomly assigned (1:1) to a hearing intervention (audiological counselling and provision of hearing aids) or a control intervention of health education (individual sessions with a health educator covering topics on chronic disease prevention) and followed up every 6 months.\n"
+    },
+    {
+      "id": "E-AC-N",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        22,
+        23
+      ],
+      "text": "[3] We randomly assigned 490 (50%) to the hearing intervention and 487 (50%) to the health education control.\n"
+    },
+    {
+      "id": "E-AC-ARIC",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        23,
+        24
+      ],
+      "text": "[3] Participants from ARIC were older, had more risk factors for cognitive decline, and had lower baseline cognitive scores than those in the de novo cohort.\n"
+    },
+    {
+      "id": "E-AC-PRIM",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        24,
+        25
+      ],
+      "text": "[3] In the primary analysis combining the ARIC and de novo cohorts, 3-year cognitive change (in SD units) was not significantly different between the hearing intervention and health education control groups (-0·200 [95% CI -0·256 to -0·144] in the hearing intervention group and -0·202 [-0·258 to -0·145] in the control group; difference 0·002 [-0·077 to 0·081]; p=0·96).\n"
+    },
+    {
+      "id": "E-AC-SENS",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        25,
+        26
+      ],
+      "text": "[3] However, a prespecified sensitivity analysis showed a significant difference in the effect of the hearing intervention on 3-year cognitive change between the ARIC and de novo cohorts (pinteraction=0·010).\n"
+    },
+    {
+      "id": "E-AC-SUGG",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        26,
+        27
+      ],
+      "text": "[3] These findings suggest that a hearing intervention might reduce cognitive change over 3 years in populations of older adults at increased risk for cognitive decline but not in populations at decreased risk for cognitive decline.\n"
+    },
+    {
+      "id": "E-AC-COI",
+      "artifact_id": "A-TRIALS",
+      "lines_1based_halfopen": [
+        27,
+        28
+      ],
+      "text": "[3] Conflict of interest statement: Declaration of interests FRL reports research grants from the US National Institutes of Health and Eleanor Schwartz Charitable Foundation; consulting fees from Frequency Therapeutics and Apple; payment for expert testimony and participation on a scientific advisory board for Fondation Pour L'Audition and Sharper Sense; being a volunteer board member for Access HEARS; donation in-kind from Sonova/Phonak to Johns Hopkins University for hearing technologies used in the present study; and being the director of a public health research centre funded in part by a philanthropic donation from Cochlear to the Johns Hopkins Bloomberg School of Public Health.\n"
+    },
+    {
+      "id": "E-IM-HDR",
+      "artifact_id": "A-IMMUNE",
+      "lines_1based_halfopen": [
+        2,
+        3
+      ],
+      "text": "# Friedrich MJ, Pham J, Tian J, et al. Transient hepatic reconstitution of trophic factors enhances aged immunity. Nature 2026;650(8101):481-489 (Epub 2025 Dec 17). PMID 41407851, PMC12893904, doi 10.1038/s41586-025-09873-4. A mouse study.\n"
+    },
+    {
+      "id": "E-IM-MAIN",
+      "artifact_id": "A-IMMUNE",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "Here we show that the liver can be transiently repurposed to restore age-diminished immune cues and improve T cell function in aged mice.\n"
+    },
+    {
+      "id": "E-IM-MAP",
+      "artifact_id": "A-IMMUNE",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "These immune cues were found by performing multi-omic mapping across central and peripheral niches in young and aged animals, leading to the identification of Notch and Fms-like tyrosine kinase 3 ligand (FLT3L) pathways, together with interleukin-7 (IL-7) signalling, as declining with age.\n"
+    },
+    {
+      "id": "E-IM-DEL",
+      "artifact_id": "A-IMMUNE",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "Delivery of mRNAs encoding Delta-like ligand 1 (DLL1), FLT3L and IL-7 to hepatocytes expanded common lymphoid progenitors, boosted de novo thymopoiesis without affecting haematopoietic stem cell (HSC) composition, and replenished T cells while enhancing dendritic cell abundance and function.\n"
+    },
+    {
+      "id": "E-IM-FUNC",
+      "artifact_id": "A-IMMUNE",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "Treatment with these mRNAs improved peptide vaccine responses and restored antitumour immunity in aged mice by increasing tumour-specific CD8+ infiltration and clonal diversity and synergizing with immune checkpoint blockade.\n"
+    },
+    {
+      "id": "E-IM-REV",
+      "artifact_id": "A-IMMUNE",
+      "lines_1based_halfopen": [
+        7,
+        8
+      ],
+      "text": "These effects were reversible after dosing ceased and did not breach self-tolerance, in contrast to the inflammatory and autoimmune liabilities of recombinant cytokine treatments6,7.\n"
+    },
+    {
+      "id": "E-IM-COI",
+      "artifact_id": "A-IMMUNE",
+      "lines_1based_halfopen": [
+        8,
+        9
+      ],
+      "text": "Conflict of interest statement: Competing interests: M.J.F. and F.Z. are co-inventors on US provisional patent application no. 63/530,465 filed by the Broad Institute and MIT relating to this work.\n"
+    },
+    {
+      "id": "E-CA-HDR",
+      "artifact_id": "A-CAPABLE",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "# Szanton SL, Xue QL, Leff B, Guralnik J, Wolff JL, Tanner EK, Boyd C, Thorpe RJ Jr, Bishai D, Gitlin LN. Effect of a Biobehavioral Environmental Approach on Disability Among Low-Income Older Adults: A Randomized Clinical Trial. JAMA Intern Med 2019;179(2):204-211. PMID 30615024, PMC6439640, doi 10.1001/jamainternmed.2018.6026. Trial NCT01576133.\n"
+    },
+    {
+      "id": "E-CA-DES",
+      "artifact_id": "A-CAPABLE",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "DESIGN, SETTING, AND PARTICIPANTS: In this randomized clinical trial of 300 low-income community-dwelling adults with a disability in Baltimore, Maryland, between March 18, 2012, and April 29, 2016, 65 years or older, cognitively intact, and with self-reported difficulty with 1 or more activities of daily living (ADLs) or 2 or more instrumental ADLs (IADLs), participants were interviewed in their home at baseline, 5 months (end point), and 12 months (follow-up) by trained research assistants who were masked to the group allocation.\n"
+    },
+    {
+      "id": "E-CA-INT",
+      "artifact_id": "A-CAPABLE",
+      "lines_1based_halfopen": [
+        5,
+        6
+      ],
+      "text": "INTERVENTIONS: The CAPABLE group received up to 10 home visits over 5 months by occupational therapists, registered nurses, and home modifiers to address self-identified functional goals by enhancing individual capacity and the home environment.\n"
+    },
+    {
+      "id": "E-CA-CTRL",
+      "artifact_id": "A-CAPABLE",
+      "lines_1based_halfopen": [
+        6,
+        7
+      ],
+      "text": "The control group received 10 social home visits by a research assistant.\n"
+    },
+    {
+      "id": "E-CA-ADL",
+      "artifact_id": "A-CAPABLE",
+      "lines_1based_halfopen": [
+        9,
+        10
+      ],
+      "text": "CAPABLE participation resulted in 30% reduction in ADL disability scores at 5 months (relative risk [RR], 0.70; 95% CI, 0.54-0.93; P = .01) vs control participation.\n"
+    },
+    {
+      "id": "E-CA-IADL",
+      "artifact_id": "A-CAPABLE",
+      "lines_1based_halfopen": [
+        10,
+        11
+      ],
+      "text": "CAPABLE participation resulted in a statistically nonsignificant 17% reduction in IADL disability scores (RR, 0.83; 95% CI, 0.65-1.06; P = .13) vs control participation.\n"
+    },
+    {
+      "id": "E-CA-COI",
+      "artifact_id": "A-CAPABLE",
+      "lines_1based_halfopen": [
+        11,
+        12
+      ],
+      "text": "Conflict of interest statement: Conflict of Interest Disclosures: Drs Szanton and Gitlin reported being inventors of the CAPABLE training program, for which the Johns Hopkins University is entitled to fees.\n"
+    },
+    {
+      "id": "E-R-X15",
+      "artifact_id": "A-RECORDS",
+      "lines_1based_halfopen": [
+        3,
+        4
+      ],
+      "text": "| X15 | 2026-11-27 | 维护容量乘减式未定义 | KERNEL 旧 §2 | 各项变量、单位、相互作用、加减的物理意义均未给出；不能据此运算 | 撤回等号，保留为分项研究概念；形式化需新模型、量纲与反例 | open |\n"
+    },
+    {
+      "id": "E-R-X79",
+      "artifact_id": "A-RECORDS",
+      "lines_1based_halfopen": [
+        4,
+        5
+      ],
+      "text": "| X79 | 2026-11-27 | CAPABLE 2014设计、登记与2019报告的主要终点描述 | [设计文](https://pmc.ncbi.nlm.nih.gov/articles/PMC4074085/)将ADL列主要、IADL列次要；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)仅列ADL，[2019结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)将两者都列主要 | 口径和正式修订日期未核；无全部方案及分析计划，不能判违规、错误或偏倚方向 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核登记历史、有日期方案、伦理修订和多重性 | open |\n"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CH10-EN-C001",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        31,
+        32
+      ],
+      "text": "Lowering blood pressure is maintenance in this sense. In the SPRINT trial, 9361 people with a systolic blood pressure of 130 mm Hg or higher and an increased cardiovascular risk, but without diabetes, were randomly assigned to a target below 120 mm Hg or below 140 mm Hg. After a year, their average systolic pressures were 121.4 and 136.2 mm Hg. The trial was stopped early, after a median of 3.26 years, because the primary composite outcome of heart attack, other acute coronary syndromes, stroke, heart failure or cardiovascular death was less frequent in the intensive group: 1.65 percent a year against 2.19 percent, a hazard ratio of 0.75. Deaths from any cause were also lower, with a hazard ratio of 0.73. Serious adverse events of low blood pressure, fainting, electrolyte abnormalities and acute kidney injury were more frequent with intensive treatment, though injurious falls were not.[^1] The trial measured events, deaths and harms. It did not measure whether anyone's arteries became younger, and it did not need to: a route can work on the outcome that matters without any claim about age.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "adults with systolic BP >=130 mm Hg, increased cardiovascular risk, no diabetes",
+        "time": "median 3.26 years (stopped early)",
+        "estimand": "hazard ratios for a composite cardiovascular outcome and all-cause death; serious adverse events",
+        "unit": "participant",
+        "design": "randomized controlled trial",
+        "domain": "blood-pressure targets (illustration of maintenance)"
+      },
+      "evidence_ids": [
+        "E-SP-HDR",
+        "E-SP-METH",
+        "E-SP-PRIM",
+        "E-SP-BP",
+        "E-SP-STOP",
+        "E-SP-MORT",
+        "E-SP-AE"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "9361; SBP >=130, increased CV risk, no diabetes; <120 vs <140; 121.4 vs 136.2 at 1 year; stopped early at median 3.26 years; composite (MI, other ACS, stroke, HF, CV death) 1.65% vs 2.19% per year, HR 0.75; all-cause HR 0.73; more serious AEs of hypotension, syncope, electrolyte abnormalities, AKI, not injurious falls. All match. \"Heart attack\", \"low blood pressure\", \"fainting\" gloss MI, hypotension, syncope. The remark that the trial did not measure arterial age is the chapter's reading of the end points.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-TRIALS": "f3c3cb3a91b8f11c1b0e470bd52f51f3497bc068c9e246ebd7e578232475c0b6"
+        },
+        "record_sha256": "df0e4361abe2212e98c331a08f7af1882ce4047d1ad8b26701e124ccc5044d6c",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH10-EN-C002",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        33,
+        34
+      ],
+      "text": "Replacement is the clearest case of restoring a task without reversing a process. In a randomised trial, 100 people with moderate-to-severe knee osteoarthritis who were eligible for a knee replacement either had the operation followed by 12 weeks of nonsurgical treatment, or received the 12 weeks of nonsurgical treatment alone: exercise, education, dietary advice, insoles and pain medication. After 12 months, the surgical group had improved more on a combined score of pain, symptoms, daily activities and quality of life that runs from 0 (worst) to 100 (best): 32.5 points against 16.0, an adjusted difference of 15.8. The surgical group also had more serious adverse events, 24 against 6. And 13 of the people assigned to nonsurgical treatment, 26 percent, had the operation anyway before 12 months.[^2] The new knee does not make the rest of the body younger, and the trial is a reminder that the comparison for a replacement is not \"nothing\" but the best available alternative, with its own gains.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "100 people with moderate-to-severe knee osteoarthritis eligible for unilateral total knee replacement",
+        "time": "12 months",
+        "estimand": "change in KOOS4; serious adverse events; crossover",
+        "unit": "participant",
+        "design": "randomized controlled trial",
+        "domain": "knee replacement (illustration of replacement)"
+      },
+      "evidence_ids": [
+        "E-KN-HDR",
+        "E-KN-METH",
+        "E-KN-ARMS",
+        "E-KN-OUT",
+        "E-KN-CROSS",
+        "E-KN-RES",
+        "E-KN-AE"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "100 patients; TKR plus 12 weeks nonsurgical vs 12 weeks nonsurgical (exercise, education, dietary advice, insoles, pain medication); KOOS4 pain, symptoms, ADL, QoL, 0 worst to 100 best; 32.5 vs 16.0, adjusted difference 15.8; serious AEs 24 vs 6; 13 (26%) of nonsurgical group had TKR before 12 months. All match. The remark about the comparison being the best alternative is the chapter's reading.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-TRIALS": "f3c3cb3a91b8f11c1b0e470bd52f51f3497bc068c9e246ebd7e578232475c0b6"
+        },
+        "record_sha256": "de179e5b85264627e64dd907f900042dd0b8f3422f6fecd9e4760cdc97c7beb3",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH10-EN-C003",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        35,
+        36
+      ],
+      "text": "Compensation is often judged against a question it was never designed to answer. Hearing loss is associated with faster cognitive decline, and the ACHIEVE trial asked whether treating it would slow that decline. Adults aged 70 to 84 with untreated hearing loss and no substantial cognitive impairment were randomly assigned to audiological counselling and hearing aids (490 people) or to health education sessions (487). The primary result was a null: over three years, cognitive change was the same in both groups, with a difference of 0.002 standard deviations (p=0.96). A prespecified sensitivity analysis found that the effect differed between the two populations the trial recruited from, one drawn from a long-running study of cardiovascular health, whose members were older and had more risk factors for cognitive decline, and the other made up of new community volunteers, and the authors suggested that hearing treatment might slow decline in people at higher risk.[^3] That suggestion is a lead, not a result. The point here is narrower. A hearing aid compensates for hearing. Whether it also changes the brain's course is a second question, and a null on the second question says nothing against the first. The trial's declarations are worth reading as well: hearing technologies used in the study were donated in kind by Sonova/Phonak, and the lead author directs a research centre funded in part by a philanthropic donation from the company Cochlear. Chapter 4's habit applies: the interest is declared, and the primary result went against the hoped-for effect.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "adults aged 70-84 with untreated hearing loss, no substantial cognitive impairment",
+        "time": "3 years",
+        "estimand": "difference in 3-year change of a global cognition factor score",
+        "unit": "participant",
+        "design": "randomized controlled trial (unmasked)",
+        "domain": "hearing intervention (illustration of compensation)"
+      },
+      "evidence_ids": [
+        "E-AC-HDR",
+        "E-AC-BG",
+        "E-AC-METH",
+        "E-AC-END",
+        "E-AC-POP",
+        "E-AC-ARMS",
+        "E-AC-N",
+        "E-AC-ARIC",
+        "E-AC-PRIM",
+        "E-AC-SENS",
+        "E-AC-SUGG",
+        "E-AC-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Background association; 70-84, untreated hearing loss, no substantial impairment; hearing aids plus counselling 490 vs health education 487; difference 0.002 SD, p=0.96; prespecified sensitivity analysis: effect differed between ARIC (older, more risk factors) and de novo volunteers, p interaction 0.010; authors suggest possible benefit at higher risk. COI: Sonova/Phonak in-kind donation of hearing technologies; FRL directs a centre funded in part by a philanthropic donation from Cochlear. All match. The lead-not-result framing is the chapter's.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-TRIALS": "f3c3cb3a91b8f11c1b0e470bd52f51f3497bc068c9e246ebd7e578232475c0b6"
+        },
+        "record_sha256": "0b5638a8a886933b85b37da498eeee5e4d8f1fafd4231d19c82a551b0fff9fde",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH10-EN-C004",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        41,
+        42
+      ],
+      "text": "A mouse study published in 2025 makes the difference concrete. Its authors compared young and aged mice across the central and peripheral niches of the immune system, and identified two signalling pathways, Notch and FLT3L, together with the signal IL-7, as declining with age. They then delivered messenger RNA encoding three of these signals, DLL1, FLT3L and IL-7, to liver cells in aged mice. The liver was repurposed, temporarily, to restore immune cues that diminish with age. The treatment expanded the early cells from which lymphocytes develop, increased the production of new T cells in the thymus without changing the composition of blood stem cells, and replenished T cells. In aged mice it improved responses to a peptide vaccine and restored immune responses against tumours.[^4]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "aged mice",
+        "time": "during dosing",
+        "estimand": "lymphoid progenitors, thymopoiesis, T cells, vaccine and antitumour responses",
+        "unit": "mouse",
+        "design": "animal experiment",
+        "domain": "immune support via hepatic mRNA delivery"
+      },
+      "evidence_ids": [
+        "E-IM-HDR",
+        "E-IM-MAIN",
+        "E-IM-MAP",
+        "E-IM-DEL",
+        "E-IM-FUNC"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Epub 2025 Dec 17 (header). Multi-omic mapping of central and peripheral niches in young and aged animals; Notch and FLT3L pathways plus IL-7 decline; mRNAs for DLL1, FLT3L, IL-7 to hepatocytes; liver transiently repurposed to restore age-diminished cues; expanded common lymphoid progenitors, boosted de novo thymopoiesis without affecting HSC composition, replenished T cells; improved peptide vaccine responses and restored antitumour immunity in aged mice. All match. \"Early cells from which lymphocytes develop\" glosses common lymphoid progenitors.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-IMMUNE": "cdc6d7d2949d696a56d8e49f08452a83b38a48d6ad3d4f88a5ae027a329a12ef"
+        },
+        "record_sha256": "7708be564cdd8bcae92060ab50afdba5eab16fe583977fec26585be743887b75",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH10-EN-C005",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        43,
+        44
+      ],
+      "text": "Two things in this abstract need stating precisely. First, the thymus was not bypassed: one of the reported effects is more new T cells made in the thymus. The liver supplied signals; it did not replace a young thymus. Second, the effects were reversible after dosing ceased, and did not breach self-tolerance, in contrast to the inflammatory and autoimmune problems of recombinant cytokine treatments.[^5] Reversibility cuts both ways. It means the treatment can be controlled and stopped. It also means the benefit, on this evidence, lasts only as long as the support is supplied. An absence of autoimmunity in the period studied in mice does not show the safety of repeated dosing over years, and better vaccine and tumour responses are not the same as protection against the full range of infections, or a longer life. Two of the authors are co-inventors on a patent application relating to the work.[^5]\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "aged mice",
+        "time": "during and after dosing",
+        "estimand": "reversibility; self-tolerance",
+        "unit": "mouse",
+        "design": "animal experiment",
+        "domain": "immune support via hepatic mRNA delivery"
+      },
+      "evidence_ids": [
+        "E-IM-HDR",
+        "E-IM-DEL",
+        "E-IM-REV",
+        "E-IM-COI"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "Thymopoiesis boosted (so not bypassed); reversible after dosing ceased; did not breach self-tolerance, contrasted with inflammatory and autoimmune liabilities of recombinant cytokines; two authors co-inventors on a provisional patent application relating to the work. All match. The limits (repeated dosing over years, full pathogen range, lifespan) are the chapter's statements of what was not shown.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-IMMUNE": "cdc6d7d2949d696a56d8e49f08452a83b38a48d6ad3d4f88a5ae027a329a12ef"
+        },
+        "record_sha256": "caec2ba2fdf882c68da6842a974eb6e2af548d72e1130f30e15ec31bda1b01a5",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH10-EN-C006",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        51,
+        52
+      ],
+      "text": "But the objection treats biological age as the only outcome. For the person, the outcome is often a task: getting out of bed, bathing, cooking, going out. In the CAPABLE trial, 300 low-income adults aged 65 or older with a disability, living in their own homes in Baltimore, were randomly assigned to up to 10 home visits over 5 months from occupational therapists, registered nurses and home modifiers, who worked on goals the participants chose themselves by building their capacity and changing their homes, or to 10 social visits from a research assistant. At 5 months, scores for difficulty with basic activities of daily living were 30 percent lower in the CAPABLE group (relative risk 0.70). The difference in instrumental activities of daily living was a 17 percent reduction that was not statistically significant.[^6] Nothing in the trial claims to have changed anyone's biological age. Difficulty with tasks fell, and for the people concerned that may be the result that matters most.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": true,
+      "context": {
+        "population": "300 low-income community-dwelling adults 65+ with a disability, Baltimore",
+        "time": "5 months",
+        "estimand": "relative risk of ADL and IADL disability scores",
+        "unit": "participant",
+        "design": "randomized clinical trial",
+        "domain": "home-based compensation and capacity"
+      },
+      "evidence_ids": [
+        "E-CA-HDR",
+        "E-CA-DES",
+        "E-CA-INT",
+        "E-CA-CTRL",
+        "E-CA-ADL",
+        "E-CA-IADL"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "300; low-income, community-dwelling, 65+, disability, Baltimore; up to 10 visits over 5 months by OTs, RNs and home modifiers on self-identified goals via capacity and home environment; control 10 social visits by a research assistant; ADL score RR 0.70 (30% reduction); IADL nonsignificant 17%. All match. \"Living in their own homes\" glosses community-dwelling and in their home.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CAPABLE": "8f7ae0cebb5967857e3ae427f0e8c9eae53b937e975220762dbeae0ad8a6c9db"
+        },
+        "record_sha256": "45cc8e28ccb387ef38f1b9565c1134598ba4b917d03db95fbd72f7964dc18597",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH10-EN-C007",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        53,
+        54
+      ],
+      "text": "The same trial shows why compensation deserves the same scrutiny as any other route, not less. The two inventors of the CAPABLE training programme are among the authors, and their university is entitled to fees from it.[^6] And the project's audit of the trial's records found that the study's design paper listed basic activities of daily living as the primary outcome and instrumental activities as secondary; the current trial registration lists only the basic activities; and the 2019 results paper lists both as primary. Without the full protocol and analysis plan, the audit cannot judge whether this is a violation, an error or a bias, or in which direction.[^7] It can only record that the description of what the trial was mainly testing differs between documents. Chapter 1 used this trial to show how easily a relative score is over-read; here it shows something else. A route being humane does not exempt its evidence from being checked.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "CAPABLE trial documents",
+        "time": "design 2014, registration (current), results 2019",
+        "estimand": "stated primary outcome across documents; declared interests",
+        "unit": "document",
+        "design": "project record of document comparison",
+        "domain": "trial reporting"
+      },
+      "evidence_ids": [
+        "E-CA-COI",
+        "E-R-X79"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "COI: Szanton and Gitlin inventors of the CAPABLE training program; Johns Hopkins entitled to fees. X79: design paper ADL primary, IADL secondary; current registration ADL only; 2019 results both primary; without full protocol and analysis plan, cannot judge violation, error or bias direction. Match; the university is not named in the text.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-CAPABLE": "8f7ae0cebb5967857e3ae427f0e8c9eae53b937e975220762dbeae0ad8a6c9db",
+          "A-RECORDS": "a3e6177fd797fd27670eb74a6cc91e5649a18c2ded82e3bcd586ec3ef292bf83"
+        },
+        "record_sha256": "0a3aff0243ac95fcd6dfe6f6031d3ff1ecdd748f235d1e3b10543daacfe967d3",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    },
+    {
+      "id": "CH10-EN-C008",
+      "artifact_id": "A-CH10-EN",
+      "lines_1based_halfopen": [
+        63,
+        64
+      ],
+      "text": "None of the three can be folded into a single score. An earlier version of this project tried to write maintenance capacity as a formula, a product of terms with subtractions. The project's own review withdrew it: no variable, unit or interaction was defined, and nothing could be calculated from it.[^8] Maintenance capacity survives in this book as a research concept with several parts, taken up in chapter 21, not as a number.\n",
+      "kind": "reported",
+      "role": "asserted",
+      "critical": false,
+      "context": {
+        "population": "none: project record",
+        "time": "not applicable",
+        "estimand": "status of the maintenance-capacity formula",
+        "unit": "formula",
+        "design": "project ledger row",
+        "domain": "project governance"
+      },
+      "evidence_ids": [
+        "E-R-X15"
+      ],
+      "assessment": {
+        "state": "supported",
+        "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
+        "rationale": "X15: the multiply-subtract maintenance-capacity formula is undefined; variables, units, interactions and the meaning of the operations not given; cannot be computed; equality withdrawn, kept as a research concept. Match. Chapter 21 ownership is from the glossary, a cross-reference.",
+        "bound_hashes": {
+          "A-CH10-EN": "cface4c66f8efc888f5165ecde187b1e9149e3afe721022b3650fe517cec98c5",
+          "A-RECORDS": "a3e6177fd797fd27670eb74a6cc91e5649a18c2ded82e3bcd586ec3ef292bf83"
+        },
+        "record_sha256": "b3f7ee53890f637d3bf5997af977f6ab30721bd0455dcb294570aa573b50cbdc",
+        "dimensions": {
+          "source_support": "supported",
+          "extraction": "supported",
+          "measurement": "unknown",
+          "statistical_inference": "unknown",
+          "causal_identification": "unknown",
+          "transportability": "unknown",
+          "net_benefit": "unknown",
+          "independent_review": "unknown"
+        }
+      }
+    }
+  ],
+  "reviews": [],
+  "debts": [
+    {
+      "id": "CH10-EN-INDEPENDENT-REVIEW",
+      "status": "blocked",
+      "blocks_formal_release": true,
+      "question": "No independent review by a geriatrician, a trialist or an immunologist (D05)",
+      "next_action": "Real external review; never fabricate receipts",
+      "closure_evidence": "Object-bound review record with declared independence and responses"
+    },
+    {
+      "id": "CH10-EN-DEPTH",
+      "status": "open",
+      "blocks_formal_release": true,
+      "question": "Four trials and one mouse study at abstract depth; the mouse study's follow-up after stopping and safety window not read; X79 needs dated protocol and registration history",
+      "next_action": "Read full texts (Friedrich methods and extended data; ACHIEVE sensitivity analysis); retrieve the CAPABLE registration history",
+      "closure_evidence": "Full-text reading notes bound as excerpts"
+    }
+  ]
+}

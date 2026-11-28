@@ -1,0 +1,4 @@
+# Verbatim copy of rows X15 and X79 of knowledge_base/CLAIM_LEDGER.md, taken 2026-11-28.
+# Project record of earlier reading by the same assistant; not a primary source. Re-copy and re-bind if a row is revised.
+| X15 | 2026-11-27 | 维护容量乘减式未定义 | KERNEL 旧 §2 | 各项变量、单位、相互作用、加减的物理意义均未给出；不能据此运算 | 撤回等号，保留为分项研究概念；形式化需新模型、量纲与反例 | open |
+| X79 | 2026-11-27 | CAPABLE 2014设计、登记与2019报告的主要终点描述 | [设计文](https://pmc.ncbi.nlm.nih.gov/articles/PMC4074085/)将ADL列主要、IADL列次要；[当前登记](https://clinicaltrials.gov/api/v2/studies/NCT01576133)仅列ADL，[2019结果文](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2720136)将两者都列主要 | 口径和正式修订日期未核；无全部方案及分析计划，不能判违规、错误或偏倚方向 | [专项续审](CAPABLE_OUTCOMES_ELIGIBILITY_AUDIT_2026-11-27.md)；核登记历史、有日期方案、伦理修订和多重性 | open |
