@@ -1,0 +1,7 @@
+# Verbatim quotes from the PubMed abstract, one sentence per line. Fetched 2026-11-28 (eutils efetch).
+# Pyrkov TV, Avchaciov K, Tarkhov AE, Menshikov LI, Gudkov AV, Fedichev PO. Longitudinal analysis of blood markers reveals progressive loss of resilience and predicts human lifespan limit. Nat Commun 2021;12(1):2765. PMID 34035236, PMC8149842, doi 10.1038/s41467-021-23014-1.
+We investigated the dynamic properties of the organism state fluctuations along individual aging trajectories in a large longitudinal database of CBC measurements from a consumer diagnostics laboratory.
+We observed, that the age-dependent population DOSI distribution broadening could be explained by a progressive loss of physiological resilience measured by the DOSI auto-correlation time.
+Extrapolation of this trend suggested that DOSI recovery time and variance would simultaneously diverge at a critical point of 120 - 150 years of age corresponding to a complete loss of resilience.
+We conclude that the criticality resulting in the end of life is an intrinsic biological property of an organism that is independent of stress factors and signifies a fundamental or absolute limit of human lifespan.
+Conflict of interest statement: P.O.F. is a shareholder of Gero PTE. A.G. is a member of Gero PTE Advisory Board. T.V.P., A.E.T., K.A., L.I.M., and P.O.F. are employees of Gero PTE. The study was funded by Gero PTE.
