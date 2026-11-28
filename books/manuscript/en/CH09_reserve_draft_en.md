@@ -58,7 +58,7 @@ The four measures of chapters 6 to 9 belong together. A large Canadian study of 
 
 The project's synthetic model, used in chapters 6 and 8, shows how far this can go. With published human parameter values, two hypothetical interventions were matched so that the average reading among 70-year-old survivors was the same. At one setting, life expectancy also came out the same, 74.43 against 74.42 years. Their survival curves still crossed: one left more people alive at 70, the other more at 90. Only the shape of the curve, the late-life slope or the speed of recovery could tell them apart.[^8] Which intervention is better depends on whether the goal is survival to 70 or to 90, and that is exactly the kind of choice a measure has to state before it can be used.
 
-So, before accepting a statement about reserve, ask five questions. What is the threshold, and how was it set: from observed failures, or from the lower edge of people still coping? Under what load was capacity measured, at rest or on demand? What rate of decline was assumed, and was it measured by following the same people? What model turns distance into years? And for whom do the figures hold?
+So, before accepting a statement about reserve, run five checks. What is the threshold, and how was it set: from observed failures, or from the lower edge of people still coping? Under what load was capacity measured, at rest or on demand? What rate of decline was assumed, and was it measured by following the same people? What model turns distance into years? And for whom do the figures hold?
 
 A single reading at one time cannot answer these questions on its own. Level says where a system stands; rate says how fast it moves; recovery says how it comes back after a push; reserve says how far it is from the point where it can no longer cope. Each needs its own measurement, and none of them is a parameter of the body unless a stated model makes it one. Even a well-measured reserve may not be fully usable: capacity that exists in a test can be out of reach in daily life, a problem taken up in chapter 22. Volume Ⅱ turns from measuring these quantities to asking what produces and consumes them.
 
@@ -82,7 +82,7 @@ A single reading at one time cannot answer these questions on its own. Level say
   - A correction or retraction affecting any cited study, or a change to the synthetic scripts, requires rechecking the bound claims (`tests/test_ch09_en_pilot.py`) and re-binding.
 - **Back matter:**
   - The formula for remaining years under proportional decline, ln(level ÷ threshold) ÷ rate, belongs in B3; the text states it in words.
-  - The five questions feed B2.
+  - The five checks feed B2.
 
 [^1]: [Anderson, Li and Sharrow, *Biogerontology* 2017;18(1):149–170](https://pubmed.ncbi.nlm.nih.gov/27885527/) (PMID 27885527), abstract read, used as a secondary description of Strehler and Mildvan, *Science* 1960;132(3418):14–21, whose text has not been read (ledger X136, X166).
 [^2]: [Fliser et al., *J Am Soc Nephrol* 1993;3(7):1371–1377](https://pubmed.ncbi.nlm.nih.gov/8439649/) (PMID 8439649), abstract read; the indexed abstract is truncated at 250 words (ledger X129, X166).

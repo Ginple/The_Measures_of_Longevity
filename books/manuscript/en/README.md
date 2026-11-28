@@ -6,6 +6,7 @@
 
 | Chapter (OUTLINE_v1) | File | Status | Source |
 |---|---|---|---|
+| 1 · What Does Longevity Actually Measure? | [CH01_measure_draft_en.md](CH01_measure_draft_en.md) | v0.1 draft, 2026-11-28; about 2,900 words of body text; 6 claim units bound ([English pilot](../../../knowledge_base/pilots/ch01_measure_en/README.md)) | Rewrite of the Chinese demonstration draft v0.2 ([CH01_长寿的五个问题_示范稿.md](../CH01_长寿的五个问题_示范稿.md)) |
 | 5 · Measurement Contracts: Prediction, Responsiveness, Mechanism, Surrogacy | [CH05_measurement_contracts_draft_en.md](CH05_measurement_contracts_draft_en.md) | v0.1 draft; about 2,200 words of body text; 5 claim units bound ([English pilot](../../../knowledge_base/pilots/ch05_measurement_contract_en/README.md)) | Rewrite of the Chinese demonstration draft v0.3 ([CH15_测量合同_示范稿.md](../CH15_测量合同_示范稿.md)) |
 | 6 · Level: What a Single Reading Tells You | [CH06_level_draft_en.md](CH06_level_draft_en.md) | v0.1.1 draft, 2026-11-28 (unsupported words removed, [record](../../../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md)); about 2,600 words of body text; 8 claim units bound ([English pilot](../../../knowledge_base/pilots/ch06_level_en/README.md)) | Written in English first; no inherited chapter |
 | 7 · Rate: A Slope Is Not a State | [CH07_rate_draft_en.md](CH07_rate_draft_en.md) | v0.1.1 draft, 2026-11-28 (unsupported words removed, [record](../../../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md)); about 2,350 words of body text; 10 claim units bound ([English pilot](../../../knowledge_base/pilots/ch07_rate_en/README.md)) | Written in English first; no inherited chapter |
@@ -74,4 +75,5 @@ Both were created after the [post-positioning restructure audit](../../../review
 - [x] Chapter 8 (recovery) in English first (v0.1, ledger X165).
 - [x] Chapter 9 (reserve) in English first (v0.1.1, ledger X166). Volume Ⅰ chapters 5–9 now exist in English; chapters 1–4 remain.
 - [x] Re-review the 7 stale Chinese demonstration drafts (2026-11-28, [record](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md); internal, not independent). Cross-references renumbered; the bodies stay as source material.
+- [x] Chapter 1 (five questions) in English (v0.1, ledger X167), folding in the Chinese demonstration draft CH01. The end-of-chapter lists of chapters 6, 7 and 9 are renamed "five checks" so that "the five questions" means chapter 1's. Chapters 2–4 remain.
 - [ ] Fold each demonstration draft into English when its chapter is drafted, working through the "left for the English rewrite" list in the re-review record.

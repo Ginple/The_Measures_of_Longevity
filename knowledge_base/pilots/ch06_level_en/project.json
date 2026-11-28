@@ -15,7 +15,7 @@
     {
       "id": "A-CH6-EN",
       "path": "books/manuscript/en/CH06_level_draft_en.md",
-      "sha256": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+      "sha256": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -452,7 +452,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Up to 9 years for six clocks; most replicates within 1.5 years for PC versions; 0.9-2.4 years retest fluctuation and 0.3-0.8 years median PC deviation are quoted from Borrus (same family, stated as such in the text); 350 samples, unreliable probes less replicable and unknown volume of false negatives match Sugden. Abstract/introduction depth; which six clocks and which cohorts not restated.",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-RELIAB": "718be96cc1a15ed2d98746166fa0bb3c2cc1ce1ce8ce05de07fcea6afee3732f"
         },
         "record_sha256": "b0a18cb0714719ad9de0477451392e2c3c85fb3e98618a59d04f6c41b9919f55",
@@ -497,7 +497,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Two authors built metrics using the described technology, licensed to Elysium Health through Yale; Elysium supplied paired replicate datasets. The text says the disclosure does not make the result wrong and that a study from a different group with no declared competing interests points the same way (Sugden; that group later built DunedinPACE, which chapter 7 discloses). It does not characterise the company's products.",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-RELIAB": "718be96cc1a15ed2d98746166fa0bb3c2cc1ce1ce8ce05de07fcea6afee3732f"
         },
         "record_sha256": "feba65cf3af33145e95ca498b95cc77fa5c3ed1c9f12c2a91b3870ef859bc3e3",
@@ -544,7 +544,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Pooled training assumption, 38 clocks / 15 organ systems, importance of sex-stratified training for normative references, sex- and organ-dependent prediction, and the authors' caveat that pooled and interaction models remain valuable all match. No hazard ratios are used (X149: V7.0 HRs unverified).",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-SEX": "7e3989ceaf6ad0e92a66eb060405cb63b9811458c7e6fa121a8199fbeffc1ba1"
         },
         "record_sha256": "9f96964088c6db88a6667f2ac47f6a64cac53e877ae3634c9dc45cfb305b29cd",
@@ -593,7 +593,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "4,058; up to 53% (naive/memory T-cell balance); up to 21% for age acceleration; 176 outcomes in 18,859; significant but modest attenuation all match the abstract. The full text shows the artificial mixtures were generated in silico from sorted-cell data, which the text now states.",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-COMP": "8fbce5d4ead7c2ab0a9016e08d78792009d09d4453b91ceb07d31e231bae1cfb",
           "A-COMP-FT": "53c48f43a89270a9cc39d3088ee626d0248e4f8a80bf823e35cf913096f0e8c0"
         },
@@ -641,7 +641,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "44-53% for five clocks and 26% for DunedinPACE, and mortality attenuation from 1% (Horvath) to 6% (PhenoAge), match the Results passages; these also confirm the KERNEL §3.2 ranges, which the abstract gives only as maxima. The statements that the figure describes differences between people rather than one person and that composition is not noise are interpretive limits, not source claims; the T-cell sentence restates the abstract. Corrected 2026-11-28: v0.1 said \"4,058 people\"; the source says 4,058 samples, and the number was not bound. Text now says samples, and E-COMP-4058 is bound.",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-COMP": "8fbce5d4ead7c2ab0a9016e08d78792009d09d4453b91ceb07d31e231bae1cfb",
           "A-COMP-FT": "53c48f43a89270a9cc39d3088ee626d0248e4f8a80bf823e35cf913096f0e8c0"
         },
@@ -687,7 +687,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "11 organs, 2,916 proteins, 44,498 participants, sensitivity to lifestyle and medications, diseases listed, 17-year follow-up, HR 8.3 for 8+ aged organs all match. \"Chronic lung disease\" renders COPD. The following paragraph on non-independence of organ readings is explicitly labelled as reasoning about measurement, not a study result, and is not part of this claim.",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-ORGAN": "626beb65cf2971868d054f5f7f17b9e5676012503d48d12f27a24cc7674c198d"
         },
         "record_sha256": "fe67db5a59f43e62380be72ea454f229b1f651094ac586dc3bb222291d13326f",
@@ -732,7 +732,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "414 samples, 743,019 people, 0-112 years, r = -0.19 (-0.22 to -0.15), weakening with age, method and tissue effects match. \"Weak at the level of a person\" is an interpretation of r of this size, not a source statement.",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-TELO": "348d4e5029d7d95ffa921eb49a367b60047a0ad5a8eb546a2acf4f92d54ecff8"
         },
         "record_sha256": "db3bfb1040ec8e32e36dc631c733a00cc35847d3579c936c5268bebf79ffcfff",
@@ -781,7 +781,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Matched reading at 70; S90 0.605 vs 0.572 rendered as about 61 vs 57 in 100; life expectancy 91.66 vs 89.75 rendered as about 91.7 vs 89.8; threshold +1 gives damage age 71.5 and +1.46 years; pulse 4.1 years younger at 61, 69.9 at 70, +0.33 years. The text states the model shows possibility only and is not fitted or evaluative, matching the memo scope line. Formal claim: support means the construction is valid as reported, not that biology behaves this way.",
         "bound_hashes": {
-          "A-CH6-EN": "1669ae010aab09a7219a72ae54be785b0b0230c345f3dadcf58dbeb82466e6d2",
+          "A-CH6-EN": "31fdd4ba11ed92f2a7a0f1f5dbad94ee9dbd4ee23dcba02c8e76fe82e9f277bb",
           "A-SR": "307672e875a29c6d8f0735f86dde89e0dfa21250e17e9f0c0a5adee6b0deffaf"
         },
         "record_sha256": "a4cf963e9a412f7f5bb1e06c69df4833d35aca6e0cdd062c72c2e7c11b5d60f1",

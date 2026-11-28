@@ -78,7 +78,7 @@ A level can carry a great deal. It can say where a sample stands, on a given ass
 
 What a single level cannot carry is an answer to the question most people actually ask of it: "Am I aging more slowly than before?" That is a question about a rate, and it needs at least two readings, taken in the same way, far enough apart to rise above the noise. Even then, as the synthetic model shows, a better number at one time can come from different underlying changes with different futures.
 
-So, before acting on a single reading, it helps to ask five questions. How much does this test move when the same sample is measured twice? Compared with whom? How much of this reading could be the mix of cells in the sample? If there are several readings, do they come from one sample and one assay? And is the claim about where I stand, or about how fast I am changing? Back matter B2 collects questions like these for any longevity number. Whether a person's aging actually slowed is the subject of the next chapter.
+So, before acting on a single reading, it helps to run five checks. They serve the book's five questions (chapter 1) for the case of a single reading. How much does this test move when the same sample is measured twice? Compared with whom? How much of this reading could be the mix of cells in the sample? If there are several readings, do they come from one sample and one assay? And is the claim about where I stand, or about how fast I am changing? Back matter B2 collects questions like these for any longevity number. Whether a person's aging actually slowed is the subject of the next chapter.
 
 ---
 

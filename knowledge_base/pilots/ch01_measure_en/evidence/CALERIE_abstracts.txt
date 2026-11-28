@@ -1,0 +1,17 @@
+# Verbatim quotes from PubMed abstracts, one sentence per line. Fetched 2026-11-28 (eutils efetch). Three reports from the same trial (CALERIE phase 2); not independent replications.
+# [1] Waziry R, Ryan CP, Corcoran DL, ... Belsky DW. Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial. Nat Aging 2023;3(3):248-257. PMID 37118425, PMC10148951. Same excerpt as knowledge_base/pilots/ch07_rate_en/evidence/PACE_CLOCK_abstracts.txt.
+Here we report the results of a post hoc analysis of the influence of CR on DNAm measures of aging in blood samples from the Comprehensive Assessment of Long-term Effects of Reducing Intake of Energy (CALERIE) trial, a randomized controlled trial in which n = 220 adults without obesity were randomized to 25% CR or ad libitum control diet for 2 yr (ref. 10).
+We found that CALERIE intervention slowed the pace of aging, as measured by the DunedinPACE DNAm algorithm, but did not lead to significant changes in biological age estimates measured by various DNAm clocks including PhenoAge and GrimAge.
+Treatment effect sizes were small.
+Conflict of interest statement: D.L.C. and D.W.B. are listed as inventors on a Duke University and University of Otago invention, DunedinPACE, that was licensed to a commercial entity.
+# [2] Villareal DT, Fontana L, Das SK, ... Schwartz AV; CALERIE Study Group. Effect of Two-Year Caloric Restriction on Bone Metabolism and Bone Mineral Density in Non-Obese Younger Adults: A Randomized Clinical Trial. J Bone Miner Res 2016;31(1):40-51. PMID 26332798, PMC4834845. No conflict statement in the PubMed record.
+Two-hundred eighteen non-obese (body mass index [BMI] 25.1 ± 1.7 kg/m(2) ), younger (age 37.9 ± 7.2 years) adults were randomly assigned to 25% CR (CR group, n = 143) or ad libitum (AL group, n = 75) for 2 years.
+Compared with AL, the CR group had greater changes in BMD at 24 months: lumbar spine (-0.013 ± 0.003 versus 0.007 ± 0.004 g/cm(2) ; p < 0.001), total hip (-0.017 ± 0.002 versus 0.001 ± 0.003 g/cm(2) ; p < 0.001), and femoral neck (-0.015 ± 0.003 versus -0.005 ± 0.004 g/cm(2) ; p = 0.03).
+Therefore, bone loss at clinically important sites of osteoporotic fractures represents a potential limitation of prolonged CR for extending life span.
+Further long-term studies are needed to determine if CR-induced bone loss in healthy adults contributes to fracture risk and if bone loss can be prevented with exercise.
+# [3] Romashkan SV, Das SK, Villareal DT, Ravussin E, Redman LM, Rochon J, Bhapkar M, Kraus WE; CALERIE Study Group. Safety of two-year caloric restriction in non-obese healthy individuals. Oncotarget 2016;7(15):19124-33. PMID 26992237, PMC4991370.
+Participants were randomized using a 2:1 allocation in favor of 25% CR vs. Ad-Libitum intake (AL).
+At months 12 and 24, bone mineral densities at the lumbar spine, total hip, and femoral neck of participants in the CR group were significantly lower than in those in the AL group.
+CONCLUSIONS: Two-years of CR at levels achieved in CALERIE was safe and well tolerated.
+Close monitoring for excessive bone loss and anemia is important.
+Conflict of interest statement: CONFLICTS OF INTEREST None reported.

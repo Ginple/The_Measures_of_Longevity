@@ -26,3 +26,4 @@ longevity_v6	corpus/longevity_v6/	author-supplied; drafting provenance not recor
 longevity_v7	corpus/longevity_v7/	author-supplied; drafting provenance not recorded	none	2026-11-28	V6/V7 corpora as received; not edited by this log
 DEMO_DRAFTS_REREVIEW_2026-11-28	review/DEMO_DRAFTS_REREVIEW_2026-11-28.md	agent-drafted/not human-reviewed	none	2026-11-28	internal re-review of 7 stale Chinese demo drafts; not an external review; scan tools/demo_rereview_scan.py
 UNSUPPORTED_WORDS_CORRECTION_2026-11-28	review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md	agent-drafted/not human-reviewed	none	2026-11-28	self-found binding defects in ch6/7/9; corrected and re-bound; scan tools/claim_token_scan.py
+CH01_measure_draft_en	books/manuscript/en/CH01_measure_draft_en.md	agent-drafted/not human-reviewed	none	2026-11-28	v0.1; English rewrite of Chinese demo CH01 v0.2; 6 claim units bound (V1 span check + claim_token_scan); sources abstract-level; 1 synthetic formal claim

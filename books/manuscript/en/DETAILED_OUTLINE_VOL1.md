@@ -1,6 +1,6 @@
 # Detailed Outline — Front Matter and Volume Ⅰ (Chapters 1–9)
 
-*Working draft v0.1.5, 2026-11-28. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
+*Working draft v0.1.6, 2026-11-28. v0.1.6 records the outcome of drafting chapter 1. v0.1.5 updates chapter 1's source state after the [re-review of the Chinese demonstration drafts](../../../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md). v0.1.4 records the outcome of drafting chapter 9. v0.1.3 records the outcome of drafting chapter 8; its "Source state" row becomes a Gaps row. v0.1.2 records the outcome of drafting chapters 6 and 7 in their Gaps rows. v0.1.1 applies two findings of the [restructure audit agent](../../../review/RESTRUCTURE_AUDIT_AGENT_REPORT_2026-11-28.md): chapter 5's missing "Not answered here" field (AG-01) and reading routes that dropped chapters from the pre-registered persona map (AG-02).*
 
 - **Format.** Follows the [specification](DETAILED_OUTLINE_SPEC.md). Ownership follows its §3 table.
 - **Origin.** Written on the recommendation of the [post-positioning restructure audit](../../../review/MARKET_RESTRUCTURE_AUDIT_RECEIPT_L1_2026-11-27.md) (F-02).
@@ -45,7 +45,8 @@
 | Strongest counterexample | "Survival itself is the main good; quality talk distracts from preventing early death." Section 2 must grant this in full |
 | Not answered here | How to read any specific test (5–9); what to do (29) |
 | To appendix or paper | None |
-| Source state | Inherits V6-01. Chinese demo `CH01_长寿的五个问题_示范稿.md` v0.2, re-reviewed 2026-11-28: cross-references renumbered, body unchanged. For the English draft: state the three senses of "measure" explicitly; rename either the "five questions" or the end-of-chapter question lists of chapters 6 and 9, which share the name; the paper-link line still reads P1/P2 |
+| Source state | Inherits V6-01. Chinese demo `CH01_长寿的五个问题_示范稿.md` v0.2, re-reviewed 2026-11-28: cross-references renumbered, body unchanged. For the English draft: state the three senses of "measure" explicitly; rename either the "five questions" or the end-of-chapter question lists of chapters 6 and 9, which share the name (done in v0.1.6: the chapter lists are now "five checks"); the paper-link line still reads P1/P2 |
+| Gaps (after v0.1 draft) | Drafted 2026-11-28 (X167). X29 used; X21 used for the global-versus-average distinction only, through the ledger. All four new sources at abstract depth. CAPABLE's 12-month results and the reason the CALERIE reports give 220 and 218 are unread. The two-ledger paragraph is a preview only; chapter 30 owns it |
 
 ## Chapter 2 · Age Is Not the Only Clock
 

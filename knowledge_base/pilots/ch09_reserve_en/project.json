@@ -15,7 +15,7 @@
     {
       "id": "A-CH9-EN",
       "path": "books/manuscript/en/CH09_reserve_draft_en.md",
-      "sha256": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+      "sha256": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
       "role": "manuscript",
       "family": "longevity-manuscript",
       "access_depth": "fulltext",
@@ -513,7 +513,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "\"Loss of survival capacity through challenges and dissipation\" and \"death as challenges to vitality\" match the secondary abstract. The text says the 1960 paper is unread and the description secondhand, as ledger X136 requires. Corrected 2026-11-28: v0.1 gave the authors' first names and the paper title, which are not in the stored excerpt; now only surnames, year and journal (Science, from the evidence header).",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-VITAL": "79914d621cbdcc5bfe80a4706ee84bfa85ba0941ddb5681b781982a88317635d"
         },
         "record_sha256": "112a62adce340e5286f8afe23e4c21de7a379e0136a37ef779b76112325f780a",
@@ -559,7 +559,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "15 and 10; medians 26 and 70; AA infusion; resting medians 102 vs 122; virtually all elderly GFR within normal range; after load 118 vs 146; significant increase in both. All match. Corrected 2026-11-28: v0.1 also said \"overnight\" and \"German\", neither of which is in the stored abstract; both words removed.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-RENAL": "4a99c6f00f579c09d6fd3b6a8f9bd5932b2b65ff57dddff9a35263824e4b148e"
         },
         "record_sha256": "90dec2f7bd900a93d80416e735eed1bd5a61a0ce480772e8f6fe6825a404245d",
@@ -605,7 +605,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "118 < 122 and the rises 118-102=16 and 146-122=24 are arithmetic on the quoted medians, labelled as differences of medians. The rat statement is background in the abstract and is described as such. Truncation disclosed; the text declines a general claim.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-RENAL": "4a99c6f00f579c09d6fd3b6a8f9bd5932b2b65ff57dddff9a35263824e4b148e"
         },
         "record_sha256": "df25c4b98204df32a7eeb1040cc9cdf5c55ad13ed204ceab381bcd1f0f521976",
@@ -652,7 +652,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "298 (152/146), 55-86, random sample of independently living people; linear fit; at most 37% of variance; 0.31 and 0.25 per year; slower than younger groups; 18 and 15 at age 85. All match. Corrected 2026-11-28: v0.1 said \"A Canadian group\"; the affiliation is not in the stored excerpt, so the word was removed. The next paragraph (lower envelope, not observed failure) is the chapter's reasoning, consistent with ledger X129.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-AERO-T": "31c06f57196a654438f774b61f8d38cea34ab876721920866d4e803a2049092a"
         },
         "record_sha256": "fa9f9bf44423f67d7ab2170832b9cc1ee2e7a10443fb1a093227c9952c47c0a2",
@@ -697,7 +697,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Same 18/15 thresholds reached at 80-85; exercise can slow or reverse, reducing biological age by 10+ years and potentially prolonging independence by a similar amount; need to clarify importance relative to other causes. All match. Corrected 2026-11-28: v0.1 said \"a Canadian exercise physiologist\"; neither the affiliation nor the profession is in the stored excerpt, so both were removed.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-AERO-T": "31c06f57196a654438f774b61f8d38cea34ab876721920866d4e803a2049092a"
         },
         "record_sha256": "d2bbd79bdb38ad0bfc722b11c30da7ad97a2d9bbba9c5870cbe7b99c20238008",
@@ -745,7 +745,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Slower in old age (Paterson); continues unabated (Shephard); 810 = 375 + 435 followed 7.9 years, 3-6% to >20% per decade, cross-sectional misleading and overly optimistic (Fleg). All match. Corrected 2026-11-28: v0.1 said \"The Canadian study\"; now \"the study of 298 people\". \"Stronger design for measuring a rate\" is the chapter 7 argument, not a source claim.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-AERO-T": "31c06f57196a654438f774b61f8d38cea34ab876721920866d4e803a2049092a",
           "A-AERO-D": "790931660f3bebbba27e241a25e47a17a78b9965f870e3635df157e4c6528c0c"
         },
@@ -794,7 +794,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Threshold 18, linear 0.31/yr, r from >20% per decade as a lower bound so proportional years are an upper bound; V0=25: 22.6 vs 14.7; V0=20: 6.5 vs 4.7. All match the saved output. Formal claim: support means the arithmetic is reproduced as reported.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-RES-CODE": "a1a205643656d892f9e1d1b26681859a9cbf8216e30964d1487b75620957fb80",
           "A-RES-OUT": "f95008bb867df9733a356bb6617d7fd540af5c5b4b882e87d25de3d2a26460dc"
         },
@@ -839,7 +839,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "32.3 (linear) vs 15.1 (proportional, upper) years for 25 to 35. Assumptions (fixed threshold, smooth decline, lasting gain) stated; explicitly not a training effect.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-RES-OUT": "f95008bb867df9733a356bb6617d7fd540af5c5b4b882e87d25de3d2a26460dc",
           "A-RES-CODE": "a1a205643656d892f9e1d1b26681859a9cbf8216e30964d1487b75620957fb80"
         },
@@ -887,7 +887,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "+10% level: ln(1.1)/r = 4.3 years at every V0; -10% rate: t/9, 0.5 at V0=20 and 1.6 at V0=25; crossover 38.4 years (\"about 38\"). All match.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-RES-CODE": "a1a205643656d892f9e1d1b26681859a9cbf8216e30964d1487b75620957fb80",
           "A-RES-OUT": "f95008bb867df9733a356bb6617d7fd540af5c5b4b882e87d25de3d2a26460dc"
         },
@@ -936,7 +936,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "302,467; median 81; five trajectories; baseline level alone did not fully capture outcomes; moderate baseline vs low-improving LTC 48.4% vs 38.1%. All match; no conflicts declared. Observational and model-dependent caveats stated in the paragraph.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-TRAJ": "061a3dd7cd7070f3c127cb17d025aaf4c0041f03904209430e5154bb361cca07"
         },
         "record_sha256": "a3d81a36b9024f3129077b7beadd276950f2ac2c7f380793524d17c7c5e560f4",
@@ -983,7 +983,7 @@
         "reviewer": "same-assistant-source-comparison-not-human-or-independent-review",
         "rationale": "Matched mean damage at 70; at d=0.1 life expectancy 74.43 vs 74.42; curves cross; clearance more alive at 70, production more at 90; only curve shape, late slope or recovery rate distinguish them; one-dimensional limits. All match. Formal claim.",
         "bound_hashes": {
-          "A-CH9-EN": "141491e00a8ffaf5ea46265e93a38211e9e30c2836789a9336abbc176867640d",
+          "A-CH9-EN": "3ec80fcdcfb87bf74d8b1a667e79d8c1da566150c027cf31651fe328c4deb0eb",
           "A-SR2": "bc5b31004a880ead70fc082d7bd5e817b0e433500435758b4e20f3c91d5ffe3f"
         },
         "record_sha256": "f87f6b90b181135ee9d122217b1ad317a0bf91bdbd34f3363cdb94926205cfe1",

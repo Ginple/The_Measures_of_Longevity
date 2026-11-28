@@ -1,4 +1,4 @@
-# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.10：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
+# MASTER｜《长寿的尺度》/ *The Measures of Longevity* 总控（v1.3.11：架构与论文为工作草稿，DEC-011/012；英文为第一语言，DEC-016；篇幅由内容决定，DEC-017；验证分级与工具状态，DEC-019）
 
 **纠错警示（2026-11-27）**：DEC-003/004 的“审计后采纳”仅为历史记录，暂停作为已验证最优解；当前地图只供工作参考，须待独立审计及作者评阅。详见 [纠错报告](../review/provenance_correction_2026-11-27.md)。
 
@@ -175,6 +175,7 @@ Linear 项目：**The Measures of Longevity｜长寿的尺度**（id `c6be975d-3
 
 ## 7｜变更日志
 
+- v1.3.11 · 2026-11-28：英文第 1 章 v0.1（`books/manuscript/en/CH01_measure_draft_en.md`，并入中文示范稿 CH01 v0.2；6 段主张绑定，试点 `knowledge_base/pilots/ch01_measure_en/`；台账 X167）。尺度三义写明；Garmany 2024、CALERIE 三份报告、CAPABLE 试验均为摘要级；项目合成寿命表说明"差距 3 年"不是任何个人的患病年数。第 6、7、9 章章末清单改称"five checks"，与本书"五个问题"区分（只改称呼，重新绑定）。`claim_token_scan` 扩到第 1 章，新增理由码 E、P。VOL1 升 v0.1.6。无新决策。
 - v1.3.10 · 2026-11-28：自查发现英文第 6、7、9 章有不受已存来源支持的词，通过了跨度检查（[记录](../review/UNSUPPORTED_WORDS_CORRECTION_2026-11-28.md)）：第 6 章“4,058 人”（来源是 4,058 份样本）、第 7 章“新西兰”、第 9 章“德国”“通宵”“加拿大”×3、“运动生理学家”、Strehler 与 Mildvan 的名和论文标题；已删改并重新绑定（三章升 v0.1.1）。新增 `tools/claim_token_scan.py`：绑定断言中不在证据里的数字和大写词须逐个审过；无新决策，无新台账行。
 - v1.3.9 · 2026-11-28：重审 7 份过期中文示范稿（旧第 1、19–24 章；[记录](../review/DEMO_DRAFTS_REREVIEW_2026-11-28.md)，内部重审，非外审）：章号交叉引用改为 OUTLINE_v1 章号，文件头加重审结论，正文不改，作为英文稿来源材料；DEC-011 影响记录中这 7 个节点由 stale_requires_review 改为 revised；新增扫描工具 `tools/demo_rereview_scan.py`；VOL1 细纲 v0.1.5；无新决策，无新台账行。
 - v1.3.8 · 2026-11-28：英文先写第 9 章（余量）v0.1（绑定试点 11 个断言单元，含 3 个合成形式断言；正式发布 blocked），卷一第 5–9 章英文稿齐备；台账 X166（Fliser 摘要截断，I11 器官级实例只能写弱形式；Shephard 写"10 年或以上"而非 X131 所记的约 20 年；X98 的 HR 不在摘要中；X136 的章号应为第 9 章）；术语表加 threshold、lower envelope；VOL1 细纲 v0.1.4；无新决策。

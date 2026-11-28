@@ -70,7 +70,7 @@ None of this is a defect. It is a reasonable way to handle imperfect data, and i
 
 ## 6 | What a rate claim needs
 
-A rate can carry something a level cannot: direction and speed. It is also harder to measure honestly. Before accepting the sentence "your aging has slowed", it helps to ask five questions.
+A rate can carry something a level cannot: direction and speed. It is also harder to measure honestly. Before accepting the sentence "your aging has slowed", it helps to run five checks.
 
 Were there at least two readings from the same person, or is the "rate" a comparison across different people of different ages? Were the readings made the same way: same kind of sample, same laboratory, same array generation, same software version and processing? Is the change large compared with how much the reading moves from week to week when nothing has changed? Was there a comparison group measured the same way over the same period? And is the reading a measured slope, or a single reading trained to estimate one?
 
@@ -96,7 +96,7 @@ Even a well-measured slope describes the past interval. It says how fast a readi
   - A correction or retraction affecting any cited study, or a change to the pinned code snapshot, requires rechecking the bound claims (`tests/test_ch07_en_pilot.py`) and re-binding.
 - **Back matter:**
   - Repeated-measures models and the arithmetic of noisy differences belong in B3.
-  - The five questions feed B2.
+  - The five checks feed B2.
 
 [^1]: [Belsky et al., *PNAS* 2015;112(30):E4104–E4110](https://pubmed.ncbi.nlm.nih.gov/26150497/) (PMID 26150497), abstract read; the authors declared no conflict of interest. Ledger X164.
 [^2]: [Ye et al., *Ageing Res Rev* 2023;90:102031](https://pubmed.ncbi.nlm.nih.gov/37567392/) (PMID 37567392), abstract read (ledger X150).

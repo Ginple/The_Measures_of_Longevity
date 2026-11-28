@@ -4,7 +4,7 @@ Why: the span check confirms that a claim's anchor is in the chapter and that it
 It does not check that every word of the claim is supported. On 2026-11-28 this let through "German",
 "overnight", "Canadian", "New Zealand", authors' first names and "4,058 people" (source: samples).
 
-What it does: for every claim in the English-first pilots (chapters 6-9), list
+What it does: for every claim in the English-first pilots (chapters 1 and 6-9), list
 - numbers in the claim that do not occur in its bound evidence text;
 - capitalised words of 4+ letters that do not occur in its bound evidence text,
 and compare the result with REVIEWED, a per-claim record of tokens a person (here: the drafting assistant)
@@ -18,7 +18,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-PILOTS = ['ch06_level_en', 'ch07_rate_en', 'ch08_recovery_en', 'ch09_reserve_en']
+PILOTS = ['ch01_measure_en', 'ch06_level_en', 'ch07_rate_en', 'ch08_recovery_en', 'ch09_reserve_en']
 NUM = re.compile(r'(?<![\w.])\d+(?:[.,]\d+)*')
 CAP = re.compile(r'\b[A-Z][a-z]{3,}\b')
 
@@ -26,8 +26,14 @@ CAP = re.compile(r'\b[A-Z][a-z]{3,}\b')
 # S = sentence-initial or ordinary word; A = arithmetic on bound numbers (stated in the rationale);
 # H = from the evidence-file header (bibliographic metadata recorded at fetch time, not a quote);
 # M = synthetic-model input or output written differently in the text (25 vs 25.0, 0.572 as "57 in 100");
-# W = number spelled out in the evidence ("Sixty-nine").
+# W = number spelled out in the evidence ("Sixty-nine"); E = abbreviation in the evidence written out ("US");
+# P = number repeated from an earlier bound claim in the same chapter (it is checked there).
 REVIEWED = {
+    'CH1-EN-C001': {'2024': 'Y', 'Chapter': 'S', 'Granting': 'S', 'Life': 'S', 'United': 'E', 'States': 'E'},
+    'CH1-EN-C002': {'3.5': 'M', '9.6': 'P', 'Imagine': 'S', 'Less': 'S', 'Three': 'S', 'What': 'S'},
+    'CH1-EN-C004': {'Reports': 'S', 'These': 'S', 'They': 'S', 'This': 'S', 'Whether': 'S'},
+    'CH1-EN-C005': {'Participants': 'S'},
+    'CH1-EN-C006': {'0.70': 'P', '30': 'P', '23': 'X', 'Chapter': 'S', 'Participants': 'S', 'That': 'S', 'What': 'S'},
     'CH6-EN-C001': {'Return': 'S'},
     'CH6-EN-C002': {'2022': 'Y', 'That': 'S', 'Third': 'S'},
     'CH6-EN-C003': {'2026': 'Y'},
